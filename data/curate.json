@@ -1,0 +1,31 @@
+{
+  "canonListPages": {
+    "most-expensive": "List of most expensive paintings",
+    "100-great-paintings": "100 Great Paintings",
+    "vital-articles-arts": "Wikipedia:Vital articles/Level/5/Arts"
+  },
+  "display": {
+    "width": 2560,
+    "height": 1664
+  },
+  "gates": {
+    "maxAspectRatio": 2.75,
+    "resolutionTolerance": 0.92
+  },
+  "prefilter": {
+    "minSitelinks": 6,
+    "minCreatorSitelinksWithMuseumSignal": 40
+  },
+  "scorer": {
+    "provider": "session",
+    "model": "z-ai/glm-4.6",
+    "minScore": 6.0,
+    "thumbWidth": 1024,
+    "prompt": "You are curating a collection of great paintings to be shown full-screen as desktop backgrounds — the feeling of a museum's greatest-hits wall. Recognition is not required, but significance is: works that reward being looked at for eight hours.\n\n{metadata}\n\nLook at the image and respond with JSON only:\n{\"score\": <0-10>, \"caption\": \"<one to two sentences>\", \"defects\": [<strings>]}\n\nscore — art-historical significance and visual reward for sustained viewing: 9–10 canonical masterpieces; 7–8 important works by major artists, or exceptional works by lesser-known artists; 5–6 solid museum-quality pictures; below 5 minor studies, routine portraits, copies, decorative or documentary material.\n\ncaption — the register of a good museum wall label: one to two sentences on what to look at, not an encyclopedia summary. Never open with 'This painting' or 'This work'.\n\ndefects — problems with the photograph/scan only, empty array if none: 'damage' (severe condition issues dominating the image), 'frame' (visible picture frame), 'color-card' (calibration chart or ruler visible), 'skew' (photographed at an angle), 'crop' (image obviously truncated), 'not-a-painting' (the image is not a painting at all)."
+  },
+  "selection": {
+    "targetCount": 2000,
+    "maxArtistShare": 0.03
+  },
+  "manifestImageWidth": 3840
+}
