@@ -1,13 +1,16 @@
 # artbip
 
-Great public-domain paintings on the macOS desktop. A native, offline-first
-successor in spirit to the abandoned Artpip: a menu-bar app (plus a CLI) that
-rotates a hand-curated collection of ~2,000 works — every one scored and
-captioned, every one PD/CC0 with recorded licence evidence — as your wallpaper.
+artbip is a Mac menu-bar app (with a CLI) that sets a different public-domain
+painting as your desktop wallpaper on a schedule. The collection is about
+2,000 works curated from six museum open-access programs; each has a short
+caption and a record of its public-domain status. It's a successor in spirit
+to Artpip, a similar app that shut down years ago.
 
-No accounts, no telemetry, no servers of ours. The app talks only to the
-museum/Wikimedia image hosts already named in the manifest, and works offline
-once images are cached.
+There is no account, no telemetry, and no server behind it. The app talks
+only to the museum and Wikimedia image hosts listed in the manifest, and it
+works offline once images are cached.
+
+![A searchable gallery window over a Starry Night wallpaper](assets/readme/hero.jpg)
 
 ## Install
 
@@ -28,13 +31,19 @@ cp -R dist/artbip.app /Applications/
 open /Applications/artbip.app
 ```
 
-An icon appears in the menu bar: Next Artwork, pause, favourite, block,
-Restore Original Wallpaper (puts back whatever was on the desktop before
-artbip first touched it, and pauses rotation), Launch at Login, and “Open
-artbip…” for the full window — a searchable gallery of the whole collection,
-rotation history, blocklist, and settings (interval from 15 minutes to a
-month, blurred-art vs. palette background, wall label, margin, cache budget).
-Closing the window hides it; the app lives in the menu bar.
+## The app
+
+An icon appears in the menu bar with the essentials: next artwork, pause,
+favourite, never-show-again, restore your original wallpaper, launch at
+login. "Open artbip…" opens the full window: a searchable gallery of the
+collection, rotation history, the blocklist, and settings (interval from 15
+minutes to a month, blurred-art or palette background, wall label, margin,
+cache budget). Closing the window leaves the app running in the menu bar.
+
+<p>
+  <img src="assets/readme/gallery.png" alt="The gallery window" width="72%">
+  <img src="assets/readme/menubar.png" alt="The menu bar menu" width="26%">
+</p>
 
 ### CLI
 
@@ -74,15 +83,16 @@ modules = [
 
 ## The collection
 
-Curated offline by the pipeline in this repo (see `DESIGN.md` for the full
-story): six museum/API sources (Art Institute of Chicago, Met, Cleveland,
-National Gallery of Art, Rijksmuseum, Wikidata/Commons) → cross-source dedupe
-→ licence and mechanical gates → an LLM vision pass that scored all 4,653
-candidates for significance and wrote museum-wall-label captions → top 2,000
-after per-artist caps and scan-defect drops.
+The collection was curated offline by the pipeline in this repo (see
+`DESIGN.md`). Candidates come from six sources: the Art Institute of
+Chicago, the Met, Cleveland, the National Gallery of Art, the Rijksmuseum,
+and Wikidata/Commons. After cross-source deduplication and licence and
+image-quality gates, an LLM vision pass scored all 4,653 candidates for
+significance and wrote the wall-label captions. The final 2,000 were selected
+by score, with per-artist caps and a manual pass to drop bad scans.
 
 - `data/manifest.json` — the versioned collection contract the app consumes.
-- `data/scores.json` — every score/caption, so re-curation never re-scores.
+- `data/scores.json` — every score and caption, so re-curation never re-scores.
 - `data/overrides.json` — hand edits (exclusions, pins, corrections) that
   survive re-runs of the pipeline.
 
