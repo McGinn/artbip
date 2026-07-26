@@ -50,7 +50,7 @@ cat > "$APP/Contents/Info.plist" <<PLIST
 	<key>NSHighResolutionCapable</key>
 	<true/>
 	<key>NSHumanReadableCopyright</key>
-	<string>All artworks are public domain / CC0; see each work's source link.</string>
+	<string>Code MIT-licensed. Artworks are public domain / CC0; see each work's source link.</string>
 </dict>
 </plist>
 PLIST
