@@ -61,6 +61,9 @@ struct SettingsView: View {
                     Text("tight").font(.caption)
                 } maximumValueLabel: {
                     Text("airy").font(.caption)
+                } onEditingChanged: { editing in
+                    // Re-compose once at drag end, not per tick mid-drag.
+                    if !editing { controller.refreshWallpaper() }
                 }
             }
 

@@ -1,4 +1,5 @@
 import AppKit
+import CryptoKit
 import Foundation
 
 public struct RuntimeError: Error, CustomStringConvertible {
@@ -35,6 +36,10 @@ public enum WallpaperEngine {
             throw RuntimeError("no screens available (is a GUI session running?)")
         }
         captureOriginals(store: store, screens: screens)
+        // macOS treats setDesktopImageURL as a no-op when the URL matches the
+        // current wallpaper, even if the file's contents changed — so the name
+        // must change whenever the composition would look different.
+        let sig = composeSignature(options)
         var written: [URL] = []
         for screen in screens {
             let scale = screen.backingScaleFactor
@@ -46,12 +51,18 @@ public enum WallpaperEngine {
                   let png = Compositor.png(composed) else {
                 throw RuntimeError("compositor failed for \(work.id) at \(w)x\(h)")
             }
-            let file = store.wallpapersDir.appendingPathComponent("\(work.id)-\(w)x\(h).png")
+            let file = store.wallpapersDir.appendingPathComponent("\(work.id)-\(w)x\(h)-\(sig).png")
             try png.write(to: file, options: .atomic)
             try NSWorkspace.shared.setDesktopImageURL(file, for: screen, options: [:])
             written.append(file)
         }
         cleanWallpapers(dir: store.wallpapersDir, keeping: written)
+    }
+
+    private static func composeSignature(_ o: ComposeOptions) -> String {
+        let source = "\(o.background.rawValue)|\(o.marginFraction)|\(o.shadow)|\(o.label?.title ?? "")|\(o.label?.detail ?? "")"
+        return SHA256.hash(data: Data(source.utf8))
+            .prefix(4).map { String(format: "%02x", $0) }.joined()
     }
 
     private static func screenKey(_ screen: NSScreen) -> String {
@@ -137,6 +148,14 @@ public enum WallpaperEngine {
         log?("fetching \(work.id) — \(work.title)")
         let data = try await cache.originalData(for: work)
         try await apply(work: work, data: data, store: store, settings: settings)
+        // An explicit advance is a clear "keep rotating" signal — without this,
+        // restore-original (which pauses) followed by a manual next leaves
+        // rotation silently paused forever. The daemon never advances while
+        // paused, so this only fires for user-initiated rotations.
+        if state.paused {
+            state.paused = false
+            log?("rotation was paused — resumed")
+        }
         try store.saveState(state)
 
         let ahead = Rotator.upcoming(manifest: manifest, state: state,

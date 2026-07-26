@@ -85,6 +85,13 @@ final class RotationController: ObservableObject {
         scheduleTimer()
     }
 
+    /// Pick up edits made by the CLI or daemon since we last touched disk
+    /// (pause/resume, rotations, favourites). Called when menus/windows open.
+    func reloadFromDisk() {
+        settings = store.loadSettings()
+        state = store.loadState()
+    }
+
     var hasOriginalWallpaper: Bool {
         !store.loadOriginalWallpapers().isEmpty
     }
@@ -121,12 +128,27 @@ final class RotationController: ObservableObject {
         let fireAt = max(anchor.addingTimeInterval(interval), Date().addingTimeInterval(1))
         let t = Timer(fire: fireAt, interval: interval, repeats: true) { [weak self] _ in
             Task { @MainActor [weak self] in
-                guard let self, !self.state.paused else { return }
-                self.next()
+                self?.timerFired()
             }
         }
         RunLoop.main.add(t, forMode: .common)
         timer = t
+    }
+
+    /// The CLI or daemon may have paused, resumed, or already rotated since
+    /// this timer was armed — re-read shared state before acting, otherwise
+    /// the app rotates on top of the daemon (halving the interval) or keeps
+    /// rotating through a pause set from the terminal.
+    private func timerFired() {
+        state = store.loadState()
+        guard !state.paused else { return }
+        let interval = Double(max(1, settings.intervalMinutes)) * 60
+        let last = state.history.last?.shownAt ?? .distantPast
+        if Date().timeIntervalSince(last) >= interval - 1 {
+            next()
+        } else {
+            scheduleTimer()   // someone else rotated — re-anchor on theirs
+        }
     }
 
     // MARK: Favourites / blocklist

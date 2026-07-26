@@ -33,7 +33,7 @@ struct Rotate: AsyncParsableCommand {
 
 struct RotateNext: AsyncParsableCommand {
     static let configuration = CommandConfiguration(
-        commandName: "next", abstract: "Advance to the next work and set the wallpaper.")
+        commandName: "next", abstract: "Advance to the next work and set the wallpaper (resumes rotation if paused).")
     @OptionGroup var opts: RuntimeOptions
 
     func run() async throws {

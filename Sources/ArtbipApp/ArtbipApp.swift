@@ -9,7 +9,9 @@ struct ArtbipApp: App {
     @StateObject private var controller = RotationController()
 
     var body: some Scene {
-        MenuBarExtra("artbip", systemImage: "photo.artframe") {
+        // A paused artbip looks identical to a broken one from the desktop —
+        // say so in the menu bar itself.
+        MenuBarExtra("artbip", systemImage: controller.state.paused ? "pause.rectangle" : "photo.artframe") {
             MenuContent()
                 .environmentObject(controller)
         }
@@ -41,12 +43,18 @@ struct MenuContent: View {
     @Environment(\.openWindow) private var openWindow
 
     var body: some View {
-        if let work = controller.currentWork {
-            Text(work.title)
-            Text("\(work.artist)\(work.dateDisplay.map { ", \($0)" } ?? "")")
-        } else {
-            Text("Nothing shown yet")
+        Group {
+            if let work = controller.currentWork {
+                Text(work.title)
+                Text("\(work.artist)\(work.dateDisplay.map { ", \($0)" } ?? "")")
+            } else {
+                Text("Nothing shown yet")
+            }
+            if controller.state.paused {
+                Text("Rotation is paused")
+            }
         }
+        .onAppear { controller.reloadFromDisk() }
         Divider()
         Button(controller.busy ? "Rotating…" : "Next Artwork") { controller.next() }
             .keyboardShortcut("n")

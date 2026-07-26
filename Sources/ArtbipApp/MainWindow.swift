@@ -16,6 +16,7 @@ struct MainWindow: View {
                 .tabItem { Label("Settings", systemImage: "gearshape") }
         }
         .frame(minWidth: 860, minHeight: 560)
+        .onAppear { controller.reloadFromDisk() }
     }
 }
 
