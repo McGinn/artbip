@@ -1,9 +1,68 @@
 import Foundation
 
+// MARK: - Rotation schedule
+
+/// When to rotate. Sub-daily cadences are plain intervals anchored on the last
+/// rotation; daily/weekly/monthly fire at a wall-clock time so the artwork
+/// changes at a predictable moment (every morning at 9, say) rather than "24h
+/// after whenever it last happened".
+public enum RotationSchedule: Sendable, Equatable {
+    case interval(minutes: Int)
+    case daily(hour: Int, minute: Int)
+    case weekly(weekday: Int, hour: Int, minute: Int)   // weekday: 1=Sun … 7=Sat (Calendar)
+    case monthly(day: Int, hour: Int, minute: Int)      // day: 1…28
+
+    /// The next instant rotation is due, given when it last happened. For clock
+    /// schedules this is the next matching wall-clock time strictly after
+    /// `lastShown`; a slot missed while the machine slept lands in the past and
+    /// so reads as due immediately.
+    public func nextFire(after lastShown: Date, calendar: Calendar = .current) -> Date {
+        switch self {
+        case .interval(let minutes):
+            return lastShown.addingTimeInterval(Double(max(1, minutes)) * 60)
+        case .daily(let h, let m):
+            return calendar.nextDate(after: lastShown, matching: DateComponents(hour: h, minute: m),
+                                     matchingPolicy: .nextTime) ?? lastShown.addingTimeInterval(86_400)
+        case .weekly(let wd, let h, let m):
+            return calendar.nextDate(after: lastShown, matching: DateComponents(hour: h, minute: m, weekday: wd),
+                                     matchingPolicy: .nextTime) ?? lastShown.addingTimeInterval(7 * 86_400)
+        case .monthly(let day, let h, let m):
+            return calendar.nextDate(after: lastShown, matching: DateComponents(day: day, hour: h, minute: m),
+                                     matchingPolicy: .nextTime) ?? lastShown.addingTimeInterval(30 * 86_400)
+        }
+    }
+
+    /// One-line description for `artbip rotate status`.
+    public var summary: String {
+        func hhmm(_ h: Int, _ m: Int) -> String { String(format: "%02d:%02d", h, m) }
+        switch self {
+        case .interval(let minutes): return "every \(minutes) min"
+        case .daily(let h, let m): return "daily at \(hhmm(h, m))"
+        case .weekly(let wd, let h, let m): return "weekly on \(RotationSchedule.weekdayName(wd)) at \(hhmm(h, m))"
+        case .monthly(let day, let h, let m): return "monthly on day \(day) at \(hhmm(h, m))"
+        }
+    }
+
+    /// Full weekday name for a Calendar weekday index (1=Sunday … 7=Saturday).
+    public static func weekdayName(_ weekday: Int, calendar: Calendar = .current) -> String {
+        let symbols = calendar.weekdaySymbols
+        let i = weekday - 1
+        return symbols.indices.contains(i) ? symbols[i] : "day \(weekday)"
+    }
+}
+
 // MARK: - Runtime settings (user-tunable; ~/Library/Application Support/artbip/settings.json)
 
 public struct RuntimeSettings: Codable, Sendable {
     public var intervalMinutes: Int
+    /// "interval" | "daily" | "weekly" | "monthly". Chooses which of the fields
+    /// below drive `schedule`; kept as a string so unknown future modes decode
+    /// to the interval fallback rather than failing.
+    public var scheduleMode: String
+    public var scheduleHour: Int           // 0…23, for daily/weekly/monthly
+    public var scheduleMinute: Int         // 0…59
+    public var scheduleWeekday: Int        // 1=Sun … 7=Sat, for weekly
+    public var scheduleDay: Int            // 1…28, for monthly
     public var background: String          // ComposeOptions.Background rawValue
     public var label: Bool
     public var marginFraction: Double
@@ -13,6 +72,11 @@ public struct RuntimeSettings: Codable, Sendable {
 
     public init() {
         intervalMinutes = 60
+        scheduleMode = "interval"
+        scheduleHour = 9
+        scheduleMinute = 0
+        scheduleWeekday = 2                 // Monday
+        scheduleDay = 1
         background = "blur"
         label = true
         marginFraction = 0.045
@@ -26,12 +90,27 @@ public struct RuntimeSettings: Codable, Sendable {
         let c = try decoder.container(keyedBy: CodingKeys.self)
         let d = RuntimeSettings()
         intervalMinutes = try c.decodeIfPresent(Int.self, forKey: .intervalMinutes) ?? d.intervalMinutes
+        scheduleMode = try c.decodeIfPresent(String.self, forKey: .scheduleMode) ?? d.scheduleMode
+        scheduleHour = try c.decodeIfPresent(Int.self, forKey: .scheduleHour) ?? d.scheduleHour
+        scheduleMinute = try c.decodeIfPresent(Int.self, forKey: .scheduleMinute) ?? d.scheduleMinute
+        scheduleWeekday = try c.decodeIfPresent(Int.self, forKey: .scheduleWeekday) ?? d.scheduleWeekday
+        scheduleDay = try c.decodeIfPresent(Int.self, forKey: .scheduleDay) ?? d.scheduleDay
         background = try c.decodeIfPresent(String.self, forKey: .background) ?? d.background
         label = try c.decodeIfPresent(Bool.self, forKey: .label) ?? d.label
         marginFraction = try c.decodeIfPresent(Double.self, forKey: .marginFraction) ?? d.marginFraction
         favouritesOnly = try c.decodeIfPresent(Bool.self, forKey: .favouritesOnly) ?? d.favouritesOnly
         cacheBudgetMB = try c.decodeIfPresent(Int.self, forKey: .cacheBudgetMB) ?? d.cacheBudgetMB
         prefetchCount = try c.decodeIfPresent(Int.self, forKey: .prefetchCount) ?? d.prefetchCount
+    }
+
+    /// The active schedule, assembled from `scheduleMode` and its fields.
+    public var schedule: RotationSchedule {
+        switch scheduleMode {
+        case "daily":   return .daily(hour: scheduleHour, minute: scheduleMinute)
+        case "weekly":  return .weekly(weekday: scheduleWeekday, hour: scheduleHour, minute: scheduleMinute)
+        case "monthly": return .monthly(day: scheduleDay, hour: scheduleHour, minute: scheduleMinute)
+        default:        return .interval(minutes: intervalMinutes)
+        }
     }
 
     public var composeOptions: ComposeOptions {

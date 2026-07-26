@@ -112,21 +112,28 @@ final class RotationController: ObservableObject {
 
     private func rotateOnLaunchIfDue() {
         guard !state.paused else { return }
-        let last = state.history.last?.shownAt ?? .distantPast
-        if Date().timeIntervalSince(last) >= Double(settings.intervalMinutes) * 60 {
-            next()
-        }
+        guard let last = state.history.last?.shownAt else { next(); return }
+        if settings.schedule.nextFire(after: last) <= Date() { next() }
     }
 
-    /// Fire at (last shown + interval), not (now + interval): with day/week/
-    /// month intervals the app restarts many times per cycle, and re-starting
-    /// the countdown on every launch would push the rotation out indefinitely.
+    /// Arm a one-shot timer for the schedule's next fire, anchored on the last
+    /// rotation — not (now + interval). With day/week/month schedules the app
+    /// restarts many times per cycle, and restarting the countdown on every
+    /// launch would push the rotation out indefinitely. Re-armed after each
+    /// fire (and by settings changes) rather than repeating on a fixed period,
+    /// since clock schedules don't have one.
     private func scheduleTimer() {
         timer?.invalidate()
-        let interval = Double(max(1, settings.intervalMinutes)) * 60
-        let anchor = state.history.last?.shownAt ?? Date()
-        let fireAt = max(anchor.addingTimeInterval(interval), Date().addingTimeInterval(1))
-        let t = Timer(fire: fireAt, interval: interval, repeats: true) { [weak self] _ in
+        let now = Date()
+        let fireAt: Date
+        if state.paused {
+            fireAt = now.addingTimeInterval(60)      // poll so a CLI/daemon resume takes effect
+        } else if let last = state.history.last?.shownAt {
+            fireAt = max(settings.schedule.nextFire(after: last), now.addingTimeInterval(1))
+        } else {
+            fireAt = now.addingTimeInterval(1)       // never shown — rotate right away
+        }
+        let t = Timer(fire: fireAt, interval: 0, repeats: false) { [weak self] _ in
             Task { @MainActor [weak self] in
                 self?.timerFired()
             }
@@ -141,11 +148,15 @@ final class RotationController: ObservableObject {
     /// rotating through a pause set from the terminal.
     private func timerFired() {
         state = store.loadState()
-        guard !state.paused else { return }
-        let interval = Double(max(1, settings.intervalMinutes)) * 60
-        let last = state.history.last?.shownAt ?? .distantPast
-        if Date().timeIntervalSince(last) >= interval - 1 {
-            next()
+        guard !state.paused else { scheduleTimer(); return }   // re-arm the resume poll
+        let due: Bool
+        if let last = state.history.last?.shownAt {
+            due = settings.schedule.nextFire(after: last) <= Date().addingTimeInterval(1)
+        } else {
+            due = true
+        }
+        if due {
+            next()            // next() re-anchors the timer on this rotation
         } else {
             scheduleTimer()   // someone else rotated — re-anchor on theirs
         }
