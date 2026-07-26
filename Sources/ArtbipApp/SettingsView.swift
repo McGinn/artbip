@@ -1,36 +1,117 @@
 import ArtbipCore
 import SwiftUI
 
+/// A single row in the "Change artwork" picker: a fixed sub-daily interval, or
+/// one of the clock-anchored cadences that reveal extra controls below.
+private enum RotationChoice: Hashable {
+    case interval(Int)   // minutes
+    case daily, weekly, monthly
+}
+
 struct SettingsView: View {
     @EnvironmentObject var controller: RotationController
 
-    private let intervals = [15, 30, 60, 120, 240, 480, 720, 1440, 2880, 10080, 20160, 43200]
     private let budgets = [512, 1024, 2048, 4096, 8192]
+
+    // Sub-daily cadences offered directly. Anything coarser is a clock schedule
+    // (daily/weekly/monthly) so it fires at a predictable time of day.
+    private let intervals = [15, 30, 60, 120, 180, 360, 720]
 
     private func intervalLabel(_ m: Int) -> String {
         switch m {
-        case ..<60: "\(m) minutes"
-        case 60: "1 hour"
-        case ..<1440: "\(m / 60) hours"
-        case 1440: "1 day"
-        case ..<10080: "\(m / 1440) days"
-        case 10080: "1 week"
-        case ..<43200: "\(m / 10080) weeks"
-        case 43200: "1 month"
-        default: "\(m / 43200) months"
+        case ..<60: return "Every \(m) minutes"
+        case 60: return "Every hour"
+        default: return m % 60 == 0 ? "Every \(m / 60) hours" : "Every \(m) minutes"
         }
+    }
+
+    // Always include the stored interval so a legacy value never leaves the
+    // picker blank; new installs just see the standard list.
+    private var intervalOptions: [Int] {
+        let m = controller.settings.intervalMinutes
+        return (intervals.contains(m) || controller.settings.scheduleMode != "interval")
+            ? intervals : (intervals + [m]).sorted()
+    }
+
+    private var currentChoice: RotationChoice {
+        switch controller.settings.scheduleMode {
+        case "daily": return .daily
+        case "weekly": return .weekly
+        case "monthly": return .monthly
+        default: return .interval(controller.settings.intervalMinutes)
+        }
+    }
+
+    private func apply(_ choice: RotationChoice) {
+        controller.updateSettings { s in
+            switch choice {
+            case .interval(let m): s.scheduleMode = "interval"; s.intervalMinutes = m
+            case .daily: s.scheduleMode = "daily"
+            case .weekly: s.scheduleMode = "weekly"
+            case .monthly: s.scheduleMode = "monthly"
+            }
+        }
+    }
+
+    private var timeBinding: Binding<Date> {
+        Binding(
+            get: {
+                Calendar.current.date(bySettingHour: controller.settings.scheduleHour,
+                                      minute: controller.settings.scheduleMinute,
+                                      second: 0, of: Date()) ?? Date()
+            },
+            set: { d in
+                let c = Calendar.current.dateComponents([.hour, .minute], from: d)
+                controller.updateSettings {
+                    $0.scheduleHour = c.hour ?? 9
+                    $0.scheduleMinute = c.minute ?? 0
+                }
+            })
+    }
+
+    private func ordinal(_ n: Int) -> String {
+        let f = NumberFormatter()
+        f.numberStyle = .ordinal
+        return f.string(from: NSNumber(value: n)) ?? "\(n)"
     }
 
     var body: some View {
         Form {
             Section("Rotation") {
-                Picker("Change artwork every", selection: Binding(
-                    get: { controller.settings.intervalMinutes },
-                    set: { v in controller.updateSettings { $0.intervalMinutes = v } })) {
-                    ForEach(intervals, id: \.self) { m in
-                        Text(intervalLabel(m)).tag(m)
+                Picker("Change artwork", selection: Binding(
+                    get: { currentChoice },
+                    set: { apply($0) })) {
+                    ForEach(intervalOptions, id: \.self) { m in
+                        Text(intervalLabel(m)).tag(RotationChoice.interval(m))
+                    }
+                    Text("Every day").tag(RotationChoice.daily)
+                    Text("Every week").tag(RotationChoice.weekly)
+                    Text("Every month").tag(RotationChoice.monthly)
+                }
+
+                // Reveal only the controls the chosen cadence needs.
+                if controller.settings.scheduleMode == "weekly" {
+                    Picker("On", selection: Binding(
+                        get: { controller.settings.scheduleWeekday },
+                        set: { v in controller.updateSettings { $0.scheduleWeekday = v } })) {
+                        ForEach(1...7, id: \.self) { wd in
+                            Text(RotationSchedule.weekdayName(wd)).tag(wd)
+                        }
                     }
                 }
+                if controller.settings.scheduleMode == "monthly" {
+                    Picker("On the", selection: Binding(
+                        get: { controller.settings.scheduleDay },
+                        set: { v in controller.updateSettings { $0.scheduleDay = v } })) {
+                        ForEach(1...28, id: \.self) { d in
+                            Text(ordinal(d)).tag(d)
+                        }
+                    }
+                }
+                if controller.settings.scheduleMode != "interval" {
+                    DatePicker("At", selection: timeBinding, displayedComponents: .hourAndMinute)
+                }
+
                 Toggle("Rotate favourites only", isOn: Binding(
                     get: { controller.settings.favouritesOnly },
                     set: { v in controller.updateSettings { $0.favouritesOnly = v } }))

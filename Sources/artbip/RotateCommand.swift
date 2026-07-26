@@ -44,15 +44,14 @@ struct RotateNext: AsyncParsableCommand {
 
 struct RotateDaemon: AsyncParsableCommand {
     static let configuration = CommandConfiguration(
-        commandName: "daemon", abstract: "Rotate on a timer (interval from settings.json).")
+        commandName: "daemon", abstract: "Rotate on the schedule from settings.json.")
     @OptionGroup var opts: RuntimeOptions
-    @Option(help: "Override the interval in minutes for this run.")
+    @Option(help: "Override with a fixed interval in minutes for this run.")
     var interval: Int?
 
-    // Sleep toward (last shown + interval) in short slices rather than one
-    // interval-long sleep: day/week/month intervals then survive daemon
-    // restarts without resetting the countdown, and settings/pause edits
-    // apply within minutes.
+    // Sleep toward the schedule's next fire in short slices rather than one long
+    // sleep: day/week/month schedules then survive daemon restarts without
+    // resetting the countdown, and settings/pause edits apply within minutes.
     func run() async throws {
         while true {
             let store = try opts.store()
@@ -63,9 +62,9 @@ struct RotateDaemon: AsyncParsableCommand {
                 try await Task.sleep(nanoseconds: 60 * 1_000_000_000)
                 continue
             }
-            let minutes = max(1, interval ?? settings.intervalMinutes)
-            let due = (state.history.last?.shownAt ?? .distantPast)
-                .addingTimeInterval(Double(minutes) * 60)
+            let schedule = interval.map { RotationSchedule.interval(minutes: max(1, $0)) } ?? settings.schedule
+            // Never shown yet → rotate now; otherwise the schedule's next fire.
+            let due = state.history.last.map { schedule.nextFire(after: $0.shownAt) } ?? Date()
             let wait = due.timeIntervalSinceNow
             if wait > 0 {
                 try await Task.sleep(nanoseconds: UInt64(min(wait, 300) * 1_000_000_000))
@@ -165,7 +164,7 @@ struct RotateStatus: AsyncParsableCommand {
         print("queue: \(state.queue.count) remaining in this cycle")
         print("history: \(state.history.count) · favourites: \(state.favourites.count) · blocked: \(state.blocklist.count)")
         print("cache: \(String(format: "%.0f", mb)) MB of \(settings.cacheBudgetMB) MB budget")
-        print("interval: \(settings.intervalMinutes) min · background: \(settings.background) · label: \(settings.label) · paused: \(state.paused)")
+        print("schedule: \(settings.schedule.summary) · background: \(settings.background) · label: \(settings.label) · paused: \(state.paused)")
     }
 }
 

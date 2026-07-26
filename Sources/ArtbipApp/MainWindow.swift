@@ -42,10 +42,12 @@ struct WorkThumb: View {
         }
         .frame(height: height)
         .clipShape(RoundedRectangle(cornerRadius: 6))
+        // Reload whenever the work changes. In the history List, SwiftUI reuses
+        // a row's @State by position, so without clearing first this view would
+        // keep the previous work's thumbnail next to the new title.
         .task(id: work.id) {
-            if image == nil {
-                image = await controller.thumbnail(for: work)
-            }
+            image = nil
+            image = await controller.thumbnail(for: work)
         }
     }
 }
