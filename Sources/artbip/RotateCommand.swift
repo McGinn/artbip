@@ -51,12 +51,36 @@ struct RotateDaemon: AsyncParsableCommand {
 
     // Sleep toward the schedule's next fire in short slices rather than one long
     // sleep: day/week/month schedules then survive daemon restarts without
-    // resetting the countdown, and settings/pause edits apply within minutes.
+    // resetting the countdown, settings/pause edits apply within minutes, and
+    // display changes (hotplug, resolution) are noticed within a minute.
     func run() async throws {
+        var lastDisplaySignature = WallpaperEngine.displaySignature()
         while true {
             let store = try opts.store()
             let settings = store.loadSettings()   // re-read so edits apply live
             let state = store.loadState()
+            // Displays changed since last wake: re-apply the current work so a
+            // new screen gets it without waiting for the next rotation. Checked
+            // before the paused branch — paused means "don't advance", and this
+            // doesn't advance. Skipped after restore-original (ownsDesktop).
+            let sig = WallpaperEngine.displaySignature()
+            if sig != lastDisplaySignature {
+                lastDisplaySignature = sig
+                do {
+                    let owns = await MainActor.run { () -> Bool in
+                        // Pump the run loop briefly so AppKit refreshes NSScreen.screens.
+                        RunLoop.main.run(until: Date().addingTimeInterval(0.1))
+                        return WallpaperEngine.ownsDesktop(store: store)
+                    }
+                    if owns {
+                        let manifest = try store.loadManifest(explicit: opts.manifest)
+                        try await WallpaperEngine.refresh(store: store, manifest: manifest)
+                        rotateLog("displays changed — re-applied current work")
+                    }
+                } catch {
+                    rotateLog("display-change refresh failed: \(error)")
+                }
+            }
             if state.paused {
                 rotateLog("paused — sleeping 60s")
                 try await Task.sleep(nanoseconds: 60 * 1_000_000_000)
@@ -67,7 +91,7 @@ struct RotateDaemon: AsyncParsableCommand {
             let due = state.history.last.map { schedule.nextFire(after: $0.shownAt) } ?? Date()
             let wait = due.timeIntervalSinceNow
             if wait > 0 {
-                try await Task.sleep(nanoseconds: UInt64(min(wait, 300) * 1_000_000_000))
+                try await Task.sleep(nanoseconds: UInt64(min(wait, 60) * 1_000_000_000))
                 continue
             }
             do {

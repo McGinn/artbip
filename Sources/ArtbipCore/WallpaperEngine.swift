@@ -65,6 +65,33 @@ public enum WallpaperEngine {
             .prefix(4).map { String(format: "%02x", $0) }.joined()
     }
 
+    /// Stable fingerprint of the attached displays (id + pixel size), used to
+    /// detect hotplug/resolution changes. CoreGraphics-based so it stays fresh
+    /// in the CLI daemon, which has no AppKit run loop to update NSScreen.
+    public static func displaySignature() -> String {
+        var count: UInt32 = 0
+        var ids = [CGDirectDisplayID](repeating: 0, count: 16)
+        CGGetActiveDisplayList(UInt32(ids.count), &ids, &count)
+        return ids.prefix(Int(count))
+            .map { id -> String in
+                let mode = CGDisplayCopyDisplayMode(id)
+                return "\(id):\(mode?.pixelWidth ?? 0)x\(mode?.pixelHeight ?? 0)"
+            }
+            .sorted().joined(separator: ",")
+    }
+
+    /// True when at least one screen currently shows a wallpaper artbip composed.
+    /// Display-change refresh only fires then — after restore-original, artbip
+    /// is not in control and must not overwrite the user's wallpaper.
+    @MainActor
+    public static func ownsDesktop(store: RuntimeStore) -> Bool {
+        let own = store.wallpapersDir.standardizedFileURL.path + "/"
+        return NSScreen.screens.contains {
+            NSWorkspace.shared.desktopImageURL(for: $0)?
+                .standardizedFileURL.path.hasPrefix(own) == true
+        }
+    }
+
     private static func screenKey(_ screen: NSScreen) -> String {
         if let n = screen.deviceDescription[NSDeviceDescriptionKey("NSScreenNumber")] as? NSNumber {
             return n.stringValue

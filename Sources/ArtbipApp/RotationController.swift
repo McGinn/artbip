@@ -18,6 +18,9 @@ final class RotationController: ObservableObject {
     @Published var lastError: String?
 
     private var timer: Timer?
+    private var screenObserver: NSObjectProtocol?
+    private var screenDebounce: Task<Void, Never>?
+    private var lastDisplaySignature = WallpaperEngine.displaySignature()
 
     init() {
         // A startup failure here means no manifest anywhere — surface it hard;
@@ -32,7 +35,17 @@ final class RotationController: ObservableObject {
         self.state = store.loadState()
         self.cache = WallpaperEngine.makeCache(store: store, settings: store.loadSettings())
         scheduleTimer()
+        screenObserver = NotificationCenter.default.addObserver(
+            forName: NSApplication.didChangeScreenParametersNotification,
+            object: nil, queue: .main) { [weak self] _ in
+            MainActor.assumeIsolated { self?.screensChanged() }
+        }
         rotateOnLaunchIfDue()
+    }
+
+    deinit {
+        screenDebounce?.cancel()
+        if let screenObserver { NotificationCenter.default.removeObserver(screenObserver) }
     }
 
     var currentWork: ManifestWork? {
@@ -107,6 +120,25 @@ final class RotationController: ObservableObject {
             lastError = nil
         } catch {
             lastError = "\(error)"
+        }
+    }
+
+    /// Displays changed (hotplug, resolution): re-apply the current work so new
+    /// screens show it immediately. Debounced — macOS fires this several times
+    /// per hotplug. Runs even while paused (paused means "don't advance"), but
+    /// not after restore-original (ownsDesktop is false then). The daemon may
+    /// also refresh; refresh is idempotent so double-driving is harmless.
+    private func screensChanged() {
+        screenDebounce?.cancel()
+        screenDebounce = Task { [weak self] in
+            try? await Task.sleep(nanoseconds: 2_000_000_000)
+            guard !Task.isCancelled, let self else { return }
+            let sig = WallpaperEngine.displaySignature()
+            guard sig != self.lastDisplaySignature else { return }
+            self.lastDisplaySignature = sig
+            guard WallpaperEngine.ownsDesktop(store: self.store) else { return }
+            self.reloadFromDisk()     // daemon may have rotated since last read
+            self.refreshWallpaper()   // no advance, no history entry
         }
     }
 
