@@ -24,6 +24,13 @@ struct ArtbipApp: App {
         // Don't pop the window open when the app launches at login — it lives
         // in the menu bar until asked for.
         .defaultLaunchBehavior(.suppressed)
+
+        Window("About This Artwork", id: "info") {
+            CurrentWorkInfoWindow()
+                .environmentObject(controller)
+        }
+        .defaultSize(width: 520, height: 640)
+        .defaultLaunchBehavior(.suppressed)
     }
 }
 
@@ -72,6 +79,11 @@ struct MenuContent: View {
             }
             .keyboardShortcut("f")
             Button("Never Show Again") { controller.block(work.id) }
+            Button("About This Artwork…") {
+                openWindow(id: "info")
+                NSApp.activate(ignoringOtherApps: true)
+            }
+            .keyboardShortcut("i")
             Button("View at \(work.collection)") {
                 if let url = URL(string: work.collectionURL) { NSWorkspace.shared.open(url) }
             }

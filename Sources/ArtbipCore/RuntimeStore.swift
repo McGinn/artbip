@@ -181,6 +181,7 @@ public struct RuntimeStore: Sendable {
     public var stateURL: URL { dir.appendingPathComponent("state.json") }
     public var originalWallpaperURL: URL { dir.appendingPathComponent("original-wallpaper.json") }
     public var manifestURL: URL { dir.appendingPathComponent("manifest.json") }
+    public var infoURL: URL { dir.appendingPathComponent("info.json") }
     public var originalsDir: URL { dir.appendingPathComponent("cache/originals") }
     public var thumbsDir: URL { dir.appendingPathComponent("cache/thumbs") }
     public var wallpapersDir: URL { dir.appendingPathComponent("wallpapers") }
@@ -236,5 +237,29 @@ public struct RuntimeStore: Sendable {
         }
         throw NSError(domain: "artbip", code: 1, userInfo: [
             NSLocalizedDescriptionKey: "no manifest found — run from the repo, pass --manifest, or sync one to \(manifestURL.path)"])
+    }
+
+    /// Same resolution ladder as the manifest, but info is optional content —
+    /// nothing found is `.empty`, never an error.
+    public func loadInfo(explicit: String? = nil, bundled: URL? = nil) -> InfoFile {
+        if let explicit {
+            return (try? JSONIO.read(InfoFile.self, from: URL(fileURLWithPath: explicit))) ?? .empty
+        }
+        let repo = URL(fileURLWithPath: FileManager.default.currentDirectoryPath)
+            .appendingPathComponent("data/info.json")
+        if FileManager.default.fileExists(atPath: repo.path),
+           let info = try? JSONIO.read(InfoFile.self, from: repo) {
+            try? FileManager.default.removeItem(at: infoURL)
+            try? FileManager.default.copyItem(at: repo, to: infoURL)
+            return info
+        }
+        if let info = try? JSONIO.read(InfoFile.self, from: infoURL) {
+            return info
+        }
+        if let bundled, let info = try? JSONIO.read(InfoFile.self, from: bundled) {
+            try? FileManager.default.copyItem(at: bundled, to: infoURL)
+            return info
+        }
+        return .empty
     }
 }

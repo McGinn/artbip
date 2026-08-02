@@ -9,6 +9,7 @@ import SwiftUI
 final class RotationController: ObservableObject {
     let store: RuntimeStore
     let manifest: Manifest
+    let info: InfoFile
     let cache: ImageCache
     private(set) var worksById: [String: ManifestWork]
 
@@ -30,6 +31,7 @@ final class RotationController: ObservableObject {
         let manifest = (try? store.loadManifest(bundled: bundled)) ?? Manifest(generatedAt: "", works: [])
         self.store = store
         self.manifest = manifest
+        self.info = store.loadInfo(bundled: Bundle.main.url(forResource: "info", withExtension: "json"))
         self.worksById = Dictionary(uniqueKeysWithValues: manifest.works.map { ($0.id, $0) })
         self.settings = store.loadSettings()
         self.state = store.loadState()

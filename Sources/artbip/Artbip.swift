@@ -7,7 +7,7 @@ struct Artbip: AsyncParsableCommand {
     static let configuration = CommandConfiguration(
         commandName: "artbip",
         abstract: "Art rotator for the macOS desktop — curation pipeline and (later) rotation daemon.",
-        subcommands: [Curate.self, Compose.self, Rotate.self],
+        subcommands: [Curate.self, Compose.self, Rotate.self, Info.self],
         defaultSubcommand: nil
     )
 }

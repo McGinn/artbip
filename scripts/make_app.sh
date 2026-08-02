@@ -20,6 +20,7 @@ mkdir -p "$APP/Contents/MacOS" "$APP/Contents/Resources"
 cp .build/release/ArtbipApp "$APP/Contents/MacOS/ArtbipApp"
 cp .build/release/artbip "$APP/Contents/MacOS/artbip"
 cp data/manifest.json "$APP/Contents/Resources/manifest.json"
+cp data/info.json "$APP/Contents/Resources/info.json"
 cp assets/artbip.icns "$APP/Contents/Resources/artbip.icns"
 
 cat > "$APP/Contents/Info.plist" <<PLIST
