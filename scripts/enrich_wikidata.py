@@ -85,21 +85,33 @@ def fetch(qids):
         rows = json.load(fh)["results"]["bindings"]
 
     out = {}
+    lives = {}
     for r in rows:
         qid = r["w"]["value"].rsplit("/", 1)[-1]
         rec = out.setdefault(qid, {})
-        # A work with two creators yields two rows; keep the first value seen
-        # for each field rather than letting the last one win.
         for key, src in (("heightCm", "hm"), ("widthCm", "wm")):
             if key not in rec and src in r:
                 cm = round(float(r[src]["value"]) * 100, 1)
                 if 0 < cm < 200_000:          # guard against unit errors
                     rec[key] = cm
-        for key, src in (("artistBirthYear", "birth"), ("artistDeathYear", "death")):
-            if key not in rec and src in r:
-                y = year(r[src]["value"])
-                if y is not None:
-                    rec[key] = y
+        # Life dates have to be taken as a PAIR from a single creator. A
+        # collaboration yields one row per creator, and filling birth and death
+        # independently mixes them: Verrocchio's Baptism of Christ (with
+        # Leonardo) produced "1452-1488" -- Leonardo's birth, Verrocchio's
+        # death, a painter who never existed. Where the creators disagree,
+        # record nothing and leave the field to the museum data.
+        b, d = year(r.get("birth", {}).get("value")), year(r.get("death", {}).get("value"))
+        if b or d:
+            lives.setdefault(qid, set()).add((b, d))
+
+    for qid, pairs in lives.items():
+        if len(pairs) != 1:
+            continue                          # ambiguous: multiple creators
+        b, d = next(iter(pairs))
+        if b is not None:
+            out[qid]["artistBirthYear"] = b
+        if d is not None:
+            out[qid]["artistDeathYear"] = d
     return out
 
 
@@ -158,10 +170,20 @@ def main():
         if "dimensions" not in w and "heightCm" in rec and "widthCm" in rec:
             w["dimensions"] = {"heightCm": rec["heightCm"], "widthCm": rec["widthCm"]}
             filled["dimensions"] += 1
-        for key in ("artistBirthYear", "artistDeathYear"):
-            if w.get(key) is None and rec.get(key) is not None:
-                w[key] = rec[key]
-                filled[key] += 1
+        # Birth years exist only because of this pass -- the source museums
+        # supplied none -- so this pass owns the field outright and rewrites it.
+        # That matters for correction: a value this script wrote wrongly can
+        # only be withdrawn if the merge is allowed to clear it again.
+        if rec.get("artistBirthYear") is not None:
+            w["artistBirthYear"] = rec["artistBirthYear"]
+            filled["artistBirthYear"] += 1
+        elif "artistBirthYear" in w:
+            del w["artistBirthYear"]
+        # Death years mostly came from the museums, which know their own
+        # objects better, so only fill the gaps.
+        if w.get("artistDeathYear") is None and rec.get("artistDeathYear") is not None:
+            w["artistDeathYear"] = rec["artistDeathYear"]
+            filled["artistDeathYear"] += 1
 
     def have(key):
         return sum(1 for w in works if w.get(key) is not None)
