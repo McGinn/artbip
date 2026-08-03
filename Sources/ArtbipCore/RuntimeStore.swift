@@ -69,6 +69,13 @@ public struct RuntimeSettings: Codable, Sendable {
     public var favouritesOnly: Bool
     public var cacheBudgetMB: Int
     public var prefetchCount: Int
+    /// Global shortcut for the info panel. Carbon virtual key code and Carbon
+    /// modifier mask (cmdKey/optionKey/…); -1 disables it. `hotKeyLabel` is the
+    /// rendered form ("⌥⌘A") — recorded alongside rather than derived, since
+    /// mapping a key code back to a character depends on the keyboard layout.
+    public var hotKeyCode: Int
+    public var hotKeyModifiers: Int
+    public var hotKeyLabel: String
 
     public init() {
         intervalMinutes = 60
@@ -83,6 +90,9 @@ public struct RuntimeSettings: Codable, Sendable {
         favouritesOnly = false
         cacheBudgetMB = 2048
         prefetchCount = 3
+        hotKeyCode = 0                      // kVK_ANSI_A
+        hotKeyModifiers = 256 | 2048        // cmdKey | optionKey
+        hotKeyLabel = "⌥⌘A"
     }
 
     // Missing keys fall back to defaults so old settings files survive new fields.
@@ -101,6 +111,9 @@ public struct RuntimeSettings: Codable, Sendable {
         favouritesOnly = try c.decodeIfPresent(Bool.self, forKey: .favouritesOnly) ?? d.favouritesOnly
         cacheBudgetMB = try c.decodeIfPresent(Int.self, forKey: .cacheBudgetMB) ?? d.cacheBudgetMB
         prefetchCount = try c.decodeIfPresent(Int.self, forKey: .prefetchCount) ?? d.prefetchCount
+        hotKeyCode = try c.decodeIfPresent(Int.self, forKey: .hotKeyCode) ?? d.hotKeyCode
+        hotKeyModifiers = try c.decodeIfPresent(Int.self, forKey: .hotKeyModifiers) ?? d.hotKeyModifiers
+        hotKeyLabel = try c.decodeIfPresent(String.self, forKey: .hotKeyLabel) ?? d.hotKeyLabel
     }
 
     /// The active schedule, assembled from `scheduleMode` and its fields.
@@ -181,6 +194,7 @@ public struct RuntimeStore: Sendable {
     public var stateURL: URL { dir.appendingPathComponent("state.json") }
     public var originalWallpaperURL: URL { dir.appendingPathComponent("original-wallpaper.json") }
     public var manifestURL: URL { dir.appendingPathComponent("manifest.json") }
+    public var infoURL: URL { dir.appendingPathComponent("info.json") }
     public var originalsDir: URL { dir.appendingPathComponent("cache/originals") }
     public var thumbsDir: URL { dir.appendingPathComponent("cache/thumbs") }
     public var wallpapersDir: URL { dir.appendingPathComponent("wallpapers") }
@@ -236,5 +250,29 @@ public struct RuntimeStore: Sendable {
         }
         throw NSError(domain: "artbip", code: 1, userInfo: [
             NSLocalizedDescriptionKey: "no manifest found — run from the repo, pass --manifest, or sync one to \(manifestURL.path)"])
+    }
+
+    /// Same resolution ladder as the manifest, but info is optional content —
+    /// nothing found is `.empty`, never an error.
+    public func loadInfo(explicit: String? = nil, bundled: URL? = nil) -> InfoFile {
+        if let explicit {
+            return (try? JSONIO.read(InfoFile.self, from: URL(fileURLWithPath: explicit))) ?? .empty
+        }
+        let repo = URL(fileURLWithPath: FileManager.default.currentDirectoryPath)
+            .appendingPathComponent("data/info.json")
+        if FileManager.default.fileExists(atPath: repo.path),
+           let info = try? JSONIO.read(InfoFile.self, from: repo) {
+            try? FileManager.default.removeItem(at: infoURL)
+            try? FileManager.default.copyItem(at: repo, to: infoURL)
+            return info
+        }
+        if let info = try? JSONIO.read(InfoFile.self, from: infoURL) {
+            return info
+        }
+        if let bundled, let info = try? JSONIO.read(InfoFile.self, from: bundled) {
+            try? FileManager.default.copyItem(at: bundled, to: infoURL)
+            return info
+        }
+        return .empty
     }
 }

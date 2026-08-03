@@ -5,6 +5,7 @@ struct GalleryView: View {
     @EnvironmentObject var controller: RotationController
     @State private var search = ""
     @State private var favouritesOnly = false
+    @State private var infoWork: ManifestWork?
 
     private var filtered: [ManifestWork] {
         var works = controller.manifest.works
@@ -50,18 +51,33 @@ struct GalleryView: View {
             ScrollView {
                 LazyVGrid(columns: [GridItem(.adaptive(minimum: 240), spacing: 14)], spacing: 14) {
                     ForEach(filtered, id: \.id) { work in
-                        GalleryCard(work: work)
+                        GalleryCard(work: work) { infoWork = work }
                     }
                 }
                 .padding(14)
             }
         }
+        .sheet(item: $infoWork) { work in
+            VStack(spacing: 0) {
+                WorkInfoPanel(work: work)
+                Divider()
+                HStack {
+                    Spacer()
+                    Button("Close") { infoWork = nil }.keyboardShortcut(.escape)
+                }
+                .padding(10)
+            }
+        }
     }
 }
+
+// Sheet presentation needs Identifiable; ManifestWork's id already is one.
+extension ManifestWork: @retroactive Identifiable {}
 
 struct GalleryCard: View {
     @EnvironmentObject var controller: RotationController
     let work: ManifestWork
+    var showInfo: () -> Void = {}
 
     private var isCurrent: Bool { controller.state.current == work.id }
 
@@ -94,7 +110,9 @@ struct GalleryCard: View {
         }
         .padding(8)
         .background(.quaternary.opacity(0.4), in: RoundedRectangle(cornerRadius: 8))
+        .onTapGesture { showInfo() }
         .contextMenu {
+            Button("About This Work") { showInfo() }
             Button("Set as Wallpaper") { controller.show(work) }
             Button(controller.isFavourite(work.id) ? "Unfavourite" : "Favourite") {
                 controller.toggleFavourite(work.id)

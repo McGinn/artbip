@@ -26,12 +26,16 @@ struct WorkThumb: View {
     @EnvironmentObject var controller: RotationController
     let work: ManifestWork
     var height: CGFloat = 180
+    /// Neutral plate behind the image, so gallery tiles keep a uniform height.
+    /// The info panel turns it off: around a portrait in a narrow window the
+    /// plate reads as two grey bars rather than as a frame.
+    var plate: Bool = true
 
     @State private var image: NSImage?
 
     var body: some View {
         ZStack {
-            Rectangle().fill(.black.opacity(0.25))
+            if plate { Rectangle().fill(.black.opacity(0.25)) }
             if let image {
                 Image(nsImage: image)
                     .resizable()
@@ -40,7 +44,10 @@ struct WorkThumb: View {
                 ProgressView().controlSize(.small)
             }
         }
-        .frame(height: height)
+        // With a plate the tile is exactly `height`; without one the artwork
+        // keeps its own aspect ratio and `height` is just a ceiling.
+        .frame(height: plate ? height : nil)
+        .frame(maxHeight: plate ? nil : height)
         .clipShape(RoundedRectangle(cornerRadius: 6))
         // Reload whenever the work changes. In the history List, SwiftUI reuses
         // a row's @State by position, so without clearing first this view would

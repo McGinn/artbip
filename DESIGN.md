@@ -168,6 +168,21 @@ activation policy). App and CLI share runtime state on disk.
   system toolchain builds, Nix manages installation/launchd.
 - `README.md` — install and usage.
 
+## Milestone 6 — artwork info ("About this work")
+
+Full design: `docs/artwork-info.md`. Optional per-work context/details with
+per-claim citations in `data/info.json` (own lifecycle, merged by id; missing
+entry = titleplate-only, silence over invention). `InfoFile`/`WorkInfo` in
+ArtbipCore + `RuntimeStore.loadInfo` (same resolution ladder as the manifest);
+CLI `artbip info [--id]`; app surfaces: gallery card click/context-menu sheet
+and a menu-bar "About This Artwork…" window. Entries are written in-session
+(subscription rule) grounded in a local reference corpus at `../reference/`
+(19 art-history books, extracted + FTS5-indexed; NOT in this repo) — every
+tier-2/3 claim cites `book:<slug>:<page>` or `url:`. Pilot: 12 canonical works.
+Caught in pilot: the manifest's Caravaggio *Supper at Emmaus* (Q2097931) is
+the Brera 1606 version, not the London 1601 one most book passages describe —
+version disambiguation is a standing hazard for entry writers.
+
 ### Requested future curation/UX features (not yet built)
 - **Live list toggles** — filter the active rotation by style/movement, region,
   artist, date range, source, or score, switchable at runtime in the app (not a
