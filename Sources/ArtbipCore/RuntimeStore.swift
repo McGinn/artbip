@@ -262,17 +262,28 @@ public struct RuntimeStore: Sendable {
             .appendingPathComponent("data/info.json")
         if FileManager.default.fileExists(atPath: repo.path),
            let info = try? JSONIO.read(InfoFile.self, from: repo) {
-            try? FileManager.default.removeItem(at: infoURL)
-            try? FileManager.default.copyItem(at: repo, to: infoURL)
+            cacheInfo(from: repo)
+            return info
+        }
+        // The bundled copy outranks the app-support cache: the cache is only
+        // there so the CLI works outside the repo, and an app update ships new
+        // content in the bundle. Reading the cache first meant a stale copy
+        // written by an older build shadowed every later release for good.
+        if let bundled, let info = try? JSONIO.read(InfoFile.self, from: bundled) {
+            cacheInfo(from: bundled)
             return info
         }
         if let info = try? JSONIO.read(InfoFile.self, from: infoURL) {
             return info
         }
-        if let bundled, let info = try? JSONIO.read(InfoFile.self, from: bundled) {
-            try? FileManager.default.copyItem(at: bundled, to: infoURL)
-            return info
-        }
         return .empty
+    }
+
+    /// Refresh the app-support copy. `copyItem` fails outright when the
+    /// destination exists, so the stale file has to go first.
+    private func cacheInfo(from source: URL) {
+        guard source.standardizedFileURL != infoURL.standardizedFileURL else { return }
+        try? FileManager.default.removeItem(at: infoURL)
+        try? FileManager.default.copyItem(at: source, to: infoURL)
     }
 }

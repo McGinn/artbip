@@ -14,12 +14,14 @@ struct WorkInfoPanel: View {
     var topInset: CGFloat = 0
 
     private var entry: WorkInfo? { controller.info.entries[work.id] }
+    private var school: SchoolInfo? { controller.info.school(forMovement: work.movement) }
 
     /// Citations in first-appearance order, shared by paragraph markers
-    /// and the sources list.
+    /// and the sources list. Order must match the render order below, or the
+    /// [n] markers point at the wrong source.
     private var citeOrder: [String] {
         var seen: [String] = []
-        for para in (entry?.context ?? []) + (entry?.details ?? []) {
+        for para in (entry?.context ?? []) + (entry?.details ?? []) + (school?.context ?? []) {
             for cite in para.cite where !seen.contains(cite) {
                 seen.append(cite)
             }
@@ -72,18 +74,35 @@ struct WorkInfoPanel: View {
                             }
                         }
                     }
-                    if !citeOrder.isEmpty {
-                        Divider()
-                        VStack(alignment: .leading, spacing: 2) {
-                            Text("Sources").font(.caption.bold()).foregroundStyle(.secondary)
-                            ForEach(Array(citeOrder.enumerated()), id: \.offset) { i, cite in
-                                let label = "[\(i + 1)] \(controller.info.label(forCite: cite))"
-                                if let url = controller.info.url(forCite: cite) {
-                                    Link(label, destination: url)
-                                        .font(.caption).foregroundStyle(.secondary)
-                                } else {
-                                    Text(label).font(.caption).foregroundStyle(.secondary)
-                                }
+                }
+
+                // Period and place. Comes after the work-specific text when
+                // there is any, and is the whole body when there is not —
+                // which is the common case, so it carries most of the panel.
+                if let school {
+                    Divider()
+                    VStack(alignment: .leading, spacing: 3) {
+                        Text(school.name).font(.headline)
+                        if let subtitle = school.subtitle {
+                            Text(subtitle).font(.caption).foregroundStyle(.secondary)
+                        }
+                    }
+                    ForEach(school.context.indices, id: \.self) { i in
+                        Text(school.context[i].text + marks(school.context[i].cite))
+                    }
+                }
+
+                if !citeOrder.isEmpty {
+                    Divider()
+                    VStack(alignment: .leading, spacing: 2) {
+                        Text("Sources").font(.caption.bold()).foregroundStyle(.secondary)
+                        ForEach(Array(citeOrder.enumerated()), id: \.offset) { i, cite in
+                            let label = "[\(i + 1)] \(controller.info.label(forCite: cite))"
+                            if let url = controller.info.url(forCite: cite) {
+                                Link(label, destination: url)
+                                    .font(.caption).foregroundStyle(.secondary)
+                            } else {
+                                Text(label).font(.caption).foregroundStyle(.secondary)
                             }
                         }
                     }
@@ -128,6 +147,11 @@ struct CurrentWorkInfoWindow: View {
                     .frame(minWidth: 360, minHeight: 240)
             }
         }
+        // Translucent, so the wallpaper stays half-visible behind the reading
+        // pane. .containerBackground is the supported route: an NSVisualEffectView
+        // behind the content does nothing, because SwiftUI paints its own opaque
+        // window background over it.
+        .containerBackground(.ultraThinMaterial, for: .window)
         // The menu and main window refresh on appear; without this the panel
         // keeps showing whatever was current when the controller last read
         // disk, so a rotation while it is open leaves it describing the wrong

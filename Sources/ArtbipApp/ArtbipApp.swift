@@ -148,6 +148,20 @@ struct MenuContent: View {
             .keyboardShortcut("q")
     }
 
+    /// The open-access programmes the collection is actually drawn from, keyed
+    /// by work-id prefix so the counts come from the manifest rather than a
+    /// number that quietly goes stale. Every URL here was checked to resolve;
+    /// metmuseum.org and nga.gov refuse scripted requests, so those two point
+    /// at the institutions' own open-data repositories instead.
+    private static let providers: [(prefix: String, name: String, url: String)] = [
+        ("wikidata", "Wikimedia Commons", "https://commons.wikimedia.org/"),
+        ("met", "The Metropolitan Museum of Art", "https://github.com/metmuseum/openaccess"),
+        ("nga", "National Gallery of Art", "https://github.com/NationalGalleryOfArt/opendata"),
+        ("rijks", "Rijksmuseum", "https://www.rijksmuseum.nl/en/rijksstudio"),
+        ("artic", "Art Institute of Chicago", "https://www.artic.edu/open-access"),
+        ("cleveland", "Cleveland Museum of Art", "https://www.clevelandart.org/open-access"),
+    ]
+
     /// macOS's standard About panel, populated with the bundle version and a
     /// licence/provenance note. An accessory app has no app menu, so this is
     /// the only place "About artbip" can live.
@@ -156,19 +170,44 @@ struct MenuContent: View {
         let version = info?["CFBundleShortVersionString"] as? String ?? "dev"
 
         let body = NSFont.systemFont(ofSize: 11)
+        let plain: [NSAttributedString.Key: Any] = [.font: body, .foregroundColor: NSColor.labelColor]
+        let dim: [NSAttributedString.Key: Any] = [.font: body, .foregroundColor: NSColor.secondaryLabelColor]
+
+        var counts: [String: Int] = [:]
+        for work in controller.manifest.works {
+            let prefix = work.id.split(separator: "-").first.map(String.init) ?? ""
+            counts[prefix, default: 0] += 1
+        }
+
         let credits = NSMutableAttributedString(
             string: """
             Live with great paintings.
 
-            Code is MIT-licensed. The 2,000-painting collection is public domain / CC0, \
-            with each work's source and licence recorded in the manifest.
-
-            Images come from the open-access programs of the Art Institute of Chicago, \
-            the Met, Cleveland, the National Gallery of Art, the Rijksmuseum, and \
-            Wikimedia Commons.
+            Every painting here is public domain or CC0, released by institutions \
+            that chose to put high-resolution images of their collections into the \
+            commons for anyone to use. That work is what makes artbip possible:
 
             """,
-            attributes: [.font: body, .foregroundColor: NSColor.labelColor])
+            attributes: plain)
+
+        for provider in Self.providers where (counts[provider.prefix] ?? 0) > 0 {
+            credits.append(NSAttributedString(string: "\n  ", attributes: plain))
+            credits.append(NSAttributedString(
+                string: provider.name,
+                attributes: [.font: body, .link: URL(string: provider.url)!]))
+            credits.append(NSAttributedString(
+                string: "  \(counts[provider.prefix] ?? 0) works", attributes: dim))
+        }
+
+        credits.append(NSAttributedString(
+            string: """
+
+
+            Code is MIT-licensed; each work's source and licence is recorded in \
+            the manifest.
+
+            """,
+            attributes: plain))
         credits.append(NSAttributedString(
             string: "github.com/McGinn/artbip",
             attributes: [.font: body, .link: URL(string: "https://github.com/McGinn/artbip")!]))

@@ -3,47 +3,75 @@
   "sources": {
     "alpers-art-of-describing": {
       "title": "The Art of Describing: Dutch Art in the Seventeenth Century",
-      "author": "Svetlana Alpers", "year": 1983, "kind": "book"
+      "author": "Svetlana Alpers",
+      "year": 1983,
+      "kind": "book"
     },
     "beckett-1000-masterpieces": {
       "title": "Sister Wendy's 1000 Masterpieces",
-      "author": "Wendy Beckett", "year": 1999, "kind": "book"
+      "author": "Wendy Beckett",
+      "year": 1999,
+      "kind": "book"
     },
     "clark-painting-of-modern-life": {
       "title": "The Painting of Modern Life: Paris in the Art of Manet and His Followers",
-      "author": "T. J. Clark", "year": 1985, "kind": "ebook"
+      "author": "T. J. Clark",
+      "year": 1985,
+      "kind": "ebook"
     },
     "cumming-art-explained": {
       "title": "Art Explained: The World's Greatest Paintings Explored and Explained",
-      "author": "Robert Cumming", "year": 2007, "kind": "book"
+      "author": "Robert Cumming",
+      "year": 2007,
+      "kind": "book"
     },
     "derynck-how-to-read": {
       "title": "How to Read a Painting: Lessons from the Old Masters",
-      "author": "Patrick de Rynck", "year": 2004, "kind": "book"
+      "author": "Patrick de Rynck",
+      "year": 2004,
+      "kind": "book"
     },
     "gordon-100-great-paintings": {
       "title": "100 Great Paintings: Duccio to Picasso",
-      "author": "Dillian Gordon", "year": 1981, "kind": "book"
+      "author": "Dillian Gordon",
+      "year": 1981,
+      "kind": "book"
     },
     "hagen-what-great-paintings-say-2": {
       "title": "What Great Paintings Say, Vol. 2",
-      "author": "Rose-Marie & Rainer Hagen", "year": 2003, "kind": "book"
+      "author": "Rose-Marie & Rainer Hagen",
+      "year": 2003,
+      "kind": "book"
     },
     "langmuir-ng-companion": {
       "title": "The National Gallery Companion Guide",
-      "author": "Erika Langmuir", "year": 2006, "kind": "book"
+      "author": "Erika Langmuir",
+      "year": 2006,
+      "kind": "book"
     },
     "rewald-history-of-impressionism": {
       "title": "The History of Impressionism",
-      "author": "John Rewald", "year": 1973, "kind": "book"
+      "author": "John Rewald",
+      "year": 1973,
+      "kind": "book"
     },
     "rewald-post-impressionism": {
       "title": "Post-Impressionism: From Van Gogh to Gauguin",
-      "author": "John Rewald", "year": 1956, "kind": "book"
+      "author": "John Rewald",
+      "year": 1956,
+      "kind": "book"
     },
     "schama-rembrandts-eyes": {
       "title": "Rembrandt's Eyes",
-      "author": "Simon Schama", "year": 1999, "kind": "book"
+      "author": "Simon Schama",
+      "year": 1999,
+      "kind": "book"
+    },
+    "chilvers-oxford-dictionary": {
+      "title": "The Oxford Dictionary of Art and Artists (4th ed.)",
+      "author": "Ian Chilvers",
+      "year": 2009,
+      "kind": "book"
     }
   },
   "entries": {
@@ -51,25 +79,37 @@
       "context": [
         {
           "text": "Militia companies were clubs for Amsterdam's powerful burghers, and group portraits of their members conventionally posed the men in static rows around a table. Rembrandt broke the convention: his company of harquebusiers surges into action, marching out of a gateway around Captain Frans Banninck Cocq and his lieutenant. The men paid to appear — about a hundred guilders from each of the junior sitters, roughly sixteen hundred in all — and the shield above the gate lists eighteen of their names.",
-          "cite": ["book:derynck-how-to-read:286", "book:schama-rembrandts-eyes:503"]
+          "cite": [
+            "book:derynck-how-to-read:286",
+            "book:schama-rembrandts-eyes:503"
+          ]
         },
         {
           "text": "The nickname is a mistake that stuck. The scene is daytime; the picture only became 'The Night Watch' in the nineteenth century, when its varnish had browned almost to darkness (the layer was removed in 1975). The legend that the sitters rejected the picture is equally spurious — Schama notes there is no sign anyone depicted was unhappy, and Banninck Cocq was pleased enough to commission two copies.",
-          "cite": ["book:derynck-how-to-read:286", "book:schama-rembrandts-eyes:503"]
+          "cite": [
+            "book:derynck-how-to-read:286",
+            "book:schama-rembrandts-eyes:503"
+          ]
         }
       ],
       "details": [
         {
           "text": "The captain's outstretched hand throws a shadow across the lieutenant's yellow coat — and the shadow of his thumb and finger lands exactly on the embroidered lion holding Amsterdam's three-cross arms.",
-          "cite": ["book:derynck-how-to-read:286"]
+          "cite": [
+            "book:derynck-how-to-read:286"
+          ]
         },
         {
           "text": "The glowing girl in yellow carries a dead fowl with conspicuously large claws at her belt: a pun-mascot for the company, since klovenier (harquebusier) sounds like klauwenier, from klauw, 'claw'.",
-          "cite": ["book:derynck-how-to-read:287"]
+          "cite": [
+            "book:derynck-how-to-read:287"
+          ]
         },
         {
           "text": "The picture is incomplete: a strip at the left containing three figures was cut away in the eighteenth century.",
-          "cite": ["book:derynck-how-to-read:287"]
+          "cite": [
+            "book:derynck-how-to-read:287"
+          ]
         }
       ],
       "generatedBy": "claude-fable-5",
@@ -79,17 +119,23 @@
       "context": [
         {
           "text": "Seurat showed this canvas at the eighth and final impressionist exhibition in 1886, where it marked a schism: in the critic Félix Fénéon's words, Degas and the older generation showed characteristic work while 'Pissarro, Seurat, and Signac innovate'. Fénéon championed the picture, explained its technique in minutely scientific terms, and coined a name for what it began — neo-impressionism.",
-          "cite": ["book:rewald-history-of-impressionism:539"]
+          "cite": [
+            "book:rewald-history-of-impressionism:539"
+          ]
         },
         {
           "text": "Seurat had considered the painting finished by spring 1885, then reworked it after a summer at Grandcamp, applying for the first time the 'optical mixture' at the heart of his method — small touches of pure colour set side by side, left for the eye to blend.",
-          "cite": ["book:rewald-history-of-impressionism:613"]
+          "cite": [
+            "book:rewald-history-of-impressionism:613"
+          ]
         }
       ],
       "details": [
         {
           "text": "The composition was built, not glimpsed: it rests on a long campaign of preparatory work, from conté crayon drawings to small oil studies on wood, several now in museum collections themselves.",
-          "cite": ["book:rewald-post-impressionism:89"]
+          "cite": [
+            "book:rewald-post-impressionism:89"
+          ]
         }
       ],
       "generatedBy": "claude-fable-5",
@@ -99,21 +145,31 @@
       "context": [
         {
           "text": "The seemingly informal scene — a court portrait at this scale behaving like a snapshot of studio life — was something new in art. Velázquez, Philip IV's favourite painter and eventually his chamberlain, shows himself at work on a huge canvas while the five-year-old Infanta Margarita and her two maids of honour (the meninas of the title) occupy the foreground. Svetlana Alpers calls it one of the most subtle and powerful experiments in representation in all of Western art.",
-          "cite": ["book:derynck-how-to-read:296", "book:alpers-art-of-describing:99"]
+          "cite": [
+            "book:derynck-how-to-read:296",
+            "book:alpers-art-of-describing:99"
+          ]
         },
         {
           "text": "The key hangs at the back of the room: the mirror reflecting Philip IV and his queen. They are posing for the portrait Velázquez is painting — which places us, the viewers, exactly where the king and queen stand. De Rynck reads the game with levels of reality as a deliberate argument, fiercely current at the time, that painting is more than a craft.",
-          "cite": ["book:derynck-how-to-read:296", "book:derynck-how-to-read:297"]
+          "cite": [
+            "book:derynck-how-to-read:296",
+            "book:derynck-how-to-read:297"
+          ]
         }
       ],
       "details": [
         {
           "text": "At the right, the jester Nicolasito slyly rests his foot on the drowsing dog, while the dwarf Mari-Bárbola's stocky figure sets off the Infanta's fragility.",
-          "cite": ["book:derynck-how-to-read:297"]
+          "cite": [
+            "book:derynck-how-to-read:297"
+          ]
         },
         {
           "text": "The red cross of the Order of Santiago on the painter's chest is a small anachronism: Velázquez was not admitted to the order until two or three years after the picture was painted.",
-          "cite": ["book:derynck-how-to-read:297"]
+          "cite": [
+            "book:derynck-how-to-read:297"
+          ]
         }
       ],
       "generatedBy": "claude-fable-5",
@@ -123,13 +179,17 @@
       "context": [
         {
           "text": "On one level this is the least complex of Vermeer's paintings — no background, no setting, no story, just a young woman turning toward us out of darkness. Wendy Beckett takes that bareness as the point: whatever a Vermeer ostensibly shows, its true subject is light, and here light is given almost nothing else to do.",
-          "cite": ["book:beckett-1000-masterpieces:480"]
+          "cite": [
+            "book:beckett-1000-masterpieces:480"
+          ]
         }
       ],
       "details": [
         {
           "text": "The picture's whole effect balances on three small highlights: the shimmer on the pearl, the brightness of the eye, and the gleam of moisture on the parted lower lip.",
-          "cite": ["book:beckett-1000-masterpieces:480"]
+          "cite": [
+            "book:beckett-1000-masterpieces:480"
+          ]
         }
       ],
       "generatedBy": "claude-fable-5",
@@ -139,17 +199,26 @@
       "context": [
         {
           "text": "Giovanni Arnolfini was an Italian merchant from Lucca who spent years in Bruges, where van Eyck served the Burgundian court. The picture was long read as the record of a wedding or betrothal — van Eyck as 'a notary with a paintbrush' — but that reading has been seriously questioned: Erika Langmuir notes the man's gesture is not the affirmation of marriage vows it was once taken for, and de Rynck concludes the panel keeps much of its enigma.",
-          "cite": ["book:derynck-how-to-read:28", "book:derynck-how-to-read:29", "book:langmuir-ng-companion:50", "book:cumming-art-explained:17"]
+          "cite": [
+            "book:derynck-how-to-read:28",
+            "book:derynck-how-to-read:29",
+            "book:langmuir-ng-companion:50",
+            "book:cumming-art-explained:17"
+          ]
         }
       ],
       "details": [
         {
           "text": "The convex mirror shows the missing quarter of the room — two figures standing where we stand, one perhaps the painter himself. Above it runs the conspicuous Latin inscription 'Johannes de eyck fuit hic. 1434': Jan van Eyck was here.",
-          "cite": ["book:derynck-how-to-read:29"]
+          "cite": [
+            "book:derynck-how-to-read:29"
+          ]
         },
         {
           "text": "The furnishings double as symbols, on period conventions: the little dog for fidelity, the cast-off clogs, the single lit candle in the chandelier, oranges suggesting both prosperity and prelapsarian innocence — and around the mirror frame, tiny medallions of the Passion of Christ.",
-          "cite": ["book:derynck-how-to-read:29"]
+          "cite": [
+            "book:derynck-how-to-read:29"
+          ]
         }
       ],
       "generatedBy": "claude-fable-5",
@@ -159,17 +228,24 @@
       "context": [
         {
           "text": "Jean de Dinteville, French ambassador to London (aged 29 — his dagger sheath says so), commissioned this record of the 1533 visit of his friend Georges de Selve, bishop of Lavaur (aged 25 — inscribed on the book under his elbow). It is among the earliest portraits to pose two full-length figures at the scale of life, and Langmuir reads the pair as the active and the contemplative life personified, with the instruments between them a compendium of the culture of their age.",
-          "cite": ["book:langmuir-ng-companion:125"]
+          "cite": [
+            "book:langmuir-ng-companion:125"
+          ]
         }
       ],
       "details": [
         {
           "text": "The smear across the floor resolves, viewed from the right edge of the panel, into a perfectly drawn skull — an anamorphosis. It is the quintessential memento mori (Dinteville's own cap badge carries a skull), and a hint that the world's appearances must be looked at correctly to yield their meaning.",
-          "cite": ["book:langmuir-ng-companion:126", "book:cumming-art-explained:41"]
+          "cite": [
+            "book:langmuir-ng-companion:126",
+            "book:cumming-art-explained:41"
+          ]
         },
         {
           "text": "The still life keeps up the argument: a lute with one snapped string (a traditional emblem of fragility), a hymnal open at Luther's 'Come Holy Ghost', and — half-hidden by the green hanging in the top left corner — a crucifix.",
-          "cite": ["book:langmuir-ng-companion:126"]
+          "cite": [
+            "book:langmuir-ng-companion:126"
+          ]
         }
       ],
       "generatedBy": "claude-fable-5",
@@ -179,17 +255,24 @@
       "context": [
         {
           "text": "The Hagens open their account with the shock of it: nothing like this near-life-size female nude had been seen in Europe for a thousand years. Botticelli was a renowned painter of Madonnas in a culture where almost ninety percent of pictures were religious; at the peak of his career he painted four large mythologies from the pagan classics, of which this is one — and Cumming counts it the first large-scale Renaissance painting with an exclusively secular, mythological subject.",
-          "cite": ["book:hagen-what-great-paintings-say-2:97", "book:cumming-art-explained:24"]
+          "cite": [
+            "book:hagen-what-great-paintings-say-2:97",
+            "book:cumming-art-explained:24"
+          ]
         },
         {
           "text": "Before her, the only female nudes art had dared were Eves, stooping in shame at the expulsion. Botticelli's Venus instead revives the classical canon of Polyclitus and Praxiteles — the weight on one leg, the curve of the hip, the chaste gesture — proportions the Renaissance had just rediscovered and that have shaped taste ever since.",
-          "cite": ["book:hagen-what-great-paintings-say-2:97"]
+          "cite": [
+            "book:hagen-what-great-paintings-say-2:97"
+          ]
         }
       ],
       "details": [
         {
           "text": "The tempera's boldness is recent news: a later coat of varnish had aged to yellow-brown, and its removal in the restoration finished in 1987 returned the sky, waves and figures to their original brightness.",
-          "cite": ["book:hagen-what-great-paintings-say-2:97"]
+          "cite": [
+            "book:hagen-what-great-paintings-say-2:97"
+          ]
         }
       ],
       "generatedBy": "claude-fable-5",
@@ -199,21 +282,30 @@
       "context": [
         {
           "text": "Painted in Titian's thirties for the studiolo of Alfonso d'Este in the castle of Ferrara, where the duke was recreating an ancient picture gallery described in a late-antique Greek text. Alfonso had wanted the best painters in Italy — Fra Bartolommeo and Raphael both died with only drawings done, and their commissions reverted to Titian.",
-          "cite": ["book:langmuir-ng-companion:166", "book:langmuir-ng-companion:167"]
+          "cite": [
+            "book:langmuir-ng-companion:166",
+            "book:langmuir-ng-companion:167"
+          ]
         },
         {
           "text": "The story, rarely painted before, comes from Ovid and Catullus — translated extracts were sent to Titian along with the canvas and stretchers. Ariadne, abandoned on Naxos by Theseus (his ship is still on the horizon at the left), is surprised by Bacchus leaping from his cheetah-drawn chariot; the constellation she will become already hangs in the sky above her.",
-          "cite": ["book:langmuir-ng-companion:167"]
+          "cite": [
+            "book:langmuir-ng-companion:167"
+          ]
         }
       ],
       "details": [
         {
           "text": "The blue half of the picture is an expanse of ultramarine among the costliest pigments of the age, available in this range only in Venice; against it the maenad clashing cymbals glows in a tunic of orange realgar, Ariadne's mirror image across the picture's earthy half.",
-          "cite": ["book:langmuir-ng-companion:167"]
+          "cite": [
+            "book:langmuir-ng-companion:167"
+          ]
         },
         {
           "text": "Titian's small dog barks at the strutting faun trailing a mangled calf's head — beside it, a caper flower, a symbol of love.",
-          "cite": ["book:langmuir-ng-companion:167"]
+          "cite": [
+            "book:langmuir-ng-companion:167"
+          ]
         }
       ],
       "generatedBy": "claude-fable-5",
@@ -223,21 +315,29 @@
       "context": [
         {
           "text": "At the Salon of 1865 this picture caused one of the most documented scandals in art. Room M was so crowded one could hardly move; reviewers described laughter, catcalls and astonishment that the jury had admitted it at all, and T. J. Clark's account traces how Manet never fully escaped the reputation of 'the painter of Olympia'. Manet wrote to Baudelaire that insults were raining on him — and received the bracing reply that he was hardly the first.",
-          "cite": ["book:clark-painting-of-modern-life:38"]
+          "cite": [
+            "book:clark-painting-of-modern-life:38"
+          ]
         },
         {
           "text": "What the critics saw as incompetence — 'the colour of the flesh is dirty, the modelling non-existent', shadows 'indicated by more or less large smears of blacking' — was precisely the flat, hard manner that made the picture modern.",
-          "cite": ["book:rewald-history-of-impressionism:130"]
+          "cite": [
+            "book:rewald-history-of-impressionism:130"
+          ]
         }
       ],
       "details": [
         {
           "text": "Contemporaries fixed on the same three presences: the nude with her unapologetic gaze, the maid carrying a bouquet, and the black cat at the foot of the bed — 'is it a cat, really?', Baudelaire relayed from an early viewer.",
-          "cite": ["book:clark-painting-of-modern-life:38"]
+          "cite": [
+            "book:clark-painting-of-modern-life:38"
+          ]
         },
         {
           "text": "In the Salon catalogue Manet attached five lines of verse by Zacharie Astruc naming Olympia — a name that for 1865 readers carried the echo, as Gautier noted, of a notorious Renaissance courtesan.",
-          "cite": ["book:clark-painting-of-modern-life:38"]
+          "cite": [
+            "book:clark-painting-of-modern-life:38"
+          ]
         }
       ],
       "generatedBy": "claude-fable-5",
@@ -247,17 +347,24 @@
       "context": [
         {
           "text": "Read left to right, the triptych argues: a true paradise where Christ blesses the union of Adam and Eve; a false paradise of naked pleasure-seekers; and the hell those pleasures earn. De Rynck reads it as a hallucinatory warning — the core message that sexual passion threatens the soul — delivered, in true Boschian fashion, through the most profane images imaginable.",
-          "cite": ["book:derynck-how-to-read:94", "book:derynck-how-to-read:95"]
+          "cite": [
+            "book:derynck-how-to-read:94",
+            "book:derynck-how-to-read:95"
+          ]
         }
       ],
       "details": [
         {
           "text": "In the central panel, men ride in an endless circle around women bathing in a pond — the animals they ride standing for their passions, and riding in a circle itself, in the literature of Bosch's time, a figure of sinfulness.",
-          "cite": ["book:derynck-how-to-read:94"]
+          "cite": [
+            "book:derynck-how-to-read:94"
+          ]
         },
         {
           "text": "An owl peers from the globe of the plant-like Fountain of Life in the left panel: in Bosch's vocabulary an image of dark, seductive evil, planted in paradise from the start.",
-          "cite": ["book:derynck-how-to-read:94"]
+          "cite": [
+            "book:derynck-how-to-read:94"
+          ]
         }
       ],
       "generatedBy": "claude-fable-5",
@@ -267,17 +374,24 @@
       "context": [
         {
           "text": "Bruegel was nicknamed 'Peasant Bruegel' for his subjects, but he was a man of the highest sophistication, and Beckett ranks him among the greatest landscape painters of all time for pictures like this one. The scene is not his flat Netherlands but an invented northern world seen from a great height — Alpers connects the picture's power to Bruegel's engagement with mapping, the seasons theme joined to an extensive mapped view of the earth.",
-          "cite": ["book:beckett-1000-masterpieces:67", "book:alpers-art-of-describing:178"]
+          "cite": [
+            "book:beckett-1000-masterpieces:67",
+            "book:alpers-art-of-describing:178"
+          ]
         }
       ],
       "details": [
         {
           "text": "The vertical trees march the eye down the hill with the hunters, whose weary dogs follow thin and dejected; Beckett calls it perhaps the coldest painting ever created.",
-          "cite": ["book:beckett-1000-masterpieces:67"]
+          "cite": [
+            "book:beckett-1000-masterpieces:67"
+          ]
         },
         {
           "text": "Everyone in the valley is absorbed in getting through winter — the family roasting a pig by the inn, the tiny skaters enclosed in their occupations — and no one but us sees the astounding beauty spread out below.",
-          "cite": ["book:beckett-1000-masterpieces:67"]
+          "cite": [
+            "book:beckett-1000-masterpieces:67"
+          ]
         }
       ],
       "generatedBy": "claude-fable-5",
@@ -287,25 +401,185 @@
       "context": [
         {
           "text": "The Temeraire had distinguished herself at Trafalgar in 1805; by the 1830s the veteran warships of the Napoleonic wars were being replaced by steam. Turner encountered the old ship on a Thames excursion, sold out of the service and under tow from Sheerness to Rotherhithe to be scrapped, and exhibited the picture at the Royal Academy in 1839 with lines from Thomas Campbell: 'The flag which braved the battle and the breeze / No longer owns her.'",
-          "cite": ["book:langmuir-ng-companion:341", "book:langmuir-ng-companion:342"]
+          "cite": [
+            "book:langmuir-ng-companion:341",
+            "book:langmuir-ng-companion:342"
+          ]
         },
         {
           "text": "Langmuir reads the picture as an elegy staged like a modern Claude: a heroic and graceful age passing with the dying sun, a petty age of steam and money rising with the pale moon — and the last berth recalling the breaking up of every human life.",
-          "cite": ["book:langmuir-ng-companion:342"]
+          "cite": [
+            "book:langmuir-ng-companion:342"
+          ]
         }
       ],
       "details": [
         {
           "text": "The ghostly, moonlit ship against the squat black tug belching fire is a deliberate manipulation — topography and shipbuilding alike are bent to symbolic ends rather than documentary truth.",
-          "cite": ["book:langmuir-ng-companion:342"]
+          "cite": [
+            "book:langmuir-ng-companion:342"
+          ]
         },
         {
           "text": "Look at the surface itself: thickly impastoed rays and reflections in the sunset against thinly painted passages, with colour swooping abruptly from light to dark.",
-          "cite": ["book:langmuir-ng-companion:342"]
+          "cite": [
+            "book:langmuir-ng-companion:342"
+          ]
         }
       ],
       "generatedBy": "claude-fable-5",
       "generatedOn": "2026-08-02"
+    }
+  },
+  "schools": {
+    "Dutch Golden Age painting": {
+      "name": "Dutch Golden Age painting",
+      "span": "17th century",
+      "places": "The Dutch Republic",
+      "context": [
+        {
+          "text": "Svetlana Alpers argues that these painters worked in a descriptive rather than a narrative mode: the picture sets out to record the surface of the world instead of staging an event, and she counts Vermeer among its most accomplished practitioners. Close attention to description tends to come at the cost of dramatic action — the figures are held still to be looked at.",
+          "cite": [
+            "book:alpers-art-of-describing:23"
+          ]
+        },
+        {
+          "text": "That was for a long time exactly how the art was valued. Before the twentieth century, writers saw and judged these pictures as a description of Holland and of Dutch life.",
+          "cite": [
+            "book:alpers-art-of-describing:19"
+          ]
+        }
+      ],
+      "generatedBy": "claude-opus-5",
+      "generatedOn": "2026-08-03"
+    },
+    "Early Netherlandish painting": {
+      "name": "Early Netherlandish painting",
+      "span": "15th–early 16th century",
+      "places": "Flanders and the Low Countries",
+      "context": [
+        {
+          "text": "Panofsky's description of Jan van Eyck still fits the school as a whole: the eye works as microscope and telescope at once, so that you find yourself moving between a position well back from the picture and a great many very close to it. The emphasis falls on quiet existence rather than on action.",
+          "cite": [
+            "book:alpers-art-of-describing:23"
+          ]
+        },
+        {
+          "text": "Alpers adds a caution worth carrying around this room: the ordinary standards by which such painting looks static are Italian ones — the expectation, built into Renaissance aesthetics, that a picture should narrate.",
+          "cite": [
+            "book:alpers-art-of-describing:23"
+          ]
+        }
+      ],
+      "generatedBy": "claude-opus-5",
+      "generatedOn": "2026-08-03"
+    },
+    "High Renaissance": {
+      "name": "High Renaissance",
+      "span": "c. 1500–1520",
+      "places": "Rome, Florence and Venice",
+      "context": [
+        {
+          "text": "The culmination of the Renaissance is conventionally placed in the two decades from about 1500, when Leonardo, Michelangelo and Raphael produced the works that have been treated for centuries as touchstones of perfection.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:549"
+          ]
+        },
+        {
+          "text": "Florence had been pre-eminent throughout the fifteenth century, but by the sixteenth Rome and Venice were centres of equal importance.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:549"
+          ]
+        }
+      ],
+      "generatedBy": "claude-opus-5",
+      "generatedOn": "2026-08-03"
+    },
+    "Early Renaissance": {
+      "name": "Early Renaissance",
+      "span": "15th century",
+      "places": "Florence",
+      "context": [
+        {
+          "text": "Florence is reasonably seen as the cradle of the Renaissance, and the years around 1425 — when Masaccio, Brunelleschi and Donatello were making some of their most inventive work — as a turning point in European art.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:549"
+          ]
+        },
+        {
+          "text": "'Renaissance' means rebirth, and named a revival of the values of the classical world. Almost no ancient painting survived to imitate, but classical painters were known from ancient writers to have excelled at fidelity to nature, so that became the keynote; Masaccio brought a new scientific rigour to the problems of representation.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:548",
+            "book:chilvers-oxford-dictionary:549"
+          ]
+        }
+      ],
+      "generatedBy": "claude-opus-5",
+      "generatedOn": "2026-08-03"
+    },
+    "Mannerism": {
+      "name": "Mannerism",
+      "span": "c. 1520–1600",
+      "places": "Italy, and beyond",
+      "context": [
+        {
+          "text": "The word comes from the Italian maniera, style or stylishness, and Vasari used it as praise — for grace, poise, facility and sophistication. Later critics turned it into an accusation, reading the art of Vasari's generation as a decline from the High Renaissance into artificiality and exaggeration. Only in the twentieth century did it settle into a neutral period label.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:410",
+            "book:chilvers-oxford-dictionary:411"
+          ]
+        },
+        {
+          "text": "The qualities usually meant by it: tension and emotionalism, elongated figures and strained poses, unusual effects of scale, lighting or perspective, and vivid — sometimes harsh — colour, with the artist often drawing attention to his own virtuosity.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:410"
+          ]
+        }
+      ],
+      "generatedBy": "claude-opus-5",
+      "generatedOn": "2026-08-03"
+    },
+    "Baroque": {
+      "name": "Baroque",
+      "span": "17th century, and into the 18th",
+      "places": "Rome, then across Europe",
+      "context": [
+        {
+          "text": "The dominant style of European art between Mannerism and Rococo. It originated in Rome and is bound up with the Catholic Counter-Reformation: its fervent rhetoric and dynamic movement suited a church that had recovered its confidence and meant to persuade.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:70"
+          ]
+        },
+        {
+          "text": "Caravaggio and Annibale Carracci stand at the head of the tradition, taking movement and intense emotion from Mannerism and solidity and grandeur from the Renaissance. It is not an exclusively religious style — the same energy runs through the dynamic lines of Dutch still life.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:70"
+          ]
+        }
+      ],
+      "generatedBy": "claude-opus-5",
+      "generatedOn": "2026-08-03"
+    },
+    "Impressionism": {
+      "name": "Impressionism",
+      "span": "1860s–1880s",
+      "places": "France",
+      "context": [
+        {
+          "text": "A movement that began in France in the 1860s. It was never a formal group with a programme, but a loose association linked by outlook, who banded together to exhibit after most of them had trouble getting work accepted for the official Salon; they held eight shows in Paris between 1874 and 1886.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:336"
+          ]
+        },
+        {
+          "text": "What united them was a rebellion against academic convention: catching an impression of what the eye sees at a particular moment rather than a detailed record, most often landscape and often painted outdoors, in bright colour and sketchy brushwork that struck traditionalists as bewildering. The name was coined derisively by the critic Louis Leroy, from Monet's Impression: Sunrise at the first exhibition.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:337"
+          ]
+        }
+      ],
+      "generatedBy": "claude-opus-5",
+      "generatedOn": "2026-08-03"
     }
   }
 }
