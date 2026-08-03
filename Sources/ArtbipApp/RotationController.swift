@@ -17,6 +17,18 @@ final class RotationController: ObservableObject {
     @Published var state: RuntimeState
     @Published var busy = false
     @Published var lastError: String?
+    /// False when the system refused the configured global shortcut because
+    /// another app already owns it, so Settings can say so.
+    @Published var hotKeyBound = true
+    /// The info panel's window, handed over by the panel itself — SwiftUI gives
+    /// a scene's NSWindow no identifier matching its scene id, so the global
+    /// shortcut cannot otherwise find the window it needs to close.
+    weak var infoWindow: NSWindow?
+    /// Owned here rather than in a @State on the menu-bar label: SwiftUI
+    /// re-evaluates a @State's initial value on every view init, and each
+    /// discarded GlobalHotKey deinits — clearing the shared action table and
+    /// silently unregistering the live shortcut after its first use.
+    let hotKey = GlobalHotKey()
 
     private var timer: Timer?
     private var screenObserver: NSObjectProtocol?

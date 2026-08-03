@@ -11,8 +11,11 @@ struct ArtbipApp: App {
     var body: some Scene {
         // A paused artbip looks identical to a broken one from the desktop —
         // say so in the menu bar itself.
-        MenuBarExtra("artbip", systemImage: controller.state.paused ? "pause.rectangle" : "photo.artframe") {
+        MenuBarExtra {
             MenuContent()
+                .environmentObject(controller)
+        } label: {
+            MenuBarLabel()
                 .environmentObject(controller)
         }
 
@@ -25,11 +28,17 @@ struct ArtbipApp: App {
         // in the menu bar until asked for.
         .defaultLaunchBehavior(.suppressed)
 
+        // Deliberately spare: no title bar, and sized to its own content rather
+        // than a fixed frame. The point of the panel is to read about the work
+        // while still looking at it, so it stays small enough to leave the
+        // wallpaper visible around it.
         Window("About This Artwork", id: "info") {
             CurrentWorkInfoWindow()
                 .environmentObject(controller)
         }
-        .defaultSize(width: 520, height: 640)
+        .windowStyle(.hiddenTitleBar)
+        .windowResizability(.contentMinSize)
+        .defaultSize(width: 400, height: 560)
         .defaultLaunchBehavior(.suppressed)
     }
 }
@@ -42,6 +51,39 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
 
     func applicationShouldTerminateAfterLastWindowClosed(_ sender: NSApplication) -> Bool {
         false
+    }
+}
+
+/// The menu-bar icon — and the host for the global shortcut. MenuBarExtra builds
+/// its menu content lazily, only while the menu is open, but the label view is
+/// alive for the whole session, which is what a global hotkey needs.
+struct MenuBarLabel: View {
+    @EnvironmentObject var controller: RotationController
+    @Environment(\.openWindow) private var openWindow
+    @Environment(\.dismissWindow) private var dismissWindow
+
+    var body: some View {
+        Image(systemName: controller.state.paused ? "pause.rectangle" : "photo.artframe")
+            .onAppear(perform: rebind)
+            .onChange(of: controller.settings.hotKeyCode) { rebind() }
+            .onChange(of: controller.settings.hotKeyModifiers) { rebind() }
+    }
+
+    private func rebind() {
+        let ok = controller.hotKey.bind(keyCode: controller.settings.hotKeyCode,
+                                        modifiers: controller.settings.hotKeyModifiers) { toggleInfo() }
+        controller.hotKeyBound = ok || controller.settings.hotKeyCode < 0
+    }
+
+    /// Toggle, not just open: pressing the shortcut again should put the panel
+    /// away without reaching for the mouse.
+    private func toggleInfo() {
+        if let window = controller.infoWindow, window.isVisible {
+            window.close()
+        } else {
+            openWindow(id: "info")
+            NSApp.activate(ignoringOtherApps: true)
+        }
     }
 }
 
@@ -79,11 +121,16 @@ struct MenuContent: View {
             }
             .keyboardShortcut("f")
             Button("Never Show Again") { controller.block(work.id) }
-            Button("About This Artwork…") {
+            // No .keyboardShortcut here: in a MenuBarExtra that only becomes an
+            // NSMenu key equivalent, which fires while the menu is open and
+            // never otherwise. The real shortcut is the global one in Settings,
+            // shown here so the menu tells the truth about it.
+            Button(controller.settings.hotKeyCode >= 0
+                   ? "About This Artwork…  \(controller.settings.hotKeyLabel)"
+                   : "About This Artwork…") {
                 openWindow(id: "info")
                 NSApp.activate(ignoringOtherApps: true)
             }
-            .keyboardShortcut("i")
             Button("View at \(work.collection)") {
                 if let url = URL(string: work.collectionURL) { NSWorkspace.shared.open(url) }
             }

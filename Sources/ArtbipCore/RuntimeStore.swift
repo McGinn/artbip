@@ -69,6 +69,13 @@ public struct RuntimeSettings: Codable, Sendable {
     public var favouritesOnly: Bool
     public var cacheBudgetMB: Int
     public var prefetchCount: Int
+    /// Global shortcut for the info panel. Carbon virtual key code and Carbon
+    /// modifier mask (cmdKey/optionKey/…); -1 disables it. `hotKeyLabel` is the
+    /// rendered form ("⌥⌘A") — recorded alongside rather than derived, since
+    /// mapping a key code back to a character depends on the keyboard layout.
+    public var hotKeyCode: Int
+    public var hotKeyModifiers: Int
+    public var hotKeyLabel: String
 
     public init() {
         intervalMinutes = 60
@@ -83,6 +90,9 @@ public struct RuntimeSettings: Codable, Sendable {
         favouritesOnly = false
         cacheBudgetMB = 2048
         prefetchCount = 3
+        hotKeyCode = 0                      // kVK_ANSI_A
+        hotKeyModifiers = 256 | 2048        // cmdKey | optionKey
+        hotKeyLabel = "⌥⌘A"
     }
 
     // Missing keys fall back to defaults so old settings files survive new fields.
@@ -101,6 +111,9 @@ public struct RuntimeSettings: Codable, Sendable {
         favouritesOnly = try c.decodeIfPresent(Bool.self, forKey: .favouritesOnly) ?? d.favouritesOnly
         cacheBudgetMB = try c.decodeIfPresent(Int.self, forKey: .cacheBudgetMB) ?? d.cacheBudgetMB
         prefetchCount = try c.decodeIfPresent(Int.self, forKey: .prefetchCount) ?? d.prefetchCount
+        hotKeyCode = try c.decodeIfPresent(Int.self, forKey: .hotKeyCode) ?? d.hotKeyCode
+        hotKeyModifiers = try c.decodeIfPresent(Int.self, forKey: .hotKeyModifiers) ?? d.hotKeyModifiers
+        hotKeyLabel = try c.decodeIfPresent(String.self, forKey: .hotKeyLabel) ?? d.hotKeyLabel
     }
 
     /// The active schedule, assembled from `scheduleMode` and its fields.

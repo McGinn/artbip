@@ -148,6 +148,15 @@ struct SettingsView: View {
                 }
             }
 
+            Section("Shortcut") {
+                LabeledContent("Show artwork info") {
+                    ShortcutRecorder()
+                }
+                Text("Works from any app. Menu shortcuts only fire while the menu is open, so this is the one that reaches you mid-task.")
+                    .font(.caption)
+                    .foregroundStyle(.secondary)
+            }
+
             Section("Storage") {
                 Picker("Image cache budget", selection: Binding(
                     get: { controller.settings.cacheBudgetMB },
