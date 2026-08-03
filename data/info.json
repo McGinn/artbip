@@ -1008,7 +1008,7 @@
   "artists": {
     "Titian": {
       "name": "Titian",
-      "span": "c. 1485–1576",
+      "span": "c. 1480/5–1576",
       "places": "Venice",
       "context": [
         {
@@ -1698,7 +1698,7 @@
     },
     "Eyck, Jan van": {
       "name": "Jan van Eyck",
-      "span": "c. 1385–1441",
+      "span": "c. 1380/90–1441",
       "places": "The Hague, Lille and Bruges",
       "context": [
         {
@@ -2759,6 +2759,252 @@
           "text": "About a decade older than most of the others, he was a much-respected father figure to them, and his gift for teaching gave him influence even over artists of greater stature: both Cézanne and Gauguin spoke glowingly of him. Being a guide and a mediator has perhaps obscured how good a painter he was in his own right. He introduced Cézanne to painting out of doors at Pontoise in 1872, experimented with Neo-Impressionism for several years after meeting Seurat in 1885, then returned around 1890 to his Impressionist manner with a freer touch than before.",
           "cite": [
             "book:chilvers-oxford-dictionary:514"
+          ]
+        }
+      ],
+      "generatedBy": "claude-opus-5",
+      "generatedOn": "2026-08-03"
+    },
+    "Seurat, Georges": {
+      "name": "Georges Seurat",
+      "span": "1859–1891",
+      "places": "Paris",
+      "context": [
+        {
+          "text": "The founder of Neo-Impressionism and much its greatest exponent. His parents were comfortably off, so he never had to worry about earning a living and could pursue his researches with single-minded dedication. After military service interrupted his studies he spent two years doing almost nothing but draw — broad velvety areas of tone in conté crayon on textured paper — which made him one of the subtlest draughtsmen of the century.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:608"
+          ]
+        },
+        {
+          "text": "For all that mastery of black and white, as a painter he looked to the colourists, Delacroix and the Impressionists, and read scientific and aesthetic treatises alongside. The theory was that colours set side by side and mixed in the eye would be more luminous than the same colours mixed on the palette. Bathers at Asnières was still experimental; Sunday Afternoon on the Island of La Grande Jatte, shown at the last Impressionist exhibition in 1886, states the idea in full. He was dead at thirty-one.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:608"
+          ]
+        }
+      ],
+      "generatedBy": "claude-opus-5",
+      "generatedOn": "2026-08-03"
+    },
+    "Tintoretto, Jacopo": {
+      "name": "Jacopo Tintoretto",
+      "span": "c. 1518–1594",
+      "places": "Venice",
+      "context": [
+        {
+          "text": "His nickname comes from his father's trade of cloth dyer. He ranks second only to Titian among the Venetian painters of his time, and where Titian's late work went mostly to foreign patrons, Tintoretto worked for Venetians — above all supplying religious pictures to the city's churches and charitable institutions. He is recorded outside Venice only once in his life, and most of his work is still in the buildings it was painted for.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:654"
+          ]
+        },
+        {
+          "text": "Little is known about his character and his career before about thirty is poorly documented. His greatest works are the vast series painted between 1564 and 1587 for the Scuola di S. Rocco, the wealthiest of the Venetian charitable confraternities.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:654"
+          ]
+        }
+      ],
+      "generatedBy": "claude-opus-5",
+      "generatedOn": "2026-08-03"
+    },
+    "Courbet, Gustave": {
+      "name": "Gustave Courbet",
+      "span": "1819–1877",
+      "places": "Ornans and Paris",
+      "context": [
+        {
+          "text": "One of the most powerful personalities in nineteenth-century art, and a prosperous farmer's son from the foot of the Jura. The country upbringing stayed with him: he spent most of his career in Paris but rarely painted urban subjects — his palette smells of hay, Cézanne said of him. He was obstinately self-assured and claimed to be self-taught; in fact he studied with various minor masters, though he learned more from copying Caravaggio and Velázquez in the Louvre, which is where the solid, weighty style and the strong contrasts of light and shade come from.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:178"
+          ]
+        },
+        {
+          "text": "Politics caught up with him. After the Commune he was given six months' imprisonment for his part in pulling down the Vendôme Column, and on release was held personally liable for the cost of putting it back up. Unable to pay and fearing arrest, he went into exile in Switzerland and spent his last four years there, painting mainly landscapes and portraits.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:178"
+          ]
+        }
+      ],
+      "generatedBy": "claude-opus-5",
+      "generatedOn": "2026-08-03"
+    },
+    "Memling, Hans": {
+      "name": "Hans Memling",
+      "span": "c. 1435–1494",
+      "places": "Bruges",
+      "context": [
+        {
+          "text": "German by birth but active in Bruges from 1465, and nothing of the German background shows in the paintings, which are closely connected to Rogier van der Weyden — by plausible tradition his teacher. His softened, sweetened version of Rogier's manner made him the most popular Netherlandish painter of his day: where Rogier excelled at intense emotion, Memling's impeccably crafted pictures are quiet, restrained, pious and beautifully balanced.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:431"
+          ]
+        },
+        {
+          "text": "Tax records show he was one of the wealthiest citizens of Bruges, and his large output means he must have run a busy workshop. His style changed very little, which makes undated paintings hard to place in sequence. He showed rather more originality in portraiture than in religious work.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:431"
+          ]
+        }
+      ],
+      "generatedBy": "claude-opus-5",
+      "generatedOn": "2026-08-03"
+    },
+    "Eakins, Thomas": {
+      "name": "Thomas Eakins",
+      "span": "1844–1916",
+      "places": "Philadelphia",
+      "context": [
+        {
+          "text": "Most critics regard him as the outstanding American painter of the nineteenth century and many as the greatest his country has produced. He spent almost his whole career in Philadelphia; his one substantial absence was four years in Europe, training in Paris but learning more from six months in Spain, where the unaffected naturalism and sombre dignity of Velázquez hit him hard.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:226"
+          ]
+        },
+        {
+          "text": "He began teaching at the Pennsylvania Academy in 1876 and caused controversy with his radical ideas, particularly his insistence that study be based on nude models rather than plaster casts.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:226"
+          ]
+        }
+      ],
+      "generatedBy": "claude-opus-5",
+      "generatedOn": "2026-08-03"
+    },
+    "Millais, John Everett": {
+      "name": "John Everett Millais",
+      "span": "1829–1896",
+      "places": "London",
+      "context": [
+        {
+          "text": "A child prodigy who was hard-working as well as gifted: he became the youngest student ever admitted to the Royal Academy Schools, at eleven. In 1848, with Rossetti and Holman Hunt, he founded the Pre-Raphaelite Brotherhood and took his share of the abuse thrown at them until Ruskin stepped in as their champion — and in 1855 he married Ruskin's former wife, after that first marriage had been annulled.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:438"
+          ]
+        },
+        {
+          "text": "In the 1850s he moved away from the brilliantly coloured, minutely detailed Pre-Raphaelite manner towards something broader and more fluent: with a family to support, he said, he could not afford to spend a whole day on an area no larger than a five shilling piece. The subjects softened too, from morally uplifting themes towards sentiment and a good story, and he became enormously popular.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:438"
+          ]
+        }
+      ],
+      "generatedBy": "claude-opus-5",
+      "generatedOn": "2026-08-03"
+    },
+    "Rousseau, Henri": {
+      "name": "Henri Rousseau",
+      "span": "1844–1910",
+      "places": "Paris",
+      "context": [
+        {
+          "text": "The most celebrated of naive artists. His nickname, Le Douanier, refers to a job with the Paris municipal toll service, though he never actually reached the rank of customs officer. He took up painting as a self-taught hobby at about forty, exhibited regularly from 1886, and retired early in 1893 to give himself to it. He was extraordinarily ingenuous and suffered a great deal of ridicule — sometimes taking sarcastic remarks literally and reading them as praise — as well as real poverty, and his faith in his own ability never wavered.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:573"
+          ]
+        },
+        {
+          "text": "He was trying to paint in the academic manner of the traditionalists, and what came out instead won him the admiration of the avant-garde. Vollard and his circle 'discovered' him around 1906, and in 1908 Picasso threw a banquet in his honour, half serious and half burlesque. He is best known now for the jungle scenes, from Tiger in a Tropical Storm to The Dream, painted the year he died.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:573"
+          ]
+        }
+      ],
+      "generatedBy": "claude-opus-5",
+      "generatedOn": "2026-08-03"
+    },
+    "Gérôme, Jean-Léon": {
+      "name": "Jean-Léon Gérôme",
+      "span": "1824–1904",
+      "places": "Paris",
+      "context": [
+        {
+          "text": "A pupil of Delaroche, he inherited a highly finished academic style and had a career of great public success with it. For variety and sensationalism of subject he outdid every rival at the Salon — murder in the Roman senate, carnage in the arena, nudity at the slave auction and the harem bath, Bonaparte before the Sphinx — all plotted as carefully staged picture-plays, graced with sex, spiced with gore, and polished to a waxwork lifelikeness that his admirers took for realism.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:270"
+          ]
+        },
+        {
+          "text": "He carried considerable influence as an upholder of academic tradition and an enemy of progressive trends, opposing the acceptance of the new painting at every turn.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:270"
+          ]
+        }
+      ],
+      "generatedBy": "claude-opus-5",
+      "generatedOn": "2026-08-03"
+    },
+    "Francesca, Piero della": {
+      "name": "Piero della Francesca",
+      "span": "c. 1415–1492",
+      "places": "Borgo San Sepolcro, Arezzo and Urbino",
+      "context": [
+        {
+          "text": "Virtually forgotten for centuries after his death, and now regarded as one of the supreme artists of the Renaissance. He spent much of his life in his native Borgo San Sepolcro and was clearly attached to it — he twice served as a town councillor, and the countryside around it turns up in the backgrounds of his paintings. His career is scantily documented and his movements cannot be followed in detail.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:508"
+          ]
+        },
+        {
+          "text": "He was a habitually slow worker, which made ordinary fresco — a technique demanding speed and a sure hand — a poor fit. He experimented with ways round it, sometimes laying wet cloths on the plaster overnight so that, against normal practice, he could keep working on the same patch for more than a day.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:508"
+          ]
+        }
+      ],
+      "generatedBy": "claude-opus-5",
+      "generatedOn": "2026-08-03"
+    },
+    "Burne-Jones, Edward": {
+      "name": "Edward Burne-Jones",
+      "span": "1833–1898",
+      "places": "Birmingham and London",
+      "context": [
+        {
+          "text": "A key figure in the second phase of Pre-Raphaelitism. He went to Oxford in 1853 meaning to train for the priesthood; William Morris, his fellow student, turned his interest to art, and then Rossetti, who remained the decisive influence. He left without a degree in 1856. Rossetti gave him a few informal lessons and he attended life classes for a while, but essentially he taught himself, and his taste ran more classical than his mentor's — the elongated forms owe a great deal to Botticelli.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:123"
+          ]
+        },
+        {
+          "text": "He favoured medieval and Arthurian subjects and detested the modernists, dismissing the Impressionists' subject matter as landscape and whores. His reputation crumbled after his death and did not seriously revive until the 1960s.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:123"
+          ]
+        }
+      ],
+      "generatedBy": "claude-opus-5",
+      "generatedOn": "2026-08-03"
+    },
+    "Bazille, Frédéric": {
+      "name": "Frédéric Bazille",
+      "span": "1841–1870",
+      "places": "Montpellier and Paris",
+      "context": [
+        {
+          "text": "One of the early Impressionist group. He entered Gleyre's studio in Paris in 1862 and met Monet, Renoir and Sisley there, painting out of doors with them at Fontainebleau and in Normandy. He was a figure painter rather than a landscapist, though he sometimes set his compositions in the open air. He came from a wealthy family and gave Monet and Renoir generous financial support. He was killed in action in the Franco-Prussian War at twenty-eight, cutting short a promising career.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:76"
+          ]
+        }
+      ],
+      "generatedBy": "claude-opus-5",
+      "generatedOn": "2026-08-03"
+    },
+    "Carpaccio, Vittore": {
+      "name": "Vittore Carpaccio",
+      "span": "c. 1460–1525",
+      "places": "Venice",
+      "context": [
+        {
+          "text": "His life is poorly documented and nobody knows who trained him, though Gentile Bellini is generally agreed to be the main influence. His reputation rests on two great cycles of paintings: scenes from the life of St Ursula, made in the 1490s, and a second cycle mainly on St George and St Jerome, painted in 1502–7 and still in the building it was made for.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:139"
+          ]
+        },
+        {
+          "text": "His salient qualities — a taste for anecdote and an eye for the crowded detail of the Venetian scene — found their happiest expression in those cycles, and one of them looks forward to Canaletto and Guardi two centuries later. He had little flair for the altarpieces that filled his later years, but he was an excellent portraitist.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:139"
           ]
         }
       ],

@@ -83,6 +83,12 @@ public struct RuntimeSettings: Codable, Sendable {
     /// Same, for the artist section: 60 works share a painter at the top of the
     /// manifest, so this text repeats even harder than the school's.
     public var infoArtistExpanded: Bool
+    /// Opacity of the info panel window, 0.5–1.0. `.ultraThinMaterial` is
+    /// already the most translucent standard material, so going further means
+    /// dropping the whole window's alpha — which fades the text along with the
+    /// background. Exposed as a setting rather than hard-coded because the
+    /// readable limit depends on the wallpaper behind it.
+    public var infoWindowOpacity: Double
 
     public init() {
         intervalMinutes = 60
@@ -102,6 +108,7 @@ public struct RuntimeSettings: Codable, Sendable {
         hotKeyLabel = "⌥⌘A"
         infoSchoolExpanded = true
         infoArtistExpanded = true
+        infoWindowOpacity = 0.85
     }
 
     // Missing keys fall back to defaults so old settings files survive new fields.
@@ -125,6 +132,10 @@ public struct RuntimeSettings: Codable, Sendable {
         hotKeyLabel = try c.decodeIfPresent(String.self, forKey: .hotKeyLabel) ?? d.hotKeyLabel
         infoSchoolExpanded = try c.decodeIfPresent(Bool.self, forKey: .infoSchoolExpanded) ?? d.infoSchoolExpanded
         infoArtistExpanded = try c.decodeIfPresent(Bool.self, forKey: .infoArtistExpanded) ?? d.infoArtistExpanded
+        // Clamped: a stray 0 in settings.json would make the panel invisible
+        // and there is no UI to get it back.
+        infoWindowOpacity = min(1.0, max(0.5,
+            try c.decodeIfPresent(Double.self, forKey: .infoWindowOpacity) ?? d.infoWindowOpacity))
     }
 
     /// The active schedule, assembled from `scheduleMode` and its fields.

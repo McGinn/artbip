@@ -245,7 +245,16 @@ struct CurrentWorkInfoWindow: View {
         // Hand the hosting NSWindow to the controller so the global shortcut can
         // close this exact panel. SwiftUI gives a scene's window no identifier
         // matching its scene id, so it cannot be found in NSApp.windows.
-        .background(WindowAccessor { controller.infoWindow = $0 })
+        // Window alpha is set here too: the material above is already the
+        // thinnest one AppKit offers, so any further translucency has to come
+        // from the window itself.
+        .background(WindowAccessor { window in
+            controller.infoWindow = window
+            window?.alphaValue = controller.settings.infoWindowOpacity
+        })
+        .onChange(of: controller.settings.infoWindowOpacity) { _, alpha in
+            controller.infoWindow?.alphaValue = alpha
+        }
         // With no title bar there is no obvious close affordance beyond the
         // traffic lights, so honour Escape.
         .onExitCommand { dismiss() }
