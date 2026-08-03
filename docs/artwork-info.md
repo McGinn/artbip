@@ -23,9 +23,20 @@ and sourced. Three tiers, degrading gracefully when sources are thin.
   `../reference/`), a museum's own object page / catalogue, or a
   scholarly web source (e.g. Smarthistory, NGA Online Editions).
 - **Facts and ideas, never prose.** Source texts ground and check claims;
-  wording in `info.json` is original. Attribution of *interpretive* claims
-  is by name in the text ("Schama reads the…") when the idea is one
-  scholar's, silent for uncontested fact.
+  wording in `info.json` is original.
+- **The text stands on its own.** No scholar's name and no book title in the
+  body — this is a wall label, not an essay, and a reader who wants the
+  provenance has the Sources list two inches below. Attribution lives in the
+  `cite` array, which is what makes a claim checkable; putting it in the prose
+  as well only makes the label about the literature instead of the picture.
+  Historical actors stay (Vasari coining *maniera*, Leroy coining
+  'Impressionism') — they are the fact being reported, not an authority being
+  leaned on.
+- **Signal interpretation without a name.** Dropping the attribution must not
+  quietly promote one scholar's reading into settled fact. Where a claim is
+  genuinely contested or is one person's argument, mark it in the prose —
+  "commonly read as", "now generally read against", "may be" — and let the
+  citation carry the rest. Uncontested fact is stated plainly.
 - **Per-claim citations in data.** Each context/details paragraph carries
   `cite` entries — `book:<slug>:<page>` (page = PDF page of the edition in
   the corpus index) or `url:<https://…>`. The UI shows a Sources line;

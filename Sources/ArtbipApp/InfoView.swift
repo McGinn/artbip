@@ -16,12 +16,21 @@ struct WorkInfoPanel: View {
     private var entry: WorkInfo? { controller.info.entries[work.id] }
     private var school: SchoolInfo? { controller.info.school(forMovement: work.movement) }
 
-    /// Citations in first-appearance order, shared by paragraph markers
-    /// and the sources list. Order must match the render order below, or the
-    /// [n] markers point at the wrong source.
+    /// Persisted rather than @State: the same school text recurs for every work
+    /// in a tradition, so collapsing it once should stay collapsed.
+    private var schoolExpanded: Binding<Bool> {
+        Binding(get: { controller.settings.infoSchoolExpanded },
+                set: { open in controller.updateSettings { $0.infoSchoolExpanded = open } })
+    }
+
+    /// Citations in first-appearance order, shared by paragraph markers and the
+    /// sources list. Order must match the render order below, or the [n] markers
+    /// point at the wrong source — and the school's sources are only counted
+    /// while it is expanded, so Sources never lists a number nothing shows.
     private var citeOrder: [String] {
         var seen: [String] = []
-        for para in (entry?.context ?? []) + (entry?.details ?? []) + (school?.context ?? []) {
+        let schoolParas = schoolExpanded.wrappedValue ? (school?.context ?? []) : []
+        for para in (entry?.context ?? []) + (entry?.details ?? []) + schoolParas {
             for cite in para.cite where !seen.contains(cite) {
                 seen.append(cite)
             }
@@ -76,19 +85,39 @@ struct WorkInfoPanel: View {
                     }
                 }
 
-                // Period and place. Comes after the work-specific text when
-                // there is any, and is the whole body when there is not —
-                // which is the common case, so it carries most of the panel.
+                // Period and place, collapsible. It is background rather than
+                // news about this picture, and for a work with no entry of its
+                // own it would otherwise be the bulk of the panel.
                 if let school {
                     Divider()
-                    VStack(alignment: .leading, spacing: 3) {
-                        Text(school.name).font(.headline)
-                        if let subtitle = school.subtitle {
-                            Text(subtitle).font(.caption).foregroundStyle(.secondary)
+                    // A plain Button rather than DisclosureGroup: the latter
+                    // only toggles on its chevron, which is a small target for
+                    // something the user is meant to collapse once and forget.
+                    Button {
+                        withAnimation(.snappy) { schoolExpanded.wrappedValue.toggle() }
+                    } label: {
+                        HStack(alignment: .firstTextBaseline, spacing: 6) {
+                            Image(systemName: "chevron.right")
+                                .font(.caption2.weight(.semibold))
+                                .foregroundStyle(.secondary)
+                                .rotationEffect(.degrees(schoolExpanded.wrappedValue ? 90 : 0))
+                            VStack(alignment: .leading, spacing: 3) {
+                                Text(school.name).font(.headline)
+                                if let subtitle = school.subtitle {
+                                    Text(subtitle).font(.caption).foregroundStyle(.secondary)
+                                }
+                            }
+                            Spacer(minLength: 0)
                         }
+                        .contentShape(Rectangle())
                     }
-                    ForEach(school.context.indices, id: \.self) { i in
-                        Text(school.context[i].text + marks(school.context[i].cite))
+                    .buttonStyle(.plain)
+                    .help(schoolExpanded.wrappedValue ? "Hide period and style" : "Show period and style")
+
+                    if schoolExpanded.wrappedValue {
+                        ForEach(school.context.indices, id: \.self) { i in
+                            Text(school.context[i].text + marks(school.context[i].cite))
+                        }
                     }
                 }
 

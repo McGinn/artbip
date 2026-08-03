@@ -76,6 +76,10 @@ public struct RuntimeSettings: Codable, Sendable {
     public var hotKeyCode: Int
     public var hotKeyModifiers: Int
     public var hotKeyLabel: String
+    /// Whether the info panel's period-and-style section is open. Persisted
+    /// because the same school text recurs for every work in that tradition —
+    /// collapsing it once should stay collapsed.
+    public var infoSchoolExpanded: Bool
 
     public init() {
         intervalMinutes = 60
@@ -93,6 +97,7 @@ public struct RuntimeSettings: Codable, Sendable {
         hotKeyCode = 0                      // kVK_ANSI_A
         hotKeyModifiers = 256 | 2048        // cmdKey | optionKey
         hotKeyLabel = "⌥⌘A"
+        infoSchoolExpanded = true
     }
 
     // Missing keys fall back to defaults so old settings files survive new fields.
@@ -114,6 +119,7 @@ public struct RuntimeSettings: Codable, Sendable {
         hotKeyCode = try c.decodeIfPresent(Int.self, forKey: .hotKeyCode) ?? d.hotKeyCode
         hotKeyModifiers = try c.decodeIfPresent(Int.self, forKey: .hotKeyModifiers) ?? d.hotKeyModifiers
         hotKeyLabel = try c.decodeIfPresent(String.self, forKey: .hotKeyLabel) ?? d.hotKeyLabel
+        infoSchoolExpanded = try c.decodeIfPresent(Bool.self, forKey: .infoSchoolExpanded) ?? d.infoSchoolExpanded
     }
 
     /// The active schedule, assembled from `scheduleMode` and its fields.
