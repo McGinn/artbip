@@ -14,6 +14,7 @@ struct WorkInfoPanel: View {
     var topInset: CGFloat = 0
 
     private var entry: WorkInfo? { controller.info.entries[work.id] }
+    private var artist: ArtistInfo? { controller.info.artist(forSort: work.artistSort) }
     private var school: SchoolInfo? { controller.info.school(forMovement: work.movement) }
 
     /// Persisted rather than @State: the same school text recurs for every work
@@ -23,14 +24,21 @@ struct WorkInfoPanel: View {
                 set: { open in controller.updateSettings { $0.infoSchoolExpanded = open } })
     }
 
+    /// Same, for the painter.
+    private var artistExpanded: Binding<Bool> {
+        Binding(get: { controller.settings.infoArtistExpanded },
+                set: { open in controller.updateSettings { $0.infoArtistExpanded = open } })
+    }
+
     /// Citations in first-appearance order, shared by paragraph markers and the
     /// sources list. Order must match the render order below, or the [n] markers
-    /// point at the wrong source — and the school's sources are only counted
-    /// while it is expanded, so Sources never lists a number nothing shows.
+    /// point at the wrong source — and a collapsed section's sources are not
+    /// counted, so Sources never lists a number nothing on screen refers to.
     private var citeOrder: [String] {
         var seen: [String] = []
+        let artistParas = artistExpanded.wrappedValue ? (artist?.context ?? []) : []
         let schoolParas = schoolExpanded.wrappedValue ? (school?.context ?? []) : []
-        for para in (entry?.context ?? []) + (entry?.details ?? []) + schoolParas {
+        for para in (entry?.context ?? []) + (entry?.details ?? []) + artistParas + schoolParas {
             for cite in para.cite where !seen.contains(cite) {
                 seen.append(cite)
             }
@@ -85,40 +93,22 @@ struct WorkInfoPanel: View {
                     }
                 }
 
-                // Period and place, collapsible. It is background rather than
-                // news about this picture, and for a work with no entry of its
-                // own it would otherwise be the bulk of the panel.
-                if let school {
-                    Divider()
-                    // A plain Button rather than DisclosureGroup: the latter
-                    // only toggles on its chevron, which is a small target for
-                    // something the user is meant to collapse once and forget.
-                    Button {
-                        withAnimation(.snappy) { schoolExpanded.wrappedValue.toggle() }
-                    } label: {
-                        HStack(alignment: .firstTextBaseline, spacing: 6) {
-                            Image(systemName: "chevron.right")
-                                .font(.caption2.weight(.semibold))
-                                .foregroundStyle(.secondary)
-                                .rotationEffect(.degrees(schoolExpanded.wrappedValue ? 90 : 0))
-                            VStack(alignment: .leading, spacing: 3) {
-                                Text(school.name).font(.headline)
-                                if let subtitle = school.subtitle {
-                                    Text(subtitle).font(.caption).foregroundStyle(.secondary)
-                                }
-                            }
-                            Spacer(minLength: 0)
-                        }
-                        .contentShape(Rectangle())
-                    }
-                    .buttonStyle(.plain)
-                    .help(schoolExpanded.wrappedValue ? "Hide period and style" : "Show period and style")
+                // The painter, then the tradition — widening out from the work
+                // in front of you. Both are collapsible: they are background
+                // rather than news about this picture, and they repeat for
+                // every work by the same hand or in the same school.
+                if let artist {
+                    CollapsibleInfoSection(
+                        title: artist.name, subtitle: artist.subtitle,
+                        paragraphs: artist.context, expanded: artistExpanded,
+                        hint: "artist", marks: marks)
+                }
 
-                    if schoolExpanded.wrappedValue {
-                        ForEach(school.context.indices, id: \.self) { i in
-                            Text(school.context[i].text + marks(school.context[i].cite))
-                        }
-                    }
+                if let school {
+                    CollapsibleInfoSection(
+                        title: school.name, subtitle: school.subtitle,
+                        paragraphs: school.context, expanded: schoolExpanded,
+                        hint: "period and style", marks: marks)
                 }
 
                 if !citeOrder.isEmpty {
@@ -151,9 +141,75 @@ struct WorkInfoPanel: View {
     }
 
     private var titleplateLine: String {
-        var artist = work.artist
-        if let death = work.artistDeathYear { artist += " (d. \(death))" }
-        return [artist, work.dateDisplay, work.medium].compactMap(\.self).joined(separator: " · ")
+        [work.artist + artistDates, work.dateDisplay, work.medium,
+         work.dimensions?.display].compactMap(\.self).joined(separator: " · ")
+    }
+
+    /// " (1824–1904)" when both dates are known, " (d. 1904)" when only the
+    /// death year is — which is all the museums gave us before the Wikidata
+    /// enrichment pass, and still all we have for some works.
+    private var artistDates: String {
+        switch (work.artistBirthYear, work.artistDeathYear) {
+        case let (birth?, death?): return " (\(birth)–\(death))"
+        case let (birth?, nil):    return " (b. \(birth))"
+        case let (nil, death?):    return " (d. \(death))"
+        default:                   return ""
+        }
+    }
+}
+
+/// A titled, collapsible run of cited paragraphs — used for both the artist and
+/// the school, which differ only in what they are about.
+private struct CollapsibleInfoSection: View {
+    let title: String
+    let subtitle: String?
+    let paragraphs: [InfoParagraph]
+    @Binding var expanded: Bool
+    /// Filled into the tooltip: "Show <hint>".
+    let hint: String
+    /// Citation markers, resolved by the parent against the whole panel's order.
+    let marks: ([String]) -> String
+
+    // Spacing matches the parent panel's VStack, so the section's rows sit in
+    // the same rhythm as everything above them rather than reading as a
+    // nested block.
+    var body: some View {
+        VStack(alignment: .leading, spacing: 14) {
+            Divider()
+            // A plain Button rather than DisclosureGroup: the latter only
+            // toggles on its chevron, which is a small target for something the
+            // user is meant to collapse once and forget. Widening the target
+            // with .onTapGesture on a DisclosureGroup label does not work
+            // either — it fires alongside the built-in toggle, so the two
+            // cancel and nothing happens.
+            Button {
+                withAnimation(.snappy) { expanded.toggle() }
+            } label: {
+                HStack(alignment: .firstTextBaseline, spacing: 6) {
+                    Image(systemName: "chevron.right")
+                        .font(.caption2.weight(.semibold))
+                        .foregroundStyle(.secondary)
+                        .rotationEffect(.degrees(expanded ? 90 : 0))
+                    VStack(alignment: .leading, spacing: 3) {
+                        Text(title).font(.headline)
+                        if let subtitle {
+                            Text(subtitle).font(.caption).foregroundStyle(.secondary)
+                        }
+                    }
+                    Spacer(minLength: 0)
+                }
+                .contentShape(Rectangle())
+            }
+            .buttonStyle(.plain)
+            .help(expanded ? "Hide \(hint)" : "Show \(hint)")
+
+            if expanded {
+                ForEach(paragraphs.indices, id: \.self) { i in
+                    Text(paragraphs[i].text + marks(paragraphs[i].cite))
+                }
+            }
+        }
+        .frame(maxWidth: .infinity, alignment: .leading)
     }
 }
 

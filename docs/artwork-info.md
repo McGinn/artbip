@@ -45,6 +45,48 @@ and sourced. Three tiers, degrading gracefully when sources are thin.
   tier-2/3 text at all (titleplate always renders from the manifest).
   Silence over plausible invention, always.
 
+## Writing rules (how it has to read)
+
+Accuracy is necessary and not sufficient: a sourced sentence nobody can
+parse has failed. The model here is Gombrich's preface — plain language
+"even at the risk of sounding casual or unprofessional", because the vices
+that make people distrust art writing for life are "pretentious jargon or
+bogus sentiment" — and the National Gallery's own companion guide, whose
+entries are self-contained and meant to work while you stand in front of
+the picture.
+
+- **Difficulty of thought yes, difficulty of language no.** Gombrich's
+  distinction, and the one that matters. Do not simplify the idea; simplify
+  the sentence carrying it. Anyone using scholarly register to sound
+  authoritative is talking down to the reader from the clouds.
+- **Say the thing, not the thing about the thing.** State what is true of
+  the pictures. A claim that can only be phrased as a comment on other
+  people's criteria — "the standards by which such painting looks static
+  are Italian ones" — is a remark about the literature wearing a wall
+  label's clothes. Rephrase it as a fact about the painting, or cut it.
+- **One idea per sentence.** If the reader has to hold three clauses open
+  to reach the point, split it. If a sentence needs a second reading to
+  parse, it is not finished.
+- **No instructions to the reader.** "Worth carrying around the room", "The
+  question to put to them is…", "What makes it worth watching is…". The
+  reader decides what is worth their attention; the label's job is to give
+  them something to decide with.
+- **Concrete before abstract.** The painter, the year, the city, the object
+  come before the tendency they illustrate. Prefer a named person doing
+  something to an abstract noun having a property: "critics called these
+  pictures static" beats "the ordinary standards by which such painting
+  looks static".
+- **Plain word if one exists.** Keep a term only where the term *is* the
+  subject (Mannerism, pointillism, *maniera*) — then define it in the same
+  breath, as the Mannerism entry does.
+- **It sits next to the picture.** Gombrich would not write about a work he
+  could not show. Only one work is on screen here, so keep other paintings
+  to brief orientation and never build a point on something the reader
+  cannot see.
+
+The test is mechanical: read the paragraph aloud once, at speed. Any
+sentence you stumble on or have to restart gets rewritten.
+
 ## Data model — `data/info.json`
 
 ```json

@@ -4,3 +4,4 @@ work/
 dist/
 .claude/
 artbip-*.zip
+__pycache__/

@@ -30,14 +30,19 @@ struct Info: AsyncParsableCommand {
         }
 
         // Titleplate — always available, straight from the manifest.
-        var artistLine = work.artist
-        if let death = work.artistDeathYear { artistLine += " (d. \(death))" }
+        let dates: String
+        switch (work.artistBirthYear, work.artistDeathYear) {
+        case let (birth?, death?): dates = " (\(birth)–\(death))"
+        case let (birth?, nil):    dates = " (b. \(birth))"
+        case let (nil, death?):    dates = " (d. \(death))"
+        default:                   dates = ""
+        }
         print(work.title)
-        print([artistLine, work.dateDisplay, work.medium].compactMap(\.self).joined(separator: " · "))
+        print([work.artist + dates, work.dateDisplay, work.medium,
+               work.dimensions?.display].compactMap(\.self).joined(separator: " · "))
         print("\(work.collection) — \(work.collectionURL)")
         if let caption = work.caption { print("\n\(caption)") }
 
-        guard let entry = infoFile.entries[work.id] else { return }
         var citeOrder: [String] = []
         func mark(_ cites: [String]) -> String {
             let refs = cites.map { cite -> Int in
@@ -47,15 +52,34 @@ struct Info: AsyncParsableCommand {
             }
             return "[" + refs.map(String.init).joined(separator: ",") + "]"
         }
-        for para in entry.context {
-            print("\n\(para.text) \(mark(para.cite))")
-        }
-        if !entry.details.isEmpty {
-            print("\nLook for:")
-            for para in entry.details {
-                print("• \(para.text) \(mark(para.cite))")
+
+        // Per-work text is the rarest tier (12 of 2,000), so its absence must
+        // not skip the artist and school sections below — an early return here
+        // left 954 works printing nothing but their titleplate.
+        if let entry = infoFile.entries[work.id] {
+            for para in entry.context {
+                print("\n\(para.text) \(mark(para.cite))")
+            }
+            if !entry.details.isEmpty {
+                print("\nLook for:")
+                for para in entry.details {
+                    print("• \(para.text) \(mark(para.cite))")
+                }
             }
         }
+
+        func section(_ title: String, _ subtitle: String?, _ paras: [InfoParagraph]) {
+            guard !paras.isEmpty else { return }
+            print("\n\(title)\(subtitle.map { " — \($0)" } ?? "")")
+            for para in paras { print("\n\(para.text) \(mark(para.cite))") }
+        }
+        if let artist = infoFile.artist(forSort: work.artistSort) {
+            section(artist.name, artist.subtitle, artist.context)
+        }
+        if let school = infoFile.school(forMovement: work.movement) {
+            section(school.name, school.subtitle, school.context)
+        }
+
         if !citeOrder.isEmpty {
             print("\nSources:")
             for (i, cite) in citeOrder.enumerated() {

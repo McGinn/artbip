@@ -80,6 +80,9 @@ public struct RuntimeSettings: Codable, Sendable {
     /// because the same school text recurs for every work in that tradition —
     /// collapsing it once should stay collapsed.
     public var infoSchoolExpanded: Bool
+    /// Same, for the artist section: 60 works share a painter at the top of the
+    /// manifest, so this text repeats even harder than the school's.
+    public var infoArtistExpanded: Bool
 
     public init() {
         intervalMinutes = 60
@@ -98,6 +101,7 @@ public struct RuntimeSettings: Codable, Sendable {
         hotKeyModifiers = 256 | 2048        // cmdKey | optionKey
         hotKeyLabel = "⌥⌘A"
         infoSchoolExpanded = true
+        infoArtistExpanded = true
     }
 
     // Missing keys fall back to defaults so old settings files survive new fields.
@@ -120,6 +124,7 @@ public struct RuntimeSettings: Codable, Sendable {
         hotKeyModifiers = try c.decodeIfPresent(Int.self, forKey: .hotKeyModifiers) ?? d.hotKeyModifiers
         hotKeyLabel = try c.decodeIfPresent(String.self, forKey: .hotKeyLabel) ?? d.hotKeyLabel
         infoSchoolExpanded = try c.decodeIfPresent(Bool.self, forKey: .infoSchoolExpanded) ?? d.infoSchoolExpanded
+        infoArtistExpanded = try c.decodeIfPresent(Bool.self, forKey: .infoArtistExpanded) ?? d.infoArtistExpanded
     }
 
     /// The active schedule, assembled from `scheduleMode` and its fields.

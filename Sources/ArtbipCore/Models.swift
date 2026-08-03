@@ -222,12 +222,36 @@ public struct ManifestSignificance: Codable, Sendable {
     }
 }
 
+/// Height and width in centimetres — the unit museum labels use, and what the
+/// Wikidata pass normalises to.
+public struct ManifestDimensions: Codable, Sendable {
+    public var heightCm: Double
+    public var widthCm: Double
+
+    public init(heightCm: Double, widthCm: Double) {
+        self.heightCm = heightCm
+        self.widthCm = widthCm
+    }
+
+    /// "86.3 × 156 cm" — trailing ".0" dropped, since a whole number of
+    /// centimetres is how a wall label would print it.
+    public var display: String {
+        func fmt(_ v: Double) -> String {
+            v == v.rounded() ? String(Int(v)) : String(format: "%.1f", v)
+        }
+        return "\(fmt(heightCm)) × \(fmt(widthCm)) cm"
+    }
+}
+
 public struct ManifestWork: Codable, Sendable {
     public var id: String
     public var wikidata: String?
     public var title: String
     public var artist: String
     public var artistSort: String
+    /// Life dates. Both are filled by `scripts/enrich_wikidata.py` where the
+    /// source museums left them blank; birth years come only from that pass.
+    public var artistBirthYear: Int?
     public var artistDeathYear: Int?
     public var dateDisplay: String?
     public var year: Int?
@@ -241,12 +265,18 @@ public struct ManifestWork: Codable, Sendable {
     public var paletteDominantHSL: [Double]?
     public var significance: ManifestSignificance
     public var caption: String?
+    /// Physical size of the work, filled by the Wikidata enrichment pass.
+    public var dimensions: ManifestDimensions?
 
     public init(id: String, wikidata: String?, title: String, artist: String, artistSort: String,
+                artistBirthYear: Int? = nil,
                 artistDeathYear: Int?, dateDisplay: String?, year: Int?, movement: String?,
                 region: String?, medium: String?, collection: String, collectionURL: String,
                 image: ManifestImage, license: ManifestLicense, paletteDominantHSL: [Double]?,
-                significance: ManifestSignificance, caption: String?) {
+                significance: ManifestSignificance, caption: String?,
+                dimensions: ManifestDimensions? = nil) {
+        self.artistBirthYear = artistBirthYear
+        self.dimensions = dimensions
         self.id = id
         self.wikidata = wikidata
         self.title = title

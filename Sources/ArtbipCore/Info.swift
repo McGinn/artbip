@@ -88,30 +88,80 @@ public struct SchoolInfo: Codable, Sendable {
     }
 }
 
+/// The painter — the gallery's other section label, and the one that reaches
+/// furthest.
+///
+/// Keyed by the manifest's `artistSort` ("Gogh, Vincent van"), which every work
+/// carries. Artists concentrate harder than movements do: 50 of them account for
+/// 1,220 of 2,000 works and 100 for 1,526. They also cover ground schools cannot
+/// — 954 works have no `movement` string at all, and 727 of the works no school
+/// reaches are by a top-100 artist.
+public struct ArtistInfo: Codable, Sendable {
+    /// Display name in natural order, since `artistSort` is filed backwards.
+    public var name: String
+    /// Life dates, e.g. "1606–1669".
+    public var span: String?
+    /// Where they worked, e.g. "Leiden and Amsterdam".
+    public var places: String?
+    public var context: [InfoParagraph]
+    public var generatedBy: String?
+    public var generatedOn: String?
+
+    public init(name: String, span: String? = nil, places: String? = nil,
+                context: [InfoParagraph] = [],
+                generatedBy: String? = nil, generatedOn: String? = nil) {
+        self.name = name
+        self.span = span
+        self.places = places
+        self.context = context
+        self.generatedBy = generatedBy
+        self.generatedOn = generatedOn
+    }
+
+    /// "1606–1669 · Leiden and Amsterdam"
+    public var subtitle: String? {
+        let parts = [span, places].compactMap(\.self)
+        return parts.isEmpty ? nil : parts.joined(separator: " · ")
+    }
+}
+
 public struct InfoFile: Codable, Sendable {
     public var schemaVersion: Int
     public var sources: [String: InfoSource]
     public var entries: [String: WorkInfo]
     public var schools: [String: SchoolInfo]
+    public var artists: [String: ArtistInfo]
     /// Manifest movement string -> school key, for the many near-synonyms the
     /// source data carries ("Italian Baroque painting", "Spanish Baroque
     /// painting"). Only for movements a school genuinely covers — never to
     /// bolt a rough match onto the nearest entry.
     public var schoolAliases: [String: String]
+    /// Manifest `artistSort` -> artist key. The manifest's sort keys were built
+    /// by moving the last word to the front, which splits one painter across
+    /// several strings — an accent ("Manet, Édouard" beside "Manet, Edouard"),
+    /// a parenthesised full name, an honorific, or a patronymic Rembrandt is
+    /// filed under four different ways. Same discipline as `schoolAliases`:
+    /// only for variants that are genuinely the same hand, never to attach a
+    /// near-miss to the closest entry.
+    public var artistAliases: [String: String]
 
     public init(schemaVersion: Int = 1, sources: [String: InfoSource] = [:],
                 entries: [String: WorkInfo] = [:],
                 schools: [String: SchoolInfo] = [:],
-                schoolAliases: [String: String] = [:]) {
+                schoolAliases: [String: String] = [:],
+                artists: [String: ArtistInfo] = [:],
+                artistAliases: [String: String] = [:]) {
         self.schemaVersion = schemaVersion
         self.sources = sources
         self.entries = entries
         self.schools = schools
         self.schoolAliases = schoolAliases
+        self.artists = artists
+        self.artistAliases = artistAliases
     }
 
-    // `schools` arrived after the first entries were written, so treat a
-    // missing key as empty rather than failing the whole file.
+    // `schools` and later `artists` arrived after the first entries were
+    // written, so treat a missing key as empty rather than failing the file.
     public init(from decoder: Decoder) throws {
         let c = try decoder.container(keyedBy: CodingKeys.self)
         schemaVersion = try c.decodeIfPresent(Int.self, forKey: .schemaVersion) ?? 1
@@ -119,6 +169,21 @@ public struct InfoFile: Codable, Sendable {
         entries = try c.decodeIfPresent([String: WorkInfo].self, forKey: .entries) ?? [:]
         schools = try c.decodeIfPresent([String: SchoolInfo].self, forKey: .schools) ?? [:]
         schoolAliases = try c.decodeIfPresent([String: String].self, forKey: .schoolAliases) ?? [:]
+        artists = try c.decodeIfPresent([String: ArtistInfo].self, forKey: .artists) ?? [:]
+        artistAliases = try c.decodeIfPresent([String: String].self, forKey: .artistAliases) ?? [:]
+    }
+
+    /// Look up a painter by the manifest's `artistSort`, then through aliases.
+    /// Matched loosely for the same reason movements are, and never for
+    /// "Unknown" — 60 works are filed under it with no painter in common.
+    public func artist(forSort sort: String?) -> ArtistInfo? {
+        guard let sort, sort != "Unknown" else { return nil }
+        if let hit = artists[sort] { return hit }
+        let key = sort.lowercased()
+        if let hit = artists.first(where: { $0.key.lowercased() == key })?.value { return hit }
+        guard let alias = artistAliases[sort]
+                ?? artistAliases.first(where: { $0.key.lowercased() == key })?.value else { return nil }
+        return artists[alias] ?? artists.first { $0.key.lowercased() == alias.lowercased() }?.value
     }
 
     /// Movement strings vary in case between sources ("Post-impressionism"
