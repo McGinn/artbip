@@ -78,6 +78,30 @@
       "author": "E. H. Gombrich",
       "year": 1995,
       "kind": "book"
+    },
+    "boime-academy-french-painting": {
+      "title": "The Academy and French Painting in the Nineteenth Century",
+      "author": "Albert Boime",
+      "year": 1971,
+      "kind": "book"
+    },
+    "nochlin-politics-of-vision": {
+      "title": "The Politics of Vision: Essays on Nineteenth-Century Art and Society",
+      "author": "Linda Nochlin",
+      "year": 1989,
+      "kind": "ebook"
+    },
+    "stevens-orientalists": {
+      "title": "The Orientalists: Delacroix to Matisse",
+      "author": "MaryAnne Stevens (ed.)",
+      "year": 1984,
+      "kind": "book"
+    },
+    "hughes-shock-of-the-new": {
+      "title": "The Shock of the New",
+      "author": "Robert Hughes",
+      "year": 1991,
+      "kind": "ebook"
     }
   },
   "entries": {
@@ -854,6 +878,118 @@
       ],
       "generatedBy": "claude-opus-5",
       "generatedOn": "2026-08-03"
+    },
+    "Realism": {
+      "name": "Realism",
+      "span": "1840s–1870s",
+      "places": "France, and beyond",
+      "context": [
+        {
+          "text": "In its specific sense — usually capitalised — a movement in nineteenth-century, particularly French, art: a rebellion against the traditional historical, mythological and religious subjects in favour of unidealised scenes of modern life. Courbet led it, insisting that painting is 'essentially a concrete art' and must be applied to real and existing things.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:542"
+          ]
+        },
+        {
+          "text": "The word is also used far more loosely, close to naturalism, for any wish to depict things accurately and objectively. Even then it usually carries a rejection of conventionally beautiful subjects and of idealisation, often with a stress on low life or on the activities of ordinary people.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:542"
+          ]
+        }
+      ],
+      "generatedBy": "claude-opus-5",
+      "generatedOn": "2026-08-03"
+    },
+    "Classicism": {
+      "name": "Classicism",
+      "span": "recurring, from antiquity onwards",
+      "places": "Rooted in Greece and Rome",
+      "context": [
+        {
+          "text": "The spirit of order, clarity and harmony traditionally associated with the art of ancient Greece and Rome. At its broadest the term denotes the opposite of Romanticism: art in which adherence to recognised aesthetic ideals takes precedence over individuality of expression.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:159"
+          ]
+        },
+        {
+          "text": "Direct inspiration from antique art is often implied but is not a necessary part of the idea. Depending on context the word may convey little more than clarity of expression — or, less kindly, conservatism.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:159"
+          ]
+        }
+      ],
+      "generatedBy": "claude-opus-5",
+      "generatedOn": "2026-08-03"
+    },
+    "academic art": {
+      "name": "Academic art",
+      "span": "17th–19th century, at its height in 19th-century France",
+      "places": "The Paris Salon, and academies across Europe",
+      "context": [
+        {
+          "text": "Painting made in the tradition of the official academies, whose teaching and whose Salon juries defined what serious art should look like. The Academy ranked its genres, and guarded the ranking: its members were wary of encouraging landscape painters to the point where the prestige of history painting might be undermined.",
+          "cite": [
+            "book:boime-academy-french-painting:162"
+          ]
+        },
+        {
+          "text": "Albert Boime argues that the modern contempt for this art is itself an ideological position. The downgrading of the Academy and its teachers, he writes, was a stance taken by apologists for the avant-garde — one that obscured a real continuity between academic training and the modernists who emerged from it.",
+          "cite": [
+            "book:boime-academy-french-painting:12"
+          ]
+        }
+      ],
+      "generatedBy": "claude-opus-5",
+      "generatedOn": "2026-08-03"
+    },
+    "Orientalism": {
+      "name": "Orientalism",
+      "span": "19th century",
+      "places": "French and British painters; subjects from North Africa and the Near East",
+      "context": [
+        {
+          "text": "European painting of North Africa and the Near East, whose flowering was closely associated with the apogee of European colonial expansion in the nineteenth century. Its unifying characteristic, in the standard account, was an attempt at documentary realism.",
+          "cite": [
+            "book:nochlin-politics-of-vision:12"
+          ]
+        },
+        {
+          "text": "Linda Nochlin argues such pictures cannot be looked at apart from the power structure that produced them. She reads Gérôme's Snake Charmer as a distillation of the Westerner's notion of the Oriental, couched in the language of a would-be transparent naturalism — and the question to put to their realism is whose reality it is.",
+          "cite": [
+            "book:nochlin-politics-of-vision:12"
+          ]
+        },
+        {
+          "text": "It was also a commercial success: Fromentin, Lewis, Gérôme and Decamps commanded high prices, enough that popular compositions were frequently repeated as copies and variants.",
+          "cite": [
+            "book:stevens-orientalists:23"
+          ]
+        }
+      ],
+      "generatedBy": "claude-opus-5",
+      "generatedOn": "2026-08-03"
+    },
+    "Modernism": {
+      "name": "Modernism",
+      "span": "c. 1880–1970s",
+      "places": "Europe and America",
+      "context": [
+        {
+          "text": "Robert Hughes dates the blossoming of a sense of modernity in European culture to roughly 1880–1914, when the myth of the Future was born in the millenarian optimism surrounding the high machine age, as one century clicked over into the next.",
+          "cite": [
+            "book:hughes-shock-of-the-new:6"
+          ]
+        },
+        {
+          "text": "Its ending was institutional rather than dramatic. By the 1970s modernism had become the official culture of America and Europe — enshrined in museums, underwritten by corporations and government agencies — as the idea of an avant-garde petered out.",
+          "cite": [
+            "book:hughes-shock-of-the-new:6",
+            "book:hughes-shock-of-the-new:14"
+          ]
+        }
+      ],
+      "generatedBy": "claude-opus-5",
+      "generatedOn": "2026-08-03"
     }
   },
   "schoolAliases": {
@@ -862,6 +998,11 @@
     "Spanish Baroque painting": "Baroque",
     "Italian Renaissance": "Renaissance",
     "Italian Renaissance painting": "Renaissance",
-    "German Renaissance": "Northern Renaissance"
+    "German Renaissance": "Northern Renaissance",
+    "French Realism": "Realism",
+    "Flemish Baroque painting": "Baroque",
+    "Baroque painting": "Baroque",
+    "divisionism": "pointillism",
+    "Neo-impressionism": "pointillism"
   }
 }
