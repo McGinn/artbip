@@ -31,10 +31,7 @@ public enum WallpaperEngine {
             options.label = ComposeLabel(title: work.title, detail: detail)
         }
 
-        let screens = NSScreen.screens
-        guard !screens.isEmpty else {
-            throw RuntimeError("no screens available (is a GUI session running?)")
-        }
+        let screens = try currentScreens()
         captureOriginals(store: store, screens: screens)
         // macOS treats setDesktopImageURL as a no-op when the URL matches the
         // current wallpaper, even if the file's contents changed — so the name
@@ -45,6 +42,14 @@ public enum WallpaperEngine {
             let scale = screen.backingScaleFactor
             let w = Int(screen.frame.width * scale)
             let h = Int(screen.frame.height * scale)
+            // setDesktopImageURL is a silent no-op for a screen macOS no longer
+            // considers attached, and reading the wallpaper back to confirm is
+            // not an option (NSWorkspace caches it per process and will not
+            // reflect our own write) — so re-check CoreGraphics, which stays
+            // live, before spending a compose on a display that just left.
+            guard let id = displayID(screen), activeDisplayIDs().contains(id) else {
+                throw RuntimeError("display detached while composing \(work.id) at \(w)x\(h)")
+            }
             guard let composed = Compositor.compose(art: art, targetWidth: w, targetHeight: h,
                                                     dominantHSL: work.paletteDominantHSL,
                                                     options: options),
@@ -65,19 +70,60 @@ public enum WallpaperEngine {
             .prefix(4).map { String(format: "%02x", $0) }.joined()
     }
 
+    /// What is *actually* attached right now. CoreGraphics needs no run loop, so
+    /// unlike NSScreen this stays correct in the CLI daemon.
+    static func activeDisplayIDs() -> [CGDirectDisplayID] {
+        var count: UInt32 = 0
+        var ids = [CGDirectDisplayID](repeating: 0, count: 16)
+        CGGetActiveDisplayList(UInt32(ids.count), &ids, &count)
+        return Array(ids.prefix(Int(count)))
+    }
+
+    /// The CoreGraphics display a screen belongs to, or nil for the rare screen
+    /// that reports no NSScreenNumber.
+    static func displayID(_ screen: NSScreen) -> CGDirectDisplayID? {
+        (screen.deviceDescription[NSDeviceDescriptionKey("NSScreenNumber")] as? NSNumber)
+            .map { CGDirectDisplayID($0.uint32Value) }
+    }
+
     /// Stable fingerprint of the attached displays (id + pixel size), used to
     /// detect hotplug/resolution changes. CoreGraphics-based so it stays fresh
     /// in the CLI daemon, which has no AppKit run loop to update NSScreen.
     public static func displaySignature() -> String {
-        var count: UInt32 = 0
-        var ids = [CGDirectDisplayID](repeating: 0, count: 16)
-        CGGetActiveDisplayList(UInt32(ids.count), &ids, &count)
-        return ids.prefix(Int(count))
+        activeDisplayIDs()
             .map { id -> String in
                 let mode = CGDisplayCopyDisplayMode(id)
                 return "\(id):\(mode?.pixelWidth ?? 0)x\(mode?.pixelHeight ?? 0)"
             }
             .sorted().joined(separator: ",")
+    }
+
+    /// NSScreen.screens, but only once AppKit agrees with CoreGraphics about
+    /// which displays exist.
+    ///
+    /// AppKit rebuilds its cached screen list from the main run loop. The daemon
+    /// is a plain LaunchAgent with no NSApplication, so that refresh can lag by
+    /// hours — long enough to compose for a monitor unplugged overnight and hand
+    /// it to setDesktopImageURL, which silently does nothing for a detached
+    /// screen. Pump the run loop until the two views match; give up rather than
+    /// paint a phantom display, so the caller can log a real error and retry.
+    @MainActor
+    public static func currentScreens(timeout: TimeInterval = 2) throws -> [NSScreen] {
+        let deadline = Date().addingTimeInterval(timeout)
+        while true {
+            let attached = Set(activeDisplayIDs())
+            guard !attached.isEmpty else {
+                throw RuntimeError("no screens available (is a GUI session running?)")
+            }
+            let screens = NSScreen.screens
+            if Set(screens.compactMap(displayID)) == attached { return screens }
+            guard Date() < deadline else {
+                let seen = screens.compactMap(displayID).map(String.init).sorted().joined(separator: ",")
+                let real = attached.map(String.init).sorted().joined(separator: ",")
+                throw RuntimeError("stale screen list: AppKit reports displays [\(seen)] but CoreGraphics reports [\(real)]")
+            }
+            RunLoop.main.run(until: Date().addingTimeInterval(0.05))
+        }
     }
 
     /// True when at least one screen currently shows a wallpaper artbip composed.
@@ -86,17 +132,17 @@ public enum WallpaperEngine {
     @MainActor
     public static func ownsDesktop(store: RuntimeStore) -> Bool {
         let own = store.wallpapersDir.standardizedFileURL.path + "/"
-        return NSScreen.screens.contains {
+        // Best effort: a stale list here only risks a redundant re-apply, so fall
+        // back to whatever AppKit has rather than reporting "not ours".
+        let screens = (try? currentScreens()) ?? NSScreen.screens
+        return screens.contains {
             NSWorkspace.shared.desktopImageURL(for: $0)?
                 .standardizedFileURL.path.hasPrefix(own) == true
         }
     }
 
     private static func screenKey(_ screen: NSScreen) -> String {
-        if let n = screen.deviceDescription[NSDeviceDescriptionKey("NSScreenNumber")] as? NSNumber {
-            return n.stringValue
-        }
-        return screen.localizedName
+        displayID(screen).map(String.init) ?? screen.localizedName
     }
 
     /// Record what each screen showed before artbip touches it, once per
@@ -129,7 +175,7 @@ public enum WallpaperEngine {
             throw RuntimeError("no original wallpaper recorded — artbip saves it the first time it changes the desktop")
         }
         var restored = 0
-        for screen in NSScreen.screens {
+        for screen in try currentScreens() {
             guard let path = saved[screenKey(screen)] ?? saved.values.first,
                   FileManager.default.fileExists(atPath: path) else { continue }
             try NSWorkspace.shared.setDesktopImageURL(URL(fileURLWithPath: path), for: screen, options: [:])

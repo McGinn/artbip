@@ -67,11 +67,9 @@ struct RotateDaemon: AsyncParsableCommand {
             if sig != lastDisplaySignature {
                 lastDisplaySignature = sig
                 do {
-                    let owns = await MainActor.run { () -> Bool in
-                        // Pump the run loop briefly so AppKit refreshes NSScreen.screens.
-                        RunLoop.main.run(until: Date().addingTimeInterval(0.1))
-                        return WallpaperEngine.ownsDesktop(store: store)
-                    }
+                    // ownsDesktop resolves the screen list against CoreGraphics,
+                    // pumping the run loop until AppKit catches up.
+                    let owns = await MainActor.run { WallpaperEngine.ownsDesktop(store: store) }
                     if owns {
                         let manifest = try store.loadManifest(explicit: opts.manifest)
                         try await WallpaperEngine.refresh(store: store, manifest: manifest)
