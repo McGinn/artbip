@@ -5320,6 +5320,1011 @@
       ],
       "generatedBy": "claude-opus-5",
       "generatedOn": "2026-08-03"
+    },
+    "Troost, Cornelis": {
+      "name": "Cornelis Troost",
+      "span": "1696–1750",
+      "places": "Amsterdam",
+      "context": [
+        {
+          "text": "The outstanding Dutch artist of the eighteenth century. He made his name in 1724 with a lively group portrait of the Amsterdam Inspectors of the Collegium Medicum and went on succeeding as a formal portraitist and painter of conversation pieces, though he painted many other kinds of picture besides — theatrical subjects among them, having close connections with the stage.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:664"
+          ]
+        }
+      ],
+      "generatedBy": "claude-opus-5",
+      "generatedOn": "2026-08-03"
+    },
+    "Roslin, Alexander": {
+      "name": "Alexander Roslin",
+      "span": "1718–1793",
+      "places": "Sweden and Paris",
+      "context": [
+        {
+          "text": "A Swedish portrait painter active mainly in France. He left Sweden in 1745, worked at the courts of Bayreuth and Parma, and settled in Paris in 1752, where he rapidly became one of the leading portraitists of the day — esteemed above all for his rendering of expensive fabrics and delicate complexions. Satin, skin? Go to Roslin.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:569"
+          ]
+        }
+      ],
+      "generatedBy": "claude-opus-5",
+      "generatedOn": "2026-08-03"
+    },
+    "Barocci, Federico": {
+      "name": "Federico Barocci",
+      "span": "c. 1535–1612",
+      "places": "Urbino",
+      "context": [
+        {
+          "text": "Generally considered the greatest and most individual artist of his time in central Italy. Apart from two early visits to Rome he was based in Urbino all his life.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:69"
+          ]
+        },
+        {
+          "text": "During the second Roman stay he is said to have abandoned a fresco commission in the Vatican gardens because he believed rivals were trying to poison him, and he suffered ill health for the rest of his life.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:69"
+          ]
+        }
+      ],
+      "generatedBy": "claude-opus-5",
+      "generatedOn": "2026-08-03"
+    },
+    "Hayez, Francesco": {
+      "name": "Francesco Hayez",
+      "span": "1791–1882",
+      "places": "Venice and Milan",
+      "context": [
+        {
+          "text": "The most important figure in the transition from Neoclassicism to Romanticism in Italian painting. He was born in Venice and worked mainly in Milan.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:314"
+          ]
+        }
+      ],
+      "generatedBy": "claude-opus-5",
+      "generatedOn": "2026-08-03"
+    },
+    "Runge, Philipp Otto": {
+      "name": "Philipp Otto Runge",
+      "span": "1777–1810",
+      "places": "Copenhagen, Dresden and Hamburg",
+      "context": [
+        {
+          "text": "He started late and died young, of consumption at thirty-three, yet he ranks second only to Friedrich among German Romantic painters. He studied at the Copenhagen Academy, then moved to Dresden where he knew Friedrich, and settled in Hamburg in 1803.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:582"
+          ]
+        },
+        {
+          "text": "He was of a mystical, pantheistic turn of mind, and the work is an attempt to give that outlook visible form.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:582"
+          ]
+        }
+      ],
+      "generatedBy": "claude-opus-5",
+      "generatedOn": "2026-08-03"
+    },
+    "Leibl, Wilhelm": {
+      "name": "Wilhelm Leibl",
+      "span": "1844–1900",
+      "places": "Munich and Bavaria",
+      "context": [
+        {
+          "text": "One of the leading exponents of Realism in Germany. He studied at the Munich Academy and met Courbet there in 1869, when Courbet was visiting for an international exhibition; later that year he moved to Paris to work with him, until the Franco-Prussian War drove him home.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:379"
+          ]
+        },
+        {
+          "text": "He went on exhibiting in Paris, and in his own lifetime his reputation stood higher in France than in Germany.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:379"
+          ]
+        }
+      ],
+      "generatedBy": "claude-opus-5",
+      "generatedOn": "2026-08-03"
+    },
+    "Hughes, Arthur": {
+      "name": "Arthur Hughes",
+      "span": "1832–1915",
+      "places": "London",
+      "context": [
+        {
+          "text": "In the 1850s he was one of the most distinguished of the Pre-Raphaelite sympathisers, remarkable for a lyrical delicacy of colour and drawing. Two paintings are particularly well known: April Love, which Ruskin called exquisite in every way, and The Long Engagement. After about 1870 the quality fell away.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:332"
+          ]
+        }
+      ],
+      "generatedBy": "claude-opus-5",
+      "generatedOn": "2026-08-03"
+    },
+    "Böcklin, Arnold": {
+      "name": "Arnold Böcklin",
+      "span": "1827–1901",
+      "places": "Basle and Italy",
+      "context": [
+        {
+          "text": "With Hodler he ranks as the most important Swiss painter of the nineteenth century, and in the 1880s and 1890s he was the most influential artist in the German-speaking world — even though he had spent most of his time in Italy since 1850.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:98"
+          ]
+        },
+        {
+          "text": "He established his reputation with Pan in the Reeds in 1857.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:98"
+          ]
+        }
+      ],
+      "generatedBy": "claude-opus-5",
+      "generatedOn": "2026-08-03"
+    },
+    "Bellotto, Bernardo": {
+      "name": "Bernardo Bellotto",
+      "span": "1721–1780",
+      "places": "Venice, Dresden and Warsaw",
+      "context": [
+        {
+          "text": "Canaletto's nephew, pupil and assistant in Venice. He joined the Venetian painters' guild in 1738 and spent the 1740s travelling, before a career that took him north to Dresden and finally Warsaw, where he died.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:83"
+          ]
+        }
+      ],
+      "generatedBy": "claude-opus-5",
+      "generatedOn": "2026-08-03"
+    },
+    "Champaigne, Philippe de": {
+      "name": "Philippe de Champaigne",
+      "span": "1602–1674",
+      "places": "Brussels and Paris",
+      "context": [
+        {
+          "text": "Flemish-born, he settled in Paris in 1621 and became a French citizen in 1629. He had trained in Brussels mainly as a landscape painter, but almost everything he made is religious pictures or portraits — the few landscapes serve as settings for religious subjects.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:151"
+          ]
+        },
+        {
+          "text": "As a religious painter he ranks high among his French contemporaries; as a portraitist he stands head and shoulders above them.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:151"
+          ]
+        }
+      ],
+      "generatedBy": "claude-opus-5",
+      "generatedOn": "2026-08-03"
+    },
+    "Gérard, François": {
+      "name": "François Gérard",
+      "span": "1770–1837",
+      "places": "Rome and Paris",
+      "context": [
+        {
+          "text": "Born in Rome, where his father worked for the French ambassador to the Vatican and his mother was Italian. The family returned to Paris in 1782 and he began studying with Jacques-Louis David in 1786, becoming one of his favourite pupils.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:269"
+          ]
+        },
+        {
+          "text": "He won acclaim at the Salon of 1796 with a double portrait, and by the turn of the century was established as France's leading society portraitist.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:269"
+          ]
+        }
+      ],
+      "generatedBy": "claude-opus-5",
+      "generatedOn": "2026-08-03"
+    },
+    "Martin, John": {
+      "name": "John Martin",
+      "span": "1789–1854",
+      "places": "Northumberland and London",
+      "context": [
+        {
+          "text": "A Romantic painter and mezzotint engraver celebrated for melodramatic scenes of cataclysm — vast architectural or landscape settings crowded with tiny figures. He caught the public imagination with spectacular pictures such as Joshua Commanding the Sun to Stand Still, the work that made his reputation.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:417"
+          ]
+        }
+      ],
+      "generatedBy": "claude-opus-5",
+      "generatedOn": "2026-08-03"
+    },
+    "Raeburn, Henry": {
+      "name": "Sir Henry Raeburn",
+      "span": "1756–1823",
+      "places": "Edinburgh",
+      "context": [
+        {
+          "text": "The leading Scottish portrait painter of his period, and the first major Scottish painter to work largely in his own country. His portraits make a superb visual record of a golden age of culture and society in Scotland, and in Edinburgh particularly.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:537"
+          ]
+        },
+        {
+          "text": "He was apprenticed to a goldsmith on leaving school and appears to have been largely self-taught as a painter.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:537"
+          ]
+        }
+      ],
+      "generatedBy": "claude-opus-5",
+      "generatedOn": "2026-08-03"
+    },
+    "Dahl, Johan Christian": {
+      "name": "Johan Christian Dahl",
+      "span": "1788–1857",
+      "places": "Bergen and Dresden",
+      "context": [
+        {
+          "text": "A Norwegian landscape painter active mainly in Dresden, where he became a professor at the Academy in 1824. Despite the long German residence he took his subjects mainly from Norway and began its tradition of landscape painting — he is often called the discoverer of the Norwegian landscape.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:190"
+          ]
+        },
+        {
+          "text": "He was a friend of Friedrich and shared his feeling for Romantic grandeur in nature.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:190"
+          ]
+        }
+      ],
+      "generatedBy": "claude-opus-5",
+      "generatedOn": "2026-08-03"
+    },
+    "Anguissola, Sofonisba": {
+      "name": "Sofonisba Anguissola",
+      "span": "c. 1535–1625",
+      "places": "Cremona, Madrid and Palermo",
+      "context": [
+        {
+          "text": "A portrait painter, one of six painter sisters from an aristocratic family in Cremona. She was the first woman artist to achieve international renown: in 1559 she was invited to Spain to work at the court of Philip II, stayed more than a decade, and then settled in Sicily.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:46"
+          ]
+        },
+        {
+          "text": "In 1624, when she was about ninety, she was visited in Palermo by the young van Dyck, who drew her portrait.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:46"
+          ]
+        }
+      ],
+      "generatedBy": "claude-opus-5",
+      "generatedOn": "2026-08-03"
+    },
+    "Veneziano, Domenico": {
+      "name": "Domenico Veneziano",
+      "span": "d. 1461",
+      "places": "Perugia and Florence",
+      "context": [
+        {
+          "text": "An important but enigmatic figure whose life is poorly documented. His name says he came from Venice, but he is first recorded in Perugia in 1438 and was active mainly in Florence.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:210"
+          ]
+        },
+        {
+          "text": "Vasari credits him with introducing oil painting to Tuscany. That is not correct, but he does seem to have brought a new interest in colour and texture to a tradition where draughtsmanship had ruled.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:210"
+          ]
+        }
+      ],
+      "generatedBy": "claude-opus-5",
+      "generatedOn": "2026-08-03"
+    },
+    "Sassoferrato, Giovanni Battista Salvi da": {
+      "name": "Sassoferrato",
+      "span": "1609–1685",
+      "places": "Rome and central Italy",
+      "context": [
+        {
+          "text": "Known by the name of the town he was born in, and active in Urbino, Rome — where he is said to have been a pupil of Domenichino — and Perugia. He painted some portraits but specialised in religious works, in an extremely sweet, almost Peruginesque style: clearly drawn, pure in colour, and entirely un-Baroque in feeling.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:595"
+          ]
+        }
+      ],
+      "generatedBy": "claude-opus-5",
+      "generatedOn": "2026-08-03"
+    },
+    "Velde, Adriaen van de": {
+      "name": "Adriaen van de Velde",
+      "span": "1636–1672",
+      "places": "Amsterdam",
+      "context": [
+        {
+          "text": "A versatile and prolific artist in spite of a short life, said to have been taught by his father and by Jan Wijnants. His output ran to landscapes of various kinds — some fresh, atmospheric beach scenes above all — as well as religious and mythological works, portraits and animal pictures.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:681"
+          ]
+        },
+        {
+          "text": "He made etchings too, and often painted the figures into other artists' landscapes, among them Hobbema's and Ruisdael's.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:681"
+          ]
+        }
+      ],
+      "generatedBy": "claude-opus-5",
+      "generatedOn": "2026-08-03"
+    },
+    "Younger, Willem van de Velde the": {
+      "name": "Willem van de Velde the Younger",
+      "span": "1633–1707",
+      "places": "Amsterdam and London",
+      "context": [
+        {
+          "text": "One of the most illustrious of all marine painters. He was the pupil of his father and of Simon de Vlieger, and like his father gave very accurate portrayals of ships — but he is distinguished from him by a feeling for atmosphere and a majestic sense of composition.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:681"
+          ]
+        },
+        {
+          "text": "He left Amsterdam for England with his father in 1672, and in 1674 Charles II put them both on a yearly retainer: the father for taking and making draughts of sea fights, the son for putting those draughts into colours. The whole English tradition of marine painting stems from him.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:681"
+          ]
+        }
+      ],
+      "generatedBy": "claude-opus-5",
+      "generatedOn": "2026-08-03"
+    },
+    "Elder, Jan Brueghel the": {
+      "name": "Jan Brueghel the Elder",
+      "span": "1568–1625",
+      "places": "Italy and Antwerp",
+      "context": [
+        {
+          "text": "The younger son of Pieter Bruegel. He worked in Italy from 1590 to 1596, then settled in Antwerp for the rest of a highly successful career. His specialities were still life — flower paintings above all — and landscape, but he worked in an entirely different spirit from his father: brilliantly coloured, lush woodland scenes, often with mythological figures.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:120"
+          ]
+        },
+        {
+          "text": "His delicate textures earned him the nickname 'Velvet' Brueghel. He often collaborated with other artists, his close friend Rubens especially, painting the backgrounds, animals or flowers for them.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:120"
+          ]
+        }
+      ],
+      "generatedBy": "claude-opus-5",
+      "generatedOn": "2026-08-03"
+    },
+    "Durand, Asher Brown": {
+      "name": "Asher B. Durand",
+      "span": "1796–1886",
+      "places": "New Jersey and the Catskills",
+      "context": [
+        {
+          "text": "His early work was mainly engraving, and he made his reputation with a print after Trumbull's Declaration of Independence and with portraits of eminent contemporaries. In the 1830s he turned increasingly to painting, at first as a portraitist and then to landscape, becoming a leading figure of the Hudson River School.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:221"
+          ]
+        },
+        {
+          "text": "Thomas Cole was his major inspiration, and his most famous painting, Kindred Spirits, was made as a memorial to him: it shows Cole, who had died the previous year, with the poet William Cullen Bryant, admiring the scenery of the Catskills.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:221"
+          ]
+        }
+      ],
+      "generatedBy": "claude-opus-5",
+      "generatedOn": "2026-08-03"
+    },
+    "Elsheimer, Adam": {
+      "name": "Adam Elsheimer",
+      "span": "1578–1610",
+      "places": "Frankfurt, Venice and Rome",
+      "context": [
+        {
+          "text": "He died young and his output was small, but he played a key role in the development of seventeenth-century landscape painting. He absorbed the Coninxloo tradition in Frankfurt, moved to Italy in 1598, worked in Venice with a countryman, and settled in Rome in 1600.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:230"
+          ]
+        }
+      ],
+      "generatedBy": "claude-opus-5",
+      "generatedOn": "2026-08-03"
+    },
+    "Guercino": {
+      "name": "Guercino",
+      "span": "1591–1666",
+      "places": "Cento, Rome and Bologna",
+      "context": [
+        {
+          "text": "One of the outstanding Italian painters and draughtsmen of the seventeenth century. The nickname means 'Squinter', given him for an eye defect said to have come from a childhood accident.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:304"
+          ]
+        },
+        {
+          "text": "He seems to have been mainly self-taught, and the early work draws on a variety of north Italian sources, Ludovico Carracci above all.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:304"
+          ]
+        }
+      ],
+      "generatedBy": "claude-opus-5",
+      "generatedOn": "2026-08-03"
+    },
+    "Warhol, Andy": {
+      "name": "Andy Warhol",
+      "span": "1928–1987",
+      "places": "Pittsburgh and New York",
+      "context": [
+        {
+          "text": "One of the most famous and controversial artists of the twentieth century. Through the 1950s he was enormously successful as a commercial artist in New York, specialising in shoe advertisements.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:696"
+          ]
+        },
+        {
+          "text": "In 1960 he began making pictures based on mass-produced images — newspaper advertisements, comic strips — and from there moved to the repeated consumer products and celebrity faces he is known for.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:696"
+          ]
+        }
+      ],
+      "generatedBy": "claude-opus-5",
+      "generatedOn": "2026-08-03"
+    },
+    "Potter, Paulus": {
+      "name": "Paulus Potter",
+      "span": "1625–1654",
+      "places": "Delft, The Hague and Amsterdam",
+      "context": [
+        {
+          "text": "A painter and etcher of animals in landscapes. His best-known work, the life-size Young Bull, was in the nineteenth century among the most famous of all Dutch paintings; later taste has found its detailed, precise manner rather dry and laboured and preferred his smaller, more characteristic pictures.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:524"
+          ]
+        }
+      ],
+      "generatedBy": "claude-opus-5",
+      "generatedOn": "2026-08-03"
+    },
+    "Stubbs, George": {
+      "name": "George Stubbs",
+      "span": "1724–1806",
+      "places": "Liverpool and London",
+      "context": [
+        {
+          "text": "Celebrated as the greatest of all horse painters. He was a leatherworker's son and followed his father's trade until about sixteen, and as an artist he was virtually self-taught, working only briefly with another painter.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:636"
+          ]
+        },
+        {
+          "text": "His life up to his mid-thirties is poorly documented and was spent mainly in the north of England.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:636"
+          ]
+        }
+      ],
+      "generatedBy": "claude-opus-5",
+      "generatedOn": "2026-08-03"
+    },
+    "Botticini, Francesco": {
+      "name": "Francesco Botticini",
+      "span": "c. 1446–1498",
+      "places": "Florence",
+      "context": [
+        {
+          "text": "His style is built almost entirely out of elements borrowed from more illustrious contemporaries — Botticelli, Ghirlandaio, Filippino Lippi, Verrocchio. He painted one remarkable work all the same, an Assumption of the Virgin of about 1474.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:107"
+          ]
+        }
+      ],
+      "generatedBy": "claude-opus-5",
+      "generatedOn": "2026-08-03"
+    },
+    "Landseer, Edwin": {
+      "name": "Sir Edwin Landseer",
+      "span": "c. 1802–1873",
+      "places": "London",
+      "context": [
+        {
+          "text": "A painter, sculptor and engraver, mainly of animal subjects. The son of an engraver, he was an infant prodigy, and his career was a story of remarkable social as well as professional success — he was Queen Victoria's favourite painter, and counted Dickens among his friends.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:369"
+          ]
+        }
+      ],
+      "generatedBy": "claude-opus-5",
+      "generatedOn": "2026-08-03"
+    },
+    "Rigaud, Hyacinthe": {
+      "name": "Hyacinthe Rigaud",
+      "span": "1659–1743",
+      "places": "Perpignan and Paris",
+      "context": [
+        {
+          "text": "A portrait painter, the friend and rival of Largillière. He began his career in Montpellier and settled in Paris in 1681.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:557"
+          ]
+        }
+      ],
+      "generatedBy": "claude-opus-5",
+      "generatedOn": "2026-08-03"
+    },
+    "Gris, Juan": {
+      "name": "Juan Gris",
+      "span": "1887–1927",
+      "places": "Madrid and Paris",
+      "context": [
+        {
+          "text": "He settled in Paris in 1906 and earned his living at first with humorous drawings for periodicals, not painting in earnest until 1910. By then he was strongly under the influence of his fellow Spaniard Picasso, and his serious work was almost entirely Cubist.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:300"
+          ]
+        }
+      ],
+      "generatedBy": "claude-opus-5",
+      "generatedOn": "2026-08-03"
+    },
+    "Bellows, George": {
+      "name": "George Bellows",
+      "span": "1882–1925",
+      "places": "Ohio and New York",
+      "context": [
+        {
+          "text": "A pupil and leading follower of Robert Henri. An outstanding athlete in his youth and noted for a hearty, outgoing character, he is best known for his boxing scenes — A Stag at Sharkey's above all, remarkable for its vivid sense of movement and energetic, sketchy brushwork.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:84"
+          ]
+        }
+      ],
+      "generatedBy": "claude-opus-5",
+      "generatedOn": "2026-08-03"
+    },
+    "Gallen-Kallela, Akseli": {
+      "name": "Akseli Gallen-Kallela",
+      "span": "1865–1931",
+      "places": "Finland",
+      "context": [
+        {
+          "text": "A major figure in Art Nouveau and Symbolism. He travelled widely and was well known outside Finland, particularly in Germany — he exhibited jointly with Munch in Berlin in 1895 and with Die Brücke in Dresden in 1910.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:264"
+          ]
+        },
+        {
+          "text": "He was deeply patriotic, and volunteered to fight in Finland's War of Independence.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:264"
+          ]
+        }
+      ],
+      "generatedBy": "claude-opus-5",
+      "generatedOn": "2026-08-03"
+    },
+    "Heemskerck, Maarten van": {
+      "name": "Maarten van Heemskerck",
+      "span": "1498–1574",
+      "places": "Haarlem and Rome",
+      "context": [
+        {
+          "text": "Named after his native town and active mainly in nearby Haarlem, where he was the leading artist of the day. The most important part of his training was with Jan van Scorel in Utrecht around 1527–9 — though Heemskerck was only three years younger than Scorel and already a mature man, having studied with two other teachers first.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:317"
+          ]
+        }
+      ],
+      "generatedBy": "claude-opus-5",
+      "generatedOn": "2026-08-03"
+    },
+    "Uccello, Paolo": {
+      "name": "Paolo Uccello",
+      "span": "c. 1397–1475",
+      "places": "Florence",
+      "context": [
+        {
+          "text": "One of the most distinctive artists of the early Renaissance. Vasari says he was called Uccello — 'bird' — because he loved animals and birds in particular, and he seems to have been regarded as something of an eccentric.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:669"
+          ]
+        },
+        {
+          "text": "He is first documented around 1412 as an apprentice of Ghiberti, though he is not known to have worked as a sculptor.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:669"
+          ]
+        }
+      ],
+      "generatedBy": "claude-opus-5",
+      "generatedOn": "2026-08-03"
+    },
+    "Redon, Odilon": {
+      "name": "Odilon Redon",
+      "span": "1840–1916",
+      "places": "Bordeaux and Paris",
+      "context": [
+        {
+          "text": "One of the outstanding figures of Symbolism. He led a retiring life, in Bordeaux and then from 1870 in Paris, and until he was in his fifties he worked almost exclusively in black and white — charcoal drawings and lithographs.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:543"
+          ]
+        },
+        {
+          "text": "In those he developed a highly distinctive repertoire of weird subjects: strange amoeboid creatures, insects and plants with human heads.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:543"
+          ]
+        }
+      ],
+      "generatedBy": "claude-opus-5",
+      "generatedOn": "2026-08-03"
+    },
+    "Tura, Cosimo": {
+      "name": "Cosimo Tura",
+      "span": "c. 1430–1495",
+      "places": "Ferrara",
+      "context": [
+        {
+          "text": "The first major artist of the Ferrarese school. Almost all his career was spent in Ferrara, where he worked for the Este family from 1452 and was appointed court painter in 1458.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:666"
+          ]
+        },
+        {
+          "text": "His sculptural figure style owes something to Mantegna and to Piero della Francesca, who worked in Ferrara in the 1440s, but its feverish, metallic quality is entirely his own.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:666"
+          ]
+        }
+      ],
+      "generatedBy": "claude-opus-5",
+      "generatedOn": "2026-08-03"
+    },
+    "Chassériau, Théodore": {
+      "name": "Théodore Chassériau",
+      "span": "1819–1856",
+      "places": "Paris",
+      "context": [
+        {
+          "text": "The most gifted pupil of Ingres, with whom he began studying at eleven. In the 1840s he came under Delacroix's influence and attempted, with considerable success, to combine Ingres's classical linear grace with Delacroix's Romantic colour.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:153"
+          ]
+        }
+      ],
+      "generatedBy": "claude-opus-5",
+      "generatedOn": "2026-08-03"
+    },
+    "Bonnard, Pierre": {
+      "name": "Pierre Bonnard",
+      "span": "1867–1947",
+      "places": "Paris and the Côte d'Azur",
+      "context": [
+        {
+          "text": "His father, an official at the War Ministry, insisted he study law, but from 1888 he also attended art classes, where he met several young artists — his lifelong friend Vuillard among them — who went on to form the Nabis.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:101"
+          ]
+        }
+      ],
+      "generatedBy": "claude-opus-5",
+      "generatedOn": "2026-08-03"
+    },
+    "Vasnetsov, Viktor": {
+      "name": "Viktor Vasnetsov",
+      "span": "1848–1926",
+      "places": "Moscow",
+      "context": [
+        {
+          "text": "His early paintings were chiefly of contemporary subjects, sometimes involving the urban poor. From about 1880 he specialised in scenes from Russian history and legend, combining carefully researched detail with a feeling for the romance of myth.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:676"
+          ]
+        }
+      ],
+      "generatedBy": "claude-opus-5",
+      "generatedOn": "2026-08-03"
+    },
+    "Hogarth, William": {
+      "name": "William Hogarth",
+      "span": "1697–1764",
+      "places": "London",
+      "context": [
+        {
+          "text": "The outstanding British artist of his period. His father, a schoolteacher, was imprisoned for debt during his childhood, and that early sight of the seamy side of life left a deep mark: much of his output turns on the contrast between success and failure, and prisons appear in several works.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:326"
+          ]
+        },
+        {
+          "text": "He was equally great as painter and engraver, and by force of a pugnacious personality as much as by the quality of his work he freed British art from its domination by foreign artists.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:327"
+          ]
+        }
+      ],
+      "generatedBy": "claude-opus-5",
+      "generatedOn": "2026-08-03"
+    },
+    "Bakst, Léon": {
+      "name": "Léon Bakst",
+      "span": "1866–1924",
+      "places": "St Petersburg and Paris",
+      "context": [
+        {
+          "text": "A founder member of the World of Art group in 1898. He made his reputation first as a portraitist, but from about 1902 turned increasingly to stage design, and is remembered above all for his costumes and sets for Diaghilev's Ballets Russes.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:64"
+          ]
+        }
+      ],
+      "generatedBy": "claude-opus-5",
+      "generatedOn": "2026-08-03"
+    },
+    "Picasso, Pablo": {
+      "name": "Pablo Picasso",
+      "span": "1881–1973",
+      "places": "Málaga, Barcelona and France",
+      "context": [
+        {
+          "text": "The most famous, versatile, prolific and influential artist of the twentieth century. It is conventional to divide his work into phases, but every such division is to some extent arbitrary: his energy and imagination were such that he was often working in several directions at once.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:506"
+          ]
+        }
+      ],
+      "generatedBy": "claude-opus-5",
+      "generatedOn": "2026-08-03"
+    },
+    "Liotard, Jean-Étienne": {
+      "name": "Jean-Étienne Liotard",
+      "span": "1702–1789",
+      "places": "Geneva, Constantinople and across Europe",
+      "context": [
+        {
+          "text": "A Swiss painter, mainly in pastel. He travelled very widely and spent four years in Constantinople, after which he adopted Turkish dress and a beard — actually more Moldavian than Turkish. The eccentric appearance was useful self-publicity and is familiar from his many self-portraits.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:391"
+          ]
+        }
+      ],
+      "generatedBy": "claude-opus-5",
+      "generatedOn": "2026-08-03"
+    },
+    "Vrubel, Mikhail": {
+      "name": "Mikhail Vrubel",
+      "span": "1856–1910",
+      "places": "Kiev, Moscow and St Petersburg",
+      "context": [
+        {
+          "text": "The outstanding exponent of Symbolism in Russia. His first important work was restoring murals in a twelfth-century church in Kiev, and an affinity with the spirituality of medieval religious art runs through the rest of his career. He moved to Moscow in 1889.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:692"
+          ]
+        }
+      ],
+      "generatedBy": "claude-opus-5",
+      "generatedOn": "2026-08-03"
+    },
+    "Schinkel, Karl Friedrich": {
+      "name": "Karl Friedrich Schinkel",
+      "span": "1781–1841",
+      "places": "Berlin",
+      "context": [
+        {
+          "text": "The greatest German architect of the nineteenth century — but until 1815, when he took a senior appointment in the Prussian Public Works Department, he worked mainly as a painter and stage designer. The paintings are highly Romantic landscapes.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:598"
+          ]
+        }
+      ],
+      "generatedBy": "claude-opus-5",
+      "generatedOn": "2026-08-03"
+    },
+    "Sorolla, Joaquín": {
+      "name": "Joaquín Sorolla",
+      "span": "1863–1923",
+      "places": "Valencia and Madrid",
+      "context": [
+        {
+          "text": "A prolific and popular artist who worked across a wide range of subjects — genre, portraits, landscapes, historical scenes — and produced many book illustrations. His pleasant, undemanding style is marked by brilliant high-keyed colour.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:623"
+          ]
+        }
+      ],
+      "generatedBy": "claude-opus-5",
+      "generatedOn": "2026-08-03"
+    },
+    "Couture, Thomas": {
+      "name": "Thomas Couture",
+      "span": "1815–1879",
+      "places": "Paris",
+      "context": [
+        {
+          "text": "A historical and portrait painter, pupil of Gros and Delaroche, and later Manet's teacher. He is chiefly remembered for one vast orgy picture, The Romans of the Decadence, which was the sensation of the Salon of 1847.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:180"
+          ]
+        },
+        {
+          "text": "As with other one-hit wonders his reputation has sunk along with that painting, which is now often cited as the classic example of everything the next generation revolted against.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:180"
+          ]
+        }
+      ],
+      "generatedBy": "claude-opus-5",
+      "generatedOn": "2026-08-03"
+    },
+    "Schongauer, Martin": {
+      "name": "Martin Schongauer",
+      "span": "c. 1440–1491",
+      "places": "Colmar",
+      "context": [
+        {
+          "text": "A German engraver and painter, the best-known member of a family of artists — his father and two brothers were goldsmiths, two other brothers painters and engravers. His early years are obscure and estimates of his birth date range from about 1435 to about 1450.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:600"
+          ]
+        }
+      ],
+      "generatedBy": "claude-opus-5",
+      "generatedOn": "2026-08-03"
+    },
+    "Derain, André": {
+      "name": "André Derain",
+      "span": "1880–1954",
+      "places": "Paris",
+      "context": [
+        {
+          "text": "In the first two decades of the twentieth century he was near the centre of the avant-garde in Paris: one of the creators of Fauvism, an early adherent of Cubism, and among the first to 'discover' non-European art.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:202"
+          ]
+        },
+        {
+          "text": "In the 1920s he moved away from his pre-war radicalism towards a more traditional manner.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:202"
+          ]
+        }
+      ],
+      "generatedBy": "claude-opus-5",
+      "generatedOn": "2026-08-03"
+    },
+    "Barbari, Jacopo de'": {
+      "name": "Jacopo de' Barbari",
+      "span": "active c. 1497–d. c. 1515",
+      "places": "Venice, Germany and the Netherlands",
+      "context": [
+        {
+          "text": "His early career is obscure; he is first documented in 1500 in connection with a huge woodcut view of Venice, nearly ten feet wide, which had taken three years to complete. Most of his known career was spent in Germany and the Netherlands working for royal patrons.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:66"
+          ]
+        }
+      ],
+      "generatedBy": "claude-opus-5",
+      "generatedOn": "2026-08-03"
+    },
+    "Corot, Jean-Baptiste Camille": {
+      "name": "Camille Corot",
+      "span": "1796–1875",
+      "places": "Paris and Italy",
+      "context": [
+        {
+          "text": "His father was a textile merchant and his mother a fashionable dressmaker, and he was expected to go into the clothing business. In 1822, at twenty-six, he was finally allowed to give up a commercial career he was ill suited to and devote himself to art, with a generous allowance from his parents.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:174"
+          ]
+        }
+      ],
+      "generatedBy": "claude-opus-5",
+      "generatedOn": "2026-08-03"
+    },
+    "Zoffany, Johann": {
+      "name": "Johann Zoffany",
+      "span": "1733–1810",
+      "places": "Rome, London and India",
+      "context": [
+        {
+          "text": "German-born, he settled in England in 1760 after working in Rome. The actor David Garrick took him up, and he made his name with paintings of scenes from plays, usually showing Garrick in one of his favourite parts — pictures that show how quickly he adapted to English taste.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:720"
+          ]
+        }
+      ],
+      "generatedBy": "claude-opus-5",
+      "generatedOn": "2026-08-03"
+    },
+    "Metsu, Gabriel": {
+      "name": "Gabriel Metsu",
+      "span": "1629–1667",
+      "places": "Leiden and Amsterdam",
+      "context": [
+        {
+          "text": "An early biographer says he was a pupil of Dou, but his early works are nothing like his — historical and mythological scenes, broadly rather than minutely painted. He painted portraits and still lifes too, though his most characteristic pictures are genre scenes.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:434"
+          ]
+        }
+      ],
+      "generatedBy": "claude-opus-5",
+      "generatedOn": "2026-08-03"
+    },
+    "Bermejo, Bartolomé": {
+      "name": "Bartolomé Bermejo",
+      "span": "c. 1440–c. 1498",
+      "places": "Aragon and Barcelona",
+      "context": [
+        {
+          "text": "Evidently from Córdoba but active in northern Spain. He was originally Bartolomé de Cárdenas; the nickname Bermejo, Spanish for red, presumably means he had red hair or a ruddy complexion. He was among the first Spanish painters to work in oils.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:87"
+          ]
+        }
+      ],
+      "generatedBy": "claude-opus-5",
+      "generatedOn": "2026-08-03"
+    },
+    "Dadd, Richard": {
+      "name": "Richard Dadd",
+      "span": "1817–1886",
+      "places": "Kent and Broadmoor",
+      "context": [
+        {
+          "text": "He murdered his father in 1843 and spent the rest of his life in the Bedlam and Broadmoor asylums. Before his breakdown he was considered one of the most promising artists of his generation — a friend called him a man of genius who would assuredly have been placed high in the first rank of painters.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:190"
+          ]
+        }
+      ],
+      "generatedBy": "claude-opus-5",
+      "generatedOn": "2026-08-03"
+    },
+    "West, Benjamin": {
+      "name": "Benjamin West",
+      "span": "1738–1820",
+      "places": "Pennsylvania, Rome and London",
+      "context": [
+        {
+          "text": "An American history and portrait painter who spent almost all his career in England. After early success as a portraitist in New York he studied three years in Italy, chiefly Rome, then settled in London, where he soon repeated his professional and social success.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:701"
+          ]
+        },
+        {
+          "text": "He was the first American painter to achieve an international reputation and an inspiration to many of his countrymen, generous with advice and practical help to those who followed him to London — which is why he is called the father of American painting.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:702"
+          ]
+        }
+      ],
+      "generatedBy": "claude-opus-5",
+      "generatedOn": "2026-08-03"
+    },
+    "Derby, Joseph Wright of": {
+      "name": "Joseph Wright of Derby",
+      "span": "1734–1797",
+      "places": "Derby",
+      "context": [
+        {
+          "text": "One of the most original, versatile and accomplished British artists of the eighteenth century, and the first major English painter whose career was based outside London — he worked mainly in his native Derby, which is how he came to be known. He trained under Hudson in London in the early 1750s.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:714"
+          ]
+        }
+      ],
+      "generatedBy": "claude-opus-5",
+      "generatedOn": "2026-08-03"
     }
   },
   "artistAliases": {
@@ -5353,8 +6358,11 @@
     "Cranach, Lucas": "Elder, Lucas Cranach the",
     "Turner, Joseph Mallord William": "Turner, J. M. W.",
     "Reynolds, Sir Joshua": "Reynolds, Joshua, Sir",
+    "Reynolds, Joshua": "Reynolds, Joshua, Sir",
+    "Grazia), Giovanni di Paolo (Giovanni di Paolo di": "Paolo, Giovanni di",
     "Gérôme, Jean Léon": "Gérôme, Jean-Léon",
     "Kandinsky, Vasily": "Kandinsky, Wassily",
+    "Tadema, Lourens Alma": "Alma-Tadema, Lawrence",
     "Sweerts, Michael": "Sweerts, Michiel",
     "Lawrence, Thomas": "Lawrence, Sir Thomas",
     "Fragonard, Jean Honoré": "Fragonard, Jean-Honoré",
