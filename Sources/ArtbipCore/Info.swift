@@ -93,14 +93,21 @@ public struct InfoFile: Codable, Sendable {
     public var sources: [String: InfoSource]
     public var entries: [String: WorkInfo]
     public var schools: [String: SchoolInfo]
+    /// Manifest movement string -> school key, for the many near-synonyms the
+    /// source data carries ("Italian Baroque painting", "Spanish Baroque
+    /// painting"). Only for movements a school genuinely covers — never to
+    /// bolt a rough match onto the nearest entry.
+    public var schoolAliases: [String: String]
 
     public init(schemaVersion: Int = 1, sources: [String: InfoSource] = [:],
                 entries: [String: WorkInfo] = [:],
-                schools: [String: SchoolInfo] = [:]) {
+                schools: [String: SchoolInfo] = [:],
+                schoolAliases: [String: String] = [:]) {
         self.schemaVersion = schemaVersion
         self.sources = sources
         self.entries = entries
         self.schools = schools
+        self.schoolAliases = schoolAliases
     }
 
     // `schools` arrived after the first entries were written, so treat a
@@ -111,14 +118,19 @@ public struct InfoFile: Codable, Sendable {
         sources = try c.decodeIfPresent([String: InfoSource].self, forKey: .sources) ?? [:]
         entries = try c.decodeIfPresent([String: WorkInfo].self, forKey: .entries) ?? [:]
         schools = try c.decodeIfPresent([String: SchoolInfo].self, forKey: .schools) ?? [:]
+        schoolAliases = try c.decodeIfPresent([String: String].self, forKey: .schoolAliases) ?? [:]
     }
 
-    /// Movement strings vary in case between sources, so match loosely.
+    /// Movement strings vary in case between sources ("Post-impressionism"
+    /// beside "Post-Impressionism"), so match loosely, then through aliases.
     public func school(forMovement movement: String?) -> SchoolInfo? {
         guard let movement else { return nil }
         if let hit = schools[movement] { return hit }
         let key = movement.lowercased()
-        return schools.first { $0.key.lowercased() == key }?.value
+        if let hit = schools.first(where: { $0.key.lowercased() == key })?.value { return hit }
+        guard let alias = schoolAliases[movement]
+                ?? schoolAliases.first(where: { $0.key.lowercased() == key })?.value else { return nil }
+        return schools[alias] ?? schools.first { $0.key.lowercased() == alias.lowercased() }?.value
     }
 
     public static let empty = InfoFile()

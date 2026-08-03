@@ -72,6 +72,12 @@
       "author": "Ian Chilvers",
       "year": 2009,
       "kind": "book"
+    },
+    "gombrich-story-of-art": {
+      "title": "The Story of Art (16th ed.)",
+      "author": "E. H. Gombrich",
+      "year": 1995,
+      "kind": "book"
     }
   },
   "entries": {
@@ -580,6 +586,282 @@
       ],
       "generatedBy": "claude-opus-5",
       "generatedOn": "2026-08-03"
+    },
+    "Venetian school": {
+      "name": "Venetian school",
+      "span": "16th century",
+      "places": "Venice and northern Italy",
+      "context": [
+        {
+          "text": "Venice was the other great centre of Italian art, second in importance only to Florence — proud, prosperous, and with trade that linked it closely to the East. It took the Renaissance style later than other Italian cities, and when it did the style acquired a new gaiety, splendour and warmth.",
+          "cite": [
+            "book:gombrich-story-of-art:329"
+          ]
+        },
+        {
+          "text": "Gombrich suggests the reason its painters handled colour more deliberately and observantly than anyone else in Italy was the place itself: the atmosphere of the lagoons blurs the sharp outlines of objects and blends their colours in a radiant light.",
+          "cite": [
+            "book:gombrich-story-of-art:329",
+            "book:gombrich-story-of-art:330"
+          ]
+        }
+      ],
+      "generatedBy": "claude-opus-5",
+      "generatedOn": "2026-08-03"
+    },
+    "Northern Renaissance": {
+      "name": "Northern Renaissance",
+      "span": "15th–16th century",
+      "places": "Germany and the Netherlands",
+      "context": [
+        {
+          "text": "The achievements of the Italian masters made a deep impression north of the Alps, where artists suddenly found their own work looking old-fashioned by comparison. Three Italian gains were concrete enough to point at: scientific perspective, a knowledge of anatomy and so of the human body, and the classical forms of building.",
+          "cite": [
+            "book:gombrich-story-of-art:345"
+          ]
+        },
+        {
+          "text": "What makes the period worth watching, in Gombrich's account, is the range of responses — how particular artists and traditions asserted themselves against that new knowledge, or occasionally succumbed to it.",
+          "cite": [
+            "book:gombrich-story-of-art:345"
+          ]
+        }
+      ],
+      "generatedBy": "claude-opus-5",
+      "generatedOn": "2026-08-03"
+    },
+    "Renaissance": {
+      "name": "Renaissance",
+      "span": "14th–16th century",
+      "places": "Italy, then across Europe",
+      "context": [
+        {
+          "text": "'Renaissance' means rebirth: a revival of the values of the classical world, claimed as early as the fifteenth century by Italians who believed ancient art and literature were blossoming again after centuries of barbarism.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:548"
+          ]
+        },
+        {
+          "text": "The label later stretched from a cultural movement into a period, and has come to mark the point where medieval turns into modern — a religion-dominated world giving way to a culture more concerned with the individual. Modern historians treat that as gradual change rather than a clean break.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:548"
+          ]
+        }
+      ],
+      "generatedBy": "claude-opus-5",
+      "generatedOn": "2026-08-03"
+    },
+    "Romanticism": {
+      "name": "Romanticism",
+      "span": "late 18th–early 19th century",
+      "places": "Across Europe",
+      "context": [
+        {
+          "text": "Too varied to define in a sentence, but its keynote was a belief in the value of individual experience — a reaction against the rationalism of the Enlightenment and the orderliness of Neoclassicism, trading public discourse for a more private kind of expression.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:566"
+          ]
+        },
+        {
+          "text": "It is usually set against classicism, though the two share more than the opposition suggests: both are concerned with the ideal rather than the real, and both embrace nobility, grandeur and virtue.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:566"
+          ]
+        }
+      ],
+      "generatedBy": "claude-opus-5",
+      "generatedOn": "2026-08-03"
+    },
+    "Neoclassicism": {
+      "name": "Neoclassicism",
+      "span": "late 18th–early 19th century",
+      "places": "Across Europe",
+      "context": [
+        {
+          "text": "The dominant movement in European art and architecture of the period, driven by a wish to recreate the spirit and the forms of ancient Greece and Rome.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:464"
+          ]
+        },
+        {
+          "text": "A newly scientific interest in classical antiquity fed it — the excavations at Pompeii began in 1748, with Herculaneum alongside — and it is also read as a reaction against the light-hearted frivolity of the Rococo. The order, clarity and reason of Greek and Roman art were the appeal.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:464"
+          ]
+        }
+      ],
+      "generatedBy": "claude-opus-5",
+      "generatedOn": "2026-08-03"
+    },
+    "Rococo": {
+      "name": "Rococo",
+      "span": "c. 1700–1780",
+      "places": "France, then across Europe",
+      "context": [
+        {
+          "text": "A style of lightness, grace, playfulness and intimacy that emerged in France around 1700. The name was coined derisively around 1796 by a pupil of David, combining rocaille with barocco, and long carried a sense of the excessively florid; it is now used without the sneer.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:562"
+          ]
+        },
+        {
+          "text": "It was both a development from the Baroque and a reaction against it. It kept the love of complex form but dropped the concern with solidity and mass in favour of delicate play across the surface, sombre colour and heavy gilding giving way to lighter tones.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:562"
+          ]
+        }
+      ],
+      "generatedBy": "claude-opus-5",
+      "generatedOn": "2026-08-03"
+    },
+    "Pre-Raphaelite Brotherhood": {
+      "name": "Pre-Raphaelite Brotherhood",
+      "span": "founded 1848",
+      "places": "England",
+      "context": [
+        {
+          "text": "The name a group of young English artists took in 1848, out of dismay at what they saw as the moribund state of British painting. They wanted to recover the sincerity and simplicity of early Italian art — before Raphael, whom they blamed as the source of academicism.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:528"
+          ]
+        },
+        {
+          "text": "The nucleus was three Royal Academy students: Millais, Holman Hunt and Rossetti, whose idea the secret Brotherhood was. The movement had a strong literary flavour from the start.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:528"
+          ]
+        }
+      ],
+      "generatedBy": "claude-opus-5",
+      "generatedOn": "2026-08-03"
+    },
+    "Post-Impressionism": {
+      "name": "Post-Impressionism",
+      "span": "c. 1880–1905",
+      "places": "France",
+      "context": [
+        {
+          "text": "Not a style but a generation, and they varied enormously. Cézanne wanted 'to make of Impressionism something solid and enduring, like the art of the museums'; Gauguin renounced 'the abominable error of naturalism' for the symbolic use of colour and line; van Gogh's emotional intensity became the fountainhead of Expressionism. Seurat, of almost equal importance, went the other way, into a scientific analysis of colour.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:523"
+          ]
+        },
+        {
+          "text": "The drift of the whole group was away from Impressionist naturalism and towards the avant-garde movements — Fauvism, Cubism — that transformed European art in the decade before the First World War.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:523"
+          ]
+        }
+      ],
+      "generatedBy": "claude-opus-5",
+      "generatedOn": "2026-08-03"
+    },
+    "pointillism": {
+      "name": "Pointillism",
+      "span": "1880s onwards",
+      "places": "France",
+      "context": [
+        {
+          "text": "The painting technique associated with Seurat and his followers: colour laid down in small separate touches. It is often confused with divisionism, but divisionism refers mainly to the underlying colour theory while pointillism describes the actual handling.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:207"
+          ]
+        }
+      ],
+      "generatedBy": "claude-opus-5",
+      "generatedOn": "2026-08-03"
+    },
+    "Symbolism": {
+      "name": "Symbolism",
+      "span": "c. 1885–1910",
+      "places": "France and beyond",
+      "context": [
+        {
+          "text": "A loosely organised movement in literature and art that rejected direct, literal representation in favour of evocation and suggestion — part of a broad anti-materialist turn at the end of the nineteenth century, and specifically a reaction against the naturalism of Impressionism.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:641"
+          ]
+        },
+        {
+          "text": "Symbolist painters tried to give visual form to emotional experience, or as Jean Moréas put it in the 1886 manifesto, 'to clothe the idea in sensuous form'. Colour and line were held to express ideas and feelings in themselves.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:641"
+          ]
+        }
+      ],
+      "generatedBy": "claude-opus-5",
+      "generatedOn": "2026-08-03"
+    },
+    "Expressionism": {
+      "name": "Expressionism",
+      "span": "from c. 1900",
+      "places": "Northern and central Europe",
+      "context": [
+        {
+          "text": "Distortion and exaggeration used for emotional effect: art that puts subjective feeling above objective observation, reflecting the artist's state of mind rather than what the eye reports. In that broad sense it reaches back to Grünewald and El Greco.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:238"
+          ]
+        },
+        {
+          "text": "Narrowly, it names a trend in modern European art using strong unnaturalistic colour and distorted or abbreviated form to project inner feeling — a line that begins with van Gogh.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:238"
+          ]
+        }
+      ],
+      "generatedBy": "claude-opus-5",
+      "generatedOn": "2026-08-03"
+    },
+    "Hudson River school": {
+      "name": "Hudson River School",
+      "span": "c. 1825–1875",
+      "places": "New York State and New England",
+      "context": [
+        {
+          "text": "A name applied retrospectively to American landscape painters inspired by pride in the beauty of their own country — Thomas Cole, Thomas Doughty and Asher B. Durand foremost — who painted the Hudson River Valley, the Catskills and other untouched places.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:332"
+          ]
+        },
+        {
+          "text": "Most had studied in Europe, and part of the inspiration came from painters of the grandiose and spectacular such as Turner and John Martin. Their patriotic spirit made them very popular in mid-century.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:332"
+          ]
+        }
+      ],
+      "generatedBy": "claude-opus-5",
+      "generatedOn": "2026-08-03"
+    },
+    "naïve art": {
+      "name": "Naïve art",
+      "span": "any period",
+      "places": "Anywhere",
+      "context": [
+        {
+          "text": "Painting made inside a sophisticated society but without conventional training in representational skill. Colour tends to be bright and unnaturalistic, perspective unscientific, and the vision childlike or literal-minded.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:459"
+          ]
+        },
+        {
+          "text": "'Primitive' is sometimes used as a synonym and is best avoided — it also gets applied to pre-Renaissance painting and to the art of societies called uncivilised. 'Folk art' and 'Sunday painter' have their own pitfalls.",
+          "cite": [
+            "book:chilvers-oxford-dictionary:459"
+          ]
+        }
+      ],
+      "generatedBy": "claude-opus-5",
+      "generatedOn": "2026-08-03"
     }
+  },
+  "schoolAliases": {
+    "Neoclassical painting": "Neoclassicism",
+    "Italian Baroque painting": "Baroque",
+    "Spanish Baroque painting": "Baroque",
+    "Italian Renaissance": "Renaissance",
+    "Italian Renaissance painting": "Renaissance",
+    "German Renaissance": "Northern Renaissance"
   }
 }
