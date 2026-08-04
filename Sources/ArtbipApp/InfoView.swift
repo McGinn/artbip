@@ -16,6 +16,7 @@ struct WorkInfoPanel: View {
     private var entry: WorkInfo? { controller.info.entries[work.id] }
     private var artist: ArtistInfo? { controller.info.artist(forSort: work.artistSort) }
     private var school: SchoolInfo? { controller.info.school(forMovement: work.movement) }
+    private var symbols: [SymbolInfo] { controller.info.symbols(forWorkId: work.id) }
 
     /// Persisted rather than @State: the same school text recurs for every work
     /// in a tradition, so collapsing it once should stay collapsed.
@@ -36,9 +37,11 @@ struct WorkInfoPanel: View {
     /// counted, so Sources never lists a number nothing on screen refers to.
     private var citeOrder: [String] {
         var seen: [String] = []
+        let symbolCites = symbols.map { InfoParagraph(text: $0.text, cite: $0.cite) }
         let artistParas = artistExpanded.wrappedValue ? (artist?.context ?? []) : []
         let schoolParas = schoolExpanded.wrappedValue ? (school?.context ?? []) : []
-        for para in (entry?.context ?? []) + (entry?.details ?? []) + artistParas + schoolParas {
+        for para in (entry?.context ?? []) + (entry?.details ?? [])
+                    + symbolCites + artistParas + schoolParas {
             for cite in para.cite where !seen.contains(cite) {
                 seen.append(cite)
             }
@@ -55,10 +58,13 @@ struct WorkInfoPanel: View {
     var body: some View {
         ScrollView {
             VStack(alignment: .leading, spacing: 14) {
-                // Thumbnails cap at 640px, so keep the reproduction modest —
-                // scaling it up only makes it soft, and the full-size work is
-                // already on the desktop behind this panel.
-                WorkThumb(work: work, height: 220, plate: false)
+                // Deliberately small. Thumbnails cap at 640px so scaling up
+                // only makes them soft, and the full-size work is already on
+                // the desktop behind this panel — the reproduction is here to
+                // confirm which picture you are reading about, not to be
+                // looked at. At 220pt it filled most of the window on open and
+                // pushed every word of the text below the fold.
+                WorkThumb(work: work, height: 140, plate: false)
                     .frame(maxWidth: .infinity)
 
                 // Titleplate
@@ -66,7 +72,13 @@ struct WorkInfoPanel: View {
                     Text(work.title).font(.title2.bold())
                     Text(titleplateLine).foregroundStyle(.secondary)
                     if let url = URL(string: work.collectionURL) {
-                        Link(work.collection, destination: url).font(.callout)
+                        // Not focusable: as the first focusable view in the
+                        // window it otherwise takes initial keyboard focus and
+                        // opens wearing a focus ring, which reads as a selected
+                        // button rather than a link.
+                        Link(work.collection, destination: url)
+                            .font(.callout)
+                            .focusable(false)
                     }
                 }
 
@@ -89,6 +101,26 @@ struct WorkInfoPanel: View {
                                 Text("•")
                                 Text(entry.details[i].text + marks(entry.details[i].cite))
                             }
+                        }
+                    }
+                }
+
+                // What the objects in the picture conventionally mean. Placed
+                // above the artist because it is about this canvas rather than
+                // background, and left uncollapsed because it changes from work
+                // to work — unlike the two sections below it.
+                if !symbols.isEmpty {
+                    Divider()
+                    Text("Symbols").font(.headline)
+                    // Phrased throughout as what the object means in the
+                    // tradition, not what this painting means by it: the
+                    // tagging comes from matching the caption, so it can be
+                    // wrong, and a glossary entry that does not apply is a much
+                    // smaller error than a false claim about the picture.
+                    ForEach(symbols.indices, id: \.self) { i in
+                        VStack(alignment: .leading, spacing: 2) {
+                            Text(symbols[i].name).font(.subheadline.weight(.semibold))
+                            Text(symbols[i].text + marks(symbols[i].cite))
                         }
                     }
                 }

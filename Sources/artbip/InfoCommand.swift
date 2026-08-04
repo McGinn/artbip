@@ -68,6 +68,14 @@ struct Info: AsyncParsableCommand {
             }
         }
 
+        let symbols = infoFile.symbols(forWorkId: work.id)
+        if !symbols.isEmpty {
+            print("\nSymbols")
+            for s in symbols {
+                print("\n\(s.name): \(s.text) \(mark(s.cite))")
+            }
+        }
+
         func section(_ title: String, _ subtitle: String?, _ paras: [InfoParagraph]) {
             guard !paras.isEmpty else { return }
             print("\n\(title)\(subtitle.map { " — \($0)" } ?? "")")

@@ -102,6 +102,12 @@
       "author": "Robert Hughes",
       "year": 1991,
       "kind": "ebook"
+    },
+    "hall-dictionary-of-subjects": {
+      "title": "Dictionary of Subjects and Symbols in Art",
+      "author": "James Hall",
+      "year": 1974,
+      "kind": "book"
     }
   },
   "entries": {
@@ -6379,5 +6385,612 @@
     "Steen, Jan Havicksz.": "Steen, Jan",
     "d'Antonio), Piero di Cosimo (Piero di Lorenzo di Piero": "Cosimo, Piero di",
     "Douanier), Henri Rousseau (le": "Rousseau, Henri"
+  },
+  "symbols": {
+    "skull": {
+      "name": "Skull",
+      "text": "The plainest form of memento mori: a reminder that you will die. In a still life it is the surest sign that the subject is vanitas — the emptiness of earthly things. An hourglass, a clock or a candle carry the same message about time passing, and an overturned cup or bowl says it literally.",
+      "cite": [
+        "book:hall-dictionary-of-subjects:321"
+      ]
+    },
+    "mirror": {
+      "name": "Mirror",
+      "text": "A woman seated or reclining with a comb and a mirror, attending to her hair, belongs to allegories of Vanity — jewels and gold nearby reinforce it. The theme shades into the straightforwardly unallegorical reclining Venus, and the two are not always separable.",
+      "cite": [
+        "book:hall-dictionary-of-subjects:348"
+      ]
+    },
+    "dog": {
+      "name": "Dog",
+      "text": "From antiquity a symbol of faithfulness. In allegory it is the attribute of Fidelity personified; in a portrait, at a woman's feet or in her lap, it points to marital fidelity, or for a widow to faithfulness to her dead husband. In classical subjects the dog belongs to Diana the huntress.",
+      "cite": [
+        "book:hall-dictionary-of-subjects:135"
+      ]
+    },
+    "lily": {
+      "name": "Lily",
+      "text": "From antiquity the symbol of purity, helped by its whiteness, and more than any other flower the Virgin's. The bride of the Song of Songs, whom tradition identifies with the Virgin, is likened to a lily among thorns.",
+      "cite": [
+        "book:hall-dictionary-of-subjects:360"
+      ]
+    },
+    "hourglass": {
+      "name": "Hourglass",
+      "text": "The attribute of Death and of Father Time, and a vanitas symbol in its own right: the sand runs out.",
+      "cite": [
+        "book:hall-dictionary-of-subjects:187"
+      ]
+    },
+    "apple": {
+      "name": "Apple",
+      "text": "By tradition rather than by scripture, the fruit of the Tree of Knowledge, and so a symbol of the Fall of Man. Held by the infant Christ it means the reverse — the redemption of that fall.",
+      "cite": [
+        "book:hall-dictionary-of-subjects:60"
+      ]
+    },
+    "serpent": {
+      "name": "Serpent",
+      "text": "The tempter of Genesis, condemned after the Fall to go on its belly and eat dust. Medieval typology read the Temptation as a foreshadowing of the Annunciation, with the Virgin as the new Eve redeeming the sin of the old.",
+      "cite": [
+        "book:hall-dictionary-of-subjects:35"
+      ]
+    },
+    "dove": {
+      "name": "Dove",
+      "text": "The Christian symbol of the Holy Ghost, from John the Baptist's words: I saw the spirit coming down from heaven like a dove and resting upon him. It appears in the Annunciation, in the Baptism of Christ, and in the Descent of the Holy Ghost.",
+      "cite": [
+        "book:hall-dictionary-of-subjects:139"
+      ]
+    },
+    "grapes": {
+      "name": "Grapes and the vine",
+      "text": "The vine stands for Christ and for the Christian faith, from the parable of the vine, and specifically for the Eucharist. A huge bunch of grapes carried on a pole between two men — Moses' spies returning from Canaan — was read as a prefiguration of Christ on the cross.",
+      "cite": [
+        "book:hall-dictionary-of-subjects:372"
+      ]
+    },
+    "halo": {
+      "name": "Halo",
+      "text": "In Western art a sign of sanctity, though in the East it symbolised power rather than holiness, and early Byzantine art could give one to Satan. The form carries meaning: a cruciform halo generally marks Christ, a triangular one the Trinity.",
+      "cite": [
+        "book:hall-dictionary-of-subjects:174"
+      ]
+    },
+    "candle": {
+      "name": "Candle",
+      "text": "As the light of faith it is the attribute of Faith personified, and the Virgin may hold a lighted candle on her deathbed. In a still life it joins the hourglass and the clock as a marker of time running out.",
+      "cite": [
+        "book:hall-dictionary-of-subjects:87",
+        "book:hall-dictionary-of-subjects:321"
+      ]
+    },
+    "crown": {
+      "name": "Crown",
+      "text": "The emblem of sovereignty, divine and earthly, and of the Christian martyr. It is also the reward for accomplishment in the arts and for victory in love.",
+      "cite": [
+        "book:hall-dictionary-of-subjects:109"
+      ]
+    },
+    "sword": {
+      "name": "Sword",
+      "text": "Among the personifications the sword belongs to Justice, who holds a pair of scales in her other hand. A merchant tilting those scales signifies justice corrupted — a comment on dishonest tradesmen.",
+      "cite": [
+        "book:hall-dictionary-of-subjects:214"
+      ]
+    },
+    "shell": {
+      "name": "Scallop shell",
+      "text": "The pilgrim's badge, worn on the hat or the wallet, alongside a broad-brimmed hat and a staff. James the Greater and Roch are the saints most often dressed as pilgrims.",
+      "cite": [
+        "book:hall-dictionary-of-subjects:277"
+      ]
+    },
+    "mask": {
+      "name": "Mask",
+      "text": "A disguise, and so a symbol of deceit: the attribute of Deceit personified, of Vice, and of Night, which gives vice its cover. Melpomene, the muse of tragedy, carries one too.",
+      "cite": [
+        "book:hall-dictionary-of-subjects:234"
+      ]
+    },
+    "keys": {
+      "name": "Keys",
+      "text": "Peter's attribute, from Christ's charge to him — I will give you the keys of the kingdom of Heaven — a scene Renaissance artists painted many times over.",
+      "cite": [
+        "book:hall-dictionary-of-subjects:270"
+      ]
+    },
+    "cross": {
+      "name": "Cross",
+      "text": "The familiar Latin cross is the type on which, according to Augustine, Christ was crucified. Other shapes carry their own associations: the equal-armed Greek cross, the diagonal saltire of St Andrew, and the T-shaped tau cross, known in ancient Egypt and associated with Antony the Great.",
+      "cite": [
+        "book:hall-dictionary-of-subjects:108"
+      ]
+    }
+  },
+  "workSymbols": {
+    "artic-111317": [
+      "sword"
+    ],
+    "artic-111436": [
+      "apple"
+    ],
+    "artic-234781": [
+      "cross"
+    ],
+    "met-435844": [
+      "grapes"
+    ],
+    "met-435882": [
+      "apple"
+    ],
+    "met-436052": [
+      "halo"
+    ],
+    "met-436634": [
+      "grapes"
+    ],
+    "met-436839": [
+      "candle",
+      "skull"
+    ],
+    "met-437053": [
+      "grapes"
+    ],
+    "met-438112": [
+      "crown"
+    ],
+    "met-459052": [
+      "mirror"
+    ],
+    "met-626692": [
+      "skull"
+    ],
+    "met-78195": [
+      "skull"
+    ],
+    "nga-33253": [
+      "serpent"
+    ],
+    "nga-41": [
+      "mirror"
+    ],
+    "nga-41671": [
+      "dove"
+    ],
+    "nga-46625": [
+      "apple",
+      "serpent"
+    ],
+    "nga-54386": [
+      "candle",
+      "skull"
+    ],
+    "rijks-200108431": [
+      "grapes"
+    ],
+    "rijks-200109395": [
+      "dog"
+    ],
+    "rijks-20028351": [
+      "grapes"
+    ],
+    "wikidata-Q1055117": [
+      "dog",
+      "halo"
+    ],
+    "wikidata-Q110714599": [
+      "halo"
+    ],
+    "wikidata-Q11091298": [
+      "dog"
+    ],
+    "wikidata-Q1113749": [
+      "cross"
+    ],
+    "wikidata-Q115801348": [
+      "lily"
+    ],
+    "wikidata-Q11690349": [
+      "candle"
+    ],
+    "wikidata-Q1212937": [
+      "skull"
+    ],
+    "wikidata-Q1283024": [
+      "shell"
+    ],
+    "wikidata-Q13577130": [
+      "crown"
+    ],
+    "wikidata-Q1395192": [
+      "cross"
+    ],
+    "wikidata-Q14940735": [
+      "candle"
+    ],
+    "wikidata-Q151047": [
+      "shell"
+    ],
+    "wikidata-Q151143": [
+      "mirror"
+    ],
+    "wikidata-Q16038763": [
+      "apple"
+    ],
+    "wikidata-Q16201273": [
+      "crown"
+    ],
+    "wikidata-Q16620523": [
+      "dove"
+    ],
+    "wikidata-Q16954398": [
+      "cross"
+    ],
+    "wikidata-Q17066005": [
+      "skull"
+    ],
+    "wikidata-Q17189258": [
+      "mirror"
+    ],
+    "wikidata-Q17276053": [
+      "dog"
+    ],
+    "wikidata-Q18225401": [
+      "cross"
+    ],
+    "wikidata-Q18386242": [
+      "dog"
+    ],
+    "wikidata-Q18393790": [
+      "serpent"
+    ],
+    "wikidata-Q18564687": [
+      "candle",
+      "skull"
+    ],
+    "wikidata-Q18683021": [
+      "mirror"
+    ],
+    "wikidata-Q19798137": [
+      "dog"
+    ],
+    "wikidata-Q20170935": [
+      "mirror"
+    ],
+    "wikidata-Q203259": [
+      "serpent"
+    ],
+    "wikidata-Q20729896": [
+      "serpent"
+    ],
+    "wikidata-Q21190976": [
+      "mirror"
+    ],
+    "wikidata-Q21372308": [
+      "cross"
+    ],
+    "wikidata-Q21619968": [
+      "mask"
+    ],
+    "wikidata-Q220859": [
+      "mirror"
+    ],
+    "wikidata-Q2225699": [
+      "crown"
+    ],
+    "wikidata-Q2293905": [
+      "serpent"
+    ],
+    "wikidata-Q2293936": [
+      "grapes"
+    ],
+    "wikidata-Q2328603": [
+      "cross"
+    ],
+    "wikidata-Q2336984": [
+      "mirror"
+    ],
+    "wikidata-Q2349666": [
+      "apple"
+    ],
+    "wikidata-Q2390211": [
+      "skull"
+    ],
+    "wikidata-Q23922": [
+      "mirror"
+    ],
+    "wikidata-Q2393412": [
+      "dog",
+      "mirror"
+    ],
+    "wikidata-Q2425901": [
+      "lily"
+    ],
+    "wikidata-Q2450139": [
+      "grapes"
+    ],
+    "wikidata-Q2452858": [
+      "cross"
+    ],
+    "wikidata-Q2466780": [
+      "shell"
+    ],
+    "wikidata-Q2502068": [
+      "sword"
+    ],
+    "wikidata-Q2567058": [
+      "cross"
+    ],
+    "wikidata-Q2568873": [
+      "apple",
+      "serpent"
+    ],
+    "wikidata-Q2610936": [
+      "grapes"
+    ],
+    "wikidata-Q2633689": [
+      "serpent"
+    ],
+    "wikidata-Q2653851": [
+      "cross"
+    ],
+    "wikidata-Q2664637": [
+      "cross"
+    ],
+    "wikidata-Q2667782": [
+      "cross"
+    ],
+    "wikidata-Q26689493": [
+      "mirror"
+    ],
+    "wikidata-Q2713823": [
+      "apple"
+    ],
+    "wikidata-Q2715302": [
+      "serpent"
+    ],
+    "wikidata-Q275349": [
+      "mirror"
+    ],
+    "wikidata-Q28001663": [
+      "halo"
+    ],
+    "wikidata-Q2805058": [
+      "apple"
+    ],
+    "wikidata-Q2892964": [
+      "mirror"
+    ],
+    "wikidata-Q29018074": [
+      "dove",
+      "lily"
+    ],
+    "wikidata-Q291189": [
+      "dove"
+    ],
+    "wikidata-Q3207251": [
+      "serpent"
+    ],
+    "wikidata-Q3210257": [
+      "lily"
+    ],
+    "wikidata-Q3212142": [
+      "mask"
+    ],
+    "wikidata-Q3221859": [
+      "crown",
+      "dove"
+    ],
+    "wikidata-Q32234": [
+      "dog"
+    ],
+    "wikidata-Q3320114": [
+      "crown"
+    ],
+    "wikidata-Q3463877": [
+      "cross"
+    ],
+    "wikidata-Q3464088": [
+      "cross"
+    ],
+    "wikidata-Q3541051": [
+      "skull"
+    ],
+    "wikidata-Q3605057": [
+      "apple"
+    ],
+    "wikidata-Q3605536": [
+      "halo"
+    ],
+    "wikidata-Q3622074": [
+      "dog"
+    ],
+    "wikidata-Q3630731": [
+      "sword"
+    ],
+    "wikidata-Q3698197": [
+      "cross"
+    ],
+    "wikidata-Q3705703": [
+      "cross"
+    ],
+    "wikidata-Q3705718": [
+      "cross"
+    ],
+    "wikidata-Q3716086": [
+      "sword"
+    ],
+    "wikidata-Q3743879": [
+      "apple"
+    ],
+    "wikidata-Q3766167": [
+      "mirror"
+    ],
+    "wikidata-Q3777363": [
+      "skull"
+    ],
+    "wikidata-Q3797773": [
+      "dove"
+    ],
+    "wikidata-Q3817178": [
+      "cross"
+    ],
+    "wikidata-Q3824118": [
+      "candle"
+    ],
+    "wikidata-Q3842412": [
+      "halo"
+    ],
+    "wikidata-Q3842580": [
+      "lily"
+    ],
+    "wikidata-Q3858720": [
+      "cross"
+    ],
+    "wikidata-Q3873326": [
+      "apple"
+    ],
+    "wikidata-Q3925598": [
+      "dog"
+    ],
+    "wikidata-Q3937419": [
+      "dog"
+    ],
+    "wikidata-Q3945755": [
+      "mask"
+    ],
+    "wikidata-Q3947097": [
+      "cross"
+    ],
+    "wikidata-Q3947822": [
+      "keys"
+    ],
+    "wikidata-Q39537": [
+      "mirror"
+    ],
+    "wikidata-Q3978277": [
+      "mirror"
+    ],
+    "wikidata-Q4009226": [
+      "dog"
+    ],
+    "wikidata-Q4068125": [
+      "skull"
+    ],
+    "wikidata-Q4448822": [
+      "skull"
+    ],
+    "wikidata-Q476458": [
+      "sword"
+    ],
+    "wikidata-Q48387967": [
+      "cross"
+    ],
+    "wikidata-Q490312": [
+      "cross"
+    ],
+    "wikidata-Q500936": [
+      "dog"
+    ],
+    "wikidata-Q500985": [
+      "dog"
+    ],
+    "wikidata-Q510799": [
+      "skull"
+    ],
+    "wikidata-Q5659824": [
+      "shell"
+    ],
+    "wikidata-Q568100": [
+      "cross"
+    ],
+    "wikidata-Q568847": [
+      "cross"
+    ],
+    "wikidata-Q5916308": [
+      "dove"
+    ],
+    "wikidata-Q598913": [
+      "cross"
+    ],
+    "wikidata-Q6119715": [
+      "candle"
+    ],
+    "wikidata-Q63871952": [
+      "dog"
+    ],
+    "wikidata-Q6411359": [
+      "crown"
+    ],
+    "wikidata-Q647202": [
+      "serpent"
+    ],
+    "wikidata-Q648068": [
+      "crown"
+    ],
+    "wikidata-Q6644913": [
+      "mirror"
+    ],
+    "wikidata-Q674846": [
+      "halo"
+    ],
+    "wikidata-Q680128": [
+      "cross"
+    ],
+    "wikidata-Q686107": [
+      "cross"
+    ],
+    "wikidata-Q699319": [
+      "mirror"
+    ],
+    "wikidata-Q7200240": [
+      "dog"
+    ],
+    "wikidata-Q727875": [
+      "dog"
+    ],
+    "wikidata-Q7401211": [
+      "dove"
+    ],
+    "wikidata-Q7749405": [
+      "skull"
+    ],
+    "wikidata-Q822535": [
+      "dog"
+    ],
+    "wikidata-Q84628758": [
+      "serpent"
+    ],
+    "wikidata-Q8774031": [
+      "candle"
+    ],
+    "wikidata-Q880502": [
+      "sword"
+    ],
+    "wikidata-Q884782": [
+      "halo"
+    ],
+    "wikidata-Q9026835": [
+      "skull"
+    ],
+    "wikidata-Q9140602": [
+      "apple"
+    ],
+    "wikidata-Q9372002": [
+      "dog"
+    ],
+    "wikidata-Q9389444": [
+      "cross"
+    ],
+    "wikidata-Q9392232": [
+      "dove"
+    ],
+    "wikidata-Q939962": [
+      "dog"
+    ],
+    "wikidata-Q98113753": [
+      "mirror"
+    ]
   }
 }

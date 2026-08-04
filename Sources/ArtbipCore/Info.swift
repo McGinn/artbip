@@ -125,6 +125,26 @@ public struct ArtistInfo: Codable, Sendable {
     }
 }
 
+/// An iconographic object and what it conventionally means.
+///
+/// The text says what the object signifies *in this tradition* — never what a
+/// particular painting means by it. That distinction is what makes the tier
+/// safe to generate: works are tagged by matching the manifest's caption, which
+/// is a heuristic rather than an observation, so a stray tag shows a glossary
+/// entry that does not apply rather than asserting something false about the
+/// picture in front of you.
+public struct SymbolInfo: Codable, Sendable {
+    public var name: String
+    public var text: String
+    public var cite: [String]
+
+    public init(name: String, text: String, cite: [String] = []) {
+        self.name = name
+        self.text = text
+        self.cite = cite
+    }
+}
+
 public struct InfoFile: Codable, Sendable {
     public var schemaVersion: Int
     public var sources: [String: InfoSource]
@@ -144,13 +164,19 @@ public struct InfoFile: Codable, Sendable {
     /// only for variants that are genuinely the same hand, never to attach a
     /// near-miss to the closest entry.
     public var artistAliases: [String: String]
+    /// Iconographic objects, keyed by a short slug ("skull", "lily").
+    public var symbols: [String: SymbolInfo]
+    /// Work id -> the symbol slugs its caption says are visible.
+    public var workSymbols: [String: [String]]
 
     public init(schemaVersion: Int = 1, sources: [String: InfoSource] = [:],
                 entries: [String: WorkInfo] = [:],
                 schools: [String: SchoolInfo] = [:],
                 schoolAliases: [String: String] = [:],
                 artists: [String: ArtistInfo] = [:],
-                artistAliases: [String: String] = [:]) {
+                artistAliases: [String: String] = [:],
+                symbols: [String: SymbolInfo] = [:],
+                workSymbols: [String: [String]] = [:]) {
         self.schemaVersion = schemaVersion
         self.sources = sources
         self.entries = entries
@@ -158,6 +184,8 @@ public struct InfoFile: Codable, Sendable {
         self.schoolAliases = schoolAliases
         self.artists = artists
         self.artistAliases = artistAliases
+        self.symbols = symbols
+        self.workSymbols = workSymbols
     }
 
     // `schools` and later `artists` arrived after the first entries were
@@ -171,6 +199,14 @@ public struct InfoFile: Codable, Sendable {
         schoolAliases = try c.decodeIfPresent([String: String].self, forKey: .schoolAliases) ?? [:]
         artists = try c.decodeIfPresent([String: ArtistInfo].self, forKey: .artists) ?? [:]
         artistAliases = try c.decodeIfPresent([String: String].self, forKey: .artistAliases) ?? [:]
+        symbols = try c.decodeIfPresent([String: SymbolInfo].self, forKey: .symbols) ?? [:]
+        workSymbols = try c.decodeIfPresent([String: [String]].self, forKey: .workSymbols) ?? [:]
+    }
+
+    /// The symbols recorded for a work, in the order they are stored, skipping
+    /// any slug with no entry written yet.
+    public func symbols(forWorkId id: String) -> [SymbolInfo] {
+        (workSymbols[id] ?? []).compactMap { symbols[$0] }
     }
 
     /// Look up a painter by the manifest's `artistSort`, then through aliases.
