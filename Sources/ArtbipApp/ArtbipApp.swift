@@ -65,14 +65,28 @@ struct MenuBarLabel: View {
     var body: some View {
         Image(systemName: controller.state.paused ? "pause.rectangle" : "photo.artframe")
             .onAppear(perform: rebind)
-            .onChange(of: controller.settings.hotKeyCode) { rebind() }
-            .onChange(of: controller.settings.hotKeyModifiers) { rebind() }
+            .onChange(of: controller.settings.shortcuts) { rebind() }
     }
 
+    /// Register every action's shortcut. This lives on the label rather than in
+    /// the menu content because the menu is built lazily and torn down when it
+    /// closes, whereas a global hotkey has to stay registered all session.
     private func rebind() {
-        let ok = controller.hotKey.bind(keyCode: controller.settings.hotKeyCode,
-                                        modifiers: controller.settings.hotKeyModifiers) { toggleInfo() }
-        controller.hotKeyBound = ok || controller.settings.hotKeyCode < 0
+        for action in Shortcut.Action.allCases {
+            let sc = controller.settings.shortcut(action)
+            let ok = controller.hotKey(for: action)
+                .bind(keyCode: sc.code, modifiers: sc.modifiers) { perform(action) }
+            controller.shortcutRejected[action.rawValue] = sc.isBound && !ok
+        }
+    }
+
+    private func perform(_ action: Shortcut.Action) {
+        switch action {
+        case .info: toggleInfo()
+        case .next: if !controller.busy { controller.next() }
+        case .favourite:
+            if let work = controller.currentWork { controller.toggleFavourite(work.id) }
+        }
     }
 
     /// Toggle, not just open: pressing the shortcut again should put the panel
@@ -105,9 +119,14 @@ struct MenuContent: View {
         }
         .onAppear { controller.reloadFromDisk() }
         Divider()
-        Button(controller.busy ? "Rotating…" : "Next Artwork") { controller.next() }
-            .keyboardShortcut("n")
-            .disabled(controller.busy)
+        // No .keyboardShortcut anywhere in this menu: inside a MenuBarExtra it
+        // only becomes an NSMenu key equivalent, which fires while the menu is
+        // open and never otherwise — a menu advertising ⌘N would be lying. Any
+        // shortcut shown here is the global one from Settings.
+        Button(menuTitle(controller.busy ? "Rotating…" : "Next Artwork", .next)) {
+            controller.next()
+        }
+        .disabled(controller.busy)
         Button(controller.state.paused ? "Resume Rotation" : "Pause Rotation") {
             controller.togglePause()
         }
@@ -116,23 +135,21 @@ struct MenuContent: View {
                 .disabled(controller.busy)
         }
         if let work = controller.currentWork {
-            Button(controller.isFavourite(work.id) ? "Unfavourite" : "Favourite") {
+            Button(menuTitle(controller.isFavourite(work.id) ? "Unfavourite" : "Favourite",
+                             .favourite)) {
                 controller.toggleFavourite(work.id)
             }
-            .keyboardShortcut("f")
             Button("Never Show Again") { controller.block(work.id) }
-            // No .keyboardShortcut here: in a MenuBarExtra that only becomes an
-            // NSMenu key equivalent, which fires while the menu is open and
-            // never otherwise. The real shortcut is the global one in Settings,
-            // shown here so the menu tells the truth about it.
-            Button(controller.settings.hotKeyCode >= 0
-                   ? "About This Artwork…  \(controller.settings.hotKeyLabel)"
-                   : "About This Artwork…") {
+            Button(menuTitle("About This Artwork…", .info)) {
                 openWindow(id: "info")
                 NSApp.activate(ignoringOtherApps: true)
             }
             Button("View at \(work.collection)") {
                 if let url = URL(string: work.collectionURL) { NSWorkspace.shared.open(url) }
+            }
+            Menu("Report a Problem…") {
+                Button("Problem with this artwork…") { Feedback.reportArtwork(work) }
+                Button("Problem with the info text…") { Feedback.reportInfoText(work) }
             }
         }
         Divider()
@@ -140,12 +157,20 @@ struct MenuContent: View {
             openWindow(id: "main")
             NSApp.activate(ignoringOtherApps: true)
         }
-        .keyboardShortcut("o")
         LaunchAtLoginToggle()
+        Menu("Feedback") {
+            Button("Request a Feature…") { Feedback.requestFeature() }
+            Button("Browse Open Requests…") { Feedback.browseIssues() }
+        }
         Button("About artbip") { showAbout() }
         Divider()
         Button("Quit artbip") { NSApp.terminate(nil) }
-            .keyboardShortcut("q")
+    }
+
+    /// Menu title with the action's global shortcut appended, when it has one.
+    private func menuTitle(_ title: String, _ action: Shortcut.Action) -> String {
+        let sc = controller.settings.shortcut(action)
+        return sc.isBound ? "\(title)  \(sc.label)" : title
     }
 
     /// The open-access programmes the collection is actually drawn from, keyed

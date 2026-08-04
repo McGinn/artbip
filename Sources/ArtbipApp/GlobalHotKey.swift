@@ -1,4 +1,5 @@
 import AppKit
+import ArtbipCore
 import Carbon.HIToolbox
 import SwiftUI
 
@@ -105,16 +106,21 @@ struct WindowAccessor: NSViewRepresentable {
 /// monitor, so the keystroke never reaches the rest of the UI.
 struct ShortcutRecorder: View {
     @EnvironmentObject var controller: RotationController
+    /// Which action this recorder binds. Every action gets its own row, since
+    /// all of this app's shortcuts are system-wide.
+    let action: Shortcut.Action
     @State private var recording = false
     @State private var monitor: Any?
-    @State private var rejected = false
+
+    private var current: Shortcut { controller.settings.shortcut(action) }
+    private var rejected: Bool { controller.shortcutRejected[action.rawValue] ?? false }
 
     var body: some View {
         HStack(spacing: 8) {
             Button(buttonTitle) { recording ? stop() : start() }
                 .frame(width: 130)
-            if controller.settings.hotKeyCode >= 0 && !recording {
-                Button("Clear") { set(code: -1, modifiers: 0, label: "None") }
+            if current.isBound && !recording {
+                Button("Clear") { set(.unbound) }
                     .buttonStyle(.borderless)
             }
         }
@@ -126,12 +132,11 @@ struct ShortcutRecorder: View {
     private var buttonTitle: String {
         if recording { return "Press keys…" }
         if rejected { return "Taken — retry" }
-        return controller.settings.hotKeyCode >= 0 ? controller.settings.hotKeyLabel : "None"
+        return current.isBound ? current.label : "None"
     }
 
     private func start() {
         recording = true
-        rejected = false
         monitor = NSEvent.addLocalMonitorForEvents(matching: .keyDown) { event in
             // Escape abandons; a bare key with no modifiers would steal that key
             // system-wide, so require at least one.
@@ -141,8 +146,8 @@ struct ShortcutRecorder: View {
             }
             let mods = HotKeyFormat.carbonModifiers(event.modifierFlags)
             guard mods != 0, let key = HotKeyFormat.keyName(event) else { return nil }
-            set(code: Int(event.keyCode), modifiers: mods,
-                label: HotKeyFormat.label(modifiers: mods, key: key))
+            set(Shortcut(code: Int(event.keyCode), modifiers: mods,
+                         label: HotKeyFormat.label(modifiers: mods, key: key)))
             stop()
             return nil
         }
@@ -154,15 +159,11 @@ struct ShortcutRecorder: View {
         monitor = nil
     }
 
-    private func set(code: Int, modifiers: Int, label: String) {
-        controller.updateSettings {
-            $0.hotKeyCode = code
-            $0.hotKeyModifiers = modifiers
-            $0.hotKeyLabel = label
-        }
-        // The menu-bar label owns the registration and rebinds on change; it
-        // reports back here if the system refused the combination.
-        rejected = code >= 0 && !controller.hotKeyBound
+    private func set(_ shortcut: Shortcut) {
+        // The menu-bar label owns the registration and rebinds when settings
+        // change; it reports back through controller.shortcutRejected if the
+        // system refused the combination.
+        controller.updateSettings { $0.setShortcut(action, to: shortcut) }
     }
 }
 

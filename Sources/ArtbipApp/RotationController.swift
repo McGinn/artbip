@@ -17,18 +17,31 @@ final class RotationController: ObservableObject {
     @Published var state: RuntimeState
     @Published var busy = false
     @Published var lastError: String?
-    /// False when the system refused the configured global shortcut because
-    /// another app already owns it, so Settings can say so.
-    @Published var hotKeyBound = true
+    /// Actions whose shortcut the system refused because another app already
+    /// owns the combination, keyed by `Shortcut.Action.rawValue`, so Settings
+    /// can say so instead of appearing to work.
+    @Published var shortcutRejected: [String: Bool] = [:]
     /// The info panel's window, handed over by the panel itself — SwiftUI gives
     /// a scene's NSWindow no identifier matching its scene id, so the global
     /// shortcut cannot otherwise find the window it needs to close.
     weak var infoWindow: NSWindow?
-    /// Owned here rather than in a @State on the menu-bar label: SwiftUI
-    /// re-evaluates a @State's initial value on every view init, and each
-    /// discarded GlobalHotKey deinits — clearing the shared action table and
-    /// silently unregistering the live shortcut after its first use.
-    let hotKey = GlobalHotKey()
+    /// One registration per action, owned here rather than in a @State on the
+    /// menu-bar label: SwiftUI re-evaluates a @State's initial value on every
+    /// view init, and each discarded GlobalHotKey deinits — clearing the shared
+    /// action table and silently unregistering the live shortcut after its
+    /// first use.
+    private var hotKeys: [String: GlobalHotKey] = [:]
+
+    /// Hot key registration for an action, created on first use. Ids must be
+    /// stable and distinct across actions, since the Carbon event handler looks
+    /// the action up by id.
+    func hotKey(for action: Shortcut.Action) -> GlobalHotKey {
+        if let existing = hotKeys[action.rawValue] { return existing }
+        let index = Shortcut.Action.allCases.firstIndex(of: action) ?? 0
+        let key = GlobalHotKey(id: UInt32(index + 1))
+        hotKeys[action.rawValue] = key
+        return key
+    }
 
     private var timer: Timer?
     private var screenObserver: NSObjectProtocol?

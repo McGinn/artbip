@@ -1,0 +1,22 @@
+name: Feature request
+description: Suggest something artbip should do.
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What would you like it to do?
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: What are you trying to accomplish?
+      description: >
+        The underlying goal, not just the proposed mechanism — there may be a
+        better way to get you there.
+  - type: input
+    id: version
+    attributes:
+      label: artbip version
+      placeholder: "0.1.13"

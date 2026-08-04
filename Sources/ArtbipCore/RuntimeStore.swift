@@ -53,6 +53,41 @@ public enum RotationSchedule: Sendable, Equatable {
 
 // MARK: - Runtime settings (user-tunable; ~/Library/Application Support/artbip/settings.json)
 
+/// A system-wide keyboard shortcut.
+///
+/// `code` is a Carbon virtual key code and `modifiers` a Carbon modifier mask
+/// (cmdKey/optionKey/…); a negative code means unbound. `label` is the rendered
+/// form ("⌥⌘A"), recorded alongside rather than derived, because mapping a key
+/// code back to a character depends on the active keyboard layout.
+public struct Shortcut: Codable, Sendable, Equatable {
+    /// The actions a shortcut can be attached to. Raw values are the keys in
+    /// `RuntimeSettings.shortcuts`, so they are part of the settings format.
+    public enum Action: String, CaseIterable, Sendable {
+        case info, next, favourite
+
+        public var title: String {
+            switch self {
+            case .info:      return "About This Artwork"
+            case .next:      return "Next Artwork"
+            case .favourite: return "Favourite / Unfavourite"
+            }
+        }
+    }
+
+    public var code: Int
+    public var modifiers: Int
+    public var label: String
+
+    public init(code: Int = -1, modifiers: Int = 0, label: String = "None") {
+        self.code = code
+        self.modifiers = modifiers
+        self.label = label
+    }
+
+    public var isBound: Bool { code >= 0 && modifiers != 0 }
+    public static let unbound = Shortcut()
+}
+
 public struct RuntimeSettings: Codable, Sendable {
     public var intervalMinutes: Int
     /// "interval" | "daily" | "weekly" | "monthly". Chooses which of the fields
@@ -69,13 +104,14 @@ public struct RuntimeSettings: Codable, Sendable {
     public var favouritesOnly: Bool
     public var cacheBudgetMB: Int
     public var prefetchCount: Int
-    /// Global shortcut for the info panel. Carbon virtual key code and Carbon
-    /// modifier mask (cmdKey/optionKey/…); -1 disables it. `hotKeyLabel` is the
-    /// rendered form ("⌥⌘A") — recorded alongside rather than derived, since
-    /// mapping a key code back to a character depends on the keyboard layout.
-    public var hotKeyCode: Int
-    public var hotKeyModifiers: Int
-    public var hotKeyLabel: String
+    /// System-wide shortcuts, keyed by `Shortcut.Action`.
+    ///
+    /// Every shortcut this app offers is global. In a menu-bar-only app a
+    /// SwiftUI `.keyboardShortcut` becomes an NSMenu key equivalent, which
+    /// fires only while the menu is already open — so a menu advertising ⌘N
+    /// tells the user something untrue. Anything worth a shortcut here is worth
+    /// registering with Carbon; anything not worth that gets no shortcut shown.
+    public var shortcuts: [String: Shortcut]
     /// Whether the info panel's period-and-style section is open. Persisted
     /// because the same school text recurs for every work in that tradition —
     /// collapsing it once should stay collapsed.
@@ -103,12 +139,32 @@ public struct RuntimeSettings: Codable, Sendable {
         favouritesOnly = false
         cacheBudgetMB = 2048
         prefetchCount = 3
-        hotKeyCode = 0                      // kVK_ANSI_A
-        hotKeyModifiers = 256 | 2048        // cmdKey | optionKey
-        hotKeyLabel = "⌥⌘A"
+        // Only the info panel is bound out of the box. Claiming several global
+        // combinations uninvited is rude — the rest are opt-in from Settings.
+        shortcuts = [Shortcut.Action.info.rawValue:
+                        Shortcut(code: 0, modifiers: 256 | 2048, label: "⌥⌘A")]
         infoSchoolExpanded = true
         infoArtistExpanded = true
         infoWindowOpacity = 0.85
+    }
+
+    /// The flat shortcut triple written before shortcuts became per-action.
+    /// Kept only so an existing settings.json does not lose its binding.
+    private enum LegacyKeys: String, CodingKey {
+        case hotKeyCode, hotKeyModifiers, hotKeyLabel
+    }
+
+    /// Convenience accessor; unbound actions simply have no entry.
+    public func shortcut(_ action: Shortcut.Action) -> Shortcut {
+        shortcuts[action.rawValue] ?? .unbound
+    }
+
+    public mutating func setShortcut(_ action: Shortcut.Action, to value: Shortcut) {
+        if value.isBound {
+            shortcuts[action.rawValue] = value
+        } else {
+            shortcuts.removeValue(forKey: action.rawValue)
+        }
     }
 
     // Missing keys fall back to defaults so old settings files survive new fields.
@@ -127,9 +183,19 @@ public struct RuntimeSettings: Codable, Sendable {
         favouritesOnly = try c.decodeIfPresent(Bool.self, forKey: .favouritesOnly) ?? d.favouritesOnly
         cacheBudgetMB = try c.decodeIfPresent(Int.self, forKey: .cacheBudgetMB) ?? d.cacheBudgetMB
         prefetchCount = try c.decodeIfPresent(Int.self, forKey: .prefetchCount) ?? d.prefetchCount
-        hotKeyCode = try c.decodeIfPresent(Int.self, forKey: .hotKeyCode) ?? d.hotKeyCode
-        hotKeyModifiers = try c.decodeIfPresent(Int.self, forKey: .hotKeyModifiers) ?? d.hotKeyModifiers
-        hotKeyLabel = try c.decodeIfPresent(String.self, forKey: .hotKeyLabel) ?? d.hotKeyLabel
+        if let stored = try c.decodeIfPresent([String: Shortcut].self, forKey: .shortcuts) {
+            shortcuts = stored
+        } else if let legacy = try? decoder.container(keyedBy: LegacyKeys.self),
+                  let code = try? legacy.decodeIfPresent(Int.self, forKey: .hotKeyCode) {
+            // Settings written before shortcuts became per-action carried a
+            // single flat triple, which was always the info panel's.
+            shortcuts = [Shortcut.Action.info.rawValue: Shortcut(
+                code: code,
+                modifiers: (try? legacy.decode(Int.self, forKey: .hotKeyModifiers)) ?? 0,
+                label: (try? legacy.decode(String.self, forKey: .hotKeyLabel)) ?? "None")]
+        } else {
+            shortcuts = d.shortcuts
+        }
         infoSchoolExpanded = try c.decodeIfPresent(Bool.self, forKey: .infoSchoolExpanded) ?? d.infoSchoolExpanded
         infoArtistExpanded = try c.decodeIfPresent(Bool.self, forKey: .infoArtistExpanded) ?? d.infoArtistExpanded
         // Clamped: a stray 0 in settings.json would make the panel invisible

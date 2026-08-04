@@ -148,11 +148,13 @@ struct SettingsView: View {
                 }
             }
 
-            Section("Shortcut") {
-                LabeledContent("Show artwork info") {
-                    ShortcutRecorder()
+            Section("Shortcuts") {
+                ForEach(Shortcut.Action.allCases, id: \.self) { action in
+                    LabeledContent(action.title) {
+                        ShortcutRecorder(action: action)
+                    }
                 }
-                Text("Works from any app. Menu shortcuts only fire while the menu is open, so this is the one that reaches you mid-task.")
+                Text("Every shortcut here works from any app, whichever one you are in. There are no menu-only shortcuts: inside a menu-bar app those fire only while the menu is already open, which is no use mid-task.")
                     .font(.caption)
                     .foregroundStyle(.secondary)
             }

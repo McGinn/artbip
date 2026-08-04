@@ -1,0 +1,36 @@
+name: Problem with the info text
+description: The "About this work" text is wrong, misleading, or badly written.
+title: "[info] "
+labels: ["info-text"]
+body:
+  - type: markdown
+    attributes:
+      value: >
+        Every claim in the panel is meant to be traceable to the source listed
+        under **Sources**. If a statement is not supported by its citation,
+        that is a bug and worth reporting.
+  - type: input
+    id: work
+    attributes:
+      label: Work id
+    validations:
+      required: true
+  - type: dropdown
+    id: section
+    attributes:
+      label: Which section?
+      options:
+        - Titleplate (artist, date, medium, dimensions)
+        - Caption
+        - Look for
+        - The artist
+        - Period and style
+        - Sources
+    validations:
+      required: true
+  - type: textarea
+    id: detail
+    attributes:
+      label: What is wrong?
+    validations:
+      required: true
