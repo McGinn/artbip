@@ -45,6 +45,15 @@ cache budget). Closing the window leaves the app running in the menu bar.
   <img src="assets/readme/menubar.png" alt="The menu bar menu" width="26%">
 </p>
 
+"About This Artwork" opens a panel beside the wallpaper: the wall-label
+details, what tradition the picture belongs to, who painted it, and what any
+symbols in it traditionally mean. Every claim lists the book and page it came
+from, and where the sources are thin it says nothing rather than guessing.
+
+<p>
+  <img src="assets/readme/info-panel.png" alt="The artwork info panel" width="34%">
+</p>
+
 ### CLI
 
 The same engine ships inside the bundle (symlink it onto your PATH):
