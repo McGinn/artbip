@@ -72,13 +72,7 @@ struct WorkInfoPanel: View {
                     Text(work.title).font(.title2.bold())
                     Text(titleplateLine).foregroundStyle(.secondary)
                     if let url = URL(string: work.collectionURL) {
-                        // Not focusable: as the first focusable view in the
-                        // window it otherwise takes initial keyboard focus and
-                        // opens wearing a focus ring, which reads as a selected
-                        // button rather than a link.
-                        Link(work.collection, destination: url)
-                            .font(.callout)
-                            .focusable(false)
+                        Link(work.collection, destination: url).font(.callout)
                     }
                 }
 
@@ -163,6 +157,13 @@ struct WorkInfoPanel: View {
             .padding(.top, topInset)
             .frame(maxWidth: .infinity, alignment: .leading)
             .textSelection(.enabled)
+            // The panel is for reading, so it should not open wearing a focus
+            // ring. Something here is always first responder — marking one view
+            // non-focusable only moves the ring to the next one, as making the
+            // collection link non-focusable moved it to the artist header. This
+            // suppresses the effect while leaving every control focusable and
+            // operable by keyboard.
+            .focusEffectDisabled()
         }
         // Narrow enough to sit beside the artwork rather than over it. Height is
         // a floor only: a ScrollView reports a flexible ideal rather than its
