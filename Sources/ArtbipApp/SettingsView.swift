@@ -13,6 +13,10 @@ struct SettingsView: View {
 
     private let budgets = [512, 1024, 2048, 4096, 8192]
 
+    private var appVersion: String {
+        Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as? String ?? "dev"
+    }
+
     // Sub-daily cadences offered directly. Anything coarser is a clock schedule
     // (daily/weekly/monthly) so it fires at a predictable time of day.
     private let intervals = [15, 30, 60, 120, 180, 360, 720]
@@ -168,6 +172,27 @@ struct SettingsView: View {
                     }
                 }
                 LabeledContent("Runtime directory", value: controller.store.dir.path)
+            }
+
+            Section("Updates") {
+                LabeledContent("This version", value: appVersion)
+                switch controller.availableUpdate {
+                case .updateAvailable(let v, _):
+                    Button("Version \(v) is available — open the release page…") {
+                        Feedback.openLatestRelease()
+                    }
+                case .upToDate:
+                    Text("Up to date.").font(.caption).foregroundStyle(.secondary)
+                case nil:
+                    EmptyView()
+                }
+                Toggle("Check for new versions", isOn: Binding(
+                    get: { controller.settings.updateCheckEnabled },
+                    set: { v in controller.updateSettings { $0.updateCheckEnabled = v } }))
+                Button("Check Now") { controller.checkForUpdate(force: true) }
+                Text("Once a day, artbip asks GitHub whether a newer release exists. That is the only request it makes to anything other than a museum's image server, and it sends nothing about you or how you use the app. Turning it off means new versions — including corrections to the collection — will not reach you.")
+                    .font(.caption)
+                    .foregroundStyle(.secondary)
             }
 
             Section("Support") {

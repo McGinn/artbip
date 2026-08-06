@@ -119,6 +119,17 @@ public struct RuntimeSettings: Codable, Sendable {
     /// Same, for the artist section: 60 works share a painter at the top of the
     /// manifest, so this text repeats even harder than the school's.
     public var infoArtistExpanded: Bool
+    /// Whether to ask GitHub once a day if a newer release exists.
+    ///
+    /// On by default: the collection ships inside the app, so a data fix only
+    /// reaches people who happen to re-download, and silence is the reason the
+    /// Poussin attribution sat wrong on desktops. It is still a network call to
+    /// a host that is not a museum, so Settings says so plainly and this turns
+    /// it off. Nothing about the user or their usage is sent.
+    public var updateCheckEnabled: Bool
+    /// When the last check ran, so a relaunch does not re-ask immediately.
+    public var lastUpdateCheck: Date?
+
     /// Opacity of the info panel window, 0.5–1.0. `.ultraThinMaterial` is
     /// already the most translucent standard material, so going further means
     /// dropping the whole window's alpha — which fades the text along with the
@@ -146,6 +157,8 @@ public struct RuntimeSettings: Codable, Sendable {
         infoSchoolExpanded = true
         infoArtistExpanded = true
         infoWindowOpacity = 0.85
+        updateCheckEnabled = true
+        lastUpdateCheck = nil
     }
 
     /// The flat shortcut triple written before shortcuts became per-action.
@@ -202,6 +215,8 @@ public struct RuntimeSettings: Codable, Sendable {
         // and there is no UI to get it back.
         infoWindowOpacity = min(1.0, max(0.5,
             try c.decodeIfPresent(Double.self, forKey: .infoWindowOpacity) ?? d.infoWindowOpacity))
+        updateCheckEnabled = try c.decodeIfPresent(Bool.self, forKey: .updateCheckEnabled) ?? d.updateCheckEnabled
+        lastUpdateCheck = try c.decodeIfPresent(Date.self, forKey: .lastUpdateCheck) ?? d.lastUpdateCheck
     }
 
     /// The active schedule, assembled from `scheduleMode` and its fields.

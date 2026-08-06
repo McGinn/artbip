@@ -64,7 +64,7 @@ struct MenuBarLabel: View {
 
     var body: some View {
         Image(systemName: controller.state.paused ? "pause.rectangle" : "photo.artframe")
-            .onAppear(perform: rebind)
+            .onAppear { rebind(); controller.checkForUpdate() }
             .onChange(of: controller.settings.shortcuts) { rebind() }
     }
 
@@ -153,6 +153,9 @@ struct MenuContent: View {
             }
         }
         Divider()
+        if let v = controller.availableUpdate?.newVersion {
+            Button("Update Available: \(v)…") { Feedback.openLatestRelease() }
+        }
         Button("Open artbip…") {
             openWindow(id: "main")
             NSApp.activate(ignoringOtherApps: true)

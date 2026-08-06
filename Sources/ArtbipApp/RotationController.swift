@@ -17,6 +17,11 @@ final class RotationController: ObservableObject {
     @Published var state: RuntimeState
     @Published var busy = false
     @Published var lastError: String?
+    /// A newer release, once a check has found one. In-memory only: it is a
+    /// fact about the world, not a preference, and re-checking on launch is
+    /// cheap enough that persisting it would only risk showing a stale banner.
+    @Published var availableUpdate: UpdateCheck.Result?
+
     /// Actions whose shortcut the system refused because another app already
     /// owns the combination, keyed by `Shortcut.Action.rawValue`, so Settings
     /// can say so instead of appearing to work.
@@ -258,6 +263,32 @@ final class RotationController: ObservableObject {
     }
 
     // MARK: Settings
+
+    // MARK: Updates
+
+    /// Ask GitHub whether there is a newer release. `force` bypasses the daily
+    /// throttle for the Settings button; the automatic call on launch respects
+    /// it so a relaunch does not re-ask.
+    func checkForUpdate(force: Bool = false) {
+        guard force || settings.updateCheckEnabled else { return }
+        if !force, let last = settings.lastUpdateCheck,
+           Date().timeIntervalSince(last) < UpdateCheck.minimumInterval { return }
+        let current = Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString")
+            as? String ?? "dev"
+        Task { [weak self] in
+            guard let self else { return }
+            do {
+                let latest = try await UpdateCheck.fetchLatest()
+                let result = UpdateCheck.compare(current: current, against: latest)
+                self.availableUpdate = result
+                self.updateSettings { $0.lastUpdateCheck = Date() }
+            } catch {
+                // A failed check is not worth an error banner on a wallpaper
+                // app; it simply means we still do not know.
+                self.availableUpdate = nil
+            }
+        }
+    }
 
     func updateSettings(_ body: (inout RuntimeSettings) -> Void) {
         var s = settings

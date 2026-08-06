@@ -69,6 +69,10 @@ enum Feedback {
         open(URL(string: "https://github.com/sponsors/McGinn"))
     }
 
+    static func openLatestRelease() {
+        open(UpdateCheck.releasesPage)
+    }
+
     static func browseIssues() {
         open(URL(string: "\(repo)/issues"))
     }
