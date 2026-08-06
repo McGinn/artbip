@@ -96,7 +96,7 @@
   <div class="kicker">Why this exists</div>
   <h2>An old app taught me to recognize paintings.</h2>
   <p class="first">Ten years ago I ran a small app called Artpip that changed my
-  wallpaper to a different painting every hour. I never studied art, and I didn't
+  wallpaper to a different painting every day. I never studied art, and I didn't
   study it then either. But last spring, standing in a gallery in front of a canvas
   I had never seen in person, I realized I already knew it. That painting had spent
   a week behind my terminal windows a decade earlier.</p>
@@ -115,7 +115,8 @@
   <h2>Two thousand paintings, chosen carefully.</h2>
   <div class="grid3">
     <div class="card"><h3>A curated collection</h3><p>The 2,000 works were chosen
-    from 4,653 candidates gathered across six museum open-access programs. Each
+    from 4,653 candidates gathered from Wikimedia Commons and five museum
+    open-access programs. Each
     candidate was scored on significance and on how well it holds up as something
     you look at all day, with a cap on any single artist so the mix stays broad.</p></div>
     <div class="card"><h3>Nothing gets cropped</h3><p>Most wallpaper apps crop
@@ -123,8 +124,8 @@
     version of itself, or over a flat colour taken from its palette, so portraits
     and panoramas keep their real proportions.</p></div>
     <div class="card"><h3>Wall labels</h3><p>An optional caption in the corner shows
-    the title, artist, date, and a sentence or two about the work, written in the
-    style of a museum label.</p></div>
+    the title, artist and date, set like a museum label. The longer note about
+    each work lives in the app, not on your desktop.</p></div>
     <div class="card"><h3>Ask about a painting</h3><p>A panel tells you who painted
     the picture, what tradition it belongs to, and what any symbols in it
     traditionally mean. Every claim lists the book and page it came from.</p></div>
@@ -182,9 +183,11 @@
   each one (the museum's own public-domain flag, or Wikimedia's licence data) along
   with a link to the source.</p>
   <h3>Does it phone home?</h3>
-  <p>No. There is no server, no account, and no analytics. The app talks only to the
-  museum and Wikimedia image hosts named in the collection file, caches what it
-  fetches, and works offline after that.</p>
+  <p>No. There is no server, no account, and no analytics. Besides the museum and
+  Wikimedia image hosts named in the collection file, it makes one other request:
+  once a day it asks GitHub whether a newer release exists, so corrections to the
+  collection can reach you. That check sends nothing about you, and Settings turns
+  it off. Everything else works offline once images are cached.</p>
   <h3>Will it die like Artpip did?</h3>
   <p>There is nothing to shut down. The collection is a file in the repository, the
   images are hosted by the museums, and the code is open source. It keeps working
