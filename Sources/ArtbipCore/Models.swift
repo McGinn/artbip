@@ -268,6 +268,21 @@ public struct ManifestWork: Codable, Sendable {
     /// Physical size of the work, filled by the Wikidata enrichment pass.
     public var dimensions: ManifestDimensions?
 
+    /// Whether the "view this work" link actually reaches the museum's site.
+    ///
+    /// Most works have no page on their own museum's site in the data, so the
+    /// link falls back to Wikidata. Labelling that "View at the Louvre"
+    /// promises something it does not deliver, so the label follows the
+    /// destination rather than the collection.
+    public var linksToCollectionSite: Bool {
+        !(collectionURL.contains("wikidata.org") || collectionURL.contains("commons.wikimedia.org"))
+    }
+
+    /// Name for the link: the museum when it goes there, otherwise where it goes.
+    public var collectionLinkTitle: String {
+        linksToCollectionSite ? collection : "Wikidata"
+    }
+
     public init(id: String, wikidata: String?, title: String, artist: String, artistSort: String,
                 artistBirthYear: Int? = nil,
                 artistDeathYear: Int?, dateDisplay: String?, year: Int?, movement: String?,

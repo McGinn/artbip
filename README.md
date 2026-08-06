@@ -2,7 +2,7 @@
 
 artbip is a Mac menu-bar app (with a CLI) that sets a different public-domain
 painting as your desktop wallpaper on a schedule. The collection is about
-2,000 works curated from six museum open-access programs; each has a short
+2,000 works curated from Wikimedia Commons and five museum open-access programs; each has a short
 caption and a record of its public-domain status. It's a successor in spirit
 to Artpip, a similar app that shut down years ago.
 

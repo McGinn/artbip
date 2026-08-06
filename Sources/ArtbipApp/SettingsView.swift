@@ -170,6 +170,14 @@ struct SettingsView: View {
                 LabeledContent("Runtime directory", value: controller.store.dir.path)
             }
 
+            Section("Support") {
+                Button("Sponsor artbip…") { Feedback.sponsor() }
+                Button("Request a Feature…") { Feedback.requestFeature() }
+                Text("artbip is free and always will be. It has no account, no subscription and no server to pay for — sponsorship covers the time, not the running costs.")
+                    .font(.caption)
+                    .foregroundStyle(.secondary)
+            }
+
             Section("Collection") {
                 LabeledContent("Works", value: "\(controller.manifest.works.count)")
                 LabeledContent("Favourites", value: "\(controller.state.favourites.count)")

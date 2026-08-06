@@ -69,8 +69,10 @@ public struct WikidataSource: ArtSource {
             ctx.log("wikidata: band \(band.low)-\(band.high) -> \(rows.count) works")
         }
 
-        // Pass 2: sitelink counts for the unique creators (canon signal).
-        let creatorSitelinks = await Self.fetchCreatorSitelinks(
+        // Pass 2: sitelink counts and names for the unique creators. The name
+        // is taken from here rather than from the band query's SAMPLE — see
+        // fetchCreatorInfo for why that sampling silently drops names.
+        let creatorInfo = await Self.fetchCreatorInfo(
             ctx, qids: Set(rowsByQID.values.compactMap(\.creatorQID)))
 
         // Pass 3: Commons file metadata (resolution + licence).
@@ -86,6 +88,9 @@ public struct WikidataSource: ArtSource {
                 continue
             }
             let info = fileInfo[row.imageFile]
+            // Per-creator lookup first; the band query's sampled label is only
+            // a fallback for the rare creator the batch query missed.
+            let artistName = row.creatorQID.flatMap { creatorInfo[$0]?.name } ?? row.creatorLabel
             let pdEvidence: PDEvidence
             if let license = info?.license, let copyrighted = info?.copyrighted {
                 pdEvidence = .commons(license: license, copyrighted: copyrighted)
@@ -96,8 +101,8 @@ public struct WikidataSource: ArtSource {
                 source: Self.id,
                 sourceId: row.qid,
                 title: title,
-                artist: row.creatorLabel,
-                artistSort: Parse.sortName(row.creatorLabel),
+                artist: artistName,
+                artistSort: Parse.sortName(artistName),
                 artistDeathYear: row.creatorDeathYear,
                 yearStart: row.inception,
                 yearEnd: row.inception,
@@ -112,7 +117,7 @@ public struct WikidataSource: ArtSource {
                 imageMaxHeight: info?.height,
                 imageURLTemplate: Self.imageURLTemplate(fileName: row.imageFile),
                 signals: Signals(sitelinks: row.sitelinks,
-                                 creatorSitelinks: row.creatorQID.flatMap { creatorSitelinks[$0] }),
+                                 creatorSitelinks: row.creatorQID.flatMap { creatorInfo[$0]?.sitelinks }),
                 collectionName: row.collection ?? "Wikimedia Commons",
                 collectionURL: "https://www.wikidata.org/wiki/\(row.qid)"
             ))
@@ -196,27 +201,48 @@ public struct WikidataSource: ArtSource {
         )
     }
 
-    // MARK: - SPARQL: creator sitelinks (batched VALUES)
+    // MARK: - SPARQL: creator sitelinks and names (batched VALUES)
 
-    private static func fetchCreatorSitelinks(_ ctx: SourceContext, qids: Set<String>) async -> [String: Int] {
+    /// Sitelink count and English name for each creator, looked up one creator
+    /// at a time rather than sampled out of the grouped band query.
+    ///
+    /// The band query cannot be trusted for the name. It groups by item and
+    /// takes `SAMPLE(?creatorLabelE)`, and an item that produces several
+    /// solution rows — two inventory numbers is enough — can have the label
+    /// sampled from a row where the nested `rdfs:label` OPTIONAL did not bind,
+    /// while `SAMPLE(?deathY)` still finds a row where the death year did. The
+    /// result is a candidate with the creator's death year and no creator: 173
+    /// of them in the 2026-07-14 gather, 22 of which reached the manifest and
+    /// shipped as "Unknown" — thirteen Poussins among them.
+    private static func fetchCreatorInfo(
+        _ ctx: SourceContext, qids: Set<String>
+    ) async -> [String: (sitelinks: Int?, name: String?)] {
         // Only well-formed QIDs — these are interpolated into the query.
         let sorted = qids.filter { isQID($0) }.sorted()
-        var out: [String: Int] = [:]
+        var out: [String: (sitelinks: Int?, name: String?)] = [:]
         for chunk in chunked(sorted, size: creatorBatchSize) {
             let values = chunk.map { "wd:\($0)" }.joined(separator: " ")
-            let query = "SELECT ?c ?csl WHERE { VALUES ?c { \(values) } ?c wikibase:sitelinks ?csl }"
+            // Both OPTIONAL: a creator may be a blank node or lack an English
+            // label, and neither should drop the sitelink count.
+            let query = """
+            SELECT ?c ?csl ?cname WHERE { VALUES ?c { \(values) }
+              OPTIONAL { ?c wikibase:sitelinks ?csl }
+              OPTIONAL { ?c rdfs:label ?cname . FILTER(LANG(?cname) = "en") } }
+            """
             do {
                 for binding in try await sparql(ctx, query: query) {
-                    if let qid = value(binding, "c").flatMap(qidFromEntityURI),
-                       let csl = value(binding, "csl").flatMap(Int.init) {
-                        out[qid] = csl
-                    }
+                    guard let qid = value(binding, "c").flatMap(qidFromEntityURI) else { continue }
+                    let sl = value(binding, "csl").flatMap(Int.init)
+                    let name = value(binding, "cname")
+                    let prev = out[qid]
+                    out[qid] = (sl ?? prev?.sitelinks, name ?? prev?.name)
                 }
             } catch {
-                ctx.log("wikidata: creator sitelink batch failed (\(chunk.count) QIDs): \(error)")
+                ctx.log("wikidata: creator batch failed (\(chunk.count) QIDs): \(error)")
             }
         }
-        ctx.log("wikidata: creator sitelinks for \(out.count)/\(sorted.count) creators")
+        let named = out.values.filter { $0.name != nil }.count
+        ctx.log("wikidata: creator info for \(out.count)/\(sorted.count) creators (\(named) named)")
         return out
     }
 

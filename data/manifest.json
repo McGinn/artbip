@@ -12544,10 +12544,10 @@
       "year" : 1639
     },
     {
-      "artist" : "Unknown",
+      "artist" : "Rembrandt",
       "artistBirthYear" : 1606,
       "artistDeathYear" : 1669,
-      "artistSort" : "Unknown",
+      "artistSort" : "Rembrandt",
       "caption" : "The prophet slumps beside gleaming gold vessels while a burning city glows faintly in the distance, grief rendered through posture alone.",
       "collection" : "Rijksmuseum",
       "collectionURL" : "https://www.rijksmuseum.nl/en/collection/SK-A-3276",
@@ -12584,10 +12584,10 @@
       "year" : 1630
     },
     {
-      "artist" : "Unknown",
+      "artist" : "Rembrandt",
       "artistBirthYear" : 1606,
       "artistDeathYear" : 1669,
-      "artistSort" : "Unknown",
+      "artistSort" : "Rembrandt",
       "caption" : "A single shaft of light falls across an illuminated page and a pair of worn, careful hands turning it.",
       "collection" : "Rijksmuseum",
       "collectionURL" : "https://www.rijksmuseum.nl/en/collection/SK-A-3066",
@@ -12664,10 +12664,10 @@
       "year" : 1661
     },
     {
-      "artist" : "Unknown",
+      "artist" : "Pieter Jansz. Saenredam",
       "artistBirthYear" : 1597,
       "artistDeathYear" : 1665,
-      "artistSort" : "Unknown",
+      "artistSort" : "Saenredam, Pieter Jansz.",
       "caption" : "Soaring white piers and a hanging organ case demonstrate Saenredam's uncanny precision in rendering perspective and pale interior light.",
       "collection" : "Rijksmuseum",
       "collectionURL" : "https://www.rijksmuseum.nl/en/collection/SK-A-359",
@@ -12703,10 +12703,10 @@
       "year" : 1636
     },
     {
-      "artist" : "Unknown",
+      "artist" : "Pieter Jansz. Saenredam",
       "artistBirthYear" : 1597,
       "artistDeathYear" : 1665,
-      "artistSort" : "Unknown",
+      "artistSort" : "Saenredam, Pieter Jansz.",
       "caption" : "A stark, whitewashed nave recedes under heavy timber beams, tiny worshippers giving scale to the austere architecture.",
       "collection" : "Rijksmuseum",
       "collectionURL" : "https://www.rijksmuseum.nl/en/collection/SK-C-217",
@@ -12889,10 +12889,10 @@
       "year" : 1650
     },
     {
-      "artist" : "Unknown",
+      "artist" : "Hendrick Avercamp",
       "artistBirthYear" : 1585,
       "artistDeathYear" : 1634,
-      "artistSort" : "Unknown",
+      "artistSort" : "Avercamp, Hendrick",
       "caption" : "Skaters, sledges, and huddled figures animate a frozen river beneath pale winter light in one of the founding images of the genre.",
       "collection" : "Rijksmuseum",
       "collectionURL" : "https://www.rijksmuseum.nl/en/collection/SK-A-1718",
@@ -12928,10 +12928,10 @@
       "year" : 1608
     },
     {
-      "artist" : "Unknown",
+      "artist" : "Dirck van Baburen",
       "artistBirthYear" : 1595,
       "artistDeathYear" : 1624,
-      "artistSort" : "Unknown",
+      "artistSort" : "Baburen, Dirck van",
       "caption" : "Vulcan clamps Prometheus's chains shut while Mercury looks on with an unsettling grin, the composition built on straining, twisted anatomy.",
       "collection" : "Rijksmuseum",
       "collectionURL" : "https://www.rijksmuseum.nl/en/collection/SK-A-1606",
@@ -13337,9 +13337,9 @@
       "year" : 1884
     },
     {
-      "artist" : "Unknown",
+      "artist" : "Pieter Claesz",
       "artistDeathYear" : 1660,
-      "artistSort" : "Unknown",
+      "artistSort" : "Claesz, Pieter",
       "caption" : "A glinting silver ewer and a golden-crusted pie anchor a lavish spread, every reflection and crumb rendered with jeweler's precision.",
       "collection" : "Rijksmuseum",
       "collectionURL" : "https://www.rijksmuseum.nl/en/collection/SK-A-4646",
@@ -13656,10 +13656,10 @@
       "year" : 1622
     },
     {
-      "artist" : "Unknown",
+      "artist" : "Frans Hals",
       "artistBirthYear" : 1582,
       "artistDeathYear" : 1666,
-      "artistSort" : "Unknown",
+      "artistSort" : "Hals, Frans",
       "caption" : "A flushed, laughing face and raised hand catch a fleeting moment mid-toast, Hals's rapid brushwork making the whole figure seem to shift as you look at it.",
       "collection" : "Rijksmuseum",
       "collectionURL" : "https://www.rijksmuseum.nl/en/collection/SK-A-135",
@@ -13974,10 +13974,10 @@
       "year" : 1530
     },
     {
-      "artist" : "Unknown",
+      "artist" : "Gabriel Metsu",
       "artistBirthYear" : 1629,
       "artistDeathYear" : 1667,
-      "artistSort" : "Unknown",
+      "artistSort" : "Metsu, Gabriel",
       "caption" : "A mother's hand steadies the pale, listless child on her lap, the small clay cup on the stool beside them the only note of ordinary domestic life.",
       "collection" : "Rijksmuseum",
       "collectionURL" : "https://www.rijksmuseum.nl/en/collection/SK-A-3059",
@@ -14860,7 +14860,7 @@
       "artistSort" : "Gogh, Vincent van",
       "caption" : "Van Gogh's yellow café awning glows against a star-flecked cobalt sky, the cobblestones rendered in thick, restless strokes that pull the eye down the receding street.",
       "collection" : "Kröller-Müller Museum",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q1025704",
+      "collectionURL" : "https://krollermuller.nl/en/vincent-van-gogh-terrace-of-a-cafe-at-night-place-du-forum-1",
       "dateDisplay" : "1888",
       "dimensions" : {
         "heightCm" : 80.7,
@@ -15177,7 +15177,7 @@
       "artistSort" : "Gentileschi, Artemisia",
       "caption" : "Gentileschi gives Saint Catherine a palm branch and a direct, unposed gaze, the rose and white drapery painted with a weight and confidence that outshines the modest landscape backdrop.",
       "collection" : "Nationalmuseum",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q104875925",
+      "collectionURL" : "https://www.nationalmuseum.se/en/om-nationalmuseum/nyheter/nationalmuseum-f%C3%B6rv%C3%A4rvar-verk-av-artemisia-gentileschi",
       "dateDisplay" : "1640",
       "dimensions" : {
         "heightCm" : 90.2,
@@ -15446,7 +15446,7 @@
       "artistSort" : "Aivazovsky, Ivan",
       "caption" : "Survivors cling to wreckage beneath a towering, sunlit wave, Aivazovsky dissolving water and light into an almost translucent glow of pink and gold.",
       "collection" : "Russian Museum",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q1070896",
+      "collectionURL" : "https://rusmuseumvrm.ru/data/collections/painting/18_19/zh_2202",
       "dateDisplay" : "1850",
       "dimensions" : {
         "heightCm" : 221.0,
@@ -16483,7 +16483,7 @@
       "artistSort" : "Botticelli, Sandro",
       "caption" : "A soaring Roman triumphal arch, gilded with narrative reliefs, towers over the mob avenging Lucretia below, Botticelli treating architecture as theatrical stage set.",
       "collection" : "Isabella Stewart Gardner Museum",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q1115514",
+      "collectionURL" : "https://www.gardnermuseum.org/experience/collection/10986",
       "dateDisplay" : "1500",
       "dimensions" : {
         "heightCm" : 84.0,
@@ -17141,7 +17141,7 @@
       "artistSort" : "Delacroix, Eugène",
       "caption" : "Sardanapalus reclines impassive atop a pyre of slaughtered concubines and treasure, Delacroix whipping the whole tumbling composition into a torrent of red, gold, and flesh.",
       "collection" : "Department of Paintings of the Louvre",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q1133821",
+      "collectionURL" : "http://www.louvre.fr/en/oeuvre-notices/death-sardanapalus",
       "dateDisplay" : "1827",
       "dimensions" : {
         "heightCm" : 392.0,
@@ -17328,10 +17328,10 @@
       "year" : 1518
     },
     {
-      "artist" : "Unknown",
+      "artist" : "Nicolas Poussin",
       "artistBirthYear" : 1594,
       "artistDeathYear" : 1665,
-      "artistSort" : "Unknown",
+      "artistSort" : "Poussin, Nicolas",
       "caption" : "Poussin's shepherds trace the carved letters on a tomb in an ideal Arcadian light, turning mortality itself into a subject for classical contemplation.",
       "collection" : "Department of Paintings of the Louvre",
       "collectionURL" : "https://www.wikidata.org/wiki/Q1140358",
@@ -17489,7 +17489,7 @@
       "artistSort" : "Goya, Francisco",
       "caption" : "Goya's late 'Black Painting' strips myth to raw horror: wild eyes, bloodied flesh, and a void of shadow that swallows everything but the act itself.",
       "collection" : "Museo del Prado",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q1150997",
+      "collectionURL" : "https://www.museodelprado.es/en/the-collection/art-work/saturn/18110a75-b0e7-430c-bc73-2a4d55893bd6",
       "dateDisplay" : "1820",
       "dimensions" : {
         "heightCm" : 143.5,
@@ -17601,7 +17601,7 @@
       "artistSort" : "Courbet, Gustave",
       "caption" : "Courbet crowds his own studio with a cross-section of French society, the painter himself glowing at the canvas's center beside a nude model and a curious boy.",
       "collection" : "Musée d'Orsay",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q1167178",
+      "collectionURL" : "https://www.musee-orsay.fr/en/node/189259",
       "dateDisplay" : "1850",
       "dimensions" : {
         "heightCm" : 361.0,
@@ -17835,7 +17835,7 @@
       "artistSort" : "Vermeer, Johannes",
       "caption" : "Vermeer's hushed music room, its perspective and pearly light rendered with uncanny stillness, remains famous today largely for having vanished in the 1990 Gardner heist.",
       "collection" : "Isabella Stewart Gardner Museum",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q1169395",
+      "collectionURL" : "https://www.gardnermuseum.org/experience/collection/10966",
       "dateDisplay" : "1663",
       "dimensions" : {
         "heightCm" : 72.5,
@@ -18142,7 +18142,7 @@
       "artistSort" : "Ribera, Jusepe de",
       "caption" : "Ribera renders the saint's bound, aged body with unsparing anatomical realism, the crowd's raised torch the only source of light in the gloom.",
       "collection" : "Museum of Fine Arts, Budapest",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q11787907",
+      "collectionURL" : "https://www.mfab.hu/artworks/the-martyrdom-of-saint-andrew/",
       "dateDisplay" : "1628",
       "dimensions" : {
         "heightCm" : 206.1,
@@ -18180,7 +18180,7 @@
       "artistSort" : "Memling, Hans",
       "caption" : "Memling sets Sebastian's martyrdom against a meticulously detailed panoramic city and river, violence and idyllic landscape sharing the same quiet clarity.",
       "collection" : "Royal Museums of Fine Arts of Belgium",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q11787908",
+      "collectionURL" : "https://www.fine-arts-museum.be/nl/de-collectie/hans-memling-de-marteling-van-de-heilige-sebastiaan",
       "dateDisplay" : "1475",
       "dimensions" : {
         "heightCm" : 67.4,
@@ -18679,7 +18679,7 @@
       "artistSort" : "Hayez, Francesco",
       "caption" : "A couple locked in an embrace on a stone stairway, the man's face hidden entirely beneath his hat, Hayez condensing an entire era's political and romantic longing into one anonymous kiss.",
       "collection" : "Pinacoteca di Brera",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q1195035",
+      "collectionURL" : "https://pinacotecabrera.org/collezioni/collezione-on-line/il-bacio/",
       "dateDisplay" : "1859",
       "dimensions" : {
         "heightCm" : 112.0,
@@ -19101,7 +19101,7 @@
       "artistSort" : "Rembrandt",
       "caption" : "Samson thrashes in agony as a soldier gouges his eye, Delilah fleeing with the shorn hair still in her grip, the violence erupting from near-total darkness into a shaft of light.",
       "collection" : "Städel Museum",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q1211651",
+      "collectionURL" : "https://www.staedelmuseum.de/go/ds/1383",
       "dateDisplay" : "1636",
       "dimensions" : {
         "heightCm" : 219.3,
@@ -19993,7 +19993,7 @@
       "artistSort" : "Vermeer, Johannes",
       "caption" : "A music teacher leans over his pupil's shoulder as she pauses mid-lesson to meet the viewer's eye, Vermeer's dim, silvery light picking out the sheet music and jug.",
       "collection" : "The Frick Collection",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q1219698",
+      "collectionURL" : "http://collections.frick.org/view/objects/asitem/items$0040:273",
       "dateDisplay" : "1660",
       "dimensions" : {
         "heightCm" : 39.4,
@@ -20070,7 +20070,7 @@
       "artistSort" : "David, Jacques-Louis",
       "caption" : "David compresses the entire coronation into one gesture — Napoleon crowning Josephine — while a frieze of silk, gold braid, and courtly witnesses fills the canvas.",
       "collection" : "Department of Paintings of the Louvre",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q1231009",
+      "collectionURL" : "http://www.louvre.fr/oeuvre-notices/le-sacre-ou-le-couronnement",
       "dateDisplay" : "1807",
       "dimensions" : {
         "heightCm" : 621.0,
@@ -20223,7 +20223,7 @@
       "artistSort" : "Veronese, Paolo",
       "caption" : "Veronese splits the canvas between a celestial tribunal above and the chaos of galleys and cannon smoke at Lepanto below.",
       "collection" : "Gallerie dell'Accademia",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q1237250",
+      "collectionURL" : "http://www.gallerieaccademia.it/allegoria-della-battaglia-di-lepanto",
       "dateDisplay" : "1571",
       "dimensions" : {
         "heightCm" : 169.0,
@@ -20490,7 +20490,7 @@
       "artistSort" : "Vinci, Leonardo da",
       "caption" : "The sfumato smile and the hazy, imaginary landscape behind her have made this the most scrutinized face in Western painting.",
       "collection" : "Department of Paintings of the Louvre",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q12418",
+      "collectionURL" : "https://www.louvre.fr/decouvrir/le-palais/de-la-joconde-aux-noces-de-cana",
       "dateDisplay" : "1503",
       "dimensions" : {
         "heightCm" : 79.4,
@@ -20606,7 +20606,7 @@
       "artistSort" : "Unknown",
       "caption" : "A ploughman, a shepherd, and a fisherman go about their work while, almost unnoticed in the corner, Icarus's legs vanish into the sea.",
       "collection" : "Royal Museums of Fine Arts of Belgium",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q1247110",
+      "collectionURL" : "https://www.fine-arts-museum.be/nl/de-collectie/pieter-i-bruegel-de-val-van-icarus?artist=bruegel-brueghel-pieter-i-1",
       "dateDisplay" : "2000",
       "dimensions" : {
         "heightCm" : 73.5,
@@ -20993,7 +20993,7 @@
       "artistSort" : "David, Jacques-Louis",
       "caption" : "A woman in white throws herself between armies with her arms spread wide, David's neoclassical bodies frozen mid-motion like marble come alive.",
       "collection" : "Department of Paintings of the Louvre",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q1314013",
+      "collectionURL" : "http://www.louvre.fr/oeuvre-notices/les-sabines",
       "dateDisplay" : "1799",
       "dimensions" : {
         "heightCm" : 385.0,
@@ -21071,7 +21071,7 @@
       "artistSort" : "Bronzino",
       "caption" : "The famous pomegranate-brocade gown, rendered thread by thread against a saturated ultramarine ground, upstages even the sitter's impassive gaze.",
       "collection" : "Uffizi Gallery",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q1328065",
+      "collectionURL" : "https://catalogo.uffizi.it/it/29/ricerca/detailiccd/1185043/",
       "dateDisplay" : "1544",
       "dimensions" : {
         "heightCm" : 115.0,
@@ -21110,7 +21110,7 @@
       "artistSort" : "Seurat, Georges",
       "caption" : "A lone sculler drifts beneath a riverbank tree built entirely from shimmering dots, Seurat's pointillism turning a quiet afternoon into pure optical vibration.",
       "collection" : "Royal Museums of Fine Arts of Belgium",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q13571392",
+      "collectionURL" : "https://fine-arts-museum.be/fr/la-collection/georges-seurat-la-seine-a-la-grande-jatte",
       "dateDisplay" : "1889",
       "dimensions" : {
         "heightCm" : 65.0,
@@ -21302,7 +21302,7 @@
       "artistSort" : "Fabritius, Carel",
       "caption" : "A single goldfinch chained to its feeding perch against a bare plaster wall, Fabritius's illusionistic trompe-l'oeil intimacy still startling centuries on.",
       "collection" : "Mauritshuis",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q13726073",
+      "collectionURL" : "https://www.mauritshuis.nl/en/explore/the-collection/artworks/the-goldfinch-605/",
       "dateDisplay" : "1654",
       "dimensions" : {
         "heightCm" : 33.5,
@@ -21572,7 +21572,7 @@
       "artistSort" : "Gogh, Vincent van",
       "caption" : "Blossoming branches spread flat and graphic across a cloudless turquoise sky, van Gogh's Japanese-print-inspired composition rendered with tender, exacting brushwork.",
       "collection" : "Van Gogh Museum",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q1432536",
+      "collectionURL" : "http://www.vangoghmuseum.nl/nl/collectie/s0176V1962",
       "dateDisplay" : "1890",
       "dimensions" : {
         "heightCm" : 73.5,
@@ -21921,7 +21921,7 @@
       "artistSort" : "Hals, Frans",
       "caption" : "A tousled boy grins with unguarded, gap-toothed delight inside a tondo frame, Hals's rapid, loaded brush catching pure momentary joy.",
       "collection" : "Mauritshuis",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q14577860",
+      "collectionURL" : "https://www.mauritshuis.nl/nl-nl/verdiep/de-collectie/kunstwerken/lachende-jongen-1032/",
       "dateDisplay" : "1627",
       "dimensions" : {
         "heightCm" : 30.4,
@@ -22037,7 +22037,7 @@
       "artistSort" : "Michelangelo",
       "caption" : "The Holy Family twists in a tight spiral of saturated silk within a tondo, nude youths lounging in the background, Michelangelo's sculptural figures compressed into paint.",
       "collection" : "Uffizi Gallery",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q1473546",
+      "collectionURL" : "https://www.uffizi.it/opere/sacra-famiglia-detta-tondo-doni",
       "dateDisplay" : "1500",
       "id" : "wikidata-Q1473546",
       "image" : {
@@ -22143,10 +22143,10 @@
       "year" : 1888
     },
     {
-      "artist" : "Unknown",
+      "artist" : "Nicolas Poussin",
       "artistBirthYear" : 1594,
       "artistDeathYear" : 1665,
-      "artistSort" : "Unknown",
+      "artistSort" : "Poussin, Nicolas",
       "caption" : "Laurel-crowned poets gather around a reclining nude muse while cherubs crown a poet overhead, Poussin choreographing a crowd with classical, frieze-like clarity.",
       "collection" : "Museo del Prado",
       "collectionURL" : "https://www.wikidata.org/wiki/Q14914880",
@@ -22569,7 +22569,7 @@
       "artistSort" : "Hughes, Arthur",
       "caption" : "A young woman in violet peers shyly from an ivy-choked archway, Hughes's Pre-Raphaelite botanical detail and jewel-toned dress rewarding close inspection leaf by leaf.",
       "collection" : "Tate",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q1523473",
+      "collectionURL" : "http://www.tate.org.uk/art/artworks/hughes-april-love-n02476",
       "dateDisplay" : "1855",
       "dimensions" : {
         "heightCm" : 88.9,
@@ -22841,7 +22841,7 @@
       "artistSort" : "Elder, Pieter Brueghel the",
       "caption" : "A stormier, more monumental Babel looms against churning clouds, Bruegel's tower here reading almost as a living rock face bristling with tiny scaffolds.",
       "collection" : "Museum Boijmans Van Beuningen",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q15295671",
+      "collectionURL" : "https://www.boijmans.nl/collectie/kunstwerken/3723",
       "dateDisplay" : "1568",
       "dimensions" : {
         "heightCm" : 59.9,
@@ -22957,7 +22957,7 @@
       "artistSort" : "Gogh, Vincent van",
       "caption" : "Peasants share a meal under a single hanging lamp, Van Gogh's murky greens and knotted, weathered hands giving raw dignity to a life of hard labor.",
       "collection" : "Van Gogh Museum",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q154469",
+      "collectionURL" : "http://www.vangoghmuseum.nl/nl/collectie/s0005V1962",
       "dateDisplay" : "1885",
       "dimensions" : {
         "heightCm" : 82.0,
@@ -23266,7 +23266,7 @@
       "artistSort" : "Cimabue",
       "caption" : "The enthroned Madonna and Child rise on a gilded architectural throne flanked by tiers of angels, Cimabue's proto-Renaissance modeling just beginning to break from Byzantine flatness.",
       "collection" : "Uffizi Gallery",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q1569622",
+      "collectionURL" : "http://catalogo.uffizi.it/it/29/ricerca/detailiccd/1185157/",
       "dateDisplay" : "1290",
       "dimensions" : {
         "heightCm" : 384.0,
@@ -23573,7 +23573,7 @@
       "artistSort" : "Unknown",
       "caption" : "Isabella Stewart Gardner stands in severe black against a glowing gold damask halo, Sargent turning a society portrait into something close to an icon.",
       "collection" : "Isabella Stewart Gardner Museum",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q15880869",
+      "collectionURL" : "https://www.gardnermuseum.org/experience/collection/10867",
       "dateDisplay" : "1888",
       "dimensions" : {
         "heightCm" : 190.0,
@@ -24113,7 +24113,7 @@
       "artistSort" : "Veronese, Paolo",
       "caption" : "Veronese fills the canvas with musicians, saints, and tumbling putti in silk and brocade, the mystic marriage staged like a sumptuous Venetian pageant.",
       "collection" : "Gallerie dell'Accademia",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q16038642",
+      "collectionURL" : "https://www.gallerieaccademia.it/matrimonio-mistico-di-santa-caterina",
       "dateDisplay" : "1575",
       "dimensions" : {
         "heightCm" : 337.0,
@@ -24914,7 +24914,7 @@
       "artistSort" : "Cimabue",
       "caption" : "Christ's bound, welted body strains against the column in flat gold light, Cimabue's Byzantine severity charged with unusual physical anguish.",
       "collection" : "The Frick Collection",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q16556250",
+      "collectionURL" : "http://collections.frick.org/view/objects/asitem/items$0040:380",
       "dateDisplay" : "1280",
       "dimensions" : {
         "heightCm" : 24.7,
@@ -24991,7 +24991,7 @@
       "artistSort" : "Gogh, Vincent van",
       "caption" : "Thick, urgent strokes of cobalt sky press down on a field of gold, van Gogh's final wheatfields charged with turbulent, wordless intensity.",
       "collection" : "Van Gogh Museum",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q16589468",
+      "collectionURL" : "http://www.vangoghmuseum.nl/nl/collectie/s0106V1962",
       "dateDisplay" : "1890",
       "dimensions" : {
         "heightCm" : 50.4,
@@ -25145,7 +25145,7 @@
       "artistSort" : "Greco, El",
       "caption" : "A dove and a burst of black-feathered wings crash into the scene from above, El Greco charging the Annunciation with startling physical drama.",
       "collection" : "Museum of Fine Arts, Budapest",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q16620523",
+      "collectionURL" : "https://www.mfab.hu/artworks/8732/",
       "dateDisplay" : "1597",
       "dimensions" : {
         "heightCm" : 91.0,
@@ -25762,7 +25762,7 @@
       "artistSort" : "Weyden, Rogier van der",
       "caption" : "The Virgin presses her cheek to Christ's dead face as a skull rests at their feet, van der Weyden setting raw grief against a luminous, radiant sunset.",
       "collection" : "Royal Museums of Fine Arts of Belgium",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q17066005",
+      "collectionURL" : "https://www.fine-arts-museum.be/fr/la-collection/rogier-van-der-weyden-pieta?letter=v&artist=van-der-weyden-rogier-1",
       "dateDisplay" : "1441",
       "dimensions" : {
         "heightCm" : 32.5,
@@ -25877,7 +25877,7 @@
       "artistSort" : "Ingres, Jean-Auguste-Dominique",
       "caption" : "Ingres doubles his sitter in mirror reflection, her raised hand and appraising gaze anchoring one of the most admired portraits of the nineteenth century. The cool blue-grey palette and satin gown are painted with porcelain smoothness.",
       "collection" : "The Frick Collection",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q17189258",
+      "collectionURL" : "http://collections.frick.org/view/objects/asitem/items$0040:105",
       "dateDisplay" : "1845",
       "dimensions" : {
         "heightCm" : 131.8,
@@ -26033,7 +26033,7 @@
       "artistSort" : "Weyden, Rogier van der",
       "caption" : "Christ's pale body stretches diagonally across the composition, mourners arranged like a frieze on either side against a luminous, detailed landscape. Van der Weyden's controlled grief and jewel-like color make this an anchor of early Netherlandish painting.",
       "collection" : "Mauritshuis",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q17275914",
+      "collectionURL" : "https://www.mauritshuis.nl/nl-nl/verdiep/de-collectie/kunstwerken/de-bewening-van-christus-264/",
       "dateDisplay" : "1460",
       "dimensions" : {
         "heightCm" : 80.6,
@@ -26072,7 +26072,7 @@
       "artistSort" : "Steen, Jan",
       "caption" : "A boisterous, multigenerational household drinks, smokes, and sings around a cluttered table while a dog begs beneath. Jan Steen turns domestic disorder into a moralizing comedy, rendered with warm, lived-in detail.",
       "collection" : "Mauritshuis",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q17276053",
+      "collectionURL" : "https://www.mauritshuis.nl/nl-nl/verdiep/de-collectie/kunstwerken/soo-voer-gesongen-soo-na-gepepen-742/",
       "dateDisplay" : "1665",
       "dimensions" : {
         "heightCm" : 133.7,
@@ -26111,7 +26111,7 @@
       "artistSort" : "Honthorst, Gerard van",
       "caption" : "A smiling woman in a feathered turban saws energetically at a violin, her open mouth and flushed cheeks capturing the exuberance of Utrecht Caravaggism. Honthorst's raking light picks out every fold of yellow satin.",
       "collection" : "Mauritshuis",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q17276273",
+      "collectionURL" : "https://www.mauritshuis.nl/nl-nl/verdiep/de-collectie/kunstwerken/vioolspeelster-1107/",
       "dateDisplay" : "1626",
       "dimensions" : {
         "heightCm" : 84.5,
@@ -26495,7 +26495,7 @@
       "artistSort" : "Cole, Thomas",
       "caption" : "A vast neoclassical dream-city unspools beyond a draped loggia, Cole piling colonnade upon colonnade into hazy, golden distance.",
       "collection" : "Toledo Museum of Art",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q17512050",
+      "collectionURL" : "https://emuseum.toledomuseum.org/objects/54973",
       "dateDisplay" : "1840",
       "dimensions" : {
         "heightCm" : 134.7,
@@ -26533,7 +26533,7 @@
       "artistSort" : "Bellini, Giovanni",
       "caption" : "Gold mosaic and coffered stone frame the enthroned Madonna, a music-making angel at the altar step tying the whole sacra conversazione together.",
       "collection" : "Gallerie dell'Accademia",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q1751408",
+      "collectionURL" : "https://www.gallerieaccademia.it/madonna-col-bambino-trono-angeli-musicanti-e-i-santi-francesco-giovanni-battista-giobbe-domenico",
       "dateDisplay" : "1487",
       "dimensions" : {
         "heightCm" : 258.0,
@@ -26572,7 +26572,7 @@
       "artistSort" : "Repin, Ilya",
       "caption" : "Eleven bargemen lean into their straps across a blazing stretch of sand, each hunched figure a distinct study of exhaustion and endurance.",
       "collection" : "Russian Museum",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q175628",
+      "collectionURL" : "https://rusmuseumvrm.ru/data/collections/painting/19_20/zh_4056/?lang=ru",
       "dateDisplay" : "1870",
       "dimensions" : {
         "heightCm" : 131.5,
@@ -26999,7 +26999,7 @@
       "artistSort" : "Francesca, Piero della",
       "caption" : "An ostrich egg hangs from the coffered apse above the sleeping Christ child, Piero's rigorous perspective ordering saints and courtiers with crystalline calm.",
       "collection" : "Pinacoteca di Brera",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q1796098",
+      "collectionURL" : "https://pinacotecabrera.org/en/collezioni/collezione-on-line/madonna-and-child-with-saints-angels-and-federico-da-montefeltro-san-bernardino-altarpiece/",
       "dateDisplay" : "1472",
       "dimensions" : {
         "heightCm" : 248.0,
@@ -27038,7 +27038,7 @@
       "artistSort" : "Titian",
       "caption" : "Europa sprawls helplessly across the bull's back as cupids swoop overhead, Titian's late brushwork dissolving flesh and drapery into churning motion.",
       "collection" : "Isabella Stewart Gardner Museum",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q18002417",
+      "collectionURL" : "https://www.gardnermuseum.org/experience/collection/10978",
       "dateDisplay" : "1560",
       "dimensions" : {
         "heightCm" : 185.0,
@@ -27342,7 +27342,7 @@
       "artistSort" : "Rembrandt",
       "caption" : "A husband and wife face the light with quiet composure, Rembrandt setting stiff white ruffs and one bright red chair-cushion against near-total darkness.",
       "collection" : "Isabella Stewart Gardner Museum",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q18161363",
+      "collectionURL" : "https://www.gardnermuseum.org/experience/collection/10954",
       "dateDisplay" : "1633",
       "dimensions" : {
         "heightCm" : 131.6,
@@ -27643,7 +27643,7 @@
       "artistSort" : "Greco, El",
       "caption" : "Christ's elongated neck and upturned eyes strain against a black void, the crown of thorns and raw wooden beam rendered with mystic intensity.",
       "collection" : "Thyssen-Bornemisza Museum",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q18225401",
+      "collectionURL" : "http://www.museothyssen.org/en/thyssen/ficha_obra/376",
       "dateDisplay" : "1590",
       "dimensions" : {
         "heightCm" : 66.0,
@@ -28027,7 +28027,7 @@
       "artistSort" : "Veronese, Paolo",
       "caption" : "Over a hundred Venetian revelers, musicians, and servants crowd a marble loggia around Christ's first miracle, the vast canvas a catalogue of silks, brocades, and blue skies.",
       "collection" : "Department of Paintings of the Louvre",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q185255",
+      "collectionURL" : "https://collections.louvre.fr/ark:/53355/cl010064382",
       "dateDisplay" : "1562",
       "dimensions" : {
         "heightCm" : 677.0,
@@ -28066,7 +28066,7 @@
       "artistSort" : "Vermeer, Johannes",
       "caption" : "A single pearl and a half-turned glance are all that is needed, the girl's parted lips and luminous turban set against pure enveloping darkness.",
       "collection" : "Mauritshuis",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q185372",
+      "collectionURL" : "https://www.mauritshuis.nl/ontdek-collectie/kunstwerken/670-meisje-met-de-parel/",
       "dateDisplay" : "1665",
       "dimensions" : {
         "heightCm" : 44.5,
@@ -28674,7 +28674,7 @@
       "artistSort" : "Bronzino",
       "caption" : "A red silk mantle slips from a youth's shoulders, Bronzino's porcelain-smooth flesh and razor-precise contours turning the figure almost sculptural.",
       "collection" : "Thyssen-Bornemisza Museum",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q18683039",
+      "collectionURL" : "http://www.museothyssen.org/en/thyssen/ficha_obra/690",
       "dateDisplay" : "1533",
       "dimensions" : {
         "heightCm" : 87.0,
@@ -28790,7 +28790,7 @@
       "artistSort" : "Renoir, Pierre-Auguste",
       "caption" : "A mother in a plumed hat walks between two daughters clutching a doll, Renoir's feathery brushwork softening the group into a single warm, pastel mass.",
       "collection" : "The Frick Collection",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q18683367",
+      "collectionURL" : "http://collections.frick.org/view/objects/asitem/items$0040:241",
       "dateDisplay" : "1875",
       "dimensions" : {
         "heightCm" : 170.2,
@@ -28942,7 +28942,7 @@
       "artistSort" : "Buoninsegna, Duccio di",
       "caption" : "Christ and the Samaritan woman converse across a well while apostles peer from a fortress gate, Duccio's gold ground and stylized architecture radiating quiet authority.",
       "collection" : "Thyssen-Bornemisza Museum",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q18684720",
+      "collectionURL" : "http://www.museothyssen.org/en/thyssen/ficha_obra/458",
       "dateDisplay" : "1310",
       "dimensions" : {
         "heightCm" : 43.5,
@@ -29135,7 +29135,7 @@
       "artistSort" : "Fragonard, Jean-Honoré",
       "caption" : "A young suitor vaults a garden wall toward his startled beloved beneath a crumbling statue of Venus and Cupid, the whole scene dissolving into feathery, sun-dappled foliage. Fragonard's loaded brush turns silk, stone, and leaves into a single breathless rustle.",
       "collection" : "The Frick Collection",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q18686539",
+      "collectionURL" : "http://collections.frick.org/view/objects/asitem/items$0040:174",
       "dateDisplay" : "1771",
       "dimensions" : {
         "heightCm" : 317.5,
@@ -29248,7 +29248,7 @@
       "artistSort" : "Hunt, William Holman",
       "caption" : "A flock of sheep grazes precariously along crumbling chalk cliffs above a hazy sea, painted with an almost hallucinatory attention to individual wool and wildflowers. The unguarded animals near the cliff edge carry a quiet allegorical unease beneath the sunlit detail.",
       "collection" : "Tate",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q18689510",
+      "collectionURL" : "http://www.tate.org.uk/art/artworks/hunt-our-english-coasts-1852-strayed-sheep-n05665",
       "dateDisplay" : "1852",
       "dimensions" : {
         "heightCm" : 43.2,
@@ -29440,7 +29440,7 @@
       "artistSort" : "Signac, Paul",
       "caption" : "Santa Maria della Salute dissolves into a shimmering haze of pink, gold, and turquoise dots, gondolas and mooring poles the only solid anchors in the mist. Signac's Pointillist touch turns the Venetian skyline into pure atmospheric vibration.",
       "collection" : "Toledo Museum of Art",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q18744757",
+      "collectionURL" : "https://emuseum.toledomuseum.org/objects/54774",
       "dateDisplay" : "1905",
       "dimensions" : {
         "heightCm" : 73.5,
@@ -29549,10 +29549,10 @@
       "year" : 1881
     },
     {
-      "artist" : "Unknown",
+      "artist" : "Nicolas Poussin",
       "artistBirthYear" : 1594,
       "artistDeathYear" : 1665,
-      "artistSort" : "Unknown",
+      "artistSort" : "Poussin, Nicolas",
       "caption" : "Flora presides over a whirling round dance of mythological lovers and nymphs beneath blossoming trees, cherubs scattering petals from above. Poussin's frieze-like arrangement of bodies turns a garden allegory into a stately, sunlit ballet.",
       "collection" : "Department of Paintings of the Louvre",
       "collectionURL" : "https://www.wikidata.org/wiki/Q18761428",
@@ -30094,7 +30094,7 @@
       "artistSort" : "Brun, Élisabeth Louise Vigée Le",
       "caption" : "The artist turns from her easel, brush raised and palette full of loaded pigments, a red velvet ribbon spilling down her chair. Vigée Le Brun's confident half-smile and the visible ghost of the portrait-within-a-portrait announce her mastery with disarming ease.",
       "collection" : "Uffizi Gallery",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q19361572",
+      "collectionURL" : "https://catalogo.uffizi.it/it/29/ricerca/detailiccd/1184274/",
       "dateDisplay" : "1790",
       "dimensions" : {
         "heightCm" : 100.0,
@@ -30656,10 +30656,10 @@
       "year" : 1533
     },
     {
-      "artist" : "Unknown",
+      "artist" : "Nicolas Poussin",
       "artistBirthYear" : 1594,
       "artistDeathYear" : 1665,
-      "artistSort" : "Unknown",
+      "artistSort" : "Poussin, Nicolas",
       "caption" : "Rebecca kneels at the well pouring water while a crowd of statuesque women in jewel-toned drapery looks on, Poussin arranging the whole biblical anecdote like a frieze of classical sculpture.",
       "collection" : "Department of Paintings of the Louvre",
       "collectionURL" : "https://www.wikidata.org/wiki/Q19820166",
@@ -30738,7 +30738,7 @@
       "artistSort" : "Gogh, Vincent van",
       "caption" : "Thatched cottages huddle beneath restless, sky-reaching trees, Van Gogh's thick, rhythmic strokes turning an ordinary Auvers hamlet into something charged and alive.",
       "collection" : "Toledo Museum of Art",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q19829089",
+      "collectionURL" : "https://emuseum.toledomuseum.org/objects/54772",
       "dateDisplay" : "1890",
       "dimensions" : {
         "heightCm" : 61.0,
@@ -30815,7 +30815,7 @@
       "artistSort" : "Eyck, Jan van",
       "caption" : "The Virgin, Child, saints, and kneeling donor share a marble loggia opening onto a jewel-bright landscape, van Eyck rendering every fold of cloth and blade of grass with uncanny, crystalline precision.",
       "collection" : "The Frick Collection",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q19857229",
+      "collectionURL" : "http://collections.frick.org/view/objects/asitem/items$0040:161",
       "dateDisplay" : "1442",
       "dimensions" : {
         "heightCm" : 47.3,
@@ -30854,7 +30854,7 @@
       "artistSort" : "Younger, Hans Holbein the",
       "caption" : "Thomas Cromwell sits rigid and impassive at his green baize table, Holbein's cool, exacting realism making the sitter's guarded power almost tangible.",
       "collection" : "The Frick Collection",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q19857305",
+      "collectionURL" : "http://collections.frick.org/view/objects/asitem/items$0040:101",
       "dateDisplay" : "1532",
       "dimensions" : {
         "heightCm" : 78.1,
@@ -30892,7 +30892,7 @@
       "artistSort" : "Veronese, Paolo",
       "caption" : "Wisdom in shimmering brocade looks skyward while Hercules, draped in a lion's pelt, gathers up crowns and treasure at her feet -- Veronese at his most opulent and painterly.",
       "collection" : "The Frick Collection",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q19857397",
+      "collectionURL" : "http://collections.frick.org/view/objects/asitem/items$0040:277",
       "dateDisplay" : "1565",
       "dimensions" : {
         "heightCm" : 214.6,
@@ -31398,7 +31398,7 @@
       "artistSort" : "Bellini, Giovanni",
       "caption" : "Bellini sets the Madonna's grave, hooded profile against a hung red cloth and a luminous distant hill town, the Christ child's reaching gesture animating an otherwise still, devotional composition.",
       "collection" : "Metropolitan Museum of Art",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q19911447",
+      "collectionURL" : "https://www.metmuseum.org/Collections/search-the-collections/110000074",
       "dateDisplay" : "1488",
       "dimensions" : {
         "heightCm" : 88.9,
@@ -32513,7 +32513,7 @@
       "artistSort" : "Ingres, Jean-Auguste-Dominique",
       "caption" : "Dozens of nudes recline, bathe, and embrace within a crowded circular frame, their bodies compressed into a single sinuous rhythm of curves. Ingres compiles a lifetime of erotic drawing into one obsessive tondo.",
       "collection" : "Department of Paintings of the Louvre",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q2027662",
+      "collectionURL" : "https://collections.louvre.fr/ark:/53355/cl010066606",
       "dateDisplay" : "1862",
       "dimensions" : {
         "heightCm" : 110.0,
@@ -33091,7 +33091,7 @@
       "artistSort" : "Elder, Lucas Cranach the",
       "caption" : "Elderly women arrive by cart and wheelbarrow on one side of a pool, emerging as young nudes on the other, with courtiers and a feast awaiting them. Cranach turns a wishful legend into a busy, methodical narrative diagram.",
       "collection" : "Gemäldegalerie Berlin",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q20828882",
+      "collectionURL" : "http://www.smb-digital.de/eMuseumPlus?service=ExternalInterface&module=collection&objectId=1750773&viewType=detailView",
       "dateDisplay" : "1546",
       "dimensions" : {
         "heightCm" : 120.6,
@@ -33202,10 +33202,10 @@
       "year" : 1827
     },
     {
-      "artist" : "Unknown",
+      "artist" : "Nicolas Poussin",
       "artistBirthYear" : 1594,
       "artistDeathYear" : 1665,
-      "artistSort" : "Unknown",
+      "artistSort" : "Poussin, Nicolas",
       "caption" : "Soldiers raise their hands in solemn oath around the dying general's bed while his grieving widow and children look on. Poussin arranges the figures like a frieze, each gesture calibrated to the scene's rhetorical weight.",
       "collection" : "Minneapolis Institute of Art",
       "collectionURL" : "https://www.wikidata.org/wiki/Q20890835",
@@ -33246,7 +33246,7 @@
       "artistSort" : "Gauguin, Paul",
       "caption" : "Gauguin catches van Gogh mid-brushstroke, his sunflowers blazing in the foreground against the flattened, unnaturally banded river landscape behind.",
       "collection" : "Van Gogh Museum",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q2093283",
+      "collectionURL" : "https://www.vangoghmuseum.nl/en/collection/s0225v1962",
       "dateDisplay" : "1888",
       "dimensions" : {
         "heightCm" : 73.0,
@@ -34281,7 +34281,7 @@
       "artistSort" : "Zurbarán, Francisco de",
       "caption" : "Zurbaran renders the brocaded gown and jeweled clasp with such tactile precision that the saint's sidelong glance almost seems an afterthought to the fabric's splendor.",
       "collection" : "Thyssen-Bornemisza Museum",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q21711372",
+      "collectionURL" : "http://www.museothyssen.org/en/thyssen/ficha_obra/65",
       "dateDisplay" : "1635",
       "dimensions" : {
         "heightCm" : 171.0,
@@ -34319,7 +34319,7 @@
       "artistSort" : "Beckmann, Max",
       "caption" : "Heavy black contours and a cigarette held mid-air give Beckmann's wife a cool, self-possessed glamour against clashing pink and blue planes.",
       "collection" : "Thyssen-Bornemisza Museum",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q21712392",
+      "collectionURL" : "https://www.museothyssen.org/en/collection/artists/beckmann-max/quappi-pink-jumper",
       "dateDisplay" : "1934",
       "dimensions" : {
         "heightCm" : 105.0,
@@ -34428,10 +34428,10 @@
       "year" : 1878
     },
     {
-      "artist" : "Unknown",
+      "artist" : "Nicolas Poussin",
       "artistBirthYear" : 1594,
       "artistDeathYear" : 1665,
-      "artistSort" : "Unknown",
+      "artistSort" : "Poussin, Nicolas",
       "caption" : "A garland of tumbling putti along a ruined entablature frames the humble manger scene below, the classical architecture and golden dawn light lending it Poussin-esque order.",
       "collection" : "National Gallery",
       "collectionURL" : "https://www.wikidata.org/wiki/Q21820707",
@@ -34589,7 +34589,7 @@
       "artistSort" : "Gogh, Vincent van",
       "caption" : "Van Gogh's cadmium-yellow house glows against a deep cobalt sky, everyday Arles street life caught in loose, confident strokes.",
       "collection" : "Van Gogh Museum",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q2200610",
+      "collectionURL" : "http://www.vangoghmuseum.nl/nl/collectie/s0032V1962",
       "dateDisplay" : "1888",
       "dimensions" : {
         "heightCm" : 72.0,
@@ -35593,7 +35593,7 @@
       "artistSort" : "Tintoretto, Jacopo",
       "caption" : "St. Mark plunges headlong from the sky to halt the executioner's raised hammer, Tintoretto throwing the whole crowded piazza into swirling, foreshortened motion.",
       "collection" : "Gallerie dell'Accademia",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q2273890",
+      "collectionURL" : "https://www.gallerieaccademia.it/san-marco-libera-uno-schiavo",
       "dateDisplay" : "1547",
       "dimensions" : {
         "heightCm" : 415.0,
@@ -35943,7 +35943,7 @@
       "artistSort" : "Raphael",
       "caption" : "An unfinished corner reveals Raphael's underdrawing, but the pyramidal grouping of Mary and the two infants against a luminous Umbrian landscape is fully resolved.",
       "collection" : "Museum of Fine Arts, Budapest",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q2283808",
+      "collectionURL" : "https://www.mfab.hu/artworks/8911",
       "dateDisplay" : "1508",
       "dimensions" : {
         "heightCm" : 28.5,
@@ -36949,7 +36949,7 @@
       "artistSort" : "Raphael",
       "caption" : "The Virgin's pyramidal form anchors two infant boys reaching across her lap, a serene Umbrian landscape of hills and towers unfolding behind them.",
       "collection" : "Department of Paintings of the Louvre",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q2343778",
+      "collectionURL" : "https://collections.louvre.fr/en/ark:/53355/cl010060754",
       "dateDisplay" : "1500",
       "dimensions" : {
         "heightCm" : 122.0,
@@ -37027,7 +37027,7 @@
       "artistSort" : "Raphael",
       "caption" : "A steady-gazed young woman cradles a small unicorn against her red velvet sleeve, flanked by classical columns opening onto a hazy blue landscape.",
       "collection" : "Borghese Collection",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q2344396",
+      "collectionURL" : "https://www.collezionegalleriaborghese.it/opere/dama-con-liocorno",
       "dateDisplay" : "1505",
       "dimensions" : {
         "heightCm" : 65.0,
@@ -37647,7 +37647,7 @@
       "artistSort" : "Bosch, Hieronymus",
       "caption" : "John writes on Patmos beneath a hovering angel and a tiny vision of the Virgin, the panel's reverse showing a strange circular night scene of the Passion around a glowing pelican.",
       "collection" : "Gemäldegalerie Berlin",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q2390197",
+      "collectionURL" : "https://smb.museum-digital.de/object/227034",
       "dateDisplay" : "1489",
       "dimensions" : {
         "heightCm" : 63.0,
@@ -37686,7 +37686,7 @@
       "artistSort" : "Bosch, Hieronymus",
       "caption" : "Christ hangs pale against a wide, luminous Flemish landscape while mourners and a kneeling donor with his patron gather below, a skull and scattered bones underfoot.",
       "collection" : "Royal Museums of Fine Arts of Belgium",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q2390211",
+      "collectionURL" : "http://www.fine-arts-museum.be/fr/la-collection/hieronymus-van-aken-dit-bosch-calvaire-avec-donateur?letter=b&artist=bosch-hieronymus-1",
       "dateDisplay" : "1485",
       "dimensions" : {
         "heightCm" : 74.7,
@@ -37725,7 +37725,7 @@
       "artistSort" : "Ghirlandaio, Domenico",
       "caption" : "An old man's disfigured, rhinophyma-scarred nose is rendered with unsparing tenderness as his grandson gazes up at him, a serene valley framed in the window behind.",
       "collection" : "Department of Paintings of the Louvre",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q23915",
+      "collectionURL" : "https://collections.louvre.fr/en/ark:/53355/cl010064987",
       "dateDisplay" : "1490",
       "dimensions" : {
         "heightCm" : 62.7,
@@ -38111,7 +38111,7 @@
       "artistSort" : "Mantegna, Andrea",
       "caption" : "Kneeling magi in jewel-toned robes crowd close around the Madonna in a stone grotto, while a distant procession winds down through Mantegna's crisp, sculptural hills.",
       "collection" : "Uffizi Gallery",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q2405395",
+      "collectionURL" : "http://catalogo.uffizi.it/it/29/ricerca/detailiccd/1185415/",
       "dateDisplay" : "1463",
       "dimensions" : {
         "heightCm" : 86.0,
@@ -38265,7 +38265,7 @@
       "artistSort" : "Goya, Francisco",
       "caption" : "A brooding giant looms over a moonlit landscape where a stampeding crowd flees in miniature panic, Goya's murky brushwork making the colossus feel like a bad dream.",
       "collection" : "Museo del Prado",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q2413468",
+      "collectionURL" : "https://www.museodelprado.es/en/the-collection/art-work/the-colossus/2a678f69-fbdd-409c-8959-5c873f8feb82",
       "dateDisplay" : "1818",
       "dimensions" : {
         "heightCm" : 116.0,
@@ -38537,7 +38537,7 @@
       "artistSort" : "Rossetti, Dante Gabriel",
       "caption" : "A pale, startled Mary shrinks against the wall as Gabriel extends a white lily, Rossetti's near-monochrome palette and stiff medieval poses giving the scene an eerie stillness.",
       "collection" : "Tate",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q2425901",
+      "collectionURL" : "http://www.tate.org.uk/art/artworks/rossetti-ecce-ancilla-domini-the-annunciation-n01210",
       "dateDisplay" : "1850",
       "dimensions" : {
         "heightCm" : 72.4,
@@ -38576,7 +38576,7 @@
       "artistSort" : "Botticelli, Sandro",
       "caption" : "Pallas grips a wild centaur by the hair, her olive-branch armor and windblown drapery patterned in obsessive linear detail against a calm coastal view.",
       "collection" : "Uffizi Gallery",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q2426058",
+      "collectionURL" : "https://www.uffizi.it/opere/minerva-e-il-centauro",
       "dateDisplay" : "1482",
       "dimensions" : {
         "heightCm" : 205.0,
@@ -38771,7 +38771,7 @@
       "artistSort" : "Dürer, Albrecht",
       "caption" : "The boy Christ debates a ring of grotesque, wrinkled elders, Dürer packing the panel with expressive hands and faces crowded almost claustrophobically close to the picture plane.",
       "collection" : "Thyssen-Bornemisza Museum",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q2448065",
+      "collectionURL" : "http://www.museothyssen.org/en/thyssen/ficha_obra/459",
       "dateDisplay" : "1506",
       "dimensions" : {
         "heightCm" : 64.3,
@@ -38849,7 +38849,7 @@
       "artistSort" : "Raphael",
       "caption" : "The infant Christ grips a small wooden cross offered by the young Baptist, Raphael's pyramidal Madonna group set with effortless calm against a sunlit Umbrian valley.",
       "collection" : "Kunsthistorisches Museum",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q2452858",
+      "collectionURL" : "https://www.khm.at/objektdb/detail/1502/",
       "dateDisplay" : "1505",
       "dimensions" : {
         "heightCm" : 113.0,
@@ -39308,7 +39308,7 @@
       "artistSort" : "Eyck, Jan van",
       "caption" : "Van Eyck's obsessive optical precision turns a Bruges canon's private devotion into a hall of mirrored textures — fur, brocade, polished armor, and Persian carpet all rendered with equal, uncanny clarity.",
       "collection" : "Groeningemuseum",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q2480921",
+      "collectionURL" : "https://erfgoedbrugge.be/p/BRU001002232",
       "dateDisplay" : "1436",
       "dimensions" : {
         "heightCm" : 124.5,
@@ -39495,10 +39495,10 @@
       "year" : 1884
     },
     {
-      "artist" : "Unknown",
+      "artist" : "Nicolas Poussin",
       "artistBirthYear" : 1594,
       "artistDeathYear" : 1665,
-      "artistSort" : "Unknown",
+      "artistSort" : "Poussin, Nicolas",
       "caption" : "Two mothers plead before an enthroned Solomon while a soldier raises his sword over a wailing infant — a taut classical composition built on strict architectural symmetry and gesture.",
       "collection" : "Department of Paintings of the Louvre",
       "collectionURL" : "https://www.wikidata.org/wiki/Q2502068",
@@ -39579,7 +39579,7 @@
       "artistSort" : "Gauguin, Paul",
       "caption" : "Gauguin folds three flattened, mossy-green Breton women in prayer around a rustic crucifix, the cloisonné outlines and unnatural color turning a roadside calvary into pure Symbolist feeling.",
       "collection" : "Royal Museums of Fine Arts of Belgium",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q2504917",
+      "collectionURL" : "http://www.fine-arts-museum.be/fr/la-collection/paul-gauguin-le-calvaire-breton",
       "dateDisplay" : "1889",
       "dimensions" : {
         "heightCm" : 92.0,
@@ -39611,10 +39611,10 @@
       "year" : 1889
     },
     {
-      "artist" : "Unknown",
+      "artist" : "Nicolas Poussin",
       "artistBirthYear" : 1594,
       "artistDeathYear" : 1665,
-      "artistSort" : "Unknown",
+      "artistSort" : "Poussin, Nicolas",
       "caption" : "Four allegorical dancers whirl hand in hand to Time's lyre while Apollo's chariot wheels overhead — Poussin's most enduringly quoted meditation on the wheel of fortune.",
       "collection" : "Wallace Collection",
       "collectionURL" : "https://www.wikidata.org/wiki/Q2513438",
@@ -39695,7 +39695,7 @@
       "artistSort" : "Eyck, Jan van",
       "caption" : "Van Eyck's grisaille trompe-l'oeil convinces the eye these are carved stone statues of Gabriel and Mary in shallow niches — an astonishing feat of illusionistic modeling in near-monochrome.",
       "collection" : "Thyssen-Bornemisza Museum",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q2516599",
+      "collectionURL" : "https://www.museothyssen.org/en/collection/artists/eyck-jan-van/annunciation-diptych",
       "dateDisplay" : "1440",
       "dimensions" : {
         "heightCm" : 39.0,
@@ -39886,7 +39886,7 @@
       "artistSort" : "Velázquez, Diego",
       "caption" : "Christ hangs alone against an unbroken black void, arms taut, blood tracing thin lines down pale, immaculately modeled flesh — Velázquez at his most austere and devastating.",
       "collection" : "Museo del Prado",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q2528741",
+      "collectionURL" : "https://www.museodelprado.es/en/the-collection/art-work/the-crucified-christ/72cbb57e-f622-4531-9b25-27ff0a9559d7",
       "dateDisplay" : "1632",
       "dimensions" : {
         "heightCm" : 248.0,
@@ -40499,7 +40499,7 @@
       "artistSort" : "Bosch, Hieronymus",
       "caption" : "Bosch fills the riverbank with strange incident — a hermit fishing from a barrel-house, a bear up a pole — while the giant saint wades through with the Christ child.",
       "collection" : "Museum Boijmans Van Beuningen",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q2565646",
+      "collectionURL" : "https://www.boijmans.nl/collectie/kunstwerken/101481",
       "dateDisplay" : "1500",
       "dimensions" : {
         "heightCm" : 113.0,
@@ -40615,7 +40615,7 @@
       "artistSort" : "Elder, Pieter Brueghel the",
       "caption" : "A vast wooded crowd of listeners in exotic dress presses toward the preacher, Bruegel using the forest clearing to stage a panorama of humanity.",
       "collection" : "Museum of Fine Arts, Budapest",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q257048",
+      "collectionURL" : "https://www.mfab.hu/artworks/9633/",
       "dateDisplay" : "1566",
       "dimensions" : {
         "heightCm" : 95.0,
@@ -41078,7 +41078,7 @@
       "artistSort" : "Caravaggio",
       "caption" : "A bare-shouldered youth offers up an overflowing basket of fruit, its bruised leaves and swollen grapes painted with startling immediacy.",
       "collection" : "Borghese Collection",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q2610936",
+      "collectionURL" : "https://www.collezionegalleriaborghese.it/en/opere/boy-with-basket-of-fruit",
       "dateDisplay" : "1594",
       "dimensions" : {
         "heightCm" : 70.0,
@@ -41117,7 +41117,7 @@
       "artistSort" : "David, Jacques-Louis",
       "caption" : "Madame Récamier reclines barefoot on her neoclassical daybed, the austere setting and her plain white gown distilled to pure linear elegance.",
       "collection" : "Department of Paintings of the Louvre",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q2619037",
+      "collectionURL" : "http://www.louvre.fr/oeuvre-notices/madame-recamier",
       "dateDisplay" : "1800",
       "dimensions" : {
         "heightCm" : 174.0,
@@ -41232,7 +41232,7 @@
       "artistSort" : "Gogh, Vincent van",
       "caption" : "Massive plane-tree trunks writhe and swell across the canvas, road menders and roadside stones dwarfed beneath their twisting autumnal canopy.",
       "collection" : "Cleveland Museum of Art",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q26221185",
+      "collectionURL" : "https://clevelandart.org/art/1947.209",
       "dateDisplay" : "1889",
       "dimensions" : {
         "heightCm" : 104.5,
@@ -41309,7 +41309,7 @@
       "artistSort" : "Gogh, Vincent van",
       "caption" : "A lark rises above windblown wheat, its tiny silhouette the only incident in a canvas otherwise given over to rippling gold brushstrokes.",
       "collection" : "Van Gogh Museum",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q262360",
+      "collectionURL" : "http://www.vangoghmuseum.nl/nl/collectie/s0197V1962",
       "dateDisplay" : "1887",
       "dimensions" : {
         "heightCm" : 53.7,
@@ -41386,7 +41386,7 @@
       "artistSort" : "Manet, Édouard",
       "caption" : "A boy fifer in a red-and-black military uniform stands flatly lit against bare gray, Manet stripping away all depth cues but the figure itself.",
       "collection" : "Musée d'Orsay",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q26250",
+      "collectionURL" : "http://www.musee-orsay.fr/en/colecciones/obras-comentadas/busqueda/commentaire/commentaire_id/le-fifre-317.html?no_cache=1",
       "dateDisplay" : "1866",
       "dimensions" : {
         "heightCm" : 161.0,
@@ -41502,7 +41502,7 @@
       "artistSort" : "Caravaggio",
       "caption" : "Saint Catherine leans against her spiked breaking-wheel, sword and palm frond resting on a crimson cushion, lit with Caravaggio's raking clarity.",
       "collection" : "Thyssen-Bornemisza Museum",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q2627034",
+      "collectionURL" : "http://www.museothyssen.org/en/thyssen/ficha_obra/9",
       "dateDisplay" : "1598",
       "dimensions" : {
         "heightCm" : 173.0,
@@ -41541,7 +41541,7 @@
       "artistSort" : "Caravaggio",
       "caption" : "David holds Goliath's severed head at arm's length, his sorrowful downcast eyes at odds with the trophy — thought to bear Caravaggio's own likeness.",
       "collection" : "Borghese Collection",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q2627056",
+      "collectionURL" : "https://www.collezionegalleriaborghese.it/opere/david-con-la-testa-di-golia",
       "dateDisplay" : "1605",
       "dimensions" : {
         "heightCm" : 125.0,
@@ -42122,7 +42122,7 @@
       "artistSort" : "Titian",
       "caption" : "Titian, near death, built his own funerary chapel in paint, thick, smoky brushwork dissolving flesh and stone alike into the same grieving twilight.",
       "collection" : "Gallerie dell'Accademia",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q2665840",
+      "collectionURL" : "https://www.gallerieaccademia.it/pieta",
       "dateDisplay" : "1575",
       "dimensions" : {
         "heightCm" : 352.0,
@@ -42660,7 +42660,7 @@
       "artistSort" : "Caravaggio",
       "caption" : "Saint Jerome leans hard into an open book, his sunlit torso and bald head modeled with sculptural precision against Caravaggio's characteristic darkness.",
       "collection" : "Borghese Collection",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q2715177",
+      "collectionURL" : "https://www.collezionegalleriaborghese.it/en/opere/saint-jerome",
       "dateDisplay" : "1606",
       "dimensions" : {
         "heightCm" : 116.0,
@@ -43047,7 +43047,7 @@
       "artistSort" : "Goes, Hugo van der",
       "caption" : "Gold and jewels pile at the Virgin's feet as the elderly king kneels bareheaded before the Christ child, every fabric rendered with the crisp specificity of Netherlandish oil technique.",
       "collection" : "Gemäldegalerie Berlin",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q2741541",
+      "collectionURL" : "http://www.smb-digital.de/eMuseumPlus?service=ExternalInterface&module=collection&objectId=869595&viewType=detailView",
       "dateDisplay" : "1470",
       "dimensions" : {
         "heightCm" : 147.0,
@@ -43663,7 +43663,7 @@
       "artistSort" : "Pissarro, Camille",
       "caption" : "Snow-dusted red roofs push through bare winter trees, Pissarro building the hillside village from short, deliberate strokes that read as pure structure from a distance.",
       "collection" : "Musée d'Orsay",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q2843906",
+      "collectionURL" : "http://www.musee-orsay.fr/fr/collections/oeuvres-commentees/recherche/commentaire/commentaire_id/les-toits-rouges-9869.html",
       "dateDisplay" : "1877",
       "dimensions" : {
         "heightCm" : 54.0,
@@ -44313,7 +44313,7 @@
       "artistSort" : "Gogh, Vincent van",
       "caption" : "Beached fishing boats in candy-bright red, blue, and yellow sit on tawny sand while van Gogh's restless, wind-blown brushstrokes animate sea and sky alike.",
       "collection" : "Van Gogh Museum",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q2884896",
+      "collectionURL" : "http://www.vangoghmuseum.nl/nl/collectie/s0028V1962",
       "dateDisplay" : "1888",
       "dimensions" : {
         "heightCm" : 65.0,
@@ -44543,7 +44543,7 @@
       "artistSort" : "Gentileschi, Artemisia",
       "caption" : "Gentileschi crowns her Catherine in gleaming metal and sets her against near-total darkness, the saint's rich red-and-gold robe catching every drop of light.",
       "collection" : "Uffizi Gallery",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q29016365",
+      "collectionURL" : "https://catalogo.uffizi.it/it/29/ricerca/detailiccd/1184292/",
       "dateDisplay" : "1615",
       "dimensions" : {
         "heightCm" : 77.0,
@@ -44929,7 +44929,7 @@
       "artistSort" : "Potter, Paulus",
       "caption" : "Potter renders a young bull's individual hairs and the sheep dozing at its feet with near-photographic precision beneath an enormous cloud-piled Dutch sky.",
       "collection" : "Mauritshuis",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q2917717",
+      "collectionURL" : "https://www.mauritshuis.nl/nl-nl/verdiep/de-collectie/kunstwerken/de-stier-136/",
       "dateDisplay" : "1647",
       "dimensions" : {
         "heightCm" : 235.5,
@@ -46272,7 +46272,7 @@
       "artistSort" : "Ingres, Jean-Auguste-Dominique",
       "caption" : "A crowned, blind Homer receives his laurel from a winged Victory before a Greek temple, ringed by a pantheon of poets and artists in Ingres's cool, sculptural line.",
       "collection" : "Department of Paintings of the Louvre",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q3202169",
+      "collectionURL" : "http://www.louvre.fr/oeuvre-notices/homere-deifie",
       "dateDisplay" : "1827",
       "dimensions" : {
         "heightCm" : 386.0,
@@ -46427,7 +46427,7 @@
       "artistSort" : "Kuindzhi, Arkhip",
       "caption" : "A ribbon of moonlight burns green across a black river beneath a heavy, glowing sky — Kuindzhi's uncanny luminosity still startles.",
       "collection" : "Russian Museum",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q3205872",
+      "collectionURL" : "http://rusmuseumvrm.ru/data/collections/painting/19_20/kuindzhi_ai_lunnaya_noch_na_dnepre_1880_zh_4191/index.php",
       "dateDisplay" : "1880",
       "dimensions" : {
         "heightCm" : 105.0,
@@ -46656,7 +46656,7 @@
       "artistSort" : "Botticelli, Sandro",
       "caption" : "The Virgin and Child are flanked by the two Saint Johns amid a bower of lilies and flowering shrubs, Botticelli's line as taut and musical as ever.",
       "collection" : "Gemäldegalerie Berlin",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q3210257",
+      "collectionURL" : "http://www.smb-digital.de/eMuseumPlus?service=ExternalInterface&module=collection&objectId=864025&viewType=detailView",
       "dateDisplay" : "1500",
       "dimensions" : {
         "heightCm" : 185.0,
@@ -47081,7 +47081,7 @@
       "artistSort" : "Bosch, Hieronymus",
       "caption" : "Bosch's triptych opens from a monochrome Eden into a teeming pink-and-blue paradise of impossible fruit and coupling bodies before collapsing into the musical-instrument hell at right; look at how the middle panel's spheres and towers recur, transformed, on each side.",
       "collection" : "Museo del Prado",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q321303",
+      "collectionURL" : "https://www.museodelprado.es/en/the-collection/art-work/the-garden-of-earthly-delights-triptych/02388242-6d6a-4e9e-a992-e1311eab3609",
       "dateDisplay" : "1490",
       "dimensions" : {
         "heightCm" : 205.5,
@@ -47120,7 +47120,7 @@
       "artistSort" : "Christus, Petrus",
       "caption" : "The Madonna stands wrapped in blood-red drapery inside a leafless, thorned tree hung with gilt Hebrew letters, Petrus Christus turning a devotional image into something close to a heraldic emblem.",
       "collection" : "Thyssen-Bornemisza Museum",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q3213777",
+      "collectionURL" : "https://www.museothyssen.org/en/thyssen/ficha_obra/428",
       "dateDisplay" : "1462",
       "dimensions" : {
         "heightCm" : 17.0,
@@ -47235,7 +47235,7 @@
       "artistSort" : "Gogh, Vincent van",
       "caption" : "Van Gogh crowds a field of purple bearded irises into the foreground, their dark, curling petals set against a shimmering yellow meadow and the pale spire of Arles beyond.",
       "collection" : "Van Gogh Museum",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q3220982",
+      "collectionURL" : "http://www.vangoghmuseum.nl/nl/collectie/s0037V1962",
       "dateDisplay" : "1888",
       "dimensions" : {
         "heightCm" : 54.0,
@@ -47349,7 +47349,7 @@
       "artistSort" : "Caravaggio",
       "caption" : "A soldier struggles to right the X-shaped cross while Andrew, already bound and resigned, gazes upward; Caravaggio's raking light picks out every strained tendon against near-total darkness.",
       "collection" : "Cleveland Museum of Art",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q3221991",
+      "collectionURL" : "https://clevelandart.org/art/1976.2",
       "dateDisplay" : "1607",
       "dimensions" : {
         "heightCm" : 202.5,
@@ -47389,7 +47389,7 @@
       "artistSort" : "Vermeer, Johannes",
       "caption" : "Diana's nymphs tend to her feet in a hushed, intimate service scene, a small dog watching from the rocks; Vermeer's rare mythological subject glows with his characteristic soft, enveloping light.",
       "collection" : "Mauritshuis",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q32234",
+      "collectionURL" : "https://www.mauritshuis.nl/nl-nl/verdiep/de-collectie/kunstwerken/diana-en-haar-nimfen-406/",
       "dateDisplay" : "1650",
       "dimensions" : {
         "heightCm" : 97.8,
@@ -48162,7 +48162,7 @@
       "artistSort" : "Weyden, Rogier van der",
       "caption" : "The nursing Madonna is flanked by saints and donors beneath a canopy held open by angels, van der Weyden's crisp drapery folds and quiet faces defining Early Netherlandish grace.",
       "collection" : "Städel Museum",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q3276176",
+      "collectionURL" : "https://sammlung.staedelmuseum.de/de/werk/medici-madonna",
       "dateDisplay" : "1460",
       "dimensions" : {
         "heightCm" : 61.7,
@@ -48856,7 +48856,7 @@
       "artistSort" : "Velázquez, Diego",
       "caption" : "Philip IV turns to meet the viewer's eye in campaign dress, Velázquez's silvered brushwork on lace and armor dissolving into pure texture up close.",
       "collection" : "The Frick Collection",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q3380051",
+      "collectionURL" : "http://collections.frick.org/view/objects/asitem/items$0040:271",
       "dateDisplay" : "1644",
       "dimensions" : {
         "heightCm" : 133.5,
@@ -49237,7 +49237,7 @@
       "artistSort" : "Gris, Juan",
       "caption" : "Picasso's features shatter into cool grey-blue crystalline facets, Gris's analytic cubism reassembling a friend's face and palette into rigorous geometry.",
       "collection" : "Art Institute of Chicago",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q3399451",
+      "collectionURL" : "https://www.artic.edu/artworks/8624/portrait-of-pablo-picasso",
       "dateDisplay" : "1912",
       "dimensions" : {
         "heightCm" : 93.3,
@@ -49276,7 +49276,7 @@
       "artistSort" : "Eyck, Jan van",
       "caption" : "Margareta van Eyck meets the viewer with faint amusement beneath an elaborate horned headdress, every crimped fold of linen picked out with obsessive precision.",
       "collection" : "Groeningemuseum",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q3399452",
+      "collectionURL" : "https://artinflanders.be/en/artwork/portret-van-margareta-van-eyck-0",
       "dateDisplay" : "1439",
       "dimensions" : {
         "heightCm" : 32.6,
@@ -49431,7 +49431,7 @@
       "artistSort" : "Eyck, Jan van",
       "caption" : "Every crease and vein of an elderly cardinal's face is rendered with unsparing van Eyck precision, red robe glowing against a deep blue-black ground.",
       "collection" : "Kunsthistorisches Museum",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q3399498",
+      "collectionURL" : "https://www.khm.at/de/object/fccb3cdc9a/",
       "dateDisplay" : "1438",
       "dimensions" : {
         "heightCm" : 34.0,
@@ -49548,7 +49548,7 @@
       "artistSort" : "Turner, J. M. W.",
       "caption" : "A lantern-lit fishing boat crests a phosphorescent wave under a moon breaking through storm clouds, the young Turner already mastering nocturnal drama.",
       "collection" : "Tate",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q3412132",
+      "collectionURL" : "http://www.tate.org.uk/art/artworks/turner-fishermen-at-sea-t01585",
       "dateDisplay" : "1796",
       "dimensions" : {
         "heightCm" : 122.2,
@@ -49624,7 +49624,7 @@
       "artistSort" : "Bellows, George",
       "caption" : "Two boxers collide in a single knot of slashing brushwork under the ring lights, the crowd's leering faces pressed up against the ropes — Bellows at his most kinetic.",
       "collection" : "Cleveland Museum of Art",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q3425144",
+      "collectionURL" : "https://clevelandart.org/art/1922.1133",
       "dateDisplay" : "1909",
       "dimensions" : {
         "heightCm" : 92.0,
@@ -50547,7 +50547,7 @@
       "artistSort" : "Lippi, Filippino",
       "caption" : "A rickety wooden shelter shelters the Virgin and Child while a teeming procession of kings, retainers, and mounted riders spills across the hillside in vivid reds and golds.",
       "collection" : "Uffizi Gallery",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q3605532",
+      "collectionURL" : "https://www.uffizi.it/opere/adorazione-dei-magi-filippino-lippi",
       "dateDisplay" : "1496",
       "dimensions" : {
         "heightCm" : 258.0,
@@ -51044,7 +51044,7 @@
       "artistSort" : "Bronzino",
       "caption" : "Cold steel armor engraved with foliate scrollwork and studded gold rivets encases the young duke, Bronzino's icy precision setting flesh against gleaming metal and deep blue velvet.",
       "collection" : "Uffizi Gallery",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q3625842",
+      "collectionURL" : "https://catalogo.uffizi.it/it/29/ricerca/detailiccd/1185055/",
       "dateDisplay" : "1544",
       "dimensions" : {
         "heightCm" : 74.0,
@@ -51390,7 +51390,7 @@
       "artistSort" : "Rembrandt",
       "caption" : "Rembrandt's steady, appraising gaze emerges from a dense weave of golden impasto in the sash and robe.",
       "collection" : "The Frick Collection",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q3630750",
+      "collectionURL" : "http://collections.frick.org/view/objects/asitem/items$0040:238",
       "dateDisplay" : "1658",
       "dimensions" : {
         "heightCm" : 133.7,
@@ -51890,7 +51890,7 @@
       "artistSort" : "Giorgione",
       "caption" : "A pensive young man in black, hand pressed to his chest, exemplifies the soft, atmospheric sfumato associated with Giorgione's circle.",
       "collection" : "Museum of Fine Arts, Budapest",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q3656034",
+      "collectionURL" : "https://www.mfab.hu/artworks/9494/",
       "dateDisplay" : "1503",
       "dimensions" : {
         "heightCm" : 72.5,
@@ -52392,7 +52392,7 @@
       "artistSort" : "Perugino, Pietro",
       "caption" : "The kneeling angel-child at left and the taut, horizontal drape of the loincloth anchor a frieze of grief staged beneath a coolly rational Renaissance loggia; Perugino balances anatomical study of the dead Christ against the stillness of his architecture.",
       "collection" : "Uffizi Gallery",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q368788",
+      "collectionURL" : "http://catalogo.uffizi.it/it/29/ricerca/detailiccd/1185279/",
       "dateDisplay" : "1483",
       "dimensions" : {
         "heightCm" : 168.0,
@@ -52964,7 +52964,7 @@
       "artistSort" : "Pollaiuolo, Antonio del",
       "caption" : "Two nude wrestlers lock in violent, coiled tension against a burning red sky, Pollaiuolo studying anatomy in motion with an intensity rare for its date.",
       "collection" : "Uffizi Gallery",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q3731227",
+      "collectionURL" : "https://catalogo.uffizi.it/it/29/ricerca/detailiccd/1179945/",
       "dateDisplay" : "1500",
       "dimensions" : {
         "heightCm" : 16.0,
@@ -53003,7 +53003,7 @@
       "artistSort" : "Vermeer, Johannes",
       "caption" : "A maid delivers a letter mid-sentence, catching the mistress's hand still raised to her chin, Vermeer freezing an ordinary domestic interruption in a pool of golden light against near-total darkness.",
       "collection" : "The Frick Collection",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q3739396",
+      "collectionURL" : "http://collections.frick.org/view/objects/asitem/items$0040:274",
       "dateDisplay" : "1666",
       "dimensions" : {
         "heightCm" : 90.2,
@@ -53158,7 +53158,7 @@
       "artistSort" : "Elder, Pieter Brueghel the",
       "caption" : "A Flemish village buried in snow becomes a stage for dozens of tiny, bustling figures, the biblical scene almost hidden in plain sight.",
       "collection" : "Royal Museums of Fine Arts of Belgium",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q375216",
+      "collectionURL" : "https://www.fine-arts-museum.be/nl/de-collectie/pieter-i-bruegel-de-volkstelling-te-bethlehem",
       "dateDisplay" : "1566",
       "dimensions" : {
         "heightCm" : 115.5,
@@ -53535,10 +53535,10 @@
       "year" : 1628
     },
     {
-      "artist" : "Unknown",
+      "artist" : "Nicolas Poussin",
       "artistBirthYear" : 1594,
       "artistDeathYear" : 1665,
-      "artistSort" : "Unknown",
+      "artistSort" : "Poussin, Nicolas",
       "caption" : "Dancers whirl around a golden idol in Poussin's crisp, sculptural arrangement of figures, choreography as much as painting.",
       "collection" : "National Gallery",
       "collectionURL" : "https://www.wikidata.org/wiki/Q377810",
@@ -53698,7 +53698,7 @@
       "artistSort" : "Goya, Francisco",
       "caption" : "A vast panorama of Madrid's holiday crowds on the riverbank, painted with a breezy, sketch-like freedom rare for its time.",
       "collection" : "Museo del Prado",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q3788057",
+      "collectionURL" : "https://www.museodelprado.es/coleccion/obra-de-arte/la-pradera-de-san-isidro/290d61bb-59ac-49e5-a63f-390eb5bdde46",
       "dateDisplay" : "1788",
       "dimensions" : {
         "heightCm" : 41.9,
@@ -53889,7 +53889,7 @@
       "artistSort" : "Seurat, Georges",
       "caption" : "Small sailboats and a distant lighthouse anchor a hazy, pastel-toned harbor built entirely from Seurat's signature stippled touch.",
       "collection" : "Kröller-Müller Museum",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q3793239",
+      "collectionURL" : "https://krollermuller.nl/en/georges-seurat-the-canal-of-gravelines-in-the-direction-of-the-sea",
       "dateDisplay" : "1890",
       "dimensions" : {
         "heightCm" : 73.0,
@@ -54348,7 +54348,7 @@
       "artistSort" : "Monaco, Lorenzo",
       "caption" : "Take in the soaring Gothic spires and gilded pinnacles framing the central coronation, a sumptuous polyptych of gold and blue.",
       "collection" : "Uffizi Gallery",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q3797775",
+      "collectionURL" : "https://catalogo.uffizi.it/it/29/ricerca/detailiccd/1185317/",
       "dateDisplay" : "1414",
       "dimensions" : {
         "heightCm" : 450.0,
@@ -54539,7 +54539,7 @@
       "artistSort" : "Carpaccio, Vittore",
       "caption" : "Follow the crowded Venetian quayside beneath the wooden Rialto bridge, a panoramic record of the city's daily theater in miraculous detail.",
       "collection" : "Gallerie dell'Accademia",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q3817178",
+      "collectionURL" : "http://www.gallerieaccademia.it/miracolo-della-reliquia-della-croce-al-ponte-di-rialto",
       "dateDisplay" : "1494",
       "dimensions" : {
         "heightCm" : 371.0,
@@ -54923,7 +54923,7 @@
       "artistSort" : "Gogh, Vincent van",
       "caption" : "Read the absent friend's presence in a lit candle and book left on an empty chair, van Gogh's charged homage to Gauguin.",
       "collection" : "Van Gogh Museum",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q3824118",
+      "collectionURL" : "http://www.vangoghmuseum.nl/nl/collectie/s0048V1962",
       "dateDisplay" : "1888",
       "dimensions" : {
         "heightCm" : 90.5,
@@ -55190,7 +55190,7 @@
       "artistSort" : "Seurat, Georges",
       "caption" : "Follow the synchronized kick-line of cabaret dancers rendered in stippled dots and stylized curves, Seurat's ordered vision of modern entertainment.",
       "collection" : "Kröller-Müller Museum",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q3835761",
+      "collectionURL" : "https://krollermuller.nl/en/georges-seurat-le-chahut",
       "dateDisplay" : "1889",
       "dimensions" : {
         "heightCm" : 170.0,
@@ -55763,7 +55763,7 @@
       "artistSort" : "Bellini, Giovanni",
       "caption" : "Two slender saplings frame a luminous river landscape behind the seated pair, their quiet exchange of glances anchoring the whole.",
       "collection" : "Gallerie dell'Accademia",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q3842597",
+      "collectionURL" : "http://www.gallerieaccademia.it/madonna-degli-alberetti",
       "dateDisplay" : "1487",
       "dimensions" : {
         "heightCm" : 71.0,
@@ -55994,7 +55994,7 @@
       "artistSort" : "Conegliano, Giovanni Battista Cima da",
       "caption" : "A fruit-laden tree rises behind the Madonna against distant blue mountains and a walled hill town under a wide sky.",
       "collection" : "Gallerie dell'Accademia",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q3842644",
+      "collectionURL" : "https://www.gallerieaccademia.it/madonna-col-bambino-e-i-santi-girolamo-e-ludovico-da-tolosa-madonna-dellarancio",
       "dateDisplay" : "1496",
       "dimensions" : {
         "heightCm" : 212.0,
@@ -57182,7 +57182,7 @@
       "artistSort" : "Rubens, Peter Paul",
       "caption" : "Rubens and Brueghel the Elder pack Eden with an encyclopedic menagerie of parrots, tigers and a peacock in full display, Adam and Eve almost lost amid the dense, glossy foliage at the moment of the Fall.",
       "collection" : "Mauritshuis",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q3898507",
+      "collectionURL" : "https://www.mauritshuis.nl/en/our-collection/artworks/253-the-garden-of-eden-with-the-fall-of-man/",
       "dateDisplay" : "1615",
       "dimensions" : {
         "heightCm" : 74.3,
@@ -57214,10 +57214,10 @@
       "year" : 1615
     },
     {
-      "artist" : "Unknown",
+      "artist" : "Nicolas Poussin",
       "artistBirthYear" : 1594,
       "artistDeathYear" : 1665,
-      "artistSort" : "Unknown",
+      "artistSort" : "Poussin, Nicolas",
       "caption" : "Poussin turns a biblical plague into architectural theater, corpses and grieving mourners arranged with sculptural precision against a Roman piazza of colonnades and obelisks.",
       "collection" : "Department of Paintings of the Louvre",
       "collectionURL" : "https://www.wikidata.org/wiki/Q3900760",
@@ -57259,7 +57259,7 @@
       "artistSort" : "Canaletto",
       "caption" : "Canaletto's crisp, sun-bleached rendering of the Piazza and campanile, tiny figures in bright costume scattered across the sunlit pavement with near-photographic clarity.",
       "collection" : "Thyssen-Bornemisza Museum",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q3902309",
+      "collectionURL" : "http://www.museothyssen.org/en/thyssen/ficha_obra/450",
       "dateDisplay" : "1723",
       "dimensions" : {
         "heightCm" : 141.5,
@@ -57297,7 +57297,7 @@
       "artistSort" : "Bellini, Giovanni",
       "caption" : "One of Bellini's most devastating images: Christ's dead weight sags against Mary and John, a serene Venetian hill town unfolding behind them in cruel contrast.",
       "collection" : "Gallerie dell'Accademia",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q3904404",
+      "collectionURL" : "https://www.gallerieaccademia.it/pieta-0",
       "dateDisplay" : "1505",
       "dimensions" : {
         "heightCm" : 65.0,
@@ -57603,7 +57603,7 @@
       "artistSort" : "Chassériau, Théodore",
       "caption" : "Chassériau's Esther bares herself to attendants preparing her for the Persian court, cool sea-green drapery and a dark-skinned attendant's gold jewelry setting off her pale, luminous flesh.",
       "collection" : "Department of Paintings of the Louvre",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q3918344",
+      "collectionURL" : "https://collections.louvre.fr/en/ark:/53355/cl010060208",
       "dateDisplay" : "1841",
       "dimensions" : {
         "heightCm" : 45.5,
@@ -57642,7 +57642,7 @@
       "artistSort" : "Bellini, Gentile",
       "caption" : "Gentile Bellini's vast processional canvas turns the Piazza San Marco itself into the subject, its golden mosaic facade rendered with documentary precision behind ranks of white-robed confraternity members.",
       "collection" : "Gallerie dell'Accademia",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q3922376",
+      "collectionURL" : "http://www.gallerieaccademia.it/processione-piazza-san-marco",
       "dateDisplay" : "1496",
       "dimensions" : {
         "heightCm" : 367.0,
@@ -59565,7 +59565,7 @@
       "artistSort" : "Carpaccio, Vittore",
       "caption" : "A young knight in burnished armor stands amid a teeming allegorical landscape, herons, a stag, and a jousting rider crowding every inch of the panel around him.",
       "collection" : "Thyssen-Bornemisza Museum",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q3937678",
+      "collectionURL" : "http://www.museothyssen.org/en/thyssen/ficha_obra/556",
       "dateDisplay" : "1510",
       "dimensions" : {
         "heightCm" : 218.5,
@@ -59603,7 +59603,7 @@
       "artistSort" : "Lotto, Lorenzo",
       "caption" : "A tiny oil lamp glows behind the curtain at the sitter's shoulder, its flame the picture's quiet punchline against the young man's introspective stare.",
       "collection" : "Kunsthistorisches Museum",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q3937719",
+      "collectionURL" : "https://www.khm.at/objektdb/detail/1125/",
       "dateDisplay" : "1508",
       "dimensions" : {
         "heightCm" : 42.8,
@@ -59641,7 +59641,7 @@
       "artistSort" : "Titian",
       "caption" : "The plumed red cap and lynx-fur collar are painted with a bravura looseness that anticipates Titian's late style, the face emerging with startling immediacy from the dark ground.",
       "collection" : "The Frick Collection",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q3937725",
+      "collectionURL" : "http://collections.frick.org/view/objects/asitem/items$0040:264",
       "dateDisplay" : "1520",
       "dimensions" : {
         "heightCm" : 82.0,
@@ -59950,7 +59950,7 @@
       "artistSort" : "Bellini, Giovanni",
       "caption" : "Bellini floods a limestone landscape with an almost supernatural morning light, every rock, vine, and grazing donkey rendered with the same loving precision as the saint himself.",
       "collection" : "The Frick Collection",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q3947115",
+      "collectionURL" : "http://collections.frick.org/view/objects/asitem/items$0040:39",
       "dateDisplay" : "1480",
       "dimensions" : {
         "heightCm" : 124.4,
@@ -60105,7 +60105,7 @@
       "artistSort" : "Tintoretto, Jacopo",
       "caption" : "Christ dives head-first from a blaze of light to snatch a drowning man from the waves, the whole canvas pitched into diagonal chaos of oar, sail and storm cloud.",
       "collection" : "Gallerie dell'Accademia",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q3947596",
+      "collectionURL" : "https://www.gallerieaccademia.it/san-marco-salva-un-saraceno-dal-naufragio",
       "dateDisplay" : "1562",
       "dimensions" : {
         "heightCm" : 396.0,
@@ -60565,7 +60565,7 @@
       "artistSort" : "Constable, John",
       "caption" : "A rainbow arcs precisely over Salisbury's spire as a farm cart fords the river below, storm clouds breaking apart to let a shaft of sun through.",
       "collection" : "Tate",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q398126",
+      "collectionURL" : "http://www.tate.org.uk/art/artworks/constable-salisbury-cathedral-from-the-meadows-t13896",
       "dateDisplay" : "1831",
       "dimensions" : {
         "heightCm" : 151.8,
@@ -60904,7 +60904,7 @@
       "artistSort" : "Gogh, Vincent van",
       "caption" : "Cobalt and violet irises churn against a flat lemon-yellow ground, van Gogh's restless outlines making even the ceramic vase seem to vibrate.",
       "collection" : "Van Gogh Museum",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q4008950",
+      "collectionURL" : "http://www.vangoghmuseum.nl/nl/collectie/s0050V1962",
       "dateDisplay" : "1890",
       "dimensions" : {
         "heightCm" : 92.0,
@@ -61137,7 +61137,7 @@
       "artistSort" : "Modigliani, Amedeo",
       "caption" : "A girl with a ribboned bow and elongated almond eyes sits with folded hands against slate grey, Modigliani reducing the child sitter to a few calm, sculptural planes.",
       "collection" : "Statens Museum for Kunst",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q4062416",
+      "collectionURL" : "http://www.smk.dk/udforsk-kunsten/soeg-i-smk/#/detail/KMSr145",
       "dateDisplay" : "1918",
       "dimensions" : {
         "heightCm" : 78.5,
@@ -61856,7 +61856,7 @@
       "artistSort" : "Millais, John Everett",
       "caption" : "Mariana arches backward from her embroidery in a jewel-toned window bay, stained glass and fallen leaves signaling the stretched, aching patience of Tennyson's poem.",
       "collection" : "Tate",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q4281369",
+      "collectionURL" : "http://www.tate.org.uk/art/artworks/millais-mariana-t07553",
       "dateDisplay" : "1851",
       "dimensions" : {
         "heightCm" : 49.5,
@@ -62010,7 +62010,7 @@
       "artistSort" : "Monet, Claude",
       "caption" : "Two flags snap in the sea breeze above a terrace of gladiolas, the whole scene built from clean bands of color that make Monet's early mastery of light unmistakable.",
       "collection" : "Metropolitan Museum of Art",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q432253",
+      "collectionURL" : "https://www.metmuseum.org/toah/works-of-art/67.241/",
       "dateDisplay" : "1867",
       "dimensions" : {
         "heightCm" : 98.1,
@@ -62202,7 +62202,7 @@
       "artistSort" : "Botticelli, Sandro",
       "caption" : "A profile of coiled copper hair threaded with pearls stands out against pure black, Botticelli's idealized beauty rendered with linear, jewel-like precision.",
       "collection" : "Städel Museum",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q4373363",
+      "collectionURL" : "https://staedelmuseum.de/go/ds/936",
       "dateDisplay" : "1482",
       "dimensions" : {
         "heightCm" : 81.3,
@@ -62241,7 +62241,7 @@
       "artistSort" : "Gogh, Vincent van",
       "caption" : "Christ's limp body slides across the Virgin's lap under a churning yellow-gold sky, van Gogh translating Delacroix's composition into thick, restless ropes of color.",
       "collection" : "Van Gogh Museum",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q4385510",
+      "collectionURL" : "http://www.vangoghmuseum.nl/nl/collectie/s0168V1962",
       "dateDisplay" : "1889",
       "dimensions" : {
         "heightCm" : 73.0,
@@ -62317,7 +62317,7 @@
       "artistSort" : "Repin, Ilya",
       "caption" : "A procession of bejeweled sea-princesses glides toward Sadko through glowing underwater gloom, Repin conjuring a fairy-tale world from deep greens and gold.",
       "collection" : "Russian Museum",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q4404599",
+      "collectionURL" : "https://rusmuseumvrm.ru/data/collections/painting/19_20/zh_4002/",
       "dateDisplay" : "1876",
       "dimensions" : {
         "heightCm" : 323.0,
@@ -62355,7 +62355,7 @@
       "artistSort" : "Monet, Claude",
       "caption" : "A single magpie perches on a wattle gate, its black silhouette the only dark note in a field of snow rendered in countless tints of blue and lavender shadow.",
       "collection" : "Musée d'Orsay",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q4429116",
+      "collectionURL" : "http://www.musee-orsay.fr/fr/collections/oeuvres-commentees/recherche/commentaire_id/la-pie-347.html?no_cache=1&S=",
       "dateDisplay" : "1868",
       "dimensions" : {
         "heightCm" : 89.0,
@@ -62660,7 +62660,7 @@
       "artistSort" : "Vermeer, Johannes",
       "caption" : "A scholar leans over his charts, compass in hand, window light modeling his blue robe while a globe and wall map anchor Vermeer's quiet study of intellect.",
       "collection" : "Städel Museum",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q45130",
+      "collectionURL" : "https://staedelmuseum.de/go/ds/1149",
       "dateDisplay" : "1668",
       "dimensions" : {
         "heightCm" : 53.0,
@@ -62972,7 +62972,7 @@
       "artistSort" : "Vermeer, Johannes",
       "caption" : "A silhouetted officer in a broad hat leans toward a laughing woman lit by window light, Vermeer's map-hung wall and raking perspective drawing the eye straight to her open smile.",
       "collection" : "The Frick Collection",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q467376",
+      "collectionURL" : "http://collections.frick.org/view/objects/asitem/items$0040:275",
       "dateDisplay" : "1658",
       "dimensions" : {
         "heightCm" : 50.5,
@@ -63321,7 +63321,7 @@
       "artistSort" : "David, Jacques-Louis",
       "caption" : "Three brothers stretch rigid arms toward their father's raised swords while the women collapse in grief at right, David driving the whole composition through severe verticals and Roman restraint.",
       "collection" : "Department of Paintings of the Louvre",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q476458",
+      "collectionURL" : "http://www.louvre.fr/en/oeuvre-notices/oath-horatii",
       "dateDisplay" : "1784",
       "dimensions" : {
         "heightCm" : 330.0,
@@ -63437,7 +63437,7 @@
       "artistSort" : "Repin, Ilya",
       "caption" : "The Cossacks roar with laughter as they compose an insulting letter to the Sultan, Repin packing dozens of individualized, wheezing, delighted faces into one raucous crowd.",
       "collection" : "Russian Museum",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q478271",
+      "collectionURL" : "https://rusmuseumvrm.ru/data/collections/painting/19_20/zh_4005/",
       "dateDisplay" : "1890",
       "dimensions" : {
         "heightCm" : 203.0,
@@ -63591,7 +63591,7 @@
       "artistSort" : "Bellini, Giovanni",
       "caption" : "Christ hovers weightless over a luminous dawn landscape, banner in hand, while startled guards and sleepy soldiers stir around the open tomb below in Bellini's crystalline light.",
       "collection" : "Gemäldegalerie Berlin",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q48383869",
+      "collectionURL" : "https://smb.museum-digital.de/object/61166",
       "dateDisplay" : "1475",
       "dimensions" : {
         "heightCm" : 148.0,
@@ -63629,7 +63629,7 @@
       "artistSort" : "Bellini, Giovanni",
       "caption" : "Mourners cradle the dead Christ beneath a bare wooden cross, the intimate grief in the foreground opening onto one of Bellini's serene, sunlit Venetian river valleys.",
       "collection" : "Gallerie dell'Accademia",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q48387967",
+      "collectionURL" : "https://www.gallerieaccademia.it/compianto-su-cristo-morto-con-la-vergine-e-i-santi-giuseppe-darimatea-maddalena-marta-e-filippo",
       "dateDisplay" : "1510",
       "dimensions" : {
         "heightCm" : 445.0,
@@ -63780,7 +63780,7 @@
       "artistSort" : "Gogh, Vincent van",
       "caption" : "A patchwork of hayricks, farm carts, and gold fields recedes to distant blue mountains under a wide, high-key Provençal sky, one of Van Gogh's most spatially ambitious plein-air panoramas.",
       "collection" : "Van Gogh Museum",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q4892867",
+      "collectionURL" : "http://www.vangoghmuseum.nl/nl/collectie/s0030V1962",
       "dateDisplay" : "1888",
       "dimensions" : {
         "heightCm" : 73.0,
@@ -64011,7 +64011,7 @@
       "artistSort" : "Bronzino",
       "caption" : "The admiral's aged, bearded head is grafted onto Neptune's nude, muscular body and trident, Bronzino's cool porcelain flesh tones an audacious flattery portrait.",
       "collection" : "Pinacoteca di Brera",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q493792",
+      "collectionURL" : "https://pinacotecabrera.org/collezioni/collezione-on-line/ritratto-di-andrea-doria-come-nettuno/",
       "dateDisplay" : "1545",
       "dimensions" : {
         "heightCm" : 115.0,
@@ -64398,7 +64398,7 @@
       "artistSort" : "Monet, Claude",
       "caption" : "A woman in a red hood glances back through a snow-flecked window, glimpsed from inside a shadowed room framed by pale curtains and glazing bars.",
       "collection" : "Cleveland Museum of Art",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q50772913",
+      "collectionURL" : "https://clevelandart.org/art/1958.39",
       "dateDisplay" : "1868",
       "dimensions" : {
         "heightCm" : 99.0,
@@ -64744,7 +64744,7 @@
       "artistSort" : "Vermeer, Johannes",
       "caption" : "Vermeer builds the whole city out of light — sun catching wet rooftops under a vast, dark-clouded sky mirrored in the still harbor water.",
       "collection" : "Mauritshuis",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q523974",
+      "collectionURL" : "https://www.mauritshuis.nl/nl-nl/verdiep/de-collectie/kunstwerken/gezicht-op-delft-92/",
       "dateDisplay" : "1661",
       "dimensions" : {
         "heightCm" : 96.5,
@@ -64783,7 +64783,7 @@
       "artistSort" : "Younger, Hans Holbein the",
       "caption" : "Holbein renders the fur, velvet, and chain of office with crystalline precision, but it's More's wary, appraising eyes that carry the portrait.",
       "collection" : "The Frick Collection",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q5296650",
+      "collectionURL" : "http://collections.frick.org/view/objects/asitem/items$0040:100",
       "dateDisplay" : "1527",
       "dimensions" : {
         "heightCm" : 74.9,
@@ -65016,7 +65016,7 @@
       "artistSort" : "Unknown",
       "caption" : "Sargent throws a flamenco dancer's white skirt and jagged arm into blazing light against a wall of guitarists sunk in shadow.",
       "collection" : "Isabella Stewart Gardner Museum",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q5351449",
+      "collectionURL" : "https://www.gardnermuseum.org/experience/collection/13259",
       "dateDisplay" : "1882",
       "dimensions" : {
         "heightCm" : 232.0,
@@ -65402,7 +65402,7 @@
       "artistSort" : "Raphael",
       "caption" : "Castiglione's grey-blue gaze meets the viewer with disarming calm, Raphael dissolving costume and flesh into a harmony of silver, grey and black that later inspired Rembrandt and Rubens alike.",
       "collection" : "Department of Paintings of the Louvre",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q546977",
+      "collectionURL" : "http://www.louvre.fr/oeuvre-notices/portrait-de-baldassare-castiglione-ecrivain-et-diplomate-1478-1529",
       "dateDisplay" : "1515",
       "dimensions" : {
         "heightCm" : 82.0,
@@ -65555,7 +65555,7 @@
       "artistSort" : "Raphael",
       "caption" : "The young Raphael regards the viewer with soft, unguarded features against a plain ground, a portrait of quiet self-possession from his own hand.",
       "collection" : "Uffizi Gallery",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q555821",
+      "collectionURL" : "https://catalogo.uffizi.it/it/29/ricerca/detailiccd/1180218/",
       "dateDisplay" : "1505",
       "dimensions" : {
         "heightCm" : 47.5,
@@ -65979,7 +65979,7 @@
       "artistSort" : "Church, Frederic Edwin",
       "caption" : "A blood-red, storm-torn sky burns above a still mountain lake at dusk, Church turning the Hudson River School sublime into something almost apocalyptic.",
       "collection" : "Cleveland Museum of Art",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q56879420",
+      "collectionURL" : "https://clevelandart.org/art/1965.233",
       "dateDisplay" : "1860",
       "dimensions" : {
         "heightCm" : 101.6,
@@ -66323,10 +66323,10 @@
       "year" : 1642
     },
     {
-      "artist" : "Unknown",
+      "artist" : "Nicolas Poussin",
       "artistBirthYear" : 1594,
       "artistDeathYear" : 1665,
-      "artistSort" : "Unknown",
+      "artistSort" : "Poussin, Nicolas",
       "caption" : "The dead Narcissus lies stretched beside the pool as Echo dissolves into the rock behind him, a torch-bearing Cupid the only witness in this hushed, autumnal glade.",
       "collection" : "Department of Paintings of the Louvre",
       "collectionURL" : "https://www.wikidata.org/wiki/Q5817081",
@@ -66368,7 +66368,7 @@
       "artistSort" : "Ingres, Jean-Auguste-Dominique",
       "caption" : "Oedipus leans in cool concentration over the riddling Sphinx, his sculpted anatomy lit against the cave's darkness while bones litter the ground below.",
       "collection" : "Department of Paintings of the Louvre",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q5818528",
+      "collectionURL" : "http://www.louvre.fr/oeuvre-notices/oedipe-explique-l-enigme-du-sphinx",
       "dateDisplay" : "1800",
       "dimensions" : {
         "heightCm" : 189.0,
@@ -66523,7 +66523,7 @@
       "artistSort" : "Canaletto",
       "caption" : "Gondolas and cargo boats crowd the Grand Canal beneath crisp light and towering palazzo facades, Canaletto's precise perspective making Venice feel both monumental and lived-in.",
       "collection" : "Thyssen-Bornemisza Museum",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q5884258",
+      "collectionURL" : "http://www.museothyssen.org/en/thyssen/ficha_obra/453",
       "dateDisplay" : "1723",
       "dimensions" : {
         "heightCm" : 140.5,
@@ -66715,7 +66715,7 @@
       "artistSort" : "Elder, Pieter Brueghel the",
       "caption" : "A writhing mass of hybrid monsters, fish, and insect-winged demons tumbles beneath armored angels, Bruegel's hallucinatory bestiary rendered with jeweler's precision across every inch.",
       "collection" : "Royal Museums of Fine Arts of Belgium",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q594406",
+      "collectionURL" : "https://www.fine-arts-museum.be/nl/de-collectie/pieter-i-bruegel-de-val-van-de-opstandige-engelen?letter=b&artist=bruegel-brueghel-pieter-i-1",
       "dateDisplay" : "1562",
       "dimensions" : {
         "heightCm" : 117.0,
@@ -66947,7 +66947,7 @@
       "artistSort" : "Rubens, Peter Paul",
       "caption" : "Turbaned kings, mounted soldiers, and camels crowd a torchlit stable in a sweeping frieze of flesh and fabric, Rubens marshaling a cast of dozens around the swaddled infant.",
       "collection" : "Museo del Prado",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q5961888",
+      "collectionURL" : "https://www.museodelprado.es/en/the-collection/art-work/the-adoration-of-the-magi/b6440da1-0c0c-4ead-84b7-f5a017e2fd17",
       "dateDisplay" : "1609",
       "dimensions" : {
         "heightCm" : 355.5,
@@ -66985,7 +66985,7 @@
       "artistSort" : "Tintoretto, Jacopo",
       "caption" : "God the Father surges forward mid-flight, releasing birds and beasts into a teeming shoreline, Tintoretto's diagonal energy and animal inventory turning Genesis into a cinematic burst.",
       "collection" : "Gallerie dell'Accademia",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q5963059",
+      "collectionURL" : "https://www.gallerieaccademia.it/la-creazione-degli-animali",
       "dateDisplay" : "1550",
       "dimensions" : {
         "heightCm" : 151.0,
@@ -67256,7 +67256,7 @@
       "artistSort" : "Caravaggio",
       "caption" : "Mary's swollen, barefoot corpse lies beneath a vast red canopy as apostles grieve in raw, unposed sorrow, Caravaggio's tenebrism turning scandal into devastating humanity.",
       "collection" : "Department of Paintings of the Louvre",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q597114",
+      "collectionURL" : "http://www.louvre.fr/oeuvre-notices/la-mort-de-la-vierge",
       "dateDisplay" : "1604",
       "dimensions" : {
         "heightCm" : 369.0,
@@ -67832,7 +67832,7 @@
       "artistSort" : "Lotto, Lorenzo",
       "caption" : "Rose petals, a lizard, and a half-open book litter the desk before a melancholy sitter whose sidelong glance seems to interrupt private thought.",
       "collection" : "Gallerie dell'Accademia",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q605863",
+      "collectionURL" : "https://www.gallerieaccademia.it/ritratto-di-giovane-gentiluomo",
       "dateDisplay" : "1530",
       "dimensions" : {
         "heightCm" : 98.0,
@@ -68406,7 +68406,7 @@
       "artistSort" : "Rubens, Peter Paul",
       "caption" : "Rubens's Saturn bites into his own child with wild-eyed horror, muscular anatomy and raw psychological terror fused into one of the era's most unforgettable images.",
       "collection" : "Museo del Prado",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q6122115",
+      "collectionURL" : "https://www.museodelprado.es/en/the-collection/art-work/saturn-devouring-a-son/d022fed3-6069-4786-b59f-4399a2d74e50",
       "dateDisplay" : "1637",
       "dimensions" : {
         "heightCm" : 182.5,
@@ -68791,7 +68791,7 @@
       "artistSort" : "Gogh, Vincent van",
       "caption" : "A flock of crows scatters up from a wheatfield under a churning, stormy blue sky, three paths vanishing into the grain in one of Van Gogh's final, most turbulent canvases.",
       "collection" : "Van Gogh Museum",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q634122",
+      "collectionURL" : "http://www.vangoghmuseum.nl/nl/collectie/s0149V1962",
       "dateDisplay" : "1890",
       "dimensions" : {
         "heightCm" : 50.2,
@@ -69828,7 +69828,7 @@
       "artistSort" : "Rembrandt",
       "caption" : "Rembrandt arranges the surgeons' ruffed faces in a taut pyramid of attention around the cadaver's exposed forearm tendons, the whole scene lit like a stage.",
       "collection" : "Mauritshuis",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q661378",
+      "collectionURL" : "https://www.mauritshuis.nl/nl-nl/verdiep/de-collectie/kunstwerken/de-anatomische-les-van-dr-nicolaes-tulp-146/",
       "dateDisplay" : "1632",
       "dimensions" : {
         "heightCm" : 169.5,
@@ -71324,7 +71324,7 @@
       "artistSort" : "Whistler, James McNeill",
       "caption" : "Thames twilight dissolves into near-monochrome blue, a lone figure and faint lights the only anchors in a hushed tonal harmony.",
       "collection" : "Tate",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q720602",
+      "collectionURL" : "http://www.tate.org.uk/art/artworks/whistler-nocturne-blue-and-silver-chelsea-t01571",
       "dateDisplay" : "1871",
       "dimensions" : {
         "heightCm" : 50.2,
@@ -71750,7 +71750,7 @@
       "artistSort" : "Waterhouse, John William",
       "caption" : "Snow settles over a martyr's sprawled body in the forum as doves circle above, the pale palette turning violence into eerie stillness.",
       "collection" : "Tate",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q7401211",
+      "collectionURL" : "http://www.tate.org.uk/art/artworks/waterhouse-saint-eulalia-n01542",
       "dateDisplay" : "1885",
       "dimensions" : {
         "heightCm" : 188.6,
@@ -71789,7 +71789,7 @@
       "artistSort" : "Titian",
       "caption" : "A powerfully modeled nude figure gestures skyward against a luminous landscape, the lamb at his feet almost an afterthought beside the muscular anatomy.",
       "collection" : "Gallerie dell'Accademia",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q7401482",
+      "collectionURL" : "https://www.gallerieaccademia.it/san-giovanni-battista",
       "dateDisplay" : "1540",
       "dimensions" : {
         "heightCm" : 201.0,
@@ -72912,7 +72912,7 @@
       "artistSort" : "Titian",
       "caption" : "Two women, one richly dressed and one nude, flank a marble sarcophagus-turned-fountain in a golden Venetian landscape — Titian's most debated and most purely beautiful allegory.",
       "collection" : "Borghese Collection",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q794077",
+      "collectionURL" : "https://www.collezionegalleriaborghese.it/opere/amor-sacro-e-amor-profano",
       "dateDisplay" : "1514",
       "dimensions" : {
         "heightCm" : 118.0,
@@ -73220,7 +73220,7 @@
       "artistSort" : "Millais, John Everett",
       "caption" : "A wife shields her freed prisoner-husband's face against her shoulder as she hands over his release papers, her red shawl and the loyal collie the only warm notes in a scene of prison-yard relief.",
       "collection" : "Tate",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q822541",
+      "collectionURL" : "http://www.tate.org.uk/art/artworks/millais-the-order-of-release-1746-n01657",
       "dateDisplay" : "1852",
       "dimensions" : {
         "heightCm" : 102.9,
@@ -73298,7 +73298,7 @@
       "artistSort" : "David, Jacques-Louis",
       "caption" : "Venus unbuckles the sandal of a bare, cloak-draped Mars amid billowing cloud and marble, cupids fussing with his weapons — David's coolly erotic late-career return to classical myth.",
       "collection" : "Royal Museums of Fine Arts of Belgium",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q835286",
+      "collectionURL" : "https://fine-arts-museum.be/fr/la-collection/jacques-louis-david-mars-desarme-par-venus",
       "dateDisplay" : "1824",
       "dimensions" : {
         "heightCm" : 308.0,
@@ -73414,7 +73414,7 @@
       "artistSort" : "Hopper, Edward",
       "caption" : "Three late-night customers and a soda jerk sit lit up like a stage set inside a wedge-shaped diner, the empty street outside rendered in the same cool, sourceless glow that makes the whole scene feel suspended in time.",
       "collection" : "Art Institute of Chicago",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q83872",
+      "collectionURL" : "https://www.artic.edu/artworks/111628",
       "dateDisplay" : "1942",
       "dimensions" : {
         "heightCm" : 84.1,
@@ -73647,7 +73647,7 @@
       "artistSort" : "Draper, Herbert James",
       "caption" : "Sea nymphs cluster around Icarus's fallen, wing-draped body on a rock above the waves, the enormous feathered wings dominating the composition more than the youth's slack limbs.",
       "collection" : "Tate",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q871812",
+      "collectionURL" : "http://www.tate.org.uk/art/artworks/draper-the-lament-for-icarus-n01679",
       "dateDisplay" : "1898",
       "dimensions" : {
         "heightCm" : 155.6,
@@ -73685,7 +73685,7 @@
       "artistSort" : "Elder, Pieter Brueghel the",
       "caption" : "Skaters and a bird trap share a frozen village pond rendered in bleached ochre and grey, Bruegel scattering tiny black figures and crows across the ice with encyclopedic patience.",
       "collection" : "Royal Museums of Fine Arts of Belgium",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q873639",
+      "collectionURL" : "https://www.fine-arts-museum.be/nl/de-collectie/pieter-i-bruegel-winterlandschap-met-schaatsers-en-vogelknip",
       "dateDisplay" : "1565",
       "dimensions" : {
         "heightCm" : 37.0,
@@ -74185,7 +74185,7 @@
       "artistSort" : "Greco, El",
       "caption" : "El Greco's elongated Magdalene twists toward a stormy sky, her hand pressed to her breast above a skull and open book.",
       "collection" : "Museum of Fine Arts, Budapest",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q9026835",
+      "collectionURL" : "https://www.mfab.hu/artworks/the-penitent-mary-magdalene-3/",
       "dateDisplay" : "1570",
       "dimensions" : {
         "heightCm" : 156.5,
@@ -74262,7 +74262,7 @@
       "artistSort" : "Rembrandt",
       "caption" : "Saul weeps into a curtain while David plays the harp beside him, Rembrandt's thick impasto turban and pooling shadow charged with unspoken menace.",
       "collection" : "Mauritshuis",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q9074913",
+      "collectionURL" : "https://www.mauritshuis.nl/nl-nl/verdiep/de-collectie/kunstwerken/saul-en-david-621/",
       "dateDisplay" : "1650",
       "dimensions" : {
         "heightCm" : 130.0,
@@ -74411,10 +74411,10 @@
       "year" : 1890
     },
     {
-      "artist" : "Unknown",
+      "artist" : "Nicolas Poussin",
       "artistBirthYear" : 1594,
       "artistDeathYear" : 1665,
-      "artistSort" : "Unknown",
+      "artistSort" : "Poussin, Nicolas",
       "caption" : "Bacchic revelers whirl in a chain around a garlanded herm, Poussin's classical figures caught mid-step in a frieze of pagan abandon.",
       "collection" : "National Gallery",
       "collectionURL" : "https://www.wikidata.org/wiki/Q9163852",
@@ -74955,7 +74955,7 @@
       "artistSort" : "Dadd, Richard",
       "caption" : "Painted in an asylum cell over nine obsessive years, Dadd crams a fairy court and a woodcutter mid-swing into a thicket of grass blades and hazelnuts.",
       "collection" : "Tate",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q931407",
+      "collectionURL" : "http://www.tate.org.uk/art/artworks/dadd-the-fairy-fellers-master-stroke-t00598",
       "dateDisplay" : "1855",
       "dimensions" : {
         "heightCm" : 39.4,
@@ -75296,13 +75296,13 @@
       "year" : 1866
     },
     {
-      "artist" : "Unknown",
+      "artist" : "Nicolas Poussin",
       "artistBirthYear" : 1594,
       "artistDeathYear" : 1665,
-      "artistSort" : "Unknown",
+      "artistSort" : "Poussin, Nicolas",
       "caption" : "Poussin choreographs a desert crowd's mix of gratitude and desperation as manna falls, each figure a distinct study in relief against a moody sky.",
       "collection" : "Department of Paintings of the Louvre",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q9387720",
+      "collectionURL" : "https://collections.louvre.fr/en/ark:/53355/cl010062511",
       "dateDisplay" : "1638",
       "dimensions" : {
         "heightCm" : 149.0,
@@ -76230,7 +76230,7 @@
       "artistSort" : "Gogh, Vincent van",
       "caption" : "Van Gogh dignifies a single worn pair of boots with thick, laboring impasto, dirt and creases painted like a portrait of hard-earned experience.",
       "collection" : "Van Gogh Museum",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q956738",
+      "collectionURL" : "http://www.vangoghmuseum.nl/nl/collectie/s0011V1962",
       "dateDisplay" : "1886",
       "dimensions" : {
         "heightCm" : 37.5,
@@ -76307,7 +76307,7 @@
       "artistSort" : "Mantegna, Andrea",
       "caption" : "Mantegna opens a startlingly deep river vista behind the apostles gathered at Mary's deathbed, perspective lines converging with mathematical rigor.",
       "collection" : "Museo del Prado",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q959537",
+      "collectionURL" : "https://www.museodelprado.es/coleccion/obra-de-arte/el-transito-de-la-virgen/6ebfe544-41dd-44ac-a217-d7ba24fc0d48?searchid=f8e451dc-abcd-66fa-15bc-ab838a59728f",
       "dateDisplay" : "1462",
       "dimensions" : {
         "heightCm" : 54.5,

@@ -144,7 +144,7 @@ struct MenuContent: View {
                 openWindow(id: "info")
                 NSApp.activate(ignoringOtherApps: true)
             }
-            Button("View at \(work.collection)") {
+            Button("View at \(work.collectionLinkTitle)") {
                 if let url = URL(string: work.collectionURL) { NSWorkspace.shared.open(url) }
             }
             Menu("Report a Problem…") {
@@ -236,6 +236,10 @@ struct MenuContent: View {
         credits.append(NSAttributedString(
             string: "github.com/McGinn/artbip",
             attributes: [.font: body, .link: URL(string: "https://github.com/McGinn/artbip")!]))
+        credits.append(NSAttributedString(string: "\n", attributes: plain))
+        credits.append(NSAttributedString(
+            string: "Sponsor artbip",
+            attributes: [.font: body, .link: URL(string: "https://github.com/sponsors/McGinn")!]))
 
         var options: [NSApplication.AboutPanelOptionKey: Any] = [
             .applicationVersion: version,

@@ -65,6 +65,10 @@ enum Feedback {
                  body: "artbip \(version)\n\n"))
     }
 
+    static func sponsor() {
+        open(URL(string: "https://github.com/sponsors/McGinn"))
+    }
+
     static func browseIssues() {
         open(URL(string: "\(repo)/issues"))
     }

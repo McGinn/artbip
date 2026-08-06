@@ -72,7 +72,7 @@ struct WorkInfoPanel: View {
                     Text(work.title).font(.title2.bold())
                     Text(titleplateLine).foregroundStyle(.secondary)
                     if let url = URL(string: work.collectionURL) {
-                        Link(work.collection, destination: url).font(.callout)
+                        Link(work.collectionLinkTitle, destination: url).font(.callout)
                     }
                 }
 
