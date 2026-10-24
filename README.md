@@ -76,7 +76,22 @@ There is no account, no subscription and no analytics.
   </tr>
 </table>
 
-<!-- Gallery and info-panel screenshots are being re-shot for 0.1.0. -->
+<p align="center">
+  <img src="assets/readme/gallery.jpg" alt="The artbip gallery window: a grid of painting thumbnails with titles, artists and dates, a search field, filters, and a sidebar with All artworks, Favourites and personal collections">
+</p>
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <p><b>About This Artwork</b> shows the work's title, artist, date and
+      museum, a short description, and for 100 well-known works longer notes
+      on the painting, what to look for and, often, the artist.</p>
+    </td>
+    <td width="50%" valign="top">
+      <img src="assets/readme/info-panel.png" alt="The About This Artwork panel for Caspar David Friedrich's Wanderer above the Sea of Fog, with a description, notes and a Look for list">
+    </td>
+  </tr>
+</table>
 
 ## Install
 

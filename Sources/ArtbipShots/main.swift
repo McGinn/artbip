@@ -136,7 +136,8 @@ struct ShotGalleryWindow: View {
 }
 
 /// Mirrors `MenuContent` in ArtbipApp with the shipped defaults: a current work,
-/// rotation running, an original wallpaper to restore, no update pending.
+/// rotation running, an original wallpaper to restore, no update pending
+/// (direct build, so "Check for Updates…" and the sponsor lines show).
 ///
 /// The shortcut column this used to draw was fiction. Inside a `MenuBarExtra`
 /// SwiftUI's `.keyboardShortcut` only becomes an NSMenu key equivalent, so the
@@ -180,13 +181,14 @@ struct ShotMenu: View {
             item("View at \(museum)")
             item("Report a Problem…", submenu: true)
             Divider().padding(.horizontal, 10)
+            item("Check for Updates…")
             item("Open artbip…")
             item("Launch at Login", checked: true)
             item("Feedback", submenu: true)
             item("About artbip")
             Divider().padding(.horizontal, 10)
-            item("Sponsor Artbip on GitHub")
-            item("Artbip is free and open-source", dim: true)
+            item("Sponsor artbip on GitHub…")
+            item("artbip is free and open source", dim: true)
             item("Your support matters", dim: true)
             Divider().padding(.horizontal, 10)
             item("Quit artbip")
