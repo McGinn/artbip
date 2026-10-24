@@ -1,5 +1,6 @@
 #!/bin/bash
-# Install a Developer ID Application certificate so codesign can use it.
+# Install a signing certificate so codesign/productsign can use it.
+# ARTBIP_CERT picks the key, as in scripts/make_signing_request.sh.
 #
 # Apple's portal hands back only the public certificate. On its own that is
 # useless for signing — codesign needs the certificate and the matching private
@@ -21,7 +22,8 @@ CER="${1:-$HOME/Downloads/developerID_application.cer}"
 BACKUP=0
 [[ "${2:-}" == "--backup" ]] && BACKUP=1
 DIR="$HOME/.artbip-signing"
-KEY="$DIR/developerID.key"
+CERT=${ARTBIP_CERT:-developerID}
+KEY="$DIR/$CERT.key"
 KEYCHAIN="$HOME/Library/Keychains/login.keychain-db"
 
 [[ -f "$CER" ]] || { echo "error: no certificate at $CER" >&2; exit 1; }
@@ -55,23 +57,28 @@ security import "$CER" -k "$KEYCHAIN" -T /usr/bin/codesign -T /usr/bin/productsi
 
 # Apple's intermediate must be present or the chain will not validate and the
 # identity shows as "CSSMERR_TP_NOT_TRUSTED" instead of valid. Xcode installs
-# it; a Command Line Tools-only machine may not have it.
-if ! security find-certificate -c "Developer ID Certification Authority" >/dev/null 2>&1; then
-  echo "fetching Apple's Developer ID intermediate certificate…"
-  curl -fsSL -o "$DIR/DeveloperIDG2CA.cer" \
-    https://www.apple.com/certificateauthority/DeveloperIDG2CA.cer
-  security import "$DIR/DeveloperIDG2CA.cer" -k "$KEYCHAIN" || true
+# it; a Command Line Tools-only machine may not have it. Developer ID chains to
+# the Developer ID CA; App Store certificates chain to WWDR G3.
+if [[ $CERT == developerID ]]; then
+  CA_NAME="Developer ID Certification Authority"; CA_FILE=DeveloperIDG2CA.cer
+else
+  CA_NAME="Apple Worldwide Developer Relations Certification Authority"; CA_FILE=AppleWWDRCAG3.cer
+fi
+if ! security find-certificate -c "$CA_NAME" >/dev/null 2>&1; then
+  echo "fetching Apple's intermediate certificate $CA_FILE…"
+  curl -fsSL -o "$DIR/$CA_FILE" "https://www.apple.com/certificateauthority/$CA_FILE"
+  security import "$DIR/$CA_FILE" -k "$KEYCHAIN" || true
 fi
 
 if [[ $BACKUP -eq 1 ]]; then
-  openssl x509 -inform der -in "$CER" -out "$DIR/developerID.pem"
-  P12="$DIR/developerID.p12"
+  openssl x509 -inform der -in "$CER" -out "$DIR/$CERT.pem"
+  P12="$DIR/$CERT.p12"
   if [[ -n "${ARTBIP_P12_PASSWORD:-}" ]]; then
-    openssl pkcs12 -export -legacy -inkey "$KEY" -in "$DIR/developerID.pem" \
-      -name "artbip Developer ID" -out "$P12" -passout env:ARTBIP_P12_PASSWORD
+    openssl pkcs12 -export -legacy -inkey "$KEY" -in "$DIR/$CERT.pem" \
+      -name "artbip $CERT" -out "$P12" -passout env:ARTBIP_P12_PASSWORD
   else
-    openssl pkcs12 -export -legacy -inkey "$KEY" -in "$DIR/developerID.pem" \
-      -name "artbip Developer ID" -out "$P12"
+    openssl pkcs12 -export -legacy -inkey "$KEY" -in "$DIR/$CERT.pem" \
+      -name "artbip $CERT" -out "$P12"
   fi
   chmod 600 "$P12"
   echo "backup written: $P12 — keep a copy off this machine"
@@ -80,6 +87,7 @@ fi
 echo
 echo "identities now available:"
 security find-identity -v -p codesigning
+security find-identity -v | grep -i installer || true
 
 cat <<EOF
 
@@ -88,5 +96,5 @@ If codesign prompts for keychain access on every build, authorise it once:
     -s -k <your-login-password> "$KEYCHAIN"
 
 Back up the key and certificate off this machine:
-  scripts/install_signing_cert.sh "$CER" --backup
+  ARTBIP_CERT=$CERT scripts/install_signing_cert.sh "$CER" --backup
 EOF
