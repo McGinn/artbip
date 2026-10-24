@@ -50,7 +50,7 @@ if [[ $SKIP_NOTARIZE -eq 0 ]] && ! xcrun notarytool history --keychain-profile "
   exit 1
 fi
 
-VERSION=$(git describe --tags --match 'v*' 2>/dev/null | sed 's/^v//')
+VERSION=$(git describe --tags --match 'v*' 2>/dev/null | sed 's/^v//' || true)
 VERSION=${VERSION:-0.0.0-dev}
 
 # Refuse to notarize anything but a tagged commit. `git describe` on an untagged
