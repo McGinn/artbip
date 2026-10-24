@@ -1,0 +1,45 @@
+name: Problem with the info text
+description: The "About This Artwork" text is wrong, misleading, or badly written.
+title: "[info] "
+labels: ["info-text"]
+body:
+  - type: markdown
+    attributes:
+      value: >
+        Every statement in the panel is checked against a museum record or a
+        published source. If one is wrong or overstated, that is a bug and
+        worth reporting. A link to a museum page or book that says otherwise
+        helps most.
+  - type: input
+    id: work
+    attributes:
+      label: Work id
+      description: Filled in for you when you use Report a Problem in the app.
+    validations:
+      required: true
+  - type: dropdown
+    id: section
+    attributes:
+      label: Which section?
+      options:
+        - Title line (artist, date, medium)
+        - Caption (the line in italics)
+        - About the work
+        - Look for
+        - Symbols
+        - The artist
+        - Period and style
+    validations:
+      required: true
+  - type: textarea
+    id: detail
+    attributes:
+      label: What is wrong?
+      description: Quote the sentence, and say what it should say if you know.
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Source (optional)
+      description: A museum page, catalogue or book that supports the correction.

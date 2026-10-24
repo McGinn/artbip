@@ -1,0 +1,414 @@
+{
+  "note" : "Works withheld from the app because their US public-domain status is not established. Kept verbatim (as last shipped) so they can return when the status changes; the sourced reasons are kept with the private review ledgers. Not bundled.",
+  "schemaVersion" : 1,
+  "works" : [
+    {
+      "artist" : "Piet Mondrian",
+      "artistDeathYear" : 1944,
+      "artistSort" : "Mondrian, Piet",
+      "caption" : "Within a diamond-shaped canvas, rows of small red, yellow, blue and dark squares cross larger blocks of colour and pale open spaces. The horizontal and vertical grid remains unevenly filled, with broad white areas near the upper point.",
+      "collection" : "Cultural Heritage Agency of the Netherlands Art Collection",
+      "collectionURL" : "https://www.kunstmuseum.nl/nl/collectie/victory-boogie-woogie",
+      "dateDisplay" : "1942–1944",
+      "id" : "wikidata-Q1248830",
+      "image" : {
+        "format" : "jpeg",
+        "sourceMaxHeight" : 4724,
+        "sourceMaxWidth" : 4724,
+        "url" : "https://commons.wikimedia.org/wiki/Special:FilePath/Piet%20Mondriaan%20Victory%20Boogie%20Woogie.jpg?width=3840",
+        "urlTemplate" : "https://commons.wikimedia.org/wiki/Special:FilePath/Piet%20Mondriaan%20Victory%20Boogie%20Woogie.jpg?width={w}"
+      },
+      "license" : {
+        "evidence" : "commons:PD-Art+PD-old-70",
+        "sourceURL" : "https://www.wikidata.org/wiki/Q1248830",
+        "status" : "PD"
+      },
+      "movement" : "neoplasticism",
+      "significance" : {
+        "canonLists" : [
+
+        ],
+        "curatorScore" : 7.5,
+        "museumHighlight" : false,
+        "sitelinks" : 16
+      },
+      "tags" : [
+        "abstract"
+      ],
+      "title" : "Victory Boogie Woogie",
+      "wikidata" : "Q1248830",
+      "year" : 1942
+    },
+    {
+      "artist" : "Paul Klee",
+      "artistBirthYear" : 1879,
+      "artistDeathYear" : 1940,
+      "artistSort" : "Klee, Paul",
+      "caption" : "Rows of small pale marks cover patches of blue, green, orange and violet. Two dark sloping lines meet in a broad peak beneath an orange disc, while a rounded arch appears at the lower left. Narrow bands cross the mosaic-like surface.",
+      "collection" : "Kunstmuseum Bern",
+      "collectionURL" : "https://www.wikidata.org/wiki/Q16487556",
+      "dateDisplay" : "1932",
+      "id" : "wikidata-Q16487556",
+      "image" : {
+        "format" : "jpeg",
+        "sourceMaxHeight" : 2653,
+        "sourceMaxWidth" : 3368,
+        "url" : "https://commons.wikimedia.org/wiki/Special:FilePath/Ad%20Parnassum%20%28originaler%2C%20gefasster%20Holzrahmen%29%2C%20Paul%20Klee%20%281932%29.jpg?width=3368",
+        "urlTemplate" : "https://commons.wikimedia.org/wiki/Special:FilePath/Ad%20Parnassum%20%28originaler%2C%20gefasster%20Holzrahmen%29%2C%20Paul%20Klee%20%281932%29.jpg?width={w}"
+      },
+      "license" : {
+        "evidence" : "commons:PD-Art+PD-old-X-1996+PD-old-auto-1996",
+        "sourceURL" : "https://www.wikidata.org/wiki/Q16487556",
+        "status" : "PD"
+      },
+      "significance" : {
+        "canonLists" : [
+
+        ],
+        "curatorScore" : 9,
+        "museumHighlight" : false,
+        "sitelinks" : 4
+      },
+      "tags" : [
+        "abstract"
+      ],
+      "title" : "Ad Parnassum",
+      "wikidata" : "Q16487556",
+      "year" : 1932
+    },
+    {
+      "artist" : "Piet Mondrian",
+      "artistDeathYear" : 1944,
+      "artistSort" : "Mondrian, Piet",
+      "caption" : "Yellow, red and blue bands cross a white field, seeming to pass over and under one another. In this finished oil painting, Mondrian turns the grid into a lively play of colour and rhythm, suggestive of the city named in its title.",
+      "collection" : "Sidney Janis Gallery",
+      "collectionURL" : "https://www.wikidata.org/wiki/Q18710663",
+      "dateDisplay" : "1942",
+      "id" : "wikidata-Q18710663",
+      "image" : {
+        "format" : "jpeg",
+        "sourceMaxHeight" : 6000,
+        "sourceMaxWidth" : 5692,
+        "url" : "https://commons.wikimedia.org/wiki/Special:FilePath/Piet%20Mondriaan%2C%201942%20-%20New%20York%20City%20I.jpg?width=3840",
+        "urlTemplate" : "https://commons.wikimedia.org/wiki/Special:FilePath/Piet%20Mondriaan%2C%201942%20-%20New%20York%20City%20I.jpg?width={w}"
+      },
+      "license" : {
+        "evidence" : "commons:PD-Art+PD-old-X-1964+PD-old-auto-1964",
+        "sourceURL" : "https://www.wikidata.org/wiki/Q18710663",
+        "status" : "PD"
+      },
+      "significance" : {
+        "canonLists" : [
+
+        ],
+        "curatorScore" : 8,
+        "museumHighlight" : false,
+        "sitelinks" : 9
+      },
+      "tags" : [
+        "abstract"
+      ],
+      "title" : "New York City",
+      "wikidata" : "Q18710663",
+      "year" : 1942
+    },
+    {
+      "artist" : "Edvard Munch",
+      "artistDeathYear" : 1944,
+      "artistSort" : "Munch, Edvard",
+      "caption" : "Munch stands facing us between a tall clock and a bed covered with red and black geometric marks. Paintings fill the room behind him, including a pale standing figure at the far right; the dark suit and stiff pose make his presence feel exposed.",
+      "collection" : "Munch Museum",
+      "collectionURL" : "https://www.wikidata.org/wiki/Q18890834",
+      "dateDisplay" : "1940s",
+      "id" : "wikidata-Q18890834",
+      "image" : {
+        "format" : "jpeg",
+        "sourceMaxHeight" : 2270,
+        "sourceMaxWidth" : 1808,
+        "url" : "https://commons.wikimedia.org/wiki/Special:FilePath/Edvard%20Munch%2C%20Selvportrett.%20Mellom%20klokken%20og%20sengen.JPG?width=1808",
+        "urlTemplate" : "https://commons.wikimedia.org/wiki/Special:FilePath/Edvard%20Munch%2C%20Selvportrett.%20Mellom%20klokken%20og%20sengen.JPG?width={w}"
+      },
+      "license" : {
+        "evidence" : "commons:PD-Art+PD-old-auto",
+        "sourceURL" : "https://www.wikidata.org/wiki/Q18890834",
+        "status" : "PD"
+      },
+      "significance" : {
+        "canonLists" : [
+
+        ],
+        "curatorScore" : 8.5,
+        "museumHighlight" : false,
+        "sitelinks" : 10
+      },
+      "tags" : [
+        "portrait",
+        "self-portrait"
+      ],
+      "title" : "Self-Portrait. Between the Clock and the Bed",
+      "wikidata" : "Q18890834",
+      "year" : 1940
+    },
+    {
+      "artist" : "Grant Wood",
+      "artistDeathYear" : 1942,
+      "artistSort" : "Wood, Grant",
+      "caption" : "Seen from above, Paul Revere rides past a white church with a tall steeple on a curving pale road. Small figures emerge from brightly lit houses, casting long shadows. Rounded trees and green hills surround the town, and a blue stream winds beside roads that recede into the dark distance.",
+      "collection" : "Metropolitan Museum of Art",
+      "collectionURL" : "https://www.metmuseum.org/art/collection/search/488577",
+      "dateDisplay" : "1931",
+      "id" : "wikidata-Q19920734",
+      "image" : {
+        "format" : "jpeg",
+        "sourceMaxHeight" : 2625,
+        "sourceMaxWidth" : 3564,
+        "url" : "https://commons.wikimedia.org/wiki/Special:FilePath/Grant%20Wood%2C%20The%20Midnight%20Ride%20of%20Paul%20Revere%2C%201931%20%2834571304085%29.jpg?width=3564",
+        "urlTemplate" : "https://commons.wikimedia.org/wiki/Special:FilePath/Grant%20Wood%2C%20The%20Midnight%20Ride%20of%20Paul%20Revere%2C%201931%20%2834571304085%29.jpg?width={w}"
+      },
+      "license" : {
+        "evidence" : "commons:Cc-by-2.0+PD-old-X-1964+PD-old-auto-1964",
+        "sourceURL" : "https://www.wikidata.org/wiki/Q19920734",
+        "status" : "PD"
+      },
+      "significance" : {
+        "canonLists" : [
+
+        ],
+        "curatorScore" : 8,
+        "museumHighlight" : false,
+        "sitelinks" : 9
+      },
+      "tags" : [
+        "cityscape",
+        "historical"
+      ],
+      "title" : "The Midnight Ride of Paul Revere",
+      "wikidata" : "Q19920734",
+      "year" : 1931
+    },
+    {
+      "artist" : "Edward Hopper",
+      "artistDeathYear" : 1967,
+      "artistSort" : "Hopper, Edward",
+      "caption" : "Three red gasoline pumps stand beside a white service-station building, their round tops receding toward a Mobilgas sign. A lone attendant bends toward the nearest pump. Light from the building falls across the pale forecourt, while an empty road runs alongside orange grass and a dark band of trees beneath the evening sky.",
+      "collection" : "Museum of Modern Art",
+      "collectionURL" : "https://www.moma.org/collection/works/80000",
+      "dateDisplay" : "1940",
+      "id" : "wikidata-Q21655444",
+      "image" : {
+        "format" : "jpeg",
+        "sourceMaxHeight" : 2563,
+        "sourceMaxWidth" : 3950,
+        "url" : "https://commons.wikimedia.org/wiki/Special:FilePath/Hopper-Gas-1940.png?width=3840",
+        "urlTemplate" : "https://commons.wikimedia.org/wiki/Special:FilePath/Hopper-Gas-1940.png?width={w}"
+      },
+      "license" : {
+        "evidence" : "commons:PD-Art+PD-US-no notice",
+        "sourceURL" : "https://www.wikidata.org/wiki/Q21655444",
+        "status" : "PD"
+      },
+      "movement" : "",
+      "significance" : {
+        "canonLists" : [
+
+        ],
+        "curatorScore" : 9,
+        "museumHighlight" : false,
+        "sitelinks" : 12
+      },
+      "tags" : [
+        "architecture",
+        "everyday-life",
+        "landscape",
+        "work"
+      ],
+      "title" : "Gas",
+      "wikidata" : "Q21655444",
+      "year" : 1940
+    },
+    {
+      "artist" : "Max Beckmann",
+      "artistDeathYear" : 1950,
+      "artistSort" : "Beckmann, Max",
+      "caption" : "Quappi sits frontally in a blue armchair, holding a cigarette beside her cheek. Her pale pink jumper has deep purple cuffs, and a matching hat frames her dark hair. Long loops of a dark necklace cross her chest above a brown skirt, with thick black outlines separating the figure from the peach-colored background.",
+      "collection" : "Thyssen-Bornemisza Museum",
+      "collectionURL" : "https://www.museothyssen.org/en/collection/artists/beckmann-max/quappi-pink-jumper",
+      "dateDisplay" : "1932–1934",
+      "id" : "wikidata-Q21712392",
+      "image" : {
+        "format" : "jpeg",
+        "sourceMaxHeight" : 2750,
+        "sourceMaxWidth" : 1897,
+        "url" : "https://commons.wikimedia.org/wiki/Special:FilePath/Quappi%20con%20su%C3%A9ter%20rosa%20%28Max%20Beckmann%2C%201932%E2%80%941934%29.jpg?width=1897",
+        "urlTemplate" : "https://commons.wikimedia.org/wiki/Special:FilePath/Quappi%20con%20su%C3%A9ter%20rosa%20%28Max%20Beckmann%2C%201932%E2%80%941934%29.jpg?width={w}"
+      },
+      "license" : {
+        "evidence" : "commons:PD-Art+PD-old-70",
+        "sourceURL" : "https://www.wikidata.org/wiki/Q21712392",
+        "status" : "PD"
+      },
+      "significance" : {
+        "canonLists" : [
+
+        ],
+        "curatorScore" : 8,
+        "museumHighlight" : false,
+        "sitelinks" : 8
+      },
+      "tags" : [
+        "portrait"
+      ],
+      "title" : "Quappi in a Pink Jumper",
+      "wikidata" : "Q21712392",
+      "year" : 1932
+    },
+    {
+      "artist" : "Andy Warhol",
+      "artistDeathYear" : 1987,
+      "artistSort" : "Warhol, Andy",
+      "caption" : "Thirty-two canvases repeat Campbell’s red-and-white soup label, with a different variety named on each can.",
+      "collection" : "Museum of Modern Art",
+      "collectionURL" : "https://www.moma.org/collection/works/79809",
+      "dateDisplay" : "1962",
+      "id" : "wikidata-Q2697937",
+      "image" : {
+        "format" : "jpeg",
+        "sourceMaxHeight" : 1514,
+        "sourceMaxWidth" : 2604,
+        "url" : "https://commons.wikimedia.org/wiki/Special:FilePath/Campbell%27s%20Soup%20Cans%20by%20Andy%20Warhol.jpg?width=2604",
+        "urlTemplate" : "https://commons.wikimedia.org/wiki/Special:FilePath/Campbell%27s%20Soup%20Cans%20by%20Andy%20Warhol.jpg?width={w}"
+      },
+      "license" : {
+        "evidence" : "commons:Cc-by-2.0+PD-US-not renewed",
+        "sourceURL" : "https://www.wikidata.org/wiki/Q2697937",
+        "status" : "PD"
+      },
+      "movement" : "pop art",
+      "significance" : {
+        "canonLists" : [
+          "vital-articles-arts"
+        ],
+        "curatorScore" : 9,
+        "museumHighlight" : false,
+        "sitelinks" : 26
+      },
+      "tags" : [
+        "still-life"
+      ],
+      "title" : "Campbell's Soup Cans",
+      "wikidata" : "Q2697937",
+      "year" : 1962
+    },
+    {
+      "artist" : "Piet Mondrian",
+      "artistDeathYear" : 1944,
+      "artistSort" : "Mondrian, Piet",
+      "caption" : "Yellow horizontal and vertical bands cross a white field, interrupted by red, blue, gray and white blocks that create the painting’s boogie-woogie rhythm.",
+      "collection" : "The Museum of Modern Art, New York",
+      "collectionURL" : "https://www.moma.org/collection/works/78682",
+      "dateDisplay" : "1942–1943",
+      "id" : "wikidata-Q2915406",
+      "image" : {
+        "format" : "jpeg",
+        "sourceMaxHeight" : 4111,
+        "sourceMaxWidth" : 4104,
+        "url" : "https://commons.wikimedia.org/wiki/Special:FilePath/Piet%20Mondrian%2C%201942%20-%20Broadway%20Boogie%20Woogie.jpg?width=3840",
+        "urlTemplate" : "https://commons.wikimedia.org/wiki/Special:FilePath/Piet%20Mondrian%2C%201942%20-%20Broadway%20Boogie%20Woogie.jpg?width={w}"
+      },
+      "license" : {
+        "evidence" : "commons:PD-Art+PD-US-no notice+PD-old-auto",
+        "sourceURL" : "https://www.wikidata.org/wiki/Q2915406",
+        "status" : "PD"
+      },
+      "movement" : "neoplasticism",
+      "significance" : {
+        "canonLists" : [
+
+        ],
+        "curatorScore" : 9,
+        "museumHighlight" : false,
+        "sitelinks" : 18
+      },
+      "tags" : [
+        "abstract"
+      ],
+      "title" : "Broadway Boogie Woogie",
+      "wikidata" : "Q2915406",
+      "year" : 1942
+    },
+    {
+      "artist" : "Wassily Kandinsky",
+      "artistDeathYear" : 1944,
+      "artistSort" : "Kandinsky, Wassily",
+      "caption" : "Small multicoloured organic forms float across a softly varied blue field, their stripes, dots and tendrils suggesting invented creatures.",
+      "collection" : "Musée National d'Art Moderne",
+      "collectionURL" : "https://www.centrepompidou.fr/fr/ressources/oeuvre/cEbLda",
+      "dateDisplay" : "1940",
+      "id" : "wikidata-Q3641124",
+      "image" : {
+        "format" : "jpeg",
+        "sourceMaxHeight" : 8907,
+        "sourceMaxWidth" : 6548,
+        "url" : "https://commons.wikimedia.org/wiki/Special:FilePath/Wassily%20Kandinsky%20-%20Sky%20Blue%2C%201940.jpg?width=3840",
+        "urlTemplate" : "https://commons.wikimedia.org/wiki/Special:FilePath/Wassily%20Kandinsky%20-%20Sky%20Blue%2C%201940.jpg?width={w}"
+      },
+      "license" : {
+        "evidence" : "commons:PD-1996+PD-old-70",
+        "sourceURL" : "https://www.wikidata.org/wiki/Q3641124",
+        "status" : "PD"
+      },
+      "significance" : {
+        "canonLists" : [
+
+        ],
+        "curatorScore" : 8.5,
+        "museumHighlight" : false,
+        "sitelinks" : 6
+      },
+      "tags" : [
+        "abstract"
+      ],
+      "title" : "Sky Blue",
+      "wikidata" : "Q3641124",
+      "year" : 1940
+    },
+    {
+      "artist" : "Edward Hopper",
+      "artistDeathYear" : 1967,
+      "artistSort" : "Hopper, Edward",
+      "caption" : "Three late-night customers and a soda jerk sit lit up like a stage set inside a wedge-shaped diner, the empty street outside rendered in the same cool, sourceless glow that makes the whole scene feel suspended in time.",
+      "collection" : "Art Institute of Chicago",
+      "collectionURL" : "https://www.wikidata.org/wiki/Q83872",
+      "dateDisplay" : "1942",
+      "id" : "wikidata-Q83872",
+      "image" : {
+        "format" : "jpeg",
+        "sourceMaxHeight" : 3274,
+        "sourceMaxWidth" : 6000,
+        "url" : "https://commons.wikimedia.org/wiki/Special:FilePath/Nighthawks%20by%20Edward%20Hopper%201942.jpg?width=3840",
+        "urlTemplate" : "https://commons.wikimedia.org/wiki/Special:FilePath/Nighthawks%20by%20Edward%20Hopper%201942.jpg?width={w}"
+      },
+      "license" : {
+        "evidence" : "commons:PD-Art+PD-old-X-1964+PD-old-auto-1964",
+        "sourceURL" : "https://www.wikidata.org/wiki/Q83872",
+        "status" : "PD"
+      },
+      "movement" : "American realism",
+      "significance" : {
+        "canonLists" : [
+          "100-great-paintings",
+          "vital-articles-arts"
+        ],
+        "curatorScore" : 10,
+        "museumHighlight" : false,
+        "sitelinks" : 38
+      },
+      "tags" : [
+        "everyday-life"
+      ],
+      "title" : "Nighthawks",
+      "wikidata" : "Q83872",
+      "year" : 1942
+    }
+  ]
+}

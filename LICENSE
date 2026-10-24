@@ -1,0 +1,55 @@
+MIT License
+
+Copyright (c) 2026 Alexander McGinn
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+Collection data (data/manifest.json, data/scores.json, data/curate.json,
+data/overrides.json, data/withheld-works.json): to the extent the selection,
+arrangement, scores and one-line captions in these files are protectable at
+all, they are dedicated to the public domain under CC0 1.0
+<https://creativecommons.org/publicdomain/zero/1.0/>. The metadata they
+aggregate comes from CC0 sources (The Metropolitan Museum of Art, the Art
+Institute of Chicago, the Cleveland Museum of Art, the National Gallery of
+Art, Wikidata, and the Rijksmuseum's CC0 data) and from the licence and source
+records of Wikimedia Commons.
+
+---
+
+Artwork images are downloaded by the app from their hosts. Each work is in
+the public domain, or released under CC0 by the institution that holds it;
+the evidence for each work, with a link to its source, is
+recorded in data/manifest.json. Museum and collection names and marks belong
+to their owners and are used only to identify the source of an image. Their
+use does not imply endorsement of artbip.
+
+---
+
+Notes on works, artists, and periods and schools (the text in
+data/education/starter.json, and any other file of such notes) are
+(c) 2026 Alexander McGinn. All rights reserved. They may be read and displayed
+within artbip, including copies of artbip built from this source code, but may
+not otherwise be copied, republished or redistributed separately from artbip
+without permission. The CC0 dedication above covers only the files it names
+(including the one-line captions in data/manifest.json), not these notes.
+
+The name "artbip" and the artbip icon are not licensed under any of the
+above.

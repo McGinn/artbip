@@ -1,0 +1,26 @@
+.build/
+work/
+.DS_Store
+dist/
+.claude/
+artbip-*.zip
+__pycache__/
+
+# Retired: the trial/licence build's signing key. Kept ignored so an old
+# copy can never be committed.
+licence.key
+
+# Key material never belongs in the repository.
+*.pem
+*.p8
+*.p12
+
+# Editorial prose and its review ledgers are private (artbip-private/content,
+# see scripts/content_paths.py). Never commit them here.
+/data/info.json
+/data/visual-reviews.json
+/data/visual-review-baseline.json
+/data/shared-text-reviews.json
+/data/education/holds.json
+/data/metadata-reviews.json
+/data/tag-sources.json

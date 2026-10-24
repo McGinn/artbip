@@ -1,0 +1,35 @@
+name: Problem with an artwork
+description: A picture is cropped, low quality, misattributed, or should not be in the collection.
+title: "[artwork] "
+labels: ["artwork"]
+body:
+  - type: markdown
+    attributes:
+      value: >
+        Reporting from the app's **Report a Problem…** menu item fills most of
+        this in for you.
+  - type: input
+    id: work
+    attributes:
+      label: Work id
+      description: Shown in the report link, e.g. `artic-100350`.
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What is wrong?
+      options:
+        - Wrong or misattributed artist
+        - Image is cropped, rotated, or poor quality
+        - Not actually public domain
+        - It is a photograph of a lost work, or a copy
+        - Duplicate of another work in the collection
+        - Something else
+    validations:
+      required: true
+  - type: textarea
+    id: detail
+    attributes:
+      label: Details
+      description: A link to the museum's own page for the work is especially useful.
