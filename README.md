@@ -4,7 +4,7 @@
 </h1>
 
 <p align="center">
-  <b>A great painting on your Mac desktop, changed on your schedule and never cropped.</b><br>
+  <b>A great painting on your Mac desktop, shown whole and changed on your schedule.</b><br>
   2,000+ public-domain works from the world's museums. Free and open source.
 </p>
 
@@ -30,7 +30,7 @@ There is no account, no subscription and no analytics.
 
 ## Features
 
-- **The whole painting, never cropped.** Each work is scaled to fit your
+- **The whole painting.** Each work is scaled to fit your
   screen and set on a blurred copy of itself or a flat colour taken from its
   own palette. Margin and background are adjustable. Every display gets its
   own composition at its native resolution.
