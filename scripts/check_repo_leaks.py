@@ -6,7 +6,8 @@
 Checks every file git tracks (staged state, so it also catches a bad `git add`):
   * no private editorial file (scripts/content_paths.PRIVATE) or review
     workspace file (checkpoint, drafts, receipts) is tracked anywhere;
-  * no personal email address — only example and noreply addresses;
+  * no personal email address — only example, noreply and the public
+    contact@artbip.app addresses;
   * no key material or service secret values;
   * no editorial bookkeeping in shipped data: published records carry no
     drafting-process fields, and no field holds long verbatim source text
@@ -27,7 +28,7 @@ from content_paths import PRIVATE
 ROOT = Path(__file__).resolve().parent.parent
 WORKSPACE_NAMES = {'checkpoint.json', 'RESUME.md', 'drop-ledger.json', 'pool.json'}
 EMAIL = re.compile(rb'[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}')
-ALLOWED_EMAIL = re.compile(rb'@(example\.(com|org|net)|users\.noreply\.github\.com)$', re.I)
+ALLOWED_EMAIL = re.compile(rb'(@(example\.(com|org|net)|users\.noreply\.github\.com)|^contact@artbip\.app)$', re.I)
 # Secret *values*, not code that names them: the bundle checker's patterns also
 # match the key generator and the leak checkers themselves.
 SECRET_PATTERNS = [

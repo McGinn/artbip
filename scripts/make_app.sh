@@ -22,7 +22,8 @@ export ARTBIP_SCRATCH_PATH=${ARTBIP_SCRATCH_PATH:-${TMPDIR:-/tmp}/artbip-swift-b
 
 # Version comes from the nearest v* tag (v0.1.0 -> 0.1.0); untagged commits
 # get the describe suffix (e.g. 0.1.0-3-gabc1234), non-checkouts 0.0.0-dev.
-VERSION=$(git describe --tags --match 'v*' 2>/dev/null | sed 's/^v//' || true)
+# ARTBIP_VERSION overrides it (make_appstore.sh passes the bare tag version).
+VERSION=${ARTBIP_VERSION:-$(git describe --tags --match 'v*' 2>/dev/null | sed 's/^v//' || true)}
 VERSION=${VERSION:-0.0.0-dev}
 # The public history starts from a fresh root commit (2026-10-24), which reset
 # the commit count. Builds from the earlier history reached 99, so new builds
@@ -79,6 +80,10 @@ cat > "$APP/Contents/Info.plist" <<PLIST
 	<string>${VERSION}</string>
 	<key>CFBundleVersion</key>
 	<string>${BUILD}</string>
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
+	<key>LSApplicationCategoryType</key>
+	<string>public.app-category.lifestyle</string>
 	<key>LSMinimumSystemVersion</key>
 	<string>15.0</string>
 	<key>LSUIElement</key>
