@@ -1141,7 +1141,7 @@
       "artist" : "Sebastiano del Piombo",
       "artistDeathYear" : 1547,
       "artistSort" : "Piombo, Sebastiano del",
-      "caption" : "Christ buckles beneath the weight of the cross as two men crowd close behind him, a hazy landscape and distant crowd glimpsed through a window at right.",
+      "caption" : "Christ, crowned with thorns and dressed in pale blue, leans his head against the cross with his eyes nearly shut, both hands gripping the beam. Behind him crowd a young man and a man in a steel helmet. Beyond, at upper right, tiny figures and riders cross a dim landscape below a distant city and a reddish sky.",
       "collection" : "Art Institute of Chicago",
       "collectionURL" : "https://www.artic.edu/artworks/234781",
       "dateDisplay" : "c. 1515–17",
@@ -9758,7 +9758,7 @@
       "artist" : "Raphael",
       "artistDeathYear" : 1520,
       "artistSort" : "Raphael",
-      "caption" : "The sitter's turned pose and level, appraising gaze cut through the flat green ground, his blue robe glowing against black shadow.",
+      "caption" : "A young man with long fair hair and a black cap turns to look back over his shoulder, straight out of the picture. His blue garment is cut low enough to leave his shoulder bare, and one hand rests on the cloth at his chest above a dark sleeve. The background is a plain deep green.",
       "collection" : "National Gallery of Art",
       "collectionURL" : "https://www.nga.gov/artworks/12131",
       "dateDisplay" : "c. 1515",
@@ -16194,10 +16194,10 @@
       "artist" : "Raphael",
       "artistDeathYear" : 1520,
       "artistSort" : "Raphael",
-      "caption" : "Raphael surrounds Saint Cecilia with discarded musical instruments as she gazes upward toward a choir of angels, earthly harmony yielding to the celestial.",
+      "caption" : "A young woman in a gold dress stands at the centre with a small organ tipped downward in her hands, her eyes raised to a band of angels in the clouds, some holding open books. Beside her stand a bearded man in red and green leaning on a sword, a young man, an older bearded man with a crozier, and a woman who looks straight out, a silver jar at her side. Broken musical instruments lie scattered at their feet.",
       "collection" : "Pinacoteca Nazionale di Bologna",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q1103801",
-      "dateDisplay" : "1514",
+      "collectionURL" : "https://pinacotecabologna.cultura.gov.it/en/opere-darte/estasi-di-santa-cecilia-fra-i-santi-paolo-giovanni-evangelista-agostino-e-maria-maddalena-361",
+      "dateDisplay" : "c. 1515–1518",
       "id" : "wikidata-Q1103801",
       "image" : {
         "format" : "jpeg",
@@ -16226,7 +16226,7 @@
       ],
       "title" : "The Ecstasy of Saint Cecilia",
       "wikidata" : "Q1103801",
-      "year" : 1514
+      "year" : 1515
     },
     {
       "artist" : "Sandro Botticelli",
@@ -34995,8 +34995,8 @@
       "artistSort" : "David, Gerard",
       "caption" : "Mary nurses the child beneath a dark canopy of trees, her blue cloak spreading across the rocky foreground. A basket and flask rest on the ledge beside her; farther back, Joseph leans his head on his hand beneath a straw hat. A donkey stands at the left, overlooking a pale town and distant hills.",
       "collection" : "Royal Museum of Fine Arts Antwerp",
-      "collectionURL" : "https://vip.kmska.be/nl/merci-florent",
-      "dateDisplay" : "1515",
+      "collectionURL" : "https://kmska.be/en/masterpiece/the-rest-on-the-flight-into-egypt",
+      "dateDisplay" : "c. 1515",
       "id" : "wikidata-Q21614138",
       "image" : {
         "format" : "jpeg",
@@ -36210,10 +36210,10 @@
       "artist" : "Raphael",
       "artistDeathYear" : 1520,
       "artistSort" : "Raphael",
-      "caption" : "Mary holds the Christ Child close as he turns his face upwards, with the young John the Baptist just behind. Raphael gathers the three faces beneath a green curtain, balancing the mother's red sleeve against the blue fabric around the child.",
+      "caption" : "The Virgin, seen in profile in a red dress and a gold-patterned red headscarf, holds the bare-limbed Christ Child against her chest, his legs hanging over her lap. He tips his head back, eyes turned up and to the right, while she looks down at him. Her blue cape lies over her knees at the right. A second curly-haired boy leans in from the right, a thin cross rising behind the two children's heads. Above, a green curtain is tied back at the top right corner, opening onto pale sky.",
       "collection" : "Alte Pinakothek",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q2269330",
-      "dateDisplay" : "1510s",
+      "collectionURL" : "https://www.sammlung.pinakothek.de/en/artwork/A0GOlAR4dp",
+      "dateDisplay" : "1513–1514",
       "id" : "wikidata-Q2269330",
       "image" : {
         "format" : "jpeg",
@@ -38851,10 +38851,10 @@
       "artist" : "Titian",
       "artistDeathYear" : 1576,
       "artistSort" : "Titian",
-      "caption" : "A woman draws a lock of golden hair through her fingers while resting her other hand on a small bottle. Her white blouse and green bodice stand out against the dark background. A man in red behind her holds two mirrors; the large round mirror at right reflects her back and a bright window.",
+      "caption" : "A young woman with long golden hair draws a thick lock of it through her fingers and looks off to one side. Her white chemise has slipped off her shoulders above a green bodice, and her other hand rests on a small glass flask on the ledge in front. Behind her a bearded man in red holds a small mirror low at left and a large round mirror at right, where only dark shapes and a bright patch of light show in the glass.",
       "collection" : "Department of Paintings of the Louvre",
       "collectionURL" : "https://collections.louvre.fr/en/ark:/53355/cl010062292",
-      "dateDisplay" : "1515",
+      "dateDisplay" : "c. 1515",
       "id" : "wikidata-Q23922",
       "image" : {
         "format" : "jpeg",
@@ -38879,7 +38879,7 @@
       },
       "tags" : [
         "everyday-life",
-        "portrait"
+        "figure"
       ],
       "title" : "Woman with a Mirror",
       "wikidata" : "Q23922",
@@ -42911,7 +42911,7 @@
       "artist" : "Raphael",
       "artistDeathYear" : 1520,
       "artistSort" : "Raphael",
-      "caption" : "Mary supports the Christ Child on a raised throne beneath a sweeping green curtain. At the left, the winged Archangel Raphael introduces Tobias, who carries a fish; at the right, Saint Jerome holds an open book above the lion resting at his feet.",
+      "caption" : "The Virgin sits on a raised throne holding the Christ Child, under a broad green curtain pulled back on the right to show blue sky. At the left a winged angel leads a kneeling boy who holds a fish on a cord. At the right a bearded old man in a red robe reads a green-bound book, and a lion crouches in the corner below him.",
       "collection" : "Museo Nacional del Prado, Madrid",
       "collectionURL" : "https://www.museodelprado.es/coleccion/obra-de-arte/sagrada-familia-con-rafael-tobias-y-san-jeronimo/aec8373f-f502-4095-9c8f-d61b8b2fffc1",
       "dateDisplay" : "1513–1514",
@@ -43221,10 +43221,10 @@
       "artist" : "Raphael and workshop",
       "artistDeathYear" : 1520,
       "artistSort" : "Raphael (and workshop)",
-      "caption" : "Christ falls to one knee beneath the cross as Mary reaches towards him. Soldiers press the procession forward, while the women at the right turn towards the fallen figure.",
-      "collection" : "Museo del Prado",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q2664637",
-      "dateDisplay" : "1510s",
+      "caption" : "Christ has fallen under the cross, one hand braced on a stone, and looks towards a group of haloed mourners on the right. One of them, a woman in a white veil, stretches both arms towards him. Men heave at the cross behind him, and a man at the left holds a rope. At the far upper left a rider carries a red banner. On the right, helmeted soldiers crowd beside a white horse.",
+      "collection" : "Museo Nacional del Prado, Madrid",
+      "collectionURL" : "https://www.museodelprado.es/en/the-collection/art-work/christ-falls-on-the-way-to-calvary/870c8293-1691-4a90-88ff-b554a2bc3fe8",
+      "dateDisplay" : "1515–1516",
       "id" : "wikidata-Q2664637",
       "image" : {
         "format" : "jpeg",
@@ -57640,10 +57640,10 @@
       "artist" : "Antonio da Correggio",
       "artistDeathYear" : 1534,
       "artistSort" : "Correggio, Antonio da",
-      "caption" : "Mary and the child sit high above four saints, with small angel heads emerging from the luminous cloud behind them. Two winged children hover at either side, and the surrounding columns give the gathering a firm architectural frame.",
+      "caption" : "The Virgin sits high on a throne with the Child on her lap and reaches a hand down toward a kneeling friar at left; a second friar holding a lily and a book stands behind him. At right a woman rests her foot on a wheel beside a bearded man in a red cloak who points. Columns frame the scene, with children's heads in a cloud above and two winged children flying at either side.",
       "collection" : "Staatliche Kunstsammlungen Dresden",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q3842732",
-      "dateDisplay" : "1510s",
+      "collectionURL" : "https://skd-online-collection.skd.museum/Details/Index/243566",
+      "dateDisplay" : "1514–1515",
       "id" : "wikidata-Q3842732",
       "image" : {
         "format" : "jpeg",
@@ -74554,10 +74554,10 @@
       "artist" : "Leonardo da Vinci",
       "artistDeathYear" : 1519,
       "artistSort" : "Vinci, Leonardo da",
-      "caption" : "St John, a smiling youth with long brown curls, turns towards us out of a dark background, his right hand raised with the forefinger pointing upward. His other hand rests on his chest, and a brown fur pelt is wrapped about his body. A thin cross is just visible in the shadows at upper right.",
+      "caption" : "A smiling youth with long curling hair leans out of a dark background, his bare shoulder turned towards us. His right arm crosses his body and the hand is raised, forefinger pointing upward; the fingers of his other hand show at his chest. Dark fur hangs at his side, and a thin cross is just visible in the shadows at upper right.",
       "collection" : "Department of Paintings of the Louvre",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q783215",
-      "dateDisplay" : "1510s",
+      "collectionURL" : "https://collections.louvre.fr/en/ark:/53355/cl010062374",
+      "dateDisplay" : "c. 1508–1519",
       "id" : "wikidata-Q783215",
       "image" : {
         "format" : "jpeg",
@@ -74585,7 +74585,7 @@
       ],
       "title" : "Saint John the Baptist",
       "wikidata" : "Q783215",
-      "year" : 1514
+      "year" : 1508
     },
     {
       "artist" : "Jean-Auguste-Dominique Ingres",
@@ -74705,10 +74705,10 @@
       "artist" : "Titian",
       "artistDeathYear" : 1576,
       "artistSort" : "Titian",
-      "caption" : "Two fair-haired young women sit at either end of a carved marble basin in open countryside. At left one wears a full white satin gown with a red sleeve, holding flowers and resting a gloved hand on a dark vessel; at right the other is nude but for a white cloth and a red cloak, and raises a small dark vessel in one hand. Between them a small winged Cupid leans over to stir the water in the basin. A hilltop castle rises at left and a village with a church spire by a lake at right.",
-      "collection" : "Borghese Collection",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q794077",
-      "dateDisplay" : "1510s",
+      "caption" : "Two fair-haired women sit at either end of a carved stone sarcophagus in a wide landscape. At left one wears a full pale satin gown with a red sleeve, gloves and a wreath of leaves, holding flowers in one hand and resting the other on a dark lidded jar. At right the other is nude but for a white cloth over her lap and a red cloak, and holds up a small dark vessel trailing smoke. Between them a winged child reaches into the water inside the sarcophagus, beside a shallow metal dish. A towered town rises at upper left; a village with a church spire stands by a lake at right.",
+      "collection" : "Galleria Borghese, Rome",
+      "collectionURL" : "https://www.collezionegalleriaborghese.it/en/opere/sacred-and-profane-love",
+      "dateDisplay" : "1515–1516",
       "id" : "wikidata-Q794077",
       "image" : {
         "format" : "jpeg",
@@ -74732,11 +74732,13 @@
         "sitelinks" : 26
       },
       "tags" : [
-        "allegorical"
+        "allegorical",
+        "nsfw",
+        "nude"
       ],
       "title" : "Sacred and Profane Love",
       "wikidata" : "Q794077",
-      "year" : 1514
+      "year" : 1515
     },
     {
       "artist" : "Leonardo da Vinci",
@@ -77758,10 +77760,10 @@
       "artist" : "Raphael",
       "artistDeathYear" : 1520,
       "artistSort" : "Raphael",
-      "caption" : "A young woman with dark hair parted in the middle looks out at us against a dark background, a cream veil laid over her head and falling past her shoulders. She wears a white gathered chemise and a huge, billowing sleeve of pale silk striped with gold, and lays her right hand on her breast. A chain of oval golden-brown stones circles her neck, and a small jewel with a hanging pearl sits on the gold band in her hair. Her identity is uncertain; the veil marks her as a married woman.",
+      "caption" : "A young woman with dark hair parted in the middle looks out at us against a dark background. A cream veil covers her head and falls past her shoulders. She wears a white gathered chemise and a huge sleeve of pale silk banded with gold, and rests her right hand on her breast. A chain of oval stones set in gold circles her neck, and a small jewel with a hanging pearl sits on the gold band in her hair.",
       "collection" : "Galleria Palatina",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q948034",
-      "dateDisplay" : "1510s",
+      "collectionURL" : "https://www.uffizi.it/opere/la-velata",
+      "dateDisplay" : "c. 1512–1515",
       "id" : "wikidata-Q948034",
       "image" : {
         "format" : "jpeg",
@@ -77789,7 +77791,7 @@
       ],
       "title" : "La velata",
       "wikidata" : "Q948034",
-      "year" : 1513
+      "year" : 1512
     },
     {
       "artist" : "Gabriel Metsu",
@@ -78421,10 +78423,10 @@
       "artist" : "Raphael",
       "artistDeathYear" : 1520,
       "artistSort" : "Raphael",
-      "caption" : "In a round picture, the Virgin sits on a chair with a gilded post at the left, wearing a striped white-and-gold headscarf and a green shawl over a red sleeve, and hugs the Christ Child, in a yellow tunic, close to her. Her cheek rests against his head as she looks out at us. At the right, the young St John, a thin cross resting against his shoulder, joins his hands and gazes up at them.",
+      "caption" : "In a round picture, Mary sits sideways on a chair whose turned upright, banded and topped with gold, rises at the left. She wears a white turban striped with gold and a patterned green shawl over a red sleeve, and hugs the Christ Child, in a yellow tunic, close to her. Her cheek rests against his head as she looks out at us. At the right the young St John, a thin cross at his shoulder, joins his hands and looks up at them.",
       "collection" : "Galleria Palatina",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q966681",
-      "dateDisplay" : "1510s",
+      "collectionURL" : "https://www.uffizi.it/en/artworks/la-madonna-col-bambino-e-san-giovannino-detta-madonna-della-seggiola",
+      "dateDisplay" : "c. 1512",
       "id" : "wikidata-Q966681",
       "image" : {
         "format" : "jpeg",
@@ -78452,7 +78454,7 @@
       ],
       "title" : "Madonna della Seggiola",
       "wikidata" : "Q966681",
-      "year" : 1513
+      "year" : 1512
     },
     {
       "artist" : "Edgar Degas",
