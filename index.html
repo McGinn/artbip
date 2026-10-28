@@ -6,15 +6,17 @@
 <!-- Hand-edited. Do not regenerate with build_landing.py (it reverts this design).
      Styles and images live in site/static/ and are deployed to /static/. -->
 <title>artbip: famous paintings on your Mac desktop, free</title>
-<meta name="description" content="artbip is a free, open-source Mac app that puts a different public-domain painting on your desktop, whole and uncropped, with a museum-style label. 2,000+ works from the Met, the Rijksmuseum and other museums.">
+<meta name="description" content="artbip is a free, open-source Mac app that puts a different public-domain painting on your desktop, shown whole with a museum-style label. 2,000+ works from the Met, the Rijksmuseum and other museums.">
 <link rel="canonical" href="https://artbip.app/">
 <meta property="og:type" content="website">
 <meta property="og:title" content="artbip: live with great paintings">
-<meta property="og:description" content="A free Mac app that hangs a different masterpiece on your desktop, never cropped, with a label that tells you what you're looking at.">
+<meta property="og:description" content="A free Mac app that hangs a different masterpiece on your desktop, shown whole, with a label that tells you what you're looking at.">
 <meta property="og:url" content="https://artbip.app/">
 <meta property="og:image" content="https://artbip.app/static/img/og.jpg">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="theme-color" content="#f6f4ef">
+<meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#141312" media="(prefers-color-scheme: dark)">
+<script>try{var t=localStorage.getItem('theme');if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
 <link rel="preload" href="/static/fonts/newsreader.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="/static/site.css">
 <script type="application/ld+json">
@@ -32,6 +34,7 @@
     <a class="opt" href="#collection">Collection</a>
     <a class="opt" href="/blog/">Journal</a>
     <a class="opt" href="#faq">FAQ</a>
+    <button class="theme" id="theme" type="button" hidden aria-label="Switch theme"><svg class="moon" viewBox="0 0 16 16" aria-hidden="true"><path d="M13.5 10.2A6 6 0 0 1 5.8 2.5a6 6 0 1 0 7.7 7.7z" fill="currentColor"/></svg><svg class="sun" viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="3.2" fill="currentColor"/><path d="M8 .8v2M8 13.2v2M.8 8h2M13.2 8h2M2.9 2.9l1.4 1.4M11.7 11.7l1.4 1.4M2.9 13.1l1.4-1.4M11.7 4.3l1.4-1.4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg></button>
     <a class="btn small" href="https://github.com/McGinn/artbip/releases/latest">Download</a>
   </nav>
 </header>
@@ -39,8 +42,8 @@
 <main>
 <section class="hero wrap">
   <h1>Live with great paintings.</h1>
-  <p class="sub">A free Mac app that hangs a different masterpiece on your desktop:
-  whole, never cropped, with a label that tells you what you're looking at.</p>
+  <p class="sub">A free Mac app that hangs a different masterpiece on your desktop,
+  shown whole, with a label that tells you what you're looking at.</p>
   <div class="cta">
     <a class="btn" href="https://github.com/McGinn/artbip/releases/latest">Download for Mac, free</a>
     <a class="btn line" href="https://github.com/McGinn/artbip">View source</a>
@@ -72,7 +75,7 @@
 <section class="block wrap">
   <div class="head">
     <div class="kicker">The whole picture</div>
-    <h2>Never cropped.</h2>
+    <h2>See all of the painting.</h2>
     <p class="lede">macOS fills the screen by cutting the painting down: tall
     portraits lose their heads and feet, wide panoramas lose their edges. artbip
     hangs the whole work and fills the space around it with a blurred echo of
@@ -290,5 +293,6 @@
  {"@type":"Question","name":"Will artbip ever cost money?","acceptedAnswer":{"@type":"Answer","text":"The app and everything in it today are free and will stay that way."}}
 ]}
 </script>
+<script src="/static/theme.js" defer></script>
 </body>
 </html>
