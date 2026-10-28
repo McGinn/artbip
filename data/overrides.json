@@ -5279,7 +5279,8 @@
     "dateDisplay": "c. 1513",
     "year": 1513,
     "artist": "Raphael and workshop",
-    "movement": "High Renaissance"
+    "movement": "High Renaissance",
+    "collectionURL": "https://art.thewalters.org/detail/10681/madonna-of-the-candelabra/"
   },
   "wikidata-Q1635039": {
     "tags": [
@@ -8110,7 +8111,7 @@
       "satirical",
       "supernatural"
     ],
-    "caption": "Crowds reach for a towering wagonload of hay as strange creatures pull it toward the right. Musicians and an embracing couple sit on top, beneath Christ in the clouds. The left panel shows Eden and the expulsion of Adam and Eve; the right fills with burning buildings and scenes of torment.",
+    "caption": "Three panels. On the left, angels fall from the sky and Adam and Eve are driven from a garden. In the centre, crowds and riders swarm around a huge cart of hay while strange creatures haul it to the right; on top, people make music beneath Christ in the clouds. On the right, devils climb a ladder up a round tower as flames and smoke rise behind.",
     "dateDisplay": "1512–1515",
     "year": 1512,
     "collectionURL": "https://www.museodelprado.es/en/the-collection/art-work/the-haywain-triptych/7673843a-d2b6-497a-ac80-16242b36c3ce",
@@ -9920,8 +9921,9 @@
     "tags": [
       "religious"
     ],
-    "caption": "The Christ Child lies across Mary's supporting arms with a small piece of pear in his hand. He looks up as she lowers her eyes; her transparent veil and finely painted curls soften the edge of the brilliant blue dress.",
-    "movement": "German Renaissance"
+    "caption": "Against a black background, a young woman in a blue dress and a sheer veil looks down at the naked baby she holds on a pale blue cloth. Her long, wavy, reddish-blond hair falls past her shoulders. The curly-haired child glances up and to the side, a small slice of pear in one hand. The date 1512 and Dürer's monogram sit at the upper right.",
+    "movement": "German Renaissance",
+    "collectionURL": "https://www.khm.at/en/object/616/"
   },
   "wikidata-Q25986": {
     "tags": [
@@ -10233,7 +10235,6 @@
   },
   "wikidata-Q2635552": {
     "tags": [
-      "interior",
       "landscape",
       "portrait"
     ],
@@ -10241,7 +10242,7 @@
     "year": 1511,
     "collection": "Museo e Real Bosco di Capodimonte, Naples",
     "collectionURL": "https://capodimonte.cultura.gov.it/raffaello-e-la-sua-bottega-indagini-diagnostiche-per-una-nuova-mostra/",
-    "caption": "Cardinal Alessandro Farnese looks towards the viewer in a bright red cap and broad buttoned cape over white sleeves. He holds a folded paper in one hand, while an opening at the right reveals a river, bridge and pale buildings beyond the dark interior.",
+    "caption": "Cardinal Alessandro Farnese stands in a red cap, a wide red cape fastened with round buttons and a long red robe, with full white sleeves and a white band down the front. He looks out at the viewer and holds a folded paper. At the right, an arched opening shows a river, a stone bridge, pale buildings and blue hills.",
     "movement": "High Renaissance"
   },
   "wikidata-Q2636368": {
@@ -10482,7 +10483,7 @@
     "dateDisplay": "c. 1510",
     "year": 1510,
     "collectionURL": "https://www.nationalgallery.org.uk/paintings/hieronymus-bosch-christ-mocked-the-crowning-with-thorns",
-    "caption": "Four men crowd around Christ’s pale-robed figure: one holds up the crown of thorns, another rests a hand on his shoulder, and foreground hands reach across his robe as he looks towards us.",
+    "caption": "Christ, in a pale robe, looks straight out as four men crowd around him. At top left a man in a green headdress raises a crown of thorns in an armoured glove; at top right a man wears oak leaves in his hat and a spiked collar. A hand rests on Christ's shoulder, and the two men below reach for his robe.",
     "movement": null
   },
   "wikidata-Q2734111": {
@@ -12871,13 +12872,14 @@
       "landscape",
       "music",
       "mythological",
-      "narrative"
+      "narrative",
+      "nsfw"
     ],
     "dateDisplay": "1510–1515",
     "year": 1510,
     "collection": "Uffizi Galleries, Florence",
     "collectionURL": "https://www.uffizi.it/en/artworks/perseus-frees-andromeda",
-    "caption": "Perseus stands on a huge sea monster with his sword raised, while Andromeda is bound beside the left-hand rocks and a separate group celebrates with musicians on the right.",
+    "caption": "Across a wide bay, a young man in a winged helmet stands on the back of a huge tusked sea monster, his sword drawn back over his head. At left, a half-draped young woman is bound to a stump by the rocks, and below her a group hide their faces or lie on the ground. At right, a crowd gathers beside two players with oddly shaped instruments, and high in the sky an armoured figure flies in on winged feet.",
     "artistDeathYear": 1521
   },
   "wikidata-Q3591505": {
@@ -14316,7 +14318,7 @@
       "landscape",
       "religious"
     ],
-    "dateDisplay": "c. 1510 or 1502–1503",
+    "dateDisplay": "c. 1510",
     "year": 1510,
     "collectionURL": "https://www.collezionegalleriaborghese.it/opere/madonna-con-bambino-3",
     "caption": "Mary and the child lower their eyes above her blue mantle, framed by a green curtain and a slender tree in the distant landscape."
@@ -14377,8 +14379,11 @@
     "tags": [
       "religious"
     ],
-    "caption": "Mary and the Christ child sit between Saint Anthony, in a plain friar’s habit, and Saint Roch, carrying a pilgrim’s staff and showing his bare thigh. A green curtain gathers the figures into a quiet group, with glimpses of landscape at either side.",
-    "movement": "High Renaissance"
+    "caption": "Mary sits between Saint Anthony, in a plain friar’s habit, and Saint Roch, carrying a pilgrim’s staff and showing his bare thigh; the Christ child stands on her lap. A green curtain gathers the figures into a quiet group, with glimpses of landscape at either side.",
+    "movement": "High Renaissance",
+    "dateDisplay": "c. 1510",
+    "year": 1510,
+    "collectionURL": "https://www.museodelprado.es/en/the-collection/art-work/the-virgin-and-child-between-saint-anthony-of/2e87a95b-7a28-475a-89f1-948619f863ac"
   },
   "wikidata-Q3842562": {
     "tags": [
@@ -15647,9 +15652,13 @@
   },
   "wikidata-Q3983802": {
     "tags": [
-      "religious"
+      "religious",
+      "supernatural"
     ],
-    "caption": "Fantastic creatures crowd around Saint Anthony, pulling his hair and striking at his fallen body. Birdlike claws, horns and gaping mouths fill the foreground, while a ruined shelter and bare trees extend the violence into the landscape."
+    "caption": "An old man with a long white beard lies on his back in a blue cloak while monsters set on him: one drags him by the hair, others raise sticks, and a huge grey bird-headed creature looms at right. Horned, fanged beasts crowd behind, and at lower left sits a bloated figure covered in sores. Beyond lie a wrecked timber hut, bare trees and pale crags; high in the sky a figure glows in a burst of light.",
+    "dateDisplay": "1512–1516",
+    "year": 1512,
+    "collectionURL": "https://www.musee-unterlinden.com/en/oeuvres/the-isenheim-altarpiece/"
   },
   "wikidata-Q3985203": {
     "tags": [
@@ -16037,7 +16046,11 @@
       "portrait"
     ],
     "caption": "The scholar and papal librarian Tommaso Inghirami looks upward, his pen poised beside the inkwell. Red clothing fills most of the picture, while the open book, paper and hands gather the act of writing into its lower edge.",
-    "movement": "High Renaissance"
+    "movement": "High Renaissance",
+    "dateDisplay": "c. 1510–1511",
+    "year": 1510,
+    "collection": "Uffizi Galleries, Florence (Palatine Gallery collection)",
+    "collectionURL": "https://www.uffizi.it/en/artworks/fedra-portrait-raphael"
   },
   "wikidata-Q429753": {
     "tags": [
@@ -16554,7 +16567,10 @@
     "artist": "Giovanni Bellini and assistants",
     "artistSort": "Bellini, Giovanni (and assistants)",
     "title": "Lamentation over the Dead Christ with the Virgin, Joseph of Arimathea, Mary Magdalene, Martha and possibly Philip Benizi",
-    "caption": "The dead Christ rests across Mary’s lap beneath a tall, empty cross. The clustered mourners fill the foreground, while a river, rocky slopes and distant buildings open the scene behind them."
+    "caption": "The dead Christ rests across Mary’s lap beneath a tall, empty cross. The clustered mourners fill the foreground, while a stretch of water, rocky slopes and distant buildings open the scene behind them.",
+    "dateDisplay": "c. 1510–1516",
+    "year": 1510,
+    "collectionURL": "https://gallerieaccademia.it/compianto-su-cristo-morto-con-la-vergine-e-i-santi-giuseppe-darimatea-maddalena-marta-e-filippo"
   },
   "wikidata-Q48389324": {
     "tags": [
@@ -18154,11 +18170,12 @@
     "tags": [
       "religious"
     ],
-    "artist": "Attributed to Hieronymus Bosch (disputed)",
-    "artistSort": "Bosch, Hieronymus (attributed to; disputed)",
+    "artist": "Hieronymus Bosch (attributed)",
+    "artistSort": "Bosch, Hieronymus",
     "collectionURL": "https://www.mskgent.be/en/collection/1902-h",
-    "caption": "Christ’s closed eyes and softly modelled face stand out among tightly packed, distorted heads. At the lower left, Veronica holds a cloth bearing his likeness; the cross cuts diagonally through the crowd.",
-    "movement": "Early Netherlandish painting"
+    "caption": "Christ, crowned with thorns and with his eyes closed, bows his head beside the diagonal beam of the cross. Grimacing, gaping faces press in on every side against a dark ground. At lower left a woman lowers her eyes above a cloth printed with his face.",
+    "movement": "Early Netherlandish painting",
+    "dateDisplay": "c. 1510–1516"
   },
   "wikidata-Q681876": {
     "tags": [
@@ -18214,8 +18231,9 @@
     "tags": [
       "religious"
     ],
-    "caption": "God the Father, crowned and wearing a gold cope over a blue robe, holds up the crucified Christ before a green cloak spread out by angels, with the dove of the Holy Spirit above. Saints kneel on clouds to either side, women carrying palms at left and men at right, while below a crowd of earthly believers in crowns, tiaras and rich red and gold robes kneels on a bank of cloud, among them the founder Matthäus Landauer at left. At bottom right Dürer stands alone on a hillside beside a tablet bearing his signature.",
-    "movement": "German Renaissance"
+    "caption": "God the Father, crowned and in a gold cope over a blue robe, holds the crucified Christ in front of him, while angels spread a green cloak out to either side and a white dove hovers at the top. Crowds of saints fill the sky: women with palm fronds and crowns at left, men at right, one holding stone tablets and another a harp. Below, a pope, a cardinal, a crowned emperor and a man in gold armour stand out in a crowd floating on clouds above a landscape with water. In the bottom right corner a tiny Dürer stands beside a signed tablet.",
+    "movement": "German Renaissance",
+    "collectionURL": "https://www.khm.at/en/artworks/all-saints-picture-landauer-altar-615"
   },
   "wikidata-Q6888851": {
     "tags": [
@@ -18672,10 +18690,19 @@
   },
   "wikidata-Q798034": {
     "tags": [
-      "mythological"
+      "animals",
+      "landscape",
+      "mythological",
+      "nude",
+      "religious"
     ],
-    "caption": "A nude young man with long dark curls and leaves in his hair sits on a rock beneath dark trees, one leg crossed over the other and a spotted skin across his lap. His right hand points across his chest, while his left hand holds a bunch of grapes and points down; a long staff rests against his shoulder. Beyond him at left, a deer stands and a stag lies in a meadow before a river and pale blue mountains. The figure is now known as Bacchus but was first conceived as St John the Baptist in the wilderness.",
-    "movement": null
+    "caption": "A nude young man with long dark curls and a few leaves in his hair sits on a shadowy bank under dark trees, one leg crossed over the other and a spotted animal skin across his lap. Smiling faintly, he points across his chest with his right hand; his left hand points down over a bunch of grapes, and a long thin staff rises beside him. Beyond, at left, a deer stands on a sunlit slope and a stag lies in the shade, before a stretch of water and pale blue mountains.",
+    "movement": null,
+    "artist": "Francesco Melzi (attributed)",
+    "dateDisplay": "c. 1517–1520",
+    "year": 1517,
+    "collection": "Musée du Louvre, Paris",
+    "collectionURL": "https://collections.louvre.fr/ark:/53355/cl010062371"
   },
   "wikidata-Q8058274": {
     "tags": [
