@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>artbip privacy policy</title>
+<meta name="description" content="artbip collects no personal
+information. Every network connection the Mac app makes, and what it
+stores on your Mac.">
+<style>
+  :root {
+    --bg:#0c0d0f; --panel:#141518; --fg:#ecebe7; --dim:#a09d96; --line:#26272b;
+    --accent:#c9a15a; --serif:'New York',ui-serif,Georgia,'Times New Roman',serif;
+    --sans:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;
+  }
+  * { box-sizing:border-box; margin:0; }
+  body { background:var(--bg); color:var(--fg); font:16px/1.7 var(--sans); }
+  a { color:var(--accent); text-decoration:none; }
+  a:hover { text-decoration:underline; }
+  .wrap   { max-width:1080px; margin:0 auto; padding-left:28px; padding-right:28px; }
+  .narrow { max-width:680px;  margin:0 auto; padding-left:28px; padding-right:28px; }
+  @media (max-width:480px) { .wrap, .narrow { padding-left:16px; padding-right:16px; } }
+  header { padding-top:28px; padding-bottom:28px; }
+  .brand { font:600 20px var(--sans); letter-spacing:.04em; color:var(--fg); }
+  .brand em { color:var(--accent); font-style:normal; }
+  main { padding-top:40px; }
+  h1 { font:600 clamp(32px,5vw,46px)/1.2 var(--serif); margin-bottom:24px; }
+  h2 { font:600 clamp(22px,3vw,27px)/1.3 var(--serif); margin:44px 0 14px; }
+  h3 { font:600 16.5px var(--sans); margin:28px 0 8px; }
+  p, li { color:#cfccc4; }
+  p { margin-bottom:16px; }
+  ul { margin:0 0 16px; padding-left:22px; }
+  li { margin-bottom:6px; }
+  strong { color:var(--fg); }
+  code { font:14px ui-monospace,SFMono-Regular,Menlo,monospace; color:var(--fg);
+         background:var(--panel); border:1px solid var(--line); border-radius:5px; padding:1px 5px;
+         overflow-wrap:anywhere; }
+  table { width:100%; border-collapse:collapse; margin:8px 0 20px; font-size:14.5px; display:block; overflow-x:auto; }
+  th, td { text-align:left; vertical-align:top; padding:9px 10px; border-bottom:1px solid var(--line); color:#cfccc4; }
+  th { color:var(--fg); }
+  .card { background:var(--panel); border:1px solid var(--line); border-radius:12px; padding:22px 26px; margin:18px 0; }
+  .card p:last-child { margin-bottom:0; }
+  footer { margin-top:96px; padding-top:40px; padding-bottom:56px; border-top:1px solid var(--line);
+            color:var(--dim); font-size:14px; text-align:center; }
+</style>
+</head>
+<body>
+<header class="wrap"><a class="brand" href="/">art<em>bip</em></a></header>
+<main class="narrow">
+<h1 id="artbip-privacy-policy">artbip privacy policy</h1>
+<p><strong>Last updated:</strong> 22 October 2026. Applies from artbip
+0.1.0.</p>
+<p>artbip is a free, open-source Mac app made by Alexander McGinn. This
+policy explains what it does with information about you. The short
+version: <strong>artbip does not collect, store or share any personal
+information.</strong> There is no artbip account, no artbip server, no
+analytics, no advertising, no crash reporting and no tracking of any
+kind.</p>
+<p>Everything below can be checked against the <a
+href="https://github.com/McGinn/artbip">source code on GitHub</a>.</p>
+<h2 id="what-artbip-collects">What artbip collects</h2>
+<p>Nothing. artbip does not send the developer, or anyone else, any
+information about you, your Mac, or how you use the app. It asks for no
+special permissions: not your location, contacts, photos, camera,
+microphone or files.</p>
+<h2 id="network-connections">Network connections</h2>
+<p>artbip connects to the internet for two things only.</p>
+<h3 id="1-downloading-artwork-images">1. Downloading artwork images</h3>
+<p>To show a painting, artbip downloads its image directly from the
+server that hosts it:</p>
+<ul>
+<li>Wikimedia Commons (<code>commons.wikimedia.org</code> and its image
+servers)</li>
+<li>The Metropolitan Museum of Art
+(<code>images.metmuseum.org</code>)</li>
+<li>National Gallery of Art, Washington (<code>api.nga.gov</code>)</li>
+<li>Rijksmuseum, through its image service
+(<code>iiif.micr.io</code>)</li>
+<li>Art Institute of Chicago (<code>www.artic.edu</code>)</li>
+<li>Cleveland Museum of Art
+(<code>openaccess-cdn.clevelandart.org</code>)</li>
+</ul>
+<p>It downloads the work being shown, the next three in the queue, and
+thumbnails for the works you scroll past in the gallery. Requests
+identify themselves as artbip with a link to the artbip GitHub
+repository (the User-Agent header), except for the Met and the Art
+Institute of Chicago, whose servers block non-browser requests, so
+artbip sends a standard browser User-Agent there (and, for the Art
+Institute, an extra header naming artbip, as that museum asks). artbip
+keeps no cookies from these servers, and the requests contain no
+information about you beyond what every internet request carries: your
+IP address and basic request headers.</p>
+<p>Like any web server, these hosts can see that IP address and which
+image was requested. Their own privacy policies govern what they do with
+that.</p>
+<h3 id="2-checking-for-a-new-version">2. Checking for a new version</h3>
+<p>When artbip starts, at most once every 24 hours, it asks GitHub's
+public API (<code>api.github.com</code>) whether a newer release of
+artbip exists. The request contains no information about you or your
+usage, only what any HTTPS request carries (your IP address and a
+User-Agent naming artbip). If there is a new version, artbip shows a
+link to its release page; it never downloads or installs anything by
+itself.</p>
+<p>You can turn this off in <strong>Settings → Updates → Check for new
+versions</strong>. It is on by default so that corrections to the
+collection reach you. <strong>Check Now</strong> checks immediately, and
+the command-line <code>artbip update</code> checks whenever you run it,
+whatever the setting.</p>
+<p>A version of artbip distributed through the Mac App Store would not
+perform this check; updates there come through the App Store.</p>
+<h3 id="links-you-choose-to-open">Links you choose to open</h3>
+<p>Some menu items open a page in your web browser: the work's page at
+its museum, the GitHub release page, GitHub Sponsors, and the GitHub
+issue forms described under Reporting a problem. Those pages are visited
+by your browser, under the website's own privacy policy, just as if you
+had typed the address.</p>
+<h2 id="reporting-a-problem-or-requesting-a-feature">Reporting a problem
+or requesting a feature</h2>
+<p><strong>Report a Problem…</strong> and <strong>Request a
+Feature…</strong> open a GitHub issue form in your browser, pre-filled
+with details to help fix the problem. For an artwork report these are
+the work's id, title, artist, holding collection, source link and
+Wikidata id, plus your artbip version and macOS version. A feature
+request is pre-filled with your artbip version only.</p>
+<p><strong>Nothing is sent when you choose the menu item.</strong> You
+can read and edit the form, and nothing leaves your Mac unless you
+submit it on GitHub. If you do, the issue is posted publicly under your
+GitHub account, and GitHub's <a
+href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">privacy
+statement</a> applies.</p>
+<h2 id="information-stored-on-your-mac">Information stored on your
+Mac</h2>
+<p>artbip keeps its data in
+<code>~/Library/Application Support/artbip</code>. None of it is sent
+anywhere.</p>
+<table>
+<thead>
+<tr>
+<th>File</th>
+<th>Contents</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>settings.json</code></td>
+<td>Your settings: schedule, background, label, margin, shortcuts,
+storage limit and so on.</td>
+</tr>
+<tr>
+<td><code>state.json</code></td>
+<td>Your favourites, blocked works and collections, and the last 500
+works shown with the time each appeared.</td>
+</tr>
+<tr>
+<td><code>original-wallpaper.json</code></td>
+<td>The file paths of the wallpaper you had before artbip, so it can be
+restored. These paths may include your macOS user name.</td>
+</tr>
+<tr>
+<td><code>scheduler.json</code></td>
+<td>Timings and errors from recent rotations, used for
+troubleshooting.</td>
+</tr>
+<tr>
+<td><code>cache/</code></td>
+<td>Downloaded images and thumbnails, limited to 2 GB by default. Clear
+it in <strong>Settings → Clear Downloads</strong>.</td>
+</tr>
+<tr>
+<td><code>wallpapers/</code></td>
+<td>The composed wallpaper images set on your desktop.</td>
+</tr>
+</tbody>
+</table>
+<p>artbip also writes routine diagnostic messages to macOS's own system
+log on your Mac. These are not sent anywhere by artbip.</p>
+<p><strong>Launch at Login</strong> is off until you turn it on.</p>
+<p>To remove everything, quit artbip, delete the app, and delete the
+folder above.</p>
+<h2 id="sponsorship">Sponsorship</h2>
+<p>The <strong>Sponsor artbip</strong> link opens <a
+href="https://github.com/sponsors/McGinn">GitHub Sponsors</a>.
+Sponsorship is handled entirely by GitHub under its own privacy
+statement, unlocks nothing in the app, and is never linked to your copy
+of artbip.</p>
+<h2 id="children">Children</h2>
+<p>artbip collects no information from anyone, including children.</p>
+<h2 id="security">Security</h2>
+<p>The direct download is signed with a Developer ID, notarized by Apple
+and runs with the hardened runtime.</p>
+<h2 id="changes-to-this-policy">Changes to this policy</h2>
+<p>If artbip's handling of information changes, this policy will be
+updated before the release that makes the change, and the date at the
+top will change. The <a
+href="https://github.com/McGinn/artbip/commits/HEAD/PRIVACY.md">history
+of this policy</a> is public.</p>
+<h2 id="contact">Contact</h2>
+<p>Questions about privacy can be asked by <a
+href="https://github.com/McGinn/artbip/issues/new">opening an issue</a>
+on GitHub. Issues are public, so please don't include anything you want
+to keep private.</p>
+</main>
+<footer>
+  <div class="wrap">art<span style="color:var(--accent)">bip</span> · made for macOS ·
+  <a href="https://github.com/McGinn/artbip">GitHub</a> ·
+  <a href="/privacy/">Privacy</a> ·
+  <a href="/support/">Support</a></div>
+</footer>
+</body>
+</html>

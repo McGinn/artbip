@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>artbip support</title>
+<meta name="description" content="Help with artbip, the free Mac app
+that puts public-domain paintings on your desktop: report a problem,
+common questions, privacy.">
+<style>
+  :root {
+    --bg:#0c0d0f; --panel:#141518; --fg:#ecebe7; --dim:#a09d96; --line:#26272b;
+    --accent:#c9a15a; --serif:'New York',ui-serif,Georgia,'Times New Roman',serif;
+    --sans:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;
+  }
+  * { box-sizing:border-box; margin:0; }
+  body { background:var(--bg); color:var(--fg); font:16px/1.7 var(--sans); }
+  a { color:var(--accent); text-decoration:none; }
+  a:hover { text-decoration:underline; }
+  .wrap   { max-width:1080px; margin:0 auto; padding-left:28px; padding-right:28px; }
+  .narrow { max-width:680px;  margin:0 auto; padding-left:28px; padding-right:28px; }
+  @media (max-width:480px) { .wrap, .narrow { padding-left:16px; padding-right:16px; } }
+  header { padding-top:28px; padding-bottom:28px; }
+  .brand { font:600 20px var(--sans); letter-spacing:.04em; color:var(--fg); }
+  .brand em { color:var(--accent); font-style:normal; }
+  main { padding-top:40px; }
+  h1 { font:600 clamp(32px,5vw,46px)/1.2 var(--serif); margin-bottom:24px; }
+  h2 { font:600 clamp(22px,3vw,27px)/1.3 var(--serif); margin:44px 0 14px; }
+  h3 { font:600 16.5px var(--sans); margin:28px 0 8px; }
+  p, li { color:#cfccc4; }
+  p { margin-bottom:16px; }
+  ul { margin:0 0 16px; padding-left:22px; }
+  li { margin-bottom:6px; }
+  strong { color:var(--fg); }
+  code { font:14px ui-monospace,SFMono-Regular,Menlo,monospace; color:var(--fg);
+         background:var(--panel); border:1px solid var(--line); border-radius:5px; padding:1px 5px;
+         overflow-wrap:anywhere; }
+  table { width:100%; border-collapse:collapse; margin:8px 0 20px; font-size:14.5px; display:block; overflow-x:auto; }
+  th, td { text-align:left; vertical-align:top; padding:9px 10px; border-bottom:1px solid var(--line); color:#cfccc4; }
+  th { color:var(--fg); }
+  .card { background:var(--panel); border:1px solid var(--line); border-radius:12px; padding:22px 26px; margin:18px 0; }
+  .card p:last-child { margin-bottom:0; }
+  footer { margin-top:96px; padding-top:40px; padding-bottom:56px; border-top:1px solid var(--line);
+            color:var(--dim); font-size:14px; text-align:center; }
+</style>
+</head>
+<body>
+<header class="wrap"><a class="brand" href="/">art<em>bip</em></a></header>
+<main class="narrow">
+<h1 id="artbip-support">artbip support</h1>
+<p>artbip is a free Mac app that puts a public-domain painting on your
+desktop on the schedule you choose. This page covers the common
+questions and how to reach the developer.</p>
+<h2 id="report-a-problem">Report a problem</h2>
+<div class="card">
+
+<p><strong>Wrong picture, title, artist or date?</strong> While the work
+is on your desktop, choose <strong>Report a Problem…</strong> in the
+artbip menu. It opens a GitHub issue form with the work's details
+already filled in. Nothing is sent until you submit the form.</p>
+</div>
+
+<p>You can also open an issue directly on GitHub:</p>
+<ul>
+<li><a
+href="https://github.com/McGinn/artbip/issues/new?template=bad-artwork.yml">Report
+a problem with an artwork</a></li>
+<li><a
+href="https://github.com/McGinn/artbip/issues/new?template=bad-info.yml">Report
+wrong information about a work</a></li>
+<li><a
+href="https://github.com/McGinn/artbip/issues/new?template=feature-request.yml">Request
+a feature</a></li>
+<li><a href="https://github.com/McGinn/artbip/issues/new/choose">Any
+other bug or question</a></li>
+</ul>
+<p>GitHub issues are public, so don't include anything you want to keep
+private.</p>
+<h2 id="common-questions">Common questions</h2>
+<h3 id="what-do-i-need-to-run-artbip">What do I need to run artbip?</h3>
+<p>A Mac with Apple silicon running macOS 15 Sequoia or later. artbip
+lives in the menu bar, not the Dock.</p>
+<h3 id="the-picture-stopped-changing-after-a-restart">The picture
+stopped changing after a restart.</h3>
+<p>Turn on <strong>Launch at Login</strong> in the artbip menu. It is
+off until you choose it.</p>
+<h3 id="a-painting-looks-cut-off-or-blurry">A painting looks cut off or
+blurry.</h3>
+<p>artbip never crops: it places the whole painting over a blurred copy
+of itself or a colour from its palette. If a work still looks wrong, use
+<strong>Report a Problem…</strong> while it is showing so the exact work
+is identified.</p>
+<h3 id="i-never-want-to-see-a-particular-painting-again">I never want to
+see a particular painting again.</h3>
+<p>Choose <strong>Never Show Again</strong> in the menu while it is on
+screen. You can undo this in the gallery's Blocked list.</p>
+<h3 id="does-it-work-offline">Does it work offline?</h3>
+<p>It keeps rotating through images it has already downloaded. New
+images need an internet connection.</p>
+<h3 id="how-do-i-remove-artbip-completely">How do I remove artbip
+completely?</h3>
+<p>Choose <strong>Restore Original Wallpaper</strong> in the menu to put
+your previous wallpaper back, then quit artbip, delete the app, and
+delete the folder <code>~/Library/Application Support/artbip</code>.</p>
+<h2 id="privacy">Privacy</h2>
+<p>artbip collects no personal information: no account, no analytics, no
+tracking. The full <a href="/privacy/">privacy policy</a> lists every
+network connection the app makes.</p>
+</main>
+<footer>
+  <div class="wrap">art<span style="color:var(--accent)">bip</span> · made for macOS ·
+  <a href="https://github.com/McGinn/artbip">GitHub</a> ·
+  <a href="/privacy/">Privacy</a> ·
+  <a href="/support/">Support</a></div>
+</footer>
+</body>
+</html>
