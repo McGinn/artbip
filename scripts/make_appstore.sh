@@ -90,7 +90,15 @@ echo "signature verified (sandboxed, $TEAM.$BUNDLE_ID)"
 PKG="dist/appstore/artbip-${VERSION}-${BUILD}.pkg"
 rm -f "$PKG"
 # productbuild prints "write: Permission denied" a few times here; harmless.
+# The ._ entries in the payload are com.apple.provenance, which macOS re-adds
+# to files written here and won't let us remove; App Store validation
+# accepts them.
 productbuild --component "$APP" /Applications --sign "$PKG_ID" "$PKG" >/dev/null 2>&1
+# The installer makes root the owner, so anything not world-readable can't
+# be read by the app at all, and the App Store rejects it (ITMS-90255).
+pkgutil --expand "$PKG" "$WORK/expanded"
+BAD=$(lsbom -p fM "$WORK"/expanded/*.pkg/Bom | awk '$1 != "." && $2 !~ /^[-dl]r..r..r/')
+[[ -z "$BAD" ]] || { echo "error: package has files other users can't read:" >&2; echo "$BAD" >&2; exit 1; }
 pkgutil --check-signature "$PKG" | sed -n '1,2p'
 echo
 echo "ready: $PKG"

@@ -99,6 +99,9 @@ PLIST
 # OneDrive can attach Finder metadata to source resources. It must not enter
 # the signed bundle; normalize only this generated artifact, not source files.
 xattr -cr "$APP"
+# Source files can be owner-only (assets/artbip.icns is 0700); the App Store
+# rejects bundles with files other users cannot read (ITMS-90255).
+chmod -R u+rwX,go+rX,go-w "$APP"
 python3 scripts/check_bundle_leaks.py "$APP" --channel "$CHANNEL" ${ARTBIP_RELEASE:+--release}
 if [ "$CHANNEL" = appstore ]; then
     codesign --force -s - --entitlements packaging/appstore.entitlements "$APP"
