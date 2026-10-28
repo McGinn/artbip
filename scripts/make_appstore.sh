@@ -76,7 +76,11 @@ cp packaging/appstore.entitlements "$WORK/entitlements.plist"
   -c "Add :com.apple.application-identifier string $TEAM.$BUNDLE_ID" \
   -c "Add :com.apple.developer.team-identifier string $TEAM" \
   "$WORK/entitlements.plist"
-cp "$PROFILE" "$APP/Contents/embedded.provisionprofile"
+# The downloaded profile carries com.apple.quarantine, which the App Store
+# rejects anywhere in the app (ITMS-91109): copy without extended attributes
+# and clear the rest before signing.
+cp -X "$PROFILE" "$APP/Contents/embedded.provisionprofile"
+xattr -cr "$APP"
 codesign --force --sign "$APP_ID" --entitlements "$WORK/entitlements.plist" "$APP"
 codesign --verify --deep --strict --verbose=2 "$APP"
 codesign -d --entitlements - --xml "$APP" 2>/dev/null > "$WORK/signed.plist"
@@ -90,15 +94,18 @@ echo "signature verified (sandboxed, $TEAM.$BUNDLE_ID)"
 PKG="dist/appstore/artbip-${VERSION}-${BUILD}.pkg"
 rm -f "$PKG"
 # productbuild prints "write: Permission denied" a few times here; harmless.
-# The ._ entries in the payload are com.apple.provenance, which macOS re-adds
-# to files written here and won't let us remove; App Store validation
-# accepts them.
+# The payload's ._ entries carry extended attributes. com.apple.provenance
+# can't be removed from files written here and is accepted; quarantine is not.
 productbuild --component "$APP" /Applications --sign "$PKG_ID" "$PKG" >/dev/null 2>&1
 # The installer makes root the owner, so anything not world-readable can't
 # be read by the app at all, and the App Store rejects it (ITMS-90255).
 pkgutil --expand "$PKG" "$WORK/expanded"
 BAD=$(lsbom -p fM "$WORK"/expanded/*.pkg/Bom | awk '$1 != "." && $2 !~ /^[-dl]r..r..r/')
 [[ -z "$BAD" ]] || { echo "error: package has files other users can't read:" >&2; echo "$BAD" >&2; exit 1; }
+mkdir "$WORK/payload"
+(cd "$WORK/payload" && gunzip -dc ../expanded/*.pkg/Payload | cpio -i --quiet)
+QUAR=$(xattr -r "$WORK/payload" | grep com.apple.quarantine || true)
+[[ -z "$QUAR" ]] || { echo "error: package has quarantined files (ITMS-91109):" >&2; echo "$QUAR" >&2; exit 1; }
 pkgutil --check-signature "$PKG" | sed -n '1,2p'
 echo
 echo "ready: $PKG"
