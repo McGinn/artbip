@@ -1,6 +1,6 @@
 #!/bin/bash
 # Build the Mac App Store package: dist/appstore/artbip-<version>-<build>.pkg,
-# ready to upload with Apple's Transporter app.
+# ready to upload with `xcrun altool` (needs Xcode selected) or Transporter.
 #
 # make_app.sh builds the sandboxed appstore channel with an ad-hoc signature.
 # This script re-signs it with the Apple Distribution certificate, embeds the
@@ -89,8 +89,10 @@ echo "signature verified (sandboxed, $TEAM.$BUNDLE_ID)"
 # --- package -----------------------------------------------------------------
 PKG="dist/appstore/artbip-${VERSION}-${BUILD}.pkg"
 rm -f "$PKG"
-productbuild --component "$APP" /Applications --sign "$PKG_ID" "$PKG" >/dev/null
+# productbuild prints "write: Permission denied" a few times here; harmless.
+productbuild --component "$APP" /Applications --sign "$PKG_ID" "$PKG" >/dev/null 2>&1
 pkgutil --check-signature "$PKG" | sed -n '1,2p'
 echo
 echo "ready: $PKG"
-echo "upload: open it in Transporter (signed in with the developer Apple ID) and Deliver."
+echo "validate: xcrun altool --validate-app -f $PKG -t macos -u <apple id> -p @keychain:ALTOOL"
+echo "upload:   xcrun altool --upload-app   -f $PKG -t macos -u <apple id> -p @keychain:ALTOOL"
