@@ -80,7 +80,7 @@ enum Feedback {
     #if ARTBIP_APP_STORE
     /// Set once App Store Connect assigns the app its numeric Apple ID; until
     /// then the "Rate artbip" items stay hidden rather than open a dead page.
-    static let appStoreID: String? = nil
+    static let appStoreID: String? = "6828039900"
 
     static var writeReviewURL: URL? { ReviewPrompt.writeReviewURL(appStoreID: appStoreID) }
 
