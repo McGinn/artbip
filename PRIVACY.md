@@ -1,6 +1,6 @@
 # artbip privacy policy
 
-**Last updated:** 22 October 2026. Applies from artbip 0.1.0.
+**Last updated:** 28 October 2026. Applies from artbip 0.1.0.
 
 artbip is a free, open-source Mac app made by Alexander McGinn. This policy
 explains what it does with information about you. The short version: **artbip
@@ -130,6 +130,8 @@ change. The history of this file is public in the repository.
 
 ## Contact
 
-Questions about privacy can be asked by
+Questions about privacy can be sent privately to
+[contact@artbip.app](mailto:contact@artbip.app), or asked in public by
 [opening an issue](https://github.com/McGinn/artbip/issues/new) on GitHub.
-Issues are public, so please don't include anything you want to keep private.
+Issues are public, so please don't include anything you want to keep private
+there.
