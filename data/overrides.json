@@ -1761,7 +1761,8 @@
     "tags": [
       "portrait"
     ],
-    "movement": "Venetian school"
+    "movement": "Venetian school",
+    "caption": "A boy with cropped dark hair, shown to below the waist against a dark ground, glances to one side. A black cloak, with a white Maltese cross over his left upper arm, hangs open over a rose-red doublet with a small white ruff. His right hand holds a pale glove, and a gold-hilted sword hangs at his left hip from an ornate belt."
   },
   "nga-41598": {
     "tags": [
@@ -3095,8 +3096,9 @@
     "tags": [
       "religious"
     ],
-    "caption": "Christ’s pale body stretches across the lower part of the painting, supported by figures in blue, pink and orange robes. Winged children fill the arched sky above, carrying a cross and other objects.",
-    "dateDisplay": "1543–1545"
+    "caption": "The dead Christ lies across the lap of his mother in blue, while a young man in orange-yellow holds him from the left. Grieving women, an angel with a gold chalice, another with a veil and three men crowd around. Above, under the rounded top, five winged children fly through a blue sky carrying a cross, a column and long poles.",
+    "dateDisplay": "1543–1545",
+    "collectionURL": "https://pop.culture.gouv.fr/notice/joconde/M0332001027"
   },
   "wikidata-Q1132479": {
     "tags": [
@@ -4363,10 +4365,15 @@
   },
   "wikidata-Q1328065": {
     "tags": [
+      "family",
+      "group-portrait",
       "portrait"
     ],
-    "caption": "Eleonora di Toledo sits before a deep blue background in a silvery-white silk gown patterned with black arabesques and large gold motifs, a net of gold cord and pearls over her shoulders and strands of pearls at her neck. She looks straight out, one hand resting on the shoulder of her young son Giovanni, who stands at left in a violet tunic with an embroidered collar and lays his hand on her skirt. A small pearl-studded purse hangs below her other hand.",
-    "movement": "Mannerism"
+    "caption": "Eleonora di Toledo sits before a deep blue background in a silvery-white silk gown patterned with black arabesques and large gold motifs. A net of gold cord set with pearls covers her shoulders, and she wears a short pearl necklace with a pendant and a long rope of pearls. She looks straight out. Her right hand rests on the shoulder of her young son Giovanni, who stands at left in a violet tunic with an embroidered collar and lays a hand on her skirt. Her other hand lies in her lap, fingertips on a chain from which a small pearl-studded purse hangs just below.",
+    "movement": "Mannerism",
+    "dateDisplay": "c. 1545",
+    "year": 1545,
+    "collectionURL": "https://www.uffizi.it/en/artworks/eleonora-di-toledo"
   },
   "wikidata-Q13571392": {
     "tags": [
@@ -4485,14 +4492,16 @@
   "wikidata-Q1430990": {
     "tags": [
       "allegorical",
+      "animals",
       "mythological",
       "nsfw",
       "nude"
     ],
-    "caption": "Venus and Cupid kiss amid tightly crowded figures, with a smiling boy holding roses beside them. Above, a winged bearded man reaches across a blue cloth; below, masks lie near Venus, who holds a golden apple and raises an arrow.",
+    "caption": "A nude Venus and the winged boy Cupid kiss on the lips as his hand covers her breast, amid tightly crowded figures. She holds a golden apple low in one hand and raises an arrow in the other. At right a smiling boy lifts a fistful of roses; above, a bald, bearded, winged old man with an hourglass behind his shoulder stretches an arm across a blue cloth. A figure clutches its head at left, two masks lie at lower right, and white doves sit at lower left.",
     "dateDisplay": "c. 1545",
     "year": 1545,
-    "movement": "Mannerism"
+    "movement": "Mannerism",
+    "collectionURL": "https://www.nationalgallery.org.uk/paintings/NG651"
   },
   "wikidata-Q1432536": {
     "tags": [
@@ -7128,7 +7137,7 @@
     "tags": [
       "portrait"
     ],
-    "caption": "Lucrezia faces the viewer in a red dress with gathered sleeves, a pale pleated neckline and a jeweled belt. Pearls and a long gold chain cross her chest. One hand rests on an open book, the other on a carved chair arm; a dark arched niche and fluted columns frame her.",
+    "caption": "Lucrezia sits facing out in a red dress with puffed, ruffled sleeves and pale, finely pleated cloth filling the neckline. Pearls with a round pendant and a long chain hang across her chest, and a row of stones marks her waist. One hand rests on an open book in her lap, the other on the arm of her chair. The background is almost black.",
     "title": "Portrait of Lucrezia Panciatichi",
     "dateDisplay": "1541–1545",
     "year": 1541,
@@ -9200,7 +9209,8 @@
     "dateDisplay": "1540–1543",
     "year": 1540,
     "collectionURL": "https://collections.louvre.fr/ark:/53355/cl010064395",
-    "movement": "Venetian school"
+    "movement": "Venetian school",
+    "collection": "Musée du Louvre"
   },
   "wikidata-Q2409245": {
     "tags": [
@@ -13140,7 +13150,7 @@
     "year": 1543,
     "collection": "Gallerie degli Uffizi, Florence",
     "collectionURL": "https://catalogo.beniculturali.it/detail/HistoricOrArtisticProperty/0900021971",
-    "caption": "Cosimo I looks to the left in ornamented silver-grey armour with gold-coloured rivets and red edging, resting a bare hand on his helmet before deep blue drapery.",
+    "caption": "Cosimo, seen to the waist in engraved silver armour studded with gold rivets and trimmed with crimson, keeps his face almost to the front while his eyes turn hard to the viewer's right. Two round plates with spikes sit on his breastplate. A bare hand rests on a helmet at the lower right, against a deep blue curtain.",
     "movement": "Mannerism"
   },
   "wikidata-Q3630728": {
@@ -16334,7 +16344,7 @@
     "dateDisplay": "1541–44",
     "collection": "Museo Nacional del Prado",
     "collectionURL": "https://www.museodelprado.es/en/the-collection/art-work/the-ages-of-woman-and-death/d5ef2c3e-48d1-40a8-8bb7-745314a1197c",
-    "caption": "Under a dead tree hung with moss, Death, a rotting corpse holding an hourglass and a broken lance, grips an old woman, who in turn tugs at a young nude woman draped in a veil; a dead infant lies at their feet and an owl stares out at lower left.",
+    "caption": "Under a dead tree hung with moss, Death, a withered corpse holding an hourglass and a broken lance, clasps a gaunt old woman. She rests one hand on the far shoulder of a young nude woman and with the other pulls at the veil the young woman holds against her body. A dead infant lies on the ground at lower right, one hand on the lance's lower tip, and an owl stares out at lower left.",
     "movement": "German Renaissance"
   },
   "wikidata-Q4464287": {
@@ -18550,10 +18560,14 @@
   },
   "wikidata-Q7401482": {
     "tags": [
+      "animals",
+      "landscape",
       "religious"
     ],
-    "caption": "John the Baptist stands barefoot in front of a dark cliff, bearded and half-naked in a garment of animal skin, his right arm raised with a pointing finger. A thin staff topped by a cross leans against his left shoulder, and a white lamb lies curled up at the lower left. To the right, trees and a small waterfall lead back to blue hills under a cloudy blue sky.",
-    "movement": "Venetian school"
+    "caption": "John the Baptist stands barefoot before a dark rock face, bearded and bare-chested, wearing an animal skin over a pale cloth. His right arm is raised with one finger pointing upward, and his left hand holds a thin staff topped by a cross. A white lamb lies curled up at the lower left. To the right, trees and a small stream of white water lead back to blue hills under a cloudy sky.",
+    "movement": "Venetian school",
+    "dateDisplay": "c. 1540",
+    "collectionURL": "https://sigecweb.beniculturali.it/sigec/item/print/ICCD8494103"
   },
   "wikidata-Q7448288": {
     "tags": [
