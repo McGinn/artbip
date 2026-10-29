@@ -484,7 +484,7 @@
     "tags": [
       "portrait"
     ],
-    "caption": "A richly dressed gentleman sits at an outdoor table and points beyond the frame, his other hand resting on a sheet of paper beside clover and jasmine. A gold chain and sword advertise his status beneath a stormy blue sky."
+    "caption": "A bearded man in a black cap and a dark coat with broad brown sleeves is shown beside a table on a terrace with a stone balustrade, one knee bent. Behind his legs at lower right, dark turned spindles and a fringed blue cloth show low down. He looks off to the right, his left arm thrown out with the palm open, while his right hand rests on a sheet of paper beside sprigs of leaves and small white flowers on a blue cloth. A gold chain hangs across his chest and a sword at his waist, under a blue sky with a few clouds."
   },
   "cleveland-128842": {
     "tags": [
@@ -507,7 +507,7 @@
       "animals",
       "hunting"
     ],
-    "caption": "Courtiers and dogs drive stags across a river toward Saxony's rulers, with Hartenfels Castle on the horizon. Cranach packs the elaborate hunt into a dense forest panorama filled with tiny, vivid incidents."
+    "caption": "A wide forest landscape full of hunters, hounds and game, with a large white castle on a hill at the top. Stags leap into a river with hounds after them, while riders and men on foot with spears attack deer, boars and a bear in the clearings beyond. Richly dressed men with crossbows wait among the trees along the bottom. At the right a woman aims a crossbow from a small group of figures, and four people ride in a boat on the river."
   },
   "cleveland-135592": {
     "tags": [
@@ -1774,7 +1774,7 @@
     "tags": [
       "portrait"
     ],
-    "caption": "Bembo's crimson biretta and cardinal's cape blaze against a brown ground as he turns and extends one hand. The alert face and open gesture suggest rhetoric and debate.",
+    "caption": "An old man with a long grey-white beard, seen to the waist, turns his head and gazes off to the left. He wears a red cardinal's biretta and a red buttoned cape over a white sleeve, and holds one hand out low at the right, palm turned up. Light falls from the left, against a plain dark brown background.",
     "movement": "High Renaissance"
   },
   "nga-41651": {
@@ -3125,10 +3125,17 @@
   },
   "wikidata-Q1133103": {
     "tags": [
-      "portrait"
+      "animals",
+      "family",
+      "group-portrait",
+      "portrait",
+      "religious"
     ],
-    "caption": "Two Vendramin brothers gather with seven sons of the family before a relic of the True Cross. Fur-trimmed robes give the elders ceremonial weight, while the children shift their attention between the altar, the viewer and a small dog.",
-    "movement": "Venetian school"
+    "caption": "Men and boys of one family gather on stone steps before an altar, under a blue sky with clouds. On the altar a cross in a gold stand rises between two lit candles, beside a jug. A white-bearded old man in a dark purple robe lined with spotted fur rests a hand on the altar; next to him a bearded man in a red fur-lined robe lays a hand on his chest. A bearded young man in pink and three boys stand at the left, three more boys at the right; the smallest, in red stockings, sits on a step holding a little white-and-tan dog.",
+    "movement": "Venetian school",
+    "dateDisplay": "c. 1540–45",
+    "year": 1540,
+    "collectionURL": "https://www.nationalgallery.org.uk/paintings/titian-the-vendramin-family"
   },
   "wikidata-Q1133114": {
     "tags": [
@@ -6442,7 +6449,7 @@
       "portrait",
       "religious"
     ],
-    "caption": "A curly-haired young man looks to the left, his bare torso framed by folds of red drapery against a dark background. One arrow pierces his side, while he holds another across his lap. The arrows identify him with Saint Sebastian, giving this portrait-like figure a religious role.",
+    "caption": "A young man with red-gold curls, bare to the waist, glances to our left with lips slightly parted. A crimson cloth falls over his shoulders and arms against a dark background. An arrow is lodged in his side below the ribs, and he holds a second arrow loosely across his lap.",
     "dateDisplay": "c. 1533",
     "year": 1533,
     "title": "Portrait of a Young Man as Saint Sebastian",
@@ -6936,10 +6943,12 @@
   },
   "wikidata-Q19798137": {
     "tags": [
+      "animals",
       "portrait"
     ],
-    "caption": "Charles V stands beside a large dog, resting one hand near its collar. His fur-lined cloak, patterned sleeves and pale stockings give Titian a rich range of textures, while the dark background keeps attention on the emperor's composed face and upright stance.",
-    "movement": "High Renaissance"
+    "caption": "Charles V stands full length, a green curtain pulled aside at the left and a dark brown wall behind. He wears a black hat with a white feather, a fur-lined silvery cape, an embroidered golden-brown doublet and white legwear from knee to toe. His right hand grips a gilded hilt hung with a white tassel; his left rests on the neck of a large pale dog, just behind its dark collar, and the dog lifts its muzzle towards him.",
+    "movement": "High Renaissance",
+    "collectionURL": "https://www.museodelprado.es/en/the-collection/art-work/emperor-charles-v-with-a-dog/c6945b08-ded2-4824-9ac1-9a1d042549ce"
   },
   "wikidata-Q19820166": {
     "tags": [
@@ -7257,9 +7266,11 @@
   },
   "wikidata-Q1994120": {
     "tags": [
+      "animals",
+      "interior",
       "religious"
     ],
-    "caption": "Mary kneels beside an open book, turning toward the viewer with both palms raised. Behind her, a winged angel kneels with white lilies and points upward toward God the Father on a cloud. A cat runs across the reddish floor, while an archway opens onto a columned terrace and garden.",
+    "caption": "In a room with a red floor, Mary kneels at a wooden prie-dieu with an open book on it, facing out of the picture with both palms raised. On the right a winged angel in blue kneels with a stem of white lilies and lifts one arm high, and above him God appears in red on a cloud, framed by an arch. A striped cat runs across the floor between them, and beyond the arch lies a terrace and a garden of tall trees.",
     "title": "Recanati Annunciation",
     "dateDisplay": "1533–1535",
     "year": 1533,
@@ -7342,13 +7353,14 @@
   },
   "wikidata-Q20069326": {
     "tags": [
+      "nsfw",
       "nude"
     ],
-    "caption": "A young woman looks towards the viewer, holding a dark fur wrap across her partly bare upper body. Pearls decorate her pinned-up hair and form a necklace; drop earrings, a jewelled bracelet and a ring complete her ornaments. Her pale skin and folded arms stand out against the brown background.",
+    "caption": "A young woman with braided red-gold hair looks out at the viewer. A dark fur-lined cloak covers her left shoulder and her lower body, leaving her right breast bare. Her right hand presses the fur to her chest and her bare left forearm lies folded across her body below. She wears pearls in her hair, pearl drop earrings, a pearl necklace, a jewelled gold bracelet and a ring, against a plain brown background.",
     "title": "Girl in a Fur",
-    "dateDisplay": "1534–1536",
-    "year": 1534,
-    "collectionURL": "https://www.khm.at/kunstwerke/maedchen-im-pelz-1512662",
+    "dateDisplay": "c. 1535",
+    "year": 1535,
+    "collectionURL": "https://www.khm.at/en/artworks/girl-in-a-fur-1941",
     "movement": "High Renaissance"
   },
   "wikidata-Q20087570": {
@@ -7373,11 +7385,11 @@
       "portrait"
     ],
     "artistSort": "Holbein, Hans, the Younger",
-    "caption": "Jane Seymour stands with her hands clasped against a blue background. Her red dress has wide sleeves patterned in gold over grey floral fabric and white cuffs. Pearls and gold-set stones border her angular headdress and neckline, while a large pendant and an ornate brooch rest against her chest.",
+    "caption": "Jane Seymour is shown half-length against a blue background, her face turned a little to our left and her hands clasped at her waist. Her red dress has wide gold-latticed oversleeves, grey undersleeves patterned with foliage, and white lace-edged cuffs. Pearls and gold-set dark stones edge her angular hood and square neckline. A gold pendant with a pearl drop hangs at her throat, and a brooch spelling IHS in dark stones, with three pearls below, is pinned to her bodice.",
     "title": "Jane Seymour",
     "dateDisplay": "c. 1536–1537",
     "year": 1536,
-    "collectionURL": "https://www.khm.at/kunstwerke/jane-seymour-um-1509-1537-1512220"
+    "collectionURL": "https://www.khm.at/en/artworks/jane-seymour-966"
   },
   "wikidata-Q20091566": {
     "tags": [
@@ -7617,7 +7629,7 @@
       "nude",
       "religious"
     ],
-    "caption": "Eve holds an apple to Adam’s mouth while raising her other arm to a branch. Adam rests a hand on her shoulder and holds a leafy branch across their nude bodies. A serpent curves over the branch above them, amid apples and dense foliage; Eve bends one leg beside the trunk.",
+    "caption": "Adam and Eve stand nude before a dark wall of foliage, with a tree trunk at the right. Eve holds an apple to Adam's mouth and reaches up with her other arm to a branch, one leg bent back against the trunk. Adam looks out at us, a hand on her shoulder, and holds a leafy branch across them both. A grey snake coils on the branch above, and apples hang at the top left and on the right.",
     "title": "Adam and Eve",
     "dateDisplay": "c. 1538",
     "year": 1538,
@@ -13897,7 +13909,7 @@
     "year": 1536,
     "artistDeathYear": 1576,
     "collectionURL": "https://www.uffizi.it/en/artworks/portrait-of-a-lady-la-bella",
-    "caption": "A woman faces the viewer in a blue dress with gold decoration and voluminous burgundy sleeves. White fabric emerges through the sleeve openings, while a long gold chain and pendant earrings stand out against her pale neckline.",
+    "caption": "A young woman, seen to below the waist, looks out at the viewer. She wears a blue dress embroidered in gold, with puffed blue upper sleeves, burgundy lower sleeves slashed to show white puffs, a long gold chain and earrings with pearl drops. Her golden hair is braided and pinned up, one braid falling over her right shoulder. Her left hand touches a twisted gold cord at her waist; her right, below a dark fur draped over the forearm, holds its gold end. The background is plain and dark.",
     "movement": "High Renaissance"
   },
   "wikidata-Q3784800": {
@@ -14327,7 +14339,7 @@
     "dateDisplay": "c. 1539–1540",
     "year": 1539,
     "collectionURL": "https://capodimonte.cultura.gov.it/correggio-parmigianino-capodimonte/",
-    "caption": "Lucretia lifts her face toward the darkness, her braided golden hair and pale skin above rich drapery and an ornate dagger."
+    "caption": "Lucretia, seen in profile against a black background, tips her head back and looks upward with her lips parted. Her golden hair is braided and strung with pearls. One breast is bare, and silvery drapery with a broad gold band crosses her body to a round clasp at her shoulder. Her hand grips a dagger with an ornate gold hilt."
   },
   "wikidata-Q3842290": {
     "tags": [
@@ -17770,7 +17782,8 @@
     "tags": [
       "portrait"
     ],
-    "caption": "Anne of Cleves faces us against a deep blue background, her ringed hands folded at her waist. She wears a red velvet gown banded with gold and pearls, a jewelled gold headdress over a sheer veil, and layered necklaces with a dark cross pendant."
+    "caption": "Anne of Cleves faces us squarely against a deep blue background, her hands folded at her waist with rings on her fingers. Her red velvet gown has wide sleeves and gold bands studded with pearls, over a gold bodice set with jewelled rosettes and a buckled belt. She wears a gold-embroidered headdress under a sheer veil, ruffled white cuffs, a jewelled collar hung with a gold cross set with dark stones, and layered gold chains.",
+    "collectionURL": "https://collections.louvre.fr/en/ark:/53355/cl010062615"
   },
   "wikidata-Q6106762": {
     "tags": [
@@ -18908,8 +18921,11 @@
     "tags": [
       "portrait"
     ],
-    "caption": "A young woman stands looking straight at us against a dark green background, a marten fur slung over her right shoulder with its head resting on her brown-gloved hand. She wears a gold satin dress banded with silver, with full puffed sleeves, over a white apron embroidered in black, together with a long gold chain and drop earrings. Her bare left hand, with a ring on one finger, lies against her chest.",
-    "movement": "Mannerism"
+    "caption": "A young woman faces us against a dark olive-green background, her eyes on the viewer. A brown animal fur hangs over her right shoulder, its head with bared teeth resting on her brown-gloved hand, a gold chain at its mouth. She wears a golden dress striped in silver-grey with huge puffed sleeves, the one nearest us much the larger, over a white apron with bands of dark embroidery, plus a long gold chain and pearl drop earrings. Her bare left hand, a ring on one finger, rests against her chest.",
+    "movement": "Mannerism",
+    "dateDisplay": "1535–1537",
+    "year": 1535,
+    "collectionURL": "https://capodimonte.cultura.gov.it/correggio-parmigianino-capodimonte/"
   },
   "wikidata-Q871812": {
     "tags": [
@@ -18998,7 +19014,10 @@
       "mythological",
       "nude"
     ],
-    "caption": "Cupid, a curly-haired boy with grey-green wings, stands with his back to us and looks round over his shoulder as he shaves a bow with a curved knife, one foot raised on a pile of books. Between his legs two small children cling together, one grinning out at us and the other crying. The background is plain black."
+    "caption": "Cupid, a curly-haired boy with green-grey wings, stands naked with his back to us and looks round over his shoulder as he shaves a bow with a curved blade, one foot on a pair of books. Between his legs two small children press together: one looks out at us with a half-smile while the other screws up his face, mouth open. The background is plain black above a tiled floor.",
+    "dateDisplay": "c. 1534–1539",
+    "year": 1534,
+    "collectionURL": "https://www.khm.at/en/artworks/bow-carving-amor-1411"
   },
   "wikidata-Q9011253": {
     "tags": [
