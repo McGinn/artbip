@@ -259,9 +259,10 @@
   },
   "artic-4081": {
     "tags": [
+      "animals",
       "portrait"
     ],
-    "caption": "A black-clad nobleman stands full-length with a white-and-brown dog beside him. The checkerboard floor and crisp white collar sharpen a sombre arrangement of velvet, stone and dark drapery.",
+    "caption": "A young bearded man stands full-length in a long, very dark robe with broad facings and a narrow white collar. He holds a pair of brown gloves in one hand and points down with the other towards a white dog with brown ears, which stands at his side and looks out. Behind him is a grey wall with pilasters and, at top left, a dark green curtain edged with gold. The floor is tiled in pink, white and olive squares.",
     "movement": "Renaissance"
   },
   "artic-43145": {
@@ -1325,9 +1326,13 @@
   },
   "met-437826": {
     "tags": [
-      "mythological"
+      "animals",
+      "hunting",
+      "mythological",
+      "nude"
     ],
-    "movement": "Venetian school"
+    "movement": "Venetian school",
+    "caption": "A naked woman, seen from behind, sits on a red cloth and reaches an arm around a young man in a short pink tunic. He holds a spear raised in one hand and two hounds on a leash in the other, and looks back down at her. At the left a winged child clutches a white bird behind a mound, below a bow and quiver hanging in a tree. A faint rainbow arcs across the sky, and light breaks through the clouds at the upper right."
   },
   "met-437835": {
     "tags": [
@@ -2192,9 +2197,12 @@
   },
   "rijks-200108123": {
     "tags": [
-      "everyday-life"
+      "dance",
+      "everyday-life",
+      "interior",
+      "music"
     ],
-    "caption": "At the right of a crowded brothel, a young man performs an egg dance to a bagpiper's music. He must roll an egg within a chalk circle and cover it with a wooden bowl without breaking it, a comic game turned moral warning."
+    "caption": "In a tiled room with a big hearth, a young man in pale clothes dances at right, near an egg and an upturned wooden bowl on the floor. A bagpiper stands at the back. At left a man leans back on his chair with a jug held high, beside a woman in a white headcloth and a table laid with bread and food."
   },
   "rijks-200108146": {
     "tags": [
@@ -7614,7 +7622,7 @@
       "religious",
       "still-life"
     ],
-    "caption": "Hanging carcasses and loops of sausage frame a crowded display of meat, fish and dead birds. A flayed ox head occupies the foreground beside small pies and a broad dish. Through an opening behind the stall, the Virgin and Child appear on a donkey among travellers and people receiving alms.",
+    "caption": "A split carcass, a pale hairless head and loops of pale sausage hang over a table piled with food: a half-skinned head, trotters, small pies, fish on a plate and a broad bowl of white liquid. Two dead fowl lie across a basket at right. Through an opening at the back, a woman on a donkey holds a baby and reaches out towards a boy holding up a bowl.",
     "title": "A Meat Stall with the Holy Family Giving Alms",
     "dateDisplay": "1551",
     "year": 1551,
@@ -13204,7 +13212,6 @@
     "tags": [
       "architecture",
       "art",
-      "cityscape",
       "portrait",
       "self-portrait"
     ],
@@ -17972,9 +17979,14 @@
   },
   "wikidata-Q63871952": {
     "tags": [
+      "animals",
+      "architecture",
       "religious"
     ],
-    "caption": "A crowded banquet in the house of Simon the Pharisee spreads beneath tall Corinthian columns, with guests pressing round a white-covered table. At right a bearded man in red with a blue mantle sits turned towards a woman in a green shawl, while a fair-haired woman in blue and orange-gold kneels at his feet, holding one of his bare feet and resting her other hand on a small pot on the floor. Left of the table a man in a yellow mantle sits pointing downwards beside a white and brown dog, and a second dog noses out from under the table. Above, onlookers lean over a balcony and a green parrot perches on its ledge."
+    "caption": "A crowded feast spreads beneath tall Corinthian columns, with guests pressing round a table laid with a white cloth. At right a bearded man in red with a blue mantle sits half turned towards a woman in a green mantle, while a fair-haired woman in blue and orange-gold kneels at his feet. She holds one of his bare feet, her loose hair falling over it, and rests her other hand on a small ornate jar on the floor. Left of the table a man in a yellow mantle points downwards beside a white and brown dog, and a second dog noses out from under the cloth. Above, onlookers lean over a balcony where a green parrot perches.",
+    "dateDisplay": "c. 1555–56",
+    "year": 1555,
+    "collectionURL": "https://catalogo.beniculturali.it/detail/HistoricOrArtisticProperty/0100350739"
   },
   "wikidata-Q6402081": {
     "tags": [
@@ -18475,8 +18487,9 @@
     "tags": [
       "portrait"
     ],
-    "caption": "Empress Isabella of Portugal sits beside a window that opens onto a blue mountain landscape, a heavy red-and-gold patterned curtain hanging at the left. Her golden hair is braided up and threaded with pearls, and she wears a high white ruffled collar, a dark red velvet bodice edged with gold embroidery, and gold-brocade sleeves slashed to show white puffs, with pink silk beneath. A long string of pearls loops from a jewelled brooch at her breast, and her hand at the right holds a small open book on her lap.",
-    "movement": "Venetian school"
+    "caption": "A young woman sits beside an open window that looks onto wooded hills and a blue mountain, with a dark red curtain patterned in gold hanging at the left. Her fair hair is braided and threaded with pearls. She wears a high white ruffled collar, a dark red velvet bodice and gold-embroidered oversleeves slit over white puffed sleeves and pink silk. A long string of pearls loops across her bodice, caught up at a jewelled brooch. Her hand at the right holds a small open book, and she looks away to the side.",
+    "movement": "Venetian school",
+    "collectionURL": "https://www.museodelprado.es/en/the-collection/art-work/empress-isabella-of-portugal/d4eddf35-c76c-4c11-8f2b-099f7b71d696"
   },
   "wikidata-Q7232305": {
     "tags": [
@@ -19104,12 +19117,15 @@
   },
   "wikidata-Q9140602": {
     "tags": [
+      "animals",
       "nsfw",
       "nude",
       "religious"
     ],
-    "caption": "Eve reaches for an apple offered by a creature with a child’s upper body and a serpent’s tail. Adam extends a hand towards her as the tree divides their figures, placing the exchange of the forbidden fruit at the centre of the scene.",
-    "movement": "Venetian school"
+    "caption": "A naked woman stands by a tree trunk and reaches up for an apple held out by a winged child among the branches, whose body ends in a serpent's tail coiling round the trunk. A bearded man sits at the left with a fig leaf over his lap, looking up at her, one hand resting on her side just below the armpit. A small fox crouches in the grass behind her legs, and blue hills lie beyond.",
+    "movement": "Venetian school",
+    "dateDisplay": "c. 1550",
+    "collectionURL": "https://www.museodelprado.es/en/the-collection/art-work/adam-and-eve/e0ca4331-fb89-47a7-9ba0-be0ece23426b"
   },
   "wikidata-Q9162690": {
     "tags": [
@@ -19224,12 +19240,16 @@
   },
   "wikidata-Q9281692": {
     "tags": [
+      "landscape",
       "nsfw",
       "nude",
       "religious"
     ],
-    "caption": "Eve sits on a low stone wall with one arm reaching round the trunk of a tree and holds out an apple to Adam, who sits with his back to us and leans away. At the top of the trunk a beast-like head holds another apple in its mouth. Far off on the right, two small figures hurry away from a glowing figure as they are driven out of the garden.",
-    "movement": "Venetian school"
+    "caption": "Eve sits on a low brick wall against the trunk of a tree, one hand raised to the bark, and holds out a fruit to Adam, who sits on a stone block with his back to us and leans away. A sprig of leaves lies across Eve's lap, and another hangs from the block beneath Adam. At the top of the trunk a beast-like head holds another fruit in its mouth. Far off on the right, two small figures hurry away from a glowing figure as they are driven out of the garden.",
+    "movement": "Venetian school",
+    "dateDisplay": "1550–53",
+    "year": 1550,
+    "collectionURL": "https://www.gallerieaccademia.it/opera/il-peccato-originale/"
   },
   "wikidata-Q930137": {
     "tags": [
@@ -19319,12 +19339,19 @@
   },
   "wikidata-Q9372007": {
     "tags": [
+      "animals",
+      "hunting",
+      "landscape",
       "mythological",
       "nsfw",
       "nude"
     ],
-    "caption": "A nude woman, perhaps Antiope, sleeps on a white sheet and a fur in a wooded clearing while a satyr at the right lifts the sheet from her legs, and Cupid in the tree above takes aim at him with his bow. At the left a huntsman blows a horn and a young man with dogs on a leash strides past a woman in a white blouse and red skirt seated beside another satyr. Beyond, two dogs bring down a stag by a stream, a hunter runs in with hounds at the right, and the land recedes to blue mountains.",
-    "movement": "Venetian school"
+    "caption": "A naked woman sleeps on a white sheet and a fur in a wooded clearing, one arm behind her head, while a satyr crouching at the right holds the edge of the sheet near her legs. A winged child with a bow perches in the tree above, a quiver hanging from the trunk. At the left a man blows a horn and a young man strides past with dogs on a leash, beside a seated satyr and a woman in a white blouse and red skirt. Beyond, dogs attack a deer by a stream, a hunter runs in with hounds at the right, and the land recedes to blue mountains.",
+    "movement": "Venetian school",
+    "collection": "Musée du Louvre",
+    "dateDisplay": "1525–1550",
+    "year": 1525,
+    "collectionURL": "https://collections.louvre.fr/en/ark:/53355/cl010062278"
   },
   "wikidata-Q938115": {
     "tags": [
