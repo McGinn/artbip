@@ -36,8 +36,8 @@ def synthetic(n_works=120, artists=None, years=None):
 
 
 class SyntheticBuildTests(unittest.TestCase):
-    def build(self, info, manifest, holds=None, previous=None):
-        return b.build(info, manifest, reviewed_rows(info, manifest), holds or {}, previous)
+    def build(self, info, manifest, holds=None, previous=None, reselect=False):
+        return b.build(info, manifest, reviewed_rows(info, manifest), holds or {}, previous, reselect)
 
     def test_exactly_100_distinct_works(self):
         info, manifest = synthetic()
@@ -103,6 +103,33 @@ class SyntheticBuildTests(unittest.TestCase):
         changed = copy.deepcopy(info)
         changed['entries'][first['works'][0]]['context'][0]['text'] += ' more'
         self.assertEqual(json.loads(self.build(changed, manifest, previous=first)[0])['version'], 2)
+
+    def test_quotas_follow_the_collection_not_the_reviewed_pool(self):
+        # 200 works, half before 1500 and half after 1850; only 5 of the
+        # later half have notes, so the reviewed pool is mostly early.
+        info, manifest = synthetic(n_works=200, years=lambda i: 1400 if i < 100 else 1900)
+        for i in range(105, 200):
+            del info['entries'][f'w{i}']
+        _, _, report = self.build(info, manifest)
+        self.assertEqual(report['quota'], {'before-1500': 50, 'modern-life': 50})
+
+    def test_selection_is_kept_once_made(self):
+        info, manifest = synthetic(n_works=150)
+        first = json.loads(self.build(info, manifest)[0])
+        for w in manifest['works']:          # rankings change after review
+            w['significance']['curatorScore'] = 9 - w['significance']['curatorScore']
+        again = json.loads(self.build(info, manifest, previous=first)[0])
+        self.assertEqual(again['works'], first['works'])
+        fresh = json.loads(self.build(info, manifest, previous=first, reselect=True)[0])
+        self.assertNotEqual(fresh['works'], first['works'])
+
+    def test_kept_work_that_stops_qualifying_fails_the_build(self):
+        info, manifest = synthetic(n_works=150)
+        first = json.loads(self.build(info, manifest)[0])
+        info['entries'][first['works'][0]]['details'] = []
+        data, _, report = self.build(info, manifest, previous=first)
+        self.assertIsNone(data)
+        self.assertEqual(report['dropped'], [first['works'][0]])
 
     def test_validate_catches_broken_files(self):
         info, manifest = synthetic()

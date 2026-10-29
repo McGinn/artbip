@@ -3,8 +3,13 @@
 
 The notes (work commentary, painter biographies, style context and symbol
 notes) for 100 fully reviewed works, one work per painter, spread across
-periods. This script is the only place that decides which reviewed entries
-are bundled.
+periods in proportion to the whole collection. This script is the only place
+that decides which reviewed entries are bundled.
+
+The selection is made once and then kept: later builds reuse the works listed
+in the committed file and only refresh their text. A listed work that stops
+qualifying fails the build rather than being swapped out silently;
+--reselect chooses afresh (a deliberate, reviewed change).
 
 Output:
   data/education/starter.json   {"format": "artbip-notes", "formatVersion": 1,
@@ -16,7 +21,7 @@ content directory (scripts/content_paths.py), plus data/manifest.json. Without
 the private content directory this script cannot run; the committed output is
 what the app ships.
 
-Run from the repo root: python3 scripts/build_notes.py [--check]
+Run from the repo root: python3 scripts/build_notes.py [--check | --reselect]
 --check rebuilds in memory and fails if the committed output is stale.
 """
 import argparse
@@ -162,8 +167,10 @@ def period_of(year):
 
 def select_notes(assessed, works, info, size=NOTES_SIZE):
     """Pick `size` works: one per painter, period quotas proportional to the
-    eligible pool, most significant first. Only source-grounded entries
-    qualify, so the bundled notes are the best-checked writing."""
+    number of works in each period across the whole collection (not the
+    reviewed pool, which follows the review order), most significant first.
+    Only source-grounded entries qualify, so the bundled notes are the
+    best-checked writing."""
     pool = [a for a in assessed.values() if a['eligible'] and a['grounded']]
     by_period = collections.defaultdict(list)
     for a in pool:
@@ -171,8 +178,9 @@ def select_notes(assessed, works, info, size=NOTES_SIZE):
     total = len(pool)
     if total < size:
         return [], dict(shortfall=size - total, pool=total)
+    collection = collections.Counter(period_of(w['year']) for w in works.values() if w.get('year') is not None)
     # Largest-remainder apportionment of the quota across periods.
-    raw = {p: size * len(v) / total for p, v in by_period.items()}
+    raw = {p: size * n / sum(collection.values()) for p, n in collection.items()}
     quota = {p: int(r) for p, r in raw.items()}
     for p in sorted(raw, key=lambda p: (raw[p] - quota[p], p), reverse=True)[:size - sum(quota.values())]:
         quota[p] += 1
@@ -209,6 +217,15 @@ def select_notes(assessed, works, info, size=NOTES_SIZE):
             artists |= artist_of(a)
     shortfall = size - len(chosen)
     return sorted(chosen), dict(shortfall=shortfall, pool=total, quota=quota)
+
+
+def keep_notes(assessed, fixed):
+    """The committed selection, unchanged, if every listed work still
+    qualifies; otherwise no selection and the works that dropped out."""
+    dropped = sorted(w for w in fixed if not (w in assessed and assessed[w]['eligible'] and assessed[w]['grounded']))
+    if dropped:
+        return [], dict(shortfall=len(dropped), dropped=dropped)
+    return sorted(fixed), dict(shortfall=0, kept=True)
 
 
 # --- the notes file ------------------------------------------------------------
@@ -265,11 +282,15 @@ def next_version(previous, content):
     return previous['version'] + 1
 
 
-def build(info, manifest, rows, holds, previous=None):
-    """Returns (notes file bytes or None on shortfall, assessed, report)."""
+def build(info, manifest, rows, holds, previous=None, reselect=False):
+    """Returns (notes file bytes or None on shortfall, assessed, report).
+    Keeps the works of `previous` unless `reselect` or there is none."""
     works = {w['id']: w for w in manifest['works']}
     assessed = assess(info, manifest, rows, holds)
-    ids, report = select_notes(assessed, works, info)
+    if previous and not reselect:
+        ids, report = keep_notes(assessed, previous['works'])
+    else:
+        ids, report = select_notes(assessed, works, info)
     if not ids:
         return None, assessed, report
     content = info_subset(info, manifest, ids)
@@ -318,12 +339,18 @@ def inputs():
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    parser.add_argument('--check', action='store_true')
+    group = parser.add_mutually_exclusive_group()
+    group.add_argument('--check', action='store_true')
+    group.add_argument('--reselect', action='store_true',
+                       help='choose the works afresh instead of keeping the committed selection')
     args = parser.parse_args()
     info, manifest, rows, holds = inputs()
     previous = load(NOTES_PATH) if NOTES_PATH.exists() else None
-    data, _, report = build(info, manifest, rows, holds, previous)
-    if report['shortfall']:
+    data, _, report = build(info, manifest, rows, holds, previous, args.reselect)
+    if report.get('dropped'):
+        print('selected works no longer qualify (fix them, or --reselect):',
+              *report['dropped'], sep='\n  ', file=sys.stderr)
+    elif report['shortfall']:
         print(f"notes short by {report['shortfall']} works", file=sys.stderr)
     problems = validate(data, manifest)
     if problems:

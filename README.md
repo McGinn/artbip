@@ -214,7 +214,7 @@ for art-historical significance and how well it rewards long viewing;
 photographs with visible frames, colour cards or heavy damage were dropped, and
 no artist makes up more than 3% of the collection, so the mix stays broad. Titles, artists, dates and
 attributions are checked against museum records and published sources. The longer notes cover 100
-works by 90 artists, with 72 artist biographies and 15 notes on periods and
+works by 100 artists, with 89 artist biographies and 18 notes on periods and
 schools; every statement in them is checked against a museum record or a
 published source.
 

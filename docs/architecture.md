@@ -153,7 +153,8 @@ ARTBIP_RUNTIME_DIR=$(mktemp -d) dist/artbip.app/Contents/MacOS/ArtbipApp \
 
 Every work shows its wall label: title, painter, date, the manifest's
 caption, a museum link and the rights record. For 100 works, one per painter
-and spread across periods, the About This Artwork panel also shows notes:
+and spread across periods in proportion to the whole collection, the About
+This Artwork panel also shows notes:
 
 - a commentary on the work;
 - things to look for in it;
@@ -170,7 +171,9 @@ have them.
 The notes are one data-only JSON file, `data/education/starter.json`
 (`"format": "artbip-notes"`), decoded into typed structs (`NotesFile`) and
 never executed. `scripts/build_notes.py` selects the works and writes the
-file; `--check` fails if it is stale. The app bundles it as
+file; `--check` fails if it is stale. The selection is made once and kept:
+later builds only refresh the text, a selected work that stops qualifying
+fails the build, and `--reselect` is the deliberate way to change the list. The app bundles it as
 `Resources/notes.json`.
 
 `scripts/check_bundle_leaks.py` runs on every build. It fails the build if the
