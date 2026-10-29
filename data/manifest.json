@@ -17784,9 +17784,9 @@
       "artist" : "Raphael",
       "artistDeathYear" : 1520,
       "artistSort" : "Raphael",
-      "caption" : "God the Father raises his arms above a winged eagle, lion and ox, with angels gathered around him. Golden light opens between the clouds, high above a distant landscape.",
+      "caption" : "A bearded God the Father, arms flung wide, rides the sky on an eagle, a lion and an ox, while two small angels hold up his arms and a winged angel reaches in from the left. Faint angel heads crowd the glowing opening behind him; far below lies a small landscape.",
       "collection" : "Galleria Palatina",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q1134281",
+      "collectionURL" : "https://www.uffizi.it/en/artworks/ezekiel-raphael",
       "dateDisplay" : "c. 1517–1518",
       "id" : "wikidata-Q1134281",
       "image" : {
@@ -17816,7 +17816,7 @@
       ],
       "title" : "Ezekiel's Vision",
       "wikidata" : "Q1134281",
-      "year" : 1518
+      "year" : 1517
     },
     {
       "artist" : "Nicolas Poussin",
@@ -20967,7 +20967,7 @@
       "artist" : "Andrea del Sarto",
       "artistDeathYear" : 1530,
       "artistSort" : "Sarto, Andrea del",
-      "caption" : "Mary stands on a pedestal carved with winged creatures, holding the Christ Child and a book. Saint Francis with a cross and Saint John with an open volume flank her, while two small angels gather at her feet.",
+      "caption" : "A woman in a pale veil and a blue mantle over red stands on a carved pedestal with winged creatures at its corners. She carries a naked child who clings to her shoulder and holds a closed book against her hip. Two small children cling to her legs. At the left a friar in a grey habit holds a small cross; at the right a young man in red holds a large book.",
       "collection" : "Uffizi Gallery",
       "collectionURL" : "https://www.uffizi.it/en/artworks/andrea-del-sarto-harpies",
       "dateDisplay" : "1517",
@@ -33607,7 +33607,7 @@
       "artist" : "Titian",
       "artistDeathYear" : 1576,
       "artistSort" : "Titian",
-      "caption" : "A young woman looks to the left, her copper-coloured hair falling over her shoulders. Her white robe slips below one shoulder and reveals part of her breast. One hand gathers the rose-coloured patterned drapery at her chest; the other extends a small cluster of flowers against the dark background.",
+      "caption" : "A young woman with long, crimped red-gold hair tilts her head and glances off to the right. Her loose white shift has slipped down on one side, baring the upper part of one breast. One hand holds a pink patterned mantle against her body; the other, low at the left, holds a small bunch of flowers. The background is dark.",
       "collection" : "Uffizi Gallery",
       "collectionURL" : "https://www.uffizi.it/en/artworks/titian-flora",
       "dateDisplay" : "c. 1517",
@@ -39563,7 +39563,7 @@
       "artist" : "Raphael",
       "artistDeathYear" : 1520,
       "artistSort" : "Raphael",
-      "caption" : "The infant John reaches upward with an inscribed strip as the Christ Child grasps it from Mary’s arms. Mary lowers her gaze toward their hands, while Joseph watches from the shadowed left side. A pink rose rests on the ledge beneath the child’s bare foot.",
+      "caption" : "The Virgin, in a veil and blue mantle, steadies the naked Christ Child, who stands at her side with one foot up on her knee. She looks down as he and the infant John both take hold of a small curled white scroll with dark lettering. A bearded Joseph looms out of the dark at upper left. Below, a pink rose lies on a wooden table beside the Child's other foot.",
       "collection" : "Museo del Prado",
       "collectionURL" : "https://www.museodelprado.es/coleccion/obra-de-arte/la-sagrada-familia-con-san-juanito-o-virgen-de-la/efb3dfa3-c993-4f29-9db4-1c49373b275b",
       "dateDisplay" : "c. 1517",
@@ -39590,6 +39590,7 @@
         "sitelinks" : 16
       },
       "tags" : [
+        "family",
         "religious"
       ],
       "title" : "Madonna of the Rose",
@@ -40160,9 +40161,9 @@
       "artist" : "Titian",
       "artistDeathYear" : 1576,
       "artistSort" : "Titian",
-      "caption" : "Christ turns toward a bearded man who leans in from the right, holding a coin between them. Christ’s face is shown at a three-quarter angle, while the other man appears in profile. Their hands meet near the lower edge, beneath a bright red tunic, dark mantle and pale sleeve against a dark background.",
+      "caption" : "Christ, in a red tunic with a dark mantle over one shoulder, turns his eyes towards a balding, bearded man who leans in from the right, seen in profile. The man, in a loose white shirt and a small earring, holds up a gold coin low in the picture, and Christ points a finger at it. The background is dark.",
       "collection" : "Staatliche Kunstsammlungen Dresden",
-      "collectionURL" : "https://artsandculture.google.com/asset/the-tribute-money/KwGBZUkhototqw?hl=en",
+      "collectionURL" : "https://skd-online-collection.skd.museum/Details/Index/409926",
       "dateDisplay" : "c. 1516",
       "id" : "wikidata-Q2459887",
       "image" : {
@@ -42222,10 +42223,10 @@
       "artist" : "Raphael",
       "artistDeathYear" : 1520,
       "artistSort" : "Raphael",
-      "caption" : "Leo X holds a magnifying glass beside an open illuminated book but looks away from the page. Two cardinals stand behind him, their red robes surrounding the richer velvet of his cape; bright reflections catch the bell and the rounded finial of his chair.",
+      "caption" : "Pope Leo X sits at a red-covered table, a magnifying glass in his hand beside an open illuminated book and an ornate bell, his eyes turned away from the page. Two cardinals in red stand behind him; the one on the right grips the tasselled post just below the golden ball that tops the pope's chair.",
       "collection" : "Galleria Palatina",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q2610729",
-      "dateDisplay" : "1518",
+      "collectionURL" : "https://www.uffizi.it/en/events/leonex-restoration",
+      "dateDisplay" : "c. 1517–1518",
       "id" : "wikidata-Q2610729",
       "image" : {
         "format" : "jpeg",
@@ -42249,11 +42250,12 @@
         "sitelinks" : 22
       },
       "tags" : [
+        "group-portrait",
         "portrait"
       ],
       "title" : "Portrait of Leo X",
       "wikidata" : "Q2610729",
-      "year" : 1518
+      "year" : 1517
     },
     {
       "artist" : "Caravaggio",
@@ -47491,10 +47493,10 @@
       "artist" : "Matthias Grünewald",
       "artistDeathYear" : 1528,
       "artistSort" : "Grünewald, Matthias",
-      "caption" : "Mary supports the standing Christ Child as their hands meet around a small fruit; a rainbow arcs above them, with flowers in the foreground and a great Gothic church behind.",
+      "caption" : "Mary, with long loose hair and a dark blue mantle over a patterned red dress, holds the naked Christ Child on her lap. He holds a small fruit, and her fingertips reach up toward it from below. A rainbow arcs behind her. White lilies and other flowers grow by a tree at the right, a large Gothic church rises behind it, and houses and rows of straw beehives stand at the left.",
       "collection" : "Madonna Chapel, Church of the Coronation of Mary, Stuppach",
-      "collectionURL" : "https://journals.ub.uni-heidelberg.de/index.php/nbdpfbw/article/download/12627/6459/",
-      "dateDisplay" : "1516–19",
+      "collectionURL" : "https://mariaekroenung-stuppach.drs.de/stuppacher-madonna/matthias-gruenewald.html",
+      "dateDisplay" : "1516–1519",
       "id" : "wikidata-Q315716",
       "image" : {
         "format" : "jpeg",
@@ -50886,7 +50888,7 @@
       "artist" : "Raphael",
       "artistDeathYear" : 1520,
       "artistSort" : "Raphael",
-      "caption" : "Cardinal Bibbiena turns towards the viewer in a red cap and patterned red cape, holding a folded letter above the broad white sleeve of his official dress.",
+      "caption" : "A cardinal in a red biretta and a red damask cape sits turned at an angle, his eyes sliding round to meet ours. One ringed hand holds a folded letter with a line of writing on it; broad white sleeves spread out below the cape.",
       "collection" : "Galleria Palatina, Palazzo Pitti, Florence",
       "collectionURL" : "https://www.uffizi.it/opere/cardinal-bibbiena-raffaello",
       "dateDisplay" : "c. 1516",
@@ -53402,7 +53404,7 @@
       "artist" : "Andrea del Sarto",
       "artistDeathYear" : 1530,
       "artistSort" : "Sarto, Andrea del",
-      "caption" : "A seated woman representing Charity nurses one child, embraces another at her side and shelters a third sleeping below. Pink, ochre and blue drapery gathers the group into a compact arrangement.",
+      "caption" : "A woman in a pink dress and orange shawl, a pale blue mantle over her knees, sits on a bank in an open landscape with three small children. One feeds at her breast. Another kneels in the crook of her other arm, a white-and-gold cloth knotted at his hips, and holds something small up to her. The third lies on the ground at her feet, his face hidden in his folded arms.",
       "collection" : "Musée du Louvre",
       "collectionURL" : "https://collections.louvre.fr/ark:/53355/cl010061601",
       "dateDisplay" : "1518–1519",
@@ -53429,7 +53431,8 @@
         "sitelinks" : 5
       },
       "tags" : [
-        "allegorical"
+        "allegorical",
+        "nsfw"
       ],
       "title" : "Charity",
       "wikidata" : "Q3658719",
@@ -54524,7 +54527,7 @@
       "artist" : "Titian",
       "artistDeathYear" : 1576,
       "artistSort" : "Titian",
-      "caption" : "Winged children gather and eat apples beneath fruit trees, with baskets and loose fruit scattered across the grass. At the right, two women stand beside a raised statue of Venus, one lifting a mirror near it.",
+      "caption" : "Dozens of winged children crowd an orchard under tall trees, flying up into the branches, hugging, kissing and gathering apples into wicker baskets. At the right a stone statue of Venus stands on a carved pedestal, holding out a small shell in one hand. Below it one woman raises an oval mirror and another, in blue, looks up. Beyond lie green hills, a building and a cloudy blue sky.",
       "collection" : "Museo Nacional del Prado",
       "collectionURL" : "https://www.museodelprado.es/en/the-collection/art-work/the-worship-of-venus/42b30ed4-0e79-4f2b-aa62-091a27f895b3",
       "dateDisplay" : "1518",
@@ -54823,9 +54826,9 @@
       "artist" : "Giovanni Bellini",
       "artistDeathYear" : 1516,
       "artistSort" : "Bellini, Giovanni",
-      "caption" : "A seated nude woman looks into a small mirror while holding one arm behind her head. A larger mirror reflects her head covering, and an opening at the left reveals buildings, hills and a cloudy sky.",
+      "caption" : "A young woman, naked but for a pink cloth, holds up a small hand mirror. The cloth hangs from that arm and down to her hip, and more of it lies in folds at lower left. Her other arm is raised behind her head, and a round mirror behind her shows the back of her blue patterned headcloth. At the left a window looks out on hills, houses and distant blue mountains.",
       "collection" : "Kunsthistorisches Museum",
-      "collectionURL" : "https://www.khm.at/en/artworks/young-woman-at-her-toilette-204-1",
+      "collectionURL" : "https://www.khm.at/en/artworks/young-woman-at-her-toilette-204",
       "dateDisplay" : "1515",
       "id" : "wikidata-Q3766167",
       "image" : {
@@ -57050,7 +57053,7 @@
       "artist" : "Antonio da Correggio",
       "artistDeathYear" : 1534,
       "artistSort" : "Correggio, Antonio da",
-      "caption" : "Mary steadies the young John while Christ opens his arms from her lap, their pale figures surrounded by blue drapery and a dark rocky setting.",
+      "caption" : "A fair-haired woman in a lilac dress and blue mantle sits in a dark, rocky cave, with plants around her and a glimpse of blue landscape at the top right. Her hand steadies a small boy, seen from behind, who holds a thin cross. A curly-haired child sitting on a white cloth on her knee reaches a hand out towards him. One of her feet wears an elaborate strapped sandal.",
       "collection" : "Museo del Prado",
       "collectionURL" : "https://www.museodelprado.es/coleccion/obra-de-arte/la-virgen-el-nio-y-san-juan/7772befd-4567-4b1a-abbe-e538356b63c6",
       "dateDisplay" : "1515–1517",
@@ -57309,10 +57312,10 @@
       "artist" : "Raphael and workshop",
       "artistDeathYear" : 1520,
       "artistSort" : "Raphael",
-      "caption" : "The Virgin, hands joined in prayer, has the Christ Child on her lap while St Anne holds up his raised arm; he reaches towards the kneeling infant John and his reed cross, and a bearded, haloed man stands apart beyond a wall.",
+      "caption" : "The Virgin, in pink and blue, presses her hands together as the naked Christ Child sits on her lap. St Anne leans in behind him and supports his raised arm while he reaches towards the kneeling infant St John, who holds a thin cross. At upper left a bearded, haloed man in orange stands apart beside a dark pillar, with an opening to the sky behind him.",
       "collection" : "Museo di Capodimonte",
       "collectionURL" : "https://capodimonte.cultura.gov.it/la-madonna-del-divino-amore-raffaello-incontri-restauro/",
-      "dateDisplay" : "1516",
+      "dateDisplay" : "c. 1516–1518",
       "id" : "wikidata-Q3842605",
       "image" : {
         "format" : "jpeg",
@@ -57336,6 +57339,7 @@
         "sitelinks" : 10
       },
       "tags" : [
+        "family",
         "religious"
       ],
       "title" : "Madonna of Divine Love",
@@ -66917,7 +66921,7 @@
       "artist" : "Raphael (attributed)",
       "artistDeathYear" : 1520,
       "artistSort" : "Raphael",
-      "caption" : "In a landscape of tall trees and distant blue hills, a young woman in a blue mantle and an older woman in a headscarf sit on the ground, both with thin gold haloes; between them two haloed infants touch, one reaching for the other's face while standing on a wooden cradle.",
+      "caption" : "Before tall trees and distant blue hills, a young woman in a blue mantle and an older woman in a headscarf sit on the ground, both with thin gold haloes. Between them two haloed infants meet: the one standing at right holds the other's face in his hands.",
       "collection" : "Department of Paintings of the Louvre",
       "collectionURL" : "https://collections.louvre.fr/en/ark:/53355/cl010066798",
       "dateDisplay" : "c. 1516–1518",
@@ -78496,9 +78500,9 @@
       "artist" : "Hans Baldung Grien",
       "artistDeathYear" : 1545,
       "artistSort" : "Grien, Hans Baldung",
-      "caption" : "Death, a skull-headed figure with withered brown flesh, steps up behind a young nude woman and pulls her long red-gold hair, pointing downwards with his other hand. She weeps, hands clasped at her chest, with a transparent veil across her hips and a grey-green cloth behind her. They stand on stony ground against a dark background, and an inscription runs along the top.",
+      "caption" : "A weeping young woman, naked but for a transparent veil across her hips, stands with her hands clasped in front of her. Behind her Death, a skull-faced figure with withered brown flesh, grips her long hair and points down to the left with his other hand. A grey-green cloth hangs behind her against a dark ground, and an inscription with a date runs across the top.",
       "collection" : "Kunstmuseum Basel",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q97097631",
+      "collectionURL" : "https://sammlung.kunstmuseumbasel.ch/de/collection/item/1031/",
       "dateDisplay" : "1517",
       "id" : "wikidata-Q97097631",
       "image" : {
@@ -78522,7 +78526,9 @@
         "sitelinks" : 5
       },
       "tags" : [
-        "allegorical"
+        "allegorical",
+        "nsfw",
+        "nude"
       ],
       "title" : "Death and the Maiden (Baldung)",
       "wikidata" : "Q97097631",
