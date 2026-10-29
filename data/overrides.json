@@ -2386,9 +2386,10 @@
   },
   "rijks-200109429": {
     "tags": [
+      "dance",
       "religious"
     ],
-    "caption": "Israelites dance around the golden calf in the central panel while families feast in the foreground and Moses appears on Mount Sinai beyond. The wings extend the same continuous landscape and its warning against faithlessness and debauchery."
+    "caption": "Israelites dance around the golden calf in the central panel while families feast in the foreground and Moses appears on Mount Sinai beyond. The wings continue the same landscape. The triptych warns against faithlessness and debauchery."
   },
   "rijks-200109480": {
     "tags": [
@@ -2860,13 +2861,15 @@
   },
   "wikidata-Q1109475": {
     "tags": [
+      "figure",
       "religious"
     ],
-    "caption": "Mary and Elizabeth meet face to face, their hands resting on each other as two attendants look towards the viewer. Pink, blue, green and orange draperies fill almost the entire panel, dwarfing the street behind them.",
+    "caption": "Two haloed women meet in profile in a street, one arm around a shoulder and a hand at a waist, while two more women behind them look straight out. Their pink, blue, green and orange robes fill almost the whole panel; far down the street at the lower left are two tiny figures, one of them seated.",
     "dateDisplay": "c. 1528–1529",
     "year": 1528,
     "artistDeathYear": 1557,
-    "collectionURL": "https://www.getty.edu/podcasts/art-and-ideas/new-insights-into-jacopo-da-pontormo-style-with-curator-davide-gasparotto/"
+    "collectionURL": "https://www.getty.edu/podcasts/art-and-ideas/new-insights-into-jacopo-da-pontormo-style-with-curator-davide-gasparotto/",
+    "collection": "Parrocchia di San Michele Arcangelo, Carmignano"
   },
   "wikidata-Q1111394": {
     "tags": [
@@ -4782,7 +4785,9 @@
     ],
     "caption": "Mary bends over the brightly illuminated infant Christ while visitors gather beside the manger. A woman raises a hand near her face, a shepherd holds a tall staff, and angels hover above on a cloud; a dim landscape opens beyond the shadowed stable.",
     "dateDisplay": "c. 1528–1530",
-    "year": 1528
+    "year": 1528,
+    "collection": "Gemäldegalerie Alte Meister, Staatliche Kunstsammlungen Dresden",
+    "collectionURL": "https://skd-online-collection.skd.museum/Details/Index/243576"
   },
   "wikidata-Q152867": {
     "tags": [
@@ -5175,7 +5180,8 @@
     ],
     "caption": "Mary supports the standing Christ Child beneath branches laden with apples. Her long reddish-gold curls fall over a blue-green cloak and red garment; the Child holds bread in one hand and an apple in the other. A lake and a castle on a rocky outcrop appear at the left.",
     "dateDisplay": "c. 1530s",
-    "year": 1530
+    "year": 1530,
+    "collectionURL": "https://web.archive.org/web/20190315025144id_/http://www.hermitagemuseum.org:80/wps/portal/hermitage/digital-collection/01.%20Paintings/38776"
   },
   "wikidata-Q1608116": {
     "tags": [
@@ -6534,6 +6540,7 @@
   },
   "wikidata-Q18685969": {
     "tags": [
+      "animals",
       "portrait"
     ],
     "caption": "A woman wearing a white fur cap and folded white shawl holds a red squirrel on her arm. The animal nibbles a nut, its chain draped beside her wrist, while a starling perches on a leafy branch behind her shoulder. The dark clothing and spotted bird contrast with the blue-green background.",
@@ -9271,13 +9278,16 @@
   "wikidata-Q24249": {
     "tags": [
       "animals",
+      "landscape",
+      "pastoral",
       "religious"
     ],
-    "caption": "Mary rests her hand on a white rabbit against the blue folds of her mantle as Saint Catherine holds the Christ Child beside her. A shepherd sits near a flock at right. Yellow bands of sky stretch above distant blue mountains, fields and a slender tower.",
+    "caption": "Mary sits on the grass in a pink dress and a wide blue mantle, one hand resting on a white rabbit. She reaches across to the Christ Child, held up by a woman in pale silks at the left. A woven basket with fruit lies open at her feet. At the right a bearded shepherd sits by his sheep under the trees, and a broad valley, blue mountains and a streaked yellow sky open behind.",
     "dateDisplay": "before 1530",
     "year": 1529,
     "collectionURL": "https://collections.louvre.fr/ark:/53355/cl010062261",
-    "movement": "High Renaissance"
+    "movement": "High Renaissance",
+    "collection": "Musée du Louvre"
   },
   "wikidata-Q2425901": {
     "tags": [
@@ -12287,15 +12297,14 @@
   },
   "wikidata-Q3296800": {
     "tags": [
-      "mythological",
-      "nude"
+      "mythological"
     ],
     "title": "Venus with Cupid",
     "artist": "Venus Painter (workshop of Hans Holbein the Younger)",
     "artistSort": "Holbein, Hans, the Younger",
     "dateDisplay": "c. 1526–1528",
     "year": 1526,
-    "collectionURL": "https://sammlungonline.kunstmuseumbasel.ch/de/collection/item/978",
+    "collectionURL": "https://sammlung.kunstmuseumbasel.ch/de/collection/item/978",
     "caption": "Venus faces the viewer before a green curtain, extending an open hand over a pale parapet while Cupid leans forward beside her with a long arrow."
   },
   "wikidata-Q3312011": {
@@ -13020,7 +13029,10 @@
       "portrait"
     ],
     "caption": "The young halberdier grips his weapon upright and rests his other hand on his hip. A gold badge and pale feather decorate his red cap; the full cream sleeves, fine chain and bright red clothing below give his military pose an unexpectedly delicate finish.",
-    "artistDeathYear": 1557
+    "artistDeathYear": 1557,
+    "dateDisplay": "1529–1530",
+    "year": 1529,
+    "collectionURL": "https://www.getty.edu/art/collection/object/103QSE"
   },
   "wikidata-Q3609042": {
     "tags": [
@@ -14437,7 +14449,7 @@
     "dateDisplay": "1527/1533",
     "year": 1527,
     "collectionURL": "https://www.khm.at/en/artworks/maria-mit-dem-kind-und-hll-katharina-und-thomas-1128",
-    "caption": "Under a broad tree an angel lowers a flowering branch toward Mary's head while the Christ Child turns from her lap to an open book, and two saints stand at the right in reading and prayer."
+    "caption": "A winged angel holds a small wreath over Mary's head. Mary, in a blue robe, sits on the ground with the Christ Child on her lap, and he reaches for a red book held by a young woman saint in green. At the right a bearded saint in red and grey-blue joins his hands, a long staff beside him. A large tree shades the group, with hills and sky beyond."
   },
   "wikidata-Q3842580": {
     "tags": [
@@ -15478,7 +15490,8 @@
     "tags": [
       "portrait"
     ],
-    "caption": "One hand marks a place in a book while the other rests on the young man’s hip. The carved faces on the furniture offer a curious counterpoint to his composed expression, amid the precise folds and slashes of his black clothing."
+    "caption": "One hand marks a place in a book while the other rests on the young man’s hip. The carved faces on the furniture offer a curious counterpoint to his composed expression, amid the precise folds and slashes of his black clothing.",
+    "collectionURL": "https://www.metmuseum.org/art/collection/search/435802"
   },
   "wikidata-Q3937735": {
     "tags": [
@@ -17700,7 +17713,11 @@
     "tags": [
       "portrait"
     ],
-    "caption": "A young man with dark hair, in a dark suit with full sleeves over a white shirt, looks out at us as he turns the pages of a large leather-bound account book on a table spread with green cloth. Pink rose petals, folded letters, a gold ring and chain, and a pale blue fringed shawl with a small lizard on it lie across the table, with a wooden box and an inkwell behind. A window at the far left opens onto blue sky and distant hills."
+    "caption": "A young man with dark hair, in a dark suit with full sleeves over a white shirt, looks out at us as he turns the pages of a large leather-bound book on a table spread with green cloth. Pink rose petals, folded letters, a gold ring and a thin gold chain lie scattered beside a pale blue fringed shawl, where a small lizard rests. A wooden box stands behind the book, and a narrow window at the far left opens onto blue sky and distant hills.",
+    "collection": "Gallerie dell'Accademia di Venezia",
+    "collectionURL": "https://www.gallerieaccademia.it/ritratto-di-giovane-gentiluomo",
+    "dateDisplay": "c. 1530",
+    "year": 1530
   },
   "wikidata-Q6065609": {
     "tags": [
@@ -18002,9 +18019,11 @@
   },
   "wikidata-Q6474124": {
     "tags": [
-      "mythological"
+      "figure",
+      "historical"
     ],
-    "caption": "The courtesan Lais of Corinth, a young woman with a gold cap over her fair hair, is seen half-length in front of a green curtain behind a grey stone ledge, holding one hand out palm up over its edge. She wears a red bodice with white puffed slashes and full orange sleeves, and her other hand rests on a dark blue cloth. A small heap of gold coins lies on the ledge, which is inscribed LAIS CORINTHIACA 1526."
+    "caption": "A young woman in a gold cap is seen half-length before a green curtain, behind a grey stone ledge. She wears a red bodice with white puffed slashes and full gold-orange sleeves, and looks down with her head tilted. One hand is held out palm up over the ledge; the other rests on a dark blue cloth. A small heap of gold coins lies on the ledge, which is inscribed LAIS CORINTHIACA 1526 in capitals and numerals.",
+    "collectionURL": "https://sammlung.kunstmuseumbasel.ch/de/collection/item/980"
   },
   "wikidata-Q64766792": {
     "tags": [
@@ -18397,8 +18416,11 @@
       "mythological",
       "nude"
     ],
-    "caption": "Io, nude and seen from behind, sits on a white cloth draped over a bank and leans back with her head tipped up. A dark grey cloud, Jupiter in disguise, wraps a dim hand-like shape around her waist, and a faint face in the mist meets her lips. A large earthenware jar stands at right, and the antlers of a drinking deer show in the shadows at lower right.",
-    "movement": "High Renaissance"
+    "caption": "A nude young woman, seen from behind, sits on a white cloth over a mossy bank and leans back, her head tipped up. A dark grey cloud covers the upper canvas and reaches down round her waist, and a faint face in the mist hovers at her lips. A large clay jar stands at right, and a drinking deer's antlers rise from the shadows at its foot.",
+    "movement": "High Renaissance",
+    "dateDisplay": "c. 1530",
+    "year": 1530,
+    "collectionURL": "https://www.khm.at/en/objectdb/detail/40/"
   },
   "wikidata-Q71254844": {
     "tags": [

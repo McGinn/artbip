@@ -14140,7 +14140,7 @@
     {
       "artist" : "Lucas van Leyden",
       "artistSort" : "Leyden, Lucas van",
-      "caption" : "Israelites dance around the golden calf in the central panel while families feast in the foreground and Moses appears on Mount Sinai beyond. The wings extend the same continuous landscape and its warning against faithlessness and debauchery.",
+      "caption" : "Israelites dance around the golden calf in the central panel while families feast in the foreground and Moses appears on Mount Sinai beyond. The wings continue the same landscape. The triptych warns against faithlessness and debauchery.",
       "collection" : "Rijksmuseum",
       "collectionURL" : "https://www.rijksmuseum.nl/en/collection/SK-A-3841",
       "dateDisplay" : "c. 1530",
@@ -14166,6 +14166,7 @@
         "museumHighlight" : true
       },
       "tags" : [
+        "dance",
         "religious"
       ],
       "title" : "Worship of the Golden Calf",
@@ -16345,8 +16346,8 @@
       "artist" : "Pontormo",
       "artistDeathYear" : 1557,
       "artistSort" : "Pontormo",
-      "caption" : "Mary and Elizabeth meet face to face, their hands resting on each other as two attendants look towards the viewer. Pink, blue, green and orange draperies fill almost the entire panel, dwarfing the street behind them.",
-      "collection" : "Rectory of Saints Michael and Francis",
+      "caption" : "Two haloed women meet in profile in a street, one arm around a shoulder and a hand at a waist, while two more women behind them look straight out. Their pink, blue, green and orange robes fill almost the whole panel; far down the street at the lower left are two tiny figures, one of them seated.",
+      "collection" : "Parrocchia di San Michele Arcangelo, Carmignano",
       "collectionURL" : "https://www.getty.edu/podcasts/art-and-ideas/new-insights-into-jacopo-da-pontormo-style-with-curator-davide-gasparotto/",
       "dateDisplay" : "c. 1528–1529",
       "id" : "wikidata-Q1109475",
@@ -16371,6 +16372,7 @@
         "sitelinks" : 8
       },
       "tags" : [
+        "figure",
         "religious"
       ],
       "title" : "Visitation of Carmignano",
@@ -23522,8 +23524,8 @@
       "artistDeathYear" : 1534,
       "artistSort" : "Correggio, Antonio da",
       "caption" : "Mary bends over the brightly illuminated infant Christ while visitors gather beside the manger. A woman raises a hand near her face, a shepherd holds a tall staff, and angels hover above on a cloud; a dim landscape opens beyond the shadowed stable.",
-      "collection" : "Staatliche Kunstsammlungen Dresden",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q1527541",
+      "collection" : "Gemäldegalerie Alte Meister, Staatliche Kunstsammlungen Dresden",
+      "collectionURL" : "https://skd-online-collection.skd.museum/Details/Index/243576",
       "dateDisplay" : "c. 1528–1530",
       "id" : "wikidata-Q1527541",
       "image" : {
@@ -25032,7 +25034,7 @@
       "artistSort" : "Elder, Lucas Cranach the",
       "caption" : "Mary supports the standing Christ Child beneath branches laden with apples. Her long reddish-gold curls fall over a blue-green cloak and red garment; the Child holds bread in one hand and an apple in the other. A lake and a castle on a rocky outcrop appear at the left.",
       "collection" : "Hermitage Museum",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q16038763",
+      "collectionURL" : "https://web.archive.org/web/20190315025144id_/http://www.hermitagemuseum.org:80/wps/portal/hermitage/digital-collection/01.%20Paintings/38776",
       "dateDisplay" : "c. 1530s",
       "id" : "wikidata-Q16038763",
       "image" : {
@@ -30072,6 +30074,7 @@
         "sitelinks" : 6
       },
       "tags" : [
+        "animals",
         "portrait"
       ],
       "title" : "A Lady with a Squirrel and a Starling (Anne Lovell?)",
@@ -39640,8 +39643,8 @@
       "artist" : "Titian",
       "artistDeathYear" : 1576,
       "artistSort" : "Titian",
-      "caption" : "Mary rests her hand on a white rabbit against the blue folds of her mantle as Saint Catherine holds the Christ Child beside her. A shepherd sits near a flock at right. Yellow bands of sky stretch above distant blue mountains, fields and a slender tower.",
-      "collection" : "Department of Paintings of the Louvre",
+      "caption" : "Mary sits on the grass in a pink dress and a wide blue mantle, one hand resting on a white rabbit. She reaches across to the Christ Child, held up by a woman in pale silks at the left. A woven basket with fruit lies open at her feet. At the right a bearded shepherd sits by his sheep under the trees, and a broad valley, blue mountains and a streaked yellow sky open behind.",
+      "collection" : "Musée du Louvre",
       "collectionURL" : "https://collections.louvre.fr/ark:/53355/cl010062261",
       "dateDisplay" : "before 1530",
       "id" : "wikidata-Q24249",
@@ -39668,6 +39671,8 @@
       },
       "tags" : [
         "animals",
+        "landscape",
+        "pastoral",
         "religious"
       ],
       "title" : "Madonna of the Rabbit",
@@ -49959,7 +49964,7 @@
       "artistSort" : "Holbein, Hans, the Younger",
       "caption" : "Venus faces the viewer before a green curtain, extending an open hand over a pale parapet while Cupid leans forward beside her with a long arrow.",
       "collection" : "Kunstmuseum Basel",
-      "collectionURL" : "https://sammlungonline.kunstmuseumbasel.ch/de/collection/item/978",
+      "collectionURL" : "https://sammlung.kunstmuseumbasel.ch/de/collection/item/978",
       "dateDisplay" : "c. 1526–1528",
       "id" : "wikidata-Q3296800",
       "image" : {
@@ -49983,8 +49988,7 @@
         "sitelinks" : 11
       },
       "tags" : [
-        "mythological",
-        "nude"
+        "mythological"
       ],
       "title" : "Venus with Cupid",
       "wikidata" : "Q3296800",
@@ -52311,8 +52315,8 @@
       "artistSort" : "Pontormo",
       "caption" : "The young halberdier grips his weapon upright and rests his other hand on his hip. A gold badge and pale feather decorate his red cap; the full cream sleeves, fine chain and bright red clothing below give his military pose an unexpectedly delicate finish.",
       "collection" : "J. Paul Getty Museum",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q3607621",
-      "dateDisplay" : "1529",
+      "collectionURL" : "https://www.getty.edu/art/collection/object/103QSE",
+      "dateDisplay" : "1529–1530",
       "id" : "wikidata-Q3607621",
       "image" : {
         "format" : "jpeg",
@@ -57132,7 +57136,7 @@
       "artist" : "Lorenzo Lotto",
       "artistDeathYear" : 1556,
       "artistSort" : "Lotto, Lorenzo",
-      "caption" : "Under a broad tree an angel lowers a flowering branch toward Mary's head while the Christ Child turns from her lap to an open book, and two saints stand at the right in reading and prayer.",
+      "caption" : "A winged angel holds a small wreath over Mary's head. Mary, in a blue robe, sits on the ground with the Christ Child on her lap, and he reaches for a red book held by a young woman saint in green. At the right a bearded saint in red and grey-blue joins his hands, a long staff beside him. A large tree shades the group, with hills and sky beyond.",
       "collection" : "Kunsthistorisches Museum",
       "collectionURL" : "https://www.khm.at/en/artworks/maria-mit-dem-kind-und-hll-katharina-und-thomas-1128",
       "dateDisplay" : "1527/1533",
@@ -61106,7 +61110,7 @@
       "artistSort" : "Bronzino",
       "caption" : "One hand marks a place in a book while the other rests on the young man’s hip. The carved faces on the furniture offer a curious counterpoint to his composed expression, amid the precise folds and slashes of his black clothing.",
       "collection" : "Metropolitan Museum of Art",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q3937730",
+      "collectionURL" : "https://www.metmuseum.org/art/collection/search/435802",
       "dateDisplay" : "1530s",
       "id" : "wikidata-Q3937730",
       "image" : {
@@ -69644,10 +69648,10 @@
       "artist" : "Lorenzo Lotto",
       "artistDeathYear" : 1556,
       "artistSort" : "Lotto, Lorenzo",
-      "caption" : "A young man with dark hair, in a dark suit with full sleeves over a white shirt, looks out at us as he turns the pages of a large leather-bound account book on a table spread with green cloth. Pink rose petals, folded letters, a gold ring and chain, and a pale blue fringed shawl with a small lizard on it lie across the table, with a wooden box and an inkwell behind. A window at the far left opens onto blue sky and distant hills.",
-      "collection" : "Gallerie dell'Accademia",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q605863",
-      "dateDisplay" : "1530",
+      "caption" : "A young man with dark hair, in a dark suit with full sleeves over a white shirt, looks out at us as he turns the pages of a large leather-bound book on a table spread with green cloth. Pink rose petals, folded letters, a gold ring and a thin gold chain lie scattered beside a pale blue fringed shawl, where a small lizard rests. A wooden box stands behind the book, and a narrow window at the far left opens onto blue sky and distant hills.",
+      "collection" : "Gallerie dell'Accademia di Venezia",
+      "collectionURL" : "https://www.gallerieaccademia.it/ritratto-di-giovane-gentiluomo",
+      "dateDisplay" : "c. 1530",
       "id" : "wikidata-Q605863",
       "image" : {
         "format" : "jpeg",
@@ -71199,9 +71203,9 @@
       "artist" : "Hans Holbein the Younger",
       "artistDeathYear" : 1543,
       "artistSort" : "Younger, Hans Holbein the",
-      "caption" : "The courtesan Lais of Corinth, a young woman with a gold cap over her fair hair, is seen half-length in front of a green curtain behind a grey stone ledge, holding one hand out palm up over its edge. She wears a red bodice with white puffed slashes and full orange sleeves, and her other hand rests on a dark blue cloth. A small heap of gold coins lies on the ledge, which is inscribed LAIS CORINTHIACA 1526.",
+      "caption" : "A young woman in a gold cap is seen half-length before a green curtain, behind a grey stone ledge. She wears a red bodice with white puffed slashes and full gold-orange sleeves, and looks down with her head tilted. One hand is held out palm up over the ledge; the other rests on a dark blue cloth. A small heap of gold coins lies on the ledge, which is inscribed LAIS CORINTHIACA 1526 in capitals and numerals.",
       "collection" : "Kunstmuseum Basel",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q6474124",
+      "collectionURL" : "https://sammlung.kunstmuseumbasel.ch/de/collection/item/980",
       "dateDisplay" : "1526",
       "id" : "wikidata-Q6474124",
       "image" : {
@@ -71225,7 +71229,8 @@
         "sitelinks" : 5
       },
       "tags" : [
-        "mythological"
+        "figure",
+        "historical"
       ],
       "title" : "Lais of Corinth",
       "wikidata" : "Q6474124",
@@ -73045,10 +73050,10 @@
       "artist" : "Antonio da Correggio",
       "artistDeathYear" : 1534,
       "artistSort" : "Correggio, Antonio da",
-      "caption" : "Io, nude and seen from behind, sits on a white cloth draped over a bank and leans back with her head tipped up. A dark grey cloud, Jupiter in disguise, wraps a dim hand-like shape around her waist, and a faint face in the mist meets her lips. A large earthenware jar stands at right, and the antlers of a drinking deer show in the shadows at lower right.",
+      "caption" : "A nude young woman, seen from behind, sits on a white cloth over a mossy bank and leans back, her head tipped up. A dark grey cloud covers the upper canvas and reaches down round her waist, and a faint face in the mist hovers at her lips. A large clay jar stands at right, and a drinking deer's antlers rise from the shadows at its foot.",
       "collection" : "Kunsthistorisches Museum",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q700834",
-      "dateDisplay" : "1530",
+      "collectionURL" : "https://www.khm.at/en/objectdb/detail/40/",
+      "dateDisplay" : "c. 1530",
       "id" : "wikidata-Q700834",
       "image" : {
         "format" : "jpeg",
