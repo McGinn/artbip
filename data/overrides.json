@@ -2768,7 +2768,8 @@
     "artist": "Pieter Bruegel the Elder",
     "artistSort": "Bruegel the Elder, Pieter",
     "collectionURL": "https://gallerycollections.courtauld.ac.uk/object-p-1978-pg-48",
-    "caption": "Christ bends to write in the dust before the woman condemned to stoning: 'He who is without sin, let him cast the first stone.' Bruegel's subdued grisaille and sparse white highlights turn the surrounding crowd into a quiet plea for tolerance."
+    "caption": "Christ kneels at the edge of a step and writes on it with one finger, letters running across the step. A young woman stands just beyond him, hands together at her waist. A crowd of bearded elders and onlookers presses close, one bent over a stick. The scene is painted in greys.",
+    "collection": "Courtauld Gallery"
   },
   "wikidata-Q1090371": {
     "tags": [
@@ -3863,9 +3864,10 @@
       "transport",
       "work"
     ],
-    "caption": "Workers rake a broad hayfield and load a horse-drawn wagon below a rocky hill. In the foreground, women carry rakes along the road as basket carriers and a mounted traveller pass beneath a tree; villages and a winding river extend into the distance.",
+    "caption": "Haymakers rake and pile hay onto a wagon in a sunlit field below a rocky crag. On the road in front, three workers walk by, two with rakes on their shoulders, past people carrying baskets on their heads and a rider on a pale horse. Beyond, villages and a winding river stretch into the distance.",
     "dateDisplay": "1565",
-    "year": 1565
+    "year": 1565,
+    "collectionURL": "https://www.lobkowicz.cz/en/collection-highlights"
   },
   "wikidata-Q1213453": {
     "tags": [
@@ -16509,7 +16511,8 @@
     "tags": [
       "religious"
     ],
-    "caption": "The kings present their gifts in a cramped stable, surrounded by soldiers and curious onlookers. The pale-robed king stands at the right while another kneels close to the child; faces, weapons and rich fabrics press together around Mary’s blue cloak."
+    "caption": "Mary sits in a blue mantle inside a timber stable, the naked child on her lap in a white cloth. Three kings bring gifts: one kneels in pink and green with an open bowl, one stands in red with a gold lidded cup, and one in a long pale fringed robe holds out a green vessel. Helmeted soldiers with halberds and staring onlookers crowd in behind.",
+    "collectionURL": "https://www.nationalgallery.org.uk/paintings/pieter-bruegel-the-elder-the-adoration-of-the-kings"
   },
   "wikidata-Q4681871": {
     "tags": [
@@ -18343,9 +18346,11 @@
   },
   "wikidata-Q686107": {
     "tags": [
+      "landscape",
       "religious"
     ],
-    "caption": "Christ falls beneath the cross near the centre of a crowded landscape. The much larger mourners at the lower right stand apart from the procession winding towards Calvary."
+    "caption": "Crowds on foot and on horseback stream across a hilly landscape towards a ring of people on a distant hilltop. Near the centre a man has fallen under a cross. Mourners sit and kneel in the right foreground, and a windmill stands on top of a tall rock left of centre.",
+    "collectionURL": "https://www.khm.at/en/artworks/the-procession-to-calvary-324"
   },
   "wikidata-Q687182": {
     "tags": [
@@ -19227,12 +19232,16 @@
   },
   "wikidata-Q924655": {
     "tags": [
+      "animals",
+      "architecture",
       "religious"
     ],
     "title": "The Rescue of Saint Mark’s Body",
     "collectionURL": "https://www.gallerieaccademia.it/opera/messa-in-salvo-del-corpo-di-san-marco/",
-    "caption": "Men carry Saint Mark’s body towards the foreground as a storm drives other figures towards the arcades. The paving and buildings plunge into the distance, while the body and the restless camel seem pressed close to the viewer.",
-    "movement": "Venetian school"
+    "caption": "In the right foreground, men carry a nearly naked body with its head hanging back, beside a large camel. Across a long paved square, pale ghostly figures run for an arcade at the left under a dark sky streaked with lightning, and a man sprawls on the paving holding a rope.",
+    "movement": "Venetian school",
+    "dateDisplay": "1562–1566",
+    "year": 1562
   },
   "wikidata-Q9248672": {
     "tags": [
