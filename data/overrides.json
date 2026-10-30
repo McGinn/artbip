@@ -1567,9 +1567,10 @@
   },
   "met-853194": {
     "tags": [
-      "religious"
+      "religious",
+      "supernatural"
     ],
-    "caption": "Fei Zhangfang hovers above the landscape as the staff he cast away arcs down toward a pond, where it transforms into a blue dragon. Sesson tells the Daoist legend with a few charged sweeps of ink."
+    "caption": "A man with bristling whiskers and a cap sits high on a grey ledge at upper left, one arm raised and the other flung out, gazing down. Far below, a jointed staff slants into a burst of spray, and higher up near the right edge a dragon's whiskered head rises out of the mist. A long pale band curves down from the overhanging rock above him."
   },
   "met-901617": {
     "tags": [
@@ -1751,7 +1752,7 @@
       "nsfw",
       "nude"
     ],
-    "caption": "Venus sits half-wrapped in a fur-lined deep red velvet mantle edged with gold embroidery, one hand pressed to her breast and the other gathering the fur at her lap. A winged cupid, seen from behind, holds up a black-framed mirror in which part of her face is reflected, while a second, fair-haired cupid peers round it and a leafy wreath is held up at the top of the picture. Pearls are threaded through her braided blonde hair.",
+    "caption": "Venus, pearls threaded through her blonde hair, sits half-wrapped in a fur-lined dark red velvet mantle with a gold-patterned border, one hand at her breast. A winged child seen from behind holds up a black-framed mirror that shows part of her face, while a second, fair-haired child behind it raises a wreath of leaves.",
     "movement": "Venetian school"
   },
   "nga-41581": {
@@ -2852,14 +2853,16 @@
   },
   "wikidata-Q11091298": {
     "tags": [
+      "animals",
       "family",
       "group-portrait",
       "religious"
     ],
-    "caption": "Christ blesses the bread at a table surrounded by richly dressed adults and children. Two girls play with a dog in the foreground, while columns frame a distant landscape.",
-    "dateDisplay": "c. 1559",
-    "year": 1559,
-    "collectionURL": "https://collections.louvre.fr/ark:/53355/cl010067589"
+    "caption": "Christ sits behind a white-covered table, eyes raised, one hand lifted and the other on a loaf, with a bearded man reaching toward him on each side. Richly dressed adults and children crowd round. In front, two small girls in gold-patterned dresses hug a big brown dog; at the left, columns open onto a landscape.",
+    "dateDisplay": "c. 1555",
+    "year": 1555,
+    "collectionURL": "https://collections.louvre.fr/ark:/53355/cl010067589",
+    "collection": "Musée du Louvre"
   },
   "wikidata-Q1109340": {
     "tags": [
@@ -5151,7 +5154,7 @@
       "group-portrait",
       "portrait"
     ],
-    "caption": "Count Iseppo da Porto stands beside his son Adriano in a shaded architectural niche, both wearing dark, fur-trimmed clothing. The boy holds his father’s bare hand against his chest; the count’s other, gloved hand rests near the hilt of his sword.",
+    "caption": "A bearded man in a black coat with a broad fur collar stands full length in a grey stone niche. His bare hand hangs over the shoulder of a small boy in an ermine-lined jacket, who holds on to his father's arm and looks off to the side. The man's other hand, gloved, rests by his sword hilt.",
     "dateDisplay": "c. 1555; possibly 1552–1553",
     "year": 1555,
     "collectionURL": "https://www.uffizi.it/en/artworks/veronese-portrait-of-count-giuseppe-da-porto",
@@ -6031,11 +6034,13 @@
   },
   "wikidata-Q18002417": {
     "tags": [
+      "animals",
       "mythological",
+      "nsfw",
       "nude",
       "seascape"
     ],
-    "caption": "Europa lies across the back of a white bull carrying her through the sea, gripping a horn while raising a red scarf. Two winged cupids fly above, and a third rides a sea creature in the foreground. Her companions remain on the distant shore beneath mountains and a clouded sky.",
+    "caption": "A young woman in a thin white dress sprawls across the back of a white bull swimming out to sea. One hand grips a horn while the other waves a red cloth above her head. Two winged children with bows and arrows fly overhead, a third rides a dolphin at lower left, and tiny figures stand on the distant shore below blue mountains.",
     "dateDisplay": "1559–1562",
     "year": 1559,
     "collectionURL": "https://www.gardnermuseum.org/experience/collection/10978",
@@ -6996,7 +7001,7 @@
     "tags": [
       "religious"
     ],
-    "caption": "The princess rushes toward the foreground in a blue dress and billowing pink mantle, looking back toward Saint George. Behind a fallen man, the armored saint rides a pale horse and drives his lance into the dragon's open jaws. Above the distant city walls, God the Father appears within a bright opening in the clouds.",
+    "caption": "In the foreground a princess in a blue dress, a red mantle billowing behind her, rushes toward us, one hand thrust out. Behind her a dead man lies on the grass. Further back, an armoured rider on a pale horse drives his lance into a dragon's jaws, below walls and a burst of light in the clouds with a small figure at its centre.",
     "title": "Saint George and the Dragon",
     "dateDisplay": "c. 1555",
     "year": 1555,
@@ -11057,7 +11062,7 @@
     "year": 1559,
     "collection": "National Gallery, London",
     "collectionURL": "https://www.nationalgallery.org.uk/paintings/titian-the-death-of-actaeon",
-    "caption": "Diana holds her bow at the left while Actaeon, part human and part stag, is attacked by his hounds beside a woodland stream.",
+    "caption": "A woman in a rose-pink tunic, one breast bare, strides in from the left holding out a bow. Across a stream, a figure with arms flung up staggers back as hounds leap at him, among dark, windswept trees under a stormy sky.",
     "movement": "Venetian school"
   },
   "wikidata-Q2899286": {
@@ -12669,7 +12674,7 @@
     "year": 1554,
     "collection": "Wallace Collection, London",
     "collectionURL": "https://wallacelive.wallacecollection.org/eMP/eMuseumPlus?module=collection&objectId=64901&service=ExternalInterface",
-    "caption": "Andromeda is chained to a rock at the left while Perseus dives headfirst towards a sea monster, his red drapery looping across the sky above the dark water."
+    "caption": "A naked woman stands chained to a dark rock at the left. At the upper right a young man in a helmet plunges head first through the sky, a red cloak streaming behind him, a sword in one hand and a shield on the other arm. Below him a spiny sea monster rears out of the dark water with its jaws open."
   },
   "wikidata-Q3425144": {
     "tags": [
@@ -15732,11 +15737,15 @@
   },
   "wikidata-Q3978277": {
     "tags": [
+      "nsfw",
       "nude",
       "religious"
     ],
-    "caption": "Susanna sits beside the water with her mirror and jewellery, while two men peer around opposite ends of the rose-covered screen. The bright, open view of her body contrasts with their half-hidden positions, making us aware of an intrusion she has not yet noticed.",
-    "movement": "Venetian school"
+    "caption": "A naked woman sits at the edge of a pool, one foot drawn up as she dries her leg with a white cloth. A mirror leans against a hedge of roses beside her, with pearls, a comb and a small jar in front. One old man peers round the near end of the hedge, another round its far end.",
+    "movement": "Venetian school",
+    "dateDisplay": "c. 1555–56",
+    "year": 1555,
+    "collectionURL": "https://www.khm.at/en/artworks/susanna-bathing-1564"
   },
   "wikidata-Q398126": {
     "tags": [
@@ -17818,8 +17827,9 @@
     "tags": [
       "portrait"
     ],
-    "caption": "Mary Tudor, Queen of England, sits in a red velvet chair fringed with gold, wearing a dark velvet gown over a silver-grey patterned skirt and a black hood edged with pearls. She holds a small red flower in her right hand and a pair of gloves in her ringed left hand, and a large jewel with a hanging pearl is pinned at her breast.",
-    "movement": "Early Netherlandish painting"
+    "caption": "Mary Tudor sits turned three-quarters in a red chair with a framed panel of gold embroidery on its back and a fringed arm at the right. She wears a dark gown open over a pale skirt patterned with leaves. Pearls edge her black hood, and a jewel with a hanging pearl sits below her collar. She holds a red rose in her right hand and gloves in her ringed left hand.",
+    "movement": "Early Netherlandish painting",
+    "collectionURL": "https://www.museodelprado.es/en/the-collection/art-work/mary-tudor-queen-of-england/aef6ebc4-081a-44e6-974d-6c24aef95fc4"
   },
   "wikidata-Q611583": {
     "tags": [
