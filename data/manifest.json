@@ -17760,9 +17760,9 @@
       "artist" : "Pieter Bruegel the Elder",
       "artistDeathYear" : 1569,
       "artistSort" : "Elder, Pieter Brueghel the",
-      "caption" : "Mounted soldiers and armed men fill a snow-covered village, confronting inhabitants among houses and bare trees. A dense group of horsemen gathers in the centre, while figures force their way into a building at the right.",
+      "caption" : "Soldiers overrun a snow-covered village. A block of armoured horsemen with upright lances waits in the middle, while men on foot drive pikes down into a heap on the ground. Villagers plead, run or sit with their hands to their faces, and at the right men with an axe force their way into a brick building.",
       "collection" : "Royal Collection",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q1134250",
+      "collectionURL" : "https://www.rct.uk/collection/405787/massacre-of-the-innocents",
       "dateDisplay" : "c. 1565–1567",
       "id" : "wikidata-Q1134250",
       "image" : {
@@ -17795,7 +17795,7 @@
       ],
       "title" : "The Massacre of the Innocents",
       "wikidata" : "Q1134250",
-      "year" : 1566
+      "year" : 1565
     },
     {
       "artist" : "Raphael",
@@ -19368,9 +19368,9 @@
       "artist" : "Giuseppe Arcimboldo",
       "artistDeathYear" : 1593,
       "artistSort" : "Arcimboldo, Giuseppe",
-      "caption" : "A plucked bird and fish combine into a human face beneath a black cap. Papers form the collar and books the chest, so that the sober dress of a learned professional conceals an unsettling construction of objects.",
-      "collection" : "National Portrait Gallery of Sweden",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q1194663",
+      "caption" : "A man in a black cap and a fur-trimmed gown turns to the left against a green ground. His face is made of dead birds and fish. Sheets of handwritten paper sit at his neck, and a stack of tied books shows at the bottom of the gown.",
+      "collection" : "Nationalmuseum",
+      "collectionURL" : "https://collection.nationalmuseum.se/en/collection/item/15897",
       "dateDisplay" : "1566",
       "id" : "wikidata-Q1194663",
       "image" : {
@@ -19636,9 +19636,9 @@
       "artist" : "Pieter Bruegel the Elder",
       "artistDeathYear" : 1569,
       "artistSort" : "Elder, Pieter Brueghel the",
-      "caption" : "A crowd climbs around a huge red wine barrel, raising cups and other containers while drinkers stagger or fall nearby. At right, Saint Martin sits on a white horse and divides his cloak for a beggar, apart from the scramble.",
+      "caption" : "A crowd swarms over a huge red barrel, climbing its wooden supports and holding up bowls and jugs, while men lie sprawled on the ground at lower left. At right, a rider on a pale horse holds a sword to his cloak above figures on the ground.",
       "collection" : "Museo del Prado",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q1198007",
+      "collectionURL" : "https://www.museodelprado.es/en/the-collection/art-work/the-wine-of-saint-martins-day/e6d44e39-77fb-4deb-a5ed-0a99fbe76847",
       "dateDisplay" : "1566–1567",
       "id" : "wikidata-Q1198007",
       "image" : {
@@ -26561,10 +26561,10 @@
       "artist" : "Giuseppe Arcimboldo",
       "artistDeathYear" : 1593,
       "artistSort" : "Arcimboldo, Giuseppe",
-      "caption" : "Books form a bearded figure against a blue-grey curtain: an open volume fans out above the head, stacked bindings make the face and torso, and pale bookmarks project like fingers below. A large red book defines one shoulder, while feather dusters form the moustache and beard.",
+      "caption" : "A bearded half-length figure built of books stands before a grey-blue curtain. An open volume fanned out on top makes the hair, closed books stack up into the face and chest, and a large red book rises at the left like a shoulder.",
       "collection" : "Skokloster Castle",
-      "collectionURL" : "https://skoklostersslott.se/skoklosters-slotts-historia/samlingarna-i-korthet/",
-      "dateDisplay" : "c. 1566 (?)",
+      "collectionURL" : "https://samlingar.shm.se/object/465F670E-FE9D-4AF7-9C45-7DE92E39EB9A",
+      "dateDisplay" : "1562 or 1566?",
       "id" : "wikidata-Q17021187",
       "image" : {
         "format" : "jpeg",
@@ -26587,11 +26587,12 @@
         "sitelinks" : 13
       },
       "tags" : [
-        "portrait"
+        "portrait",
+        "satirical"
       ],
       "title" : "The Librarian",
       "wikidata" : "Q17021187",
-      "year" : 1566
+      "year" : 1562
     },
     {
       "artist" : "Albert Bierstadt",
@@ -31769,10 +31770,10 @@
       "artist" : "Paolo Veronese",
       "artistDeathYear" : 1588,
       "artistSort" : "Veronese, Paolo",
-      "caption" : "Wisdom lifts her eyes towards the light while Hercules, wearing a lion's skin and leaning on his club, looks down. Crowns and jewels lie at their feet beside Cupid; Veronese sets gleaming patterned silk against the hero's bare, muscular body.",
+      "caption" : "A tall woman in a pink dress and a white robe patterned in blue and gold looks upward, a small sun above her head and one foot on a globe. Beside her a bearded man wrapped in a lion's skin looks down. At his feet a winged child gazes up, and crowns and pearls lie on the floor.",
       "collection" : "The Frick Collection",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q19857397",
-      "dateDisplay" : "1565",
+      "collectionURL" : "https://collections.frick.org/objects/277",
+      "dateDisplay" : "c. 1565",
       "id" : "wikidata-Q19857397",
       "image" : {
         "format" : "jpeg",
@@ -31795,7 +31796,9 @@
         "sitelinks" : 6
       },
       "tags" : [
-        "allegorical"
+        "allegorical",
+        "mythological",
+        "nsfw"
       ],
       "title" : "Allegory of Wisdom and Strength",
       "wikidata" : "Q19857397",
@@ -41789,7 +41792,7 @@
       "artist" : "Pieter Bruegel the Elder",
       "artistDeathYear" : 1569,
       "artistSort" : "Bruegel, Pieter, the Elder",
-      "caption" : "A dense crowd gathers beneath large trees around John the Baptist, a small brown-clad figure with an outstretched arm. Hats, headscarves and varied robes fill the foreground; several spectators climb higher, while a gap in the woods opens onto a distant river and town.",
+      "caption" : "A dense crowd fills a woodland clearing to hear a bearded preacher in brown, standing a little left of centre with one arm stretched out. In the foreground listeners turn their backs to us in hoods, wide hats, headscarves and striped cloaks. Through a gap in the trees at the upper right, a river winds toward a distant town.",
       "collection" : "Museum of Fine Arts, Budapest",
       "collectionURL" : "https://www.mfab.hu/artworks/9633/",
       "dateDisplay" : "1566",
@@ -72894,9 +72897,9 @@
       "artist" : "Pieter Bruegel the Elder",
       "artistDeathYear" : 1569,
       "artistSort" : "Elder, Pieter Brueghel the",
-      "caption" : "Drovers bring a herd of cattle down a hillside track between bare trees, one swinging a long stick behind a white cow with black patches, while a man on a pale horse and others carrying poles follow at right. Beyond them a wide river winds through a valley between craggy rocks, under heavy dark clouds.",
+      "caption" : "Herdsmen drive cattle along a hillside track between bare trees, one reaching out with a long stick beside a white cow with black patches, while a cloaked man on a grey-white horse and men with poles over their shoulders follow at right. In the middle distance, people work in a vineyard on a slope that runs down to a wide river, which winds through a valley between craggy rocks under dark clouds.",
       "collection" : "Kunsthistorisches Museum",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q698254",
+      "collectionURL" : "https://www.khm.at/en/artworks/the-return-of-the-herd-autumn-326",
       "dateDisplay" : "1565",
       "id" : "wikidata-Q698254",
       "image" : {
@@ -72920,7 +72923,10 @@
         "sitelinks" : 20
       },
       "tags" : [
-        "landscape"
+        "animals",
+        "everyday-life",
+        "landscape",
+        "work"
       ],
       "title" : "The Return of the Herd",
       "wikidata" : "Q698254",
@@ -74081,10 +74087,10 @@
       "artist" : "Paolo Veronese",
       "artistDeathYear" : 1588,
       "artistSort" : "Veronese, Paolo",
-      "caption" : "The mother of the Persian king Darius, in a blue cloak lined with ermine, kneels with the women and children of the royal family before a group of soldiers at right. Among them Alexander stands in a deep rose costume with his arms spread, beside his friend Hephaestion in armour and an orange cloak. Behind the kneeling women rises a white marble arcade, with onlookers leaning over its balustrade and a monkey perched on a parapet at left.",
+      "caption" : "Women and children of a royal household kneel on a terrace before a crowd of men in armour at right. At the front a woman in a blue cloak lined with ermine kneels with her back half turned; a young man in deep rose turns toward the group, one hand held open. Behind them stands a pale arcade topped by a balustrade, where onlookers lean over, and a monkey crouches on a parapet at left.",
       "collection" : "National Gallery",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q7733345",
-      "dateDisplay" : "1565",
+      "collectionURL" : "https://www.nationalgallery.org.uk/paintings/paolo-veronese-the-family-of-darius-before-alexander",
+      "dateDisplay" : "1565–1567",
       "id" : "wikidata-Q7733345",
       "image" : {
         "format" : "jpeg",
@@ -74108,7 +74114,8 @@
         "sitelinks" : 10
       },
       "tags" : [
-        "historical"
+        "historical",
+        "military"
       ],
       "title" : "The Family of Darius Before Alexander",
       "wikidata" : "Q7733345",
@@ -74491,9 +74498,9 @@
       "artist" : "Pieter Bruegel the Elder",
       "artistDeathYear" : 1569,
       "artistSort" : "Elder, Pieter Brueghel the",
-      "caption" : "Under a tree in a golden field of grain, a group of harvesters sit eating from bowls, bread and a basket, while a man in a white shirt sleeps sprawled on his back beside them. At left two men cut the tall grain and another comes up a path through it carrying jugs, while figures bend to bind sheaves among the stooks at right. Beyond, the land falls away past farms, a church, a hay wagon and a pond to a wide bay with ships.",
+      "caption" : "Under a tree in a golden wheat field, harvesters sit eating from bowls and a basket of bread, while a man in a white shirt sleeps sprawled on his back beside them. At left, men cut the standing wheat and another walks out of a path cut through it with a jug in each hand; at right, figures bend to bind sheaves among the stooks. Beyond, the land falls away past farms, a church, a loaded wagon and a pond to a wide bay with ships.",
       "collection" : "Metropolitan Museum of Art",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q776175",
+      "collectionURL" : "https://www.metmuseum.org/art/collection/search/435809",
       "dateDisplay" : "1565",
       "id" : "wikidata-Q776175",
       "image" : {
@@ -74519,7 +74526,9 @@
         "sitelinks" : 24
       },
       "tags" : [
-        "everyday-life"
+        "everyday-life",
+        "landscape",
+        "work"
       ],
       "title" : "The Harvesters",
       "wikidata" : "Q776175",
@@ -75496,9 +75505,9 @@
       "artist" : "Pieter Bruegel the Elder",
       "artistDeathYear" : 1569,
       "artistSort" : "Elder, Pieter Brueghel the",
-      "caption" : "Villagers skate and play games on a frozen stretch of water that winds between snow-covered houses, a church and bare trees under a pale yellowish sky. A small boat lies stuck in the ice at the left, and a dark hole opens in the ice near the bottom edge. On the right, small birds peck in the snow beneath a bird trap, a wooden board propped up on a stick, while dark birds perch in the branches overhead.",
+      "caption" : "Villagers skate and play on a frozen stretch of water that winds between snow-covered houses, a church and bare trees under a pale yellowish sky. A small boat rests on the ice near the left bank, and a dark patch opens in the ice near the bottom edge. At right, small birds peck in the snow beside a wooden board propped up on a short stake, while dark birds perch in the branches.",
       "collection" : "Royal Museums of Fine Arts of Belgium",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q873639",
+      "collectionURL" : "https://fine-arts-museum.be/nl/de-collectie/pieter-i-bruegel-winterlandschap-met-schaatsers-en-vogelknip",
       "dateDisplay" : "1565",
       "id" : "wikidata-Q873639",
       "image" : {
@@ -75522,6 +75531,7 @@
         "sitelinks" : 17
       },
       "tags" : [
+        "animals",
         "everyday-life",
         "landscape"
       ],

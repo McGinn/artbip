@@ -3237,9 +3237,11 @@
       "narrative",
       "religious"
     ],
-    "caption": "Mounted soldiers and armed men fill a snow-covered village, confronting inhabitants among houses and bare trees. A dense group of horsemen gathers in the centre, while figures force their way into a building at the right.",
+    "caption": "Soldiers overrun a snow-covered village. A block of armoured horsemen with upright lances waits in the middle, while men on foot drive pikes down into a heap on the ground. Villagers plead, run or sit with their hands to their faces, and at the right men with an axe force their way into a brick building.",
     "dateDisplay": "c. 1565–1567",
-    "movement": "Northern Renaissance"
+    "movement": "Northern Renaissance",
+    "year": 1565,
+    "collectionURL": "https://www.rct.uk/collection/405787/massacre-of-the-innocents"
   },
   "wikidata-Q1134281": {
     "tags": [
@@ -3633,7 +3635,9 @@
     "tags": [
       "portrait"
     ],
-    "caption": "A plucked bird and fish combine into a human face beneath a black cap. Papers form the collar and books the chest, so that the sober dress of a learned professional conceals an unsettling construction of objects."
+    "caption": "A man in a black cap and a fur-trimmed gown turns to the left against a green ground. His face is made of dead birds and fish. Sheets of handwritten paper sit at his neck, and a stack of tied books shows at the bottom of the gown.",
+    "collection": "Nationalmuseum",
+    "collectionURL": "https://collection.nationalmuseum.se/en/collection/item/15897"
   },
   "wikidata-Q1195035": {
     "tags": [
@@ -3710,9 +3714,10 @@
       "narrative",
       "religious"
     ],
-    "caption": "A crowd climbs around a huge red wine barrel, raising cups and other containers while drinkers stagger or fall nearby. At right, Saint Martin sits on a white horse and divides his cloak for a beggar, apart from the scramble.",
+    "caption": "A crowd swarms over a huge red barrel, climbing its wooden supports and holding up bowls and jugs, while men lie sprawled on the ground at lower left. At right, a rider on a pale horse holds a sword to his cloak above figures on the ground.",
     "dateDisplay": "1566–1567",
-    "year": 1566
+    "year": 1566,
+    "collectionURL": "https://www.museodelprado.es/en/the-collection/art-work/the-wine-of-saint-martins-day/e6d44e39-77fb-4deb-a5ed-0a99fbe76847"
   },
   "wikidata-Q1198515": {
     "tags": [
@@ -5641,12 +5646,13 @@
   },
   "wikidata-Q17021187": {
     "tags": [
-      "portrait"
+      "portrait",
+      "satirical"
     ],
-    "caption": "Books form a bearded figure against a blue-grey curtain: an open volume fans out above the head, stacked bindings make the face and torso, and pale bookmarks project like fingers below. A large red book defines one shoulder, while feather dusters form the moustache and beard.",
-    "dateDisplay": "c. 1566 (?)",
-    "year": 1566,
-    "collectionURL": "https://skoklostersslott.se/skoklosters-slotts-historia/samlingarna-i-korthet/"
+    "caption": "A bearded half-length figure built of books stands before a grey-blue curtain. An open volume fanned out on top makes the hair, closed books stack up into the face and chest, and a large red book rises at the left like a shoulder.",
+    "dateDisplay": "1562 or 1566?",
+    "year": 1562,
+    "collectionURL": "https://samlingar.shm.se/object/465F670E-FE9D-4AF7-9C45-7DE92E39EB9A"
   },
   "wikidata-Q17026086": {
     "tags": [
@@ -7037,9 +7043,14 @@
   },
   "wikidata-Q19857397": {
     "tags": [
-      "allegorical"
+      "allegorical",
+      "mythological",
+      "nsfw"
     ],
-    "caption": "Wisdom lifts her eyes towards the light while Hercules, wearing a lion's skin and leaning on his club, looks down. Crowns and jewels lie at their feet beside Cupid; Veronese sets gleaming patterned silk against the hero's bare, muscular body."
+    "caption": "A tall woman in a pink dress and a white robe patterned in blue and gold looks upward, a small sun above her head and one foot on a globe. Beside her a bearded man wrapped in a lion's skin looks down. At his feet a winged child gazes up, and crowns and pearls lie on the floor.",
+    "dateDisplay": "c. 1565",
+    "year": 1565,
+    "collectionURL": "https://collections.frick.org/objects/277"
   },
   "wikidata-Q1986584": {
     "tags": [
@@ -9934,7 +9945,7 @@
     "artist": "Pieter Bruegel the Elder",
     "artistSort": "Bruegel, Pieter, the Elder",
     "collectionURL": "https://www.mfab.hu/artworks/9633/",
-    "caption": "A dense crowd gathers beneath large trees around John the Baptist, a small brown-clad figure with an outstretched arm. Hats, headscarves and varied robes fill the foreground; several spectators climb higher, while a gap in the woods opens onto a distant river and town."
+    "caption": "A dense crowd fills a woodland clearing to hear a bearded preacher in brown, standing a little left of centre with one arm stretched out. In the foreground listeners turn their backs to us in hoods, wide hats, headscarves and striped cloaks. Through a gap in the trees at the upper right, a river winds toward a distant town."
   },
   "wikidata-Q2571560": {
     "tags": [
@@ -18437,9 +18448,13 @@
   },
   "wikidata-Q698254": {
     "tags": [
-      "landscape"
+      "animals",
+      "everyday-life",
+      "landscape",
+      "work"
     ],
-    "caption": "Drovers bring a herd of cattle down a hillside track between bare trees, one swinging a long stick behind a white cow with black patches, while a man on a pale horse and others carrying poles follow at right. Beyond them a wide river winds through a valley between craggy rocks, under heavy dark clouds."
+    "caption": "Herdsmen drive cattle along a hillside track between bare trees, one reaching out with a long stick beside a white cow with black patches, while a cloaked man on a grey-white horse and men with poles over their shoulders follow at right. In the middle distance, people work in a vineyard on a slope that runs down to a wide river, which winds through a valley between craggy rocks under dark clouds.",
+    "collectionURL": "https://www.khm.at/en/artworks/the-return-of-the-herd-autumn-326"
   },
   "wikidata-Q698487": {
     "tags": [
@@ -18680,10 +18695,14 @@
   },
   "wikidata-Q7733345": {
     "tags": [
-      "historical"
+      "historical",
+      "military"
     ],
-    "caption": "The mother of the Persian king Darius, in a blue cloak lined with ermine, kneels with the women and children of the royal family before a group of soldiers at right. Among them Alexander stands in a deep rose costume with his arms spread, beside his friend Hephaestion in armour and an orange cloak. Behind the kneeling women rises a white marble arcade, with onlookers leaning over its balustrade and a monkey perched on a parapet at left.",
-    "movement": "Venetian school"
+    "caption": "Women and children of a royal household kneel on a terrace before a crowd of men in armour at right. At the front a woman in a blue cloak lined with ermine kneels with her back half turned; a young man in deep rose turns toward the group, one hand held open. Behind them stands a pale arcade topped by a balustrade, where onlookers lean over, and a monkey crouches on a parapet at left.",
+    "movement": "Venetian school",
+    "dateDisplay": "1565–1567",
+    "year": 1565,
+    "collectionURL": "https://www.nationalgallery.org.uk/paintings/paolo-veronese-the-family-of-darius-before-alexander"
   },
   "wikidata-Q7735099": {
     "tags": [
@@ -18763,10 +18782,13 @@
   },
   "wikidata-Q776175": {
     "tags": [
-      "everyday-life"
+      "everyday-life",
+      "landscape",
+      "work"
     ],
-    "caption": "Under a tree in a golden field of grain, a group of harvesters sit eating from bowls, bread and a basket, while a man in a white shirt sleeps sprawled on his back beside them. At left two men cut the tall grain and another comes up a path through it carrying jugs, while figures bend to bind sheaves among the stooks at right. Beyond, the land falls away past farms, a church, a hay wagon and a pond to a wide bay with ships.",
-    "movement": "Northern Renaissance"
+    "caption": "Under a tree in a golden wheat field, harvesters sit eating from bowls and a basket of bread, while a man in a white shirt sleeps sprawled on his back beside them. At left, men cut the standing wheat and another walks out of a path cut through it with a jug in each hand; at right, figures bend to bind sheaves among the stooks. Beyond, the land falls away past farms, a church, a loaded wagon and a pond to a wide bay with ships.",
+    "movement": "Northern Renaissance",
+    "collectionURL": "https://www.metmuseum.org/art/collection/search/435809"
   },
   "wikidata-Q7769644": {
     "tags": [
@@ -18992,10 +19014,12 @@
   },
   "wikidata-Q873639": {
     "tags": [
+      "animals",
       "everyday-life",
       "landscape"
     ],
-    "caption": "Villagers skate and play games on a frozen stretch of water that winds between snow-covered houses, a church and bare trees under a pale yellowish sky. A small boat lies stuck in the ice at the left, and a dark hole opens in the ice near the bottom edge. On the right, small birds peck in the snow beneath a bird trap, a wooden board propped up on a stick, while dark birds perch in the branches overhead."
+    "caption": "Villagers skate and play on a frozen stretch of water that winds between snow-covered houses, a church and bare trees under a pale yellowish sky. A small boat rests on the ice near the left bank, and a dark patch opens in the ice near the bottom edge. At right, small birds peck in the snow beside a wooden board propped up on a short stake, while dark birds perch in the branches.",
+    "collectionURL": "https://fine-arts-museum.be/nl/de-collectie/pieter-i-bruegel-winterlandschap-met-schaatsers-en-vogelknip"
   },
   "wikidata-Q877191": {
     "tags": [
