@@ -65,7 +65,10 @@ def commit(dest,index,message,push):
     git(dest,'add','-A','images','index.json')
     if subprocess.run(['git','-C',str(dest),'diff','--cached','--quiet']).returncode:
         git(dest,'commit','-q','-m',message)
-        if push: git(dest,'push','-q','origin','HEAD')
+        # A dropped push only delays the backup: the next push carries these commits.
+        for attempt in range(3 if push else 0):
+            if subprocess.run(['git','-C',str(dest),'-c','http.postBuffer=524288000','push','-q','origin','HEAD']).returncode==0: break
+            print(f'push failed (attempt {attempt+1}/3)',flush=True);time.sleep(30)
 
 def archive(dest,push):
     (dest/'images').mkdir(exist_ok=True)
