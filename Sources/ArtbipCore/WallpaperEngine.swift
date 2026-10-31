@@ -246,6 +246,10 @@ public enum WallpaperEngine {
         return work
     }
 
+    /// Unavailable works skipped in one advance before giving up, so a
+    /// collection whose links are all dead fails instead of looping.
+    static let maxUnavailableSkips = 5
+
     /// Injectable I/O keeps concurrency tests off the real desktop and network.
     static func advanceUsing(store: RuntimeStore, manifest: Manifest, scheduled: Bool,
                              fetch: (ManifestWork) async throws -> Data,
@@ -258,10 +262,29 @@ public enum WallpaperEngine {
             throw Superseded()
         }
         var selection = initial
-        guard let work = Rotator.next(manifest: manifest, state: &selection, settings: settings) else {
-            throw RuntimeError("No works available for rotation. Add works to the selected collection or choose another rotation source in Settings.")
+        var work: ManifestWork
+        var data: Data
+        var skipped = 0
+        while true {
+            guard let next = Rotator.next(manifest: manifest, state: &selection, settings: settings) else {
+                throw RuntimeError("No works available for rotation. Add works to the selected collection or choose another rotation source in Settings.")
+            }
+            do {
+                data = try await fetch(next)
+                work = next
+                break
+            } catch let error as ImageUnavailable {
+                // One dead link must not stall rotation. Leave the work out of
+                // this cycle only, so a link the source restores comes back.
+                skipped += 1
+                guard skipped < maxUnavailableSkips else { throw error }
+                try store.updateState { state in
+                    state.queue = selection.queue
+                    state.cycleMembers = selection.cycleMembers
+                }
+                selection = try store.readState()
+            }
         }
-        let data = try await fetch(work)
         try Task.checkCancellation()
         try await MainActor.run {
             // Recheck on the rendering actor, after its queued UI events. No

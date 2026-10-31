@@ -112,9 +112,16 @@ The app and the CLI share one runtime directory:
   failures after three minutes, backing off to thirty minutes. A heartbeat stops
   a stopped app's last timer from looking live.
 - **`ImageCache`** keeps originals and thumbnails under one least-recently-used
-  byte budget (2 GB by default) and prefetches the next few works.
+  byte budget (2 GB by default) and prefetches the next few works. It caches
+  only data that decodes as an image. A 4xx other than 408 or 429, or a page
+  in place of an image, is `ImageUnavailable`. A damaged cached file is fetched
+  again.
 - **`WallpaperEngine`** fetches the image, composes one wallpaper per screen,
-  sets it with `NSWorkspace`, saves state and prefetches ahead.
+  sets it with `NSWorkspace`, saves state and prefetches ahead. An unavailable
+  image drops that work from the current cycle and rotation moves on, up to
+  five skips per advance, so one dead link never stalls rotation. The work
+  returns next cycle, so a restored link recovers by itself. Temporary failures
+  (offline, timeouts, 5xx) keep the work and retry it.
 
 ## The app
 

@@ -1,5 +1,27 @@
 import Foundation
 
+/// The source no longer serves this work's image: the file was removed or
+/// renamed, or a page came back in place of an image. Rotation skips the work
+/// and tries it again next cycle. Temporary failures (offline, timeouts, 5xx)
+/// are not this error, so they keep retrying the same work.
+public struct ImageUnavailable: Error, CustomStringConvertible {
+    public let workID: String
+    public let title: String
+    public let reason: String
+    public var description: String { "The image for “\(title)” is not available from its source (\(reason))." }
+
+    init(_ work: ManifestWork, _ reason: String) {
+        workID = work.id
+        title = work.title
+        self.reason = reason
+    }
+
+    /// 408 and 429 are the client-side statuses worth retrying.
+    static func isPermanent(status: Int) -> Bool {
+        (400..<500).contains(status) && status != 408 && status != 429
+    }
+}
+
 /// Disk cache for full-size originals (and gallery thumbnails), kept under a
 /// byte budget with LRU eviction. Files are named by work id; last-use is the
 /// file's modification time, touched on every hit — no separate index to drift.
@@ -28,16 +50,18 @@ public actor ImageCache {
     public func originalData(for work: ManifestWork) async throws -> Data {
         let file = originalsDir.appendingPathComponent("\(work.id).img")
         if let data = try? Data(contentsOf: file) {
-            touch(file)
-            return data
+            if Thumbs.imageSize(of: data) != nil {
+                touch(file)
+                return data
+            }
+            // A damaged cached file would fail every rotation; fetch it again.
+            try? FileManager.default.removeItem(at: file)
         }
-        guard let url = URL(string: work.image.url) else {
-            throw NSError(domain: "artbip", code: 2, userInfo: [
-                NSLocalizedDescriptionKey: "bad image URL for \(work.id)"])
-        }
+        guard let url = URL(string: work.image.url) else { throw ImageUnavailable(work, "bad image URL") }
         // Http's own cache is bypassed — this cache owns eviction.
         let generation = downloadGeneration
-        let data = try await http.get(url, cache: false)
+        let data = try await download(url, for: work)
+        guard Thumbs.imageSize(of: data) != nil else { throw ImageUnavailable(work, "not an image") }
         try Task.checkCancellation()
         guard generation == downloadGeneration else { return data }
         try data.write(to: file, options: .atomic)
@@ -94,20 +118,27 @@ public actor ImageCache {
                 return thumb
             }
         }
-        guard let url = work.image.url(width: width) else {
-            throw NSError(domain: "artbip", code: 2, userInfo: [
-                NSLocalizedDescriptionKey: "bad image URL for \(work.id)"])
-        }
+        guard let url = work.image.url(width: width) else { throw ImageUnavailable(work, "bad image URL") }
         let generation = downloadGeneration
-        let data = try await http.get(url, cache: false)
+        let data = try await download(url, for: work)
         // Sources without a size template return the full derivative — shrink
         // before storing so 2,000 thumbs stay a few hundred MB, not gigabytes.
-        let thumb = Thumbs.makeThumbnail(from: data, maxDimension: width) ?? data
+        guard let thumb = Thumbs.makeThumbnail(from: data, maxDimension: width) else {
+            throw ImageUnavailable(work, "not an image")
+        }
         try Task.checkCancellation()
         guard generation == downloadGeneration else { return thumb }
         try thumb.write(to: file, options: .atomic)
         enforceBudget()
         return thumb
+    }
+
+    private func download(_ url: URL, for work: ManifestWork) async throws -> Data {
+        do {
+            return try await http.get(url, cache: false)
+        } catch let error as HttpError where ImageUnavailable.isPermanent(status: error.status) {
+            throw ImageUnavailable(work, "HTTP \(error.status)")
+        }
     }
 
     // MARK: Budget

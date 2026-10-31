@@ -205,4 +205,36 @@ struct RotationTests {
         }
         #expect((try store.readState().history.count) == (1))
     }
+
+    @Test func testUnavailableImageIsSkippedForTheCycle() async throws {
+        let store = try temporaryStore()
+        defer { try? FileManager.default.removeItem(at: store.dir) }
+        let manifest = try fixture()
+        var broken: String?
+        let work = try await WallpaperEngine.advanceUsing(store: store, manifest: manifest, scheduled: false,
+            fetch: { work in
+                if broken == nil { broken = work.id }
+                if work.id == broken { throw ImageUnavailable(work, "HTTP 404") }
+                return Data()
+            }, render: { _, _, _ in })
+        let state = try store.readState()
+        #expect(work.id != broken)
+        #expect(state.current == work.id)
+        #expect(state.history.map(\.id) == [work.id])
+        #expect(!state.queue.contains(broken!))
+        #expect(state.queue.count == 1)
+    }
+
+    @Test func testAllUnavailableFailsWithoutLooping() async throws {
+        let store = try temporaryStore()
+        defer { try? FileManager.default.removeItem(at: store.dir) }
+        var attempts = 0
+        await #expect(throws: ImageUnavailable.self) {
+            try await WallpaperEngine.advanceUsing(store: store, manifest: try fixture(["a"]), scheduled: false,
+                fetch: { work in attempts += 1; throw ImageUnavailable(work, "HTTP 410") },
+                render: { _, _, _ in Issue.record("Nothing to render") })
+        }
+        #expect(attempts == WallpaperEngine.maxUnavailableSkips)
+        #expect(try store.readState().history.isEmpty)
+    }
 }

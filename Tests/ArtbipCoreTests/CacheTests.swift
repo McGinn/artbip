@@ -2,6 +2,8 @@ import Foundation
 import Testing
 @testable import ArtbipCore
 
+private let tinyPNG = Data(base64Encoded: "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+jRZkAAAAASUVORK5CYII=")!
+
 private final class HoldingProtocol: URLProtocol, @unchecked Sendable {
     static var entered = Gate()
     static var stopped = Gate()
@@ -29,9 +31,26 @@ private final class DelayedImageProtocol: URLProtocol, @unchecked Sendable {
             await Self.finish.wait()
             let response = HTTPURLResponse(url: request.url!, statusCode: 200, httpVersion: nil, headerFields: nil)!
             client?.urlProtocol(self, didReceive: response, cacheStoragePolicy: .notAllowed)
-            client?.urlProtocol(self, didLoad: Data([1, 2, 3]))
+            client?.urlProtocol(self, didLoad: tinyPNG)
             client?.urlProtocolDidFinishLoading(self)
         }
+    }
+    override func stopLoading() {}
+}
+
+/// Answers by the request's last path component: "gone" is a 404, "page" an
+/// HTML page with status 200, anything else a PNG.
+private final class BrokenSourceProtocol: URLProtocol, @unchecked Sendable {
+    override class func canInit(with request: URLRequest) -> Bool { true }
+    override class func canonicalRequest(for request: URLRequest) -> URLRequest { request }
+    override func startLoading() {
+        let name = request.url!.lastPathComponent
+        let status = name == "gone" ? 404 : 200
+        let body = name == "page" ? Data("<html>Moved</html>".utf8) : name == "gone" ? Data() : tinyPNG
+        let response = HTTPURLResponse(url: request.url!, statusCode: status, httpVersion: nil, headerFields: nil)!
+        client?.urlProtocol(self, didReceive: response, cacheStoragePolicy: .notAllowed)
+        client?.urlProtocol(self, didLoad: body)
+        client?.urlProtocolDidFinishLoading(self)
     }
     override func stopLoading() {}
 }
@@ -54,7 +73,7 @@ struct CacheTests {
         await DelayedImageProtocol.entered.wait()
         try await cache.clearDownloads()
         await DelayedImageProtocol.finish.open()
-        #expect(try await request.value == Data([1, 2, 3]))
+        #expect(try await request.value == tinyPNG)
         #expect(await cache.sizeBytes() == 0)
         #expect(!(await cache.hasOriginal(for: work.id)))
         // A new request after clearing may cache the image normally.
@@ -106,8 +125,7 @@ struct CacheTests {
         let store = try temporaryStore()
         defer { try? FileManager.default.removeItem(at: store.dir) }
         let cache = ImageCache(store: store, http: Http(cacheDir: store.dir.appendingPathComponent("http")), budgetMB: 0)
-        let png = Data(base64Encoded: "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+jRZkAAAAASUVORK5CYII=")!
-        try png.write(to: store.originalsDir.appendingPathComponent("a.img"))
+        try tinyPNG.write(to: store.originalsDir.appendingPathComponent("a.img"))
         let thumb = try await cache.thumbnailData(for: fixture(["a"]).works[0])
         #expect(!thumb.isEmpty)
         #expect(await cache.sizeBytes() == 0)
@@ -127,7 +145,7 @@ struct CacheTests {
         await cache.startPrefetch(try fixture(["hold"]).works)
         await HoldingProtocol.entered.wait()
         // This succeeds while the prefetch HTTP request has no response.
-        let bytes = Data([1, 2, 3])
+        let bytes = tinyPNG
         try bytes.write(to: store.originalsDir.appendingPathComponent("cached.img"))
         #expect(try await cache.originalData(for: fixture(["cached"]).works[0]) == bytes)
         await cache.cancelPrefetch()
@@ -136,5 +154,27 @@ struct CacheTests {
         await cache.prefetch(try fixture(["fail"]).works)
         #expect(!(await cache.hasOriginal(for: "fail")))
         #expect(try await cache.originalData(for: fixture(["cached"]).works[0]) == bytes)
+    }
+
+    @Test func brokenSourcesAreUnavailableAndNeverCached() async throws {
+        let store = try temporaryStore()
+        defer { try? FileManager.default.removeItem(at: store.dir) }
+        let cfg = URLSessionConfiguration.ephemeral
+        cfg.protocolClasses = [BrokenSourceProtocol.self]
+        let session = URLSession(configuration: cfg)
+        defer { session.invalidateAndCancel() }
+        let cache = ImageCache(store: store,
+            http: Http(cacheDir: store.dir.appendingPathComponent("http"), session: session), budgetMB: 10)
+        for id in ["gone", "page"] {
+            let work = try fixture([id]).works[0]
+            await #expect(throws: ImageUnavailable.self) { try await cache.originalData(for: work) }
+            await #expect(throws: ImageUnavailable.self) { try await cache.thumbnailData(for: work) }
+            #expect(!(await cache.hasOriginal(for: id)))
+        }
+        // A damaged cached original is replaced rather than served forever.
+        let damaged = store.originalsDir.appendingPathComponent("ok.img")
+        try Data("<html>".utf8).write(to: damaged)
+        #expect(try await cache.originalData(for: fixture(["ok"]).works[0]) == tinyPNG)
+        #expect(try Data(contentsOf: damaged) == tinyPNG)
     }
 }
