@@ -1540,8 +1540,11 @@
   },
   "met-679844": {
     "tags": [
-      "everyday-life"
-    ]
+      "everyday-life",
+      "still-life",
+      "work"
+    ],
+    "caption": "An old bearded fishmonger grips a cleaver and lays his other hand on a fish at a wooden table covered with salmon steaks, whole and cut fish. On the right a woman in a red jacket rests her folded hands on a pot, beside a large metal bowl and a round table of fish. Women with baskets stand behind, and through a stone archway men carry baskets in front of a tall tower."
   },
   "met-747607": {
     "tags": [
@@ -3081,8 +3084,11 @@
       "everyday-life",
       "landscape"
     ],
-    "caption": "A magpie perches on the crossbeam of a gallows beside dancing villagers. Beyond the wooded foreground, a winding river leads past settlements and rocky heights into a pale blue distance.",
-    "collectionURL": "https://www.hlmd.de/de/entdecken/kunst-und-kulturgeschichte/gemaeldegalerie"
+    "caption": "A magpie perches on the crossbeam of a gallows that stands on a rock near a group of dancing villagers. Beyond the wooded foreground, a winding river leads past a castle, settlements and rocky heights into a pale blue distance.",
+    "collectionURL": "https://www.hlmd.de/de/entdecken/digitale-sammlung/datenblatt?objectID=168145",
+    "collection": "Hessisches Landesmuseum Darmstadt",
+    "dateDisplay": "1568",
+    "year": 1568
   },
   "wikidata-Q1123378": {
     "tags": [
@@ -3599,9 +3605,11 @@
       "narrative",
       "religious"
     ],
-    "caption": "Six blind men form a line across a village landscape, linked by hands and staffs. At right, the leader has fallen into a ditch and the next man tumbles after him, beneath trees near a church.",
+    "caption": "Six men in cloaks and caps move in a line from left to right, linked by long staffs and hands on shoulders. At right the leader lies on his back in a ditch, and the man behind him is falling on top of him. Behind them stand cottages, trees and a church with a tall spire.",
     "collectionURL": "https://artsandculture.google.com/asset/the-blind-leading-the-blind-pieter-bruegel-the-elder/pwGQmihrf3O0Lg?hl=en-GB",
-    "movement": "Northern Renaissance"
+    "movement": "Northern Renaissance",
+    "dateDisplay": "1568",
+    "year": 1568
   },
   "wikidata-Q1193312": {
     "tags": [
@@ -4851,12 +4859,14 @@
     "tags": [
       "architecture",
       "cityscape",
+      "landscape",
       "religious",
       "work"
     ],
-    "caption": "A vast round tower fills the scene with tiers of arched openings and sloping galleries. Its unfinished red upper walls rise above the darker lower levels, while clouds cross its right side; tiny workers, houses and boats surround the base.",
+    "caption": "A huge round tower rises in tiers of arches, its unfinished red-brick top bristling with scaffolding. Clouds pass across its right side. Tiny figures, carts and huts crowd its ramps and base; ships fill a harbour at lower right, and fields and houses stretch away to the left.",
     "dateDisplay": "c. 1568",
-    "year": 1568
+    "year": 1568,
+    "collectionURL": "https://www.boijmans.nl/en/collection/artworks/3723/the-tower-of-babel"
   },
   "wikidata-Q153441": {
     "tags": [
@@ -7627,9 +7637,11 @@
   },
   "wikidata-Q2059447": {
     "tags": [
-      "allegorical"
+      "allegorical",
+      "figure",
+      "landscape"
     ],
-    "caption": "A white-bearded man in a black hooded cloak walks with his hands clasped. Behind him, a barefoot thief enclosed in a transparent globe cuts away a red purse. Small spikes lie on the path ahead; a shepherd, flock and windmill occupy the distance. Two lines of lettering run beneath the circular scene.",
+    "caption": "A man with a long white beard, in a black hooded cloak, walks head down with his hands clasped. Behind him a barefoot man in ragged clothes, crouching inside a ringed globe topped by a cross, cuts a red purse from the cloak with a small knife. Small spiked objects lie on the path; a shepherd, a flock and a windmill stand in the distance. Two lines of Gothic lettering run beneath the round scene.",
     "title": "The Misanthrope",
     "dateDisplay": "1568",
     "year": 1568,
@@ -10714,8 +10726,10 @@
     ],
     "title": "Fire",
     "collection": "Kunsthistorisches Museum, Vienna",
-    "collectionURL": "https://www.nga.gov/sites/default/files/2025-07/arcimboldo_brochure.pdf",
-    "caption": "A left-facing head combines flint, fire strikers, candles and an oil lamp, crowned by burning wood and flames above a chest of firearms."
+    "collectionURL": "https://www.khm.at/en/artworks/fire-73",
+    "caption": "A head in profile, facing left, built from fire-making things: a flint for the cheek, steel strikers for the nose and ear, and a small oil lamp with a lit wick under a bundle of white sticks. Its hair is a heap of burning sticks and flames. A jewelled gold chain lies across a chest of gun barrels and cannon.",
+    "dateDisplay": "1566",
+    "year": 1566
   },
   "wikidata-Q27978850": {
     "tags": [
@@ -10724,8 +10738,10 @@
     ],
     "title": "Water",
     "collection": "Kunsthistorisches Museum, Vienna",
-    "collectionURL": "https://zeitendernatur.khm.at/kapitel-iii-neujahrsmenue-fuer-den-kaiser/",
-    "caption": "Fish and other sea creatures form a left-facing head, with red coral above the forehead, a shell ear and pearl jewellery across the chest."
+    "collectionURL": "https://www.khm.at/en/artworks/water-74",
+    "caption": "A head in profile, facing left, made of sea creatures. A flat ray lies across the cheek, a fish's open jaws form the mouth, and a pale shell ear wears a pearl drop. Red coral branches stick out at the upper front of the head, and a small spiky crown sits on top. A string of large pearls circles the neck above a turtle, with a big crab at lower left and an octopus at right.",
+    "dateDisplay": "1566",
+    "year": 1566
   },
   "wikidata-Q28001663": {
     "tags": [
@@ -13817,6 +13833,7 @@
   },
   "wikidata-Q375216": {
     "tags": [
+      "animals",
       "everyday-life",
       "landscape",
       "religious"
@@ -13827,7 +13844,7 @@
     "year": 1566,
     "artistDeathYear": 1569,
     "collectionURL": "https://fine-arts-museum.be/fr/la-collection/pieter-i-bruegel-le-denombrement-de-bethleem",
-    "caption": "People crowd around a table outside an inn in a snow-covered village. In the foreground, a cloaked woman rides a donkey beside a man and an ox, while carts, bare trees and people working or playing fill the wider scene."
+    "caption": "A village lies under snow and a grey sky. On the left a crowd presses against the front of an inn, while people cross the frozen ponds, carts and barrels stand in the snow and bare trees rise over the roofs. In the lower centre a cloaked woman rides a donkey, with an ox beside her."
   },
   "wikidata-Q3753366": {
     "tags": [
@@ -18207,9 +18224,14 @@
   },
   "wikidata-Q665337": {
     "tags": [
+      "landscape",
+      "military",
       "religious"
     ],
-    "caption": "A long column of soldiers on foot and on horseback, many in armour and carrying pikes, climbs a steep rocky mountain path under tall dark fir trees. Near the middle, small among the crowd, Saul lies on his back in blue beside a fallen horse while men bend over him. Riders in black and in yellow on pale horses fill the right foreground, and at left the land drops away to a distant plain and sea."
+    "caption": "A long column of soldiers on foot and on horseback, many in armour and carrying pikes, climbs a steep rocky mountain path under tall dark fir trees. Near the middle, small among the crowd, a man in blue, probably Saul, lies on his back beside a fallen horse while men bend over him. Riders in black and in yellow on pale horses fill the right foreground, and at left the land drops away to a distant plain and sea.",
+    "collectionURL": "https://www.khm.at/en/artworks/the-conversion-of-paul-328",
+    "dateDisplay": "1567",
+    "year": 1567
   },
   "wikidata-Q666982": {
     "tags": [
@@ -18467,8 +18489,11 @@
     "tags": [
       "portrait"
     ],
-    "caption": "Jacopo Strada, a bearded man in black with red satin sleeves, a white ruff and heavy gold chains, leans across a table holding a small nude statuette of Aphrodite while he looks off to our right. A grey fur wrap slips from his shoulder, a sword hilt shows at his side, and on the table lie coins, a folded letter and a marble torso. Two books rest on a cabinet behind him, and a framed inscription hangs on the wall at upper right.",
-    "movement": "Venetian school"
+    "caption": "A bearded man in a black doublet with shiny red sleeves, a white ruff and heavy gold chains with a medallion leans over a table, holding up a small nude statuette while he looks off to our right. A grey-white fur hangs from his shoulders and a sword hilt shows at his side. On the table lie coins, a folded letter and a white stone torso. Two books lie on top of a cupboard behind him, a gilt-framed inscription hangs at upper right, and the letters TITIANVS F appear at upper left.",
+    "movement": "Venetian school",
+    "dateDisplay": "c. 1567–1568",
+    "year": 1567,
+    "collectionURL": "https://www.khm.at/en/artworks/jacopo-strada-1949"
   },
   "wikidata-Q699319": {
     "tags": [
