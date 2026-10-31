@@ -1386,9 +1386,13 @@
   },
   "met-437891": {
     "tags": [
-      "mythological"
+      "allegorical",
+      "animals",
+      "mythological",
+      "nsfw",
+      "nude"
     ],
-    "caption": "A cupid binds Mars and Venus together while another attends the warhorse at the right. The horse stands quietly beside the lovers, its cool grey coat contrasting with gleaming armour, pink drapery and the deep blue cloth around Venus.",
+    "caption": "A nude Venus with a pearl necklace presses milk from her breast and rests her other hand on Mars's shoulder. He leans in, wearing gilded armour and a mauve-pink cloak, holding a blue cloth against her thigh. At the left a winged cupid knots a pink ribbon round her leg; at the right another holds back a grey horse with a sheathed sword.",
     "movement": "Venetian school"
   },
   "met-437898": {
@@ -2609,8 +2613,9 @@
     "title": "Christ Crowned with Thorns",
     "dateDisplay": "c. 1570",
     "collectionURL": "https://www.sammlung.pinakothek.de/en/artwork/M0xyYAVxpl",
-    "caption": "Henchmen press the crown of thorns onto Christ's head with long sticks as he endures the abuse amid a sombre crowd. In this major late work, Titian dissolves contours into rough, expressive paint to intensify the torture scene.",
-    "movement": "Venetian school"
+    "caption": "Christ sits on a step, eyes lowered and hands crossed in his lap, wearing the crown of thorns. Men on both sides jab at his head with long sticks that cross above it, and a soldier in a dark breastplate and yellow sleeve leans in close. A lamp with several flames hangs in the gloom at top right.",
+    "movement": "Venetian school",
+    "collection": "Bavarian State Painting Collections – Alte Pinakothek, Munich"
   },
   "wikidata-Q10322900": {
     "tags": [
@@ -5408,7 +5413,8 @@
     "caption": "Tarquin leans over Lucretia on a bed, raising a dagger while gripping her upstretched arm. She presses her other hand against his chest; a third figure peers from behind the dark green curtain at the left. His red clothing contrasts with her bare skin and the white bedding.",
     "dateDisplay": "c. 1571",
     "year": 1571,
-    "movement": "Venetian school"
+    "movement": "Venetian school",
+    "collectionURL": "https://data.fitzmuseum.cam.ac.uk/id/object/656"
   },
   "wikidata-Q16545736": {
     "tags": [
@@ -11020,6 +11026,7 @@
   "wikidata-Q2883671": {
     "tags": [
       "allegorical",
+      "nsfw",
       "nude",
       "religious"
     ],
@@ -11027,7 +11034,7 @@
     "year": 1572,
     "collection": "Museo del Prado, Madrid",
     "collectionURL": "https://www.museodelprado.es/en/the-collection/art-work/religion-assisted-by-spain/87d62756-4028-4ff6-a08a-c69bb035982a",
-    "caption": "Armored Spain raises a standard at the left as the partly draped figure of Religion kneels beside a serpent-covered tree, with scattered armor and a naval scene between them.",
+    "caption": "Spain, in a gold breastplate, pink tunic and green skirt, strides in from the left holding up a long lance with a red banner tied below its point. Behind her crowd a woman, a helmeted man with a sword and more figures with spears. At right a half-naked woman bows beside a tree, with snakes coiled on a broken trunk behind her. Between them lie a plumed helmet and armour, and on the sea beyond, a figure in a sea-horse chariot passes sailing ships.",
     "movement": "Venetian school"
   },
   "wikidata-Q288380": {
@@ -11393,12 +11400,13 @@
       "nsfw",
       "nude"
     ],
-    "dateDisplay": "c. 1570",
+    "dateDisplay": "c. 1550–1570",
     "title": "Danaë",
     "collection": "Musée des Beaux-Arts de Lyon",
-    "collectionURL": "https://www.mba-lyon.fr/sites/mba/files/medias/images/2021-01/musee-autonomie_Figures-mythe.pdf",
-    "caption": "Danaë rests on white bedding beneath red curtains as gold coins fall around her. A young attendant at right gathers coins in a blue cloth; a small brown-and-white dog lies on the floor below.",
-    "movement": "Venetian school"
+    "collectionURL": "https://collections.louvre.fr/ark:/53355/cl010058893",
+    "caption": "A nude Danaë sits on white sheets beneath heavy red curtains, gold coins scattered over the drapery, her thighs and the bed. She turns toward a maid in a red dress who looks upward and holds open a blue cloth with coins in it. A small brown-and-white dog lies on the floor, and a lute rests on the window ledge at right.",
+    "movement": "Venetian school",
+    "year": 1550
   },
   "wikidata-Q3013751": {
     "tags": [
@@ -11728,7 +11736,8 @@
     "dateDisplay": "1567–68",
     "collection": "Pinacoteca Nazionale di Bologna",
     "collectionURL": "https://pinacotecabologna.cultura.gov.it/opere-darte/ultima-cena-427",
-    "caption": "Christ sits at the centre of a crowded supper table beneath a dark hanging curtain; Judas, seen from behind, twists on a pale stool in the foreground."
+    "caption": "Christ, with a glowing halo, sits at the centre of a long table covered in white, his disciples around it, under a heavy dark green curtain. In the foreground a lone man in a dark robe, seen from behind, perches on a pale stool on the near side of the table. The floor is laid with pink and grey-green tiles.",
+    "year": 1567
   },
   "wikidata-Q3208135": {
     "tags": [
@@ -13923,7 +13932,9 @@
     "tags": [
       "everyday-life"
     ],
-    "caption": "Five men using crutches and wooden supports gather in a walled courtyard. Their varied headgear includes a red crown-like cap and a paper mitre, while fox tails hang from several cloaks; these strange costumes leave the scene’s precise meaning open to interpretation."
+    "caption": "Five men, most on crutches and several with wooden supports strapped to their legs, cross the grass between brick walls. Fox tails hang from their clothes; one wears a tall red cap, and two wear white hats, one of them a paper mitre. Behind them a figure in a long black cloak walks away holding a bowl.",
+    "collection": "Musée du Louvre",
+    "collectionURL": "https://collections.louvre.fr/en/ark:/53355/cl010061789"
   },
   "wikidata-Q3777363": {
     "tags": [
@@ -18235,9 +18246,11 @@
   },
   "wikidata-Q666982": {
     "tags": [
-      "everyday-life"
+      "everyday-life",
+      "landscape"
     ],
-    "caption": "A peasant in a hood, brown jacket and grey hose strides towards us, a stick in one hand, pointing back with the other at a tree where a nest robber in red breeches clings to the trunk, his hat falling. At the peasant's feet the path ends at the edge of a stream. Behind him a sunny meadow stretches to thatched farm buildings and two brown horses."
+    "caption": "A peasant in a hood, brown jacket and grey hose strides towards us, a stick in one hand, pointing up with the other at a tree where a nest robber in red breeches clings to the trunk, his hat falling. At the peasant's feet the path ends at the edge of a stream. Behind him a sunny meadow stretches to thatched farm buildings and two brown horses.",
+    "collectionURL": "https://www.khm.at/en/objectdb/detail/329/"
   },
   "wikidata-Q6675297": {
     "tags": [
@@ -19159,10 +19172,14 @@
   },
   "wikidata-Q9026835": {
     "tags": [
+      "nsfw",
       "religious"
     ],
-    "caption": "Mary Magdalene, her long auburn hair loose, gazes up towards a break of light in the clouds, one hand pressed to her breast. A lilac and blue mantle wraps her, and her other hand rests open beside a skull lying on an open book. Ivy climbs the rock behind her; at the left a lidded glass jar stands before a pale view of the sea.",
-    "movement": "Mannerism"
+    "caption": "Mary Magdalene, her long reddish hair loose, looks up toward a shaft of light breaking through the clouds, her right hand pressed to her bare chest. A lilac mantle lined with blue-green wraps her. Her left hand hangs open above a skull resting on an open book. Ivy climbs the rock behind her; at the far left a lidded glass jar stands before a pale view of water, buildings and distant hills.",
+    "movement": "Mannerism",
+    "dateDisplay": "c. 1576–1577",
+    "year": 1576,
+    "collectionURL": "https://www.mfab.hu/artworks/9931/"
   },
   "wikidata-Q9074362": {
     "tags": [
@@ -19611,10 +19628,13 @@
   },
   "wikidata-Q95562": {
     "tags": [
-      "everyday-life"
+      "dance",
+      "everyday-life",
+      "music"
     ],
     "caption": "At a village fair a peasant couple hurry hand in hand across the street towards the dancing, the man in a black jacket and cap, the woman in a white headscarf and yellow apron. At left a bagpiper in a white jacket plays beside a table of drinkers, where a beggar or perhaps a pilgrim reaches across, and two small girls dance in front of him. Behind them more villagers dance in a ring between thatched houses, with a church tower in the distance.",
-    "dateDisplay": "c. 1568"
+    "dateDisplay": "c. 1568",
+    "collectionURL": "https://www.khm.at/en/artworks/peasant-dance-331"
   },
   "wikidata-Q955670": {
     "tags": [
