@@ -89,6 +89,49 @@
       "year" : 1885
     },
     {
+      "artist" : "George Bellows",
+      "artistDeathYear" : 1925,
+      "artistSort" : "Bellows, George",
+      "caption" : "Skaters crowd a frozen pond below dark, wooded blue hills, while onlookers in red coats and an olive-yellow dress stand on the snowy bank in the foreground.",
+      "collection" : "Art Institute of Chicago",
+      "collectionURL" : "https://www.artic.edu/artworks/109780",
+      "dateDisplay" : "1914",
+      "id" : "artic-109780",
+      "image" : {
+        "format" : "jpeg",
+        "sourceMaxHeight" : 4577,
+        "sourceMaxWidth" : 5767,
+        "url" : "https://www.artic.edu/iiif/2/18ab0c35-e35c-0216-9afd-f93357920db1/full/3840,/0/default.jpg",
+        "urlTemplate" : "https://www.artic.edu/iiif/2/18ab0c35-e35c-0216-9afd-f93357920db1/full/{w},/0/default.jpg"
+      },
+      "license" : {
+        "evidence" : "artic:is_public_domain",
+        "sourceURL" : "https://www.artic.edu/artworks/109780",
+        "status" : "CC0"
+      },
+      "medium" : "Oil on canvas",
+      "paletteDominantHSL" : [
+        42,
+        70,
+        49
+      ],
+      "region" : "New York",
+      "significance" : {
+        "canonLists" : [
+
+        ],
+        "curatorScore" : 7.5,
+        "museumHighlight" : true
+      },
+      "tags" : [
+        "everyday-life",
+        "landscape",
+        "sport"
+      ],
+      "title" : "Love of Winter",
+      "year" : 1914
+    },
+    {
       "artist" : "Piet Mondrian",
       "artistDeathYear" : 1944,
       "artistSort" : "Mondrian, Piet",
@@ -129,6 +172,49 @@
       ],
       "title" : "Lozenge Composition with Yellow, Black, Blue, Red, and Gray",
       "year" : 1921
+    },
+    {
+      "artist" : "Édouard Vuillard",
+      "artistDeathYear" : 1940,
+      "artistSort" : "Vuillard, Édouard",
+      "caption" : "Seen over a tiled roof, a patchwork of ochre, olive, and moss-green fields, poplars, and a white church spire spreads beside a gabled house where a figure sits at a shuttered window.",
+      "collection" : "Art Institute of Chicago",
+      "collectionURL" : "https://www.artic.edu/artworks/109926",
+      "dateDisplay" : "1899",
+      "id" : "artic-109926",
+      "image" : {
+        "format" : "jpeg",
+        "sourceMaxHeight" : 2564,
+        "sourceMaxWidth" : 4000,
+        "url" : "https://www.artic.edu/iiif/2/a1dc6109-6e0c-7801-ebe8-8c95fec2c4e4/full/3840,/0/default.jpg",
+        "urlTemplate" : "https://www.artic.edu/iiif/2/a1dc6109-6e0c-7801-ebe8-8c95fec2c4e4/full/{w},/0/default.jpg"
+      },
+      "license" : {
+        "evidence" : "artic:is_public_domain",
+        "sourceURL" : "https://www.artic.edu/artworks/109926",
+        "status" : "CC0"
+      },
+      "medium" : "Oil on canvas",
+      "movement" : "Post-Impressionism",
+      "paletteDominantHSL" : [
+        47,
+        77,
+        46
+      ],
+      "region" : "France",
+      "significance" : {
+        "canonLists" : [
+
+        ],
+        "curatorScore" : 7.5,
+        "museumHighlight" : true
+      },
+      "tags" : [
+        "interior",
+        "landscape"
+      ],
+      "title" : "Landscape: Window Overlooking the Woods",
+      "year" : 1899
     },
     {
       "artist" : "Frédéric Bazille",
@@ -524,6 +610,48 @@
       "year" : 1670
     },
     {
+      "artist" : "Carl Blechen",
+      "artistDeathYear" : 1840,
+      "artistSort" : "Blechen, Carl",
+      "caption" : "Dappled sunlight falls across the floor of a palm house, where women in Eastern dress rest on a red carpet among slender white columns and tropical fronds.",
+      "collection" : "Art Institute of Chicago",
+      "collectionURL" : "https://www.artic.edu/artworks/144969",
+      "dateDisplay" : "1834",
+      "id" : "artic-144969",
+      "image" : {
+        "format" : "jpeg",
+        "sourceMaxHeight" : 6497,
+        "sourceMaxWidth" : 6050,
+        "url" : "https://www.artic.edu/iiif/2/38bb6be4-223e-af7a-7e18-f9ad0c388d3c/full/3840,/0/default.jpg",
+        "urlTemplate" : "https://www.artic.edu/iiif/2/38bb6be4-223e-af7a-7e18-f9ad0c388d3c/full/{w},/0/default.jpg"
+      },
+      "license" : {
+        "evidence" : "artic:is_public_domain",
+        "sourceURL" : "https://www.artic.edu/artworks/144969",
+        "status" : "CC0"
+      },
+      "medium" : "Oil on canvas",
+      "paletteDominantHSL" : [
+        37,
+        47,
+        62
+      ],
+      "region" : "Germany",
+      "significance" : {
+        "canonLists" : [
+
+        ],
+        "curatorScore" : 7.5,
+        "museumHighlight" : true
+      },
+      "tags" : [
+        "architecture",
+        "interior"
+      ],
+      "title" : "The Interior of the Palm House on the Pfaueninsel Near Potsdam",
+      "year" : 1834
+    },
+    {
       "artist" : "Hilaire Germain Edgar Degas",
       "artistDeathYear" : 1917,
       "artistSort" : "Degas, Hilaire Germain Edgar",
@@ -566,6 +694,50 @@
       "title" : "The Millinery Shop",
       "wikidata" : "Q3874376",
       "year" : 1879
+    },
+    {
+      "artist" : "Edgar Degas",
+      "artistDeathYear" : 1917,
+      "artistSort" : "Degas, Edgar",
+      "caption" : "An elderly man in black sits with a newspaper across his lap and one hand raised to his chin, while a girl in a black dress stands behind his chair, her hand on its back.",
+      "collection" : "Art Institute of Chicago",
+      "collectionURL" : "https://www.artic.edu/artworks/14574",
+      "dateDisplay" : "1875–76",
+      "id" : "artic-14574",
+      "image" : {
+        "format" : "jpeg",
+        "sourceMaxHeight" : 6008,
+        "sourceMaxWidth" : 7182,
+        "url" : "https://www.artic.edu/iiif/2/ba4d7ead-bd10-e02d-6f5f-613050d7062e/full/3840,/0/default.jpg",
+        "urlTemplate" : "https://www.artic.edu/iiif/2/ba4d7ead-bd10-e02d-6f5f-613050d7062e/full/{w},/0/default.jpg"
+      },
+      "license" : {
+        "evidence" : "artic:is_public_domain",
+        "sourceURL" : "https://www.artic.edu/artworks/14574",
+        "status" : "CC0"
+      },
+      "medium" : "Oil on canvas",
+      "movement" : "Impressionism",
+      "paletteDominantHSL" : [
+        42,
+        56,
+        63
+      ],
+      "region" : "France",
+      "significance" : {
+        "canonLists" : [
+
+        ],
+        "curatorScore" : 7.5,
+        "museumHighlight" : true
+      },
+      "tags" : [
+        "family",
+        "group-portrait",
+        "portrait"
+      ],
+      "title" : "Henri Degas and His Niece Lucie Degas (The Artist's Uncle and Cousin)",
+      "year" : 1875
     },
     {
       "artist" : "Édouard Manet",
@@ -742,6 +914,91 @@
       "title" : "Two Sisters (On the Terrace)",
       "wikidata" : "Q630121",
       "year" : 1881
+    },
+    {
+      "artist" : "William Glackens",
+      "artistDeathYear" : 1938,
+      "artistSort" : "Glackens, William",
+      "caption" : "A woman in a pale blue gown and black feathered hat sits at a white-clothed table beside a mustached man in a red bow tie, glass in hand, with a pink rose and bottles before them.",
+      "collection" : "Art Institute of Chicago",
+      "collectionURL" : "https://www.artic.edu/artworks/15401",
+      "dateDisplay" : "1905",
+      "id" : "artic-15401",
+      "image" : {
+        "format" : "jpeg",
+        "sourceMaxHeight" : 5835,
+        "sourceMaxWidth" : 4400,
+        "url" : "https://www.artic.edu/iiif/2/b146368d-a855-63ac-6115-04b835c60bb0/full/3840,/0/default.jpg",
+        "urlTemplate" : "https://www.artic.edu/iiif/2/b146368d-a855-63ac-6115-04b835c60bb0/full/{w},/0/default.jpg"
+      },
+      "license" : {
+        "evidence" : "artic:is_public_domain",
+        "sourceURL" : "https://www.artic.edu/artworks/15401",
+        "status" : "CC0"
+      },
+      "medium" : "Oil on canvas",
+      "paletteDominantHSL" : [
+        193,
+        43,
+        39
+      ],
+      "region" : "United States",
+      "significance" : {
+        "canonLists" : [
+
+        ],
+        "curatorScore" : 7.5,
+        "museumHighlight" : true
+      },
+      "tags" : [
+        "everyday-life",
+        "interior"
+      ],
+      "title" : "At Mouquin's",
+      "year" : 1905
+    },
+    {
+      "artist" : "Edvard Munch",
+      "artistDeathYear" : 1944,
+      "artistSort" : "Munch, Edvard",
+      "caption" : "A girl in a long white dress leans her head against a curtained window, her face hidden, as cold blue light from outside falls in a pale patch across the brushy brown floor.",
+      "collection" : "Art Institute of Chicago",
+      "collectionURL" : "https://www.artic.edu/artworks/154235",
+      "dateDisplay" : "1893",
+      "id" : "artic-154235",
+      "image" : {
+        "format" : "jpeg",
+        "sourceMaxHeight" : 7097,
+        "sourceMaxWidth" : 4801,
+        "url" : "https://www.artic.edu/iiif/2/d7df2633-3b40-f570-c906-211503a37cde/full/3840,/0/default.jpg",
+        "urlTemplate" : "https://www.artic.edu/iiif/2/d7df2633-3b40-f570-c906-211503a37cde/full/{w},/0/default.jpg"
+      },
+      "license" : {
+        "evidence" : "artic:is_public_domain",
+        "sourceURL" : "https://www.artic.edu/artworks/154235",
+        "status" : "CC0"
+      },
+      "medium" : "Oil on canvas",
+      "paletteDominantHSL" : [
+        209,
+        49,
+        41
+      ],
+      "region" : "Norway",
+      "significance" : {
+        "canonLists" : [
+
+        ],
+        "curatorScore" : 7.5,
+        "museumHighlight" : true
+      },
+      "tags" : [
+        "figure",
+        "interior",
+        "night"
+      ],
+      "title" : "The Girl by the Window",
+      "year" : 1893
     },
     {
       "artist" : "Bernat Martorell",
@@ -1093,6 +1350,135 @@
       "year" : 1877
     },
     {
+      "artist" : "Fra Bartolommeo",
+      "artistDeathYear" : 1517,
+      "artistSort" : "Bartolommeo, Fra",
+      "caption" : "Three angels glide above Mary and Joseph as they kneel before the Child lying on a white cushion, with a pale hilltop town and a broad valley stretching into the distance.",
+      "collection" : "Art Institute of Chicago",
+      "collectionURL" : "https://www.artic.edu/artworks/184371",
+      "dateDisplay" : "1504–7",
+      "id" : "artic-184371",
+      "image" : {
+        "format" : "jpeg",
+        "sourceMaxHeight" : 5112,
+        "sourceMaxWidth" : 3669,
+        "url" : "https://www.artic.edu/iiif/2/40fdb1d6-93fe-2916-78fb-f56a1ac261f1/full/3669,/0/default.jpg",
+        "urlTemplate" : "https://www.artic.edu/iiif/2/40fdb1d6-93fe-2916-78fb-f56a1ac261f1/full/{w},/0/default.jpg"
+      },
+      "license" : {
+        "evidence" : "artic:is_public_domain",
+        "sourceURL" : "https://www.artic.edu/artworks/184371",
+        "status" : "CC0"
+      },
+      "medium" : "Oil on panel",
+      "movement" : "Renaissance",
+      "paletteDominantHSL" : [
+        37,
+        22,
+        59
+      ],
+      "region" : "Italy",
+      "significance" : {
+        "canonLists" : [
+
+        ],
+        "curatorScore" : 7.5,
+        "museumHighlight" : true
+      },
+      "tags" : [
+        "landscape",
+        "religious"
+      ],
+      "title" : "The Nativity",
+      "year" : 1504
+    },
+    {
+      "artist" : "Paul Gauguin",
+      "artistDeathYear" : 1903,
+      "artistSort" : "Gauguin, Paul",
+      "caption" : "Two women in dark shawls huddle behind a green bush beside a red picket fence as two more walk the path behind them, and two tall ochre cones rise in the park beyond.",
+      "collection" : "Art Institute of Chicago",
+      "collectionURL" : "https://www.artic.edu/artworks/19339",
+      "dateDisplay" : "1888",
+      "id" : "artic-19339",
+      "image" : {
+        "format" : "jpeg",
+        "sourceMaxHeight" : 17361,
+        "sourceMaxWidth" : 21953,
+        "url" : "https://www.artic.edu/iiif/2/ae6ac285-6887-dd76-4570-d379c786dfae/full/3840,/0/default.jpg",
+        "urlTemplate" : "https://www.artic.edu/iiif/2/ae6ac285-6887-dd76-4570-d379c786dfae/full/{w},/0/default.jpg"
+      },
+      "license" : {
+        "evidence" : "artic:is_public_domain",
+        "sourceURL" : "https://www.artic.edu/artworks/19339",
+        "status" : "CC0"
+      },
+      "medium" : "Oil on jute canvas",
+      "movement" : "Post-Impressionism",
+      "paletteDominantHSL" : [
+        41,
+        63,
+        40
+      ],
+      "region" : "France",
+      "significance" : {
+        "canonLists" : [
+
+        ],
+        "curatorScore" : 7.5,
+        "museumHighlight" : true
+      },
+      "tags" : [
+        "everyday-life",
+        "landscape"
+      ],
+      "title" : "Arlésiennes (Mistral)",
+      "year" : 1888
+    },
+    {
+      "artist" : "John Philip Simpson",
+      "artistDeathYear" : 1847,
+      "artistSort" : "Simpson, John Philip",
+      "caption" : "A seated man in a loose red smock gazes upward, iron cuffs on both wrists and a heavy chain trailing beside him against a dark, bare background.",
+      "collection" : "Art Institute of Chicago",
+      "collectionURL" : "https://www.artic.edu/artworks/193664",
+      "dateDisplay" : "1827",
+      "id" : "artic-193664",
+      "image" : {
+        "format" : "jpeg",
+        "sourceMaxHeight" : 12331,
+        "sourceMaxWidth" : 9791,
+        "url" : "https://www.artic.edu/iiif/2/5490fd49-dd52-4fd7-7d41-d871dcffae55/full/3840,/0/default.jpg",
+        "urlTemplate" : "https://www.artic.edu/iiif/2/5490fd49-dd52-4fd7-7d41-d871dcffae55/full/{w},/0/default.jpg"
+      },
+      "license" : {
+        "evidence" : "artic:is_public_domain",
+        "sourceURL" : "https://www.artic.edu/artworks/193664",
+        "status" : "CC0"
+      },
+      "medium" : "Oil on canvas",
+      "paletteDominantHSL" : [
+        37,
+        8,
+        47
+      ],
+      "region" : "England",
+      "significance" : {
+        "canonLists" : [
+
+        ],
+        "curatorScore" : 7.5,
+        "museumHighlight" : true,
+        "sitelinks" : 4
+      },
+      "tags" : [
+        "portrait"
+      ],
+      "title" : "The Captive Slave (Ira Aldridge)",
+      "wikidata" : "Q20087513",
+      "year" : 1827
+    },
+    {
       "artist" : "Gustave Caillebotte",
       "artistDeathYear" : 1894,
       "artistSort" : "Caillebotte, Gustave",
@@ -1136,6 +1522,50 @@
       "title" : "Paris Street; Rainy Day",
       "wikidata" : "Q1452762",
       "year" : 1877
+    },
+    {
+      "artist" : "Diego Velázquez",
+      "artistDeathYear" : 1660,
+      "artistSort" : "Velázquez, Diego",
+      "caption" : "A woman in a white head wrap leans on a dark kitchen table between a brass basin, earthenware jars, and a painted jug, with a mortar and pestle and stacked dishes at right.",
+      "collection" : "Art Institute of Chicago",
+      "collectionURL" : "https://www.artic.edu/artworks/21934",
+      "dateDisplay" : "1618–20",
+      "id" : "artic-21934",
+      "image" : {
+        "format" : "jpeg",
+        "sourceMaxHeight" : 1552,
+        "sourceMaxWidth" : 3000,
+        "url" : "https://www.artic.edu/iiif/2/68452725-eba5-06e3-46d2-50c678a5d672/full/3000,/0/default.jpg",
+        "urlTemplate" : "https://www.artic.edu/iiif/2/68452725-eba5-06e3-46d2-50c678a5d672/full/{w},/0/default.jpg"
+      },
+      "license" : {
+        "evidence" : "artic:is_public_domain",
+        "sourceURL" : "https://www.artic.edu/artworks/21934",
+        "status" : "CC0"
+      },
+      "medium" : "Oil on canvas",
+      "paletteDominantHSL" : [
+        55,
+        17,
+        52
+      ],
+      "region" : "Spain",
+      "significance" : {
+        "canonLists" : [
+
+        ],
+        "curatorScore" : 7.5,
+        "museumHighlight" : false,
+        "sitelinks" : 8
+      },
+      "tags" : [
+        "everyday-life",
+        "interior"
+      ],
+      "title" : "Kitchen Scene",
+      "wikidata" : "Q4274886",
+      "year" : 1618
     },
     {
       "artist" : "Sebastiano del Piombo",
@@ -1697,6 +2127,89 @@
       "year" : 1866
     },
     {
+      "artist" : "Gustave Courbet",
+      "artistDeathYear" : 1877,
+      "artistSort" : "Courbet, Gustave",
+      "caption" : "Mère Grégoire sits behind a grey marble counter scattered with coins and a ledger, holding up a small flower beside a glass vase of mixed blooms in a dim brown interior.",
+      "collection" : "Art Institute of Chicago",
+      "collectionURL" : "https://www.artic.edu/artworks/4428",
+      "dateDisplay" : "1855, reworked 1857–59",
+      "id" : "artic-4428",
+      "image" : {
+        "format" : "jpeg",
+        "sourceMaxHeight" : 9222,
+        "sourceMaxWidth" : 6890,
+        "url" : "https://www.artic.edu/iiif/2/2e6d08c8-dac0-4f1c-3e56-de3539ceb905/full/3840,/0/default.jpg",
+        "urlTemplate" : "https://www.artic.edu/iiif/2/2e6d08c8-dac0-4f1c-3e56-de3539ceb905/full/{w},/0/default.jpg"
+      },
+      "license" : {
+        "evidence" : "artic:is_public_domain",
+        "sourceURL" : "https://www.artic.edu/artworks/4428",
+        "status" : "CC0"
+      },
+      "medium" : "Oil on canvas",
+      "paletteDominantHSL" : [
+        41,
+        14,
+        56
+      ],
+      "region" : "France",
+      "significance" : {
+        "canonLists" : [
+
+        ],
+        "curatorScore" : 7.5,
+        "museumHighlight" : true
+      },
+      "tags" : [
+        "interior",
+        "portrait"
+      ],
+      "title" : "Mère Grégoire",
+      "year" : 1855
+    },
+    {
+      "artist" : "Édouard Manet",
+      "artistDeathYear" : 1883,
+      "artistSort" : "Manet, Édouard",
+      "caption" : "A large pale fish lies on a white cloth beside a red fish, oysters, a small eel, a lemon and a knife, with a lidded copper pot behind.",
+      "collection" : "Art Institute of Chicago",
+      "collectionURL" : "https://www.artic.edu/artworks/44892",
+      "dateDisplay" : "1864",
+      "id" : "artic-44892",
+      "image" : {
+        "format" : "jpeg",
+        "sourceMaxHeight" : 13234,
+        "sourceMaxWidth" : 16704,
+        "url" : "https://www.artic.edu/iiif/2/0cbe27e8-2fec-3445-bc48-ce40a8f2dc25/full/3840,/0/default.jpg",
+        "urlTemplate" : "https://www.artic.edu/iiif/2/0cbe27e8-2fec-3445-bc48-ce40a8f2dc25/full/{w},/0/default.jpg"
+      },
+      "license" : {
+        "evidence" : "artic:is_public_domain",
+        "sourceURL" : "https://www.artic.edu/artworks/44892",
+        "status" : "CC0"
+      },
+      "medium" : "Oil on canvas",
+      "paletteDominantHSL" : [
+        52,
+        62,
+        47
+      ],
+      "region" : "France",
+      "significance" : {
+        "canonLists" : [
+
+        ],
+        "curatorScore" : 7.5,
+        "museumHighlight" : true
+      },
+      "tags" : [
+        "still-life"
+      ],
+      "title" : "Fish (Still Life)",
+      "year" : 1864
+    },
+    {
       "artist" : "John Constable",
       "artistDeathYear" : 1837,
       "artistSort" : "Constable, John",
@@ -1737,6 +2250,89 @@
       ],
       "title" : "Stoke-by-Nayland",
       "year" : 1836
+    },
+    {
+      "artist" : "Sir Thomas Lawrence",
+      "artistDeathYear" : 1830,
+      "artistSort" : "Lawrence, Sir Thomas",
+      "caption" : "Isabella Wolff, in lustrous white satin and a gold-and-white headdress, rests her head on one hand as she looks down at a large open book propped on a red cushion.",
+      "collection" : "Art Institute of Chicago",
+      "collectionURL" : "https://www.artic.edu/artworks/4773",
+      "dateDisplay" : "1803–15",
+      "id" : "artic-4773",
+      "image" : {
+        "format" : "jpeg",
+        "sourceMaxHeight" : 8459,
+        "sourceMaxWidth" : 6728,
+        "url" : "https://www.artic.edu/iiif/2/0052fc88-353e-db97-8741-b6b5ec6fb354/full/3840,/0/default.jpg",
+        "urlTemplate" : "https://www.artic.edu/iiif/2/0052fc88-353e-db97-8741-b6b5ec6fb354/full/{w},/0/default.jpg"
+      },
+      "license" : {
+        "evidence" : "artic:is_public_domain",
+        "sourceURL" : "https://www.artic.edu/artworks/4773",
+        "status" : "CC0"
+      },
+      "medium" : "Oil on canvas",
+      "paletteDominantHSL" : [
+        38,
+        40,
+        77
+      ],
+      "region" : "England",
+      "significance" : {
+        "canonLists" : [
+
+        ],
+        "curatorScore" : 7.5,
+        "museumHighlight" : true
+      },
+      "tags" : [
+        "portrait"
+      ],
+      "title" : "Isabella Wolff",
+      "year" : 1803
+    },
+    {
+      "artist" : "Sir Joshua Reynolds",
+      "artistDeathYear" : 1792,
+      "artistSort" : "Reynolds, Joshua, Sir",
+      "caption" : "Lady Sarah Bunbury, in pink and white with a blue sash, holds a gold dish over a smoking gilded tripod beneath a statue of the Three Graces, while a girl in green beside her pours a libation.",
+      "collection" : "Art Institute of Chicago",
+      "collectionURL" : "https://www.artic.edu/artworks/4788",
+      "dateDisplay" : "1763–65",
+      "id" : "artic-4788",
+      "image" : {
+        "format" : "jpeg",
+        "sourceMaxHeight" : 8921,
+        "sourceMaxWidth" : 5401,
+        "url" : "https://www.artic.edu/iiif/2/5a047a1c-d36e-e88d-05e7-845d3936159b/full/3840,/0/default.jpg",
+        "urlTemplate" : "https://www.artic.edu/iiif/2/5a047a1c-d36e-e88d-05e7-845d3936159b/full/{w},/0/default.jpg"
+      },
+      "license" : {
+        "evidence" : "artic:is_public_domain",
+        "sourceURL" : "https://www.artic.edu/artworks/4788",
+        "status" : "CC0"
+      },
+      "medium" : "Oil on canvas",
+      "paletteDominantHSL" : [
+        37,
+        41,
+        31
+      ],
+      "region" : "England",
+      "significance" : {
+        "canonLists" : [
+
+        ],
+        "curatorScore" : 7.5,
+        "museumHighlight" : true
+      },
+      "tags" : [
+        "allegorical",
+        "portrait"
+      ],
+      "title" : "Lady Sarah Bunbury Sacrificing to the Graces",
+      "year" : 1763
     },
     {
       "artist" : "Joseph Mallord William Turner",
@@ -1782,6 +2378,47 @@
       "year" : 1832
     },
     {
+      "artist" : "Ghasi",
+      "artistSort" : "Ghasi",
+      "caption" : "Maharana Bhim Singh, haloed, rides a bejeweled white horse across a green field amid attendants in orange turbans, an orange parasol at upper left and swirling blue clouds above.",
+      "collection" : "Art Institute of Chicago",
+      "collectionURL" : "https://www.artic.edu/artworks/49195",
+      "dateDisplay" : "c. 1820",
+      "id" : "artic-49195",
+      "image" : {
+        "format" : "jpeg",
+        "sourceMaxHeight" : 5730,
+        "sourceMaxWidth" : 4275,
+        "url" : "https://www.artic.edu/iiif/2/9f08b895-4960-4bc6-5871-dc9bfab4c655/full/3840,/0/default.jpg",
+        "urlTemplate" : "https://www.artic.edu/iiif/2/9f08b895-4960-4bc6-5871-dc9bfab4c655/full/{w},/0/default.jpg"
+      },
+      "license" : {
+        "evidence" : "artic:is_public_domain",
+        "sourceURL" : "https://www.artic.edu/artworks/49195",
+        "status" : "CC0"
+      },
+      "medium" : "Opaque watercolor and gold on paper",
+      "paletteDominantHSL" : [
+        44,
+        78,
+        48
+      ],
+      "region" : "India",
+      "significance" : {
+        "canonLists" : [
+
+        ],
+        "curatorScore" : 7.5,
+        "museumHighlight" : true
+      },
+      "tags" : [
+        "animals",
+        "portrait"
+      ],
+      "title" : "Maharana Bhim Singh in Procession",
+      "year" : 1815
+    },
+    {
       "artist" : "James McNeill Whistler",
       "artistDeathYear" : 1903,
       "artistSort" : "Whistler, James McNeill",
@@ -1823,6 +2460,48 @@
       ],
       "title" : "Nocturne: Blue and Gold—Southampton Water",
       "year" : 1872
+    },
+    {
+      "artist" : "Hubert Robert",
+      "artistDeathYear" : 1808,
+      "artistSort" : "Robert, Hubert",
+      "caption" : "Massive ruined arches and colonnades recede beyond a broad stairway, while small figures gather at lion-head fountains and two horses stand in the sunlit foreground.",
+      "collection" : "Art Institute of Chicago",
+      "collectionURL" : "https://www.artic.edu/artworks/57051",
+      "dateDisplay" : "1787–88",
+      "id" : "artic-57051",
+      "image" : {
+        "format" : "jpeg",
+        "sourceMaxHeight" : 2250,
+        "sourceMaxWidth" : 1957,
+        "url" : "https://www.artic.edu/iiif/2/62fd0e14-d7fe-0d01-ab00-1eed84b4f294/full/1957,/0/default.jpg",
+        "urlTemplate" : "https://www.artic.edu/iiif/2/62fd0e14-d7fe-0d01-ab00-1eed84b4f294/full/{w},/0/default.jpg"
+      },
+      "license" : {
+        "evidence" : "artic:is_public_domain",
+        "sourceURL" : "https://www.artic.edu/artworks/57051",
+        "status" : "CC0"
+      },
+      "medium" : "Oil on canvas",
+      "paletteDominantHSL" : [
+        44,
+        48,
+        59
+      ],
+      "region" : "France",
+      "significance" : {
+        "canonLists" : [
+
+        ],
+        "curatorScore" : 7.5,
+        "museumHighlight" : true
+      },
+      "tags" : [
+        "architecture",
+        "landscape"
+      ],
+      "title" : "The Fountains",
+      "year" : 1787
     },
     {
       "artist" : "Nicolas Poussin",
@@ -1999,6 +2678,49 @@
       "year" : 1892
     },
     {
+      "artist" : "Frans Snyders",
+      "artistDeathYear" : 1657,
+      "artistSort" : "Snyders, Frans",
+      "caption" : "A hanging deer, a sprawled white swan, a peacock, a boar's head and hares crowd a market table, as a bearded man in red raises his hat and two cockerels face off beneath.",
+      "collection" : "Art Institute of Chicago",
+      "collectionURL" : "https://www.artic.edu/artworks/62042",
+      "dateDisplay" : "1614",
+      "id" : "artic-62042",
+      "image" : {
+        "format" : "jpeg",
+        "sourceMaxHeight" : 6043,
+        "sourceMaxWidth" : 9235,
+        "url" : "https://www.artic.edu/iiif/2/d9bde524-38b2-4262-3338-e4d06a50746d/full/3840,/0/default.jpg",
+        "urlTemplate" : "https://www.artic.edu/iiif/2/d9bde524-38b2-4262-3338-e4d06a50746d/full/{w},/0/default.jpg"
+      },
+      "license" : {
+        "evidence" : "artic:is_public_domain",
+        "sourceURL" : "https://www.artic.edu/artworks/62042",
+        "status" : "CC0"
+      },
+      "medium" : "Oil on canvas",
+      "movement" : "Baroque",
+      "paletteDominantHSL" : [
+        211,
+        14,
+        26
+      ],
+      "region" : "Flanders",
+      "significance" : {
+        "canonLists" : [
+
+        ],
+        "curatorScore" : 7.5,
+        "museumHighlight" : true
+      },
+      "tags" : [
+        "animals",
+        "still-life"
+      ],
+      "title" : "Still Life with Dead Game, Fruits, and Vegetables in a Market",
+      "year" : 1614
+    },
+    {
       "artist" : "Paul Cezanne",
       "artistDeathYear" : 1906,
       "artistSort" : "Cezanne, Paul",
@@ -2168,6 +2890,48 @@
       ],
       "title" : "The Fountain, Villa Torlonia, Frascati, Italy",
       "year" : 1907
+    },
+    {
+      "artist" : "John Henry Twachtman",
+      "artistDeathYear" : 1902,
+      "artistSort" : "Twachtman, John Henry",
+      "caption" : "An icy creek winds between deep snowbanks in chalky whites and cool blue-greens, with flecks of orange leaves clinging to the slender trees above.",
+      "collection" : "Art Institute of Chicago",
+      "collectionURL" : "https://www.artic.edu/artworks/72801",
+      "dateDisplay" : "c. 1889",
+      "id" : "artic-72801",
+      "image" : {
+        "format" : "jpeg",
+        "sourceMaxHeight" : 3938,
+        "sourceMaxWidth" : 4707,
+        "url" : "https://www.artic.edu/iiif/2/3ae75415-0551-ae17-c478-3b8687a6f246/full/3840,/0/default.jpg",
+        "urlTemplate" : "https://www.artic.edu/iiif/2/3ae75415-0551-ae17-c478-3b8687a6f246/full/{w},/0/default.jpg"
+      },
+      "license" : {
+        "evidence" : "artic:is_public_domain",
+        "sourceURL" : "https://www.artic.edu/artworks/72801",
+        "status" : "CC0"
+      },
+      "medium" : "Oil on canvas",
+      "movement" : "Impressionism",
+      "paletteDominantHSL" : [
+        173,
+        52,
+        36
+      ],
+      "region" : "Greenwich",
+      "significance" : {
+        "canonLists" : [
+
+        ],
+        "curatorScore" : 7.5,
+        "museumHighlight" : true
+      },
+      "tags" : [
+        "landscape"
+      ],
+      "title" : "Icebound",
+      "year" : 1889
     },
     {
       "artist" : "Frederic Edwin Church",
@@ -2477,6 +3241,49 @@
       "year" : 1868
     },
     {
+      "artist" : "Pierre-Auguste Renoir",
+      "artistDeathYear" : 1919,
+      "artistSort" : "Renoir, Pierre-Auguste",
+      "caption" : "Two young acrobats in white-and-gold costumes stand in the circus ring, one clutching an armful of oranges as more lie scattered on the ochre floor before the spectators' barrier.",
+      "collection" : "Art Institute of Chicago",
+      "collectionURL" : "https://www.artic.edu/artworks/81558",
+      "dateDisplay" : "1879",
+      "id" : "artic-81558",
+      "image" : {
+        "format" : "jpeg",
+        "sourceMaxHeight" : 32315,
+        "sourceMaxWidth" : 24170,
+        "url" : "https://www.artic.edu/iiif/2/321c45f5-22a3-84a2-44cc-cf66642d4cf2/full/3840,/0/default.jpg",
+        "urlTemplate" : "https://www.artic.edu/iiif/2/321c45f5-22a3-84a2-44cc-cf66642d4cf2/full/{w},/0/default.jpg"
+      },
+      "license" : {
+        "evidence" : "artic:is_public_domain",
+        "sourceURL" : "https://www.artic.edu/artworks/81558",
+        "status" : "CC0"
+      },
+      "medium" : "Oil on canvas",
+      "movement" : "Impressionism",
+      "paletteDominantHSL" : [
+        42,
+        50,
+        50
+      ],
+      "region" : "France",
+      "significance" : {
+        "canonLists" : [
+
+        ],
+        "curatorScore" : 7.5,
+        "museumHighlight" : true
+      },
+      "tags" : [
+        "portrait",
+        "theatre"
+      ],
+      "title" : "Acrobats at the Cirque Fernando (Francisca and Angelina Wartenberg)",
+      "year" : 1879
+    },
+    {
       "artist" : "Juan Sánchez Cotán",
       "artistDeathYear" : 1627,
       "artistSort" : "Cotán, Juan Sánchez",
@@ -2691,6 +3498,47 @@
       "year" : 1906
     },
     {
+      "artist" : "James McNeill Whistler",
+      "artistDeathYear" : 1903,
+      "artistSort" : "Whistler, James McNeill",
+      "caption" : "A man in a long caped overcoat stands full-length against a muted brown ground, a dark hat in one hand and a rolled paper in the other, only his pale face and hands standing out.",
+      "collection" : "Art Institute of Chicago",
+      "collectionURL" : "https://www.artic.edu/artworks/8958",
+      "dateDisplay" : "1894",
+      "id" : "artic-8958",
+      "image" : {
+        "format" : "jpeg",
+        "sourceMaxHeight" : 14715,
+        "sourceMaxWidth" : 6473,
+        "url" : "https://www.artic.edu/iiif/2/43165650-0212-8897-0605-dc3fdda88c13/full/3840,/0/default.jpg",
+        "urlTemplate" : "https://www.artic.edu/iiif/2/43165650-0212-8897-0605-dc3fdda88c13/full/{w},/0/default.jpg"
+      },
+      "license" : {
+        "evidence" : "artic:is_public_domain",
+        "sourceURL" : "https://www.artic.edu/artworks/8958",
+        "status" : "CC0"
+      },
+      "medium" : "Oil on canvas",
+      "paletteDominantHSL" : [
+        60,
+        3,
+        47
+      ],
+      "region" : "Paris",
+      "significance" : {
+        "canonLists" : [
+
+        ],
+        "curatorScore" : 7.5,
+        "museumHighlight" : true
+      },
+      "tags" : [
+        "portrait"
+      ],
+      "title" : "Arrangement in Flesh Color and Brown: Portrait of Arthur Jerome Eddy",
+      "year" : 1894
+    },
+    {
       "artist" : "Vasily Kandinsky",
       "artistSort" : "Kandinsky, Vasily",
       "caption" : "Broad planes of blue, red and gold surge around two black cannon barrels at lower right. Kandinsky frees colour and line from ordinary description, leaving the martial forms suspended at the edge of abstraction.",
@@ -2771,6 +3619,47 @@
       ],
       "title" : "Distant View of Niagara Falls",
       "year" : 1830
+    },
+    {
+      "artist" : "Jean-Honoré Fragonard",
+      "artistDeathYear" : 1806,
+      "artistSort" : "Fragonard, Jean-Honoré",
+      "caption" : "An old bearded man in a dark cap and ruffled collar raises one hand, his face and brown robe built from loose, visible strokes against a pale gray-green ground.",
+      "collection" : "Art Institute of Chicago",
+      "collectionURL" : "https://www.artic.edu/artworks/93900",
+      "dateDisplay" : "c. 1767–68",
+      "id" : "artic-93900",
+      "image" : {
+        "format" : "jpeg",
+        "sourceMaxHeight" : 8783,
+        "sourceMaxWidth" : 7106,
+        "url" : "https://www.artic.edu/iiif/2/9b1c3d61-5f9b-c7a2-a5ea-f48248836160/full/3840,/0/default.jpg",
+        "urlTemplate" : "https://www.artic.edu/iiif/2/9b1c3d61-5f9b-c7a2-a5ea-f48248836160/full/{w},/0/default.jpg"
+      },
+      "license" : {
+        "evidence" : "artic:is_public_domain",
+        "sourceURL" : "https://www.artic.edu/artworks/93900",
+        "status" : "CC0"
+      },
+      "medium" : "Oil on canvas",
+      "paletteDominantHSL" : [
+        47,
+        21,
+        46
+      ],
+      "region" : "France",
+      "significance" : {
+        "canonLists" : [
+
+        ],
+        "curatorScore" : 7.5,
+        "museumHighlight" : true
+      },
+      "tags" : [
+        "portrait"
+      ],
+      "title" : "Portrait of a Man in Costume",
+      "year" : 1767
     },
     {
       "artist" : "Rembrandt van Rijn",
@@ -2893,6 +3782,42 @@
       "year" : 1882
     },
     {
+      "artist" : "Benjamin West",
+      "artistDeathYear" : 1820,
+      "artistSort" : "West, Benjamin",
+      "caption" : "Elizabeth Shewell West presses her cheek to her son Raphael's within a dark painted oval, his white shirt and her gold-flecked green shawl catching the light.",
+      "collection" : "Cleveland Museum of Art",
+      "collectionURL" : "https://clevelandart.org/art/1927.393",
+      "dateDisplay" : "c. 1770",
+      "id" : "cleveland-109245",
+      "image" : {
+        "format" : "jpeg",
+        "sourceMaxHeight" : 3400,
+        "sourceMaxWidth" : 3387,
+        "url" : "https://openaccess-cdn.clevelandart.org/1927.393/1927.393_print.jpg"
+      },
+      "license" : {
+        "evidence" : "cleveland:share_license_status=CC0",
+        "sourceURL" : "https://clevelandart.org/art/1927.393",
+        "status" : "CC0"
+      },
+      "medium" : "oil on canvas",
+      "region" : "America",
+      "significance" : {
+        "canonLists" : [
+
+        ],
+        "curatorScore" : 7.5,
+        "museumHighlight" : true
+      },
+      "tags" : [
+        "family",
+        "portrait"
+      ],
+      "title" : "Elizabeth Shewell West and Her Son, Raphael",
+      "year" : 1765
+    },
+    {
       "artist" : "Albert Pinkham Ryder",
       "artistDeathYear" : 1917,
       "artistSort" : "Ryder, Albert Pinkham",
@@ -2996,6 +3921,43 @@
       ],
       "title" : "The Burning of the Houses of Lords and Commons, 16 October 1834",
       "year" : 1835
+    },
+    {
+      "artist" : "Kano Mitsunobu",
+      "artistDeathYear" : 1608,
+      "artistSort" : "Kano Mitsunobu",
+      "caption" : "Hawks swoop, perch and seize prey, a white egret flies over water, and a peacock and peahen stand among peonies beneath spreading pines across a pair of gold screens.",
+      "collection" : "Cleveland Museum of Art",
+      "collectionURL" : "https://clevelandart.org/art/1948.128",
+      "dateDisplay" : "late 1500s",
+      "id" : "cleveland-125884",
+      "image" : {
+        "format" : "jpeg",
+        "sourceMaxHeight" : 3308,
+        "sourceMaxWidth" : 3400,
+        "url" : "https://openaccess-cdn.clevelandart.org/1948.128/1948.128_print.jpg"
+      },
+      "license" : {
+        "evidence" : "cleveland:share_license_status=CC0",
+        "sourceURL" : "https://clevelandart.org/art/1948.128",
+        "status" : "CC0"
+      },
+      "medium" : "Pair of six-panel folding screens; ink, color, and gold on paper",
+      "region" : "Japan, Momoyama period (1573–1615)",
+      "significance" : {
+        "canonLists" : [
+
+        ],
+        "curatorScore" : 7.5,
+        "museumHighlight" : true
+      },
+      "tags" : [
+        "animals",
+        "flowers",
+        "landscape"
+      ],
+      "title" : "Birds and Flowers",
+      "year" : 1540
     },
     {
       "artist" : "Lorenzo Lotto",
@@ -3358,6 +4320,43 @@
       "year" : 1817
     },
     {
+      "artist" : "Jean-Baptiste Camille Corot",
+      "artistDeathYear" : 1875,
+      "artistSort" : "Corot, Jean-Baptiste Camille",
+      "caption" : "A rider, a man and a child pause on a sunlit track between pale rock outcrops as a mounted herdsman drives cattle behind them, under a high blue sky streaked with cloud.",
+      "collection" : "Cleveland Museum of Art",
+      "collectionURL" : "https://clevelandart.org/art/1963.91",
+      "dateDisplay" : "c. 1830–31",
+      "id" : "cleveland-140078",
+      "image" : {
+        "format" : "jpeg",
+        "sourceMaxHeight" : 2438,
+        "sourceMaxWidth" : 3400,
+        "url" : "https://openaccess-cdn.clevelandart.org/1963.91/1963.91_print.jpg"
+      },
+      "license" : {
+        "evidence" : "cleveland:share_license_status=CC0",
+        "sourceURL" : "https://clevelandart.org/art/1963.91",
+        "status" : "CC0"
+      },
+      "medium" : "oil on fabric",
+      "region" : "France, 19th century",
+      "significance" : {
+        "canonLists" : [
+
+        ],
+        "curatorScore" : 7.5,
+        "museumHighlight" : true
+      },
+      "tags" : [
+        "animals",
+        "landscape",
+        "pastoral"
+      ],
+      "title" : "La Cervara, the Roman Campagna",
+      "year" : 1830
+    },
+    {
       "artist" : "Sakai Hōitsu",
       "artistDeathYear" : 1828,
       "artistSort" : "Hōitsu, Sakai",
@@ -3391,6 +4390,42 @@
       ],
       "title" : "Paulownias and Chrysanthemums",
       "year" : 1800
+    },
+    {
+      "artist" : "Gustave Courbet",
+      "artistDeathYear" : 1877,
+      "artistSort" : "Courbet, Gustave",
+      "caption" : "Snow-streaked peaks rise above a dark lake under billowing white clouds, while a child in a straw hat sits among black goats on a grassy, rocky slope in the foreground.",
+      "collection" : "Cleveland Museum of Art",
+      "collectionURL" : "https://clevelandart.org/art/1964.420",
+      "dateDisplay" : "1877",
+      "id" : "cleveland-141168",
+      "image" : {
+        "format" : "jpeg",
+        "sourceMaxHeight" : 2428,
+        "sourceMaxWidth" : 3400,
+        "url" : "https://openaccess-cdn.clevelandart.org/1964.420/1964.420_print.jpg"
+      },
+      "license" : {
+        "evidence" : "cleveland:share_license_status=CC0",
+        "sourceURL" : "https://clevelandart.org/art/1964.420",
+        "status" : "CC0"
+      },
+      "medium" : "oil on fabric",
+      "region" : "France, 19th century",
+      "significance" : {
+        "canonLists" : [
+
+        ],
+        "curatorScore" : 7.5,
+        "museumHighlight" : true
+      },
+      "tags" : [
+        "animals",
+        "landscape"
+      ],
+      "title" : "Panoramic View of the Alps, Les Dents du Midi",
+      "year" : 1877
     },
     {
       "artist" : "Giovanni di Paolo",
@@ -3894,6 +4929,79 @@
       "year" : 1879
     },
     {
+      "artist" : "Jacob van Hulsdonck",
+      "artistDeathYear" : 1647,
+      "artistSort" : "Hulsdonck, Jacob van",
+      "caption" : "A white-clothed table holds a ham, a herring on a red dish, trotters on pewter, butter, and blue-and-white bowls beside a wicker basket of artichokes, asparagus, cherries, and peaches.",
+      "collection" : "Cleveland Museum of Art",
+      "collectionURL" : "https://clevelandart.org/art/2018.258",
+      "dateDisplay" : "c. 1615–20",
+      "id" : "cleveland-315934",
+      "image" : {
+        "format" : "jpeg",
+        "sourceMaxHeight" : 2319,
+        "sourceMaxWidth" : 3400,
+        "url" : "https://openaccess-cdn.clevelandart.org/2018.258/2018.258_print.jpg"
+      },
+      "license" : {
+        "evidence" : "cleveland:share_license_status=CC0",
+        "sourceURL" : "https://clevelandart.org/art/2018.258",
+        "status" : "CC0"
+      },
+      "medium" : "Oil on panel, the reverse prepared with gesso",
+      "region" : "Flanders",
+      "significance" : {
+        "canonLists" : [
+
+        ],
+        "curatorScore" : 7.5,
+        "museumHighlight" : true
+      },
+      "tags" : [
+        "still-life"
+      ],
+      "title" : "Still Life with Meat, Fish, Vegetables, and Fruit",
+      "year" : 1615
+    },
+    {
+      "artist" : "Johann Zoffany",
+      "artistDeathYear" : 1810,
+      "artistSort" : "Zoffany, Johann",
+      "caption" : "Four members of the Dutton family play cards at a green-topped table in a teal drawing room hung with gilt-framed paintings, a fire burning in the white marble fireplace.",
+      "collection" : "Cleveland Museum of Art",
+      "collectionURL" : "https://clevelandart.org/art/2023.122",
+      "dateDisplay" : "c. 1772",
+      "id" : "cleveland-543981",
+      "image" : {
+        "format" : "jpeg",
+        "sourceMaxHeight" : 2707,
+        "sourceMaxWidth" : 3400,
+        "url" : "https://openaccess-cdn.clevelandart.org/2023.122/2023.122_print.jpg"
+      },
+      "license" : {
+        "evidence" : "cleveland:share_license_status=CC0",
+        "sourceURL" : "https://clevelandart.org/art/2023.122",
+        "status" : "CC0"
+      },
+      "medium" : "oil on canvas",
+      "region" : "England",
+      "significance" : {
+        "canonLists" : [
+
+        ],
+        "curatorScore" : 7.5,
+        "museumHighlight" : true
+      },
+      "tags" : [
+        "family",
+        "group-portrait",
+        "interior",
+        "portrait"
+      ],
+      "title" : "The Dutton Family in the Drawing Room of Sherborne Park, Gloucestershire",
+      "year" : 1771
+    },
+    {
       "artist" : "George Caleb Bingham",
       "artistDeathYear" : 1879,
       "artistSort" : "Bingham, George Caleb",
@@ -4118,6 +5226,80 @@
       "year" : 1876
     },
     {
+      "artist" : "Ralph Earl",
+      "artistDeathYear" : 1801,
+      "artistSort" : "Earl, Ralph",
+      "caption" : "A man in a buff coat and white stockings stands at a green-topped desk with quill pens, beside an open door revealing shelves stacked with folded bolts of patterned cloth.",
+      "collection" : "The Metropolitan Museum of Art",
+      "collectionURL" : "https://www.metmuseum.org/art/collection/search/10830",
+      "dateDisplay" : "1789",
+      "id" : "met-10830",
+      "image" : {
+        "format" : "jpeg",
+        "sourceMaxHeight" : 1861,
+        "sourceMaxWidth" : 1205,
+        "url" : "https://images.metmuseum.org/CRDImages/ad/original/DT60.jpg"
+      },
+      "license" : {
+        "evidence" : "met:isPublicDomain",
+        "sourceURL" : "https://www.metmuseum.org/art/collection/search/10830",
+        "status" : "CC0"
+      },
+      "medium" : "Oil on canvas",
+      "region" : "American",
+      "significance" : {
+        "canonLists" : [
+
+        ],
+        "curatorScore" : 7.5,
+        "museumHighlight" : true
+      },
+      "tags" : [
+        "interior",
+        "portrait"
+      ],
+      "title" : "Elijah Boardman",
+      "wikidata" : "Q20171076",
+      "year" : 1789
+    },
+    {
+      "artist" : "William Michael Harnett",
+      "artistDeathYear" : 1892,
+      "artistSort" : "Harnett, William Michael",
+      "caption" : "A violin and bow, a sheet of music, a black flute and a rusted horseshoe hang on a weathered plank door with rusty iron hinges and a padlock.",
+      "collection" : "The Metropolitan Museum of Art",
+      "collectionURL" : "https://www.metmuseum.org/art/collection/search/10997",
+      "dateDisplay" : "1888",
+      "id" : "met-10997",
+      "image" : {
+        "format" : "jpeg",
+        "sourceMaxHeight" : 3722,
+        "sourceMaxWidth" : 2832,
+        "url" : "https://images.metmuseum.org/CRDImages/ad/original/DT2046.jpg"
+      },
+      "license" : {
+        "evidence" : "met:isPublicDomain",
+        "sourceURL" : "https://www.metmuseum.org/art/collection/search/10997",
+        "status" : "CC0"
+      },
+      "medium" : "Oil on canvas",
+      "region" : "American",
+      "significance" : {
+        "canonLists" : [
+
+        ],
+        "curatorScore" : 7.5,
+        "museumHighlight" : true
+      },
+      "tags" : [
+        "music",
+        "still-life"
+      ],
+      "title" : "Still Life—Violin and Music",
+      "wikidata" : "Q19924658",
+      "year" : 1888
+    },
+    {
       "artist" : "Winslow Homer",
       "artistDeathYear" : 1910,
       "artistSort" : "Homer, Winslow",
@@ -4191,6 +5373,80 @@
       "title" : "The Veteran in a New Field",
       "wikidata" : "Q19930492",
       "year" : 1865
+    },
+    {
+      "artist" : "John Frederick Kensett",
+      "artistDeathYear" : 1872,
+      "artistSort" : "Kensett, John Frederick",
+      "caption" : "Wooded islets sit on the still water of Lake George beneath hazy mountain slopes and a vast cloud-filled sky, with mossy rocks and reeds in the right foreground.",
+      "collection" : "The Metropolitan Museum of Art",
+      "collectionURL" : "https://www.metmuseum.org/art/collection/search/11311",
+      "dateDisplay" : "1869",
+      "id" : "met-11311",
+      "image" : {
+        "format" : "jpeg",
+        "sourceMaxHeight" : 2577,
+        "sourceMaxWidth" : 3811,
+        "url" : "https://images.metmuseum.org/CRDImages/ad/original/DT84.jpg"
+      },
+      "license" : {
+        "evidence" : "met:isPublicDomain",
+        "sourceURL" : "https://www.metmuseum.org/art/collection/search/11311",
+        "status" : "CC0"
+      },
+      "medium" : "Oil on canvas",
+      "region" : "American",
+      "significance" : {
+        "canonLists" : [
+
+        ],
+        "curatorScore" : 7.5,
+        "museumHighlight" : true,
+        "sitelinks" : 4
+      },
+      "tags" : [
+        "landscape"
+      ],
+      "title" : "Lake George",
+      "wikidata" : "Q19924308",
+      "year" : 1869
+    },
+    {
+      "artist" : "Ammi Phillips",
+      "artistDeathYear" : 1865,
+      "artistSort" : "Phillips, Ammi",
+      "caption" : "Mrs. Mayer, in a black dress and white lace bonnet, holds her child in a bright red dress and coral necklace, both gazing out against a plain dark red-brown ground.",
+      "collection" : "The Metropolitan Museum of Art",
+      "collectionURL" : "https://www.metmuseum.org/art/collection/search/11764",
+      "dateDisplay" : "1835–40",
+      "id" : "met-11764",
+      "image" : {
+        "format" : "jpeg",
+        "sourceMaxHeight" : 3684,
+        "sourceMaxWidth" : 3379,
+        "url" : "https://images.metmuseum.org/CRDImages/ad/original/DT2063.jpg"
+      },
+      "license" : {
+        "evidence" : "met:isPublicDomain",
+        "sourceURL" : "https://www.metmuseum.org/art/collection/search/11764",
+        "status" : "CC0"
+      },
+      "medium" : "Oil on canvas",
+      "region" : "American",
+      "significance" : {
+        "canonLists" : [
+
+        ],
+        "curatorScore" : 7.5,
+        "museumHighlight" : true
+      },
+      "tags" : [
+        "family",
+        "portrait"
+      ],
+      "title" : "Mrs. Mayer and Daughter",
+      "wikidata" : "Q20170255",
+      "year" : 1835
     },
     {
       "artist" : "John Singer Sargent",
@@ -4892,6 +6148,42 @@
       "year" : 1485
     },
     {
+      "artist" : "Annibale Carracci",
+      "artistDeathYear" : 1609,
+      "artistSort" : "Carracci, Annibale",
+      "caption" : "A young man and a grey-bearded elder hold a crown over the Virgin beneath a white dove, while angels with a flute and stringed instruments sit on clouds to either side.",
+      "collection" : "The Metropolitan Museum of Art",
+      "collectionURL" : "https://www.metmuseum.org/art/collection/search/435853",
+      "dateDisplay" : "after 1595",
+      "id" : "met-435853",
+      "image" : {
+        "format" : "jpeg",
+        "sourceMaxHeight" : 3421,
+        "sourceMaxWidth" : 4000,
+        "url" : "https://images.metmuseum.org/CRDImages/ep/original/DP-27033-001.jpg"
+      },
+      "license" : {
+        "evidence" : "met:isPublicDomain",
+        "sourceURL" : "https://www.metmuseum.org/art/collection/search/435853",
+        "status" : "CC0"
+      },
+      "medium" : "Oil on canvas",
+      "region" : "Italian",
+      "significance" : {
+        "canonLists" : [
+
+        ],
+        "curatorScore" : 7.5,
+        "museumHighlight" : true
+      },
+      "tags" : [
+        "religious"
+      ],
+      "title" : "The Coronation of the Virgin",
+      "wikidata" : "Q19911518",
+      "year" : 1595
+    },
+    {
       "artist" : "Paul Cézanne",
       "artistDeathYear" : 1906,
       "artistSort" : "Cézanne, Paul",
@@ -5034,6 +6326,82 @@
       "title" : "Soap Bubbles",
       "wikidata" : "Q19911699",
       "year" : 1733
+    },
+    {
+      "artist" : "Claude Lorrain",
+      "artistDeathYear" : 1682,
+      "artistSort" : "Lorrain, Claude",
+      "caption" : "Flames and smoke rise from the prow of a tall ship as women in bright robes gesture on a sandy shore, while more ships flying red and gold pennants fill the bay.",
+      "collection" : "The Metropolitan Museum of Art",
+      "collectionURL" : "https://www.metmuseum.org/art/collection/search/435908",
+      "dateDisplay" : "ca. 1643",
+      "id" : "met-435908",
+      "image" : {
+        "format" : "jpeg",
+        "sourceMaxHeight" : 2719,
+        "sourceMaxWidth" : 3915,
+        "url" : "https://images.metmuseum.org/CRDImages/ep/original/DP226145.jpg"
+      },
+      "license" : {
+        "evidence" : "met:isPublicDomain",
+        "sourceURL" : "https://www.metmuseum.org/art/collection/search/435908",
+        "status" : "CC0"
+      },
+      "medium" : "Oil on canvas",
+      "region" : "French",
+      "significance" : {
+        "canonLists" : [
+
+        ],
+        "curatorScore" : 7.5,
+        "museumHighlight" : true,
+        "sitelinks" : 7
+      },
+      "tags" : [
+        "literary",
+        "seascape"
+      ],
+      "title" : "The Trojan Women Setting Fire to Their Fleet",
+      "wikidata" : "Q19911726",
+      "year" : 1643
+    },
+    {
+      "artist" : "Jean-Baptiste Camille Corot",
+      "artistDeathYear" : 1875,
+      "artistSort" : "Corot, Jean-Baptiste Camille",
+      "caption" : "Hagar sits on the ground with one hand to her brow and the other raised toward an angel flying overhead, a child lying limp beside her in a sunlit, rocky landscape of trees and boulders.",
+      "collection" : "The Metropolitan Museum of Art",
+      "collectionURL" : "https://www.metmuseum.org/art/collection/search/435962",
+      "dateDisplay" : "1835",
+      "id" : "met-435962",
+      "image" : {
+        "format" : "jpeg",
+        "sourceMaxHeight" : 2817,
+        "sourceMaxWidth" : 3811,
+        "url" : "https://images.metmuseum.org/CRDImages/ep/original/DT2013.jpg"
+      },
+      "license" : {
+        "evidence" : "met:isPublicDomain",
+        "sourceURL" : "https://www.metmuseum.org/art/collection/search/435962",
+        "status" : "CC0"
+      },
+      "medium" : "Oil on canvas",
+      "region" : "French",
+      "significance" : {
+        "canonLists" : [
+
+        ],
+        "curatorScore" : 7.5,
+        "museumHighlight" : true,
+        "sitelinks" : 6
+      },
+      "tags" : [
+        "landscape",
+        "religious"
+      ],
+      "title" : "Hagar in the Wilderness",
+      "wikidata" : "Q18177483",
+      "year" : 1835
     },
     {
       "artist" : "Gustave Courbet",
@@ -5193,6 +6561,44 @@
       "artist" : "Gerard David",
       "artistDeathYear" : 1523,
       "artistSort" : "David, Gerard",
+      "caption" : "The Virgin nurses the Child on a rocky ledge, her deep blue mantle spread wide, with a towered town at left and a tiny Holy Family on a donkey passing through the woods behind.",
+      "collection" : "The Metropolitan Museum of Art",
+      "collectionURL" : "https://www.metmuseum.org/art/collection/search/436101",
+      "dateDisplay" : "ca. 1512–15",
+      "id" : "met-436101",
+      "image" : {
+        "format" : "jpeg",
+        "sourceMaxHeight" : 4000,
+        "sourceMaxWidth" : 3078,
+        "url" : "https://images.metmuseum.org/CRDImages/ep/original/DP-14936-023.jpg"
+      },
+      "license" : {
+        "evidence" : "met:isPublicDomain",
+        "sourceURL" : "https://www.metmuseum.org/art/collection/search/436101",
+        "status" : "CC0"
+      },
+      "medium" : "Oil on wood",
+      "region" : "Netherlandish",
+      "significance" : {
+        "canonLists" : [
+
+        ],
+        "curatorScore" : 7.5,
+        "museumHighlight" : true,
+        "sitelinks" : 5
+      },
+      "tags" : [
+        "landscape",
+        "religious"
+      ],
+      "title" : "The Rest on the Flight into Egypt",
+      "wikidata" : "Q19911632",
+      "year" : 1512
+    },
+    {
+      "artist" : "Gerard David",
+      "artistDeathYear" : 1523,
+      "artistSort" : "David, Gerard",
       "caption" : "The Virgin stands in a red mantle under a tall arch, holding the Child, while two angels in flight hold a gold crown above her. Below, an angel in green plays a harp and an angel in blue a lute. Behind her lies a walled garden with a small figure in white, and towers beyond.",
       "collection" : "The Metropolitan Museum of Art",
       "collectionURL" : "https://www.metmuseum.org/art/collection/search/436102",
@@ -5265,6 +6671,44 @@
       "title" : "The Death of Socrates",
       "wikidata" : "Q1752990",
       "year" : 1787
+    },
+    {
+      "artist" : "Edgar Degas",
+      "artistDeathYear" : 1917,
+      "artistSort" : "Degas, Edgar",
+      "caption" : "A huge bouquet of white, blue, red and orange flowers fills most of the canvas, while a woman in a lace cap sits at its right edge, hand to her mouth, gazing off to the right.",
+      "collection" : "The Metropolitan Museum of Art",
+      "collectionURL" : "https://www.metmuseum.org/art/collection/search/436121",
+      "dateDisplay" : "1865",
+      "id" : "met-436121",
+      "image" : {
+        "format" : "jpeg",
+        "sourceMaxHeight" : 3256,
+        "sourceMaxWidth" : 4000,
+        "url" : "https://images.metmuseum.org/CRDImages/ep/original/DP-25460-001.jpg"
+      },
+      "license" : {
+        "evidence" : "met:isPublicDomain",
+        "sourceURL" : "https://www.metmuseum.org/art/collection/search/436121",
+        "status" : "CC0"
+      },
+      "medium" : "Oil on canvas",
+      "region" : "French",
+      "significance" : {
+        "canonLists" : [
+
+        ],
+        "curatorScore" : 7.5,
+        "museumHighlight" : true,
+        "sitelinks" : 5
+      },
+      "tags" : [
+        "flowers",
+        "portrait"
+      ],
+      "title" : "A Woman Seated beside a Vase of Flowers (Madame Paul Valpinçon?)",
+      "wikidata" : "Q3713914",
+      "year" : 1865
     },
     {
       "artist" : "Edgar Degas",
@@ -5678,6 +7122,42 @@
       "title" : "The Adoration of the Magi",
       "wikidata" : "Q19911414",
       "year" : 1315
+    },
+    {
+      "artist" : "Scheggia (Giovanni di ser Giovanni Guidi)",
+      "artistDeathYear" : 1486,
+      "artistSort" : "Scheggia",
+      "caption" : "Winged Fame, holding a sword and a tiny winged archer, stands on a sphere ringed with trumpets above a crowd of armored horsemen, in a round panel with a gilded rope-twist frame.",
+      "collection" : "The Metropolitan Museum of Art",
+      "collectionURL" : "https://www.metmuseum.org/art/collection/search/436516",
+      "dateDisplay" : "ca. 1449",
+      "id" : "met-436516",
+      "image" : {
+        "format" : "jpeg",
+        "sourceMaxHeight" : 3803,
+        "sourceMaxWidth" : 3885,
+        "url" : "https://images.metmuseum.org/CRDImages/ep/original/DP164870.jpg"
+      },
+      "license" : {
+        "evidence" : "met:isPublicDomain",
+        "sourceURL" : "https://www.metmuseum.org/art/collection/search/436516",
+        "status" : "CC0"
+      },
+      "medium" : "Tempera, silver, and gold on wood",
+      "region" : "Italian",
+      "significance" : {
+        "canonLists" : [
+
+        ],
+        "curatorScore" : 7.5,
+        "museumHighlight" : true
+      },
+      "tags" : [
+        "allegorical"
+      ],
+      "title" : "The Triumph of Fame; (reverse) Impresa of the Medici Family and Arms of the Medici and Tornabuoni Families",
+      "wikidata" : "Q3998939",
+      "year" : 1444
     },
     {
       "artist" : "Hugo van der Goes",
@@ -6619,6 +8099,44 @@
       "year" : 1874
     },
     {
+      "artist" : "Édouard Manet",
+      "artistDeathYear" : 1883,
+      "artistSort" : "Manet, Édouard",
+      "caption" : "A young woman in a pale pink dressing gown holds a small posy to her face beside a grey parrot on a tall perch, a peeled orange lying on the floor at its base.",
+      "collection" : "The Metropolitan Museum of Art",
+      "collectionURL" : "https://www.metmuseum.org/art/collection/search/436964",
+      "dateDisplay" : "1866",
+      "id" : "met-436964",
+      "image" : {
+        "format" : "jpeg",
+        "sourceMaxHeight" : 3795,
+        "sourceMaxWidth" : 2607,
+        "url" : "https://images.metmuseum.org/CRDImages/ep/original/DP273977.jpg"
+      },
+      "license" : {
+        "evidence" : "met:isPublicDomain",
+        "sourceURL" : "https://www.metmuseum.org/art/collection/search/436964",
+        "status" : "CC0"
+      },
+      "medium" : "Oil on canvas",
+      "region" : "French",
+      "significance" : {
+        "canonLists" : [
+
+        ],
+        "curatorScore" : 7.5,
+        "museumHighlight" : true,
+        "sitelinks" : 8
+      },
+      "tags" : [
+        "animals",
+        "portrait"
+      ],
+      "title" : "Young Lady in 1866",
+      "wikidata" : "Q942523",
+      "year" : 1866
+    },
+    {
       "artist" : "Andrea Mantegna",
       "artistDeathYear" : 1506,
       "artistSort" : "Mantegna, Andrea",
@@ -6807,6 +8325,42 @@
       "title" : "Oedipus and the Sphinx",
       "wikidata" : "Q293990",
       "year" : 1864
+    },
+    {
+      "artist" : "Bartolomé Esteban Murillo",
+      "artistDeathYear" : 1682,
+      "artistSort" : "Murillo, Bartolomé Esteban",
+      "caption" : "The Child reaches up to touch his mother's neckline as she gazes down at him, the Virgin in a red dress and blue mantle seated against a plain dark ground.",
+      "collection" : "The Metropolitan Museum of Art",
+      "collectionURL" : "https://www.metmuseum.org/art/collection/search/437175",
+      "dateDisplay" : "1670s",
+      "id" : "met-437175",
+      "image" : {
+        "format" : "jpeg",
+        "sourceMaxHeight" : 4000,
+        "sourceMaxWidth" : 2826,
+        "url" : "https://images.metmuseum.org/CRDImages/ep/original/DP-14936-010.jpg"
+      },
+      "license" : {
+        "evidence" : "met:isPublicDomain",
+        "sourceURL" : "https://www.metmuseum.org/art/collection/search/437175",
+        "status" : "CC0"
+      },
+      "medium" : "Oil on canvas",
+      "region" : "Spanish",
+      "significance" : {
+        "canonLists" : [
+
+        ],
+        "curatorScore" : 7.5,
+        "museumHighlight" : true
+      },
+      "tags" : [
+        "religious"
+      ],
+      "title" : "Virgin and Child",
+      "wikidata" : "Q19911474",
+      "year" : 1670
     },
     {
       "artist" : "Joachim Patinir",
@@ -8761,6 +10315,45 @@
       "year" : 1372
     },
     {
+      "artist" : "Sano di Pietro",
+      "artistDeathYear" : 1481,
+      "artistSort" : "Sano di Pietro",
+      "caption" : "A haloed, white-bearded hermit with a crutch-topped staff stands on a stony path among bare trees, rabbits and a reclining stag, beneath a streaked sunset sky with a pink church.",
+      "collection" : "The Metropolitan Museum of Art",
+      "collectionURL" : "https://www.metmuseum.org/art/collection/search/458967",
+      "dateDisplay" : "ca. 1440",
+      "id" : "met-458967",
+      "image" : {
+        "format" : "jpeg",
+        "sourceMaxHeight" : 3874,
+        "sourceMaxWidth" : 2829,
+        "url" : "https://images.metmuseum.org/CRDImages/rl/original/DP319194.jpg"
+      },
+      "license" : {
+        "evidence" : "met:isPublicDomain",
+        "sourceURL" : "https://www.metmuseum.org/art/collection/search/458967",
+        "status" : "CC0"
+      },
+      "medium" : "Tempera and gold on wood",
+      "region" : "Italian",
+      "significance" : {
+        "canonLists" : [
+
+        ],
+        "curatorScore" : 7.5,
+        "museumHighlight" : true,
+        "sitelinks" : 4
+      },
+      "tags" : [
+        "animals",
+        "landscape",
+        "religious"
+      ],
+      "title" : "Saint Anthony the Abbot in the Wilderness",
+      "wikidata" : "Q3948786",
+      "year" : 1435
+    },
+    {
       "artist" : "Giovanni di Paolo (Giovanni di Paolo di Grazia)",
       "artistDeathYear" : 1482,
       "artistSort" : "Grazia), Giovanni di Paolo (Giovanni di Paolo di",
@@ -8799,6 +10392,43 @@
       "year" : 1445
     },
     {
+      "artist" : "Giovanni di Paolo",
+      "artistDeathYear" : 1482,
+      "artistSort" : "Paolo, Giovanni di",
+      "caption" : "A haloed angel faces the bearded, haloed Zacharias across an altar inside an arcaded temple crowned with red domes, as onlookers gather at both sides.",
+      "collection" : "The Metropolitan Museum of Art",
+      "collectionURL" : "https://www.metmuseum.org/art/collection/search/458977",
+      "dateDisplay" : "ca. 1455–60",
+      "id" : "met-458977",
+      "image" : {
+        "format" : "jpeg",
+        "sourceMaxHeight" : 4000,
+        "sourceMaxWidth" : 1906,
+        "url" : "https://images.metmuseum.org/CRDImages/rl/original/DP-19531-098.jpg"
+      },
+      "license" : {
+        "evidence" : "met:isPublicDomain",
+        "sourceURL" : "https://www.metmuseum.org/art/collection/search/458977",
+        "status" : "CC0"
+      },
+      "medium" : "Tempera and gold on wood",
+      "region" : "Italian",
+      "significance" : {
+        "canonLists" : [
+
+        ],
+        "curatorScore" : 7.5,
+        "museumHighlight" : true
+      },
+      "tags" : [
+        "architecture",
+        "religious"
+      ],
+      "title" : "The Annunciation to Zacharias; (verso) The Angel of the Annunciation",
+      "wikidata" : "Q20185362",
+      "year" : 1452
+    },
+    {
       "artist" : "Giovanni di Paolo (Giovanni di Paolo di Grazia)",
       "artistDeathYear" : 1482,
       "artistSort" : "Grazia), Giovanni di Paolo (Giovanni di Paolo di",
@@ -8834,6 +10464,43 @@
       "title" : "Coronation of the Virgin",
       "wikidata" : "Q20185389",
       "year" : 1452
+    },
+    {
+      "artist" : "Lorenzo Monaco",
+      "artistDeathYear" : 1425,
+      "artistSort" : "Monaco, Lorenzo",
+      "caption" : "A kneeling woman in a blue mantle prays before a radiant infant lying below the manger as an ox and an ass lean over it, an old man sits at right, and an angel appears to figures on a hill.",
+      "collection" : "The Metropolitan Museum of Art",
+      "collectionURL" : "https://www.metmuseum.org/art/collection/search/459007",
+      "dateDisplay" : "ca. 1406–10",
+      "id" : "met-459007",
+      "image" : {
+        "format" : "jpeg",
+        "sourceMaxHeight" : 2544,
+        "sourceMaxWidth" : 3811,
+        "url" : "https://images.metmuseum.org/CRDImages/rl/original/DT709.jpg"
+      },
+      "license" : {
+        "evidence" : "met:isPublicDomain",
+        "sourceURL" : "https://www.metmuseum.org/art/collection/search/459007",
+        "status" : "CC0"
+      },
+      "medium" : "Tempera and gold on wood",
+      "region" : "Italian",
+      "significance" : {
+        "canonLists" : [
+
+        ],
+        "curatorScore" : 7.5,
+        "museumHighlight" : true
+      },
+      "tags" : [
+        "animals",
+        "religious"
+      ],
+      "title" : "The Nativity",
+      "wikidata" : "Q20184394",
+      "year" : 1403
     },
     {
       "artist" : "Petrus Christus",
@@ -8911,6 +10578,42 @@
       "title" : "Two Young Girls at the Piano",
       "wikidata" : "Q20183500",
       "year" : 1892
+    },
+    {
+      "artist" : "Bartolo di Fredi",
+      "artistDeathYear" : 1410,
+      "artistSort" : "Bartolo di Fredi",
+      "caption" : "Angels sing in a scalloped gold arch above the stable while Mary, Joseph and two kneeling shepherds adore the swaddled Child, with more shepherds on the hillside at right.",
+      "collection" : "The Metropolitan Museum of Art",
+      "collectionURL" : "https://www.metmuseum.org/art/collection/search/470600",
+      "dateDisplay" : "1374",
+      "id" : "met-470600",
+      "image" : {
+        "format" : "jpeg",
+        "sourceMaxHeight" : 1939,
+        "sourceMaxWidth" : 1300,
+        "url" : "https://images.metmuseum.org/CRDImages/cl/original/DP270224.jpg"
+      },
+      "license" : {
+        "evidence" : "met:isPublicDomain",
+        "sourceURL" : "https://www.metmuseum.org/art/collection/search/470600",
+        "status" : "CC0"
+      },
+      "medium" : "Tempera on poplar, gold ground",
+      "region" : "Italian",
+      "significance" : {
+        "canonLists" : [
+
+        ],
+        "curatorScore" : 7.5,
+        "museumHighlight" : true
+      },
+      "tags" : [
+        "religious"
+      ],
+      "title" : "The Adoration of the Shepherds",
+      "wikidata" : "Q20200879",
+      "year" : 1374
     },
     {
       "artist" : "Wu Bin",
@@ -9021,6 +10724,43 @@
       "year" : 100
     },
     {
+      "artist" : "Tara",
+      "artistDeathYear" : 1870,
+      "artistSort" : "Tara",
+      "caption" : "Maharana Sarup Singh, haloed and seated on a cushion beneath a vast red-and-gold canopy, appraises a stallion in a zigzag-patterned blanket as rows of pink-robed courtiers sit around him.",
+      "collection" : "The Metropolitan Museum of Art",
+      "collectionURL" : "https://www.metmuseum.org/art/collection/search/61429",
+      "dateDisplay" : "1845–46",
+      "id" : "met-61429",
+      "image" : {
+        "format" : "jpeg",
+        "sourceMaxHeight" : 3055,
+        "sourceMaxWidth" : 4000,
+        "url" : "https://images.metmuseum.org/CRDImages/as/original/DT4984.jpg"
+      },
+      "license" : {
+        "evidence" : "met:isPublicDomain",
+        "sourceURL" : "https://www.metmuseum.org/art/collection/search/61429",
+        "status" : "CC0"
+      },
+      "medium" : "Opaque watercolor, ink, and gold on paper",
+      "region" : "Western India, Rajasthan, Mewar",
+      "significance" : {
+        "canonLists" : [
+
+        ],
+        "curatorScore" : 7.5,
+        "museumHighlight" : true
+      },
+      "tags" : [
+        "animals",
+        "portrait"
+      ],
+      "title" : "Maharana Sarup Singh Inspects a Prize Stallion",
+      "wikidata" : "Q29383366",
+      "year" : 1845
+    },
+    {
       "artist" : "Charles Le Brun",
       "artistDeathYear" : 1690,
       "artistSort" : "Brun, Charles Le",
@@ -9095,6 +10835,42 @@
       "year" : 1896
     },
     {
+      "artist" : "Nicolás Enríquez",
+      "artistDeathYear" : 1795,
+      "artistSort" : "Enríquez, Nicolás",
+      "caption" : "Four corner scenes framed by gold-brown scrollwork surround the crowned Virgin of Guadalupe, hands joined in prayer, her starry green mantle edged in gold within a blaze of golden rays.",
+      "collection" : "The Metropolitan Museum of Art",
+      "collectionURL" : "https://www.metmuseum.org/art/collection/search/635401",
+      "dateDisplay" : "1773",
+      "id" : "met-635401",
+      "image" : {
+        "format" : "jpeg",
+        "sourceMaxHeight" : 3884,
+        "sourceMaxWidth" : 2911,
+        "url" : "https://images.metmuseum.org/CRDImages/ad/original/DP356939.jpg"
+      },
+      "license" : {
+        "evidence" : "met:isPublicDomain",
+        "sourceURL" : "https://www.metmuseum.org/art/collection/search/635401",
+        "status" : "CC0"
+      },
+      "medium" : "Oil on copper",
+      "region" : "Mexican",
+      "significance" : {
+        "canonLists" : [
+
+        ],
+        "curatorScore" : 7.5,
+        "museumHighlight" : true
+      },
+      "tags" : [
+        "religious"
+      ],
+      "title" : "The Virgin of Guadalupe with the Four Apparitions",
+      "wikidata" : "Q19923997",
+      "year" : 1773
+    },
+    {
       "artist" : "Joachim Beuckelaer",
       "artistDeathYear" : 1574,
       "artistSort" : "Beuckelaer, Joachim",
@@ -9131,6 +10907,82 @@
       "title" : "Fish Market",
       "wikidata" : "Q19913672",
       "year" : 1568
+    },
+    {
+      "artist" : "Jules Tavernier",
+      "artistDeathYear" : 1889,
+      "artistSort" : "Tavernier, Jules",
+      "caption" : "Dancers perform on a lit earthen floor inside a subterranean roundhouse as a line of women in feathered headdresses and a seated crowd in the foreground watch beneath the log roof.",
+      "collection" : "The Metropolitan Museum of Art",
+      "collectionURL" : "https://www.metmuseum.org/art/collection/search/698529",
+      "dateDisplay" : "1878",
+      "id" : "met-698529",
+      "image" : {
+        "format" : "jpeg",
+        "sourceMaxHeight" : 3506,
+        "sourceMaxWidth" : 5815,
+        "url" : "https://images.metmuseum.org/CRDImages/ad/original/2016.135.jpg"
+      },
+      "license" : {
+        "evidence" : "met:isPublicDomain",
+        "sourceURL" : "https://www.metmuseum.org/art/collection/search/698529",
+        "status" : "CC0"
+      },
+      "medium" : "Oil on canvas",
+      "region" : "American, born France",
+      "significance" : {
+        "canonLists" : [
+
+        ],
+        "curatorScore" : 7.5,
+        "museumHighlight" : true
+      },
+      "tags" : [
+        "dance",
+        "everyday-life",
+        "interior",
+        "night"
+      ],
+      "title" : "Dance in a Subterranean Roundhouse at Clear Lake, California",
+      "wikidata" : "Q78614308",
+      "year" : 1878
+    },
+    {
+      "artist" : "Stipple Master",
+      "artistDeathYear" : 1725,
+      "artistSort" : "Stipple Master",
+      "caption" : "Maharana Sangram Singh, haloed in gold and holding a spear, rides a rearing dark stallion as a bearded attendant in a red turban strides alongside with a white fly-whisk.",
+      "collection" : "The Metropolitan Museum of Art",
+      "collectionURL" : "https://www.metmuseum.org/art/collection/search/72589",
+      "dateDisplay" : "ca. 1712",
+      "id" : "met-72589",
+      "image" : {
+        "format" : "jpeg",
+        "sourceMaxHeight" : 3871,
+        "sourceMaxWidth" : 3493,
+        "url" : "https://images.metmuseum.org/CRDImages/as/original/DP112943.jpg"
+      },
+      "license" : {
+        "evidence" : "met:isPublicDomain",
+        "sourceURL" : "https://www.metmuseum.org/art/collection/search/72589",
+        "status" : "CC0"
+      },
+      "medium" : "Ink, opaque watercolor, gold, and Basra pearls on paper",
+      "region" : "Indian",
+      "significance" : {
+        "canonLists" : [
+
+        ],
+        "curatorScore" : 7.5,
+        "museumHighlight" : true
+      },
+      "tags" : [
+        "animals",
+        "portrait"
+      ],
+      "title" : "Maharana Sangram Singh Riding a Prize Stallion",
+      "wikidata" : "Q78714570",
+      "year" : 1712
     },
     {
       "artist" : "Simon Vouet",
@@ -9240,6 +11092,41 @@
       "year" : 1450
     },
     {
+      "artist" : "Kitaharasa",
+      "artistSort" : "Kitaharasa",
+      "caption" : "Surya sits at the center of a great red circle ringed with lotus petals and smaller deities, while rows of figures in arched niches fill the borders and a band of scenes runs along the bottom.",
+      "collection" : "The Metropolitan Museum of Art",
+      "collectionURL" : "https://www.metmuseum.org/art/collection/search/78197",
+      "dateDisplay" : "likely 1379",
+      "id" : "met-78197",
+      "image" : {
+        "format" : "jpeg",
+        "sourceMaxHeight" : 4000,
+        "sourceMaxWidth" : 2628,
+        "url" : "https://images.metmuseum.org/CRDImages/as/original/DP284710_edt.jpg"
+      },
+      "license" : {
+        "evidence" : "met:isPublicDomain",
+        "sourceURL" : "https://www.metmuseum.org/art/collection/search/78197",
+        "status" : "CC0"
+      },
+      "medium" : "Distemper on cotton",
+      "region" : "Nepal, Kathmandu Valley",
+      "significance" : {
+        "canonLists" : [
+
+        ],
+        "curatorScore" : 7.5,
+        "museumHighlight" : true
+      },
+      "tags" : [
+        "religious"
+      ],
+      "title" : "Mandala of the Sun God Surya",
+      "wikidata" : "Q78656760",
+      "year" : 1379
+    },
+    {
       "artist" : "Clara Peeters",
       "artistDeathYear" : 1636,
       "artistSort" : "Peeters, Clara",
@@ -9313,6 +11200,42 @@
       "year" : 1555
     },
     {
+      "artist" : "Jeong Hong-Rae",
+      "artistSort" : "Jeong Hong-Rae",
+      "caption" : "A hawk perched on a blue-green rock turns its head toward a red sun, its brown plumage drawn in fine overlapping strokes above curling, white-crested waves.",
+      "collection" : "The Metropolitan Museum of Art",
+      "collectionURL" : "https://www.metmuseum.org/art/collection/search/860960",
+      "dateDisplay" : "second half 18th century–first half 19th century",
+      "id" : "met-860960",
+      "image" : {
+        "format" : "jpeg",
+        "sourceMaxHeight" : 4000,
+        "sourceMaxWidth" : 2516,
+        "url" : "https://images.metmuseum.org/CRDImages/as/original/DP-24801-002.jpg"
+      },
+      "license" : {
+        "evidence" : "met:isPublicDomain",
+        "sourceURL" : "https://www.metmuseum.org/art/collection/search/860960",
+        "status" : "CC0"
+      },
+      "medium" : "Hanging scroll; ink and color on silk",
+      "region" : "Korean",
+      "significance" : {
+        "canonLists" : [
+
+        ],
+        "curatorScore" : 7.5,
+        "museumHighlight" : true
+      },
+      "tags" : [
+        "animals",
+        "seascape"
+      ],
+      "title" : "Hawk at Sunrise",
+      "wikidata" : "Q126118810",
+      "year" : 1750
+    },
+    {
       "artist" : "Alfred Sisley",
       "artistDeathYear" : 1899,
       "artistSort" : "Sisley, Alfred",
@@ -9349,6 +11272,42 @@
       "title" : "The Seine at Bougival",
       "wikidata" : "Q3212765",
       "year" : 1876
+    },
+    {
+      "artist" : "Leng Mei",
+      "artistDeathYear" : 1742,
+      "artistSort" : "Leng Mei",
+      "caption" : "A standing attendant fixes a flower ornament in the hair of a seated woman at a red-legged table of lacquered boxes, the scene framed by drawn pale blue-green curtains.",
+      "collection" : "The Metropolitan Museum of Art",
+      "collectionURL" : "https://www.metmuseum.org/art/collection/search/910543",
+      "dateDisplay" : "early 18th century",
+      "id" : "met-910543",
+      "image" : {
+        "format" : "jpeg",
+        "sourceMaxHeight" : 4000,
+        "sourceMaxWidth" : 2476,
+        "url" : "https://images.metmuseum.org/CRDImages/as/original/DP-34237-002.jpg"
+      },
+      "license" : {
+        "evidence" : "met:isPublicDomain",
+        "sourceURL" : "https://www.metmuseum.org/art/collection/search/910543",
+        "status" : "CC0"
+      },
+      "medium" : "Hanging scroll; ink and color on silk",
+      "region" : "Chinese",
+      "significance" : {
+        "canonLists" : [
+
+        ],
+        "curatorScore" : 7.5,
+        "museumHighlight" : true
+      },
+      "tags" : [
+        "everyday-life",
+        "interior"
+      ],
+      "title" : "Woman at her dressing table",
+      "year" : 1700
     },
     {
       "artist" : "Sir Joshua Reynolds",
@@ -9879,6 +11838,45 @@
       "title" : "Woman Holding a Balance",
       "wikidata" : "Q969367",
       "year" : 1664
+    },
+    {
+      "artist" : "Albert Bierstadt",
+      "artistDeathYear" : 1902,
+      "artistSort" : "Bierstadt, Albert",
+      "caption" : "A rider on a rearing white horse aims a lance at a charging buffalo amid bleached skulls and fallen bison, with herds by a river and dusty mountains stretching behind.",
+      "collection" : "National Gallery of Art",
+      "collectionURL" : "https://www.nga.gov/artworks/124525",
+      "dateDisplay" : "1888-1889",
+      "id" : "nga-124525",
+      "image" : {
+        "format" : "jpeg",
+        "sourceMaxHeight" : 6252,
+        "sourceMaxWidth" : 10602,
+        "url" : "https://api.nga.gov/iiif/d5d978ed-61c4-4c14-8c5d-1c2444d76301/full/!3840,3840/0/default.jpg",
+        "urlTemplate" : "https://api.nga.gov/iiif/d5d978ed-61c4-4c14-8c5d-1c2444d76301/full/!{w},{w}/0/default.jpg"
+      },
+      "license" : {
+        "evidence" : "nga:openaccess",
+        "sourceURL" : "https://www.nga.gov/artworks/124525",
+        "status" : "CC0"
+      },
+      "medium" : "oil on canvas",
+      "significance" : {
+        "canonLists" : [
+
+        ],
+        "curatorScore" : 7.5,
+        "museumHighlight" : false,
+        "sitelinks" : 8
+      },
+      "tags" : [
+        "animals",
+        "hunting",
+        "landscape"
+      ],
+      "title" : "The Last of the Buffalo",
+      "wikidata" : "Q20189937",
+      "year" : 1888
     },
     {
       "artist" : "Frederic Edwin Church",
@@ -10641,6 +12639,43 @@
       "year" : 1590
     },
     {
+      "artist" : "Lorenzo Lotto",
+      "artistDeathYear" : 1556,
+      "artistSort" : "Lotto, Lorenzo",
+      "caption" : "Two haloed figures kneel in prayer over a newborn in a wicker basket, while a crucifix hangs on the wall at left and three winged putti hold a sheet of music above the thatched roof.",
+      "collection" : "National Gallery of Art",
+      "collectionURL" : "https://www.nga.gov/artworks/431",
+      "dateDisplay" : "1523",
+      "id" : "nga-431",
+      "image" : {
+        "format" : "jpeg",
+        "sourceMaxHeight" : 12320,
+        "sourceMaxWidth" : 9407,
+        "url" : "https://api.nga.gov/iiif/d33bbc5c-8152-4af1-9778-c3fc63020877/full/!3840,3840/0/default.jpg",
+        "urlTemplate" : "https://api.nga.gov/iiif/d33bbc5c-8152-4af1-9778-c3fc63020877/full/!{w},{w}/0/default.jpg"
+      },
+      "license" : {
+        "evidence" : "nga:openaccess",
+        "sourceURL" : "https://www.nga.gov/artworks/431",
+        "status" : "CC0"
+      },
+      "medium" : "oil on panel",
+      "significance" : {
+        "canonLists" : [
+
+        ],
+        "curatorScore" : 7.5,
+        "museumHighlight" : false,
+        "sitelinks" : 8
+      },
+      "tags" : [
+        "religious"
+      ],
+      "title" : "The Nativity",
+      "wikidata" : "Q3605564",
+      "year" : 1523
+    },
+    {
       "artist" : "Giorgione",
       "artistDeathYear" : 1510,
       "artistSort" : "Giorgione",
@@ -10907,6 +12942,44 @@
       "year" : 1769
     },
     {
+      "artist" : "John Singer Sargent",
+      "artistDeathYear" : 1925,
+      "artistSort" : "Sargent, John Singer",
+      "caption" : "A young woman in a black shawl and pale skirt walks down a narrow Venetian street as two men in dark coats and hats stand against the wall at right.",
+      "collection" : "National Gallery of Art",
+      "collectionURL" : "https://www.nga.gov/artworks/46428",
+      "dateDisplay" : "1882",
+      "id" : "nga-46428",
+      "image" : {
+        "format" : "jpeg",
+        "sourceMaxHeight" : 19932,
+        "sourceMaxWidth" : 23781,
+        "url" : "https://api.nga.gov/iiif/101f6ae4-948e-4d84-923c-cdf4e37d2b36/full/!3840,3840/0/default.jpg",
+        "urlTemplate" : "https://api.nga.gov/iiif/101f6ae4-948e-4d84-923c-cdf4e37d2b36/full/!{w},{w}/0/default.jpg"
+      },
+      "license" : {
+        "evidence" : "nga:openaccess",
+        "sourceURL" : "https://www.nga.gov/artworks/46428",
+        "status" : "CC0"
+      },
+      "medium" : "oil on wood",
+      "significance" : {
+        "canonLists" : [
+
+        ],
+        "curatorScore" : 7.5,
+        "museumHighlight" : false,
+        "sitelinks" : 8
+      },
+      "tags" : [
+        "cityscape",
+        "everyday-life"
+      ],
+      "title" : "Street in Venice",
+      "wikidata" : "Q7623018",
+      "year" : 1882
+    },
+    {
       "artist" : "Orazio Gentileschi",
       "artistDeathYear" : 1639,
       "artistSort" : "Gentileschi, Orazio",
@@ -11093,6 +13166,44 @@
       "title" : "Girl Arranging Her Hair",
       "wikidata" : "Q3633620",
       "year" : 1886
+    },
+    {
+      "artist" : "Mary Cassatt",
+      "artistDeathYear" : 1926,
+      "artistSort" : "Cassatt, Mary",
+      "caption" : "A red-haired woman in a yellow and pale green gown, a large sunflower pinned at her bodice, steadies a nude toddler on her lap who holds up a gilt hand mirror.",
+      "collection" : "National Gallery of Art",
+      "collectionURL" : "https://www.nga.gov/artworks/46573",
+      "dateDisplay" : "c. 1905",
+      "id" : "nga-46573",
+      "image" : {
+        "format" : "jpeg",
+        "sourceMaxHeight" : 21806,
+        "sourceMaxWidth" : 17513,
+        "url" : "https://api.nga.gov/iiif/6ee124da-972a-4f02-83b8-7dc09c33f17c/full/!3840,3840/0/default.jpg",
+        "urlTemplate" : "https://api.nga.gov/iiif/6ee124da-972a-4f02-83b8-7dc09c33f17c/full/!{w},{w}/0/default.jpg"
+      },
+      "license" : {
+        "evidence" : "nga:openaccess",
+        "sourceURL" : "https://www.nga.gov/artworks/46573",
+        "status" : "CC0"
+      },
+      "medium" : "oil on canvas",
+      "significance" : {
+        "canonLists" : [
+
+        ],
+        "curatorScore" : 7.5,
+        "museumHighlight" : false,
+        "sitelinks" : 8
+      },
+      "tags" : [
+        "everyday-life",
+        "family"
+      ],
+      "title" : "Woman with a Sunflower",
+      "wikidata" : "Q20190957",
+      "year" : 1905
     },
     {
       "artist" : "Paul Gauguin",
@@ -12400,6 +14511,41 @@
       "year" : 1482
     },
     {
+      "artist" : "Adam Pijnacker",
+      "artistDeathYear" : 1673,
+      "artistSort" : "Pijnacker, Adam",
+      "caption" : "Boatmen unload laden boats on a wooded lakeshore beneath a tall tree, with a cow, a donkey and a woman cradling a baby nearby and hazy mountains rising across the water.",
+      "collection" : "Rijksmuseum",
+      "collectionURL" : "https://www.rijksmuseum.nl/en/collection/SK-A-321",
+      "dateDisplay" : "1650 - 1670",
+      "id" : "rijks-200107880",
+      "image" : {
+        "format" : "jpeg",
+        "sourceMaxHeight" : 5521,
+        "sourceMaxWidth" : 4771,
+        "url" : "https://iiif.micr.io/YBsRY/full/3840,/0/default.jpg",
+        "urlTemplate" : "https://iiif.micr.io/YBsRY/full/{w},/0/default.jpg"
+      },
+      "license" : {
+        "evidence" : "rijks:public-domain-mark",
+        "sourceURL" : "https://www.rijksmuseum.nl/en/collection/SK-A-321",
+        "status" : "CC0"
+      },
+      "medium" : "panel, oil paint (paint), canvas",
+      "significance" : {
+        "canonLists" : [
+
+        ],
+        "curatorScore" : 7.5,
+        "museumHighlight" : true
+      },
+      "tags" : [
+        "landscape"
+      ],
+      "title" : "Boatmen Moored on the Shore of an Italian Lake",
+      "year" : 1650
+    },
+    {
       "artist" : "Rembrandt van Rijn",
       "artistDeathYear" : 1669,
       "artistSort" : "Rijn, Rembrandt van",
@@ -12864,6 +15010,41 @@
       "year" : 1649
     },
     {
+      "artist" : "Jan van Scorel",
+      "artistDeathYear" : 1562,
+      "artistSort" : "Scorel, Jan van",
+      "caption" : "A fair-haired man in a black cap and fur-collared black gown rests his hands on a red, leaf-patterned surface, gazing off to the left against a plain olive-brown ground.",
+      "collection" : "Rijksmuseum",
+      "collectionURL" : "https://www.rijksmuseum.nl/en/collection/SK-C-1618",
+      "dateDisplay" : "c. 1535 - c. 1540",
+      "id" : "rijks-200107983",
+      "image" : {
+        "format" : "jpeg",
+        "sourceMaxHeight" : 4101,
+        "sourceMaxWidth" : 5877,
+        "url" : "https://iiif.micr.io/wYOLd/full/3840,/0/default.jpg",
+        "urlTemplate" : "https://iiif.micr.io/wYOLd/full/{w},/0/default.jpg"
+      },
+      "license" : {
+        "evidence" : "rijks:public-domain-mark",
+        "sourceURL" : "https://www.rijksmuseum.nl/en/collection/SK-C-1618",
+        "status" : "CC0"
+      },
+      "medium" : "oil paint (paint), panel",
+      "significance" : {
+        "canonLists" : [
+
+        ],
+        "curatorScore" : 7.5,
+        "museumHighlight" : true
+      },
+      "tags" : [
+        "portrait"
+      ],
+      "title" : "Portrait of Joris van Egmond",
+      "year" : 1535
+    },
+    {
       "artist" : "Hercules Segers",
       "artistDeathYear" : 1638,
       "artistSort" : "Segers, Hercules",
@@ -12899,6 +15080,41 @@
       "title" : "River valley",
       "wikidata" : "Q17331731",
       "year" : 1626
+    },
+    {
+      "artist" : "Michiel Sweerts",
+      "artistDeathYear" : 1664,
+      "artistSort" : "Sweerts, Michiel",
+      "caption" : "A young man with long brown hair raises a pale hand to his chin, his face and white ruffled cuffs lit sharply against a deep, dark background.",
+      "collection" : "Rijksmuseum",
+      "collectionURL" : "https://www.rijksmuseum.nl/en/collection/SK-A-3855",
+      "dateDisplay" : "c. 1648 - c. 1649",
+      "id" : "rijks-200108005",
+      "image" : {
+        "format" : "jpeg",
+        "sourceMaxHeight" : 5363,
+        "sourceMaxWidth" : 4098,
+        "url" : "https://iiif.micr.io/ZSgbb/full/3840,/0/default.jpg",
+        "urlTemplate" : "https://iiif.micr.io/ZSgbb/full/{w},/0/default.jpg"
+      },
+      "license" : {
+        "evidence" : "rijks:public-domain-mark",
+        "sourceURL" : "https://www.rijksmuseum.nl/en/collection/SK-A-3855",
+        "status" : "CC0"
+      },
+      "medium" : "oil paint (paint), canvas",
+      "significance" : {
+        "canonLists" : [
+
+        ],
+        "curatorScore" : 7.5,
+        "museumHighlight" : true
+      },
+      "tags" : [
+        "portrait"
+      ],
+      "title" : "Portrait of Joseph Deutz",
+      "year" : 1648
     },
     {
       "artist" : "Michael Sweerts",
@@ -13128,6 +15344,80 @@
       "year" : 1623
     },
     {
+      "artist" : "Andries Beeckman",
+      "artistDeathYear" : 1664,
+      "artistSort" : "Beeckman, Andries",
+      "caption" : "Tall coconut palms rise over a crowded riverside market at Batavia, the low walls of the castle stretching behind beneath a heavy, cloud-filled sky.",
+      "collection" : "Rijksmuseum",
+      "collectionURL" : "https://www.rijksmuseum.nl/en/collection/SK-A-19",
+      "dateDisplay" : "c. 1662",
+      "id" : "rijks-200108197",
+      "image" : {
+        "format" : "jpeg",
+        "sourceMaxHeight" : 5286,
+        "sourceMaxWidth" : 7404,
+        "url" : "https://iiif.micr.io/gbnGP/full/3840,/0/default.jpg",
+        "urlTemplate" : "https://iiif.micr.io/gbnGP/full/{w},/0/default.jpg"
+      },
+      "license" : {
+        "evidence" : "rijks:public-domain-mark",
+        "sourceURL" : "https://www.rijksmuseum.nl/en/collection/SK-A-19",
+        "status" : "CC0"
+      },
+      "medium" : "oil paint (paint), canvas",
+      "significance" : {
+        "canonLists" : [
+
+        ],
+        "curatorScore" : 7.5,
+        "museumHighlight" : true,
+        "sitelinks" : 3
+      },
+      "tags" : [
+        "cityscape",
+        "landscape"
+      ],
+      "title" : "The Castle of Batavia",
+      "wikidata" : "Q17319667",
+      "year" : 1662
+    },
+    {
+      "artist" : "Gerrit Berckheyde",
+      "artistDeathYear" : 1698,
+      "artistSort" : "Berckheyde, Gerrit",
+      "caption" : "Amsterdam's Town Hall rises in bright sunlight over Dam Square, where merchants gather in a crowd, horses stand by bales of goods and a lone dog crosses the foreground.",
+      "collection" : "Rijksmuseum",
+      "collectionURL" : "https://www.rijksmuseum.nl/en/collection/SK-A-34",
+      "dateDisplay" : "1672",
+      "id" : "rijks-200108218",
+      "image" : {
+        "format" : "jpeg",
+        "sourceMaxHeight" : 4395,
+        "sourceMaxWidth" : 5313,
+        "url" : "https://iiif.micr.io/opJfz/full/3840,/0/default.jpg",
+        "urlTemplate" : "https://iiif.micr.io/opJfz/full/{w},/0/default.jpg"
+      },
+      "license" : {
+        "evidence" : "rijks:public-domain-mark",
+        "sourceURL" : "https://www.rijksmuseum.nl/en/collection/SK-A-34",
+        "status" : "CC0"
+      },
+      "medium" : "oil paint (paint), canvas",
+      "significance" : {
+        "canonLists" : [
+
+        ],
+        "curatorScore" : 7.5,
+        "museumHighlight" : true
+      },
+      "tags" : [
+        "architecture",
+        "cityscape"
+      ],
+      "title" : "The Town Hall on Dam Square, Amsterdam",
+      "year" : 1672
+    },
+    {
       "artist" : "Gerard ter Borch (II)",
       "artistDeathYear" : 1681,
       "artistSort" : "(II), Gerard ter Borch",
@@ -13163,6 +15453,42 @@
       "title" : "Helena van der Schalcke",
       "wikidata" : "Q2410044",
       "year" : 1648
+    },
+    {
+      "artist" : "Gerard ter Borch (II)",
+      "artistDeathYear" : 1681,
+      "artistSort" : "(II), Gerard ter Borch",
+      "caption" : "Seen from behind in a gleaming white satin gown, a young woman studies her face in a mirror held up by a red-haired page, while a maid in a dark hood looks on.",
+      "collection" : "Rijksmuseum",
+      "collectionURL" : "https://www.rijksmuseum.nl/en/collection/SK-A-4039",
+      "dateDisplay" : "c. 1650",
+      "id" : "rijks-200108276",
+      "image" : {
+        "format" : "jpeg",
+        "sourceMaxHeight" : 5495,
+        "sourceMaxWidth" : 4248,
+        "url" : "https://iiif.micr.io/hXWwz/full/3840,/0/default.jpg",
+        "urlTemplate" : "https://iiif.micr.io/hXWwz/full/{w},/0/default.jpg"
+      },
+      "license" : {
+        "evidence" : "rijks:public-domain-mark",
+        "sourceURL" : "https://www.rijksmuseum.nl/en/collection/SK-A-4039",
+        "status" : "CC0"
+      },
+      "medium" : "oil paint (paint), panel",
+      "significance" : {
+        "canonLists" : [
+
+        ],
+        "curatorScore" : 7.5,
+        "museumHighlight" : true
+      },
+      "tags" : [
+        "everyday-life",
+        "interior"
+      ],
+      "title" : "Woman at a Mirror",
+      "year" : 1650
     },
     {
       "artist" : "Gerard ter Borch (II)",
@@ -13391,6 +15717,42 @@
       "year" : 1663
     },
     {
+      "artist" : "Emanuel de Witte",
+      "artistDeathYear" : 1692,
+      "artistSort" : "Witte, Emanuel de",
+      "caption" : "Sunlight falls across massive whitewashed columns and a wall-mounted organ, as a man, a woman and a child stand in the foreground and a gravedigger works in an open grave beyond.",
+      "collection" : "Rijksmuseum",
+      "collectionURL" : "https://www.rijksmuseum.nl/en/collection/SK-A-4054",
+      "dateDisplay" : "1669",
+      "id" : "rijks-200108408",
+      "image" : {
+        "format" : "jpeg",
+        "sourceMaxHeight" : 5341,
+        "sourceMaxWidth" : 4156,
+        "url" : "https://iiif.micr.io/zORKX/full/3840,/0/default.jpg",
+        "urlTemplate" : "https://iiif.micr.io/zORKX/full/{w},/0/default.jpg"
+      },
+      "license" : {
+        "evidence" : "rijks:public-domain-mark",
+        "sourceURL" : "https://www.rijksmuseum.nl/en/collection/SK-A-4054",
+        "status" : "CC0"
+      },
+      "medium" : "panel, oil paint (paint)",
+      "significance" : {
+        "canonLists" : [
+
+        ],
+        "curatorScore" : 7.5,
+        "museumHighlight" : true
+      },
+      "tags" : [
+        "architecture",
+        "interior"
+      ],
+      "title" : "Interior of a Protestant, Gothic Church, with a Gravedigger in the Choir",
+      "year" : 1669
+    },
+    {
       "artist" : "Jan Davidsz. de Heem",
       "artistSort" : "Heem, Jan Davidsz. de",
       "caption" : "Grapes, lemons, pomegranate, plums, cherries, blackberries, chestnuts, and roses cascade from a ring before a dark niche. De Heem's minute detail extends to the beetles, butterflies, and snails feeding among them.",
@@ -13461,6 +15823,41 @@
       "year" : 1723
     },
     {
+      "artist" : "Jacob van Ruisdael",
+      "artistDeathYear" : 1682,
+      "artistSort" : "Ruisdael, Jacob van",
+      "caption" : "A broad waterfall churns white around brown boulders and a fallen log, while castles crown the wooded hills on either side beneath a heavy grey sky.",
+      "collection" : "Rijksmuseum",
+      "collectionURL" : "https://www.rijksmuseum.nl/en/collection/SK-A-348",
+      "dateDisplay" : "1650 - 1682",
+      "id" : "rijks-200108484",
+      "image" : {
+        "format" : "jpeg",
+        "sourceMaxHeight" : 6550,
+        "sourceMaxWidth" : 5855,
+        "url" : "https://iiif.micr.io/oCoVK/full/3840,/0/default.jpg",
+        "urlTemplate" : "https://iiif.micr.io/oCoVK/full/{w},/0/default.jpg"
+      },
+      "license" : {
+        "evidence" : "rijks:public-domain-mark",
+        "sourceURL" : "https://www.rijksmuseum.nl/en/collection/SK-A-348",
+        "status" : "CC0"
+      },
+      "medium" : "oil paint (paint), canvas",
+      "significance" : {
+        "canonLists" : [
+
+        ],
+        "curatorScore" : 7.5,
+        "museumHighlight" : true
+      },
+      "tags" : [
+        "landscape"
+      ],
+      "title" : "Mountainous Landscape with Waterfall",
+      "year" : 1650
+    },
+    {
       "artist" : "Claude Monet",
       "artistSort" : "Monet, Claude",
       "caption" : "A narrow red mountain track curves through dense green scrub above the Mediterranean near Monaco. Red, green, and blue strokes shimmer in high sunlight, while a lone walker's short shadow marks the hour.",
@@ -13493,6 +15890,42 @@
       ],
       "title" : "La Corniche near Monaco",
       "year" : 1884
+    },
+    {
+      "artist" : "James McNeill Whistler",
+      "artistDeathYear" : 1903,
+      "artistSort" : "Whistler, James McNeill",
+      "caption" : "A young woman in profile stands against a dark grey ground, one hand at her cheek, a yellow-brown shawl over her head and a long grey-blue skirt falling to the floor.",
+      "collection" : "Rijksmuseum",
+      "collectionURL" : "https://www.rijksmuseum.nl/en/collection/SK-A-1902",
+      "dateDisplay" : "c. 1876 - c. 1878",
+      "id" : "rijks-200108886",
+      "image" : {
+        "format" : "jpeg",
+        "sourceMaxHeight" : 7464,
+        "sourceMaxWidth" : 3510,
+        "url" : "https://iiif.micr.io/pqdys/full/3510,/0/default.jpg",
+        "urlTemplate" : "https://iiif.micr.io/pqdys/full/{w},/0/default.jpg"
+      },
+      "license" : {
+        "evidence" : "rijks:public-domain-mark",
+        "sourceURL" : "https://www.rijksmuseum.nl/en/collection/SK-A-1902",
+        "status" : "CC0"
+      },
+      "medium" : "canvas, oil paint (paint)",
+      "significance" : {
+        "canonLists" : [
+
+        ],
+        "curatorScore" : 7.5,
+        "museumHighlight" : true
+      },
+      "tags" : [
+        "figure",
+        "literary"
+      ],
+      "title" : "‘Arrangement in Yellow and Gray’: Effie Deans",
+      "year" : 1876
     },
     {
       "artist" : "Nicolaas Pieneman",
@@ -13531,6 +15964,42 @@
       "title" : "The Arrest of Diponegoro by Lieutenant General De Kock",
       "wikidata" : "Q17327791",
       "year" : 1830
+    },
+    {
+      "artist" : "Joachim Bueckelaer",
+      "artistDeathYear" : 1575,
+      "artistSort" : "Bueckelaer, Joachim",
+      "caption" : "Hanging game birds, artichokes, a haunch of meat, fruit and a hare crowd the foreground as maids spit and hold poultry, with small figures glimpsed through the arcade behind.",
+      "collection" : "Rijksmuseum",
+      "collectionURL" : "https://www.rijksmuseum.nl/en/collection/SK-A-1451",
+      "dateDisplay" : "1566",
+      "id" : "rijks-200109172",
+      "image" : {
+        "format" : "jpeg",
+        "sourceMaxHeight" : 4063,
+        "sourceMaxWidth" : 5958,
+        "url" : "https://iiif.micr.io/PvtVH/full/3840,/0/default.jpg",
+        "urlTemplate" : "https://iiif.micr.io/PvtVH/full/{w},/0/default.jpg"
+      },
+      "license" : {
+        "evidence" : "rijks:public-domain-mark",
+        "sourceURL" : "https://www.rijksmuseum.nl/en/collection/SK-A-1451",
+        "status" : "CC0"
+      },
+      "medium" : "panel, oil paint (paint)",
+      "significance" : {
+        "canonLists" : [
+
+        ],
+        "curatorScore" : 7.5,
+        "museumHighlight" : true
+      },
+      "tags" : [
+        "religious",
+        "still-life"
+      ],
+      "title" : "The Well-stocked Kitchen",
+      "year" : 1566
     },
     {
       "artist" : "Pieter Claesz",
@@ -13711,6 +16180,78 @@
       "year" : 1507
     },
     {
+      "artist" : "Jacob Cornelisz van Oostsanen",
+      "artistDeathYear" : 1533,
+      "artistSort" : "Oostsanen, Jacob Cornelisz van",
+      "caption" : "Beneath the open rafters of a ruined stable, two kings kneel before the Virgin and Child as a third stands behind, with praying family groups filling the triptych's side wings.",
+      "collection" : "Rijksmuseum",
+      "collectionURL" : "https://www.rijksmuseum.nl/en/collection/SK-A-4706",
+      "dateDisplay" : "1517",
+      "id" : "rijks-200109203",
+      "image" : {
+        "format" : "jpeg",
+        "sourceMaxHeight" : 4415,
+        "sourceMaxWidth" : 6176,
+        "url" : "https://iiif.micr.io/EMPFV/full/3840,/0/default.jpg",
+        "urlTemplate" : "https://iiif.micr.io/EMPFV/full/{w},/0/default.jpg"
+      },
+      "license" : {
+        "evidence" : "rijks:public-domain-mark",
+        "sourceURL" : "https://www.rijksmuseum.nl/en/collection/SK-A-4706",
+        "status" : "CC0"
+      },
+      "medium" : "oil paint (paint), panel",
+      "significance" : {
+        "canonLists" : [
+
+        ],
+        "curatorScore" : 7.5,
+        "museumHighlight" : true
+      },
+      "tags" : [
+        "religious"
+      ],
+      "title" : "The Adoration of the Magi",
+      "year" : 1517
+    },
+    {
+      "artist" : "Govert Flinck",
+      "artistDeathYear" : 1660,
+      "artistSort" : "Flinck, Govert",
+      "caption" : "Old Isaac, in a fur-trimmed red robe, raises a hand over Jacob's head and touches his gloved hand, while Rebecca leans in behind them and a roast dish waits on the table at left.",
+      "collection" : "Rijksmuseum",
+      "collectionURL" : "https://www.rijksmuseum.nl/en/collection/SK-A-110",
+      "dateDisplay" : "c. 1638",
+      "id" : "rijks-200109288",
+      "image" : {
+        "format" : "jpeg",
+        "sourceMaxHeight" : 4689,
+        "sourceMaxWidth" : 5698,
+        "url" : "https://iiif.micr.io/LkKRz/full/3840,/0/default.jpg",
+        "urlTemplate" : "https://iiif.micr.io/LkKRz/full/{w},/0/default.jpg"
+      },
+      "license" : {
+        "evidence" : "rijks:public-domain-mark",
+        "sourceURL" : "https://www.rijksmuseum.nl/en/collection/SK-A-110",
+        "status" : "CC0"
+      },
+      "medium" : "oil paint (paint), canvas",
+      "significance" : {
+        "canonLists" : [
+
+        ],
+        "curatorScore" : 7.5,
+        "museumHighlight" : true,
+        "sitelinks" : 7
+      },
+      "tags" : [
+        "religious"
+      ],
+      "title" : "Isaac Blessing Jacob",
+      "wikidata" : "Q13107392",
+      "year" : 1638
+    },
+    {
       "artist" : "Geertgen tot Sint Jans",
       "artistDeathYear" : 1490,
       "artistSort" : "Jans, Geertgen tot Sint",
@@ -13827,6 +16368,41 @@
       "artist" : "Frans Hals",
       "artistDeathYear" : 1666,
       "artistSort" : "Hals, Frans",
+      "caption" : "Duijfje van Gerwen looks out from beneath a lace-edged white cap, a broad pleated millstone ruff framing her face above a black dress patterned in gold.",
+      "collection" : "Rijksmuseum",
+      "collectionURL" : "https://www.rijksmuseum.nl/en/collection/SK-A-1247",
+      "dateDisplay" : "c. 1637",
+      "id" : "rijks-200109345",
+      "image" : {
+        "format" : "jpeg",
+        "sourceMaxHeight" : 5685,
+        "sourceMaxWidth" : 4660,
+        "url" : "https://iiif.micr.io/OUbxD/full/3840,/0/default.jpg",
+        "urlTemplate" : "https://iiif.micr.io/OUbxD/full/{w},/0/default.jpg"
+      },
+      "license" : {
+        "evidence" : "rijks:public-domain-mark",
+        "sourceURL" : "https://www.rijksmuseum.nl/en/collection/SK-A-1247",
+        "status" : "CC0"
+      },
+      "medium" : "oil paint (paint), canvas",
+      "significance" : {
+        "canonLists" : [
+
+        ],
+        "curatorScore" : 7.5,
+        "museumHighlight" : true
+      },
+      "tags" : [
+        "portrait"
+      ],
+      "title" : "Portrait of Duijfje van Gerwen",
+      "year" : 1637
+    },
+    {
+      "artist" : "Frans Hals",
+      "artistDeathYear" : 1666,
+      "artistSort" : "Hals, Frans",
       "caption" : "A married couple lounges informally on a garden terrace, their relaxed intimacy and confident half-smiles breaking sharply from the era's stiff portrait conventions.",
       "collection" : "Rijksmuseum",
       "collectionURL" : "https://www.rijksmuseum.nl/en/collection/SK-A-133",
@@ -13931,6 +16507,41 @@
       ],
       "title" : "Still Life with a Gilt Cup",
       "year" : 1635
+    },
+    {
+      "artist" : "Bartholomeus van der Helst",
+      "artistDeathYear" : 1670,
+      "artistSort" : "Helst, Bartholomeus van der",
+      "caption" : "Seated in gleaming white satin before a dark curtain, the widowed Mary Stuart holds an orange on a leafy sprig, while an arch at left opens onto a street with a church tower.",
+      "collection" : "Rijksmuseum",
+      "collectionURL" : "https://www.rijksmuseum.nl/en/collection/SK-A-142",
+      "dateDisplay" : "1652",
+      "id" : "rijks-200109365",
+      "image" : {
+        "format" : "jpeg",
+        "sourceMaxHeight" : 5939,
+        "sourceMaxWidth" : 5031,
+        "url" : "https://iiif.micr.io/EcygS/full/3840,/0/default.jpg",
+        "urlTemplate" : "https://iiif.micr.io/EcygS/full/{w},/0/default.jpg"
+      },
+      "license" : {
+        "evidence" : "rijks:public-domain-mark",
+        "sourceURL" : "https://www.rijksmuseum.nl/en/collection/SK-A-142",
+        "status" : "CC0"
+      },
+      "medium" : "canvas, oil paint (paint)",
+      "significance" : {
+        "canonLists" : [
+
+        ],
+        "curatorScore" : 7.5,
+        "museumHighlight" : true
+      },
+      "tags" : [
+        "portrait"
+      ],
+      "title" : "Mary Stuart, Princess of Orange, as Widow of William II",
+      "year" : 1652
     },
     {
       "artist" : "Melchior d' Hondecoeter",
@@ -14114,6 +16725,44 @@
       "year" : 1654
     },
     {
+      "artist" : "Jozef Israëls",
+      "artistDeathYear" : 1911,
+      "artistSort" : "Israëls, Jozef",
+      "caption" : "Four children wade in the shallows of a calm beach, an older child carrying a baby on its back, beside a small toy sailboat floating in front of them.",
+      "collection" : "Rijksmuseum",
+      "collectionURL" : "https://www.rijksmuseum.nl/en/collection/SK-A-2382",
+      "dateDisplay" : "1872",
+      "id" : "rijks-200109406",
+      "image" : {
+        "format" : "jpeg",
+        "sourceMaxHeight" : 3074,
+        "sourceMaxWidth" : 6026,
+        "url" : "https://iiif.micr.io/nnjuR/full/3840,/0/default.jpg",
+        "urlTemplate" : "https://iiif.micr.io/nnjuR/full/{w},/0/default.jpg"
+      },
+      "license" : {
+        "evidence" : "rijks:public-domain-mark",
+        "sourceURL" : "https://www.rijksmuseum.nl/en/collection/SK-A-2382",
+        "status" : "CC0"
+      },
+      "medium" : "canvas, oil paint (paint)",
+      "significance" : {
+        "canonLists" : [
+
+        ],
+        "curatorScore" : 7.5,
+        "museumHighlight" : true,
+        "sitelinks" : 3
+      },
+      "tags" : [
+        "everyday-life",
+        "seascape"
+      ],
+      "title" : "Children of the Sea",
+      "wikidata" : "Q17328685",
+      "year" : 1872
+    },
+    {
       "artist" : "Willem Kalf",
       "artistDeathYear" : 1693,
       "artistSort" : "Kalf, Willem",
@@ -14187,6 +16836,41 @@
       "year" : 1530
     },
     {
+      "artist" : "Jan Lievens",
+      "artistDeathYear" : 1674,
+      "artistSort" : "Lievens, Jan",
+      "caption" : "Constantijn Huygens sits in black with a tall hat and clasped hands against a dark ground, his broad white collar and lace cuffs the brightest notes.",
+      "collection" : "Rijksmuseum",
+      "collectionURL" : "https://www.rijksmuseum.nl/en/collection/SK-C-1467",
+      "dateDisplay" : "c. 1628 - c. 1629",
+      "id" : "rijks-200109434",
+      "image" : {
+        "format" : "jpeg",
+        "sourceMaxHeight" : 5473,
+        "sourceMaxWidth" : 4590,
+        "url" : "https://iiif.micr.io/kOMLD/full/3840,/0/default.jpg",
+        "urlTemplate" : "https://iiif.micr.io/kOMLD/full/{w},/0/default.jpg"
+      },
+      "license" : {
+        "evidence" : "rijks:public-domain-mark",
+        "sourceURL" : "https://www.rijksmuseum.nl/en/collection/SK-C-1467",
+        "status" : "CC0"
+      },
+      "medium" : "oil paint (paint), panel",
+      "significance" : {
+        "canonLists" : [
+
+        ],
+        "curatorScore" : 7.5,
+        "museumHighlight" : true
+      },
+      "tags" : [
+        "portrait"
+      ],
+      "title" : "Portrait of Constantijn Huygens",
+      "year" : 1628
+    },
+    {
       "artist" : "Gabriel Metsu",
       "artistBirthYear" : 1629,
       "artistDeathYear" : 1667,
@@ -14223,6 +16907,151 @@
       "title" : "The Sick Child",
       "wikidata" : "Q9019441",
       "year" : 1664
+    },
+    {
+      "artist" : "Gabriel Metsu",
+      "artistDeathYear" : 1667,
+      "artistSort" : "Metsu, Gabriel",
+      "caption" : "A hunter holds out a dead bird to a seated woman in a fur-trimmed red jacket, a spaniel at his knee and his gun and a dead duck lying on the floorboards.",
+      "collection" : "Rijksmuseum",
+      "collectionURL" : "https://www.rijksmuseum.nl/en/collection/SK-C-177",
+      "dateDisplay" : "c. 1658 - c. 1661",
+      "id" : "rijks-200109481",
+      "image" : {
+        "format" : "jpeg",
+        "sourceMaxHeight" : 4735,
+        "sourceMaxWidth" : 4475,
+        "url" : "https://iiif.micr.io/oNAEw/full/3840,/0/default.jpg",
+        "urlTemplate" : "https://iiif.micr.io/oNAEw/full/{w},/0/default.jpg"
+      },
+      "license" : {
+        "evidence" : "rijks:public-domain-mark",
+        "sourceURL" : "https://www.rijksmuseum.nl/en/collection/SK-C-177",
+        "status" : "CC0"
+      },
+      "medium" : "oil paint (paint), canvas",
+      "significance" : {
+        "canonLists" : [
+
+        ],
+        "curatorScore" : 7.5,
+        "museumHighlight" : true
+      },
+      "tags" : [
+        "everyday-life",
+        "hunting",
+        "interior"
+      ],
+      "title" : "The Hunter’s Present",
+      "year" : 1658
+    },
+    {
+      "artist" : "Pierre-Paul Prud'hon",
+      "artistDeathYear" : 1823,
+      "artistSort" : "Prud'hon, Pierre-Paul",
+      "caption" : "A seated man with a red book, a woman with her hand on his shoulder, a girl holding flowers and a boy with a dark dog gather beneath tall trees in a park.",
+      "collection" : "Rijksmuseum",
+      "collectionURL" : "https://www.rijksmuseum.nl/en/collection/SK-A-3097",
+      "dateDisplay" : "1801 - 1802",
+      "id" : "rijks-200109724",
+      "image" : {
+        "format" : "jpeg",
+        "sourceMaxHeight" : 9970,
+        "sourceMaxWidth" : 7451,
+        "url" : "https://iiif.micr.io/DZMVg/full/3840,/0/default.jpg",
+        "urlTemplate" : "https://iiif.micr.io/DZMVg/full/{w},/0/default.jpg"
+      },
+      "license" : {
+        "evidence" : "rijks:public-domain-mark",
+        "sourceURL" : "https://www.rijksmuseum.nl/en/collection/SK-A-3097",
+        "status" : "CC0"
+      },
+      "medium" : "oil paint (paint), canvas",
+      "significance" : {
+        "canonLists" : [
+
+        ],
+        "curatorScore" : 7.5,
+        "museumHighlight" : true
+      },
+      "tags" : [
+        "family",
+        "group-portrait",
+        "landscape",
+        "portrait"
+      ],
+      "title" : "Portrait of Rutger Jan Schimmelpenninck and Catharina Nahuys with their Children",
+      "year" : 1801
+    },
+    {
+      "artist" : "Adriaen Thomasz. Key",
+      "artistDeathYear" : 1589,
+      "artistSort" : "Key, Adriaen Thomasz.",
+      "caption" : "A crisp lace-edged ruff and a fur collar frame William of Orange's lined, bearded face, above a black doublet trimmed with knotted gold braid.",
+      "collection" : "Rijksmuseum",
+      "collectionURL" : "https://www.rijksmuseum.nl/en/collection/SK-A-3148",
+      "dateDisplay" : "c. 1579",
+      "id" : "rijks-200109731",
+      "image" : {
+        "format" : "jpeg",
+        "sourceMaxHeight" : 6962,
+        "sourceMaxWidth" : 5112,
+        "url" : "https://iiif.micr.io/HTgKF/full/3840,/0/default.jpg",
+        "urlTemplate" : "https://iiif.micr.io/HTgKF/full/{w},/0/default.jpg"
+      },
+      "license" : {
+        "evidence" : "rijks:public-domain-mark",
+        "sourceURL" : "https://www.rijksmuseum.nl/en/collection/SK-A-3148",
+        "status" : "CC0"
+      },
+      "medium" : "panel, oil paint (paint)",
+      "significance" : {
+        "canonLists" : [
+
+        ],
+        "curatorScore" : 7.5,
+        "museumHighlight" : true
+      },
+      "tags" : [
+        "portrait"
+      ],
+      "title" : "Portrait of William I, Prince of Orange",
+      "year" : 1579
+    },
+    {
+      "artist" : "Melchior d' Hondecoeter",
+      "artistDeathYear" : 1695,
+      "artistSort" : "Hondecoeter, Melchior d'",
+      "caption" : "A dark turkey, a crested white hen with chicks, a peacock, and a peahen perched on a ruined block gather on bare ground beside a classical column under a cloudy sky.",
+      "collection" : "Rijksmuseum",
+      "collectionURL" : "https://www.rijksmuseum.nl/en/collection/SK-C-146",
+      "dateDisplay" : "c. 1680",
+      "id" : "rijks-200110729",
+      "image" : {
+        "format" : "jpeg",
+        "sourceMaxHeight" : 4527,
+        "sourceMaxWidth" : 5930,
+        "url" : "https://iiif.micr.io/YAVuX/full/3840,/0/default.jpg",
+        "urlTemplate" : "https://iiif.micr.io/YAVuX/full/{w},/0/default.jpg"
+      },
+      "license" : {
+        "evidence" : "rijks:public-domain-mark",
+        "sourceURL" : "https://www.rijksmuseum.nl/en/collection/SK-C-146",
+        "status" : "CC0"
+      },
+      "medium" : "oil paint (paint), canvas",
+      "significance" : {
+        "canonLists" : [
+
+        ],
+        "curatorScore" : 7.5,
+        "museumHighlight" : true
+      },
+      "tags" : [
+        "animals"
+      ],
+      "title" : "A Hen with Peacocks and a Turkey",
+      "year" : 1680
     },
     {
       "artist" : "anonymous",
@@ -14331,6 +17160,42 @@
       "year" : 1602
     },
     {
+      "artist" : "Jan van Kessel the Elder",
+      "artistDeathYear" : 1679,
+      "artistSort" : "Kessel, Jan van, the Elder",
+      "caption" : "Beetles, flies, a caterpillar and three boldly patterned butterflies and moths gather around a sprig of white currants laid on a plain pale grey ground.",
+      "collection" : "Rijksmuseum",
+      "collectionURL" : "https://www.rijksmuseum.nl/en/collection/SK-A-793",
+      "dateDisplay" : "c. 1653 - c. 1661",
+      "id" : "rijks-20013605",
+      "image" : {
+        "format" : "jpeg",
+        "sourceMaxHeight" : 4212,
+        "sourceMaxWidth" : 5690,
+        "url" : "https://iiif.micr.io/xVBHs/full/3840,/0/default.jpg",
+        "urlTemplate" : "https://iiif.micr.io/xVBHs/full/{w},/0/default.jpg"
+      },
+      "license" : {
+        "evidence" : "rijks:public-domain-mark",
+        "sourceURL" : "https://www.rijksmuseum.nl/en/collection/SK-A-793",
+        "status" : "CC0"
+      },
+      "medium" : "copper (metal), oil paint (paint)",
+      "significance" : {
+        "canonLists" : [
+
+        ],
+        "curatorScore" : 7.5,
+        "museumHighlight" : true
+      },
+      "tags" : [
+        "animals",
+        "still-life"
+      ],
+      "title" : "Sprig of White Currants with Insects",
+      "year" : 1653
+    },
+    {
       "artist" : "Rembrandt van Rijn",
       "artistDeathYear" : 1669,
       "artistSort" : "Rijn, Rembrandt van",
@@ -14405,6 +17270,42 @@
       "year" : 1668
     },
     {
+      "artist" : "Jan Steen",
+      "artistDeathYear" : 1679,
+      "artistSort" : "Steen, Jan",
+      "caption" : "An elderly man in a black cap takes the pulse of a young woman who sits leaning on a pillow at the bedside, a lute hanging on the wall behind them and a clock at right.",
+      "collection" : "Rijksmuseum",
+      "collectionURL" : "https://www.rijksmuseum.nl/en/collection/SK-C-230",
+      "dateDisplay" : "c. 1663 - c. 1666",
+      "id" : "rijks-20015867",
+      "image" : {
+        "format" : "jpeg",
+        "sourceMaxHeight" : 5318,
+        "sourceMaxWidth" : 4411,
+        "url" : "https://iiif.micr.io/PMpOJ/full/3840,/0/default.jpg",
+        "urlTemplate" : "https://iiif.micr.io/PMpOJ/full/{w},/0/default.jpg"
+      },
+      "license" : {
+        "evidence" : "rijks:public-domain-mark",
+        "sourceURL" : "https://www.rijksmuseum.nl/en/collection/SK-C-230",
+        "status" : "CC0"
+      },
+      "medium" : "oil paint (paint), canvas",
+      "significance" : {
+        "canonLists" : [
+
+        ],
+        "curatorScore" : 7.5,
+        "museumHighlight" : true
+      },
+      "tags" : [
+        "everyday-life",
+        "interior"
+      ],
+      "title" : "The Sick Woman",
+      "year" : 1663
+    },
+    {
       "artist" : "Nicolaes Maes",
       "artistSort" : "Maes, Nicolaes",
       "caption" : "Hands folded and eyes closed, an old woman gives thanks over bread, cheese, fish, and a bowl. A cat tugs at the tablecloth, adding a small test of self-control to this image of piety.",
@@ -14438,6 +17339,114 @@
       ],
       "title" : "Old Woman Saying Grace, Known as ‘The Prayer without End’",
       "year" : 1656
+    },
+    {
+      "artist" : "Gabriel Metsu",
+      "artistDeathYear" : 1667,
+      "artistSort" : "Metsu, Gabriel",
+      "caption" : "A woman with a plate on her lap dangles a scrap to a cat standing on its hind legs, while a dead hen lies over a barrel and tulips stand in a vase on a small table.",
+      "collection" : "Rijksmuseum",
+      "collectionURL" : "https://www.rijksmuseum.nl/en/collection/SK-C-560",
+      "dateDisplay" : "c. 1661 - c. 1664",
+      "id" : "rijks-20015948",
+      "image" : {
+        "format" : "jpeg",
+        "sourceMaxHeight" : 5386,
+        "sourceMaxWidth" : 4340,
+        "url" : "https://iiif.micr.io/zxJRv/full/3840,/0/default.jpg",
+        "urlTemplate" : "https://iiif.micr.io/zxJRv/full/{w},/0/default.jpg"
+      },
+      "license" : {
+        "evidence" : "rijks:public-domain-mark",
+        "sourceURL" : "https://www.rijksmuseum.nl/en/collection/SK-C-560",
+        "status" : "CC0"
+      },
+      "medium" : "panel, oil paint (paint)",
+      "significance" : {
+        "canonLists" : [
+
+        ],
+        "curatorScore" : 7.5,
+        "museumHighlight" : true
+      },
+      "tags" : [
+        "animals",
+        "everyday-life"
+      ],
+      "title" : "Woman Eating, Known as ‘The Cat’s Breakfast’",
+      "year" : 1661
+    },
+    {
+      "artist" : "Paulus Potter",
+      "artistDeathYear" : 1654,
+      "artistSort" : "Potter, Paulus",
+      "caption" : "Four young bulls, one white and tan facing the viewer and one lying down, stand on a grassy rise beneath a low horizon and a broad bank of grey clouds.",
+      "collection" : "Rijksmuseum",
+      "collectionURL" : "https://www.rijksmuseum.nl/en/collection/SK-C-206",
+      "dateDisplay" : "1651",
+      "id" : "rijks-20026074",
+      "image" : {
+        "format" : "jpeg",
+        "sourceMaxHeight" : 7981,
+        "sourceMaxWidth" : 9654,
+        "url" : "https://iiif.micr.io/PRLug/full/3840,/0/default.jpg",
+        "urlTemplate" : "https://iiif.micr.io/PRLug/full/{w},/0/default.jpg"
+      },
+      "license" : {
+        "evidence" : "rijks:public-domain-mark",
+        "sourceURL" : "https://www.rijksmuseum.nl/en/collection/SK-C-206",
+        "status" : "CC0"
+      },
+      "medium" : "panel, oil paint (paint)",
+      "significance" : {
+        "canonLists" : [
+
+        ],
+        "curatorScore" : 7.5,
+        "museumHighlight" : true
+      },
+      "tags" : [
+        "animals",
+        "landscape"
+      ],
+      "title" : "Four Young Bulls in a Meadow",
+      "year" : 1651
+    },
+    {
+      "artist" : "Paulus Potter",
+      "artistDeathYear" : 1654,
+      "artistSort" : "Potter, Paulus",
+      "caption" : "A dark bay horse stands by a wooden gate looking out over a flat meadow toward a distant town, while a pale grey horse waits beneath a tree at left and cattle graze far off.",
+      "collection" : "Rijksmuseum",
+      "collectionURL" : "https://www.rijksmuseum.nl/en/collection/SK-C-205",
+      "dateDisplay" : "1649",
+      "id" : "rijks-20026075",
+      "image" : {
+        "format" : "jpeg",
+        "sourceMaxHeight" : 8155,
+        "sourceMaxWidth" : 10478,
+        "url" : "https://iiif.micr.io/JFBTc/full/3840,/0/default.jpg",
+        "urlTemplate" : "https://iiif.micr.io/JFBTc/full/{w},/0/default.jpg"
+      },
+      "license" : {
+        "evidence" : "rijks:public-domain-mark",
+        "sourceURL" : "https://www.rijksmuseum.nl/en/collection/SK-C-205",
+        "status" : "CC0"
+      },
+      "medium" : "oil paint (paint), panel",
+      "significance" : {
+        "canonLists" : [
+
+        ],
+        "curatorScore" : 7.5,
+        "museumHighlight" : true
+      },
+      "tags" : [
+        "animals",
+        "landscape"
+      ],
+      "title" : "Two Horses in a Meadow near a Gate",
+      "year" : 1649
     },
     {
       "artist" : "Rembrandt van Rijn",
@@ -14509,6 +17518,43 @@
       "year" : 1695
     },
     {
+      "artist" : "Dirck Barendsz.",
+      "artistDeathYear" : 1592,
+      "artistSort" : "Barendsz., Dirck",
+      "caption" : "Eighteen guardsmen in black caps and ruffed collars crowd around a banquet table set with bread, glasses and a large platter, a woman in a white cap at upper right.",
+      "collection" : "Rijksmuseum",
+      "collectionURL" : "https://www.rijksmuseum.nl/en/collection/SK-C-365",
+      "dateDisplay" : "1566",
+      "id" : "rijks-20026555",
+      "image" : {
+        "format" : "jpeg",
+        "sourceMaxHeight" : 2231,
+        "sourceMaxWidth" : 5705,
+        "url" : "https://iiif.micr.io/TgPbK/full/3840,/0/default.jpg",
+        "urlTemplate" : "https://iiif.micr.io/TgPbK/full/{w},/0/default.jpg"
+      },
+      "license" : {
+        "evidence" : "rijks:public-domain-mark",
+        "sourceURL" : "https://www.rijksmuseum.nl/en/collection/SK-C-365",
+        "status" : "CC0"
+      },
+      "medium" : "oil paint (paint), panel",
+      "significance" : {
+        "canonLists" : [
+
+        ],
+        "curatorScore" : 7.5,
+        "museumHighlight" : true
+      },
+      "tags" : [
+        "group-portrait",
+        "military",
+        "portrait"
+      ],
+      "title" : "Banquet of Eighteen Guardsmen of Squad L, Amsterdam 1566, known as 'The Perch Eaters'",
+      "year" : 1566
+    },
+    {
       "artist" : "Adriaen van de Velde",
       "artistSort" : "Velde, Adriaen van de",
       "caption" : "A family walks along a country road while a son leads a dog beside them. A carriage approaches in the distance and a shepherd tends livestock farther back, extending the portrait into a broad pastoral landscape.",
@@ -14543,6 +17589,44 @@
       ],
       "title" : "Portrait of a Couple with Two Children and a Nurse in a Landscape",
       "year" : 1667
+    },
+    {
+      "artist" : "Hendrick Cornelisz Vroom",
+      "artistDeathYear" : 1640,
+      "artistSort" : "Vroom, Hendrick Cornelisz",
+      "caption" : "A Dutch ship under full sail drives between oared Spanish galleys in a choppy green sea, as men from a wrecked galley struggle in the water in the foreground.",
+      "collection" : "Rijksmuseum",
+      "collectionURL" : "https://www.rijksmuseum.nl/en/collection/SK-A-460",
+      "dateDisplay" : "1617",
+      "id" : "rijks-20026920",
+      "image" : {
+        "format" : "jpeg",
+        "sourceMaxHeight" : 5315,
+        "sourceMaxWidth" : 6914,
+        "url" : "https://iiif.micr.io/RNHkC/full/3840,/0/default.jpg",
+        "urlTemplate" : "https://iiif.micr.io/RNHkC/full/{w},/0/default.jpg"
+      },
+      "license" : {
+        "evidence" : "rijks:public-domain-mark",
+        "sourceURL" : "https://www.rijksmuseum.nl/en/collection/SK-A-460",
+        "status" : "CC0"
+      },
+      "medium" : "canvas, oil paint (paint)",
+      "significance" : {
+        "canonLists" : [
+
+        ],
+        "curatorScore" : 7.5,
+        "museumHighlight" : true
+      },
+      "tags" : [
+        "battle",
+        "historical",
+        "military",
+        "seascape"
+      ],
+      "title" : "Dutch Ships Ramming Spanish Galleys near Calais, 3 October 1602",
+      "year" : 1617
     },
     {
       "artist" : "Anthony van Dyck",
@@ -14612,6 +17696,78 @@
       ],
       "title" : "Still Life with Flowers and a Watch",
       "year" : 1660
+    },
+    {
+      "artist" : "Pieter de Ring",
+      "artistDeathYear" : 1660,
+      "artistSort" : "Ring, Pieter de",
+      "caption" : "A gilded covered goblet, a red lobster, oysters, a peeled lemon, and a basket of grapes and peaches crowd a table draped in deep blue velvet against a dark curtain.",
+      "collection" : "Rijksmuseum",
+      "collectionURL" : "https://www.rijksmuseum.nl/en/collection/SK-A-335",
+      "dateDisplay" : "c. 1655 - c. 1660",
+      "id" : "rijks-20027079",
+      "image" : {
+        "format" : "jpeg",
+        "sourceMaxHeight" : 5595,
+        "sourceMaxWidth" : 4726,
+        "url" : "https://iiif.micr.io/KOPdZ/full/3840,/0/default.jpg",
+        "urlTemplate" : "https://iiif.micr.io/KOPdZ/full/{w},/0/default.jpg"
+      },
+      "license" : {
+        "evidence" : "rijks:public-domain-mark",
+        "sourceURL" : "https://www.rijksmuseum.nl/en/collection/SK-A-335",
+        "status" : "CC0"
+      },
+      "medium" : "canvas, oil paint (paint)",
+      "significance" : {
+        "canonLists" : [
+
+        ],
+        "curatorScore" : 7.5,
+        "museumHighlight" : true
+      },
+      "tags" : [
+        "still-life"
+      ],
+      "title" : "Still Life with Golden Goblet",
+      "year" : 1655
+    },
+    {
+      "artist" : "Gerard van Honthorst",
+      "artistDeathYear" : 1656,
+      "artistSort" : "Honthorst, Gerard van",
+      "caption" : "Frederick Henry in armour stands beside his consort Amalia of Solms in black silk and their three young daughters in white, gold and blue, beneath a swagged curtain with putti above.",
+      "collection" : "Rijksmuseum",
+      "collectionURL" : "https://www.rijksmuseum.nl/en/collection/SK-A-874",
+      "dateDisplay" : "c. 1647",
+      "id" : "rijks-20027201",
+      "image" : {
+        "format" : "jpeg",
+        "sourceMaxHeight" : 5637,
+        "sourceMaxWidth" : 7462,
+        "url" : "https://iiif.micr.io/QSOLg/full/3840,/0/default.jpg",
+        "urlTemplate" : "https://iiif.micr.io/QSOLg/full/{w},/0/default.jpg"
+      },
+      "license" : {
+        "evidence" : "rijks:public-domain-mark",
+        "sourceURL" : "https://www.rijksmuseum.nl/en/collection/SK-A-874",
+        "status" : "CC0"
+      },
+      "medium" : "oil paint (paint), canvas",
+      "significance" : {
+        "canonLists" : [
+
+        ],
+        "curatorScore" : 7.5,
+        "museumHighlight" : true
+      },
+      "tags" : [
+        "family",
+        "group-portrait",
+        "portrait"
+      ],
+      "title" : "Frederick Henry, his Consort Amalia of Solms, and their Three Youngest Daughters",
+      "year" : 1647
     },
     {
       "artist" : "Rachel Ruysch",
@@ -14760,6 +17916,41 @@
       "year" : 1649
     },
     {
+      "artist" : "Meindert Hobbema",
+      "artistDeathYear" : 1709,
+      "artistSort" : "Hobbema, Meindert",
+      "caption" : "A timber watermill with a red-tiled roof spills a white cascade into a still pond beneath tall trees, while a woman works at a barrel and two figures walk a sunlit path at right.",
+      "collection" : "Rijksmuseum",
+      "collectionURL" : "https://www.rijksmuseum.nl/en/collection/SK-C-144",
+      "dateDisplay" : "c. 1664",
+      "id" : "rijks-20028045",
+      "image" : {
+        "format" : "jpeg",
+        "sourceMaxHeight" : 4116,
+        "sourceMaxWidth" : 5784,
+        "url" : "https://iiif.micr.io/QAJZT/full/3840,/0/default.jpg",
+        "urlTemplate" : "https://iiif.micr.io/QAJZT/full/{w},/0/default.jpg"
+      },
+      "license" : {
+        "evidence" : "rijks:public-domain-mark",
+        "sourceURL" : "https://www.rijksmuseum.nl/en/collection/SK-C-144",
+        "status" : "CC0"
+      },
+      "medium" : "panel, oil paint (paint)",
+      "significance" : {
+        "canonLists" : [
+
+        ],
+        "curatorScore" : 7.5,
+        "museumHighlight" : true
+      },
+      "tags" : [
+        "landscape"
+      ],
+      "title" : "A Watermill",
+      "year" : 1664
+    },
+    {
       "artist" : "Pieter de Hooch",
       "artistDeathYear" : 1683,
       "artistSort" : "Hooch, Pieter de",
@@ -14901,6 +18092,146 @@
       "title" : "Interior with Women beside a Linen Cupboard",
       "wikidata" : "Q9376181",
       "year" : 1663
+    },
+    {
+      "artist" : "Karel du Jardin",
+      "artistDeathYear" : 1678,
+      "artistSort" : "Jardin, Karel du",
+      "caption" : "A white-bearded Paul in orange and red reaches toward a kneeling man on crutches with a bandaged head, as a veiled woman and other onlookers press in around them.",
+      "collection" : "Rijksmuseum",
+      "collectionURL" : "https://www.rijksmuseum.nl/en/collection/SK-A-4922",
+      "dateDisplay" : "1663",
+      "id" : "rijks-200403743",
+      "image" : {
+        "format" : "jpeg",
+        "sourceMaxHeight" : 5820,
+        "sourceMaxWidth" : 4548,
+        "url" : "https://iiif.micr.io/GzpBj/full/3840,/0/default.jpg",
+        "urlTemplate" : "https://iiif.micr.io/GzpBj/full/{w},/0/default.jpg"
+      },
+      "license" : {
+        "evidence" : "rijks:public-domain-mark",
+        "sourceURL" : "https://www.rijksmuseum.nl/en/collection/SK-A-4922",
+        "status" : "CC0"
+      },
+      "medium" : "oil paint (paint), canvas",
+      "significance" : {
+        "canonLists" : [
+
+        ],
+        "curatorScore" : 7.5,
+        "museumHighlight" : true
+      },
+      "tags" : [
+        "religious"
+      ],
+      "title" : "Paul Healing a Man Who Could Not Walk",
+      "year" : 1663
+    },
+    {
+      "artist" : "Anne-Louis Girodet",
+      "artistDeathYear" : 1824,
+      "artistSort" : "Girodet, Anne-Louis",
+      "caption" : "Hortense de Beauharnais, pearl drops in her curled hair and ears, looks out faintly smiling in a coral gown with white puffed sleeves before a dark ground opening onto a waterfall.",
+      "collection" : "Rijksmuseum",
+      "collectionURL" : "https://www.rijksmuseum.nl/en/collection/SK-A-4943",
+      "dateDisplay" : "c. 1805 - c. 1809",
+      "id" : "rijks-200411699",
+      "image" : {
+        "format" : "jpeg",
+        "sourceMaxHeight" : 4754,
+        "sourceMaxWidth" : 3928,
+        "url" : "https://iiif.micr.io/ESOuY/full/3840,/0/default.jpg",
+        "urlTemplate" : "https://iiif.micr.io/ESOuY/full/{w},/0/default.jpg"
+      },
+      "license" : {
+        "evidence" : "rijks:public-domain-mark",
+        "sourceURL" : "https://www.rijksmuseum.nl/en/collection/SK-A-4943",
+        "status" : "CC0"
+      },
+      "medium" : "canvas, oil paint (paint)",
+      "significance" : {
+        "canonLists" : [
+
+        ],
+        "curatorScore" : 7.5,
+        "museumHighlight" : true
+      },
+      "tags" : [
+        "portrait"
+      ],
+      "title" : "Portrait of Hortense de Beauharnais",
+      "year" : 1805
+    },
+    {
+      "artist" : "Jacques Jordaens",
+      "artistDeathYear" : 1678,
+      "artistSort" : "Jordaens, Jacques",
+      "caption" : "Rogier Le Witer sits before a swagged red curtain and a gilded caryatid figure, a broad white ruff at his neck and his black hat held in his left hand.",
+      "collection" : "Rijksmuseum",
+      "collectionURL" : "https://www.rijksmuseum.nl/en/collection/SK-A-4971",
+      "dateDisplay" : "1635",
+      "id" : "rijks-200416903",
+      "image" : {
+        "format" : "jpeg",
+        "sourceMaxHeight" : 6599,
+        "sourceMaxWidth" : 5118,
+        "url" : "https://iiif.micr.io/KwHqX/full/3840,/0/default.jpg",
+        "urlTemplate" : "https://iiif.micr.io/KwHqX/full/{w},/0/default.jpg"
+      },
+      "license" : {
+        "evidence" : "rijks:public-domain-mark",
+        "sourceURL" : "https://www.rijksmuseum.nl/en/collection/SK-A-4971",
+        "status" : "CC0"
+      },
+      "medium" : "canvas, oil paint (paint)",
+      "significance" : {
+        "canonLists" : [
+
+        ],
+        "curatorScore" : 7.5,
+        "museumHighlight" : true
+      },
+      "tags" : [
+        "portrait"
+      ],
+      "title" : "Portrait of Rogier Le Witer",
+      "year" : 1635
+    },
+    {
+      "artist" : "Jacques Jordaens",
+      "artistDeathYear" : 1678,
+      "artistSort" : "Jordaens, Jacques",
+      "caption" : "Catherine Behaghel sits in a black gown and wide pleated ruff on a lion-topped chair, holding a closed fan, before a swagged red curtain and a gilded carved pillar.",
+      "collection" : "Rijksmuseum",
+      "collectionURL" : "https://www.rijksmuseum.nl/en/collection/SK-A-4972",
+      "dateDisplay" : "1635",
+      "id" : "rijks-200416906",
+      "image" : {
+        "format" : "jpeg",
+        "sourceMaxHeight" : 6930,
+        "sourceMaxWidth" : 5286,
+        "url" : "https://iiif.micr.io/PAugw/full/3840,/0/default.jpg",
+        "urlTemplate" : "https://iiif.micr.io/PAugw/full/{w},/0/default.jpg"
+      },
+      "license" : {
+        "evidence" : "rijks:public-domain-mark",
+        "sourceURL" : "https://www.rijksmuseum.nl/en/collection/SK-A-4972",
+        "status" : "CC0"
+      },
+      "medium" : "canvas, oil paint (paint)",
+      "significance" : {
+        "canonLists" : [
+
+        ],
+        "curatorScore" : 7.5,
+        "museumHighlight" : true
+      },
+      "tags" : [
+        "portrait"
+      ],
+      "title" : "Portrait of Catherine Behaghel",
+      "year" : 1635
     },
     {
       "artist" : "Lourens Alma Tadema",
@@ -21774,6 +25105,79 @@
       "year" : 1880
     },
     {
+      "artist" : "Henri de Toulouse-Lautrec",
+      "artistDeathYear" : 1901,
+      "artistSort" : "Toulouse-Lautrec, Henri de",
+      "caption" : "Suzanne Valadon sits at a round café table with her chin on her hand beside a green bottle and a glass of red drink, all drawn in quick, hatched strokes.",
+      "collection" : "Harvard Art Museums",
+      "collectionURL" : "https://harvardartmuseums.org/collections/object/229060",
+      "dateDisplay" : "1889",
+      "id" : "wikidata-Q12899487",
+      "image" : {
+        "format" : "jpeg",
+        "sourceMaxHeight" : 2178,
+        "sourceMaxWidth" : 2550,
+        "url" : "https://commons.wikimedia.org/wiki/Special:FilePath/Toulouse-Lautrec%20-%20The%20Hangover%20%28Suzanne%20Valadon%29%2C%201887-1889%20color%20corrected.jpg?width=2550",
+        "urlTemplate" : "https://commons.wikimedia.org/wiki/Special:FilePath/Toulouse-Lautrec%20-%20The%20Hangover%20%28Suzanne%20Valadon%29%2C%201887-1889%20color%20corrected.jpg?width={w}"
+      },
+      "license" : {
+        "evidence" : "commons:Public domain",
+        "sourceURL" : "https://www.wikidata.org/wiki/Q12899487",
+        "status" : "PD"
+      },
+      "significance" : {
+        "canonLists" : [
+
+        ],
+        "curatorScore" : 7.5,
+        "museumHighlight" : false,
+        "sitelinks" : 8
+      },
+      "tags" : [
+        "portrait"
+      ],
+      "title" : "The Hangover (Suzanne Valadon)",
+      "wikidata" : "Q12899487",
+      "year" : 1889
+    },
+    {
+      "artist" : "François-Hubert Drouais",
+      "artistDeathYear" : 1775,
+      "artistSort" : "Drouais, François-Hubert",
+      "caption" : "Madame de Pompadour sits at her embroidery frame in a flower-patterned gown with lace and striped bows, while a black spaniel stands on a stool with its paws on the frame.",
+      "collection" : "National Gallery",
+      "collectionURL" : "https://www.nationalgallery.org.uk/paintings/francois-hubert-drouais-madame-de-pompadour-at-her-tambour-frame",
+      "dateDisplay" : "1763",
+      "id" : "wikidata-Q12912886",
+      "image" : {
+        "format" : "jpeg",
+        "sourceMaxHeight" : 4226,
+        "sourceMaxWidth" : 3019,
+        "url" : "https://commons.wikimedia.org/wiki/Special:FilePath/Fran%C3%A7ois-Hubert%20DROUAIS%201763-4.%20London%20NG.%20Madame%20de%20Pompadour%20at%20her%20Tambour%20Frame..jpg?width=3019",
+        "urlTemplate" : "https://commons.wikimedia.org/wiki/Special:FilePath/Fran%C3%A7ois-Hubert%20DROUAIS%201763-4.%20London%20NG.%20Madame%20de%20Pompadour%20at%20her%20Tambour%20Frame..jpg?width={w}"
+      },
+      "license" : {
+        "evidence" : "commons:Public domain",
+        "sourceURL" : "https://www.wikidata.org/wiki/Q12912886",
+        "status" : "PD"
+      },
+      "significance" : {
+        "canonLists" : [
+
+        ],
+        "curatorScore" : 7.5,
+        "museumHighlight" : false,
+        "sitelinks" : 8
+      },
+      "tags" : [
+        "interior",
+        "portrait"
+      ],
+      "title" : "Madame de Pompadour at her Tambour Frame",
+      "wikidata" : "Q12912886",
+      "year" : 1763
+    },
+    {
       "artist" : "Rembrandt",
       "artistDeathYear" : 1669,
       "artistSort" : "Rembrandt",
@@ -24938,6 +28342,42 @@
       "title" : "Equestrian Portrait of the Duke of Lerma",
       "wikidata" : "Q16038514",
       "year" : 1603
+    },
+    {
+      "artist" : "Anthony van Dyck",
+      "artistDeathYear" : 1641,
+      "artistSort" : "Dyck, Anthony van",
+      "caption" : "A kneeling monk in a white habit takes the Virgin's outstretched hand as an angel in billowing golden drapery leans in beside them and a young man looks on at left.",
+      "collection" : "Kunsthistorisches Museum",
+      "collectionURL" : "https://www.khm.at/de/object/303ed4c698/",
+      "dateDisplay" : "1629",
+      "id" : "wikidata-Q16038543",
+      "image" : {
+        "format" : "jpeg",
+        "sourceMaxHeight" : 6186,
+        "sourceMaxWidth" : 5061,
+        "url" : "https://commons.wikimedia.org/wiki/Special:FilePath/Anton%20van%20Dyck%20-%20The%20Vision%20of%20the%20Blessed%20Hermann%20Joseph%20-%20Google%20Art%20Project.jpg?width=3840",
+        "urlTemplate" : "https://commons.wikimedia.org/wiki/Special:FilePath/Anton%20van%20Dyck%20-%20The%20Vision%20of%20the%20Blessed%20Hermann%20Joseph%20-%20Google%20Art%20Project.jpg?width={w}"
+      },
+      "license" : {
+        "evidence" : "commons:Public domain",
+        "sourceURL" : "https://www.wikidata.org/wiki/Q16038543",
+        "status" : "PD"
+      },
+      "significance" : {
+        "canonLists" : [
+
+        ],
+        "curatorScore" : 7.5,
+        "museumHighlight" : false,
+        "sitelinks" : 8
+      },
+      "tags" : [
+        "religious"
+      ],
+      "title" : "The Vision of the Blessed Hermann Joseph",
+      "wikidata" : "Q16038543",
+      "year" : 1629
     },
     {
       "artist" : "Paolo Veronese",
@@ -39563,6 +43003,42 @@
       "year" : 1529
     },
     {
+      "artist" : "Raphael",
+      "artistDeathYear" : 1520,
+      "artistSort" : "Raphael",
+      "caption" : "A winged, haloed Michael in golden armor, sword raised and red-cross shield on his arm, plants his foot on a horned, winged demon as a city burns at left.",
+      "collection" : "Department of Paintings of the Louvre",
+      "collectionURL" : "https://collections.louvre.fr/ark:/53355/cl010060773",
+      "dateDisplay" : "1504",
+      "id" : "wikidata-Q2415259",
+      "image" : {
+        "format" : "jpeg",
+        "sourceMaxHeight" : 5897,
+        "sourceMaxWidth" : 5123,
+        "url" : "https://commons.wikimedia.org/wiki/Special:FilePath/Saint%20Michel%20et%20le%20Dragon%20-%20Rapha%C3%ABl%20-%20Mus%C3%A9e%20du%20Louvre%20Peintures%20INV%20608%20%3B%20MR%20439.jpg?width=3840",
+        "urlTemplate" : "https://commons.wikimedia.org/wiki/Special:FilePath/Saint%20Michel%20et%20le%20Dragon%20-%20Rapha%C3%ABl%20-%20Mus%C3%A9e%20du%20Louvre%20Peintures%20INV%20608%20%3B%20MR%20439.jpg?width={w}"
+      },
+      "license" : {
+        "evidence" : "commons:Public domain",
+        "sourceURL" : "https://www.wikidata.org/wiki/Q2415259",
+        "status" : "PD"
+      },
+      "significance" : {
+        "canonLists" : [
+
+        ],
+        "curatorScore" : 7.5,
+        "museumHighlight" : false,
+        "sitelinks" : 14
+      },
+      "tags" : [
+        "religious"
+      ],
+      "title" : "Saint Michael Vanquishing Satan",
+      "wikidata" : "Q2415259",
+      "year" : 1504
+    },
+    {
       "artist" : "Caravaggio",
       "artistDeathYear" : 1610,
       "artistSort" : "Caravaggio",
@@ -50857,6 +54333,49 @@
       "year" : 1439
     },
     {
+      "artist" : "Jacques-Louis David",
+      "artistDeathYear" : 1825,
+      "artistSort" : "David, Jacques-Louis",
+      "caption" : "Madame de Pastoret, in a white dress with a blue sash, pauses over her sewing beside a wooden cradle where her infant son lies, set against a loosely brushed gray ground.",
+      "collection" : "Art Institute of Chicago",
+      "collectionURL" : "https://www.artic.edu/artworks/27307",
+      "dateDisplay" : "1791–92",
+      "id" : "wikidata-Q3399482",
+      "image" : {
+        "format" : "jpeg",
+        "sourceMaxHeight" : 3000,
+        "sourceMaxWidth" : 2195,
+        "url" : "https://commons.wikimedia.org/wiki/Special:FilePath/Jacques%20Louis%20David%20-%20Madame%20de%20Pastoret%20and%20Her%20Son%20-%201967.228%20-%20Art%20Institute%20of%20Chicago.jpg?width=2195",
+        "urlTemplate" : "https://commons.wikimedia.org/wiki/Special:FilePath/Jacques%20Louis%20David%20-%20Madame%20de%20Pastoret%20and%20Her%20Son%20-%201967.228%20-%20Art%20Institute%20of%20Chicago.jpg?width={w}"
+      },
+      "license" : {
+        "evidence" : "commons:Public domain",
+        "sourceURL" : "https://www.wikidata.org/wiki/Q3399482",
+        "status" : "PD"
+      },
+      "paletteDominantHSL" : [
+        51,
+        23,
+        81
+      ],
+      "region" : "France",
+      "significance" : {
+        "canonLists" : [
+
+        ],
+        "curatorScore" : 7.5,
+        "museumHighlight" : true,
+        "sitelinks" : 8
+      },
+      "tags" : [
+        "family",
+        "portrait"
+      ],
+      "title" : "Madame de Pastoret and Her Son",
+      "wikidata" : "Q3399482",
+      "year" : 1791
+    },
+    {
       "artist" : "Diego Velázquez",
       "artistDeathYear" : 1660,
       "artistSort" : "Velázquez, Diego",
@@ -57799,6 +61318,42 @@
       "year" : 1510
     },
     {
+      "artist" : "Antonio da Correggio",
+      "artistDeathYear" : 1534,
+      "artistSort" : "Correggio, Antonio da",
+      "caption" : "The child on a seated woman's lap reaches for the hand of Saint Catherine in a golden mantle, while Saint Sebastian, holding arrows, smiles down behind and small figures move through the landscape.",
+      "collection" : "Department of Paintings of the Louvre",
+      "collectionURL" : "https://collections.louvre.fr/ark:/53355/cl010062408",
+      "dateDisplay" : "1526",
+      "id" : "wikidata-Q3851966",
+      "image" : {
+        "format" : "jpeg",
+        "sourceMaxHeight" : 2947,
+        "sourceMaxWidth" : 2862,
+        "url" : "https://commons.wikimedia.org/wiki/Special:FilePath/Le%20Mariage%20mystique%20de%20sainte%20Catherine%20d%27Alexandrie%20en%20pr%C3%A9sence%20de%20saint%20S%C3%A9bastien%20-%20Le%20Corr%C3%A8ge%20-%20Mus%C3%A9e%20du%20Louvre%20Peintures%20INV%2041.jpg?width=2862",
+        "urlTemplate" : "https://commons.wikimedia.org/wiki/Special:FilePath/Le%20Mariage%20mystique%20de%20sainte%20Catherine%20d%27Alexandrie%20en%20pr%C3%A9sence%20de%20saint%20S%C3%A9bastien%20-%20Le%20Corr%C3%A8ge%20-%20Mus%C3%A9e%20du%20Louvre%20Peintures%20INV%2041.jpg?width={w}"
+      },
+      "license" : {
+        "evidence" : "commons:Public domain",
+        "sourceURL" : "https://www.wikidata.org/wiki/Q3851966",
+        "status" : "PD"
+      },
+      "significance" : {
+        "canonLists" : [
+
+        ],
+        "curatorScore" : 7.5,
+        "museumHighlight" : false,
+        "sitelinks" : 9
+      },
+      "tags" : [
+        "religious"
+      ],
+      "title" : "Mystic Marriage of Saint Catherine of Alexandria with Saint Sebastian",
+      "wikidata" : "Q3851966",
+      "year" : 1526
+    },
+    {
       "artist" : "Titian",
       "artistDeathYear" : 1576,
       "artistSort" : "Titian",
@@ -62392,6 +65947,42 @@
       "year" : 1636
     },
     {
+      "artist" : "Antonio da Correggio",
+      "artistDeathYear" : 1534,
+      "artistSort" : "Correggio, Antonio da",
+      "caption" : "Christ's thorn-crowned head, framed by long brown hair, looks out with a sorrowful gaze against a pale white cloth, a strip of red drapery at his shoulder.",
+      "collection" : "J. Paul Getty Museum",
+      "collectionURL" : "https://www.getty.edu/art/collection/object/103RK3",
+      "dateDisplay" : "1521",
+      "id" : "wikidata-Q4009400",
+      "image" : {
+        "format" : "jpeg",
+        "sourceMaxHeight" : 4141,
+        "sourceMaxWidth" : 3326,
+        "url" : "https://commons.wikimedia.org/wiki/Special:FilePath/Correggio%20%28Antonio%20Allegri%29%20%28Italian%29%20-%20Head%20of%20Christ%20-%20Google%20Art%20Project.jpg?width=3326",
+        "urlTemplate" : "https://commons.wikimedia.org/wiki/Special:FilePath/Correggio%20%28Antonio%20Allegri%29%20%28Italian%29%20-%20Head%20of%20Christ%20-%20Google%20Art%20Project.jpg?width={w}"
+      },
+      "license" : {
+        "evidence" : "commons:Public domain",
+        "sourceURL" : "https://www.wikidata.org/wiki/Q4009400",
+        "status" : "PD"
+      },
+      "significance" : {
+        "canonLists" : [
+
+        ],
+        "curatorScore" : 7.5,
+        "museumHighlight" : false,
+        "sitelinks" : 9
+      },
+      "tags" : [
+        "religious"
+      ],
+      "title" : "Head of Christ",
+      "wikidata" : "Q4009400",
+      "year" : 1521
+    },
+    {
       "artist" : "Titian and workshop",
       "artistDeathYear" : 1576,
       "artistSort" : "Titian",
@@ -64658,6 +68249,42 @@
       "year" : 1889
     },
     {
+      "artist" : "Upper Rhenish Master",
+      "artistSort" : "Upper Rhenish Master",
+      "caption" : "Inside a crenellated white wall a crowned woman in blue reads, as one woman picks fruit, another draws water, a third helps a child play a zither, and an angel and two men rest nearby.",
+      "collection" : "Städel Museum",
+      "collectionURL" : "https://staedelmuseum.de/go/ds/hm54",
+      "dateDisplay" : "1410",
+      "id" : "wikidata-Q463392",
+      "image" : {
+        "format" : "jpeg",
+        "sourceMaxHeight" : 16638,
+        "sourceMaxWidth" : 20828,
+        "url" : "https://commons.wikimedia.org/wiki/Special:FilePath/Hm%2054-oberrheinischer%20meister%20um%20141020-das%20paradiesgartlein-1410.png?width=3840",
+        "urlTemplate" : "https://commons.wikimedia.org/wiki/Special:FilePath/Hm%2054-oberrheinischer%20meister%20um%20141020-das%20paradiesgartlein-1410.png?width={w}"
+      },
+      "license" : {
+        "evidence" : "commons:Public domain",
+        "sourceURL" : "https://www.wikidata.org/wiki/Q463392",
+        "status" : "PD"
+      },
+      "significance" : {
+        "canonLists" : [
+
+        ],
+        "curatorScore" : 7.5,
+        "museumHighlight" : false,
+        "sitelinks" : 9
+      },
+      "tags" : [
+        "flowers",
+        "religious"
+      ],
+      "title" : "The Little Garden of Paradise",
+      "wikidata" : "Q463392",
+      "year" : 1410
+    },
+    {
       "artist" : "Grant Wood",
       "artistDeathYear" : 1942,
       "artistSort" : "Wood, Grant",
@@ -66440,6 +70067,43 @@
       "title" : "The Return of the Prodigal Son",
       "wikidata" : "Q512755",
       "year" : 1668
+    },
+    {
+      "artist" : "Titian",
+      "artistDeathYear" : 1576,
+      "artistSort" : "Titian",
+      "caption" : "Two-year-old Clarissa Strozzi, in a white dress with pearls and a gem-set girdle, puts her arm around a red-and-white spaniel seated on a carved stone ledge.",
+      "collection" : "Gemäldegalerie Berlin",
+      "collectionURL" : "https://id.smb.museum/object/869327",
+      "dateDisplay" : "1542",
+      "id" : "wikidata-Q5128805",
+      "image" : {
+        "format" : "jpeg",
+        "sourceMaxHeight" : 1995,
+        "sourceMaxWidth" : 1700,
+        "url" : "https://commons.wikimedia.org/wiki/Special:FilePath/Clarissa%20Strozzi%20%281540-1581%29%20im%20Alter%20von%20zwei%20Jahren%20-%20Gem%C3%A4ldegalerie%20Berlin%20-%205416289.jpg?width=1700",
+        "urlTemplate" : "https://commons.wikimedia.org/wiki/Special:FilePath/Clarissa%20Strozzi%20%281540-1581%29%20im%20Alter%20von%20zwei%20Jahren%20-%20Gem%C3%A4ldegalerie%20Berlin%20-%205416289.jpg?width={w}"
+      },
+      "license" : {
+        "evidence" : "commons:Public domain",
+        "sourceURL" : "https://www.wikidata.org/wiki/Q5128805",
+        "status" : "PD"
+      },
+      "significance" : {
+        "canonLists" : [
+
+        ],
+        "curatorScore" : 7.5,
+        "museumHighlight" : false,
+        "sitelinks" : 14
+      },
+      "tags" : [
+        "animals",
+        "portrait"
+      ],
+      "title" : "Portrait of Clarissa Strozzi",
+      "wikidata" : "Q5128805",
+      "year" : 1542
     },
     {
       "artist" : "Guo Xi",
@@ -68969,6 +72633,43 @@
       "year" : 1597
     },
     {
+      "artist" : "Thomas Gainsborough",
+      "artistDeathYear" : 1788,
+      "artistSort" : "Gainsborough, Thomas",
+      "caption" : "A white horse draws a cart carrying two women along a woodland track under towering trees, as boys walk beside it, a man gathers sticks at right, and a dog runs in front.",
+      "collection" : "National Gallery",
+      "collectionURL" : "https://www.nationalgallery.org.uk/paintings/thomas-gainsborough-the-market-cart",
+      "dateDisplay" : "1786",
+      "id" : "wikidata-Q5966011",
+      "image" : {
+        "format" : "jpeg",
+        "sourceMaxHeight" : 2451,
+        "sourceMaxWidth" : 2024,
+        "url" : "https://commons.wikimedia.org/wiki/Special:FilePath/Thomas%20Gainsborough%20002.jpg?width=2024",
+        "urlTemplate" : "https://commons.wikimedia.org/wiki/Special:FilePath/Thomas%20Gainsborough%20002.jpg?width={w}"
+      },
+      "license" : {
+        "evidence" : "commons:Public domain",
+        "sourceURL" : "https://www.wikidata.org/wiki/Q5966011",
+        "status" : "PD"
+      },
+      "significance" : {
+        "canonLists" : [
+
+        ],
+        "curatorScore" : 7.5,
+        "museumHighlight" : false,
+        "sitelinks" : 9
+      },
+      "tags" : [
+        "landscape",
+        "pastoral"
+      ],
+      "title" : "The Market Cart",
+      "wikidata" : "Q5966011",
+      "year" : 1786
+    },
+    {
       "artist" : "Cornelis van Haarlem",
       "artistDeathYear" : 1638,
       "artistSort" : "Haarlem, Cornelis van",
@@ -71463,6 +75164,42 @@
       "year" : 1632
     },
     {
+      "artist" : "Jan Steen",
+      "artistDeathYear" : 1679,
+      "artistSort" : "Steen, Jan",
+      "caption" : "Jan Steen's oyster girl smiles out at the viewer as she salts an oyster, the arched panel glowing with a blue-and-white jug, a blue tablecloth and her fur-trimmed red jacket.",
+      "collection" : "Mauritshuis",
+      "collectionURL" : "https://www.mauritshuis.nl/nl-nl/verdiep/de-collectie/kunstwerken/het-oestereetstertje-818/",
+      "dateDisplay" : "1658",
+      "id" : "wikidata-Q653607",
+      "image" : {
+        "format" : "jpeg",
+        "sourceMaxHeight" : 6000,
+        "sourceMaxWidth" : 4348,
+        "url" : "https://commons.wikimedia.org/wiki/Special:FilePath/Jan%20Steen%20-%20Girl%20Eating%20Oysters%20-%20818%20-%20Mauritshuis.jpg?width=3840",
+        "urlTemplate" : "https://commons.wikimedia.org/wiki/Special:FilePath/Jan%20Steen%20-%20Girl%20Eating%20Oysters%20-%20818%20-%20Mauritshuis.jpg?width={w}"
+      },
+      "license" : {
+        "evidence" : "commons:Public domain",
+        "sourceURL" : "https://www.wikidata.org/wiki/Q653607",
+        "status" : "PD"
+      },
+      "significance" : {
+        "canonLists" : [
+
+        ],
+        "curatorScore" : 7.5,
+        "museumHighlight" : false,
+        "sitelinks" : 9
+      },
+      "tags" : [
+        "everyday-life"
+      ],
+      "title" : "Girl Eating Oysters",
+      "wikidata" : "Q653607",
+      "year" : 1658
+    },
+    {
       "artist" : "El Greco",
       "artistDeathYear" : 1614,
       "artistSort" : "Greco, El",
@@ -72242,6 +75979,42 @@
       "title" : "Resurrection of Christ",
       "wikidata" : "Q677682",
       "year" : 1499
+    },
+    {
+      "artist" : "Johan Christian Dahl",
+      "artistDeathYear" : 1857,
+      "artistSort" : "Dahl, Johan Christian",
+      "caption" : "A double rainbow arcs over a steep mountain valley under a dark sky, sunlight falling on green slopes and a cluster of farm buildings while goats graze in the foreground.",
+      "collection" : "National Museum of Art, Architecture and Design",
+      "collectionURL" : "https://www.nasjonalmuseet.no/en/collection/object/NG.M.01060",
+      "dateDisplay" : "1842",
+      "id" : "wikidata-Q6799225",
+      "image" : {
+        "format" : "jpeg",
+        "sourceMaxHeight" : 9411,
+        "sourceMaxWidth" : 12169,
+        "url" : "https://commons.wikimedia.org/wiki/Special:FilePath/Johan%20Christian%20Claussen%20Dahl%20%E2%80%93%20View%20from%20Stalheim%20%E2%80%93%20Google%20Art%20Project.jpg?width=3840",
+        "urlTemplate" : "https://commons.wikimedia.org/wiki/Special:FilePath/Johan%20Christian%20Claussen%20Dahl%20%E2%80%93%20View%20from%20Stalheim%20%E2%80%93%20Google%20Art%20Project.jpg?width={w}"
+      },
+      "license" : {
+        "evidence" : "commons:Public domain",
+        "sourceURL" : "https://www.wikidata.org/wiki/Q6799225",
+        "status" : "PD"
+      },
+      "significance" : {
+        "canonLists" : [
+
+        ],
+        "curatorScore" : 7.5,
+        "museumHighlight" : false,
+        "sitelinks" : 9
+      },
+      "tags" : [
+        "landscape"
+      ],
+      "title" : "View from Stalheim",
+      "wikidata" : "Q6799225",
+      "year" : 1842
     },
     {
       "artist" : "Hieronymus Bosch (attributed)",
@@ -74548,6 +78321,43 @@
       "title" : "The Harvesters",
       "wikidata" : "Q776175",
       "year" : 1565
+    },
+    {
+      "artist" : "Thomas Cole",
+      "artistDeathYear" : 1848,
+      "artistSort" : "Cole, Thomas",
+      "caption" : "Seen from within a rocky cave mouth, still floodwaters stretch toward jagged peaks in a hazy golden light, with a small ark in the middle distance and a skull at lower right.",
+      "collection" : "Smithsonian American Art Museum",
+      "collectionURL" : "https://americanart.si.edu/artwork/subsiding-waters-deluge-5080",
+      "dateDisplay" : "1829",
+      "id" : "wikidata-Q7767151",
+      "image" : {
+        "format" : "jpeg",
+        "sourceMaxHeight" : 2985,
+        "sourceMaxWidth" : 4000,
+        "url" : "https://commons.wikimedia.org/wiki/Special:FilePath/Thomas%20Cole%20-%20Subsiding%20of%20the%20Waters%20of%20the%20Deluge%20-%20Smithsonian.jpg?width=3840",
+        "urlTemplate" : "https://commons.wikimedia.org/wiki/Special:FilePath/Thomas%20Cole%20-%20Subsiding%20of%20the%20Waters%20of%20the%20Deluge%20-%20Smithsonian.jpg?width={w}"
+      },
+      "license" : {
+        "evidence" : "commons:Public domain",
+        "sourceURL" : "https://www.wikidata.org/wiki/Q7767151",
+        "status" : "PD"
+      },
+      "significance" : {
+        "canonLists" : [
+
+        ],
+        "curatorScore" : 7.5,
+        "museumHighlight" : false,
+        "sitelinks" : 9
+      },
+      "tags" : [
+        "landscape",
+        "religious"
+      ],
+      "title" : "The Subsiding of the Waters of the Deluge",
+      "wikidata" : "Q7767151",
+      "year" : 1829
     },
     {
       "artist" : "Osman Hamdi Bey",
@@ -77648,6 +81458,43 @@
       "title" : "Ganymede Abducted by the Eagle",
       "wikidata" : "Q939962",
       "year" : 1530
+    },
+    {
+      "artist" : "Anne-Louis Girodet",
+      "artistDeathYear" : 1824,
+      "artistSort" : "Girodet, Anne-Louis",
+      "caption" : "Inside a dark cave, a hooded, bearded monk supports Atala's pale body while a crouching young man clasps her legs, an opening in the rock showing trees and a cross against the sky.",
+      "collection" : "Department of Paintings of the Louvre",
+      "collectionURL" : "https://collections.louvre.fr/ark:/53355/cl010064829",
+      "dateDisplay" : "1808",
+      "id" : "wikidata-Q9401827",
+      "image" : {
+        "format" : "jpeg",
+        "sourceMaxHeight" : 4437,
+        "sourceMaxWidth" : 5719,
+        "url" : "https://commons.wikimedia.org/wiki/Special:FilePath/Atala%20au%20tombeau%20-%20Anne-Louis%20Girodet%20-%20Mus%C3%A9e%20du%20Louvre%20Peintures%20INV%204958%2C%20louvre%201.jpg?width=3840",
+        "urlTemplate" : "https://commons.wikimedia.org/wiki/Special:FilePath/Atala%20au%20tombeau%20-%20Anne-Louis%20Girodet%20-%20Mus%C3%A9e%20du%20Louvre%20Peintures%20INV%204958%2C%20louvre%201.jpg?width={w}"
+      },
+      "license" : {
+        "evidence" : "commons:Public domain",
+        "sourceURL" : "https://www.wikidata.org/wiki/Q9401827",
+        "status" : "PD"
+      },
+      "significance" : {
+        "canonLists" : [
+
+        ],
+        "curatorScore" : 7.5,
+        "museumHighlight" : false,
+        "sitelinks" : 9
+      },
+      "tags" : [
+        "literary",
+        "religious"
+      ],
+      "title" : "The Entombment of Atala",
+      "wikidata" : "Q9401827",
+      "year" : 1808
     },
     {
       "artist" : "Claude Monet",
