@@ -424,7 +424,9 @@
     "tags": [
       "religious"
     ],
-    "movement": "Mannerism"
+    "movement": "Mannerism",
+    "caption": "The Virgin rises with her arms spread wide, in a deep red dress and a blue mantle, a thin crescent moon under her feet and pale golden light behind her head. Angels and small children surround her above a bank of cloud. Below, the apostles crowd round a stone tomb, several of them looking or reaching upward.",
+    "collectionURL": "https://www.artic.edu/artworks/87479/the-assumption-of-the-virgin"
   },
   "artic-87643": {
     "tags": [
@@ -2833,7 +2835,7 @@
       "historical",
       "narrative"
     ],
-    "caption": "Lucretia looks down as she brings a dagger towards her exposed breast, her pearl-adorned hair, gold bracelets and deep green drapery contrasting with the violence of the act.",
+    "caption": "A fair-haired woman with pearls and a red jewel in her hair looks down to the left. One hand draws a gold-green silk across her chest; the other, at her waist, grips the gold hilt of a dagger whose blade disappears under the silk. Gold bracelets circle both wrists, a deep green velvet mantle covers her lower body, and a flowered hanging and a striped, fringed cloth fill the right side against a dark ground.",
     "dateDisplay": "c. 1580–1583",
     "year": 1580,
     "collectionURL": "https://www.khm.at/kunstwerke/lukrezia-389",
@@ -3467,9 +3469,10 @@
       "music",
       "religious"
     ],
-    "caption": "Mary turns toward Christ above a crowded town square. Below, richly dressed women pray among people receiving help, a musician plays beside a seated man, and a dog rests in the foreground.",
+    "caption": "Christ sits on clouds at upper left with one hand raised, and Mary, opposite, turns up toward him with her hands spread, among angels and winged children holding flowers; a white dove flies beneath them. In the square below, richly dressed women and children kneel at lower left, a woman holding a baby is at right, and a bare-backed man lies propped on the ground, reaching toward a man playing a hurdy-gurdy. A brown-and-white dog lies in the bottom right corner.",
     "dateDisplay": "1579",
-    "year": 1579
+    "year": 1579,
+    "collectionURL": "https://www.uffizi.it/en/video/madonna-of-the-people-by-federico-barocci"
   },
   "wikidata-Q11770877": {
     "tags": [
@@ -5456,7 +5459,7 @@
     "tags": [
       "religious"
     ],
-    "caption": "Mary Magdalene looks upward toward a bright opening in dark blue clouds, her hands folded in her lap. Long golden hair falls over her white blouse and dark cloak; ivy climbs the rock beside her, above a skull and a small glass vessel.",
+    "caption": "Mary Magdalene looks upward toward a patch of blue in dark storm clouds, her hands folded in her lap. Long golden hair falls over her white blouse and dark cloak; ivy climbs the rock beside her, above a skull and a small glass flask.",
     "dateDisplay": "c. 1580–1585",
     "year": 1580,
     "collectionURL": "https://art.nelson-atkins.org/objects/30704/the-penitent-magdalene",
@@ -15266,7 +15269,7 @@
     "dateDisplay": "Possibly second half of the 16th century",
     "year": 1575,
     "collectionURL": "https://www.nationalgallery.org.uk/paintings/after-albrecht-durer-the-painter-s-father",
-    "caption": "The old man’s black cap and broad brown sleeves stand against a streaked pink background. The inscription identifies Dürer’s father at seventy, but this painting is probably a later copy of a lost portrait, rather than Dürer’s own record of the sitting.",
+    "caption": "An old man in a black cap and a golden-brown gown with a dark, shaggy lining is shown half-length against a streaky pink background. His hands are tucked into the wide sleeves, with only a few fingers showing. A line of lettering runs along the top edge, and a red number is painted in the bottom right corner.",
     "movement": "German Renaissance"
   },
   "wikidata-Q3937463": {
@@ -18177,9 +18180,10 @@
     "tags": [
       "religious"
     ],
-    "caption": "God the Father, white-bearded and wearing a tall white mitre, holds the slumped body of Christ, who leans back against him on a white cloth spread over his lap, with wounds in his side, hands and feet. The dove of the Holy Spirit hovers above them in golden light. Winged angels in violet, green, blue and red robes crowd round on either side, and small winged cherub heads appear in the clouds at Christ's feet.",
+    "caption": "God the Father, grey-bearded and wearing a tall white two-pointed mitre, holds the slumped body of Christ, who leans back against him on a white cloth spread over his lap, with wounds in his side, hands and feet. The dove of the Holy Spirit hovers above them in golden light. Winged angels in violet, green, blue and red robes crowd round on either side, and small winged cherub heads appear in the clouds at Christ's feet.",
     "collection": "Museo del Prado",
-    "dateDisplay": "1577–1579"
+    "dateDisplay": "1577–1579",
+    "collectionURL": "https://www.museodelprado.es/coleccion/obra-de-arte/la-trinidad/8b502bfc-bc6d-43d1-b72b-b047eeea033c"
   },
   "wikidata-Q655657": {
     "tags": [
