@@ -21026,10 +21026,10 @@
       "year" : 1517
     },
     {
-      "artist" : "Paolo Veronese and workshop",
+      "artist" : "Paolo Veronese",
       "artistDeathYear" : 1588,
       "artistSort" : "Veronese, Paolo",
-      "caption" : "Figures in richly coloured robes gather with winged angels above a bank of clouds. Below, crowded warships with masts, flags and long banks of oars meet amid smoke in the Battle of Lepanto.",
+      "caption" : "Above a bank of dark cloud, the Virgin in a green mantle leans toward a crowd of saints: an old man in yellow, a pilgrim with a staff, a crowned woman, a figure in white and a man in an orange cloak beside a lion. Angels play a lute and a wind instrument among them, and at the right another dives head first with arrows. Below, a dense mass of galleys with masts, banners and oars meets in smoke, lit at the left by a shaft of light.",
       "collection" : "Gallerie dell'Accademia",
       "collectionURL" : "https://www.gallerieaccademia.it/opera/allegoria-della-battaglia-di-lepanto/",
       "dateDisplay" : "c. 1573",
@@ -23741,9 +23741,9 @@
       "artist" : "Paolo Veronese",
       "artistDeathYear" : 1588,
       "artistSort" : "Veronese, Paolo",
-      "caption" : "A diagonal beam of light, accompanied by winged angels, reaches toward Mary and the infant Christ beneath a timber roof. Richly dressed kings and attendants gather below, surrounded by horses, a camel, an ox, lambs and a dog, beside large classical ruins.",
-      "collection" : "National Gallery",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q15410148",
+      "caption" : "Mary sits on a stone block holding the infant Christ, under a timber lean-to built against huge classical ruins with an arch open to the sky. A beam of light with small winged angels along it slants down from the upper left. Two richly robed kings kneel in front among attendants, horses and a camel. A crown and a gold vessel stand on the ground. Behind Mary a bearded man in red holds a staff; at the right are an ox, a donkey, lambs and two dogs.",
+      "collection" : "National Gallery, London",
+      "collectionURL" : "https://www.nationalgallery.org.uk/paintings/paolo-veronese-the-adoration-of-the-kings",
       "dateDisplay" : "1573",
       "id" : "wikidata-Q15410148",
       "image" : {
@@ -24945,8 +24945,8 @@
       "artistSort" : "Veronese, Paolo",
       "caption" : "Catherine, crowned and dressed in blue and gold, kneels beside the Virgin and Child on a stepped throne. Musicians with stringed instruments and an open book gather at the left, while winged figures carry a crown and palm above the group beneath billowing clouds.",
       "collection" : "Gallerie dell'Accademia",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q16038642",
-      "dateDisplay" : "c. 1575",
+      "collectionURL" : "https://www.gallerieaccademia.it/opera/matrimonio-mistico-di-santa-caterina-2/",
+      "dateDisplay" : "c. 1570–1575",
       "id" : "wikidata-Q16038642",
       "image" : {
         "format" : "jpeg",
@@ -24975,7 +24975,7 @@
       ],
       "title" : "The Mystic Marriage of St. Catherine",
       "wikidata" : "Q16038642",
-      "year" : 1575
+      "year" : 1570
     },
     {
       "artist" : "Attributed to Jean Fouquet",
@@ -29226,8 +29226,8 @@
       "artist" : "Giuseppe Arcimboldo",
       "artistDeathYear" : 1593,
       "artistSort" : "Arcimboldo, Giuseppe",
-      "caption" : "Flowers assemble into a face in left profile: pale blossoms trace the skin, a rose fills the cheek and a large pink bloom forms the ear. A dense cluster of multicoloured flowers replaces the hair. White flowers edge the collar, while overlapping green leaves build the neck and shoulders against a dark background.",
-      "collection" : "Department of Paintings of the Louvre",
+      "caption" : "Flowers build a head in left profile: pale blossoms make the skin, a pink rose fills the cheek, red buds form the lips and a large pink bloom the ear. A mass of multicoloured flowers, with a white lily at the top right, stands in for hair. A ruff of white flowers rings the neck, and leaves and plants make up the shoulders, with an iris at lower left, against a dark background.",
+      "collection" : "Musée du Louvre",
       "collectionURL" : "https://collections.louvre.fr/ark:/53355/cl010065015",
       "dateDisplay" : "1573",
       "id" : "wikidata-Q18572283",
@@ -29262,8 +29262,8 @@
       "artist" : "Giuseppe Arcimboldo",
       "artistDeathYear" : 1593,
       "artistSort" : "Arcimboldo, Giuseppe",
-      "caption" : "A gnarled tree trunk forms a head in right profile, with knots and split wood suggesting the eye, nose and ear. Bare branches rise above it, and ivy spreads behind the head. Layered fungi shape the lips. A woven mantle wraps the lower trunk, with a leafy branch bearing two fruits across its chest.",
-      "collection" : "Department of Paintings of the Louvre",
+      "caption" : "A gnarled, knotted tree trunk forms a head in right profile. A broken-off branch makes the nose, layered fungus the lips, and a hollow of split wood the ear. Bare, tangled branches rise from the crown and ivy spreads over the back of the head. A woven, straw-coloured mantle wraps the lower trunk, and a twig hung with a lemon and a reddish fruit juts out in front.",
+      "collection" : "Musée du Louvre",
       "collectionURL" : "https://collections.louvre.fr/ark:/53355/cl010064967",
       "dateDisplay" : "1573",
       "id" : "wikidata-Q18572291",
@@ -29298,8 +29298,8 @@
       "artist" : "Giuseppe Arcimboldo",
       "artistDeathYear" : 1593,
       "artistSort" : "Arcimboldo, Giuseppe",
-      "caption" : "Fruit and vegetables assemble into a head in right profile: a long green vegetable forms the nose, a rounded pink fruit the cheek, and an open pea pod the mouth. Cherries and leaves crowd the hair. Ears of grain edge a woven straw collar, with an artichoke rising beside the shoulder.",
-      "collection" : "Department of Paintings of the Louvre",
+      "caption" : "Fruit and vegetables build a head in right profile: a long green vegetable makes the nose, a large pink fruit the cheek, and an open pea pod the mouth. A husked ear of maize forms the ear, above heads of garlic, and cherries, purple fruit and leaves crowd the hair. Ears of grain bristle round a woven collar lettered with the painter's name, the year 1573 sits on the shoulder, and an artichoke rises at the right.",
+      "collection" : "Musée du Louvre",
       "collectionURL" : "https://collections.louvre.fr/ark:/53355/cl010064968",
       "dateDisplay" : "1573",
       "id" : "wikidata-Q18572318",
@@ -36744,8 +36744,8 @@
       "artist" : "Jacopo Tintoretto",
       "artistDeathYear" : 1594,
       "artistSort" : "Tintoretto, Jacopo",
-      "caption" : "Jupiter carries the infant Hercules toward Juno, who reclines on richly draped bedding and raises an arm as milk streams from her breast. Stars appear above her; an eagle and two peacocks occupy the right side. Four winged children hover around the figures and clouds.",
-      "collection" : "National Gallery",
+      "caption" : "Jupiter swoops down in a red cloak, holding the infant Hercules to the breast of Juno, who lies nude on white, blue and red drapery with one arm thrown up. Thin streams of milk rise toward gold stars. At right an eagle grips a bolt beside two peacocks, and four winged children fly around the group.",
+      "collection" : "National Gallery, London",
       "collectionURL" : "https://www.nationalgallery.org.uk/paintings/jacopo-tintoretto-the-origin-of-the-milky-way",
       "dateDisplay" : "c. 1575",
       "id" : "wikidata-Q2274267",
@@ -43341,10 +43341,10 @@
       "artist" : "Titian",
       "artistDeathYear" : 1576,
       "artistSort" : "Titian",
-      "caption" : "Mary supports the dead Christ beneath a massive stone niche, surrounded by figures whose gestures break the stillness. Titian intended this painting for his burial place; left unfinished at his death, it was completed with limited additions by Palma Giovane.",
+      "caption" : "Under a great stone niche with a gold half-dome, the Virgin holds the dead Christ across her lap while a bald old man kneels at his side. At left a woman moves away with her arm flung up and her mouth open. Statues of Moses and a sibyl stand on lion-head bases, and a winged child with a torch flies at upper right.",
       "collection" : "Gallerie dell'Accademia",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q2665840",
-      "dateDisplay" : "1570s",
+      "collectionURL" : "https://www.gallerieaccademia.it/en/opera/pieta-3/",
+      "dateDisplay" : "1575–1576",
       "id" : "wikidata-Q2665840",
       "image" : {
         "format" : "jpeg",
@@ -45855,7 +45855,7 @@
       "artist" : "Paolo Veronese",
       "artistDeathYear" : 1588,
       "artistSort" : "Veronese, Paolo",
-      "caption" : "A seated woman in blue-gray drapery turns towards an older man in red and gold beside a fountain, with a column separating them from a formal garden.",
+      "caption" : "A fair-haired woman sits on a stone bench by a fountain, a blue mantle slipping from her shoulders and one hand at her breast. She looks up at a bald, bearded old man in a red robe and gold cloak who leans towards her with an open hand. Beyond a dark column, rows of trees and hedges lead to a colonnade.",
       "collection" : "Musée des Beaux-Arts de Lyon; Louvre deposit",
       "collectionURL" : "https://www.mba-lyon.fr/fr/fiche-oeuvre/bethsabee-au-bain",
       "dateDisplay" : "c. 1575",
@@ -45882,6 +45882,7 @@
         "sitelinks" : 8
       },
       "tags" : [
+        "nsfw",
         "nude",
         "religious"
       ],
@@ -78024,9 +78025,9 @@
       "artist" : "Paolo Veronese",
       "artistDeathYear" : 1588,
       "artistSort" : "Veronese, Paolo",
-      "caption" : "A crowded banquet fills an open loggia of three tall arches, reached by stone staircases at both sides, with pale classical buildings and a white tower standing against a blue sky beyond. Christ sits at the centre of a long white-clothed table among guests in red, gold and blue, while servants, dogs and a seated dwarf jester in orange holding a parrot fill the foreground.",
+      "caption" : "A crowded banquet fills an open loggia of three tall arches, reached by stone staircases at both ends, with pale buildings and a white tower against a blue sky beyond. Christ, with a halo, sits at the centre of a long white-clothed table among guests in red, gold and green. In front, servants hurry about, dogs sit and stand on the tiled floor, and at the left a jester in red and orange sits holding a parrot while a boy in pink reaches toward it.",
       "collection" : "Gallerie dell'Accademia",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q951105",
+      "collectionURL" : "https://www.gallerieaccademia.it/opera/convito-in-casa-di-levi/",
       "dateDisplay" : "1573",
       "id" : "wikidata-Q951105",
       "image" : {
@@ -78051,6 +78052,7 @@
         "sitelinks" : 23
       },
       "tags" : [
+        "architecture",
         "religious"
       ],
       "title" : "The Feast in the House of Levi",

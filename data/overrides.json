@@ -4140,8 +4140,8 @@
       "seascape",
       "transport"
     ],
-    "caption": "Figures in richly coloured robes gather with winged angels above a bank of clouds. Below, crowded warships with masts, flags and long banks of oars meet amid smoke in the Battle of Lepanto.",
-    "artist": "Paolo Veronese and workshop",
+    "caption": "Above a bank of dark cloud, the Virgin in a green mantle leans toward a crowd of saints: an old man in yellow, a pilgrim with a staff, a crowned woman, a figure in white and a man in an orange cloak beside a lion. Angels play a lute and a wind instrument among them, and at the right another dives head first with arrows. Below, a dense mass of galleys with masts, banners and oars meets in smoke, lit at the left by a shaft of light.",
+    "artist": "Paolo Veronese",
     "dateDisplay": "c. 1573",
     "year": 1573,
     "collectionURL": "https://www.gallerieaccademia.it/opera/allegoria-della-battaglia-di-lepanto/",
@@ -4891,10 +4891,12 @@
       "architecture",
       "religious"
     ],
-    "caption": "A diagonal beam of light, accompanied by winged angels, reaches toward Mary and the infant Christ beneath a timber roof. Richly dressed kings and attendants gather below, surrounded by horses, a camel, an ox, lambs and a dog, beside large classical ruins.",
+    "caption": "Mary sits on a stone block holding the infant Christ, under a timber lean-to built against huge classical ruins with an arch open to the sky. A beam of light with small winged angels along it slants down from the upper left. Two richly robed kings kneel in front among attendants, horses and a camel. A crown and a gold vessel stand on the ground. Behind Mary a bearded man in red holds a staff; at the right are an ox, a donkey, lambs and two dogs.",
     "dateDisplay": "1573",
     "year": 1573,
-    "movement": "Venetian school"
+    "movement": "Venetian school",
+    "collection": "National Gallery, London",
+    "collectionURL": "https://www.nationalgallery.org.uk/paintings/paolo-veronese-the-adoration-of-the-kings"
   },
   "wikidata-Q154469": {
     "tags": [
@@ -5199,9 +5201,10 @@
       "religious"
     ],
     "caption": "Catherine, crowned and dressed in blue and gold, kneels beside the Virgin and Child on a stepped throne. Musicians with stringed instruments and an open book gather at the left, while winged figures carry a crown and palm above the group beneath billowing clouds.",
-    "dateDisplay": "c. 1575",
-    "year": 1575,
-    "movement": "Venetian school"
+    "dateDisplay": "c. 1570–1575",
+    "year": 1570,
+    "movement": "Venetian school",
+    "collectionURL": "https://www.gallerieaccademia.it/opera/matrimonio-mistico-di-santa-caterina-2/"
   },
   "wikidata-Q16038693": {
     "tags": [
@@ -6375,28 +6378,31 @@
     "tags": [
       "allegorical"
     ],
-    "caption": "Flowers assemble into a face in left profile: pale blossoms trace the skin, a rose fills the cheek and a large pink bloom forms the ear. A dense cluster of multicoloured flowers replaces the hair. White flowers edge the collar, while overlapping green leaves build the neck and shoulders against a dark background.",
+    "caption": "Flowers build a head in left profile: pale blossoms make the skin, a pink rose fills the cheek, red buds form the lips and a large pink bloom the ear. A mass of multicoloured flowers, with a white lily at the top right, stands in for hair. A ruff of white flowers rings the neck, and leaves and plants make up the shoulders, with an iris at lower left, against a dark background.",
     "dateDisplay": "1573",
     "year": 1573,
-    "collectionURL": "https://collections.louvre.fr/ark:/53355/cl010065015"
+    "collectionURL": "https://collections.louvre.fr/ark:/53355/cl010065015",
+    "collection": "Musée du Louvre"
   },
   "wikidata-Q18572291": {
     "tags": [
       "allegorical"
     ],
-    "caption": "A gnarled tree trunk forms a head in right profile, with knots and split wood suggesting the eye, nose and ear. Bare branches rise above it, and ivy spreads behind the head. Layered fungi shape the lips. A woven mantle wraps the lower trunk, with a leafy branch bearing two fruits across its chest.",
+    "caption": "A gnarled, knotted tree trunk forms a head in right profile. A broken-off branch makes the nose, layered fungus the lips, and a hollow of split wood the ear. Bare, tangled branches rise from the crown and ivy spreads over the back of the head. A woven, straw-coloured mantle wraps the lower trunk, and a twig hung with a lemon and a reddish fruit juts out in front.",
     "dateDisplay": "1573",
     "year": 1573,
-    "collectionURL": "https://collections.louvre.fr/ark:/53355/cl010064967"
+    "collectionURL": "https://collections.louvre.fr/ark:/53355/cl010064967",
+    "collection": "Musée du Louvre"
   },
   "wikidata-Q18572318": {
     "tags": [
       "allegorical"
     ],
-    "caption": "Fruit and vegetables assemble into a head in right profile: a long green vegetable forms the nose, a rounded pink fruit the cheek, and an open pea pod the mouth. Cherries and leaves crowd the hair. Ears of grain edge a woven straw collar, with an artichoke rising beside the shoulder.",
+    "caption": "Fruit and vegetables build a head in right profile: a long green vegetable makes the nose, a large pink fruit the cheek, and an open pea pod the mouth. A husked ear of maize forms the ear, above heads of garlic, and cherries, purple fruit and leaves crowd the hair. Ears of grain bristle round a woven collar lettered with the painter's name, the year 1573 sits on the shoulder, and an artichoke rises at the right.",
     "dateDisplay": "1573",
     "year": 1573,
-    "collectionURL": "https://collections.louvre.fr/ark:/53355/cl010064968"
+    "collectionURL": "https://collections.louvre.fr/ark:/53355/cl010064968",
+    "collection": "Musée du Louvre"
   },
   "wikidata-Q18578012": {
     "tags": [
@@ -8507,11 +8513,12 @@
       "nude",
       "supernatural"
     ],
-    "caption": "Jupiter carries the infant Hercules toward Juno, who reclines on richly draped bedding and raises an arm as milk streams from her breast. Stars appear above her; an eagle and two peacocks occupy the right side. Four winged children hover around the figures and clouds.",
+    "caption": "Jupiter swoops down in a red cloak, holding the infant Hercules to the breast of Juno, who lies nude on white, blue and red drapery with one arm thrown up. Thin streams of milk rise toward gold stars. At right an eagle grips a bolt beside two peacocks, and four winged children fly around the group.",
     "dateDisplay": "c. 1575",
     "year": 1575,
     "collectionURL": "https://www.nationalgallery.org.uk/paintings/jacopo-tintoretto-the-origin-of-the-milky-way",
-    "movement": "Venetian school"
+    "movement": "Venetian school",
+    "collection": "National Gallery, London"
   },
   "wikidata-Q2275353": {
     "tags": [
@@ -10420,8 +10427,11 @@
     "tags": [
       "religious"
     ],
-    "caption": "Mary supports the dead Christ beneath a massive stone niche, surrounded by figures whose gestures break the stillness. Titian intended this painting for his burial place; left unfinished at his death, it was completed with limited additions by Palma Giovane.",
-    "movement": "Venetian school"
+    "caption": "Under a great stone niche with a gold half-dome, the Virgin holds the dead Christ across her lap while a bald old man kneels at his side. At left a woman moves away with her arm flung up and her mouth open. Statues of Moses and a sibyl stand on lion-head bases, and a winged child with a torch flies at upper right.",
+    "movement": "Venetian school",
+    "dateDisplay": "1575–1576",
+    "year": 1575,
+    "collectionURL": "https://www.gallerieaccademia.it/en/opera/pieta-3/"
   },
   "wikidata-Q2666439": {
     "tags": [
@@ -11115,6 +11125,7 @@
   },
   "wikidata-Q2900098": {
     "tags": [
+      "nsfw",
       "nude",
       "religious"
     ],
@@ -11122,7 +11133,7 @@
     "year": 1575,
     "collection": "Musée des Beaux-Arts de Lyon; Louvre deposit",
     "collectionURL": "https://www.mba-lyon.fr/fr/fiche-oeuvre/bethsabee-au-bain",
-    "caption": "A seated woman in blue-gray drapery turns towards an older man in red and gold beside a fountain, with a column separating them from a formal garden.",
+    "caption": "A fair-haired woman sits on a stone bench by a fountain, a blue mantle slipping from her shoulders and one hand at her breast. She looks up at a bald, bearded old man in a red robe and gold cloak who leans towards her with an open hand. Beyond a dark column, rows of trees and hedges lead to a colonnade.",
     "movement": "Venetian school"
   },
   "wikidata-Q29016365": {
@@ -19615,10 +19626,12 @@
   },
   "wikidata-Q951105": {
     "tags": [
+      "architecture",
       "religious"
     ],
-    "caption": "A crowded banquet fills an open loggia of three tall arches, reached by stone staircases at both sides, with pale classical buildings and a white tower standing against a blue sky beyond. Christ sits at the centre of a long white-clothed table among guests in red, gold and blue, while servants, dogs and a seated dwarf jester in orange holding a parrot fill the foreground.",
-    "movement": "Venetian school"
+    "caption": "A crowded banquet fills an open loggia of three tall arches, reached by stone staircases at both ends, with pale buildings and a white tower against a blue sky beyond. Christ, with a halo, sits at the centre of a long white-clothed table among guests in red, gold and green. In front, servants hurry about, dogs sit and stand on the tiled floor, and at the left a jester in red and orange sits holding a parrot while a boy in pink reaches toward it.",
+    "movement": "Venetian school",
+    "collectionURL": "https://www.gallerieaccademia.it/opera/convito-in-casa-di-levi/"
   },
   "wikidata-Q952796": {
     "tags": [
