@@ -24751,12 +24751,12 @@
       "year" : 1917
     },
     {
-      "artist" : "Unknown",
-      "artistSort" : "Unknown",
-      "caption" : "A horse draws a plough across the foreground, while a shepherd stands among sheep and a fisherman leans toward the water. Beside the large sailing ship at lower right, Icarus’s legs rise from the sea amid small splashes.",
+      "artist" : "After Pieter Bruegel the Elder",
+      "artistSort" : "Elder, Pieter Brueghel the (after)",
+      "caption" : "A man in a red shirt walks behind a horse-drawn plough, cutting furrows on a hillside above the sea. Beyond him a shepherd with a dog stares up at the sky among his sheep, and at lower right a fisherman crouches at the water's edge with a rod. Below and to the right of a large sailing ship, a pair of bare legs kicks out of the sea, and a yellow sun sits half-sunk on the horizon.",
       "collection" : "Royal Museums of Fine Arts of Belgium",
       "collectionURL" : "https://fine-arts-museum.be/nl/de-collectie/pieter-i-bruegel-de-val-van-icarus",
-      "dateDisplay" : "Date uncertain",
+      "dateDisplay" : "Probably about 1600",
       "id" : "wikidata-Q1247110",
       "image" : {
         "format" : "jpeg",
@@ -24770,7 +24770,7 @@
         "sourceURL" : "https://www.wikidata.org/wiki/Q1247110",
         "status" : "PD"
       },
-      "movement" : "Northern Renaissance",
+      "movement" : null,
       "significance" : {
         "canonLists" : [
           "100-great-paintings"
@@ -24790,7 +24790,7 @@
       ],
       "title" : "Landscape with the Fall of Icarus",
       "wikidata" : "Q1247110",
-      "year" : 1582
+      "year" : 1600
     },
     {
       "artist" : "Wilhelm Leibl",
