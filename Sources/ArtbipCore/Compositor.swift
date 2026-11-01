@@ -31,13 +31,17 @@ public struct ComposeOptions: Sendable {
     public var marginFraction: Double
     public var shadow: Bool
     public var label: ComposeLabel?
+    /// Make a plain photo ground around a shaped panel transparent (see
+    /// `cutOutGround`), so arched panels show no white corners. Off by default.
+    public var cutOutGround: Bool
 
     public init(background: Background = .blur, marginFraction: Double = 0.045,
-                shadow: Bool = true, label: ComposeLabel? = nil) {
+                shadow: Bool = true, label: ComposeLabel? = nil, cutOutGround: Bool = false) {
         self.background = background
         self.marginFraction = marginFraction
         self.shadow = shadow
         self.label = label
+        self.cutOutGround = cutOutGround
     }
 }
 
@@ -111,13 +115,97 @@ public enum Compositor {
                           blur: short * 0.02,
                           color: CGColor(gray: 0, alpha: 0.55))
         }
-        ctx.draw(art, in: artRect)
+        // The background above keeps the uncut art; only the sharp copy is cut.
+        let shaped = options.cutOutGround ? cutOutGround(art) ?? art : art
+        ctx.draw(shaped, in: artRect)
         ctx.restoreGState()
 
         if let label = options.label {
             drawLabel(label, in: ctx, targetWidth: targetWidth, margin: margin)
         }
         return ctx.makeImage()
+    }
+
+    // MARK: Shaped panels
+
+    /// Arched and shaped panels are often photographed on a plain white, black
+    /// or mid-grey ground. Flood-fills that ground in from the image edge and
+    /// returns the art with it made transparent, or nil when there is no such
+    /// ground (or it covers too little or too much to be a ground).
+    public static func cutOutGround(_ img: CGImage) -> CGImage? {
+        let scale = min(1, 480 / Double(max(img.width, img.height)))
+        let w = max(1, Int(Double(img.width) * scale)), h = max(1, Int(Double(img.height) * scale))
+        var px = [UInt8](repeating: 0, count: w * h * 4)
+        let drawn: Bool = px.withUnsafeMutableBytes { buf in
+            guard let small = CGContext(data: buf.baseAddress, width: w, height: h, bitsPerComponent: 8,
+                                        bytesPerRow: w * 4, space: srgb,
+                                        bitmapInfo: CGImageAlphaInfo.premultipliedLast.rawValue)
+            else { return false }
+            small.interpolationQuality = .medium
+            small.draw(img, in: CGRect(x: 0, y: 0, width: w, height: h))
+            return true
+        }
+        guard drawn else { return nil }
+        func rgb(_ i: Int) -> (Int, Int, Int) { (Int(px[i * 4]), Int(px[i * 4 + 1]), Int(px[i * 4 + 2])) }
+        var stack: [Int] = []
+        for x in 0..<w { stack += [x, (h - 1) * w + x] }
+        for y in 0..<h { stack += [y * w, y * w + w - 1] }
+        // A photographer's mid-grey card: the edge is mostly one neutral grey.
+        // Dark painted edges are never mid-grey.
+        let edge = stack.map(rgb)
+        let med = [edge.map(\.0), edge.map(\.1), edge.map(\.2)].map { $0.sorted()[$0.count / 2] }
+        func nearMed(_ c: (Int, Int, Int)) -> Bool {
+            abs(c.0 - med[0]) <= 16 && abs(c.1 - med[1]) <= 16 && abs(c.2 - med[2]) <= 16
+        }
+        let grey = med.max()! - med.min()! <= 8 && med.min()! > 60 && med.max()! < 200
+            && Double(edge.filter(nearMed).count) > 0.75 * Double(edge.count)
+        // Otherwise only a near-white ground or a true digital black counts.
+        // Painted darks (Dürer, the Hell panel, the Raft) sit around 8-13 and
+        // show through a cut on a blurred background; scan borders are 0.
+        func isGround(_ c: (Int, Int, Int)) -> Bool {
+            let lo = min(c.0, c.1, c.2), hi = max(c.0, c.1, c.2)
+            return hi - lo < 18 && lo > 228 || hi < 5 || grey && nearMed(c)
+        }
+        var ground = [Bool](repeating: false, count: w * h)
+        while let i = stack.popLast() {
+            guard !ground[i], isGround(rgb(i)) else { continue }
+            ground[i] = true
+            let x = i % w, y = i / w
+            if x > 0 { stack.append(i - 1) }
+            if x < w - 1 { stack.append(i + 1) }
+            if y > 0 { stack.append(i - w) }
+            if y < h - 1 { stack.append(i + w) }
+        }
+        let frac = Double(ground.filter { $0 }.count) / Double(w * h)
+        guard frac > 0.004, frac < 0.45 else { return nil }
+        // Mask (white = keep), grown by a pixel and softened, then scaled up.
+        var mask = [UInt8](repeating: 255, count: w * h)
+        for i in 0..<(w * h) where ground[i] {
+            let x = i % w, y = i / w
+            for dy in -1...1 {
+                for dx in -1...1 {
+                    let nx = x + dx, ny = y + dy
+                    if nx >= 0, nx < w, ny >= 0, ny < h { mask[ny * w + nx] = 0 }
+                }
+            }
+        }
+        let gray = CGColorSpaceCreateDeviceGray()
+        let maskImage: CGImage? = mask.withUnsafeMutableBytes { buf in
+            CGContext(data: buf.baseAddress, width: w, height: h, bitsPerComponent: 8, bytesPerRow: w,
+                      space: gray, bitmapInfo: CGImageAlphaInfo.none.rawValue)?.makeImage()
+        }
+        guard let maskImage else { return nil }
+        let soft = CIImage(cgImage: maskImage).clampedToExtent().applyingGaussianBlur(sigma: 0.6)
+            .cropped(to: CGRect(x: 0, y: 0, width: w, height: h))
+        guard let softMask = ciContext.createCGImage(soft, from: soft.extent, format: .L8, colorSpace: gray),
+              let out = CGContext(data: nil, width: img.width, height: img.height, bitsPerComponent: 8,
+                                  bytesPerRow: 0, space: srgb,
+                                  bitmapInfo: CGImageAlphaInfo.premultipliedLast.rawValue)
+        else { return nil }
+        let full = CGRect(x: 0, y: 0, width: img.width, height: img.height)
+        out.clip(to: full, mask: softMask)
+        out.draw(img, in: full)
+        return out.makeImage()
     }
 
     // MARK: Backgrounds
