@@ -570,7 +570,7 @@
       "artist" : "Tosa Mitsuoki",
       "artistDeathYear" : 1691,
       "artistSort" : "Mitsuoki, Tosa",
-      "caption" : "Long strips of poem paper dangle like calligraphic rain from a gnarled maple's autumn canopy, the gold-ground screen glowing behind scattered red leaves.",
+      "caption" : "A twisting maple with a forked, green-flecked trunk spreads red and orange leaves across a six-panel gold screen. Long paper slips covered in writing hang from its branches, white, pale blue, green, red and orange. Low banks and spiky grass sit at its foot, and the lower right of the screen is left as bare gold.",
       "collection" : "Art Institute of Chicago",
       "collectionURL" : "https://www.artic.edu/artworks/127644",
       "dateDisplay" : "c. 1675",
@@ -588,7 +588,7 @@
         "status" : "CC0"
       },
       "medium" : "Six-panel screen (one of pair); Ink, colors, gold leaf, and gold powder on silk",
-      "movement" : "Tosa school",
+      "movement" : null,
       "paletteDominantHSL" : [
         152,
         55,
@@ -603,8 +603,8 @@
         "museumHighlight" : true
       },
       "tags" : [
-        "flowers",
-        "landscape"
+        "landscape",
+        "literary"
       ],
       "title" : "Autumn Maples with Poem Slips",
       "year" : 1670
@@ -7423,7 +7423,7 @@
       "artist" : "El Greco (Domenikos Theotokopoulos)",
       "artistDeathYear" : 1614,
       "artistSort" : "Theotokopoulos), El Greco (Domenikos",
-      "caption" : "El Greco turns Toledo into a visionary silhouette beneath a churning, storm-lit sky, the hilltop city glowing an eerie green-grey against near-black clouds.",
+      "caption" : "A hilltop city of pale grey-blue buildings, crowned by a tall spire and a large square palace, rises at right beneath a dark storm sky torn with white and blue-green cloud. Green hills fall to a river crossed by a towered, arched bridge, and a ruined castle stands on a hill at left.",
       "collection" : "The Metropolitan Museum of Art",
       "collectionURL" : "https://www.metmuseum.org/art/collection/search/436575",
       "dateDisplay" : "c. 1599–1600",
@@ -7440,7 +7440,7 @@
         "status" : "CC0"
       },
       "medium" : "Oil on canvas",
-      "movement" : "Mannerism",
+      "movement" : null,
       "region" : "Greek",
       "significance" : {
         "canonLists" : [
@@ -7452,6 +7452,7 @@
         "sitelinks" : 28
       },
       "tags" : [
+        "cityscape",
         "landscape"
       ],
       "title" : "View of Toledo",
@@ -15568,7 +15569,7 @@
       "artist" : "Johannes Vermeer",
       "artistDeathYear" : 1675,
       "artistSort" : "Vermeer, Johannes",
-      "caption" : "A maidservant pours milk with monumental stillness in a bright, bare room. Hundreds of colorful dots carry light across the bread, basket, and other surfaces while only the thin stream of milk seems to move.",
+      "caption" : "A maid in a white cap, yellow jacket and blue apron pours a thin stream of milk from an earthenware jug into a pot. On the table in front of her are a basket with a large loaf, rolls beside it, a lidded blue stoneware jug and a blue cloth. Daylight from a window at the left falls on a pale wall; at the lower right a small wooden footwarmer stands on the floor beside a row of tiles.",
       "collection" : "Rijksmuseum",
       "collectionURL" : "https://www.rijksmuseum.nl/en/collection/SK-A-2344",
       "dateDisplay" : "c. 1660",
@@ -15596,7 +15597,9 @@
         "sitelinks" : 44
       },
       "tags" : [
-        "everyday-life"
+        "everyday-life",
+        "interior",
+        "work"
       ],
       "title" : "The Milkmaid",
       "wikidata" : "Q167605",
@@ -15644,7 +15647,7 @@
       "artist" : "Johannes Vermeer",
       "artistDeathYear" : 1675,
       "artistSort" : "Vermeer, Johannes",
-      "caption" : "Vermeer's weathered brick facades and whitewashed doorway hold two women at quiet domestic tasks, the whole scene built from perfectly calibrated planes of color and texture.",
+      "caption" : "A brick house with a stepped gable fills the right side. In its open doorway a woman sits sewing, and two children kneel by the bench in front. Through an open door further left, a woman in red and blue bends over a tub. Whitewashed lower walls meet a cobbled street under a cloudy sky.",
       "collection" : "Rijksmuseum",
       "collectionURL" : "https://www.rijksmuseum.nl/en/collection/SK-A-2860",
       "dateDisplay" : "c. 1658",
@@ -15672,7 +15675,8 @@
         "sitelinks" : 31
       },
       "tags" : [
-        "cityscape"
+        "cityscape",
+        "everyday-life"
       ],
       "title" : "View of Houses in Delft, Known as The Little Street",
       "wikidata" : "Q586035",
@@ -25534,7 +25538,7 @@
       "artistSort" : "Fabritius, Carel",
       "caption" : "A goldfinch perches on the upper rail of a wall-mounted feeder, a fine chain attached to its foot. Its red face and yellow wing markings stand out against the pale wall, where the bird and feeder cast a broad shadow to the right.",
       "collection" : "Mauritshuis",
-      "collectionURL" : "https://tour.mauritshuis.nl/-carel-fabritius/the-goldfinch/en_GB/",
+      "collectionURL" : "https://www.mauritshuis.nl/en/our-collection/artworks/605-the-goldfinch/",
       "dateDisplay" : "1654",
       "id" : "wikidata-Q13726073",
       "image" : {
@@ -28840,7 +28844,7 @@
       "artist" : "Giuseppe Arcimboldo",
       "artistDeathYear" : 1593,
       "artistSort" : "Arcimboldo, Giuseppe",
-      "caption" : "Fruit, vegetables, grain and flowers combine into a frontal bust of Rudolf II as Vertumnus. A pear forms the nose, rounded red fruit shapes the cheeks, and bunches of grapes and ears of grain fill the hair. A diagonal garland of flowers crosses the leafy torso against a dark background.",
+      "caption" : "Fruit, vegetables, grain and flowers are piled into a head-and-shoulders portrait of Rudolf II as Vertumnus. A pear forms the nose, red apples the cheeks, and grapes, plums and ears of wheat fill the hair. A spray of flowers curves down the left side and along the bottom of a body made of leaves, gourds and onions, against a dark background.",
       "collection" : "Skokloster Castle",
       "collectionURL" : "https://samlingar.shm.se/object/BD10473C-4D1B-4D89-82D9-4ADD890B7941",
       "dateDisplay" : "1591",
@@ -45779,7 +45783,7 @@
       "artist" : "Caravaggio",
       "artistDeathYear" : 1610,
       "artistSort" : "Caravaggio",
-      "caption" : "A youth with one shoulder exposed cradles a woven basket filled with apples, grapes and leaves, looking towards the viewer with his head tilted.",
+      "caption" : "A dark-haired youth, his white shirt slipped off one shoulder, hugs a woven basket heaped with apples, grapes and other fruit among green leaves. His head is tilted to one side and his lips are parted as he looks out towards the viewer. A yellowing, ragged leaf hangs over the right side of the basket. Behind him is a plain brown wall, lit around his head and falling into shadow at both sides.",
       "collection" : "Galleria Borghese, Rome",
       "collectionURL" : "https://www.collezionegalleriaborghese.it/en/opere/boy-with-basket-of-fruit",
       "dateDisplay" : "c. 1595",
@@ -45796,7 +45800,7 @@
         "sourceURL" : "https://www.wikidata.org/wiki/Q2610936",
         "status" : "PD"
       },
-      "movement" : "Italian Baroque painting",
+      "movement" : null,
       "significance" : {
         "canonLists" : [
 
@@ -45806,7 +45810,8 @@
         "sitelinks" : 24
       },
       "tags" : [
-        "portrait",
+        "everyday-life",
+        "figure",
         "still-life"
       ],
       "title" : "Boy with a Basket of Fruit",
@@ -56441,9 +56446,9 @@
       "artist" : "Artemisia Gentileschi",
       "artistDeathYear" : 1653,
       "artistSort" : "Gentileschi, Artemisia",
-      "caption" : "Artemisia Gentileschi leans towards her raised brush, combining a self-portrait at work with the female personification of Painting.",
+      "caption" : "A dark-haired woman in a green silk dress and brown apron leans in from the right, one arm raised to touch a long brush to a bare brown surface. A gold chain with a small mask-shaped pendant hangs from her neck. Her other hand holds a palette and brushes above a stone ledge marked with the letters A.G.F.",
       "collection" : "Royal Collection",
-      "collectionURL" : "https://www.rct.uk/collection/stories/women-artists/self-portrait-as-the-allegory-of-painting-la-pittura",
+      "collectionURL" : "https://www.rct.uk/collection/405551/self-portrait-as-the-allegory-of-painting-la-pittura",
       "dateDisplay" : "c. 1638–1639",
       "id" : "wikidata-Q3630745",
       "image" : {
@@ -77581,10 +77586,10 @@
       "artist" : "Caravaggio",
       "artistDeathYear" : 1610,
       "artistSort" : "Caravaggio",
-      "caption" : "A youth with curly auburn hair, in a grey-and-white patterned doublet with full cream sleeves and blue breeches, kneels at the edge of still, dark water. He leans out on both hands to look down at his reflection, and the water mirrors his arms, sleeves and bent knee across the lower half of the canvas. All around is black shadow.",
+      "caption" : "A youth with curly auburn hair kneels at the edge of still, dark water and leans over it on both hands, looking down at his reflection. He wears a sleeveless doublet with a large grey-and-white pattern, full cream sleeves ending at the elbows, and blue breeches; one bare knee juts forward at the centre. Below the waterline the water mirrors his arms, sleeves and knee across the lower part of the canvas. All around is black shadow.",
       "collection" : "Galleria Nazionale d'Arte Antica",
       "collectionURL" : "https://www.wikidata.org/wiki/Q746716",
-      "dateDisplay" : "1600",
+      "dateDisplay" : "c. 1597–1598",
       "id" : "wikidata-Q746716",
       "image" : {
         "format" : "jpeg",
@@ -77609,9 +77614,9 @@
       "tags" : [
         "mythological"
       ],
-      "title" : "Narcissuss",
+      "title" : "Narcissus",
       "wikidata" : "Q746716",
-      "year" : 1600
+      "year" : 1597
     },
     {
       "artist" : "Diego Velázquez",
@@ -82282,9 +82287,9 @@
       "artist" : "Frans Hals",
       "artistDeathYear" : 1666,
       "artistSort" : "Hals, Frans",
-      "caption" : "A young man with an upturned moustache and a small pointed beard smiles out at us from under a broad black hat, his elbow thrust out and his left hand set on his hip. He wears a wide white lace collar, a black sash across his body and a dark jacket with slashed sleeves embroidered in gold and coloured thread. A Latin inscription at upper right gives his age as 26.",
+      "caption" : "A young man under a broad black hat looks straight out with a slight smile, his moustache curled up at both ends and a small pointed tuft of beard on his chin. A wide white lace collar spreads over his shoulders, and a length of black cloth wraps across his body. His bent arm pushes the elbow out to the right; the sleeve is thick with gold and coloured embroidery, with white linen showing through slits. At upper right, a Latin inscription gives his age as 26 and the year 1624.",
       "collection" : "Wallace Collection",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q965124",
+      "collectionURL" : "https://wallacelive.wallacecollection.org/eMP/eMuseumPlus?module=collection&objectId=64959&service=ExternalInterface",
       "dateDisplay" : "1624",
       "id" : "wikidata-Q965124",
       "image" : {
@@ -82299,7 +82304,7 @@
         "sourceURL" : "https://www.wikidata.org/wiki/Q965124",
         "status" : "PD"
       },
-      "movement" : "Baroque",
+      "movement" : null,
       "significance" : {
         "canonLists" : [
 
