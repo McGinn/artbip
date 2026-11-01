@@ -13,7 +13,15 @@ let channelSettings: [SwiftSetting] = [.swiftLanguageMode(.v5)]
 
 let package = Package(
     name: "artbip",
-    platforms: [.macOS(.v15)],
+    // iOS: only the ArtbipCore library builds there; the iOS app (separate
+    // private repo) depends on it. Everything else is macOS-only.
+    platforms: [.macOS(.v15), .iOS("26.0")],
+    products: [
+        .library(name: "ArtbipCore", targets: ["ArtbipCore"]),
+        .executable(name: "artbip", targets: ["artbip"]),
+        .executable(name: "ArtbipApp", targets: ["ArtbipApp"]),
+        .executable(name: "ArtbipShots", targets: ["ArtbipShots"]),
+    ],
     dependencies: [
         // 1.6.0+ assumes a Swift 6.2 standard library when compiled by a
         // 6.2+ compiler. That fails on machines whose Command Line Tools

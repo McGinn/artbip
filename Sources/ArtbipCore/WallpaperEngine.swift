@@ -1,3 +1,4 @@
+#if os(macOS)
 import AppKit
 import CryptoKit
 import Foundation
@@ -362,3 +363,4 @@ public enum WallpaperEngine {
         return line
     }
 }
+#endif
