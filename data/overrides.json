@@ -120,9 +120,9 @@
   "artic-14655": {
     "tags": [
       "everyday-life",
-      "portrait"
+      "figure"
     ],
-    "caption": "A young woman in a red hat sits beside a little girl on a riverside terrace. Despite the title, the models were not sisters; Renoir links them through bright touches of colour that reappear in the basket of yarn and the shimmering foliage.",
+    "caption": "A young woman in a red hat and a dark blue dress sits on a terrace behind a little girl whose hat is heaped with flowers. A basket of coloured wool sits at lower left; beyond the railing are blossoming trees and a river with boats.",
     "movement": "Impressionism"
   },
   "artic-15468": {
@@ -699,7 +699,7 @@
     "tags": [
       "portrait"
     ],
-    "caption": "Virginie Amélie Avegno Gautreau stands in a low-cut black gown with jewelled straps, her pale face turned in sharp profile to the right. Her right hand rests on a round table with an ornate gold-coloured base, and her left holds a folded dark fan against her skirt. Her auburn hair is swept up with a small jewel, against a plain brown background.",
+    "caption": "Virginie Amélie Avegno Gautreau stands in a low-cut black gown with jewelled straps, her pale face turned in sharp profile to the right. Her right hand rests on a small table with a polished reddish-brown top and ornately carved olive-green legs, and her left holds a folded dark fan against her skirt. Her auburn hair is swept up with a small jewel, against a plain brown background.",
     "movement": "Impressionism"
   },
   "met-16584": {
@@ -2004,15 +2004,21 @@
   },
   "nga-61368": {
     "tags": [
+      "animals",
+      "interior",
       "portrait"
     ],
-    "caption": "A child slumps deep in a vivid blue armchair while a small dog curls asleep in the matching chair opposite. Cassatt's cropped field of upholstered furniture makes the girl's informal pose feel all the more unguarded."
+    "caption": "A small girl sprawls back in a big blue armchair, one arm behind her head, in a white dress with a plaid sash and dark socks. On the left a black-and-tan dog sleeps on another blue chair, and more blue furniture fills the grey-walled room behind.",
+    "movement": "Impressionism"
   },
   "nga-61379": {
     "tags": [
-      "everyday-life"
+      "everyday-life",
+      "family",
+      "portrait"
     ],
-    "movement": "Impressionism"
+    "movement": null,
+    "caption": "A woman in pale clothes and a hat stands on a grassy rise holding a green parasol, seen from below against a blue sky with white clouds. White streaks cross her face, and her skirts wrap around her legs and trail off to the left. Farther back at lower left, a small child in a red-banded hat stands in the grass among yellow flowers."
   },
   "nga-66405": {
     "tags": [
@@ -2599,11 +2605,14 @@
   },
   "wikidata-Q1025704": {
     "tags": [
-      "cityscape"
+      "cityscape",
+      "everyday-life",
+      "night"
     ],
     "title": "Terrace of a Café at Night (Place du Forum)",
     "collectionURL": "https://www.krollermuller.nl/en/collection/vincent-van-gogh-terrace-of-a-caf-at-night-place-du-forum-km-108-565",
-    "movement": "Post-Impressionism"
+    "movement": "Post-Impressionism",
+    "caption": "A lantern under a yellow awning lights a café terrace of small round tables and chairs, where a figure in white stands among people at the tables. Beyond, a street of dark blue houses leads away under a deep blue sky scattered with large pale stars, a green tree at the right; the cobbles in front are dabbed in blue, orange and black."
   },
   "wikidata-Q1028282": {
     "tags": [
@@ -4968,11 +4977,12 @@
       "everyday-life",
       "flowers"
     ],
-    "caption": "Two girls in white dresses tend glowing paper lanterns amid tall white lilies and pink flowers. Warm orange light shines through the ribbed lanterns and touches their faces and hands, contrasting with the blue-green foliage and violet shadows around them.",
+    "caption": "Two girls in white dresses light paper lanterns in a garden among tall white lilies and pink roses. Most of the lanterns glow orange and pink, but two on the left hang pale and unlit, one high among the lilies and one at the edge. The grass and foliage are dark blue-green.",
     "dateDisplay": "1885–1886",
     "year": 1885,
     "collection": "Tate",
-    "collectionURL": "https://www.tate.org.uk/art/artworks/sargent-carnation-lily-lily-rose-n01615"
+    "collectionURL": "https://www.tate.org.uk/art/artworks/sargent-carnation-lily-lily-rose-n01615",
+    "title": "Carnation, Lily, Lily, Rose"
   },
   "wikidata-Q15617821": {
     "tags": [
@@ -7338,7 +7348,7 @@
       "animals",
       "landscape"
     ],
-    "caption": "Rooks gather around bulky nests in the bare branches of white-barked birches, with several birds flying across the cloudy sky. Snow covers the foreground beside brown thaw water that reflects the trees. Beyond a wooden fence and low roofs, a church bell tower rises above a flat landscape streaked with snow.",
+    "caption": "Rooks gather around bulky nests in the bare branches of white-barked birches, and more of them fly across a cloudy sky. In front, the ground is still under snow, with brown meltwater spreading at the right and a single rook holding a twig at lower left. Beyond a wooden fence and low roofs stand a domed church and a tall bell tower, and past them a flat plain streaked with snow runs to the horizon.",
     "title": "The Rooks Have Returned",
     "dateDisplay": "1871",
     "year": 1871,
@@ -7640,7 +7650,7 @@
       "animals",
       "landscape"
     ],
-    "caption": "Pale sunlight breaks through clouds above snowy mountain peaks and a still lake. Waterfalls descend the dark cliffs at the left and in the distance. Deer stand at the wooded shore on the right, while small ducks gather among the foreground reeds.",
+    "caption": "Sunlight breaks through clouds above snowy peaks and a still mountain lake. Waterfalls pour down the dark cliffs on the left and from the valley beyond. On the wooded shore at right a herd of animals, one with large antlers, comes down to drink, and ducks with spread wings skim the water by the reeds at lower left.",
     "dateDisplay": "1868",
     "year": 1868,
     "collectionURL": "https://americanart.si.edu/artwork/among-sierra-nevada-california-2059"
@@ -10230,7 +10240,7 @@
     ],
     "title": "The Fifer",
     "collectionURL": "https://www.musee-orsay.fr/en/artworks/le-fifre-709",
-    "caption": "A young military musician plays a dark fife, his black jacket, red trousers and white straps standing out against a plain grey background."
+    "caption": "A boy in a black cap trimmed with red and yellow stands facing out, playing a dark fife. He wears a black jacket with gold buttons and wide red trousers with black stripes down the sides, and a long gold-coloured case hangs at his hip. The background is plain grey."
   },
   "wikidata-Q2626595": {
     "tags": [
@@ -12164,6 +12174,7 @@
   },
   "wikidata-Q3231771": {
     "tags": [
+      "figure",
       "flowers",
       "landscape"
     ],
@@ -12172,7 +12183,7 @@
     "dateDisplay": "1873",
     "year": 1873,
     "collectionURL": "https://www.musee-orsay.fr/en/artworks/coquelicots-1010",
-    "caption": "Red poppies spread across the left-hand slope as two pairs of walkers appear near and far; a blue parasol marks the foreground group beneath an open, cloud-filled sky.",
+    "caption": "Red poppies cover a slope on the left of a summer meadow. In the foreground a woman with a blue parasol walks through the grass with a small child; at the top of the slope another woman and child stand against a clump of trees. A line of trees and a house sit on the horizon under a sky of large white clouds.",
     "movement": "Impressionism"
   },
   "wikidata-Q3234845": {
