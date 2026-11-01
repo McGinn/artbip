@@ -1858,9 +1858,9 @@
   "nga-46303": {
     "tags": [
       "everyday-life",
-      "portrait"
+      "figure"
     ],
-    "caption": "A young woman in a goldenrod-yellow gown absorbs herself in a small book. Fragonard's rapid, lively strokes keep the dress, ribbons, cushion, and blushing face in motion.",
+    "caption": "A young woman in a yellow dress sits in profile, reading a small book held up in one hand. A white ruff circles her neck, mauve ribbons trim her hair, collar and bodice, and a large pink and lilac cushion props her back. The cushion and lower skirt are laid in with loose, broad strokes.",
     "movement": "Rococo"
   },
   "nga-46434": {
@@ -2744,7 +2744,9 @@
     "tags": [
       "seascape"
     ],
-    "collectionURL": "https://en.rusmuseum.ru/collections/painting-of-xviii-first-half-xix-centuries/"
+    "collectionURL": "https://en.rusmuseum.ru/collections/painting-of-xviii-first-half-xix-centuries/devyatyy-val/",
+    "caption": "A handful of men cling to a broken mast lashed with rope, while a great green wave breaks behind them in pinkish-white foam. One of them holds up a red cloth. Above, the sun burns through yellow clouds that turn pink-mauve towards the edges.",
+    "movement": "Romanticism"
   },
   "wikidata-Q107486133": {
     "tags": [
@@ -3671,7 +3673,8 @@
     "caption": "A young couple kisses beside a stone staircase. The man holds the woman’s face beneath his feathered hat, with one foot on a step; her pale blue dress catches the light against his brown cloak.",
     "dateDisplay": "1859",
     "year": 1859,
-    "movement": "Romanticism"
+    "movement": "Romanticism",
+    "collectionURL": "https://pinacotecabrera.org/en/collezioni/collezione-on-line/the-kiss/"
   },
   "wikidata-Q1195238": {
     "tags": [
@@ -4615,13 +4618,14 @@
   "wikidata-Q1451490": {
     "tags": [
       "everyday-life",
-      "interior",
-      "portrait"
+      "figure",
+      "interior"
     ],
-    "caption": "Caroline Friedrich stands with her back to the viewer at an open lower window, wearing a long green dress. A ship mast rises beyond the window frame, with pale trees visible below; two small bottles rest on the sill inside the sparsely furnished room.",
+    "caption": "A woman in a long green dress, her hair pinned up, stands with her back to us at the window of a bare room with wide floorboards. One side of the lower window stands open on pale poplars along a far bank. Above, through panes divided by a thin cross, the top of a ship's mast and its rigging rise against the sky. Two small glass bottles stand on the sill to her right.",
     "dateDisplay": "1822",
     "year": 1822,
-    "movement": "Romanticism"
+    "movement": "Romanticism",
+    "collectionURL": "https://search.smb.museum/object/obj-961043"
   },
   "wikidata-Q1451508": {
     "tags": [
@@ -6705,7 +6709,7 @@
       "portrait",
       "self-portrait"
     ],
-    "caption": "Vigée Le Brun faces the viewer beneath a broad straw hat decorated with red, white and blue flowers and a curling white feather. She wears a rose-pink dress with a white ruffled neckline and a black wrap. One hand holds a palette and brushes; the other opens toward us against a cloudy blue sky.",
+    "caption": "Vigée Le Brun faces the viewer under a wide straw hat trimmed with red, white and blue flowers and a curling white feather. She wears a rose-pink dress with a frilled white collar tied in a bow, a gold sash and a black shawl. One hand holds a palette and brushes; the other hangs open, palm up, below. Grey clouds drift across the blue sky behind her.",
     "dateDisplay": "1782",
     "year": 1782,
     "collectionURL": "https://www.nationalgallery.org.uk/paintings/elisabeth-louise-vigee-le-brun-self-portrait-in-a-straw-hat"
@@ -6972,7 +6976,10 @@
     "tags": [
       "cityscape"
     ],
-    "caption": "Gondolas, rowing boats and moored sailing vessels crowd the water in the foreground, their oarsmen standing to row, while a gondola with a black cabin is rowed across the middle of the canal. On the left the domed church of Santa Maria della Salute rises above a broad flight of steps on the quay, and tall palaces line the canal at right under a blue sky with white clouds."
+    "caption": "Gondolas, rowing boats and moored sailing vessels crowd the water in the foreground, their oarsmen standing to row, while a gondola with a black cabin is rowed across the middle of the canal. On the left the domed church of Santa Maria della Salute rises above a broad flight of steps on the quay, and tall palaces line the canal at right under a blue sky with white clouds.",
+    "dateDisplay": "c. 1730",
+    "year": 1730,
+    "collectionURL": "https://emuseum.mfah.org/objects/46980"
   },
   "wikidata-Q19681639": {
     "tags": [
@@ -8790,18 +8797,22 @@
       "landscape",
       "night"
     ],
-    "caption": "Two men stand with their backs to the viewer on a rocky woodland path, looking toward a crescent moon. One rests an arm across his companion’s shoulder. A leaning tree with exposed roots and bare branches curves across the right side, framing the amber sky between dark trees and boulders.",
+    "caption": "Two men stand with their backs to the viewer on a rocky woodland path, looking toward a crescent moon. One rests an arm across his companion’s shoulder. A bare, leaning tree curves up across the right side, its branches arching over the amber sky between dark trees and boulders.",
     "dateDisplay": "1819–1820",
     "year": 1819,
-    "collectionURL": "https://skd-online-collection.skd.museum/DigitaleVorlage/241946"
+    "collectionURL": "https://skd-online-collection.skd.museum/Details/Index/241946",
+    "movement": "Romanticism"
   },
   "wikidata-Q2324840": {
     "tags": [
-      "mythological"
+      "mythological",
+      "nude"
     ],
-    "caption": "An old, bearded man, very probably Blake's Urizen, crouches naked inside a blazing yellow disc ringed by dark red and grey clouds, his long white hair and beard streaming out to the left. He reaches one long arm straight down through the rays of light, spreading a pale pair of compasses against the darkness below.",
+    "caption": "An old, bearded man, probably Blake's Urizen, crouches naked inside a blazing yellow disc ringed by dark red and grey clouds, his long white hair and beard streaming out to the left. He reaches one long arm straight down through the rays of light, spreading a pale pair of compasses against the darkness below. A thin red line frames the plate.",
     "collection": "Fitzwilliam Museum",
-    "movement": "Romanticism"
+    "movement": "Romanticism",
+    "dateDisplay": "1794–1821",
+    "collectionURL": "https://data.fitzmuseum.cam.ac.uk/id/object/1000"
   },
   "wikidata-Q2325834": {
     "tags": [
@@ -11415,7 +11426,7 @@
     "dateDisplay": "c. 1762",
     "collection": "National Gallery, London",
     "collectionURL": "https://www.nationalgallery.org.uk/paintings/george-stubbs-whistlejacket",
-    "caption": "Whistlejacket raises his bent forelegs against a plain buff background, his chestnut body facing right and his head turned outward. A pale flowing tail, small white forehead mark and white hind pastern distinguish the horse."
+    "caption": "A chestnut horse with a pale mane and tail rears on his hind legs against a plain pale-gold background, forelegs bent and lifted. His body faces right and his head turns toward us, showing a small white mark on the forehead. One hind foot, planted on the ground, has a white pastern."
   },
   "wikidata-Q3013303": {
     "tags": [
@@ -17350,8 +17361,9 @@
     "tags": [
       "landscape"
     ],
-    "caption": "Red clouds sweep across the sky above dark wooded hills and reflective water. A narrow band of yellow light marks the horizon, while bare branches at the edges make the foreground feel close beside the vast sunset.",
-    "movement": "Hudson River school"
+    "caption": "Red clouds stream across the sky above dark wooded hills and still water that mirrors their glow. Low down, a band of pale yellow light shines above distant blue-grey mountains. At the left a dead tree with a small bird on a high branch stands against the sky; at the right, tall trees rise above a rocky ledge.",
+    "movement": "Hudson River school",
+    "collectionURL": "https://clevelandart.org/art/1965.233"
   },
   "wikidata-Q568847": {
     "tags": [

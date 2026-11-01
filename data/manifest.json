@@ -12907,7 +12907,7 @@
       "artist" : "Jean Honoré Fragonard",
       "artistDeathYear" : 1806,
       "artistSort" : "Fragonard, Jean Honoré",
-      "caption" : "A young woman in a goldenrod-yellow gown absorbs herself in a small book. Fragonard's rapid, lively strokes keep the dress, ribbons, cushion, and blushing face in motion.",
+      "caption" : "A young woman in a yellow dress sits in profile, reading a small book held up in one hand. A white ruff circles her neck, mauve ribbons trim her hair, collar and bodice, and a large pink and lilac cushion props her back. The cushion and lower skirt are laid in with loose, broad strokes.",
       "collection" : "National Gallery of Art",
       "collectionURL" : "https://www.nga.gov/artworks/46303",
       "dateDisplay" : "c. 1769",
@@ -12936,7 +12936,7 @@
       },
       "tags" : [
         "everyday-life",
-        "portrait"
+        "figure"
       ],
       "title" : "Young Girl Reading",
       "wikidata" : "Q2629423",
@@ -19067,9 +19067,9 @@
       "artist" : "Ivan Aivazovsky",
       "artistDeathYear" : 1900,
       "artistSort" : "Aivazovsky, Ivan",
-      "caption" : "Survivors cling to wreckage beneath a towering, sunlit wave, Aivazovsky dissolving water and light into an almost translucent glow of pink and gold.",
+      "caption" : "A handful of men cling to a broken mast lashed with rope, while a great green wave breaks behind them in pinkish-white foam. One of them holds up a red cloth. Above, the sun burns through yellow clouds that turn pink-mauve towards the edges.",
       "collection" : "Russian Museum",
-      "collectionURL" : "https://en.rusmuseum.ru/collections/painting-of-xviii-first-half-xix-centuries/",
+      "collectionURL" : "https://en.rusmuseum.ru/collections/painting-of-xviii-first-half-xix-centuries/devyatyy-val/",
       "dateDisplay" : "1850",
       "id" : "wikidata-Q1070896",
       "image" : {
@@ -19084,6 +19084,7 @@
         "sourceURL" : "https://www.wikidata.org/wiki/Q1070896",
         "status" : "PD"
       },
+      "movement" : "Romanticism",
       "significance" : {
         "canonLists" : [
           "vital-articles-arts"
@@ -22747,7 +22748,7 @@
       "artistSort" : "Hayez, Francesco",
       "caption" : "A young couple kisses beside a stone staircase. The man holds the woman’s face beneath his feathered hat, with one foot on a step; her pale blue dress catches the light against his brown cloak.",
       "collection" : "Pinacoteca di Brera",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q1195035",
+      "collectionURL" : "https://pinacotecabrera.org/en/collezioni/collezione-on-line/the-kiss/",
       "dateDisplay" : "1859",
       "id" : "wikidata-Q1195035",
       "image" : {
@@ -26070,9 +26071,9 @@
       "artist" : "Caspar David Friedrich",
       "artistDeathYear" : 1840,
       "artistSort" : "Friedrich, Caspar David",
-      "caption" : "Caroline Friedrich stands with her back to the viewer at an open lower window, wearing a long green dress. A ship mast rises beyond the window frame, with pale trees visible below; two small bottles rest on the sill inside the sparsely furnished room.",
+      "caption" : "A woman in a long green dress, her hair pinned up, stands with her back to us at the window of a bare room with wide floorboards. One side of the lower window stands open on pale poplars along a far bank. Above, through panes divided by a thin cross, the top of a ship's mast and its rigging rise against the sky. Two small glass bottles stand on the sill to her right.",
       "collection" : "Alte Nationalgalerie",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q1451490",
+      "collectionURL" : "https://search.smb.museum/object/obj-961043",
       "dateDisplay" : "1822",
       "id" : "wikidata-Q1451490",
       "image" : {
@@ -26098,8 +26099,8 @@
       },
       "tags" : [
         "everyday-life",
-        "interior",
-        "portrait"
+        "figure",
+        "interior"
       ],
       "title" : "Woman at a Window",
       "wikidata" : "Q1451490",
@@ -33816,7 +33817,7 @@
       "artist" : "Élisabeth Louise Vigée Le Brun",
       "artistDeathYear" : 1842,
       "artistSort" : "Brun, Élisabeth Louise Vigée Le",
-      "caption" : "Vigée Le Brun faces the viewer beneath a broad straw hat decorated with red, white and blue flowers and a curling white feather. She wears a rose-pink dress with a white ruffled neckline and a black wrap. One hand holds a palette and brushes; the other opens toward us against a cloudy blue sky.",
+      "caption" : "Vigée Le Brun faces the viewer under a wide straw hat trimmed with red, white and blue flowers and a curling white feather. She wears a rose-pink dress with a frilled white collar tied in a bow, a gold sash and a black shawl. One hand holds a palette and brushes; the other hangs open, palm up, below. Grey clouds drift across the blue sky behind her.",
       "collection" : "National Gallery",
       "collectionURL" : "https://www.nationalgallery.org.uk/paintings/elisabeth-louise-vigee-le-brun-self-portrait-in-a-straw-hat",
       "dateDisplay" : "1782",
@@ -34780,8 +34781,8 @@
       "artistSort" : "Canaletto",
       "caption" : "Gondolas, rowing boats and moored sailing vessels crowd the water in the foreground, their oarsmen standing to row, while a gondola with a black cabin is rowed across the middle of the canal. On the left the domed church of Santa Maria della Salute rises above a broad flight of steps on the quay, and tall palaces line the canal at right under a blue sky with white clouds.",
       "collection" : "Museum of Fine Arts, Houston",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q19660427",
-      "dateDisplay" : "1730",
+      "collectionURL" : "https://emuseum.mfah.org/objects/46980",
+      "dateDisplay" : "c. 1730",
       "id" : "wikidata-Q19660427",
       "image" : {
         "format" : "jpeg",
@@ -41079,9 +41080,9 @@
       "artist" : "Caspar David Friedrich",
       "artistDeathYear" : 1840,
       "artistSort" : "Friedrich, Caspar David",
-      "caption" : "Two men stand with their backs to the viewer on a rocky woodland path, looking toward a crescent moon. One rests an arm across his companion’s shoulder. A leaning tree with exposed roots and bare branches curves across the right side, framing the amber sky between dark trees and boulders.",
+      "caption" : "Two men stand with their backs to the viewer on a rocky woodland path, looking toward a crescent moon. One rests an arm across his companion’s shoulder. A bare, leaning tree curves up across the right side, its branches arching over the amber sky between dark trees and boulders.",
       "collection" : "Staatliche Kunstsammlungen Dresden",
-      "collectionURL" : "https://skd-online-collection.skd.museum/DigitaleVorlage/241946",
+      "collectionURL" : "https://skd-online-collection.skd.museum/Details/Index/241946",
       "dateDisplay" : "1819–1820",
       "id" : "wikidata-Q232087",
       "image" : {
@@ -41096,6 +41097,7 @@
         "sourceURL" : "https://www.wikidata.org/wiki/Q232087",
         "status" : "PD"
       },
+      "movement" : "Romanticism",
       "significance" : {
         "canonLists" : [
 
@@ -41116,10 +41118,10 @@
       "artist" : "William Blake",
       "artistDeathYear" : 1827,
       "artistSort" : "Blake, William",
-      "caption" : "An old, bearded man, very probably Blake's Urizen, crouches naked inside a blazing yellow disc ringed by dark red and grey clouds, his long white hair and beard streaming out to the left. He reaches one long arm straight down through the rays of light, spreading a pale pair of compasses against the darkness below.",
+      "caption" : "An old, bearded man, probably Blake's Urizen, crouches naked inside a blazing yellow disc ringed by dark red and grey clouds, his long white hair and beard streaming out to the left. He reaches one long arm straight down through the rays of light, spreading a pale pair of compasses against the darkness below. A thin red line frames the plate.",
       "collection" : "Fitzwilliam Museum",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q2324840",
-      "dateDisplay" : "1794",
+      "collectionURL" : "https://data.fitzmuseum.cam.ac.uk/id/object/1000",
+      "dateDisplay" : "1794–1821",
       "id" : "wikidata-Q2324840",
       "image" : {
         "format" : "jpeg",
@@ -41143,7 +41145,8 @@
         "sitelinks" : 19
       },
       "tags" : [
-        "mythological"
+        "mythological",
+        "nude"
       ],
       "title" : "The Ancient of Days",
       "wikidata" : "Q2324840",
@@ -50256,7 +50259,7 @@
       "artist" : "George Stubbs",
       "artistDeathYear" : 1806,
       "artistSort" : "Stubbs, George",
-      "caption" : "Whistlejacket raises his bent forelegs against a plain buff background, his chestnut body facing right and his head turned outward. A pale flowing tail, small white forehead mark and white hind pastern distinguish the horse.",
+      "caption" : "A chestnut horse with a pale mane and tail rears on his hind legs against a plain pale-gold background, forelegs bent and lifted. His body faces right and his head turns toward us, showing a small white mark on the forehead. One hind foot, planted on the ground, has a white pastern.",
       "collection" : "National Gallery, London",
       "collectionURL" : "https://www.nationalgallery.org.uk/paintings/george-stubbs-whistlejacket",
       "dateDisplay" : "c. 1762",
@@ -71474,9 +71477,9 @@
       "artist" : "Frederic Edwin Church",
       "artistDeathYear" : 1900,
       "artistSort" : "Church, Frederic Edwin",
-      "caption" : "Red clouds sweep across the sky above dark wooded hills and reflective water. A narrow band of yellow light marks the horizon, while bare branches at the edges make the foreground feel close beside the vast sunset.",
+      "caption" : "Red clouds stream across the sky above dark wooded hills and still water that mirrors their glow. Low down, a band of pale yellow light shines above distant blue-grey mountains. At the left a dead tree with a small bird on a high branch stands against the sky; at the right, tall trees rise above a rocky ledge.",
       "collection" : "Cleveland Museum of Art",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q56879420",
+      "collectionURL" : "https://clevelandart.org/art/1965.233",
       "dateDisplay" : "1860",
       "id" : "wikidata-Q56879420",
       "image" : {
