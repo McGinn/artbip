@@ -4563,12 +4563,12 @@
   },
   "wikidata-Q1432536": {
     "tags": [
-      "flowers",
-      "still-life"
+      "flowers"
     ],
-    "caption": "Twisting almond branches spread across a turquoise-blue sky, bearing pale blossoms and unopened buds. Dark outlines and curved strokes define the limbs, while patches of white and pink flowers punctuate the open blue spaces.",
+    "caption": "Branches of almond blossom spread across a turquoise-blue sky. Most flowers are white with yellowish centres; some buds and petals are tinged pink, and many buds are still closed. The pale green limbs have dark outlines, and the thick lower boughs are built up from curved strokes.",
     "dateDisplay": "1890",
-    "year": 1890
+    "year": 1890,
+    "collectionURL": "https://www.vangoghmuseum.com/en/collection/s0176V1962"
   },
   "wikidata-Q1433194": {
     "tags": [
@@ -4668,10 +4668,11 @@
       "night",
       "transport"
     ],
-    "caption": "Yellow gaslights cast broken vertical reflections across the blue Rhône beneath scattered bright stars. Dark buildings line the opposite bank, while two figures stand together on the foreground shore beside moored boats.",
+    "caption": "The town is a low dark-blue silhouette across the Rhône, with a tower at its left. Its lamps send broken yellow reflections down the deep blue water. Stars with greenish haloes are scattered across the sky. Two bare masts rise from boats at the near water's edge, and at lower right a man and a woman are side by side, close together, on the bank.",
     "dateDisplay": "1888",
     "year": 1888,
-    "movement": "Post-Impressionism"
+    "movement": "Post-Impressionism",
+    "collectionURL": "https://www.musee-orsay.fr/fr/oeuvres/la-nuit-etoilee-78696"
   },
   "wikidata-Q1473546": {
     "tags": [
@@ -10470,9 +10471,11 @@
   },
   "wikidata-Q2666439": {
     "tags": [
+      "animals",
       "landscape"
     ],
-    "caption": "Three bear cubs explore a fallen pine while an adult bear stands below them. Morning light filters through the tall trunks and pale mist; Shishkin painted the forest, while Konstantin Savitsky contributed the bears."
+    "caption": "Three bear cubs and a much larger bear in a misty pine forest. On the slanting trunk of an uprooted pine, one cub climbs and another perches near the splintered end; the large bear stands beneath that trunk, right under them. A third cub stands on its hind legs on a second fallen trunk to the right. Sunlight warms the treetops.",
+    "collectionURL": "https://my.tretyakov.ru/app/masterpiece/8390"
   },
   "wikidata-Q2667782": {
     "tags": [
@@ -15790,7 +15793,7 @@
       "mythological"
     ],
     "collectionURL": "https://artuk.org/discover/artworks/circe-offering-the-cup-to-ulysses-90979",
-    "caption": "Circe sits on a throne with snarling lion heads, holding out a cup in one hand and raising a wand in the other; in the round mirror behind her a bearded man appears, and a pig lies at her feet.",
+    "caption": "Circe sits on a gilded throne whose arms end in open-jawed lion heads. She holds out a shallow cup in her right hand and raises a long wand in her left. A large round mirror behind her reflects her outstretched arm, a bearded man in a red-purple tunic, and a boat with a bird-shaped prow. A tusked boar lies with its head on the step at her feet, a second pig's head shows in the shadow at the left, and violets are strewn across the floor.",
     "movement": "Pre-Raphaelitism"
   },
   "wikidata-Q3955632": {
@@ -19823,10 +19826,13 @@
   },
   "wikidata-Q98113753": {
     "tags": [
-      "mythological"
+      "figure",
+      "interior",
+      "literary"
     ],
-    "caption": "The Lady of Shalott stands barefoot inside her round loom, in a bright green-and-blue bodice, a cream chemise and a pink silk skirt, with loose threads wound round her and her long dark hair flying up above her head. Behind her a large round mirror, cracked across, reflects an arched window with a river landscape and a knight riding past. Two birds flutter by a tall silver lamp at the right, her wooden pattens and blue irises lie on the patterned floor, and gilded reliefs line the walls, among them a haloed figure reaching for apples in a tree at the right.",
-    "movement": "Pre-Raphaelite Brotherhood"
+    "caption": "A woman with a mass of dark red hair flying up above her head stands barefoot inside her loom, in a green-and-blue bodice, cream sleeves and a shiny pink skirt, with loose threads wound round her. Behind her a large round mirror, cracked across, shows an arched window between columns, a river landscape and a knight on a white horse. Doves fly past at the top and beside a tall silver lamp at the right. Wall roundels show a praying woman above a baby and a nude figure reaching into an apple tree. Two wooden-soled shoes and blue irises lie on the patterned floor.",
+    "movement": "Pre-Raphaelite Brotherhood",
+    "collectionURL": "https://web.archive.org/web/20131031204949/http://www.thewadsworth.org/ladyofshalott/"
   },
   "wikidata-Q984058": {
     "tags": [
