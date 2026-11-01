@@ -176,6 +176,11 @@ public enum Compositor {
             if y > 0 { stack.append(i - w) }
             if y < h - 1 { stack.append(i + w) }
         }
+        // Only a black frame leaks: white and grey grounds keep their full
+        // fill, so a torn corner on an old photograph is still cut.
+        if (0..<(w * h)).contains(where: { ground[$0] && max(px[$0 * 4], px[$0 * 4 + 1], px[$0 * 4 + 2]) < 5 }) {
+            ground = trimLeaks(ground, w: w, h: h)
+        }
         let frac = Double(ground.filter { $0 }.count) / Double(w * h)
         guard frac > 0.004, frac < 0.45 else { return nil }
         // Mask (white = keep), grown by a pixel and softened, then scaled up.
@@ -206,6 +211,42 @@ public enum Compositor {
         out.clip(to: full, mask: softMask)
         out.draw(img, in: full)
         return out.makeImage()
+    }
+
+    /// A real ground is a smooth profile in from each edge (an arch corner, a
+    /// frame) or a gap running the full height or width (between triptych
+    /// panels). The fill can leak from a black frame into painted darks that
+    /// touch it, like the Hell panel's night sky; those leaks are narrow spikes
+    /// in the profile, so a running median of each edge's depth cuts them off
+    /// while keeping any monotone curve exactly.
+    static func trimLeaks(_ ground: [Bool], w: Int, h: Int) -> [Bool] {
+        let r = max(w, h) / 24
+        // Never deeper than the fill itself reached.
+        func median(_ a: [Int]) -> [Int] {
+            a.indices.map { i in
+                let win = a[max(0, i - r)...min(a.count - 1, i + r)].sorted()
+                return min(a[i], win[win.count / 2])
+            }
+        }
+        func run(_ n: Int, _ at: (Int) -> Int) -> Int {
+            var d = 0
+            while d < n, ground[at(d)] { d += 1 }
+            return d
+        }
+        let left = median((0..<h).map { y in run(w) { y * w + $0 } })
+        let right = median((0..<h).map { y in run(w) { y * w + w - 1 - $0 } })
+        let top = median((0..<w).map { x in run(h) { $0 * w + x } })
+        let bottom = median((0..<w).map { x in run(h) { (h - 1 - $0) * w + x } })
+        let fullCol = (0..<w).map { x in (0..<h).allSatisfy { ground[$0 * w + x] } }
+        let fullRow = (0..<h).map { y in (0..<w).allSatisfy { ground[y * w + $0] } }
+        var keep = [Bool](repeating: false, count: w * h)
+        for y in 0..<h {
+            for x in 0..<w {
+                keep[y * w + x] = x < left[y] || x >= w - right[y] || y < top[x] || y >= h - bottom[x]
+                    || fullCol[x] || fullRow[y]
+            }
+        }
+        return keep
     }
 
     // MARK: Backgrounds

@@ -58,6 +58,20 @@ private func pixel(_ img: CGImage, x: Int, y: Int) -> [UInt8] {
     #expect(pixel(out, x: 5, y: 5)[3] == 0)
 }
 
+@Test func darkSkyTouchingABlackFrameIsKept() throws {
+    // A black scan frame with a painted black sky running into it from the
+    // top (the Hell panel): the frame goes, the sky stays.
+    let img = image(480, 270, ground: [0, 0, 0], paint: [0.6, 0.5, 0.3]) {
+        $0.fill(CGRect(x: 4, y: 4, width: 472, height: 262))
+        $0.setFillColor(CGColor(colorSpace: srgb, components: [0, 0, 0, 1])!)
+        $0.fill(CGRect(x: 300, y: 216, width: 15, height: 50))   // top-left coordinates y 4...54
+    }
+    let out = try #require(Compositor.cutOutGround(img))
+    #expect(pixel(out, x: 1, y: 135)[3] == 0)
+    #expect(pixel(out, x: 307, y: 1)[3] == 0)
+    #expect(pixel(out, x: 307, y: 30)[3] == 255)
+}
+
 @Test func darkPaintedBackgroundIsNotCut() {
     // Painted near-black (a Dürer or Caravaggio background) sits around
     // 8-13, not at 0: part of the painting, not a photo ground.
