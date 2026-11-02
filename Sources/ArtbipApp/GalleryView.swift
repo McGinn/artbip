@@ -10,6 +10,7 @@ struct GalleryView: View {
     @EnvironmentObject var notes: NotesModel
     @State private var selection: LibrarySelection? = .all
     @State private var filters = GalleryFilter()
+    @State private var search = SearchCache()
     @State private var showFilters = false
     @State private var infoWork: ManifestWork?
     @State private var collectionDraft: CollectionDraft?
@@ -43,10 +44,11 @@ struct GalleryView: View {
     }
 
     private var filtered: [ManifestWork] {
-        libraryWorks.filter {
-            filters.matches($0, hasNotes: notes.entry(for: $0.id) != nil)
-        }.sorted {
+        let sorted = libraryWorks.sorted {
             ($0.artistSort, $0.title, $0.id) < ($1.artistSort, $1.title, $1.id)
+        }
+        return filters.apply(sorted, search: search.index(controller.manifest, notes.info)) {
+            notes.entry(for: $0.id) != nil
         }
     }
 
@@ -182,7 +184,7 @@ struct GalleryView: View {
                     .help("Save these artworks as a new collection")
             }
             HStack(spacing: 10) {
-                TextField("Search title, artist, subject…", text: $filters.query)
+                TextField("Search painter, title, what’s in it…", text: $filters.query)
                     .textFieldStyle(.roundedBorder)
                     .accessibilityLabel("Search artworks")
                 Button {
@@ -414,5 +416,21 @@ struct CollectionMembershipMenu: View {
         .menuStyle(.borderlessButton).fixedSize()
         .help("Add to or remove from a collection")
         .accessibilityLabel("Collections for \(work.title)")
+    }
+}
+
+/// The gallery search index, rebuilt only when the manifest or notes change.
+@MainActor
+private final class SearchCache {
+    private var key = ""
+    private var built = GallerySearch(works: [])
+
+    func index(_ manifest: Manifest, _ info: InfoFile) -> GallerySearch {
+        let key = "\(manifest.generatedAt) \(manifest.works.count) \(info.entries.count)"
+        if key != self.key {
+            built = GallerySearch(works: manifest.works, notes: info)
+            self.key = key
+        }
+        return built
     }
 }

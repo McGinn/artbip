@@ -62,8 +62,29 @@ public struct GalleryFilter: Equatable, Sendable {
     public var isActive: Bool { !query.isEmpty || facetCount > 0 }
 
     public func matches(_ work: ManifestWork, hasNotes: Bool) -> Bool {
-        work.matchesGallerySearch(query)
-            && (artist.isEmpty || work.artist == artist)
+        work.matchesGallerySearch(query) && matchesFacets(work, hasNotes: hasNotes)
+    }
+
+    /// The works that match, names matches first, then caption or notes
+    /// matches, each group in the order given. The index is only asked for
+    /// when there is a query.
+    public func apply(_ works: [ManifestWork], search: @autoclosure () -> GallerySearch,
+                      hasNotes: (ManifestWork) -> Bool) -> [ManifestWork] {
+        var rank: (ManifestWork) -> Int? = { _ in 0 }
+        if !query.isEmpty {
+            let index = search(), prepared = index.prepare(query)
+            rank = { index.rank($0, prepared) }
+        }
+        let ranked = works.compactMap { work -> (Int, ManifestWork)? in
+            guard matchesFacets(work, hasNotes: hasNotes(work)), let rank = rank(work)
+            else { return nil }
+            return (rank, work)
+        }
+        return ranked.filter { $0.0 == 0 }.map(\.1) + ranked.filter { $0.0 != 0 }.map(\.1)
+    }
+
+    func matchesFacets(_ work: ManifestWork, hasNotes: Bool) -> Bool {
+        (artist.isEmpty || work.artist == artist)
             && (movement.isEmpty || work.movement == movement)
             && (subject.isEmpty || (work.tags ?? []).contains(subject))
             && (museum.isEmpty || work.collection == museum)
