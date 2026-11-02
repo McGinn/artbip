@@ -1,3 +1,4 @@
+import CryptoKit
 import Foundation
 
 // MARK: - Candidate (gather-stage record, one per source object)
@@ -223,11 +224,62 @@ public struct ManifestImage: Codable, Sendable {
         self.format = format
     }
 
+    /// The image at `width` pixels or a little more, from the fastest place
+    /// that serves it: Wikimedia's CDN at a standard width, or a museum's
+    /// small rendition when only a thumbnail is wanted.
     public func url(width: Int) -> URL? {
+        if let commons = commonsURL(width: width) { return commons }
+        if urlTemplate == nil {
+            // The Met's web-large is ~600 px on the long side (≥ 460 short);
+            // Cleveland's web is ~900–1250 px (≥ 720 short).
+            if width <= 460, url.hasPrefix("https://images.metmuseum.org/"), url.contains("/original/") {
+                return URL(string: url.replacingOccurrences(of: "/original/", with: "/web-large/"))
+            }
+            if width <= 720, url.hasPrefix("https://openaccess-cdn.clevelandart.org/"), url.hasSuffix("_print.jpg") {
+                return URL(string: String(url.dropLast("_print.jpg".count)) + "_web.jpg")
+            }
+        }
+        return fallbackURL(width: width)
+    }
+
+    /// The URL as the manifest gives it, for when `url(width:)`'s faster one
+    /// fails (e.g. the file on Commons has since shrunk).
+    public func fallbackURL(width: Int) -> URL? {
         if let urlTemplate {
             return URL(string: urlTemplate.replacingOccurrences(of: "{w}", with: String(width)))
         }
         return URL(string: url)
+    }
+
+    /// The widths Wikimedia renders and caches; others are rate-limited.
+    public static let commonsWidths = [20, 40, 60, 120, 250, 330, 500, 960, 1280, 1920, 3840]
+
+    static let commonsFilePath = "https://commons.wikimedia.org/wiki/Special:FilePath/"
+
+    /// A Commons file straight from upload.wikimedia.org (no redirect via
+    /// Special:FilePath): the thumbnail at the next standard width, or the
+    /// original when that is no smaller.
+    func commonsURL(width: Int) -> URL? {
+        guard let urlTemplate, urlTemplate.hasPrefix(Self.commonsFilePath),
+              let encoded = urlTemplate.dropFirst(Self.commonsFilePath.count).split(separator: "?").first,
+              let name = String(encoded).removingPercentEncoding?.replacingOccurrences(of: " ", with: "_")
+        else { return nil }
+        // Thumbnails of TIFFs are JPEGs; other formats keep their own name.
+        let suffix: String
+        switch name.split(separator: ".").last?.lowercased() {
+        case "jpg", "jpeg", "png": suffix = ""
+        case "tif", "tiff": suffix = ".jpg"
+        default: return nil
+        }
+        let hash = Insecure.MD5.hash(data: Data(name.utf8)).map { String(format: "%02x", $0) }.joined()
+        var allowed = CharacterSet(charactersIn: "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789")
+        allowed.insert(charactersIn: "-._~")
+        guard let file = name.addingPercentEncoding(withAllowedCharacters: allowed) else { return nil }
+        let path = "https://upload.wikimedia.org/wikipedia/commons/\(hash.prefix(1))/\(hash.prefix(2))/\(file)"
+        let step = Self.commonsWidths.first { $0 >= width } ?? Self.commonsWidths.last!
+        if step >= sourceMaxWidth { return URL(string: path) }
+        return URL(string: path.replacingOccurrences(of: "/commons/", with: "/commons/thumb/")
+                   + "/\(step)px-\(file)\(suffix)")
     }
 }
 

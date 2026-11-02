@@ -80,10 +80,12 @@ public actor Http {
 
     private static let browserUA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
 
-    public init(cacheDir: URL, userAgent: String = "artbip/0.1 (\(Http.contact)) curation-pipeline", session: URLSession? = nil) {
+    /// `intervals` overrides `defaultIntervals` per host (0 = no pacing).
+    public init(cacheDir: URL, userAgent: String = "artbip/0.1 (\(Http.contact)) curation-pipeline",
+                intervals: [String: TimeInterval] = [:], session: URLSession? = nil) {
         self.cacheDir = cacheDir
         self.userAgent = userAgent
-        self.intervals = Http.defaultIntervals
+        self.intervals = Http.defaultIntervals.merging(intervals) { $1 }
         let cfg = URLSessionConfiguration.ephemeral
         cfg.timeoutIntervalForRequest = 120
         cfg.timeoutIntervalForResource = 1800
@@ -165,6 +167,7 @@ public actor Http {
 
     private func pace(host: String) async {
         let interval = intervals[host] ?? Http.defaultInterval
+        guard interval > 0 else { return }
         if let last = lastRequest[host] {
             let wait = interval - Date().timeIntervalSince(last)
             if wait > 0 {

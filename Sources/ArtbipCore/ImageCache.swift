@@ -32,6 +32,7 @@ public actor ImageCache {
     private var budgetBytes: Int64
     private var prefetchTask: Task<Void, Never>?
     private var downloadGeneration = 0
+    private var thumbWrites = 0
 
     public init(store: RuntimeStore, http: Http, budgetMB: Int) {
         self.originalsDir = store.originalsDir
@@ -120,7 +121,15 @@ public actor ImageCache {
         }
         guard let url = work.image.url(width: width) else { throw ImageUnavailable(work, "bad image URL") }
         let generation = downloadGeneration
-        let data = try await download(url, for: work)
+        let data: Data
+        do {
+            data = try await download(url, for: work)
+        } catch {
+            // The fast URL may miss (a Commons file since replaced); the
+            // manifest's own URL is the authority.
+            guard let fallback = work.image.fallbackURL(width: width), fallback != url else { throw error }
+            data = try await download(fallback, for: work)
+        }
         // Sources without a size template return the full derivative — shrink
         // before storing so 2,000 thumbs stay a few hundred MB, not gigabytes.
         guard let thumb = Thumbs.makeThumbnail(from: data, maxDimension: width) else {
@@ -129,7 +138,10 @@ public actor ImageCache {
         try Task.checkCancellation()
         guard generation == downloadGeneration else { return thumb }
         try thumb.write(to: file, options: .atomic)
-        enforceBudget()
+        // Listing every cached file is slow with thousands of thumbnails; a
+        // few dozen small files over budget don't matter in between.
+        thumbWrites += 1
+        if thumbWrites % 50 == 0 { enforceBudget() }
         return thumb
     }
 
