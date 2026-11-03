@@ -396,7 +396,7 @@
       "artist" : "Mary Cassatt",
       "artistDeathYear" : 1926,
       "artistSort" : "Cassatt, Mary",
-      "caption" : "A woman supports a child on her lap and washes one small foot in a basin. Their lowered faces draw close together, while the striped dress, patterned carpet and painted furniture fill the room with interlocking shapes.",
+      "caption" : "A woman in a green, lilac and white striped dress holds a child on her lap and grips one of its feet in a white basin on the floor. Both heads bend towards the water. A white cloth lies across the child's lap. At lower right a white jug painted with a red flower stands on a red and green patterned rug. Behind the woman and child is a green surface painted with flowers.",
       "collection" : "Art Institute of Chicago",
       "collectionURL" : "https://www.artic.edu/artworks/111442",
       "dateDisplay" : "1893",
@@ -1265,7 +1265,7 @@
       "artist" : "Claude Monet",
       "artistDeathYear" : 1926,
       "artistSort" : "Monet, Claude",
-      "caption" : "Lily pads drift across a mirrored pond where sky, cloud, and willow reflection dissolve into a single continuous field of violet and green.",
+      "caption" : "The surface of a pond fills the canvas, with no bank or sky. Lily pads with pink, white and pale yellow flowers cluster at lower left and across the upper right. Between them, open blue and violet water holds the blurred reflections of dark trees and pale cloud.",
       "collection" : "Art Institute of Chicago",
       "collectionURL" : "https://www.artic.edu/artworks/16568",
       "dateDisplay" : "1906",
@@ -18435,7 +18435,7 @@
       "artist" : "Gustav Klimt",
       "artistDeathYear" : 1918,
       "artistSort" : "Klimt, Gustav",
-      "caption" : "Klimt drapes Flöge in a shimmering mosaic gown of ovals and swirls, her painted face the only naturalistic anchor in a field of decorative pattern.",
+      "caption" : "A woman with a mass of dark curly hair stands in a long, narrow blue dress, one hand on her hip. The dress is covered in white and dark ovals, gold squares and rings, spirals and dots. A large arc of green and violet pattern set with blue flowers spreads behind her head. The background is dark blue above and grey-brown below; two small squares at lower right carry the signature.",
       "collection" : "Vienna Museum",
       "collectionURL" : "https://sammlung.wienmuseum.at/en/object/820521-bildnis-emilie-floege/",
       "dateDisplay" : "1902",
@@ -32159,9 +32159,9 @@
       "artistBirthYear" : 1856,
       "artistDeathYear" : 1925,
       "artistSort" : "Sargent, John Singer",
-      "caption" : "Lady Agnew looks directly outward from a floral-upholstered armchair. A lilac sash gathers her white dress at the waist and falls in broad folds across her lap. One arm rests along the chair while the other hand holds a pale flower. Blue silk patterned with gold lettering hangs behind her.",
+      "caption" : "Lady Agnew leans back in a flowered armchair and looks straight out. She wears a white dress with full, sheer sleeves, a lilac sash at the waist that falls across her lap, and a jewelled pendant on a gold chain. One hand rests in her lap with a white flower; the other arm hangs down beside the chair. Behind her is a blue silk hanging scattered with gold marks.",
       "collection" : "National Galleries Scotland",
-      "collectionURL" : "https://www.nationalgalleries.org/art-and-artists/5396/0",
+      "collectionURL" : "https://www.nationalgalleries.org/art-and-artists/5396",
       "dateDisplay" : "1892",
       "id" : "wikidata-Q18344787",
       "image" : {
@@ -32269,8 +32269,8 @@
       "artist" : "Peder Severin Krøyer",
       "artistDeathYear" : 1909,
       "artistSort" : "Krøyer, Peder Severin",
-      "caption" : "A woman in a long pale-yellow dress stands in profile beside a seated brown dog. Both look toward the water, where a narrow trail of white reflections breaks the blue surface. Her gathered sleeves and yellow waistband stand out against the nearly uninterrupted sea, with small waves reaching the beach below.",
-      "collection" : "Skagens Museum",
+      "caption" : "A woman in a long pale-yellow dress stands at the water's edge, her head turned in profile, holding at her side a hat trimmed in white and gold. A brown dog with a white collar sits beside her, facing the sea. A narrow trail of white reflections crosses the blue water toward the shore.",
+      "collection" : "Ny Carlsberg Glyptotek",
       "collectionURL" : "https://artsandculture.google.com/asset/summer-evening-at-skagen/gwFCnJMQYnJAag?hl=en",
       "dateDisplay" : "1892",
       "id" : "wikidata-Q18386242",
@@ -32295,6 +32295,7 @@
         "sitelinks" : 10
       },
       "tags" : [
+        "animals",
         "portrait",
         "seascape"
       ],
@@ -37885,7 +37886,7 @@
       "artist" : "John William Waterhouse",
       "artistDeathYear" : 1917,
       "artistSort" : "Waterhouse, John William",
-      "caption" : "The Lady of Shalott sits beside her loom in a red dress, both arms raised behind her head. A woven design stretches across the frame, with a shuttle resting on her lap and balls of coloured yarn on the tiled floor. The large circular mirror behind her reflects a river, an arched bridge and pale buildings with red roofs.",
+      "caption" : "A woman in a red dress sits beside a loom, both hands behind her head. A brightly patterned weaving is stretched on the loom, a shuttle lies in her lap, and balls of yarn lie on the chequered floor. A large round mirror shows a river, an arched stone bridge, a walled town with red-roofed towers and two small figures standing close together.",
       "collection" : "Art Gallery of Ontario",
       "collectionURL" : "https://ago.ca/collection/object/71/18",
       "dateDisplay" : "1915",
@@ -37915,7 +37916,7 @@
         "interior",
         "literary"
       ],
-      "title" : "\"I am half sick of shadows\" said the Lady of Shalott",
+      "title" : "\"I am half sick of shadows,\" said the Lady of Shalott",
       "wikidata" : "Q21190976",
       "year" : 1915
     },
@@ -50190,9 +50191,9 @@
       "artist" : "Wassily Kandinsky",
       "artistDeathYear" : 1944,
       "artistSort" : "Kandinsky, Wassily",
-      "caption" : "Arcs, angular strokes and patches of red, yellow and blue crowd around a dark oval near the centre. Kandinsky lets sharp black lines collide with softer pools of colour, so the eye keeps finding new paths through the dense, shifting arrangement.",
+      "caption" : "Patches and strokes of blue, red, yellow, green and pink fill the whole canvas, cut across by black lines. Left of centre, a deep blue mass and a yellow-green oval ringed in black sit in a tangle of black strokes. A pale wedge climbs from just right of centre toward the upper right, and the lower right corner is a broad sweep of orange-brown.",
       "collection" : "Tretyakov Gallery",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q2990634",
+      "collectionURL" : "https://artsandculture.google.com/asset/composition-vii-vasily-kandinsky/CQHOKgpWcL_UPA?hl=en",
       "dateDisplay" : "1913",
       "id" : "wikidata-Q2990634",
       "image" : {
@@ -55344,7 +55345,7 @@
       "artist" : "Gustav Klimt",
       "artistDeathYear" : 1918,
       "artistSort" : "Klimt, Gustav",
-      "caption" : "Adele Bloch-Bauer’s pale face and folded hands emerge from a gold field of spirals, rectangles and eye-shaped motifs, with a broad patterned gown spreading across the lower canvas.",
+      "caption" : "A woman with piled dark hair and a pale face looks out from a square canvas covered in gold. A tall jewelled choker circles her neck, and her hands meet at her chest above a wide gold cuff. Her dress is patterned with eyes and triangles. Behind her rise panels of spirals, discs and small squares, and a streaked gold cloak spreads across the lower half. The signature and the date 1907 are lettered at lower right.",
       "collection" : "Neue Galerie, New York",
       "collectionURL" : "https://www.neuegalerie.org/womaningold",
       "dateDisplay" : "1907",
@@ -73441,7 +73442,7 @@
       "artist" : "Joaquín Sorolla",
       "artistDeathYear" : 1923,
       "artistSort" : "Sorolla, Joaquín",
-      "caption" : "Sorolla’s wife, Clotilde, and their daughter María walk along the beach at Valencia. The breeze lifts their white dresses and veil; long blue and mauve strokes turn the water and wet sand into a moving backdrop.",
+      "caption" : "Two women in long white dresses walk along a beach beside blue water. The one on the left, under a wide straw hat cut off by the top edge, raises a hand to her face and holds an open white parasol low at her side. The other carries her hat in her hand. Trails of sheer fabric blow out behind them, and their shadows fall across the sand.",
       "collection" : "Sorolla Museum",
       "collectionURL" : "https://www.cultura.gob.es/msorolla/colecciones/colecciones-del-museo/pintura/paseo-mar.html",
       "dateDisplay" : "1909",
@@ -73467,7 +73468,8 @@
         "sitelinks" : 17
       },
       "tags" : [
-        "everyday-life"
+        "everyday-life",
+        "family"
       ],
       "title" : "Strolling along the Seashore",
       "wikidata" : "Q6065609",
@@ -78379,9 +78381,9 @@
       "artist" : "Osman Hamdi Bey",
       "artistDeathYear" : 1910,
       "artistSort" : "Bey, Osman Hamdi",
-      "caption" : "A bearded man dressed as a dervish, in a long red robe and a striped turban, bends forward to watch five tortoises crawling over a stone floor strewn with green leaves. A ney flute rests in his hands, clasped behind his back, and a small drum hangs between his shoulders. Behind him are walls of blue tiles and an arched niche with gold calligraphy, with a window at the left.",
+      "caption" : "A bearded man in a long red robe, yellow slippers and a tall cap wound with purple and gold-green cloths stoops to watch five tortoises. They crawl over pale floor slabs scattered with green leaves. He holds a long flute behind his back, and a round drum in a net of cords hangs on his back. Behind him a blue-tiled pointed arch with gold lettering at the top frames a whitewashed recess with a small window at the left.",
       "collection" : "Pera Museum",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q7769644",
+      "collectionURL" : "https://www.peramuseum.org/artwork/the-tortoise-trainer/15/92",
       "dateDisplay" : "1906",
       "id" : "wikidata-Q7769644",
       "image" : {
@@ -78405,7 +78407,9 @@
         "sitelinks" : 21
       },
       "tags" : [
-        "satirical"
+        "animals",
+        "figure",
+        "interior"
       ],
       "title" : "The Tortoise Trainer",
       "wikidata" : "Q7769644",
@@ -79163,9 +79167,9 @@
       "artist" : "Frederic Leighton",
       "artistDeathYear" : 1896,
       "artistSort" : "Leighton, Frederic",
-      "caption" : "A woman in a sheer orange dress sleeps curled up on a marble seat, her cheek resting on her bent arm and her long auburn hair spread out behind her, one bare foot showing below the folds. Behind her a low white parapet opens onto a glittering sea with a distant island under a gold-patterned band, and a flowering oleander branch leans over the wall at the upper right.",
+      "caption" : "A woman in a sheer orange dress sleeps curled up on a seat heaped with brown and dark red drapery. Her cheek rests on her hand and bent arm, and her long auburn hair spreads out behind her. One bare foot shows below the folds. Behind her, a pale ledge with scrolled ends looks out on a glittering sea and a distant island, under a gold patterned band. At the upper right, oleander leaves and pink and red flowers hang over the ledge beside a red post.",
       "collection" : "Museo de Arte de Ponce",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q846213",
+      "collectionURL" : "https://museoarteponce.org/flaming-june-regresa-a-casa/",
       "dateDisplay" : "1895",
       "id" : "wikidata-Q846213",
       "image" : {
@@ -79190,7 +79194,7 @@
         "sitelinks" : 24
       },
       "tags" : [
-        "allegorical"
+        "figure"
       ],
       "title" : "Flaming June",
       "wikidata" : "Q846213",
