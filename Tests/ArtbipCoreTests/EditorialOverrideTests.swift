@@ -43,4 +43,24 @@ struct EditorialOverrideTests {
         // The attribution's source and the image-rights evidence are distinct.
         #expect(work.license.sourceURL == candidate.collectionURL)
     }
+
+    @Test func replacementImageAndTrimSurviveManifestGeneration() throws {
+        let candidate = Candidate(source: "wikidata", sourceId: "Q1235695", title: "Madonna of the Harpies",
+                                  imageURLTemplate: "https://example.org/marked.jpg?width={w}",
+                                  collectionName: "Uffizi", collectionURL: "https://example.org/record")
+        let correction = try JSONDecoder().decode(Override.self, from: Data(#"{"image":{"url":"https://example.org/clean.jpg","sourceMaxWidth":2532,"sourceMaxHeight":3008,"format":"jpeg","trim":[0.008,0.008,0.008,0.008]},"license":{"status":"PD","evidence":"commons:CC-BY-2.0","sourceURL":"https://example.org/file","credit":"A. Photographer"}}"#.utf8))
+        let config = CurateConfig(canonListPages: [:], display: .init(width: 3840, height: 2160),
+                                  gates: .init(maxAspectRatio: 3, resolutionTolerance: 1),
+                                  prefilter: .init(minSitelinks: 1, minCreatorSitelinksWithMuseumSignal: 1),
+                                  scorer: .init(minScore: 1, thumbWidth: 512, prompt: ""),
+                                  selection: .init(targetCount: 1, maxArtistShare: 1), manifestImageWidth: 3840)
+        let work = Pipeline.manifestWork(from: JoinedWork(primary: candidate), score: nil, override: correction, config: config)
+        #expect(work.image.url == "https://example.org/clean.jpg")
+        #expect(work.image.trim == [0.008, 0.008, 0.008, 0.008])
+        #expect(work.license.credit == "A. Photographer")
+        let plain = Pipeline.manifestWork(from: JoinedWork(primary: candidate), score: nil, override: Override(), config: config)
+        #expect(plain.image.url.hasPrefix("https://example.org/marked.jpg"))
+        #expect(plain.image.trim == nil)
+        #expect(plain.license.credit == nil)
+    }
 }

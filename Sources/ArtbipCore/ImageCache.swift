@@ -49,7 +49,7 @@ public actor ImageCache {
     // MARK: Originals
 
     public func originalData(for work: ManifestWork) async throws -> Data {
-        let file = originalsDir.appendingPathComponent("\(work.id).img")
+        let file = originalFile(for: work)
         if let data = try? Data(contentsOf: file) {
             if Thumbs.imageSize(of: data) != nil {
                 touch(file)
@@ -61,8 +61,9 @@ public actor ImageCache {
         guard let url = URL(string: work.image.url) else { throw ImageUnavailable(work, "bad image URL") }
         // Http's own cache is bypassed — this cache owns eviction.
         let generation = downloadGeneration
-        let data = try await download(url, for: work)
-        guard Thumbs.imageSize(of: data) != nil else { throw ImageUnavailable(work, "not an image") }
+        let fetched = try await download(url, for: work)
+        guard Thumbs.imageSize(of: fetched) != nil,
+              let data = Thumbs.trimmed(fetched, work.image.trim) else { throw ImageUnavailable(work, "not an image") }
         try Task.checkCancellation()
         guard generation == downloadGeneration else { return data }
         try data.write(to: file, options: .atomic)
@@ -72,6 +73,18 @@ public actor ImageCache {
 
     public func hasOriginal(for id: String) -> Bool {
         FileManager.default.fileExists(atPath: originalsDir.appendingPathComponent("\(id).img").path)
+    }
+
+    /// A trimmed image is cached under a name that carries its trim, so a
+    /// copy cached before the trim (or of an image since replaced, which
+    /// comes with one) is never shown again; LRU eviction clears the old file.
+    private func cacheName(for work: ManifestWork) -> String {
+        guard let trim = work.image.trim else { return work.id }
+        return work.id + "-t" + trim.map { String(Int(($0 * 10_000).rounded())) }.joined(separator: "-")
+    }
+
+    private func originalFile(for work: ManifestWork) -> URL {
+        originalsDir.appendingPathComponent("\(cacheName(for: work)).img")
     }
 
     public func cancelPrefetch() {
@@ -89,7 +102,7 @@ public actor ImageCache {
     /// Warm the cache for upcoming works. Failures are logged and skipped —
     /// prefetch must never break rotation.
     public func prefetch(_ works: [ManifestWork], log: (@Sendable (String) -> Void)? = nil) async {
-        for work in works where !hasOriginal(for: work.id) {
+        for work in works where !FileManager.default.fileExists(atPath: originalFile(for: work).path) {
             guard !Task.isCancelled else { return }
             do {
                 _ = try await originalData(for: work)
@@ -103,15 +116,15 @@ public actor ImageCache {
     // MARK: Thumbnails (gallery browsing)
 
     public func thumbnailData(for work: ManifestWork, width: Int = 640) async throws -> Data {
-        let file = thumbsDir.appendingPathComponent("\(work.id).jpg")
+        let file = thumbsDir.appendingPathComponent("\(cacheName(for: work)).jpg")
         if let data = try? Data(contentsOf: file) {
             touch(file)
             return data
         }
         // If the full original is already cached, downsample locally instead of
         // hitting the network again.
-        if hasOriginal(for: work.id) {
-            let original = try Data(contentsOf: originalsDir.appendingPathComponent("\(work.id).img"))
+        if FileManager.default.fileExists(atPath: originalFile(for: work).path) {
+            let original = try Data(contentsOf: originalFile(for: work))
             if let thumb = Thumbs.makeThumbnail(from: original, maxDimension: width) {
                 try Task.checkCancellation()
                 try thumb.write(to: file, options: .atomic)
@@ -132,7 +145,8 @@ public actor ImageCache {
         }
         // Sources without a size template return the full derivative — shrink
         // before storing so 2,000 thumbs stay a few hundred MB, not gigabytes.
-        guard let thumb = Thumbs.makeThumbnail(from: data, maxDimension: width) else {
+        guard let trimmed = Thumbs.trimmed(data, work.image.trim),
+              let thumb = Thumbs.makeThumbnail(from: trimmed, maxDimension: width) else {
             throw ImageUnavailable(work, "not an image")
         }
         try Task.checkCancellation()

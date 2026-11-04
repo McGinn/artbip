@@ -97,3 +97,21 @@ private func pixel(_ img: CGImage, x: Int, y: Int) -> [UInt8] {
     #expect(Array(pixel(plain, x: 162, y: 41)[0..<3]) == [255, 255, 255])
     #expect(pixel(cut, x: 162, y: 41)[0] < 200)
 }
+
+@Test func trimCutsTheMarkedEdgesAway() throws {
+    // A colour chart along the bottom 10 rows and a clamp in the left quarter.
+    let marked = image(200, 100, ground: [1, 1, 1], paint: [1, 0, 0]) { ctx in
+        ctx.fill(CGRect(x: 0, y: 0, width: 200, height: 10))
+        ctx.fill(CGRect(x: 0, y: 0, width: 50, height: 100))
+    }
+    let data = try #require(Compositor.png(marked))
+    #expect(Thumbs.trimmed(data, nil) == data)
+    #expect(Thumbs.trimmed(data, [0, 0, 0, 0]) == data)
+    let trimmed = try #require(Thumbs.trimmed(data, [0.25, 0, 0, 0.1]))
+    let out = try #require(Compositor.decode(trimmed))
+    #expect(out.width == 150 && out.height == 90)
+    for (x, y) in [(0, 89), (0, 0), (149, 89)] {
+        let px = pixel(out, x: x, y: y)
+        #expect(px[1] > 200 && px[2] > 200, "(\(x), \(y)) is \(px)")
+    }
+}

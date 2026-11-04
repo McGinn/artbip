@@ -9919,6 +9919,12 @@
         "format" : "jpeg",
         "sourceMaxHeight" : 3722,
         "sourceMaxWidth" : 3111,
+        "trim" : [
+          0.036,
+          0.033,
+          0.041,
+          0.035
+        ],
         "url" : "https://images.metmuseum.org/CRDImages/ep/original/DT1944.jpg"
       },
       "license" : {
@@ -16349,6 +16355,12 @@
         "format" : "jpeg",
         "sourceMaxHeight" : 6748,
         "sourceMaxWidth" : 5585,
+        "trim" : [
+          0,
+          0,
+          0,
+          0.016
+        ],
         "url" : "https://iiif.micr.io/tMAzx/full/3840,/0/default.jpg",
         "urlTemplate" : "https://iiif.micr.io/tMAzx/full/{w},/0/default.jpg"
       },
@@ -16421,6 +16433,12 @@
         "format" : "jpeg",
         "sourceMaxHeight" : 5923,
         "sourceMaxWidth" : 6964,
+        "trim" : [
+          0,
+          0,
+          0,
+          0.004
+        ],
         "url" : "https://iiif.micr.io/ZrjcE/full/3840,/0/default.jpg",
         "urlTemplate" : "https://iiif.micr.io/ZrjcE/full/{w},/0/default.jpg"
       },
@@ -24333,17 +24351,23 @@
       "artist" : "Andrea del Sarto",
       "artistDeathYear" : 1530,
       "artistSort" : "Sarto, Andrea del",
-      "caption" : "A woman in a pale veil and a blue mantle over red stands on a carved pedestal with winged creatures at its corners. She carries a naked child who clings to her shoulder and holds a closed book against her hip. Two small children cling to her legs. At the left a friar in a grey habit holds a small cross; at the right a young man in red holds a large book.",
+      "caption" : "A woman in a pale veil and a blue mantle over red stands on a carved pedestal with winged creatures at its corners. She carries a naked child who clings to her shoulder and holds a closed book against her hip. Two small children cling to her legs. At the left a friar in a pale habit holds a small cross; at the right a young man in red holds a large book.",
       "collection" : "Uffizi Gallery",
       "collectionURL" : "https://www.uffizi.it/en/artworks/andrea-del-sarto-harpies",
       "dateDisplay" : "1517",
       "id" : "wikidata-Q1235695",
       "image" : {
         "format" : "jpeg",
-        "sourceMaxHeight" : 2500,
-        "sourceMaxWidth" : 2228,
-        "url" : "https://commons.wikimedia.org/wiki/Special:FilePath/Andrea%20del%20Sarto%20-%20Virgin%20and%20Child%20between%20St%20Francis%20of%20Assisi%20and%20St%20John%20the%20Evangelist%20%28%27Madonna%20of%20the%20Harpies%27%29%2C%201517%2C%201890%20no.1577.jpg?width=2228",
-        "urlTemplate" : "https://commons.wikimedia.org/wiki/Special:FilePath/Andrea%20del%20Sarto%20-%20Virgin%20and%20Child%20between%20St%20Francis%20of%20Assisi%20and%20St%20John%20the%20Evangelist%20%28%27Madonna%20of%20the%20Harpies%27%29%2C%201517%2C%201890%20no.1577.jpg?width={w}"
+        "sourceMaxHeight" : 3008,
+        "sourceMaxWidth" : 2532,
+        "trim" : [
+          0.012,
+          0.008,
+          0.012,
+          0.008
+        ],
+        "url" : "https://commons.wikimedia.org/wiki/Special:FilePath/Andrea%20del%20Sarto%20-%20Madonna%20delle%20Arpie%20-%20Google%20Art%20Project.jpg?width=2532",
+        "urlTemplate" : "https://commons.wikimedia.org/wiki/Special:FilePath/Andrea%20del%20Sarto%20-%20Madonna%20delle%20Arpie%20-%20Google%20Art%20Project.jpg?width={w}"
       },
       "license" : {
         "evidence" : "commons:PD-Art+PD-old-100-expired+PD-old-X-expired",
@@ -29572,6 +29596,12 @@
         "format" : "jpeg",
         "sourceMaxHeight" : 1571,
         "sourceMaxWidth" : 2000,
+        "trim" : [
+          0.009,
+          0.012,
+          0.01,
+          0.013
+        ],
         "url" : "https://commons.wikimedia.org/wiki/Special:FilePath/Edvard%20Munch%20-%20Vampire%20-%20MM.M.00292%20-%20Munch%20Museum.jpg?width=2000",
         "urlTemplate" : "https://commons.wikimedia.org/wiki/Special:FilePath/Edvard%20Munch%20-%20Vampire%20-%20MM.M.00292%20-%20Munch%20Museum.jpg?width={w}"
       },
@@ -45609,6 +45639,12 @@
         "format" : "jpeg",
         "sourceMaxHeight" : 2500,
         "sourceMaxWidth" : 1723,
+        "trim" : [
+          0,
+          0,
+          0,
+          0.012
+        ],
         "url" : "https://commons.wikimedia.org/wiki/Special:FilePath/Ritratto%20di%20maddalena%20strozzi.jpg?width=1723",
         "urlTemplate" : "https://commons.wikimedia.org/wiki/Special:FilePath/Ritratto%20di%20maddalena%20strozzi.jpg?width={w}"
       },
@@ -50697,13 +50733,14 @@
       "id" : "wikidata-Q3080509",
       "image" : {
         "format" : "jpeg",
-        "sourceMaxHeight" : 4312,
-        "sourceMaxWidth" : 2890,
-        "url" : "https://commons.wikimedia.org/wiki/Special:FilePath/Jean-Auguste-Dominique%20Ingres%20-%20La%20Baigneuse%20Valpin%C3%A7on.jpg?width=2890",
-        "urlTemplate" : "https://commons.wikimedia.org/wiki/Special:FilePath/Jean-Auguste-Dominique%20Ingres%20-%20La%20Baigneuse%20Valpin%C3%A7on.jpg?width={w}"
+        "sourceMaxHeight" : 4000,
+        "sourceMaxWidth" : 2638,
+        "url" : "https://commons.wikimedia.org/wiki/Special:FilePath/Jean%20Auguste%20Dominique%20Ingres%2C%201780-1867.%20%D0%9A%D1%83%D0%BF%D0%B0%D0%BB%D1%8C%D1%89%D0%B8%D1%86%D0%B0.%201808.%20146%20%D1%85%2097.5%20%D1%81%D0%BC.%20%D0%9F%D0%B0%D1%80%D0%B8%D0%B6%2C%20%D0%9B%D1%83%D0%B2%D1%80%20%2847580712361%29.jpg?width=2638",
+        "urlTemplate" : "https://commons.wikimedia.org/wiki/Special:FilePath/Jean%20Auguste%20Dominique%20Ingres%2C%201780-1867.%20%D0%9A%D1%83%D0%BF%D0%B0%D0%BB%D1%8C%D1%89%D0%B8%D1%86%D0%B0.%201808.%20146%20%D1%85%2097.5%20%D1%81%D0%BC.%20%D0%9F%D0%B0%D1%80%D0%B8%D0%B6%2C%20%D0%9B%D1%83%D0%B2%D1%80%20%2847580712361%29.jpg?width={w}"
       },
       "license" : {
-        "evidence" : "commons:PD-old-100",
+        "credit" : "Photo: pixelsniper (Flickr), CC BY 2.0",
+        "evidence" : "commons:CC-BY-2.0+Cc-by-layout",
         "sourceURL" : "https://www.wikidata.org/wiki/Q3080509",
         "status" : "PD"
       },
@@ -50989,43 +51026,6 @@
       "title" : "Man and Woman Contemplating the Moon",
       "wikidata" : "Q3139782",
       "year" : 1824
-    },
-    {
-      "artist" : "Diego Velázquez",
-      "artistDeathYear" : 1660,
-      "artistSort" : "Velázquez, Diego",
-      "caption" : "Mary joins her hands above a translucent moon, her pink tunic and dark blue mantle sharply lit against banks of cloud; small stars encircle her bowed head.",
-      "collection" : "National Gallery, London",
-      "collectionURL" : "https://www.nationalgallery.org.uk/paintings/diego-velazquez-the-immaculate-conception",
-      "dateDisplay" : "1618–19",
-      "id" : "wikidata-Q3149023",
-      "image" : {
-        "format" : "jpeg",
-        "sourceMaxHeight" : 4226,
-        "sourceMaxWidth" : 3212,
-        "url" : "https://commons.wikimedia.org/wiki/Special:FilePath/10%20Inmaculada%20Concepci%C3%B3n%20%28National%20Gallery%20de%20Londres%2C%20c.%201618%29.jpg?width=3212",
-        "urlTemplate" : "https://commons.wikimedia.org/wiki/Special:FilePath/10%20Inmaculada%20Concepci%C3%B3n%20%28National%20Gallery%20de%20Londres%2C%20c.%201618%29.jpg?width={w}"
-      },
-      "license" : {
-        "evidence" : "commons:PD-Art+PD-Art-old-100-1923+PD-art-old-100-expired+PD-old-100-expired+PD-old-X-expired",
-        "sourceURL" : "https://www.wikidata.org/wiki/Q3149023",
-        "status" : "PD"
-      },
-      "significance" : {
-        "canonLists" : [
-
-        ],
-        "curatorScore" : 8,
-        "museumHighlight" : false,
-        "sitelinks" : 6
-      },
-      "tags" : [
-        "figure",
-        "religious"
-      ],
-      "title" : "The Immaculate Conception",
-      "wikidata" : "Q3149023",
-      "year" : 1618
     },
     {
       "artist" : "Matthias Grünewald",
@@ -80891,13 +80891,20 @@
       "id" : "wikidata-Q934458",
       "image" : {
         "format" : "jpeg",
-        "sourceMaxHeight" : 5382,
-        "sourceMaxWidth" : 6500,
-        "url" : "https://commons.wikimedia.org/wiki/Special:FilePath/Angelico%20-%20Perugia%20Altarpiece%2C%20National%20Gallery%20of%20Umbria.jpg?width=3840",
-        "urlTemplate" : "https://commons.wikimedia.org/wiki/Special:FilePath/Angelico%20-%20Perugia%20Altarpiece%2C%20National%20Gallery%20of%20Umbria.jpg?width={w}"
+        "sourceMaxHeight" : 3438,
+        "sourceMaxWidth" : 4052,
+        "trim" : [
+          0.009,
+          0.01,
+          0.007,
+          0.03
+        ],
+        "url" : "https://commons.wikimedia.org/wiki/Special:FilePath/Beato%20angelico%2C%20polittico%20guidalotti%2C%201447-48%2C%20da%20s.%20domenico%20a%20perugia%2C%2000.jpg?width=3840",
+        "urlTemplate" : "https://commons.wikimedia.org/wiki/Special:FilePath/Beato%20angelico%2C%20polittico%20guidalotti%2C%201447-48%2C%20da%20s.%20domenico%20a%20perugia%2C%2000.jpg?width={w}"
       },
       "license" : {
-        "evidence" : "commons:PD-Art+PD-old-100-expired+PD-old-X-expired",
+        "credit" : "Photo: Sailko, CC BY 3.0",
+        "evidence" : "commons:CC-BY-3.0+Cc-by-layout+Italy-MiBAC-disclaimer",
         "sourceURL" : "https://www.wikidata.org/wiki/Q934458",
         "status" : "PD"
       },

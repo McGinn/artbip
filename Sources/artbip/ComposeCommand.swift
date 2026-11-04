@@ -49,8 +49,8 @@ struct Compose: AsyncParsableCommand {
 
         let http = Http(cacheDir: opts.workDir.appendingPathComponent("cache"))
         FileHandle.standardError.write(Data("compose: fetching \(work.id) (\(imageURL.host ?? "?"))…\n".utf8))
-        let data = try await http.get(imageURL)
-        guard let art = Compositor.decode(data) else {
+        let fetched = try await http.get(imageURL)
+        guard let data = Thumbs.trimmed(fetched, work.image.trim), let art = Compositor.decode(data) else {
             throw ValidationError("cannot decode image for \(work.id)")
         }
 

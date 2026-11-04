@@ -215,13 +215,19 @@ public struct ManifestImage: Codable, Sendable {
     public var sourceMaxWidth: Int
     public var sourceMaxHeight: Int
     public var format: String
+    /// Left, top, right, bottom, as fractions of the image, cut away when it
+    /// is fetched: a colour chart, a clamp or a printed watermark at an edge.
+    /// The sizes above are of the untrimmed image.
+    public var trim: [Double]?
 
-    public init(url: String, urlTemplate: String? = nil, sourceMaxWidth: Int, sourceMaxHeight: Int, format: String = "jpeg") {
+    public init(url: String, urlTemplate: String? = nil, sourceMaxWidth: Int, sourceMaxHeight: Int,
+                format: String = "jpeg", trim: [Double]? = nil) {
         self.url = url
         self.urlTemplate = urlTemplate
         self.sourceMaxWidth = sourceMaxWidth
         self.sourceMaxHeight = sourceMaxHeight
         self.format = format
+        self.trim = trim
     }
 
     /// The image at `width` pixels or a little more, from the fastest place
@@ -287,11 +293,15 @@ public struct ManifestLicense: Codable, Sendable {
     public var status: String      // "CC0" | "PD"
     public var evidence: String    // e.g. "artic:is_public_domain"
     public var sourceURL: String
+    /// The photographer's credit, when the photo of a public-domain work is
+    /// itself under an attribution licence (CC BY).
+    public var credit: String?
 
-    public init(status: String, evidence: String, sourceURL: String) {
+    public init(status: String, evidence: String, sourceURL: String, credit: String? = nil) {
         self.status = status
         self.evidence = evidence
         self.sourceURL = sourceURL
+        self.credit = credit
     }
 }
 
@@ -436,6 +446,10 @@ public struct Override: Codable, Sendable {
     public var region: String?
     public var movement: String?
     public var tags: [String]?
+    /// A replacement image (a clean scan in place of a watermarked one), or
+    /// the same image with a trim; with its licence when that changes too.
+    public var image: ManifestImage?
+    public var license: ManifestLicense?
 
     /// Correct imported list membership; an empty array removes all memberships.
     public var canonLists: [String]?

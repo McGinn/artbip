@@ -1424,7 +1424,19 @@
   "met-437990": {
     "tags": [
       "portrait"
-    ]
+    ],
+    "image": {
+      "format": "jpeg",
+      "sourceMaxHeight": 3722,
+      "sourceMaxWidth": 3111,
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DT1944.jpg",
+      "trim": [
+        0.036,
+        0.033,
+        0.041,
+        0.035
+      ]
+    }
   },
   "met-438014": {
     "tags": [
@@ -2366,12 +2378,38 @@
   "rijks-200109344": {
     "tags": [
       "portrait"
-    ]
+    ],
+    "image": {
+      "format": "jpeg",
+      "sourceMaxHeight": 6748,
+      "sourceMaxWidth": 5585,
+      "url": "https://iiif.micr.io/tMAzx/full/3840,/0/default.jpg",
+      "urlTemplate": "https://iiif.micr.io/tMAzx/full/{w},/0/default.jpg",
+      "trim": [
+        0,
+        0,
+        0,
+        0.016
+      ]
+    }
   },
   "rijks-200109346": {
     "tags": [
       "portrait"
-    ]
+    ],
+    "image": {
+      "format": "jpeg",
+      "sourceMaxHeight": 5923,
+      "sourceMaxWidth": 6964,
+      "url": "https://iiif.micr.io/ZrjcE/full/3840,/0/default.jpg",
+      "urlTemplate": "https://iiif.micr.io/ZrjcE/full/{w},/0/default.jpg",
+      "trim": [
+        0,
+        0,
+        0,
+        0.004
+      ]
+    }
   },
   "rijks-200109347": {
     "tags": [
@@ -4149,11 +4187,24 @@
       "interior",
       "religious"
     ],
-    "caption": "A woman in a pale veil and a blue mantle over red stands on a carved pedestal with winged creatures at its corners. She carries a naked child who clings to her shoulder and holds a closed book against her hip. Two small children cling to her legs. At the left a friar in a grey habit holds a small cross; at the right a young man in red holds a large book.",
+    "caption": "A woman in a pale veil and a blue mantle over red stands on a carved pedestal with winged creatures at its corners. She carries a naked child who clings to her shoulder and holds a closed book against her hip. Two small children cling to her legs. At the left a friar in a pale habit holds a small cross; at the right a young man in red holds a large book.",
     "dateDisplay": "1517",
     "year": 1517,
     "collectionURL": "https://www.uffizi.it/en/artworks/andrea-del-sarto-harpies",
-    "movement": "High Renaissance"
+    "movement": "High Renaissance",
+    "image": {
+      "format": "jpeg",
+      "sourceMaxHeight": 3008,
+      "sourceMaxWidth": 2532,
+      "trim": [
+        0.012,
+        0.008,
+        0.012,
+        0.008
+      ],
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Andrea%20del%20Sarto%20-%20Madonna%20delle%20Arpie%20-%20Google%20Art%20Project.jpg?width=2532",
+      "urlTemplate": "https://commons.wikimedia.org/wiki/Special:FilePath/Andrea%20del%20Sarto%20-%20Madonna%20delle%20Arpie%20-%20Google%20Art%20Project.jpg?width={w}"
+    }
   },
   "wikidata-Q1237250": {
     "tags": [
@@ -5572,7 +5623,20 @@
     "dateDisplay": "1893",
     "year": 1893,
     "collectionURL": "https://www.munch.no/en/object/MM.M.00292",
-    "movement": "Expressionism"
+    "movement": "Expressionism",
+    "image": {
+      "format": "jpeg",
+      "sourceMaxHeight": 1571,
+      "sourceMaxWidth": 2000,
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Edvard%20Munch%20-%20Vampire%20-%20MM.M.00292%20-%20Munch%20Museum.jpg?width=2000",
+      "urlTemplate": "https://commons.wikimedia.org/wiki/Special:FilePath/Edvard%20Munch%20-%20Vampire%20-%20MM.M.00292%20-%20Munch%20Museum.jpg?width={w}",
+      "trim": [
+        0.009,
+        0.012,
+        0.01,
+        0.013
+      ]
+    }
   },
   "wikidata-Q1684762": {
     "tags": [
@@ -10101,7 +10165,20 @@
     "collection": "Uffizi Galleries, Florence (Palatine Gallery collection)",
     "collectionURL": "https://www.uffizi.it/en/artworks/portraits-doni-raffaello",
     "caption": "A young woman sits half-turned with her ringed hands crossed in front of her, in wide blue patterned sleeves over an orange-red bodice; a dark blue band down its centre carries paired round gold buttons. A jewelled pendant with a large pearl hangs at her neckline. Behind her, a slender tree, low hills and a cloudy blue sky.",
-    "movement": "High Renaissance"
+    "movement": "High Renaissance",
+    "image": {
+      "format": "jpeg",
+      "sourceMaxHeight": 2500,
+      "sourceMaxWidth": 1723,
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ritratto%20di%20maddalena%20strozzi.jpg?width=1723",
+      "urlTemplate": "https://commons.wikimedia.org/wiki/Special:FilePath/Ritratto%20di%20maddalena%20strozzi.jpg?width={w}",
+      "trim": [
+        0,
+        0,
+        0,
+        0.012
+      ]
+    }
   },
   "wikidata-Q2607072": {
     "tags": [
@@ -11574,7 +11651,20 @@
     "collection": "Musée du Louvre, Paris",
     "collectionURL": "https://collections.louvre.fr/en/ark:/53355/cl010066528",
     "caption": "A nude woman sits with her back toward the viewer on a bed covered in white linen. A red-and-white head wrap crowns her dark hair, while gathered white cloth, a deep green curtain and the sheet’s patterned border surround the softly lit figure.",
-    "movement": "Neoclassicism"
+    "movement": "Neoclassicism",
+    "image": {
+      "format": "jpeg",
+      "sourceMaxHeight": 4000,
+      "sourceMaxWidth": 2638,
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jean%20Auguste%20Dominique%20Ingres%2C%201780-1867.%20%D0%9A%D1%83%D0%BF%D0%B0%D0%BB%D1%8C%D1%89%D0%B8%D1%86%D0%B0.%201808.%20146%20%D1%85%2097.5%20%D1%81%D0%BC.%20%D0%9F%D0%B0%D1%80%D0%B8%D0%B6%2C%20%D0%9B%D1%83%D0%B2%D1%80%20%2847580712361%29.jpg?width=2638",
+      "urlTemplate": "https://commons.wikimedia.org/wiki/Special:FilePath/Jean%20Auguste%20Dominique%20Ingres%2C%201780-1867.%20%D0%9A%D1%83%D0%BF%D0%B0%D0%BB%D1%8C%D1%89%D0%B8%D1%86%D0%B0.%201808.%20146%20%D1%85%2097.5%20%D1%81%D0%BC.%20%D0%9F%D0%B0%D1%80%D0%B8%D0%B6%2C%20%D0%9B%D1%83%D0%B2%D1%80%20%2847580712361%29.jpg?width={w}"
+    },
+    "license": {
+      "credit": "Photo: pixelsniper (Flickr), CC BY 2.0",
+      "evidence": "commons:CC-BY-2.0+Cc-by-layout",
+      "sourceURL": "https://www.wikidata.org/wiki/Q3080509",
+      "status": "PD"
+    }
   },
   "wikidata-Q311243": {
     "tags": [
@@ -11655,14 +11745,7 @@
     "movement": "Romanticism"
   },
   "wikidata-Q3149023": {
-    "tags": [
-      "figure",
-      "religious"
-    ],
-    "dateDisplay": "1618–19",
-    "collection": "National Gallery, London",
-    "collectionURL": "https://www.nationalgallery.org.uk/paintings/diego-velazquez-the-immaculate-conception",
-    "caption": "Mary joins her hands above a translucent moon, her pink tunic and dark blue mantle sharply lit against banks of cloud; small stars encircle her bowed head."
+    "exclude": true
   },
   "wikidata-Q315716": {
     "tags": [
@@ -19489,7 +19572,26 @@
     "year": 1447,
     "collection": "Galleria Nazionale dell'Umbria",
     "collectionURL": "https://gallerianazionaledellumbria.it/en/opere/64034-polittico-guidalotti/",
-    "movement": "Early Renaissance"
+    "movement": "Early Renaissance",
+    "image": {
+      "format": "jpeg",
+      "sourceMaxHeight": 3438,
+      "sourceMaxWidth": 4052,
+      "trim": [
+        0.009,
+        0.01,
+        0.007,
+        0.03
+      ],
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Beato%20angelico%2C%20polittico%20guidalotti%2C%201447-48%2C%20da%20s.%20domenico%20a%20perugia%2C%2000.jpg?width=3840",
+      "urlTemplate": "https://commons.wikimedia.org/wiki/Special:FilePath/Beato%20angelico%2C%20polittico%20guidalotti%2C%201447-48%2C%20da%20s.%20domenico%20a%20perugia%2C%2000.jpg?width={w}"
+    },
+    "license": {
+      "credit": "Photo: Sailko, CC BY 3.0",
+      "evidence": "commons:CC-BY-3.0+Cc-by-layout+Italy-MiBAC-disclaimer",
+      "sourceURL": "https://www.wikidata.org/wiki/Q934458",
+      "status": "PD"
+    }
   },
   "wikidata-Q934482": {
     "tags": [
