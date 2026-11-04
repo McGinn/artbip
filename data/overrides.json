@@ -9753,7 +9753,7 @@
     "tags": [
       "religious"
     ],
-    "caption": "Mary sits between two arched openings onto a green landscape, the Christ Child on her lap. He leans down to take a small red carnation from the young John the Baptist at the lower right. John is wrapped in a fur pelt and holds a thin staff whose cross rises above his head. Mary looks down, one arm around John, her other hand holding a fold of blue cloth beside Christ.",
+    "caption": "Mary sits between two arched openings onto a green landscape, the Christ Child on her lap. He holds a small red carnation by its stem, and the young John the Baptist at the lower right reaches up to touch it. John is wrapped in a fur pelt and holds a thin staff whose cross rises above his head. Mary looks down, one arm around John, her other hand holding a fold of blue cloth beside Christ.",
     "movement": "High Renaissance",
     "dateDisplay": "c. 1510–1511",
     "year": 1510,
@@ -10773,7 +10773,14 @@
     "dateDisplay": "1820",
     "year": 1820,
     "collectionURL": "https://fundaciongoyaenaragon.es/eng/obra/goya-a-su-medico-arrieta/200",
-    "caption": "Arrieta supports the pale, weakened Goya around the shoulder and offers him a glass; the inscription below thanks the doctor for the care that saved the painter’s life."
+    "caption": "Arrieta supports the pale, weakened Goya around the shoulder and offers him a glass; the inscription below thanks the doctor for the care that saved the painter’s life.",
+    "image": {
+      "format": "jpeg",
+      "sourceMaxHeight": 4876,
+      "sourceMaxWidth": 3307,
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Francisco%20de%20Goya%20-%20Self-Portrait%20with%20Dr.%20Arrieta%20-%20Google%20Art%20Project.jpg?width=3307",
+      "urlTemplate": "https://commons.wikimedia.org/wiki/Special:FilePath/Francisco%20de%20Goya%20-%20Self-Portrait%20with%20Dr.%20Arrieta%20-%20Google%20Art%20Project.jpg?width={w}"
+    }
   },
   "wikidata-Q2741537": {
     "tags": [

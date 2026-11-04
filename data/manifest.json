@@ -31254,8 +31254,8 @@
       "id" : "wikidata-Q1764395",
       "image" : {
         "format" : "jpeg",
-        "sourceMaxHeight" : 3918,
-        "sourceMaxWidth" : 5000,
+        "sourceMaxHeight" : 5285,
+        "sourceMaxWidth" : 6617,
         "url" : "https://commons.wikimedia.org/wiki/Special:FilePath/La%20vision%20apr%C3%A8s%20le%20sermon%20%28Paul%20Gauguin%29.jpg?width=3840",
         "urlTemplate" : "https://commons.wikimedia.org/wiki/Special:FilePath/La%20vision%20apr%C3%A8s%20le%20sermon%20%28Paul%20Gauguin%29.jpg?width={w}"
       },
@@ -32715,9 +32715,9 @@
       "id" : "wikidata-Q18572283",
       "image" : {
         "format" : "jpeg",
-        "sourceMaxHeight" : 4624,
-        "sourceMaxWidth" : 3728,
-        "url" : "https://commons.wikimedia.org/wiki/Special:FilePath/Arcimboldo%20-%20Les%20saisons%20-%20Le%20printemps%20-%20Sans%20cadre.jpg?width=3728",
+        "sourceMaxHeight" : 4625,
+        "sourceMaxWidth" : 3749,
+        "url" : "https://commons.wikimedia.org/wiki/Special:FilePath/Arcimboldo%20-%20Les%20saisons%20-%20Le%20printemps%20-%20Sans%20cadre.jpg?width=3749",
         "urlTemplate" : "https://commons.wikimedia.org/wiki/Special:FilePath/Arcimboldo%20-%20Les%20saisons%20-%20Le%20printemps%20-%20Sans%20cadre.jpg?width={w}"
       },
       "license" : {
@@ -32787,9 +32787,9 @@
       "id" : "wikidata-Q18572318",
       "image" : {
         "format" : "jpeg",
-        "sourceMaxHeight" : 4710,
-        "sourceMaxWidth" : 3869,
-        "url" : "https://commons.wikimedia.org/wiki/Special:FilePath/Arcimboldo%20-%20Les%20saisons%20-%20L%27%C3%A9t%C3%A9.jpg?width=3840",
+        "sourceMaxHeight" : 4448,
+        "sourceMaxWidth" : 3635,
+        "url" : "https://commons.wikimedia.org/wiki/Special:FilePath/Arcimboldo%20-%20Les%20saisons%20-%20L%27%C3%A9t%C3%A9.jpg?width=3635",
         "urlTemplate" : "https://commons.wikimedia.org/wiki/Special:FilePath/Arcimboldo%20-%20Les%20saisons%20-%20L%27%C3%A9t%C3%A9.jpg?width={w}"
       },
       "license" : {
@@ -44218,15 +44218,15 @@
       "artist" : "Raphael",
       "artistDeathYear" : 1520,
       "artistSort" : "Raphael",
-      "caption" : "Mary sits between two arched openings onto a green landscape, the Christ Child on her lap. He leans down to take a small red carnation from the young John the Baptist at the lower right. John is wrapped in a fur pelt and holds a thin staff whose cross rises above his head. Mary looks down, one arm around John, her other hand holding a fold of blue cloth beside Christ.",
+      "caption" : "Mary sits between two arched openings onto a green landscape, the Christ Child on her lap. He holds a small red carnation by its stem, and the young John the Baptist at the lower right reaches up to touch it. John is wrapped in a fur pelt and holds a thin staff whose cross rises above his head. Mary looks down, one arm around John, her other hand holding a fold of blue cloth beside Christ.",
       "collection" : "National Gallery, London",
       "collectionURL" : "https://www.nationalgallery.org.uk/paintings/NG744",
       "dateDisplay" : "c. 1510–1511",
       "id" : "wikidata-Q2503581",
       "image" : {
         "format" : "jpeg",
-        "sourceMaxHeight" : 6000,
-        "sourceMaxWidth" : 5204,
+        "sourceMaxHeight" : 8711,
+        "sourceMaxWidth" : 7476,
         "url" : "https://commons.wikimedia.org/wiki/Special:FilePath/The%20Aldobrandini%20Madonna.jpg?width=3840",
         "urlTemplate" : "https://commons.wikimedia.org/wiki/Special:FilePath/The%20Aldobrandini%20Madonna.jpg?width={w}"
       },
@@ -47172,9 +47172,9 @@
       "id" : "wikidata-Q2706250",
       "image" : {
         "format" : "jpeg",
-        "sourceMaxHeight" : 6000,
-        "sourceMaxWidth" : 4561,
-        "url" : "https://commons.wikimedia.org/wiki/Special:FilePath/Quentin%20Matsys%20-%20A%20Grotesque%20old%20woman.jpg?width=3840",
+        "sourceMaxHeight" : 4226,
+        "sourceMaxWidth" : 3212,
+        "url" : "https://commons.wikimedia.org/wiki/Special:FilePath/Quentin%20Matsys%20-%20A%20Grotesque%20old%20woman.jpg?width=3212",
         "urlTemplate" : "https://commons.wikimedia.org/wiki/Special:FilePath/Quentin%20Matsys%20-%20A%20Grotesque%20old%20woman.jpg?width={w}"
       },
       "license" : {
@@ -47693,10 +47693,10 @@
       "id" : "wikidata-Q2736720",
       "image" : {
         "format" : "jpeg",
-        "sourceMaxHeight" : 4875,
-        "sourceMaxWidth" : 3306,
-        "url" : "https://commons.wikimedia.org/wiki/Special:FilePath/Francisco%20Goya%20Self-Portrait%20with%20Dr%20Arrieta%20MIA%205214.jpg?width=3306",
-        "urlTemplate" : "https://commons.wikimedia.org/wiki/Special:FilePath/Francisco%20Goya%20Self-Portrait%20with%20Dr%20Arrieta%20MIA%205214.jpg?width={w}"
+        "sourceMaxHeight" : 4876,
+        "sourceMaxWidth" : 3307,
+        "url" : "https://commons.wikimedia.org/wiki/Special:FilePath/Francisco%20de%20Goya%20-%20Self-Portrait%20with%20Dr.%20Arrieta%20-%20Google%20Art%20Project.jpg?width=3307",
+        "urlTemplate" : "https://commons.wikimedia.org/wiki/Special:FilePath/Francisco%20de%20Goya%20-%20Self-Portrait%20with%20Dr.%20Arrieta%20-%20Google%20Art%20Project.jpg?width={w}"
       },
       "license" : {
         "evidence" : "commons:PD-Art+PD-Art-100+PD-Art-old-100+PD-old-100",
@@ -75935,10 +75935,10 @@
       "id" : "wikidata-Q674846",
       "image" : {
         "format" : "jpeg",
-        "sourceMaxHeight" : 2368,
-        "sourceMaxWidth" : 3000,
-        "url" : "https://commons.wikimedia.org/wiki/Special:FilePath/Vincent%20Willem%20van%20Gogh%20076.jpg?width=3000",
-        "urlTemplate" : "https://commons.wikimedia.org/wiki/Special:FilePath/Vincent%20Willem%20van%20Gogh%20076.jpg?width={w}"
+        "sourceMaxHeight" : 5848,
+        "sourceMaxWidth" : 7408,
+        "url" : "https://commons.wikimedia.org/wiki/Special:FilePath/Van%20Gogh%20-%20The%20Night%20Caf%C3%A9%20%281888%29.jpg?width=3840",
+        "urlTemplate" : "https://commons.wikimedia.org/wiki/Special:FilePath/Van%20Gogh%20-%20The%20Night%20Caf%C3%A9%20%281888%29.jpg?width={w}"
       },
       "license" : {
         "evidence" : "commons:PD-Art+PD-old-X-expired+PD-old-auto-1923+PD-old-auto-expired",
