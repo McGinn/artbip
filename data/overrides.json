@@ -2888,7 +2888,8 @@
     ],
     "caption": "Two women in lace veils lean towards one another behind a balcony railing, their bright gowns set against two men wrapped in dark capes. Their faces are visible; the veils soften their outlines while the men recede into shadow.",
     "dateDisplay": "c. 1808–1812",
-    "year": 1810
+    "year": 1810,
+    "exclude": true
   },
   "wikidata-Q1103170": {
     "tags": [
@@ -10010,7 +10011,8 @@
     "dateDisplay": "1904 (minor amendments in 1907)",
     "year": 1904,
     "collectionURL": "https://sammlung.belvedere.at/objects/3828/freundinnen-wasserschlangen-i",
-    "caption": "Two slender women embrace amid gold hair, curling plants and patterned serpent forms. One face is turned toward us with closed eyes; the other's is hidden. A large fish head peers from the lower right of Klimt's narrow, densely ornamented composition."
+    "caption": "Two slender women embrace amid gold hair, curling plants and patterned serpent forms. One face is turned toward us with closed eyes; the other's is hidden. A large fish head peers from the lower right of Klimt's narrow, densely ornamented composition.",
+    "exclude": true
   },
   "wikidata-Q2551625": {
     "tags": [
@@ -15968,7 +15970,20 @@
     "caption": "An old man with a long white beard lies on his back in a blue cloak while monsters set on him: one drags him by the hair, others raise sticks, and a huge grey bird-headed creature looms at right. Horned, fanged beasts crowd behind, and at lower left sits a bloated figure covered in sores. Beyond lie a wrecked timber hut, bare trees and pale crags; high in the sky a figure glows in a burst of light.",
     "dateDisplay": "1512–1516",
     "year": 1512,
-    "collectionURL": "https://www.musee-unterlinden.com/en/oeuvres/the-isenheim-altarpiece/"
+    "collectionURL": "https://www.musee-unterlinden.com/en/oeuvres/the-isenheim-altarpiece/",
+    "image": {
+      "format": "jpeg",
+      "sourceMaxHeight": 5053,
+      "sourceMaxWidth": 2917,
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Isenheim%20Altarpiece%20-%20Saints%20-%20Left.jpg?width=2917",
+      "urlTemplate": "https://commons.wikimedia.org/wiki/Special:FilePath/Isenheim%20Altarpiece%20-%20Saints%20-%20Left.jpg?width={w}",
+      "trim": [
+        0.0747,
+        0.0376,
+        0.0905,
+        0.0364
+      ]
+    }
   },
   "wikidata-Q3985203": {
     "tags": [

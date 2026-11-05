@@ -19495,42 +19495,6 @@
       "year" : 1474
     },
     {
-      "artist" : "Francisco Goya",
-      "artistDeathYear" : 1828,
-      "artistSort" : "Goya, Francisco",
-      "caption" : "Two women in lace veils lean towards one another behind a balcony railing, their bright gowns set against two men wrapped in dark capes. Their faces are visible; the veils soften their outlines while the men recede into shadow.",
-      "collection" : "",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q109442292",
-      "dateDisplay" : "c. 1808–1812",
-      "id" : "wikidata-Q109442292",
-      "image" : {
-        "format" : "jpeg",
-        "sourceMaxHeight" : 3624,
-        "sourceMaxWidth" : 2416,
-        "url" : "https://commons.wikimedia.org/wiki/Special:FilePath/Majas%20en%20un%20balc%C3%B3n%20por%20Goya%20%28colecci%C3%B3n%20particular%29.jpg?width=2416",
-        "urlTemplate" : "https://commons.wikimedia.org/wiki/Special:FilePath/Majas%20en%20un%20balc%C3%B3n%20por%20Goya%20%28colecci%C3%B3n%20particular%29.jpg?width={w}"
-      },
-      "license" : {
-        "evidence" : "commons:PD-Art+PD-old-X-expired+PD-old-auto-expired",
-        "sourceURL" : "https://www.wikidata.org/wiki/Q109442292",
-        "status" : "PD"
-      },
-      "significance" : {
-        "canonLists" : [
-
-        ],
-        "curatorScore" : 7.5,
-        "museumHighlight" : false,
-        "sitelinks" : 9
-      },
-      "tags" : [
-        "everyday-life"
-      ],
-      "title" : "Majas on the Balcony",
-      "wikidata" : "Q109442292",
-      "year" : 1810
-    },
-    {
       "artist" : "Paolo Veronese",
       "artistDeathYear" : 1588,
       "artistSort" : "Veronese, Paolo",
@@ -45087,45 +45051,6 @@
       "year" : 1500
     },
     {
-      "artist" : "Gustav Klimt",
-      "artistDeathYear" : 1918,
-      "artistSort" : "Klimt, Gustav",
-      "caption" : "Two slender women embrace amid gold hair, curling plants and patterned serpent forms. One face is turned toward us with closed eyes; the other's is hidden. A large fish head peers from the lower right of Klimt's narrow, densely ornamented composition.",
-      "collection" : "Belvedere",
-      "collectionURL" : "https://sammlung.belvedere.at/objects/3828/freundinnen-wasserschlangen-i",
-      "dateDisplay" : "1904 (minor amendments in 1907)",
-      "id" : "wikidata-Q2551417",
-      "image" : {
-        "format" : "jpeg",
-        "sourceMaxHeight" : 2000,
-        "sourceMaxWidth" : 801,
-        "url" : "https://commons.wikimedia.org/wiki/Special:FilePath/Gustav%20Klimt%20067.jpg?width=801",
-        "urlTemplate" : "https://commons.wikimedia.org/wiki/Special:FilePath/Gustav%20Klimt%20067.jpg?width={w}"
-      },
-      "license" : {
-        "evidence" : "commons:PD-Art-YorckProject+PD-old-70",
-        "sourceURL" : "https://www.wikidata.org/wiki/Q2551417",
-        "status" : "PD"
-      },
-      "significance" : {
-        "canonLists" : [
-
-        ],
-        "curatorScore" : 8,
-        "museumHighlight" : false,
-        "sitelinks" : 5
-      },
-      "tags" : [
-        "animals",
-        "mythological",
-        "nsfw",
-        "nude"
-      ],
-      "title" : "Girlfriends (Water Serpents I)",
-      "wikidata" : "Q2551417",
-      "year" : 1904
-    },
-    {
       "artist" : "Sandro Botticelli",
       "artistDeathYear" : 1510,
       "artistSort" : "Botticelli, Sandro",
@@ -65600,6 +65525,12 @@
         "format" : "jpeg",
         "sourceMaxHeight" : 5053,
         "sourceMaxWidth" : 2917,
+        "trim" : [
+          0.0747,
+          0.0376,
+          0.0905,
+          0.0364
+        ],
         "url" : "https://commons.wikimedia.org/wiki/Special:FilePath/Isenheim%20Altarpiece%20-%20Saints%20-%20Left.jpg?width=2917",
         "urlTemplate" : "https://commons.wikimedia.org/wiki/Special:FilePath/Isenheim%20Altarpiece%20-%20Saints%20-%20Left.jpg?width={w}"
       },
