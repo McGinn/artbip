@@ -1,8 +1,8 @@
 import Foundation
 
-/// The source no longer serves this work's image: the file was removed or
+/// The source no longer serves this work's image (the file was removed or
 /// renamed, its bytes aren't the ones reviewed, or a page came back in place of
-/// an image. Rotation skips the work
+/// an image) and the mirror can't either. Rotation skips the work
 /// and tries it again next cycle. Temporary failures (offline, timeouts, 5xx)
 /// are not this error, so they keep retrying the same work.
 public struct ImageUnavailable: Error, CustomStringConvertible {
@@ -62,10 +62,8 @@ public actor ImageCache {
         guard let url = URL(string: work.image.url) else { throw ImageUnavailable(work, "bad image URL") }
         // Http's own cache is bypassed — this cache owns eviction.
         let generation = downloadGeneration
-        let fetched = try await download(url, for: work)
-        guard Thumbs.imageSize(of: fetched) != nil,
-              let data = Thumbs.trimmed(fetched, work.image.trim) else { throw ImageUnavailable(work, "not an image") }
-        guard work.image.matches(fetched) else { throw ImageUnavailable(work, "the image has changed") }
+        let fetched = try await reviewedOriginal(url, for: work)
+        guard let data = Thumbs.trimmed(fetched, work.image.trim) else { throw ImageUnavailable(work, "not an image") }
         try Task.checkCancellation()
         guard generation == downloadGeneration else { return data }
         try data.write(to: file, options: .atomic)
@@ -162,6 +160,22 @@ public actor ImageCache {
         thumbWrites += 1
         if thumbWrites % 50 == 0 { enforceBudget() }
         return thumb
+    }
+
+    /// The source's file if it's the reviewed one. If it has changed or gone for
+    /// good, the same bytes from the mirror; a network failure stays one, to retry.
+    private func reviewedOriginal(_ url: URL, for work: ManifestWork) async throws -> Data {
+        let problem: ImageUnavailable
+        do {
+            let fetched = try await download(url, for: work)
+            if Thumbs.imageSize(of: fetched) != nil, work.image.matches(fetched) { return fetched }
+            problem = ImageUnavailable(work, Thumbs.imageSize(of: fetched) == nil ? "not an image" : "the image has changed")
+        } catch let error as ImageUnavailable {
+            problem = error
+        }
+        guard let mirror = work.image.mirrorURL, let data = try? await http.get(mirror, cache: false),
+              Thumbs.imageSize(of: data) != nil, work.image.matches(data) else { throw problem }
+        return data
     }
 
     private func download(_ url: URL, for work: ManifestWork) async throws -> Data {

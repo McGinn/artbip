@@ -205,6 +205,29 @@ struct CacheTests {
         #expect(try Data(contentsOf: store.originalsDir.appendingPathComponent(name)) == tinyPNG)
     }
 
+    @Test func aChangedOrMissingImageComesFromTheMirror() async throws {
+        let store = try temporaryStore()
+        defer { try? FileManager.default.removeItem(at: store.dir) }
+        let cfg = URLSessionConfiguration.ephemeral
+        cfg.protocolClasses = [BrokenSourceProtocol.self]
+        let session = URLSession(configuration: cfg)
+        defer { session.invalidateAndCancel() }
+        let cache = ImageCache(store: store,
+            http: Http(cacheDir: store.dir.appendingPathComponent("http"), session: session), budgetMB: 10)
+        let right = SHA256.hash(data: tinyPNG).map { String(format: "%02x", $0) }.joined()
+        for id in ["gone", "page"] {
+            var work = try fixture([id]).works[0]
+            work.image.sha256 = right
+            #expect(work.image.mirrorURL?.absoluteString
+                == "https://github.com/McGinn/artbip-images/releases/download/img-\(right.prefix(1))/\(right)")
+            #expect(try await cache.originalData(for: work) == tinyPNG)
+            #expect(await cache.sizeBytes() > 0)
+            try await cache.clearDownloads()
+        }
+        // No hash, no mirror.
+        await #expect(throws: ImageUnavailable.self) { try await cache.originalData(for: fixture(["gone"]).works[0]) }
+    }
+
     @Test func everyShippedWorkHasAnExpectedHash() throws {
         let url = URL(fileURLWithPath: #filePath).deletingLastPathComponent().deletingLastPathComponent()
             .deletingLastPathComponent().appendingPathComponent("data/manifest.json")

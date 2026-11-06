@@ -220,7 +220,8 @@ public struct ManifestImage: Codable, Sendable {
     /// The sizes above are of the untrimmed image.
     public var trim: [Double]?
     /// SHA-256 of the bytes at `url`, as reviewed. A file that no longer matches
-    /// isn't shown (see ImageCache). Thumbnails come from other URLs, so aren't checked.
+    /// isn't shown: the app takes the same bytes from `mirrorURL`, else skips the work
+    /// (see ImageCache). Thumbnails come from other URLs, so aren't checked.
     public var sha256: String?
 
     public init(url: String, urlTemplate: String? = nil, sourceMaxWidth: Int, sourceMaxHeight: Int,
@@ -232,6 +233,12 @@ public struct ManifestImage: Codable, Sendable {
         self.format = format
         self.trim = trim
         self.sha256 = sha256
+    }
+
+    /// The exact bytes on a public GitHub release, named by their hash
+    /// (tools/mirror_images.py in the iOS repo). The Art Institute's aren't there.
+    public var mirrorURL: URL? {
+        sha256.flatMap { URL(string: "https://github.com/McGinn/artbip-images/releases/download/img-\($0.prefix(1))/\($0)") }
     }
 
     /// False when the expected bytes are known and these aren't them.
