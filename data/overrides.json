@@ -20087,7 +20087,7 @@
       "landscape",
       "religious"
     ],
-    "caption": "The Virgin nurses the Child on a rocky ledge, her deep blue mantle spread wide, with a towered town at left and a tiny Holy Family on a donkey passing through the woods behind.",
+    "caption": "The Virgin, her deep blue mantle spread over the ground, nurses the Child beside a rocky ledge. A towered town lies at left. In the woods at right, a tiny Virgin and Child ride a donkey, with a man walking behind them.",
     "title": "The Rest on the Flight into Egypt",
     "artist": "Gerard David",
     "artistSort": "David, Gerard",
@@ -20147,7 +20147,7 @@
     "artist": "Sano di Pietro",
     "artistSort": "Sano di Pietro",
     "dateDisplay": "ca. 1440",
-    "year": 1435,
+    "year": 1440,
     "collectionURL": "https://www.metmuseum.org/art/collection/search/458967",
     "artistDeathYear": 1481
   },
@@ -20155,14 +20155,15 @@
     "tags": [
       "religious"
     ],
-    "caption": "A winged, haloed Michael in golden armor, sword raised and red-cross shield on his arm, plants his foot on a horned, winged demon as a city burns at left.",
+    "caption": "A winged, haloed Michael in armor and a billowing blue skirt swings a sword overhead and stands on a horned, feather-winged monster, a white shield crossed in red on his arm. Behind him a walled city burns at left, and naked figures bound in snakes stand at right.",
     "title": "Saint Michael Vanquishing Satan",
     "artist": "Raphael",
     "artistSort": "Raphael",
-    "dateDisplay": "1504",
+    "dateDisplay": "c. 1503–1505",
     "year": 1504,
     "collectionURL": "https://collections.louvre.fr/ark:/53355/cl010060773",
-    "artistDeathYear": 1520
+    "artistDeathYear": 1520,
+    "collection": "Musée du Louvre"
   },
   "wikidata-Q5128805": {
     "tags": [
@@ -20300,7 +20301,7 @@
       "landscape",
       "religious"
     ],
-    "caption": "Three angels glide above Mary and Joseph as they kneel before the Child lying on a white cushion, with a pale hilltop town and a broad valley stretching into the distance.",
+    "caption": "Mary kneels with her hands together before the haloed Child, who lies on a white cushion and a blue cloth, while Joseph, low beside them with a staff, lifts both open hands. Three angels hold a band of cloth in the sky, two more come up behind Mary, and a pale town lies in the valley behind.",
     "title": "The Nativity",
     "artist": "Fra Bartolommeo",
     "artistSort": "Bartolommeo, Fra",
@@ -20620,14 +20621,16 @@
   },
   "met-436516": {
     "tags": [
-      "allegorical"
+      "allegorical",
+      "animals",
+      "military"
     ],
     "caption": "Winged Fame, holding a sword and a tiny winged archer, stands on a sphere ringed with trumpets above a crowd of armored horsemen, in a round panel with a gilded rope-twist frame.",
     "title": "The Triumph of Fame; (reverse) Impresa of the Medici Family and Arms of the Medici and Tornabuoni Families",
     "artist": "Scheggia (Giovanni di ser Giovanni Guidi)",
     "artistSort": "Scheggia",
     "dateDisplay": "ca. 1449",
-    "year": 1444,
+    "year": 1449,
     "collectionURL": "https://www.metmuseum.org/art/collection/search/436516",
     "artistDeathYear": 1486
   },
@@ -20654,7 +20657,7 @@
     "artist": "Giovanni di Paolo",
     "artistSort": "Paolo, Giovanni di",
     "dateDisplay": "ca. 1455–60",
-    "year": 1452,
+    "year": 1455,
     "collectionURL": "https://www.metmuseum.org/art/collection/search/458977",
     "artistDeathYear": 1482
   },
@@ -20668,15 +20671,17 @@
     "artist": "Lorenzo Monaco",
     "artistSort": "Monaco, Lorenzo",
     "dateDisplay": "ca. 1406–10",
-    "year": 1403,
+    "year": 1406,
     "collectionURL": "https://www.metmuseum.org/art/collection/search/459007",
-    "artistDeathYear": 1425
+    "artistDeathYear": 1425,
+    "movement": "International Gothic"
   },
   "met-470600": {
     "tags": [
+      "animals",
       "religious"
     ],
-    "caption": "Angels sing in a scalloped gold arch above the stable while Mary, Joseph and two kneeling shepherds adore the swaddled Child, with more shepherds on the hillside at right.",
+    "caption": "Angels crowd a scalloped gold arch above the stable, while a haloed woman, a kneeling haloed man and two kneeling men adore the swaddled Child, with shepherds on the hillside at right.",
     "title": "The Adoration of the Shepherds",
     "artist": "Bartolo di Fredi",
     "artistSort": "Bartolo di Fredi",
@@ -20744,9 +20749,10 @@
   },
   "met-78197": {
     "tags": [
+      "animals",
       "religious"
     ],
-    "caption": "Surya sits at the center of a great red circle ringed with lotus petals and smaller deities, while rows of figures in arched niches fill the borders and a band of scenes runs along the bottom.",
+    "caption": "Surya, red-faced and tall-crowned, sits at the centre of a red circle above a team of green horses, ringed by petal-shaped compartments holding smaller figures. Rows of figures in arched niches fill the borders, and three panels of people run along the bottom.",
     "title": "Mandala of the Sun God Surya",
     "artist": "Kitaharasa",
     "artistSort": "Kitaharasa",
@@ -20798,14 +20804,15 @@
     "tags": [
       "portrait"
     ],
-    "caption": "A fair-haired man in a black cap and fur-collared black gown rests his hands on a red, leaf-patterned surface, gazing off to the left against a plain olive-brown ground.",
+    "caption": "A fair-haired man in a black cap and a black gown lined with brown fur rests his hands on what looks like a dark red patterned cushion. He looks off to the left against a plain dark olive-green ground.",
     "title": "Portrait of Joris van Egmond",
     "artist": "Jan van Scorel",
     "artistSort": "Scorel, Jan van",
     "dateDisplay": "c. 1535 - c. 1540",
     "year": 1535,
     "collectionURL": "https://www.rijksmuseum.nl/en/collection/SK-C-1618",
-    "artistDeathYear": 1562
+    "artistDeathYear": 1562,
+    "collection": "Private collection (on loan to the Rijksmuseum)"
   },
   "rijks-200108005": {
     "tags": [
@@ -20905,9 +20912,11 @@
   },
   "rijks-200109203": {
     "tags": [
+      "family",
+      "group-portrait",
       "religious"
     ],
-    "caption": "Beneath the open rafters of a ruined stable, two kings kneel before the Virgin and Child as a third stands behind, with praying family groups filling the triptych's side wings.",
+    "caption": "Beneath broken open rafters, an old king kneels to kiss the hand of the Child on the Virgin's lap. A second king kneels with a goblet and a third stands behind. On the wings, a man and a woman kneel with their children, each with a standing saint.",
     "title": "The Adoration of the Magi",
     "artist": "Jacob Cornelisz van Oostsanen",
     "artistSort": "Oostsanen, Jacob Cornelisz van",
@@ -21208,42 +21217,47 @@
   },
   "wikidata-Q3851966": {
     "tags": [
+      "landscape",
       "religious"
     ],
-    "caption": "The child on a seated woman's lap reaches for the hand of Saint Catherine in a golden mantle, while Saint Sebastian, holding arrows, smiles down behind and small figures move through the landscape.",
+    "caption": "The Virgin, seated in red and blue, holds the Child on her lap as he touches the hand of Saint Catherine in a golden mantle, a tiny gold ring between the fingers of his other hand. Saint Sebastian, holding arrows, smiles down from behind, and small figures act out scenes in the landscape.",
     "title": "Mystic Marriage of Saint Catherine of Alexandria with Saint Sebastian",
     "artist": "Antonio da Correggio",
     "artistSort": "Correggio, Antonio da",
-    "dateDisplay": "1526",
+    "dateDisplay": "c. 1526–1527",
     "year": 1526,
     "collectionURL": "https://collections.louvre.fr/ark:/53355/cl010062408",
-    "artistDeathYear": 1534
+    "artistDeathYear": 1534,
+    "collection": "Musée du Louvre"
   },
   "wikidata-Q4009400": {
     "tags": [
       "religious"
     ],
-    "caption": "Christ's thorn-crowned head, framed by long brown hair, looks out with a sorrowful gaze against a pale white cloth, a strip of red drapery at his shoulder.",
+    "caption": "Christ, with long brown hair, a beard and a crown of thorns, looks straight out with a sorrowful stare. White cloth fills the background and wraps his shoulders, with a wine-dark robe showing at right and a frayed edge at lower right.",
     "title": "Head of Christ",
     "artist": "Antonio da Correggio",
     "artistSort": "Correggio, Antonio da",
-    "dateDisplay": "1521",
-    "year": 1521,
+    "dateDisplay": "c. 1525–1530",
+    "year": 1525,
     "collectionURL": "https://www.getty.edu/art/collection/object/103RK3",
     "artistDeathYear": 1534
   },
   "wikidata-Q463392": {
     "tags": [
+      "animals",
       "flowers",
+      "music",
       "religious"
     ],
-    "caption": "Inside a crenellated white wall a crowned woman in blue reads, as one woman picks fruit, another draws water, a third helps a child play a zither, and an angel and two men rest nearby.",
+    "caption": "Inside a crenellated white wall, a crowned woman in blue reads a red book. Around her, one woman picks fruit from a tree, another dips a chained ladle into a white basin, and a third holds out a dulcimer for a child to play. At right, a winged figure and two men gather by a tree.",
     "title": "The Little Garden of Paradise",
     "artist": "Upper Rhenish Master",
     "artistSort": "Upper Rhenish Master",
-    "dateDisplay": "1410",
+    "dateDisplay": "ca. 1410/20",
     "year": 1410,
-    "collectionURL": "https://staedelmuseum.de/go/ds/hm54"
+    "collectionURL": "https://sammlung.staedelmuseum.de/en/work/the-little-garden-of-paradise",
+    "collection": "Historisches Museum Frankfurt (on permanent loan to the Städel Museum)"
   },
   "wikidata-Q5966011": {
     "tags": [
@@ -21346,14 +21360,15 @@
     "tags": [
       "religious"
     ],
-    "caption": "Two haloed figures kneel in prayer over a newborn in a wicker basket, while a crucifix hangs on the wall at left and three winged putti hold a sheet of music above the thatched roof.",
+    "caption": "Joseph, hands pressed together, and Mary, hands crossed on her chest, kneel with thin halos over a newborn lying on white cloth in a wicker cradle. A crucifix hangs on the wall at left, and three winged infant angels hold a sheet of music above the thatched roof.",
     "title": "The Nativity",
     "artist": "Lorenzo Lotto",
     "artistSort": "Lotto, Lorenzo",
     "dateDisplay": "1523",
     "year": 1523,
     "collectionURL": "https://www.nga.gov/artworks/431",
-    "artistDeathYear": 1556
+    "artistDeathYear": 1556,
+    "movement": "Renaissance"
   },
   "nga-46428": {
     "tags": [
