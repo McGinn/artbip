@@ -22,7 +22,8 @@ def validate(manifest, overrides, ledger):
             errors.append(f'{wid}: exclusion requires source and reason')
     for wid, record in ledger.get('reviews', {}).items():
         if wid not in works:
-            errors.append(f'{wid}: reviewed work is absent')
+            if overrides.get(wid, {}).get('exclude') is not True:
+                errors.append(f'{wid}: reviewed work is absent')
             continue
         source = urlparse(record.get('source', ''))
         if source.scheme != 'https' or not source.netloc or not record.get('evidence', '').strip():

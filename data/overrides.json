@@ -1001,7 +1001,8 @@
       "portrait"
     ],
     "caption": "A man with a grey beard and round, dark-rimmed spectacles sits in an armchair, in a shimmering rose-red cape, robe and peaked cap over a white garment edged with lace. A panelled door and a gold-patterned hanging fill the wall behind him, and a folded paper lies on the patterned floor by his feet.",
-    "year": 1600
+    "year": 1600,
+    "movement": "Mannerism"
   },
   "met-436574": {
     "tags": [
@@ -18094,11 +18095,18 @@
     "tags": [
       "religious"
     ],
-    "caption": "An older woman in a pale veil and a yellow cloak lifts a white cloth above a sleeping baby, who lies on the lap of the Virgin, dressed in red with a dark mantle. A balding, bearded man in green looks straight out from behind them. At the right a small boy with fur at his shoulder holds a finger to his lips beside a glass bowl of fruit. Clouds fill the sky.",
+    "caption": "An older woman in a pale veil and a golden-orange cloak lifts a white cloth above a sleeping baby, who lies on the lap of the Virgin, dressed in red with a dark mantle. A balding, bearded man in green looks straight out from behind them. At the right a small boy with fur at his shoulder holds a finger to his lips beside a glass bowl of fruit. Clouds fill the sky.",
     "dateDisplay": "1585–1590; alternatively c. 1580/1585",
     "year": 1585,
     "collection": "Parish of Santa Leocadia y San Román, Toledo (on loan to the Museo de Santa Cruz)",
-    "collectionURL": "https://www.accioncultural.es/es/greco_museu_nacional_arte_antiga"
+    "collectionURL": "https://www.accioncultural.es/es/greco_museu_nacional_arte_antiga",
+    "image": {
+      "format": "jpeg",
+      "sourceMaxHeight": 1457,
+      "sourceMaxWidth": 850,
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/El%20Greco%20-%20The%20Holy%20Family.JPG?width=850",
+      "urlTemplate": "https://commons.wikimedia.org/wiki/Special:FilePath/El%20Greco%20-%20The%20Holy%20Family.JPG?width={w}"
+    }
   },
   "wikidata-Q6118296": {
     "tags": [

@@ -7367,6 +7367,7 @@
         "status" : "CC0"
       },
       "medium" : "Oil on canvas",
+      "movement" : "Mannerism",
       "region" : "Greek",
       "significance" : {
         "canonLists" : [
@@ -73804,20 +73805,20 @@
       "artist" : "El Greco",
       "artistDeathYear" : 1614,
       "artistSort" : "Greco, El",
-      "caption" : "An older woman in a pale veil and a yellow cloak lifts a white cloth above a sleeping baby, who lies on the lap of the Virgin, dressed in red with a dark mantle. A balding, bearded man in green looks straight out from behind them. At the right a small boy with fur at his shoulder holds a finger to his lips beside a glass bowl of fruit. Clouds fill the sky.",
+      "caption" : "An older woman in a pale veil and a golden-orange cloak lifts a white cloth above a sleeping baby, who lies on the lap of the Virgin, dressed in red with a dark mantle. A balding, bearded man in green looks straight out from behind them. At the right a small boy with fur at his shoulder holds a finger to his lips beside a glass bowl of fruit. Clouds fill the sky.",
       "collection" : "Parish of Santa Leocadia y San Román, Toledo (on loan to the Museo de Santa Cruz)",
       "collectionURL" : "https://www.accioncultural.es/es/greco_museu_nacional_arte_antiga",
       "dateDisplay" : "1585–1590; alternatively c. 1580/1585",
       "id" : "wikidata-Q6116829",
       "image" : {
         "format" : "jpeg",
-        "sourceMaxHeight" : 3057,
-        "sourceMaxWidth" : 1773,
-        "url" : "https://commons.wikimedia.org/wiki/Special:FilePath/El%20Greco%20-%20The%20Holy%20Family%20-%20WGA10482.jpg?width=1773",
-        "urlTemplate" : "https://commons.wikimedia.org/wiki/Special:FilePath/El%20Greco%20-%20The%20Holy%20Family%20-%20WGA10482.jpg?width={w}"
+        "sourceMaxHeight" : 1457,
+        "sourceMaxWidth" : 850,
+        "url" : "https://commons.wikimedia.org/wiki/Special:FilePath/El%20Greco%20-%20The%20Holy%20Family.JPG?width=850",
+        "urlTemplate" : "https://commons.wikimedia.org/wiki/Special:FilePath/El%20Greco%20-%20The%20Holy%20Family.JPG?width={w}"
       },
       "license" : {
-        "evidence" : "commons:PD-Art+PD-old-100-1923+PD-old-100-expired+PD-old-X-expired",
+        "evidence" : "commons:PD-Art+PD-old-100-1923",
         "sourceURL" : "https://www.wikidata.org/wiki/Q6116829",
         "status" : "PD"
       },
