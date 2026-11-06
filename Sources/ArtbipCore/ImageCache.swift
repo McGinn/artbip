@@ -1,7 +1,8 @@
 import Foundation
 
 /// The source no longer serves this work's image: the file was removed or
-/// renamed, or a page came back in place of an image. Rotation skips the work
+/// renamed, its bytes aren't the ones reviewed, or a page came back in place of
+/// an image. Rotation skips the work
 /// and tries it again next cycle. Temporary failures (offline, timeouts, 5xx)
 /// are not this error, so they keep retrying the same work.
 public struct ImageUnavailable: Error, CustomStringConvertible {
@@ -64,6 +65,7 @@ public actor ImageCache {
         let fetched = try await download(url, for: work)
         guard Thumbs.imageSize(of: fetched) != nil,
               let data = Thumbs.trimmed(fetched, work.image.trim) else { throw ImageUnavailable(work, "not an image") }
+        guard work.image.matches(fetched) else { throw ImageUnavailable(work, "the image has changed") }
         try Task.checkCancellation()
         guard generation == downloadGeneration else { return data }
         try data.write(to: file, options: .atomic)
@@ -83,8 +85,11 @@ public actor ImageCache {
         return work.id + "-t" + trim.map { String(Int(($0 * 10_000).rounded())) }.joined(separator: "-")
     }
 
+    /// The name carries the expected hash too: only bytes that passed it are
+    /// written under it, so a copy cached before the check is never shown.
     private func originalFile(for work: ManifestWork) -> URL {
-        originalsDir.appendingPathComponent("\(cacheName(for: work)).img")
+        let hash = work.image.sha256.map { "-s" + $0.prefix(16) } ?? ""
+        return originalsDir.appendingPathComponent("\(cacheName(for: work))\(hash).img")
     }
 
     public func cancelPrefetch() {

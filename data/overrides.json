@@ -1435,7 +1435,8 @@
         0.033,
         0.041,
         0.035
-      ]
+      ],
+      "sha256": "8768f6fbcce5bc8d10594c6f75e6dd05e39e09c3b1fb02257ce2c491654a4116"
     }
   },
   "met-438014": {
@@ -2390,7 +2391,8 @@
         0,
         0,
         0.016
-      ]
+      ],
+      "sha256": "da0df9ad8afd797c6094621b107de2bece26f5ec867b9c1a0547d12fe1375a76"
     }
   },
   "rijks-200109346": {
@@ -2408,7 +2410,8 @@
         0,
         0,
         0.004
-      ]
+      ],
+      "sha256": "56d997bc961250b5327882d743ef5dc33fb707f62fcbb2af3d2857a05ea55433"
     }
   },
   "rijks-200109347": {
@@ -4204,7 +4207,8 @@
         0.008
       ],
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Andrea%20del%20Sarto%20-%20Madonna%20delle%20Arpie%20-%20Google%20Art%20Project.jpg?width=2532",
-      "urlTemplate": "https://commons.wikimedia.org/wiki/Special:FilePath/Andrea%20del%20Sarto%20-%20Madonna%20delle%20Arpie%20-%20Google%20Art%20Project.jpg?width={w}"
+      "urlTemplate": "https://commons.wikimedia.org/wiki/Special:FilePath/Andrea%20del%20Sarto%20-%20Madonna%20delle%20Arpie%20-%20Google%20Art%20Project.jpg?width={w}",
+      "sha256": "5575923c0e17a56772f70b37206ff2060fed9a15ffb291154409c9e8fad53280"
     }
   },
   "wikidata-Q1237250": {
@@ -5636,7 +5640,8 @@
         0.012,
         0.01,
         0.013
-      ]
+      ],
+      "sha256": "d70268700bb12f6cef4d29ad4d12635d197331196086fd90222b12a97b4e34b0"
     }
   },
   "wikidata-Q1684762": {
@@ -10179,7 +10184,8 @@
         0,
         0,
         0.012
-      ]
+      ],
+      "sha256": "f20b57fd47ffafe0c7dca1578bd53342881e21cec5dc5537bf6f03ece8fb9393"
     }
   },
   "wikidata-Q2607072": {
@@ -10781,7 +10787,8 @@
       "sourceMaxHeight": 4876,
       "sourceMaxWidth": 3307,
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Francisco%20de%20Goya%20-%20Self-Portrait%20with%20Dr.%20Arrieta%20-%20Google%20Art%20Project.jpg?width=3307",
-      "urlTemplate": "https://commons.wikimedia.org/wiki/Special:FilePath/Francisco%20de%20Goya%20-%20Self-Portrait%20with%20Dr.%20Arrieta%20-%20Google%20Art%20Project.jpg?width={w}"
+      "urlTemplate": "https://commons.wikimedia.org/wiki/Special:FilePath/Francisco%20de%20Goya%20-%20Self-Portrait%20with%20Dr.%20Arrieta%20-%20Google%20Art%20Project.jpg?width={w}",
+      "sha256": "5495b1ff11ec990fa4d5ba972dca288300d279c95f2f6d7a18e715fbecee2092"
     }
   },
   "wikidata-Q2741537": {
@@ -11666,7 +11673,8 @@
       "sourceMaxHeight": 4000,
       "sourceMaxWidth": 2638,
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jean%20Auguste%20Dominique%20Ingres%2C%201780-1867.%20%D0%9A%D1%83%D0%BF%D0%B0%D0%BB%D1%8C%D1%89%D0%B8%D1%86%D0%B0.%201808.%20146%20%D1%85%2097.5%20%D1%81%D0%BC.%20%D0%9F%D0%B0%D1%80%D0%B8%D0%B6%2C%20%D0%9B%D1%83%D0%B2%D1%80%20%2847580712361%29.jpg?width=2638",
-      "urlTemplate": "https://commons.wikimedia.org/wiki/Special:FilePath/Jean%20Auguste%20Dominique%20Ingres%2C%201780-1867.%20%D0%9A%D1%83%D0%BF%D0%B0%D0%BB%D1%8C%D1%89%D0%B8%D1%86%D0%B0.%201808.%20146%20%D1%85%2097.5%20%D1%81%D0%BC.%20%D0%9F%D0%B0%D1%80%D0%B8%D0%B6%2C%20%D0%9B%D1%83%D0%B2%D1%80%20%2847580712361%29.jpg?width={w}"
+      "urlTemplate": "https://commons.wikimedia.org/wiki/Special:FilePath/Jean%20Auguste%20Dominique%20Ingres%2C%201780-1867.%20%D0%9A%D1%83%D0%BF%D0%B0%D0%BB%D1%8C%D1%89%D0%B8%D1%86%D0%B0.%201808.%20146%20%D1%85%2097.5%20%D1%81%D0%BC.%20%D0%9F%D0%B0%D1%80%D0%B8%D0%B6%2C%20%D0%9B%D1%83%D0%B2%D1%80%20%2847580712361%29.jpg?width={w}",
+      "sha256": "35d72fb00da29e0cf925fe27258811dfd473e3c67078bc4160a7262322219236"
     },
     "license": {
       "credit": "Photo: pixelsniper (Flickr), CC BY 2.0",
@@ -15982,7 +15990,8 @@
         0.0376,
         0.0905,
         0.0364
-      ]
+      ],
+      "sha256": "464ef2bf2fe53213546bf35bae55a42d4a242627af753c7e4b99728f2b12d586"
     }
   },
   "wikidata-Q3985203": {
@@ -19606,7 +19615,8 @@
         0.03
       ],
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Beato%20angelico%2C%20polittico%20guidalotti%2C%201447-48%2C%20da%20s.%20domenico%20a%20perugia%2C%2000.jpg?width=3840",
-      "urlTemplate": "https://commons.wikimedia.org/wiki/Special:FilePath/Beato%20angelico%2C%20polittico%20guidalotti%2C%201447-48%2C%20da%20s.%20domenico%20a%20perugia%2C%2000.jpg?width={w}"
+      "urlTemplate": "https://commons.wikimedia.org/wiki/Special:FilePath/Beato%20angelico%2C%20polittico%20guidalotti%2C%201447-48%2C%20da%20s.%20domenico%20a%20perugia%2C%2000.jpg?width={w}",
+      "sha256": "151d658e98374b43098705aaf06757f857f447c8a5810809e73885e2e0aefd4a"
     },
     "license": {
       "credit": "Photo: Sailko, CC BY 3.0",

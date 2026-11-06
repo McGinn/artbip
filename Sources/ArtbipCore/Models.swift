@@ -219,15 +219,25 @@ public struct ManifestImage: Codable, Sendable {
     /// is fetched: a colour chart, a clamp or a printed watermark at an edge.
     /// The sizes above are of the untrimmed image.
     public var trim: [Double]?
+    /// SHA-256 of the bytes at `url`, as reviewed. A file that no longer matches
+    /// isn't shown (see ImageCache). Thumbnails come from other URLs, so aren't checked.
+    public var sha256: String?
 
     public init(url: String, urlTemplate: String? = nil, sourceMaxWidth: Int, sourceMaxHeight: Int,
-                format: String = "jpeg", trim: [Double]? = nil) {
+                format: String = "jpeg", trim: [Double]? = nil, sha256: String? = nil) {
         self.url = url
         self.urlTemplate = urlTemplate
         self.sourceMaxWidth = sourceMaxWidth
         self.sourceMaxHeight = sourceMaxHeight
         self.format = format
         self.trim = trim
+        self.sha256 = sha256
+    }
+
+    /// False when the expected bytes are known and these aren't them.
+    public func matches(_ data: Data) -> Bool {
+        guard let sha256 else { return true }
+        return SHA256.hash(data: data).map { String(format: "%02x", $0) }.joined() == sha256
     }
 
     /// The image at `width` pixels or a little more, from the fastest place

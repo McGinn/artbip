@@ -1,3 +1,4 @@
+import CryptoKit
 import Foundation
 import Testing
 @testable import ArtbipCore
@@ -176,5 +177,39 @@ struct CacheTests {
         try Data("<html>".utf8).write(to: damaged)
         #expect(try await cache.originalData(for: fixture(["ok"]).works[0]) == tinyPNG)
         #expect(try Data(contentsOf: damaged) == tinyPNG)
+    }
+
+    @Test func imagesWhoseBytesChangedAreUnavailableAndNeverCached() async throws {
+        let store = try temporaryStore()
+        defer { try? FileManager.default.removeItem(at: store.dir) }
+        let cfg = URLSessionConfiguration.ephemeral
+        cfg.protocolClasses = [BrokenSourceProtocol.self]
+        let session = URLSession(configuration: cfg)
+        defer { session.invalidateAndCancel() }
+        let cache = ImageCache(store: store,
+            http: Http(cacheDir: store.dir.appendingPathComponent("http"), session: session), budgetMB: 10)
+        let right = SHA256.hash(data: tinyPNG).map { String(format: "%02x", $0) }.joined()
+
+        var changed = try fixture(["ok"]).works[0]
+        changed.image.sha256 = String(repeating: "0", count: 64)
+        await #expect(throws: ImageUnavailable.self) { try await cache.originalData(for: changed) }
+        #expect(await cache.sizeBytes() == 0)
+
+        // A copy cached before the check isn't taken on trust: the fresh, matching bytes are fetched.
+        try Data("stale".utf8).write(to: store.originalsDir.appendingPathComponent("ok.img"))
+        var matching = try fixture(["ok"]).works[0]
+        matching.image.sha256 = right
+        #expect(try await cache.originalData(for: matching) == tinyPNG)
+        // Those bytes are then served from the cache, even if the file at the source moves on.
+        let name = "ok-s" + right.prefix(16) + ".img"
+        #expect(try Data(contentsOf: store.originalsDir.appendingPathComponent(name)) == tinyPNG)
+    }
+
+    @Test func everyShippedWorkHasAnExpectedHash() throws {
+        let url = URL(fileURLWithPath: #filePath).deletingLastPathComponent().deletingLastPathComponent()
+            .deletingLastPathComponent().appendingPathComponent("data/manifest.json")
+        let manifest = try JSONDecoder().decode(Manifest.self, from: Data(contentsOf: url))
+        let missing = manifest.works.filter { $0.image.sha256?.count != 64 }.map(\.id)
+        #expect(missing.isEmpty, "no sha256: \(missing.prefix(10))")
     }
 }
