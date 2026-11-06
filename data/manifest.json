@@ -3923,10 +3923,10 @@
       "year" : 1835
     },
     {
-      "artist" : "Kano Mitsunobu",
+      "artist" : "Kano Mitsunobu and Kano Shōei",
       "artistDeathYear" : 1608,
       "artistSort" : "Kano Mitsunobu",
-      "caption" : "Hawks swoop, perch and seize prey, a white egret flies over water, and a peacock and peahen stand among peonies beneath spreading pines across a pair of gold screens.",
+      "caption" : "Across a pair of gold screens, stacked here one above the other, hawks fly, perch and grip a pheasant, and a white egret flies over water. A peacock and peahen stand among flowers beneath a great spreading tree.",
       "collection" : "Cleveland Museum of Art",
       "collectionURL" : "https://clevelandart.org/art/1948.128",
       "dateDisplay" : "late 1500s",
@@ -3957,7 +3957,7 @@
         "landscape"
       ],
       "title" : "Birds and Flowers",
-      "year" : 1540
+      "year" : 1585
     },
     {
       "artist" : "Lorenzo Lotto",
@@ -15990,7 +15990,7 @@
       "artist" : "Joachim Bueckelaer",
       "artistDeathYear" : 1575,
       "artistSort" : "Bueckelaer, Joachim",
-      "caption" : "Hanging game birds, artichokes, a haunch of meat, fruit and a hare crowd the foreground as maids spit and hold poultry, with small figures glimpsed through the arcade behind.",
+      "caption" : "A standing maid runs a long spit through a plucked bird while a seated maid plucks another in her lap. Birds hang from a red beam above a foreground heaped with artichokes, a cauliflower, grapes and other fruit, a large joint of raw meat and a hare. Through an arch behind them, small figures gather.",
       "collection" : "Rijksmuseum",
       "collectionURL" : "https://www.rijksmuseum.nl/en/collection/SK-A-1451",
       "dateDisplay" : "1566",
@@ -16016,6 +16016,7 @@
         "museumHighlight" : true
       },
       "tags" : [
+        "everyday-life",
         "religious",
         "still-life"
       ],
@@ -17022,7 +17023,7 @@
       "artist" : "Adriaen Thomasz. Key",
       "artistDeathYear" : 1589,
       "artistSort" : "Key, Adriaen Thomasz.",
-      "caption" : "A crisp lace-edged ruff and a fur collar frame William of Orange's lined, bearded face, above a black doublet trimmed with knotted gold braid.",
+      "caption" : "William of Orange, head and shoulders turned to the right, looks back at the viewer from under a black cap. A lace-edged white ruff and a wide brown fur collar frame his lined, bearded face, above black patterned cloth trimmed with knotted gold braid.",
       "collection" : "Rijksmuseum",
       "collectionURL" : "https://www.rijksmuseum.nl/en/collection/SK-A-3148",
       "dateDisplay" : "c. 1579",
@@ -17556,8 +17557,8 @@
       "artist" : "Dirck Barendsz.",
       "artistDeathYear" : 1592,
       "artistSort" : "Barendsz., Dirck",
-      "caption" : "Eighteen guardsmen in black caps and ruffed collars crowd around a banquet table set with bread, glasses and a large platter, a woman in a white cap at upper right.",
-      "collection" : "Rijksmuseum",
+      "caption" : "Eighteen men, mostly in black with white ruffs and black caps, crowd a table laid with bread, glasses and a large metal platter. A woman in a white cap appears at the back, at upper right.",
+      "collection" : "City of Amsterdam (on loan to the Rijksmuseum)",
       "collectionURL" : "https://www.rijksmuseum.nl/en/collection/SK-C-365",
       "dateDisplay" : "1566",
       "id" : "rijks-20026555",
@@ -24245,8 +24246,8 @@
       "artist" : "Annibale Carracci",
       "artistDeathYear" : 1609,
       "artistSort" : "Carracci, Annibale",
-      "caption" : "A man in a straw hat lifts a spoonful of beans toward his open mouth, looking toward the viewer. Bread, vegetables, a plate of food, a knife, a jug and a glass crowd the white-covered table.",
-      "collection" : "Palazzo Colonna",
+      "caption" : "A man in a straw hat lifts a spoonful of beans toward his open mouth, looking toward the viewer. Bread, vegetables, a plate of food, a knife, a striped jug and a glass crowd the white-covered table.",
+      "collection" : "Galleria Colonna",
       "collectionURL" : "https://www.galleriacolonna.it/en/colonna-gallery/",
       "dateDisplay" : "c. 1583–1585",
       "id" : "wikidata-Q1232131",
@@ -32124,7 +32125,7 @@
       "artist" : "El Greco",
       "artistDeathYear" : 1614,
       "artistSort" : "Greco, El",
-      "caption" : "Christ tilts his thorn-crowned head upward beside the tall wooden cross at the right. Drops of blood mark his forehead and elongated neck, while his pale hand rests against the beam. Light catches his face, fingers and red tunic against the dark background.",
+      "caption" : "Christ, wearing a crown of thorns, looks up towards the left of the picture with his lips parted. The shaft of the cross runs from top to bottom at the right, and his long-fingered hand rests against it. Small drops of blood mark his forehead, neck and chest. His red tunic and a pale light behind his head stand out against the dark background.",
       "collection" : "Thyssen-Bornemisza Museum",
       "collectionURL" : "https://www.museothyssen.org/en/collection/artists/greco-domenikos-theotokopoulos/christ-cross",
       "dateDisplay" : "c. 1587–1596",
@@ -35342,10 +35343,10 @@
       "artist" : "Paolo Veronese",
       "artistDeathYear" : 1588,
       "artistSort" : "Veronese, Paolo",
-      "caption" : "Adonis sleeps with his head in Venus's lap as she holds a small fan above him. Cupid restrains one of the hunting dogs while another rests beneath the hunter; orange clothing and violet patterned silk glow against the surrounding trees.",
+      "caption" : "Adonis sleeps with his head on Venus's lap as she holds a small flag-shaped fan over him. Cupid holds back one hunting dog while another lies on the ground below Adonis. His clothes are bright orange and her patterned cloth is purple-blue, with trees and sky behind.",
       "collection" : "Museo del Prado",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q1988152",
-      "dateDisplay" : "1580",
+      "collectionURL" : "https://www.museodelprado.es/en/the-collection/art-work/venus-and-adonis/692667da-d0f5-4765-ba03-30fdce3513d1",
+      "dateDisplay" : "c. 1580",
       "id" : "wikidata-Q1988152",
       "image" : {
         "format" : "jpeg",
@@ -35369,7 +35370,10 @@
         "sitelinks" : 14
       },
       "tags" : [
-        "mythological"
+        "animals",
+        "mythological",
+        "nsfw",
+        "nude"
       ],
       "title" : "Venus and Adonis",
       "wikidata" : "Q1988152",
@@ -65758,10 +65762,10 @@
       "artist" : "Annibale Carracci",
       "artistDeathYear" : 1609,
       "artistSort" : "Carracci, Annibale",
-      "caption" : "Bacchus and Ariadne ride in separate chariots amid a procession of dancers, musicians and revellers. Flying cupids fill the sky above them, while the overlapping bodies below turn the long ceiling panel into a dense, rhythmic celebration.",
+      "caption" : "Bacchus, wreathed in leaves, rides a gold chariot at the left with a bunch of grapes raised, beside Ariadne in blue on a pale carved one. Tigers and white goats lead the way. To the right a woman raises a tambourine, a man blows a long horn and a heavy bearded man is held up above a donkey. Cupids fly overhead, and a half-draped woman reclines in the lower right corner.",
       "collection" : "Palazzo Farnese",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q3998957",
-      "dateDisplay" : "1586",
+      "collectionURL" : "https://www.efrome.it/fileadmin/res/PDF_Documents_officiels_EFR/ambasciata_francia_depliant-new-low_fr.pdf",
+      "dateDisplay" : "1597–1608",
       "id" : "wikidata-Q3998957",
       "image" : {
         "format" : "jpeg",
@@ -65784,11 +65788,15 @@
         "sitelinks" : 4
       },
       "tags" : [
-        "mythological"
+        "animals",
+        "dance",
+        "mythological",
+        "nsfw",
+        "nude"
       ],
       "title" : "Triumph of Bacchus and Ariadne",
       "wikidata" : "Q3998957",
-      "year" : 1586
+      "year" : 1597
     },
     {
       "artist" : "Anthony van Dyck",
@@ -70031,7 +70039,7 @@
       "artist" : "Titian",
       "artistDeathYear" : 1576,
       "artistSort" : "Titian",
-      "caption" : "Two-year-old Clarissa Strozzi, in a white dress with pearls and a gem-set girdle, puts her arm around a red-and-white spaniel seated on a carved stone ledge.",
+      "caption" : "Two-year-old Clarissa Strozzi, in a long white dress with pearls and a jewelled belt, stands at a stone table holding a ring-shaped pretzel to a small reddish-brown and white dog. Her other hand shows behind its shoulder, and a long chain from her belt ends in a round openwork ball near her feet.",
       "collection" : "Gemäldegalerie Berlin",
       "collectionURL" : "https://id.smb.museum/object/869327",
       "dateDisplay" : "1542",
@@ -73791,10 +73799,10 @@
       "artist" : "El Greco",
       "artistDeathYear" : 1614,
       "artistSort" : "Greco, El",
-      "caption" : "The Virgin, in a red dress and dark blue mantle, holds the Christ Child on her lap, his eyes closed, while her mother, Saint Anne, in a white veil and yellow cloak, draws a white cloth back from him at the left. Saint Joseph in green looks out from behind at the right, and the naked infant John the Baptist stands at the lower right with a finger at his lips beside a glass bowl of fruit. Grey and blue clouds fill the sky.",
-      "collection" : "Museum of Santa Cruz",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q6116829",
-      "dateDisplay" : "1586",
+      "caption" : "An older woman in a pale veil and a yellow cloak lifts a white cloth above a sleeping baby, who lies on the lap of the Virgin, dressed in red with a dark mantle. A balding, bearded man in green looks straight out from behind them. At the right a small boy with fur at his shoulder holds a finger to his lips beside a glass bowl of fruit. Clouds fill the sky.",
+      "collection" : "Parish of Santa Leocadia y San Román, Toledo (on loan to the Museo de Santa Cruz)",
+      "collectionURL" : "https://www.accioncultural.es/es/greco_museu_nacional_arte_antiga",
+      "dateDisplay" : "1585–1590; alternatively c. 1580/1585",
       "id" : "wikidata-Q6116829",
       "image" : {
         "format" : "jpeg",
@@ -73821,7 +73829,7 @@
       ],
       "title" : "The Holy Family",
       "wikidata" : "Q6116829",
-      "year" : 1586
+      "year" : 1585
     },
     {
       "artist" : "Jusepe de Ribera",
@@ -74569,10 +74577,10 @@
       "artist" : "El Greco",
       "artistDeathYear" : 1614,
       "artistSort" : "Greco, El",
-      "caption" : "A nobleman with short dark hair and a pointed beard, dressed in black, looks straight out at us above a white lace ruff. His right hand, in a matching lace cuff, lies spread across his chest, and the gilded hilt of a sword shows at the lower right. Behind him the background is plain and greyish brown.",
+      "caption" : "A man with short dark hair and a pointed dark beard looks straight out above a frilled white ruff. He is dressed in black. His right hand, in a matching frilled cuff, lies spread on his chest, and the gold hilt of a sword stands near the bottom edge, right of centre. The background is plain and greyish brown.",
       "collection" : "Museo del Prado",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q6402081",
-      "dateDisplay" : "1580",
+      "collectionURL" : "https://www.museodelprado.es/en/the-collection/art-work/the-nobleman-with-his-hand-on-his-chest/9cb73bdf-66e8-4826-a79c-5de2b15a1da6",
+      "dateDisplay" : "c. 1580",
       "id" : "wikidata-Q6402081",
       "image" : {
         "format" : "jpeg",

@@ -4165,10 +4165,11 @@
       "interior",
       "still-life"
     ],
-    "caption": "A man in a straw hat lifts a spoonful of beans toward his open mouth, looking toward the viewer. Bread, vegetables, a plate of food, a knife, a jug and a glass crowd the white-covered table.",
+    "caption": "A man in a straw hat lifts a spoonful of beans toward his open mouth, looking toward the viewer. Bread, vegetables, a plate of food, a knife, a striped jug and a glass crowd the white-covered table.",
     "dateDisplay": "c. 1583–1585",
     "year": 1584,
-    "collectionURL": "https://www.galleriacolonna.it/en/colonna-gallery/"
+    "collectionURL": "https://www.galleriacolonna.it/en/colonna-gallery/",
+    "collection": "Galleria Colonna"
   },
   "wikidata-Q12334558": {
     "tags": [
@@ -6334,7 +6335,7 @@
     "tags": [
       "religious"
     ],
-    "caption": "Christ tilts his thorn-crowned head upward beside the tall wooden cross at the right. Drops of blood mark his forehead and elongated neck, while his pale hand rests against the beam. Light catches his face, fingers and red tunic against the dark background.",
+    "caption": "Christ, wearing a crown of thorns, looks up towards the left of the picture with his lips parted. The shaft of the cross runs from top to bottom at the right, and his long-fingered hand rests against it. Small drops of blood mark his forehead, neck and chest. His red tunic and a pale light behind his head stand out against the dark background.",
     "dateDisplay": "c. 1587–1596",
     "year": 1587,
     "collectionURL": "https://www.museothyssen.org/en/collection/artists/greco-domenikos-theotokopoulos/christ-cross"
@@ -7200,10 +7201,15 @@
   },
   "wikidata-Q1988152": {
     "tags": [
-      "mythological"
+      "animals",
+      "mythological",
+      "nsfw",
+      "nude"
     ],
-    "caption": "Adonis sleeps with his head in Venus's lap as she holds a small fan above him. Cupid restrains one of the hunting dogs while another rests beneath the hunter; orange clothing and violet patterned silk glow against the surrounding trees.",
-    "movement": "Venetian school"
+    "caption": "Adonis sleeps with his head on Venus's lap as she holds a small flag-shaped fan over him. Cupid holds back one hunting dog while another lies on the ground below Adonis. His clothes are bright orange and her patterned cloth is purple-blue, with trees and sky behind.",
+    "movement": "Venetian school",
+    "dateDisplay": "c. 1580",
+    "collectionURL": "https://www.museodelprado.es/en/the-collection/art-work/venus-and-adonis/692667da-d0f5-4765-ba03-30fdce3513d1"
   },
   "wikidata-Q19883434": {
     "tags": [
@@ -16040,9 +16046,16 @@
   },
   "wikidata-Q3998957": {
     "tags": [
-      "mythological"
+      "animals",
+      "dance",
+      "mythological",
+      "nsfw",
+      "nude"
     ],
-    "caption": "Bacchus and Ariadne ride in separate chariots amid a procession of dancers, musicians and revellers. Flying cupids fill the sky above them, while the overlapping bodies below turn the long ceiling panel into a dense, rhythmic celebration."
+    "caption": "Bacchus, wreathed in leaves, rides a gold chariot at the left with a bunch of grapes raised, beside Ariadne in blue on a pale carved one. Tigers and white goats lead the way. To the right a woman raises a tambourine, a man blows a long horn and a heavy bearded man is held up above a donkey. Cupids fly overhead, and a half-draped woman reclines in the lower right corner.",
+    "dateDisplay": "1597–1608",
+    "year": 1597,
+    "collectionURL": "https://www.efrome.it/fileadmin/res/PDF_Documents_officiels_EFR/ambasciata_francia_depliant-new-low_fr.pdf"
   },
   "wikidata-Q3998985": {
     "tags": [
@@ -18071,7 +18084,11 @@
     "tags": [
       "religious"
     ],
-    "caption": "The Virgin, in a red dress and dark blue mantle, holds the Christ Child on her lap, his eyes closed, while her mother, Saint Anne, in a white veil and yellow cloak, draws a white cloth back from him at the left. Saint Joseph in green looks out from behind at the right, and the naked infant John the Baptist stands at the lower right with a finger at his lips beside a glass bowl of fruit. Grey and blue clouds fill the sky."
+    "caption": "An older woman in a pale veil and a yellow cloak lifts a white cloth above a sleeping baby, who lies on the lap of the Virgin, dressed in red with a dark mantle. A balding, bearded man in green looks straight out from behind them. At the right a small boy with fur at his shoulder holds a finger to his lips beside a glass bowl of fruit. Clouds fill the sky.",
+    "dateDisplay": "1585–1590; alternatively c. 1580/1585",
+    "year": 1585,
+    "collection": "Parish of Santa Leocadia y San Román, Toledo (on loan to the Museo de Santa Cruz)",
+    "collectionURL": "https://www.accioncultural.es/es/greco_museu_nacional_arte_antiga"
   },
   "wikidata-Q6118296": {
     "tags": [
@@ -18225,8 +18242,10 @@
     "tags": [
       "portrait"
     ],
-    "caption": "A nobleman with short dark hair and a pointed beard, dressed in black, looks straight out at us above a white lace ruff. His right hand, in a matching lace cuff, lies spread across his chest, and the gilded hilt of a sword shows at the lower right. Behind him the background is plain and greyish brown.",
-    "movement": "Mannerism"
+    "caption": "A man with short dark hair and a pointed dark beard looks straight out above a frilled white ruff. He is dressed in black. His right hand, in a matching frilled cuff, lies spread on his chest, and the gold hilt of a sword stands near the bottom edge, right of centre. The background is plain and greyish brown.",
+    "movement": "Mannerism",
+    "dateDisplay": "c. 1580",
+    "collectionURL": "https://www.museodelprado.es/en/the-collection/art-work/the-nobleman-with-his-hand-on-his-chest/9cb73bdf-66e8-4826-a79c-5de2b15a1da6"
   },
   "wikidata-Q6411359": {
     "tags": [
@@ -20170,7 +20189,7 @@
       "animals",
       "portrait"
     ],
-    "caption": "Two-year-old Clarissa Strozzi, in a white dress with pearls and a gem-set girdle, puts her arm around a red-and-white spaniel seated on a carved stone ledge.",
+    "caption": "Two-year-old Clarissa Strozzi, in a long white dress with pearls and a jewelled belt, stands at a stone table holding a ring-shaped pretzel to a small reddish-brown and white dog. Her other hand shows behind its shoulder, and a long chain from her belt ends in a round openwork ball near her feet.",
     "title": "Portrait of Clarissa Strozzi",
     "artist": "Titian",
     "artistSort": "Titian",
@@ -20497,12 +20516,12 @@
       "flowers",
       "landscape"
     ],
-    "caption": "Hawks swoop, perch and seize prey, a white egret flies over water, and a peacock and peahen stand among peonies beneath spreading pines across a pair of gold screens.",
+    "caption": "Across a pair of gold screens, stacked here one above the other, hawks fly, perch and grip a pheasant, and a white egret flies over water. A peacock and peahen stand among flowers beneath a great spreading tree.",
     "title": "Birds and Flowers",
-    "artist": "Kano Mitsunobu",
+    "artist": "Kano Mitsunobu and Kano Shōei",
     "artistSort": "Kano Mitsunobu",
     "dateDisplay": "late 1500s",
-    "year": 1540,
+    "year": 1585,
     "collectionURL": "https://clevelandart.org/art/1948.128",
     "artistDeathYear": 1608
   },
@@ -20898,10 +20917,11 @@
   },
   "rijks-200109172": {
     "tags": [
+      "everyday-life",
       "religious",
       "still-life"
     ],
-    "caption": "Hanging game birds, artichokes, a haunch of meat, fruit and a hare crowd the foreground as maids spit and hold poultry, with small figures glimpsed through the arcade behind.",
+    "caption": "A standing maid runs a long spit through a plucked bird while a seated maid plucks another in her lap. Birds hang from a red beam above a foreground heaped with artichokes, a cauliflower, grapes and other fruit, a large joint of raw meat and a hare. Through an arch behind them, small figures gather.",
     "title": "The Well-stocked Kitchen",
     "artist": "Joachim Bueckelaer",
     "artistSort": "Bueckelaer, Joachim",
@@ -20999,7 +21019,7 @@
     "tags": [
       "portrait"
     ],
-    "caption": "A crisp lace-edged ruff and a fur collar frame William of Orange's lined, bearded face, above a black doublet trimmed with knotted gold braid.",
+    "caption": "William of Orange, head and shoulders turned to the right, looks back at the viewer from under a black cap. A lace-edged white ruff and a wide brown fur collar frame his lined, bearded face, above black patterned cloth trimmed with knotted gold braid.",
     "title": "Portrait of William I, Prince of Orange",
     "artist": "Adriaen Thomasz. Key",
     "artistSort": "Key, Adriaen Thomasz.",
@@ -21097,14 +21117,15 @@
       "military",
       "portrait"
     ],
-    "caption": "Eighteen guardsmen in black caps and ruffed collars crowd around a banquet table set with bread, glasses and a large platter, a woman in a white cap at upper right.",
+    "caption": "Eighteen men, mostly in black with white ruffs and black caps, crowd a table laid with bread, glasses and a large metal platter. A woman in a white cap appears at the back, at upper right.",
     "title": "Banquet of Eighteen Guardsmen of Squad L, Amsterdam 1566, known as 'The Perch Eaters'",
     "artist": "Dirck Barendsz.",
     "artistSort": "Barendsz., Dirck",
     "dateDisplay": "1566",
     "year": 1566,
     "collectionURL": "https://www.rijksmuseum.nl/en/collection/SK-C-365",
-    "artistDeathYear": 1592
+    "artistDeathYear": 1592,
+    "collection": "City of Amsterdam (on loan to the Rijksmuseum)"
   },
   "rijks-20026920": {
     "tags": [
