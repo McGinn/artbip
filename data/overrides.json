@@ -999,14 +999,16 @@
   "met-436573": {
     "tags": [
       "portrait"
-    ]
+    ],
+    "caption": "A man with a grey beard and round, dark-rimmed spectacles sits in an armchair, in a shimmering rose-red cape, robe and peaked cap over a white garment edged with lace. A panelled door and a gold-patterned hanging fill the wall behind him, and a folded paper lies on the patterned floor by his feet.",
+    "year": 1600
   },
   "met-436574": {
     "tags": [
-      "portrait",
-      "self-portrait"
+      "portrait"
     ],
-    "movement": "Mannerism"
+    "movement": "Mannerism",
+    "caption": "A balding man with a greying beard looks straight out from a dark ground. A white pleated ruff circles his neck, above a dark coat with a broad brown collar that looks like fur."
   },
   "met-436575": {
     "tags": [
@@ -1461,7 +1463,8 @@
   "met-438338": {
     "tags": [
       "religious"
-    ]
+    ],
+    "caption": "Men hold up the pale, bare-chested body of Christ against deep shadow, his head fallen back. At left a youth grips a tall shaft, a man in red bends under the legs and a balding old man leans in. A turbaned man stands behind, a woman sits apart at lower right with folded hands and red cloth around her, and a patch of blue sky opens at upper right."
   },
   "met-438417": {
     "tags": [
@@ -1534,7 +1537,8 @@
   "met-48948": {
     "tags": [
       "religious"
-    ]
+    ],
+    "caption": "One section of a long handscroll. An old, white-haired Buddhist holy man wrapped in a pale mantle tied at the neck sits in the hollow of a huge, twisting tree. To the right, a second holy man, balding and dressed in white, holds prayer beads and lifts his other hand."
   },
   "met-49156": {
     "tags": [
@@ -1829,7 +1833,7 @@
     "tags": [
       "landscape"
     ],
-    "caption": "A long boat carrying several figures glides beneath towering foreground trees. Carracci uses their deep shadow to frame a river, sunlit fields, and hazy mountains beyond."
+    "caption": "On a river, a long, low boat carrying four people passes behind a dark, leaning tree trunk. A cluster of trees stands in shadow at left. Beyond them, sunlit banks fade to a pale town and hazy blue mountains."
   },
   "nga-432": {
     "tags": [
@@ -2345,16 +2349,21 @@
   "rijks-200109195": {
     "tags": [
       "nsfw",
+      "nude",
       "religious"
-    ]
+    ],
+    "caption": "Naked soldiers attack women and children outside a city gate. At lower left a soldier holds a blade to a child's throat. Above him a woman in yellow grips a fallen soldier's arm while fingers press on his eyes. Further back, more figures run and fall.",
+    "movement": "Mannerism"
   },
   "rijks-200109196": {
     "tags": [
+      "animals",
       "nsfw",
       "nude",
       "religious"
     ],
-    "caption": "Adam and Eve accept the forbidden fruit from a serpent with a human torso while God warns them from a cloud in the distance. A monkey, cat, dog, hedgehog, frog, fox, owl, and slugs crowd their richly imagined Paradise."
+    "caption": "Adam and Eve stand naked on either side of a tree, each with a hand on the apple between them. A serpent with a fair-haired human upper body leans down from the trunk. Animals fill the ground around them, among them a dog, a fox and a monkey hugging a cat.",
+    "movement": "Mannerism"
   },
   "rijks-200109201": {
     "tags": [
@@ -6516,7 +6525,7 @@
       "figure",
       "still-life"
     ],
-    "caption": "An upturned dark bowl becomes a hat above a face assembled from vegetables. A large onion forms one rounded cheek, roots project as the nose, and green leaves frame the head. Rotated by half a turn, the same arrangement becomes a bowl filled with vegetables.",
+    "caption": "A dark, shiny bowl sits upside down above a face made of vegetables. A large onion fills the right side of the face, beside a thick pale root that juts out where a nose would be. Two stacked orange-red shapes form the lips, and long toothed green leaves spread out below and at the right.",
     "dateDisplay": "1587–1590",
     "year": 1587,
     "collectionURL": "https://musei.comune.cremona.it/it/musei/museo-civico-ala-ponzone/sala-cinquecento/ortolano"
@@ -7886,7 +7895,7 @@
     "tags": [
       "landscape"
     ],
-    "caption": "Thick reddish-brown cypress trunks twist across a gold ground, their branches spreading beyond the screen edges. Small clusters of green foliage follow the thinner limbs. Blue water and angular grey-green rocks appear through openings between the trees and broad bands of gold.",
+    "caption": "Thick reddish-brown cypress trunks twist across a gold ground, with branches running off the edges of the eight panels. Small clusters of green foliage grow along the thinner limbs. Dark blue water and grey-green rocks show through openings in the gold.",
     "dateDisplay": "1590",
     "year": 1590,
     "collectionURL": "https://www.tnm.jp/modules/r_collection/index.php?colid=A1069&controller=dtl&lang=en&t=now",
@@ -8761,9 +8770,10 @@
     "tags": [
       "mythological",
       "portrait",
-      "self-portrait"
+      "self-portrait",
+      "still-life"
     ],
-    "caption": "An ivy-crowned youth turns toward the viewer over his bare shoulder, holding pale grapes in both hands. White cloth wraps his torso, and dark grapes and two peaches lie on the stone ledge below against a dark background.",
+    "caption": "A youth with a wreath of leaves in his dark curls looks back at the viewer over his bare shoulder, holding pale grapes in both hands. White cloth is wrapped around his body and tied with a dark bow. Dark grapes and two yellow peaches lie on the stone slab in front of him, against a dark background.",
     "dateDisplay": "c. 1595",
     "year": 1595,
     "collectionURL": "https://www.collezionegalleriaborghese.it/en/opere/self-portrait-as-bacchus-known-as-sick-bacchus",
@@ -10211,7 +10221,7 @@
     "dateDisplay": "c. 1595–1596",
     "year": 1595,
     "collectionURL": "https://www.thewadsworth.org/wp-content/uploads/2015/09/Euro-Wall-Text-Final.pdf",
-    "caption": "A winged angel supports the reclining Saint Francis in a dark wooded landscape, with light catching the saint's face, brown habit and open hand.",
+    "caption": "An angel with a large feathered wing, bare-shouldered in white cloth, holds the reclining Saint Francis, who lies across the foreground in a brown habit with a cord at the waist. Light falls on his face, his robe and the upturned hand at his side. The rest is darkness and foliage, with a few streaks of light in the sky at left.",
     "movement": "Italian Baroque painting"
   },
   "wikidata-Q2610675": {
@@ -10611,7 +10621,7 @@
     "artistSort": "Greco, El (studio of)",
     "title": "The Agony in the Garden of Gethsemane",
     "collectionURL": "https://www.nationalgallery.org.uk/paintings/studio-of-el-greco-the-agony-in-the-garden-of-gethsemane",
-    "caption": "Christ kneels with open hands before an angel holding a chalice, while disciples sleep at the left and armed figures approach from the right."
+    "caption": "Christ kneels in pink and deep red over a blue cloak, with his face lifted and his hands held open. At upper left a winged angel in yellow holds a gold chalice. Below the angel three disciples huddle in a dark hollow. At the far right a small group carries tall poles, three of them topped with flames, and a moon shows among clouds at upper right."
   },
   "wikidata-Q2697937": {
     "tags": [
@@ -10988,7 +10998,7 @@
     "year": 1590,
     "collection": "Museu Nacional d’Art de Catalunya, Barcelona",
     "collectionURL": "https://www.museunacional.cat/en/colleccio/saint-peter-and-saint-paul/domenikos-theotokopoulos-el-greco/005083-000",
-    "caption": "Peter in ochre and Paul in rose and green stand beneath a clouded sky, their hands crossing without touching beside Paul’s upright sword."
+    "caption": "Peter, in an ochre mantle, and Paul, in a rose-red cloak over a bright green garment, stand before grey clouds, with a patch of blue behind Peter's head. Their arms cross between them. A long sword stands upright against Paul's green garment, hilt at the top."
   },
   "wikidata-Q2843410": {
     "tags": [
@@ -19720,7 +19730,9 @@
     "tags": [
       "religious"
     ],
-    "caption": "Two apostles stand side by side: at the left, grey-haired Peter in an ochre-gold mantle, holding a key low at his side, and at the right, dark-bearded Paul in a red mantle, looking straight at us. Between them Peter cups one hand while Paul stretches out an open hand, and Paul's other hand rests on the pages of an open book lying on a table beside a dark bottle."
+    "caption": "Two bearded men are shown side by side. Peter, at left, grey-haired and wrapped in a yellow-ochre mantle, looks off to our right, with one hand curled in front of him. Paul, at right, dark-bearded in a red mantle, looks straight out. One of his hands is held open and the other presses on an open book, on a table with a dark bottle. Below the open hand, another holds a metal ring that hangs from its fingers.",
+    "dateDisplay": "1587–1592",
+    "collectionURL": "https://www.hermitagemuseum.org/digital-collection/32730?lng=en"
   },
   "wikidata-Q9396822": {
     "tags": [
@@ -20627,9 +20639,10 @@
   },
   "met-435853": {
     "tags": [
+      "music",
       "religious"
     ],
-    "caption": "A young man and a grey-bearded elder hold a crown over the Virgin beneath a white dove, while angels with a flute and stringed instruments sit on clouds to either side.",
+    "caption": "The Virgin, in blue over rose, sits with open hands and lowered eyes as Christ at left and God the Father at right lower a gold crown onto her head. A white dove hovers above. Angels with stringed instruments and a pipe sit at both sides, and rows of faint angels sit on clouds in a golden sky.",
     "title": "The Coronation of the Virgin",
     "artist": "Annibale Carracci",
     "artistSort": "Carracci, Annibale",
