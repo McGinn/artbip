@@ -26,6 +26,14 @@ class VisualReviewTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             audit.inventory({"turner": {"details": []}}, self.manifest)
 
+    def test_pinning_the_image_hash_keeps_reviews_current(self):
+        manifest = copy.deepcopy(self.manifest)
+        manifest['works'][0]['image']['sha256'] = 'a'*64
+        items = audit.inventory(self.info, manifest)
+        self.assertEqual([i['fingerprint'] for i in items], [i['fingerprint'] for i in self.items])
+        manifest['works'][0]['image']['url'] = 'https://example.invalid/other.jpg'
+        self.assertNotEqual(audit.inventory(self.info, manifest)[0]['fingerprint'], self.items[0]['fingerprint'])
+
     def test_excluded_work_text_is_kept_but_not_audited(self):
         info = copy.deepcopy(self.info)
         info['entries']['withheld'] = {'details': [{'text': 'A diner at night.', 'cite': []}]}

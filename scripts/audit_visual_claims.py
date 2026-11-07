@@ -45,6 +45,8 @@ def inventory(info, manifest, excluded=frozenset()):
         work = works.get(work_id, {'id': work_id})
         image = work.get('image', {})
         identity = {key: work.get(key) for key in ('id', 'title', 'artist', 'image')}
+        # The pinned hash records which file was reviewed elsewhere; adding it changes no claim.
+        if identity['image']: identity['image'] = {k: v for k, v in identity['image'].items() if k != 'sha256'}
         key = f'{work_id}/{section}/{index}'
         flags = [name for name, pattern in SIGNALS.items() if re.search(pattern, text, re.I)]
         if section == 'symbol': flags.append('symbol binding')
