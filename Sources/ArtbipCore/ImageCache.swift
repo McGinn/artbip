@@ -162,15 +162,15 @@ public actor ImageCache {
         return thumb
     }
 
-    /// The source's file if it's the reviewed one. If it has changed or gone for
-    /// good, the same bytes from the mirror; a network failure stays one, to retry.
+    /// The source's file if it's the reviewed one. If it has changed, gone or can't
+    /// be reached, the same bytes from the mirror; else the source's own failure.
     private func reviewedOriginal(_ url: URL, for work: ManifestWork) async throws -> Data {
-        let problem: ImageUnavailable
+        let problem: Error
         do {
             let fetched = try await download(url, for: work)
             if Thumbs.imageSize(of: fetched) != nil, work.image.matches(fetched) { return fetched }
             problem = ImageUnavailable(work, Thumbs.imageSize(of: fetched) == nil ? "not an image" : "the image has changed")
-        } catch let error as ImageUnavailable {
+        } catch where !Task.isCancelled {
             problem = error
         }
         guard let mirror = work.image.mirrorURL, let data = try? await http.get(mirror, cache: false),
