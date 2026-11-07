@@ -17168,7 +17168,7 @@
     {
       "artist" : "Jan Brueghel (I)",
       "artistSort" : "(I), Jan Brueghel",
-      "caption" : "Narcissi and columbines crowd a small glass of water while a butterfly, ladybird, and other insects occupy the flowers and tabletop. The costly profusion would have appeared exceptionally lavish to a seventeenth-century viewer.",
+      "caption" : "White narcissi, one large frilled pink-and-white flower and sprays of blue blossoms crowd a small glass on a brown tabletop. A butterfly clings to the top of the bunch, a ladybird sits on a leaf just above the rim of the glass, and a winged insect stands on the table at lower right.",
       "collection" : "Rijksmuseum",
       "collectionURL" : "https://www.rijksmuseum.nl/en/collection/SK-A-2102",
       "dateDisplay" : "c. 1602",
@@ -25853,10 +25853,10 @@
       "artist" : "Caravaggio",
       "artistDeathYear" : 1610,
       "artistSort" : "Caravaggio",
-      "caption" : "A winged angel holds a curling banner above Mary and the infant lying on a cloth over straw. Figures gather around them in the dark stable, their faces, hands and robes picked out by light; an ox stands behind Mary.",
-      "collection" : "Oratory of San Lorenzo, Palermo",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q1433194",
-      "dateDisplay" : "1600",
+      "caption" : "An angel dives out of the dark, one arm pointing up, trailing a lettered banner. Below, Mary sits with her head bowed above a newborn lying on a pale cloth over straw. A horned animal, probably an ox, lowers its head beside her, and four men stand or sit around them.",
+      "collection" : "Formerly Oratory of San Lorenzo, Palermo (stolen 1969; whereabouts unknown)",
+      "collectionURL" : "",
+      "dateDisplay" : "c. 1600",
       "id" : "wikidata-Q1433194",
       "image" : {
         "format" : "jpeg",
@@ -25880,6 +25880,7 @@
         "sitelinks" : 13
       },
       "tags" : [
+        "animals",
         "narrative",
         "religious"
       ],
@@ -26007,10 +26008,10 @@
       "artist" : "Caravaggio",
       "artistDeathYear" : 1610,
       "artistSort" : "Caravaggio",
-      "caption" : "Saul shields his eyes on the ground as Christ reaches down from the upper right, supported by an angel. A soldier and a restless horse crowd the space between them in Caravaggio’s first version of the conversion.",
-      "collection" : "House of Odescalchi",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q1448203",
-      "dateDisplay" : "1600s",
+      "caption" : "Saul lies on the ground with both hands pressed over his face, while Christ leans down from the upper right with open hands, held by a dark-winged angel. Between them a bearded man in a plumed helmet grips a spear beside a pale horse.",
+      "collection" : "Collection of Nicoletta Odescalchi, Rome",
+      "collectionURL" : "https://barberinicorsini.org/en/evento/conversion-of-saul/",
+      "dateDisplay" : "c. 1600–1601",
       "id" : "wikidata-Q1448203",
       "image" : {
         "format" : "jpeg",
@@ -26033,6 +26034,7 @@
         "sitelinks" : 8
       },
       "tags" : [
+        "animals",
         "religious"
       ],
       "title" : "The Conversion of Saint Paul",
@@ -26043,10 +26045,10 @@
       "artist" : "Caravaggio",
       "artistDeathYear" : 1610,
       "artistSort" : "Caravaggio",
-      "caption" : "The angel descends from the darkness at upper left, one hand extended toward Mary. She bows her head beside a bed, her blue cloak and the angel’s pale drapery emerging from the sparsely furnished room.",
+      "caption" : "An angel in white drapery, with dark wings, drops from the upper left above a bank of cloud, one arm stretched down with a finger pointing and a lily beside the head. Below at right, Mary kneels with her head bowed, in a veil and blue mantle, her hands at her chest. Behind her are a bed and part of a chair; a pale cloth lies on the floor in front.",
       "collection" : "Museum of Fine Arts of Nancy",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q1448728",
-      "dateDisplay" : "17th century",
+      "collectionURL" : "https://collections-mba.nancy.fr/r/421bc8bb-e255-4050-8822-117757a4000f",
+      "dateDisplay" : "c. 1607–1610",
       "id" : "wikidata-Q1448728",
       "image" : {
         "format" : "jpeg",
@@ -26074,7 +26076,7 @@
       ],
       "title" : "Annunciation",
       "wikidata" : "Q1448728",
-      "year" : 1601
+      "year" : 1607
     },
     {
       "artist" : "Caspar David Friedrich",
@@ -29453,7 +29455,7 @@
       "artist" : "El Greco",
       "artistDeathYear" : 1614,
       "artistSort" : "Greco, El",
-      "caption" : "Mary turns from an open book toward an angel standing on a cloud, his broad grey-and-black wings spread behind a golden robe. A white dove hovers between them; lilies rise beside the angel, while a sewing basket and a small vase sit near Mary’s feet.",
+      "caption" : "Mary, one hand on an open book and the other raised, looks up toward an angel in a golden-yellow robe, whose black-and-white wings spread above a bank of cloud. A white dove flies between them and white lilies rise in front of the angel. A sewing basket and a small vase sit at the bottom.",
       "collection" : "Museum of Fine Arts, Budapest",
       "collectionURL" : "https://www.mfab.hu/artworks/8732/",
       "dateDisplay" : "c. 1600",
@@ -39979,10 +39981,10 @@
       "artist" : "Caravaggio",
       "artistDeathYear" : 1610,
       "artistSort" : "Caravaggio",
-      "caption" : "David bends over Goliath's body, tying a cord around the hair of the severed head. Light catches the boy's bare shoulder, bent arms and pale clothing, leaving much of the giant and the surrounding space in darkness.",
+      "caption" : "David kneels on Goliath's body and bends over it, tying a cord into the hair of the severed head with both hands. Light falls on his bare shoulder, arm and leg and on his pale clothes. The head lies at the lower right, eyes open and forehead cut, while the giant's half-lit torso sinks into the dark at its far end.",
       "collection" : "Museo del Prado",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q2270955",
-      "dateDisplay" : "1600",
+      "collectionURL" : "https://www.museodelprado.es/en/the-collection/art-work/david-with-the-head-of-goliath/c3895900-73d4-4257-97fb-240e3aaf0402",
+      "dateDisplay" : "c. 1600",
       "id" : "wikidata-Q2270955",
       "image" : {
         "format" : "jpeg",
@@ -40054,10 +40056,10 @@
       "artist" : "Caravaggio",
       "artistDeathYear" : 1610,
       "artistSort" : "Caravaggio",
-      "caption" : "Saul lies on a red cloak with his eyes closed and both arms raised beneath a large brown-and-white horse. The animal bends its head and lifts one foreleg as an older attendant holds its bridle. Brightly lit bodies and hands emerge from the dark background.",
+      "caption" : "Saul lies on his back on an orange-red cloth, eyes closed and both arms lifted wide, beneath a large brown-and-white horse. The horse bends its head and lifts one foreleg while a balding man with a furrowed brow holds its bridle. A sword and a plumed helmet lie on the ground beside Saul.",
       "collection" : "Santa Maria del Popolo",
-      "collectionURL" : "https://barberinicorsini.org/en/evento/conversion-of-saul/",
-      "dateDisplay" : "1600–1601",
+      "collectionURL" : "https://catalogo.fondazionezeri.unibo.it/scheda/opera/47672/Merisi%20Michelangelo%2C%20Conversione%20di%20san%20Paolo",
+      "dateDisplay" : "c. 1601",
       "id" : "wikidata-Q2273517",
       "image" : {
         "format" : "jpeg",
@@ -40086,7 +40088,7 @@
       ],
       "title" : "Conversion on the Way to Damascus",
       "wikidata" : "Q2273517",
-      "year" : 1600
+      "year" : 1601
     },
     {
       "artist" : "Jacopo Tintoretto",
@@ -42590,10 +42592,10 @@
       "artist" : "Caravaggio",
       "artistDeathYear" : 1610,
       "artistSort" : "Caravaggio",
-      "caption" : "A young woman with dark hair drawn up and pearl drop earrings looks straight out, pressing a small sprig of white flowers and dark leaves to the front of her bodice. She wears a full white blouse under a dark, embroidered bodice, and a bracelet of dark and pale beads circles her wrist. She may be the courtesan Fillide Melandroni; the original canvas is lost and is known only from black-and-white photographs like this one.",
-      "collection" : "Gemäldegalerie Berlin",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q2395137",
-      "dateDisplay" : "1601",
+      "caption" : "A young woman with her hair piled high and a pair of pear-shaped drop earrings glances just past the viewer, holding a small flowering sprig at the neckline of her bodice. She wears a full-sleeved blouse under an embroidered bodice, and a bracelet of large stones and small round beads circles her wrist. The image is a black-and-white photograph of a canvas now lost.",
+      "collection" : "Formerly Gemäldegalerie, Berlin; lost, probably destroyed 1945",
+      "collectionURL" : "https://recherche.smb.museum/detail/866588",
+      "dateDisplay" : "c. 1590 or c. 1598",
       "id" : "wikidata-Q2395137",
       "image" : {
         "format" : "jpeg",
@@ -42621,7 +42623,7 @@
       ],
       "title" : "Portrait of a Courtesan",
       "wikidata" : "Q2395137",
-      "year" : 1601
+      "year" : 1590
     },
     {
       "artist" : "Jean-Auguste-Dominique Ingres",
@@ -43070,9 +43072,9 @@
       "artist" : "Caravaggio",
       "artistDeathYear" : 1610,
       "artistSort" : "Caravaggio",
-      "caption" : "Christ guides Thomas’s hand toward the wound in his side as two other disciples lean close to watch. Light from the left catches Christ’s bare chest, the joined hands and the men’s furrowed brows against a dark background. Thomas bends forward in a worn brown garment.",
+      "caption" : "Christ holds back a pale robe from his bare chest and guides Thomas's hand, one finger entering the wound in his side. Thomas leans in with a dark cloak over his back, his rose-tan tunic torn at the shoulder and his free hand on his hip. Behind him a balding disciple with a grey beard and a dark-haired man in a red-brown cloak bend close, against a plain dark background.",
       "collection" : "Sanssouci Picture Gallery",
-      "collectionURL" : "https://www.spsg.de/forschung-sammlungen/sammlungen/ausleih-index",
+      "collectionURL" : "https://brandenburg.museum-digital.de/object/11898",
       "dateDisplay" : "c. 1601",
       "id" : "wikidata-Q2419166",
       "image" : {
@@ -56858,7 +56860,7 @@
       "artist" : "El Greco",
       "artistDeathYear" : 1614,
       "artistSort" : "Greco, El",
-      "caption" : "Christ twists between recoiling traders and calmer apostles, his raised arm and blue drapery setting the central figure apart from the crowded temple scene.",
+      "caption" : "Christ stands at the centre of a columned hall in a crimson and pink robe with a blue mantle, one arm raised and what look like cords gripped in his fist. On the left, figures bend and flinch away among baskets and cloth. On the right, several older men lean together and look on. Through the arch behind him, pale buildings rise against a blue sky.",
       "collection" : "National Gallery",
       "collectionURL" : "https://www.nationalgallery.org.uk/paintings/el-greco-christ-driving-the-traders-from-the-temple",
       "dateDisplay" : "c. 1600",
@@ -73438,10 +73440,10 @@
       "artist" : "El Greco",
       "artistDeathYear" : 1614,
       "artistSort" : "Greco, El",
-      "caption" : "A white dove sends rays of light down from the top of the arched canvas, and small flames hover over the heads of the crowd below. The Virgin Mary sits at the centre in a blue mantle and deep red robe, hands joined in prayer and face turned upward, with a woman in a grey veil beside her and the apostles crowded round; at the upper left a man raises an open hand. In the foreground two apostles, one in green and dark red seen from behind, the other in blue and gold, throw out their arms and look up.",
+      "caption" : "A white dove sends rays of light down from the top of the arched scene, and small flames hover over the heads of the crowd below. The Virgin sits at the centre in a blue mantle and deep red robe, hands joined and face turned upward, with a woman in a grey veil beside her and the apostles crowded round; at the upper left a man raises an open hand. In the foreground two apostles are seen from behind: one in green and dark red raises both hands, the other in blue and gold reaches across with one arm.",
       "collection" : "Museo del Prado",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q6071513",
-      "dateDisplay" : "1600",
+      "collectionURL" : "https://www.museodelprado.es/en/the-collection/art-work/pentecost/f83b921d-2380-4dc9-8532-b3c597dab1e8",
+      "dateDisplay" : "c. 1600",
       "id" : "wikidata-Q6071513",
       "image" : {
         "format" : "jpeg",
@@ -73735,10 +73737,10 @@
       "artist" : "Peter Paul Rubens",
       "artistDeathYear" : 1640,
       "artistSort" : "Rubens, Peter Paul",
-      "caption" : "Pax, the nude woman at the centre, presses her breast as a small child reaches up to her, while behind her the helmeted Minerva pushes back the armoured Mars, with what is probably a Fury beside him. A kneeling satyr holds out a horn of fruit towards a group of children, a leopard rolls on the ground, and at the left two women carry a tambourine and a gold vessel.",
+      "caption" : "Pax, bare-breasted at the centre, presses her breast as the child Plutus reaches up to her, while behind her the helmeted Minerva pushes back the armoured Mars, with what is probably a Fury beyond him. A goat-legged satyr holds out a horn of fruit towards a group of children, a leopard rolls on the ground, and at the left two women carry a tambourine and a gold vessel.",
       "collection" : "National Gallery",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q611583",
-      "dateDisplay" : "17th century",
+      "collectionURL" : "https://www.nationalgallery.org.uk/paintings/NG46",
+      "dateDisplay" : "1629-30",
       "id" : "wikidata-Q611583",
       "image" : {
         "format" : "jpeg",
@@ -73761,11 +73763,15 @@
         "sitelinks" : 10
       },
       "tags" : [
-        "mythological"
+        "allegorical",
+        "animals",
+        "mythological",
+        "nsfw",
+        "nude"
       ],
       "title" : "Minerva Protects Pax from Mars",
       "wikidata" : "Q611583",
-      "year" : 1601
+      "year" : 1629
     },
     {
       "artist" : "El Greco",
@@ -76183,10 +76189,10 @@
       "artist" : "Caravaggio",
       "artistDeathYear" : 1610,
       "artistSort" : "Caravaggio",
-      "caption" : "Three labourers struggle to raise a heavy wooden cross to which the old, white-bearded Peter is already nailed, his head lower than his feet. One hauls on a rope over his shoulder with his back to us, another grips the cross beside Peter's feet, and a third crouches underneath, bearing it up on his back while one hand reaches for a spade on the rocky ground. Peter, naked but for a white loincloth, lifts his head and shoulders from the beam.",
+      "caption" : "Three men raise a wooden cross to which an old, white-bearded Peter is already nailed, his head lower than his feet. One hauls on a rope over his shoulder with his back to us, another grips the beam beside Peter's feet, and a third crouches underneath, taking the weight on his back with one hand down by what looks like a spade on the rocky ground. Peter, naked but for a white loincloth, lifts his head and shoulders from the beam.",
       "collection" : "Santa Maria del Popolo",
       "collectionURL" : "https://www.wikidata.org/wiki/Q685916",
-      "dateDisplay" : "1600",
+      "dateDisplay" : "1601",
       "id" : "wikidata-Q685916",
       "image" : {
         "format" : "jpeg",
@@ -76214,7 +76220,7 @@
       ],
       "title" : "Crucifixion of Saint Peter",
       "wikidata" : "Q685916",
-      "year" : 1600
+      "year" : 1601
     },
     {
       "artist" : "Pieter Bruegel the Elder",
@@ -80174,10 +80180,10 @@
       "artist" : "Peter Paul Rubens",
       "artistDeathYear" : 1640,
       "artistSort" : "Rubens, Peter Paul",
-      "caption" : "Already wearing the crown of thorns, Christ faces the viewer with his hands bound. A red cloak is lifted behind his wounded shoulders, its folds setting off the pale torso and the dark figures crowded at either side.",
+      "caption" : "Wearing the crown of thorns, Christ faces the viewer, bare-chested with a white cloth at his hips, his head tilted back and his arms drawn behind him. Scratches and thin runs of blood mark his wounded shoulders. A raised arm lifts a red robe behind him, while a bearded old man in red points from the left and a man in a plumed metal helmet looks out from the right.",
       "collection" : "Hermitage Museum",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q9191570",
-      "dateDisplay" : "17th century",
+      "collectionURL" : "https://www.hermitagemuseum.org/digital-collection/48347?lng=en",
+      "dateDisplay" : "not later than 1612",
       "id" : "wikidata-Q9191570",
       "image" : {
         "format" : "jpeg",
@@ -80204,7 +80210,7 @@
       ],
       "title" : "Crown of Thorns",
       "wikidata" : "Q9191570",
-      "year" : 1601
+      "year" : 1612
     },
     {
       "artist" : "Raphael",
@@ -81564,10 +81570,10 @@
       "artist" : "Caravaggio",
       "artistDeathYear" : 1610,
       "artistSort" : "Caravaggio",
-      "caption" : "Alof de Wignacourt stands in gleaming armour while his page holds a plumed helmet beside him. The Grand Master looks beyond the frame, but the boy turns towards us, creating a more direct connection with the viewer.",
-      "collection" : "Department of Paintings of the Louvre",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q945164",
-      "dateDisplay" : "1600",
+      "caption" : "Alof de Wignacourt stands in gold-trimmed armour, holding a long gold baton low across his body in both hands and looking off to the right. Beside him a boy in dark clothes and red stockings holds a red- and white-plumed helmet. The boy has turned his head to look straight out at us.",
+      "collection" : "Musée du Louvre, Paris",
+      "collectionURL" : "https://collections.louvre.fr/ark:/53355/cl010062328",
+      "dateDisplay" : "c. 1608",
       "id" : "wikidata-Q945164",
       "image" : {
         "format" : "jpeg",
@@ -81595,7 +81601,7 @@
       ],
       "title" : "Portrait of Alof de Wignacourt and his Page",
       "wikidata" : "Q945164",
-      "year" : 1600
+      "year" : 1608
     },
     {
       "artist" : "Pietro Perugino",

@@ -2498,7 +2498,7 @@
       "flowers",
       "still-life"
     ],
-    "caption": "Narcissi and columbines crowd a small glass of water while a butterfly, ladybird, and other insects occupy the flowers and tabletop. The costly profusion would have appeared exceptionally lavish to a seventeenth-century viewer."
+    "caption": "White narcissi, one large frilled pink-and-white flower and sprays of blue blossoms crowd a small glass on a brown tabletop. A butterfly clings to the top of the bunch, a ladybird sits on a leaf just above the rim of the glass, and a winged insect stands on the table at lower right."
   },
   "rijks-200138946": {
     "tags": [
@@ -4643,11 +4643,15 @@
   },
   "wikidata-Q1433194": {
     "tags": [
+      "animals",
       "narrative",
       "religious"
     ],
-    "caption": "A winged angel holds a curling banner above Mary and the infant lying on a cloth over straw. Figures gather around them in the dark stable, their faces, hands and robes picked out by light; an ox stands behind Mary.",
-    "movement": "Baroque"
+    "caption": "An angel dives out of the dark, one arm pointing up, trailing a lettered banner. Below, Mary sits with her head bowed above a newborn lying on a pale cloth over straw. A horned animal, probably an ox, lowers its head beside her, and four men stand or sit around them.",
+    "movement": "Baroque",
+    "dateDisplay": "c. 1600",
+    "collection": "Formerly Oratory of San Lorenzo, Palermo (stolen 1969; whereabouts unknown)",
+    "collectionURL": ""
   },
   "wikidata-Q1437492": {
     "tags": [
@@ -4684,16 +4688,23 @@
   },
   "wikidata-Q1448203": {
     "tags": [
+      "animals",
       "religious"
     ],
-    "caption": "Saul shields his eyes on the ground as Christ reaches down from the upper right, supported by an angel. A soldier and a restless horse crowd the space between them in Caravaggio’s first version of the conversion."
+    "caption": "Saul lies on the ground with both hands pressed over his face, while Christ leans down from the upper right with open hands, held by a dark-winged angel. Between them a bearded man in a plumed helmet grips a spear beside a pale horse.",
+    "dateDisplay": "c. 1600–1601",
+    "collection": "Collection of Nicoletta Odescalchi, Rome",
+    "collectionURL": "https://barberinicorsini.org/en/evento/conversion-of-saul/"
   },
   "wikidata-Q1448728": {
     "tags": [
       "religious"
     ],
-    "caption": "The angel descends from the darkness at upper left, one hand extended toward Mary. She bows her head beside a bed, her blue cloak and the angel’s pale drapery emerging from the sparsely furnished room.",
-    "movement": "Italian Baroque painting"
+    "caption": "An angel in white drapery, with dark wings, drops from the upper left above a bank of cloud, one arm stretched down with a finger pointing and a lily beside the head. Below at right, Mary kneels with her head bowed, in a veil and blue mantle, her hands at her chest. Behind her are a bed and part of a chair; a pale cloth lies on the floor in front.",
+    "movement": "Italian Baroque painting",
+    "dateDisplay": "c. 1607–1610",
+    "year": 1607,
+    "collectionURL": "https://collections-mba.nancy.fr/r/421bc8bb-e255-4050-8822-117757a4000f"
   },
   "wikidata-Q1451490": {
     "tags": [
@@ -5603,7 +5614,7 @@
       "flowers",
       "religious"
     ],
-    "caption": "Mary turns from an open book toward an angel standing on a cloud, his broad grey-and-black wings spread behind a golden robe. A white dove hovers between them; lilies rise beside the angel, while a sewing basket and a small vase sit near Mary’s feet.",
+    "caption": "Mary, one hand on an open book and the other raised, looks up toward an angel in a golden-yellow robe, whose black-and-white wings spread above a bank of cloud. A white dove flies between them and white lilies rise in front of the angel. A sewing basket and a small vase sit at the bottom.",
     "dateDisplay": "c. 1600",
     "year": 1600,
     "collectionURL": "https://www.mfab.hu/artworks/8732/",
@@ -8571,8 +8582,10 @@
       "nsfw",
       "religious"
     ],
-    "caption": "David bends over Goliath's body, tying a cord around the hair of the severed head. Light catches the boy's bare shoulder, bent arms and pale clothing, leaving much of the giant and the surrounding space in darkness.",
-    "movement": "Baroque"
+    "caption": "David kneels on Goliath's body and bends over it, tying a cord into the hair of the severed head with both hands. Light falls on his bare shoulder, arm and leg and on his pale clothes. The head lies at the lower right, eyes open and forehead cut, while the giant's half-lit torso sinks into the dark at its far end.",
+    "movement": "Baroque",
+    "dateDisplay": "c. 1600",
+    "collectionURL": "https://www.museodelprado.es/en/the-collection/art-work/david-with-the-head-of-goliath/c3895900-73d4-4257-97fb-240e3aaf0402"
   },
   "wikidata-Q2272723": {
     "tags": [
@@ -8589,10 +8602,10 @@
       "animals",
       "religious"
     ],
-    "caption": "Saul lies on a red cloak with his eyes closed and both arms raised beneath a large brown-and-white horse. The animal bends its head and lifts one foreleg as an older attendant holds its bridle. Brightly lit bodies and hands emerge from the dark background.",
-    "dateDisplay": "1600–1601",
-    "year": 1600,
-    "collectionURL": "https://barberinicorsini.org/en/evento/conversion-of-saul/",
+    "caption": "Saul lies on his back on an orange-red cloth, eyes closed and both arms lifted wide, beneath a large brown-and-white horse. The horse bends its head and lifts one foreleg while a balding man with a furrowed brow holds its bridle. A sword and a plumed helmet lie on the ground beside Saul.",
+    "dateDisplay": "c. 1601",
+    "year": 1601,
+    "collectionURL": "https://catalogo.fondazionezeri.unibo.it/scheda/opera/47672/Merisi%20Michelangelo%2C%20Conversione%20di%20san%20Paolo",
     "movement": "Baroque"
   },
   "wikidata-Q2273890": {
@@ -9337,8 +9350,12 @@
     "tags": [
       "portrait"
     ],
-    "caption": "A young woman with dark hair drawn up and pearl drop earrings looks straight out, pressing a small sprig of white flowers and dark leaves to the front of her bodice. She wears a full white blouse under a dark, embroidered bodice, and a bracelet of dark and pale beads circles her wrist. She may be the courtesan Fillide Melandroni; the original canvas is lost and is known only from black-and-white photographs like this one.",
-    "movement": "Baroque"
+    "caption": "A young woman with her hair piled high and a pair of pear-shaped drop earrings glances just past the viewer, holding a small flowering sprig at the neckline of her bodice. She wears a full-sleeved blouse under an embroidered bodice, and a bracelet of large stones and small round beads circles her wrist. The image is a black-and-white photograph of a canvas now lost.",
+    "movement": "Baroque",
+    "dateDisplay": "c. 1590 or c. 1598",
+    "year": 1590,
+    "collection": "Formerly Gemäldegalerie, Berlin; lost, probably destroyed 1945",
+    "collectionURL": "https://recherche.smb.museum/detail/866588"
   },
   "wikidata-Q24011": {
     "tags": [
@@ -9455,10 +9472,10 @@
     "tags": [
       "religious"
     ],
-    "caption": "Christ guides Thomas’s hand toward the wound in his side as two other disciples lean close to watch. Light from the left catches Christ’s bare chest, the joined hands and the men’s furrowed brows against a dark background. Thomas bends forward in a worn brown garment.",
+    "caption": "Christ holds back a pale robe from his bare chest and guides Thomas's hand, one finger entering the wound in his side. Thomas leans in with a dark cloak over his back, his rose-tan tunic torn at the shoulder and his free hand on his hip. Behind him a balding disciple with a grey beard and a dark-haired man in a red-brown cloak bend close, against a plain dark background.",
     "dateDisplay": "c. 1601",
     "year": 1601,
-    "collectionURL": "https://www.spsg.de/forschung-sammlungen/sammlungen/ausleih-index",
+    "collectionURL": "https://brandenburg.museum-digital.de/object/11898",
     "movement": "Italian Baroque painting"
   },
   "wikidata-Q2420918": {
@@ -13625,7 +13642,7 @@
     "year": 1600,
     "artistDeathYear": 1614,
     "collectionURL": "https://www.nationalgallery.org.uk/paintings/el-greco-christ-driving-the-traders-from-the-temple",
-    "caption": "Christ twists between recoiling traders and calmer apostles, his raised arm and blue drapery setting the central figure apart from the crowded temple scene."
+    "caption": "Christ stands at the centre of a columned hall in a crimson and pink robe with a blue mantle, one arm raised and what look like cords gripped in his fist. On the left, figures bend and flinch away among baskets and cloth. On the right, several older men lean together and look on. Through the arch behind him, pale buildings rise against a blue sky."
   },
   "wikidata-Q3656034": {
     "tags": [
@@ -18033,8 +18050,10 @@
     "tags": [
       "religious"
     ],
-    "caption": "A white dove sends rays of light down from the top of the arched canvas, and small flames hover over the heads of the crowd below. The Virgin Mary sits at the centre in a blue mantle and deep red robe, hands joined in prayer and face turned upward, with a woman in a grey veil beside her and the apostles crowded round; at the upper left a man raises an open hand. In the foreground two apostles, one in green and dark red seen from behind, the other in blue and gold, throw out their arms and look up.",
-    "movement": "Mannerism"
+    "caption": "A white dove sends rays of light down from the top of the arched scene, and small flames hover over the heads of the crowd below. The Virgin sits at the centre in a blue mantle and deep red robe, hands joined and face turned upward, with a woman in a grey veil beside her and the apostles crowded round; at the upper left a man raises an open hand. In the foreground two apostles are seen from behind: one in green and dark red raises both hands, the other in blue and gold reaches across with one arm.",
+    "movement": "Mannerism",
+    "dateDisplay": "c. 1600",
+    "collectionURL": "https://www.museodelprado.es/en/the-collection/art-work/pentecost/f83b921d-2380-4dc9-8532-b3c597dab1e8"
   },
   "wikidata-Q607598": {
     "tags": [
@@ -18093,9 +18112,16 @@
   },
   "wikidata-Q611583": {
     "tags": [
-      "mythological"
+      "allegorical",
+      "animals",
+      "mythological",
+      "nsfw",
+      "nude"
     ],
-    "caption": "Pax, the nude woman at the centre, presses her breast as a small child reaches up to her, while behind her the helmeted Minerva pushes back the armoured Mars, with what is probably a Fury beside him. A kneeling satyr holds out a horn of fruit towards a group of children, a leopard rolls on the ground, and at the left two women carry a tambourine and a gold vessel."
+    "caption": "Pax, bare-breasted at the centre, presses her breast as the child Plutus reaches up to her, while behind her the helmeted Minerva pushes back the armoured Mars, with what is probably a Fury beyond him. A goat-legged satyr holds out a horn of fruit towards a group of children, a leopard rolls on the ground, and at the left two women carry a tambourine and a gold vessel.",
+    "dateDisplay": "1629-30",
+    "year": 1629,
+    "collectionURL": "https://www.nationalgallery.org.uk/paintings/NG46"
   },
   "wikidata-Q6116827": {
     "tags": [
@@ -18622,8 +18648,10 @@
     "tags": [
       "religious"
     ],
-    "caption": "Three labourers struggle to raise a heavy wooden cross to which the old, white-bearded Peter is already nailed, his head lower than his feet. One hauls on a rope over his shoulder with his back to us, another grips the cross beside Peter's feet, and a third crouches underneath, bearing it up on his back while one hand reaches for a spade on the rocky ground. Peter, naked but for a white loincloth, lifts his head and shoulders from the beam.",
-    "movement": "Italian Baroque painting"
+    "caption": "Three men raise a wooden cross to which an old, white-bearded Peter is already nailed, his head lower than his feet. One hauls on a rope over his shoulder with his back to us, another grips the beam beside Peter's feet, and a third crouches underneath, taking the weight on his back with one hand down by what looks like a spade on the rocky ground. Peter, naked but for a white loincloth, lifts his head and shoulders from the beam.",
+    "movement": "Italian Baroque painting",
+    "dateDisplay": "1601",
+    "year": 1601
   },
   "wikidata-Q686107": {
     "tags": [
@@ -19496,7 +19524,10 @@
     "tags": [
       "religious"
     ],
-    "caption": "Already wearing the crown of thorns, Christ faces the viewer with his hands bound. A red cloak is lifted behind his wounded shoulders, its folds setting off the pale torso and the dark figures crowded at either side."
+    "caption": "Wearing the crown of thorns, Christ faces the viewer, bare-chested with a white cloth at his hips, his head tilted back and his arms drawn behind him. Scratches and thin runs of blood mark his wounded shoulders. A raised arm lifts a red robe behind him, while a bearded old man in red points from the left and a man in a plumed metal helmet looks out from the right.",
+    "dateDisplay": "not later than 1612",
+    "year": 1612,
+    "collectionURL": "https://www.hermitagemuseum.org/digital-collection/48347?lng=en"
   },
   "wikidata-Q919861": {
     "tags": [
@@ -19821,8 +19852,12 @@
     "tags": [
       "portrait"
     ],
-    "caption": "Alof de Wignacourt stands in gleaming armour while his page holds a plumed helmet beside him. The Grand Master looks beyond the frame, but the boy turns towards us, creating a more direct connection with the viewer.",
-    "movement": "Italian Baroque painting"
+    "caption": "Alof de Wignacourt stands in gold-trimmed armour, holding a long gold baton low across his body in both hands and looking off to the right. Beside him a boy in dark clothes and red stockings holds a red- and white-plumed helmet. The boy has turned his head to look straight out at us.",
+    "movement": "Italian Baroque painting",
+    "dateDisplay": "c. 1608",
+    "year": 1608,
+    "collection": "Musée du Louvre, Paris",
+    "collectionURL": "https://collections.louvre.fr/ark:/53355/cl010062328"
   },
   "wikidata-Q945250": {
     "tags": [
