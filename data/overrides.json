@@ -407,7 +407,8 @@
       "animals",
       "still-life"
     ],
-    "movement": null
+    "movement": null,
+    "caption": "Four game birds hang by their heads on cords in a dark recess, beside a quince and a cabbage on cords of their own. On the pale ledge below lie a cut melon with a wedge beside it and two other green fruits or vegetables, lit strongly from the left."
   },
   "artic-869": {
     "tags": [
@@ -817,11 +818,10 @@
   "met-435844": {
     "tags": [
       "allegorical",
-      "everyday-life",
-      "portrait",
+      "music",
       "self-portrait"
     ],
-    "caption": "Four boys in loose classical robes crowd together. At the centre one in a white shirt and a red mantle holds a lute, fingers on its strings, and looks out at us, while another behind him turns towards us with parted lips. At right a boy seen from behind, a white cloth slipping from his shoulder and a dark red sash at his waist, holds open a sheet of music. At left a winged boy with a quiver of arrows, dressed as Cupid, bends over a bunch of grapes, and a violin and bow lie on the cloth in front.",
+    "caption": "Four boys crowd together. At the centre one in a white shirt and red mantle holds a lute with his fingers on its strings and looks out at us, lips parted. Behind him another turns towards us, also with parted lips. At right a boy seen from behind, white cloth slipping from his shoulder and a dark red sash at his waist, holds open some sheets of music. At left a winged boy with arrows behind him bends over a bunch of grapes. A violin and bow lie on a white cloth at the front.",
     "movement": "Baroque"
   },
   "met-435851": {
@@ -999,14 +999,17 @@
   "met-436573": {
     "tags": [
       "portrait"
-    ]
+    ],
+    "caption": "A man with a grey beard and round, dark-rimmed spectacles sits in an armchair, in a shimmering rose-red cape, robe and peaked cap over a white garment edged with lace. A panelled door and a gold-patterned hanging fill the wall behind him, and a folded paper lies on the patterned floor by his feet.",
+    "year": 1600,
+    "movement": "Mannerism"
   },
   "met-436574": {
     "tags": [
-      "portrait",
-      "self-portrait"
+      "portrait"
     ],
-    "movement": "Mannerism"
+    "movement": "Mannerism",
+    "caption": "A balding man with a greying beard looks straight out from a dark ground. A white pleated ruff circles his neck, above a dark coat with a broad brown collar that looks like fur."
   },
   "met-436575": {
     "tags": [
@@ -1462,7 +1465,8 @@
   "met-438338": {
     "tags": [
       "religious"
-    ]
+    ],
+    "caption": "Men hold up the pale, bare-chested body of Christ against deep shadow, his head fallen back. At left a youth grips a tall shaft, a man in red bends under the legs and a balding old man leans in. A turbaned man stands behind, a woman sits apart at lower right with folded hands and red cloth around her, and a patch of blue sky opens at upper right."
   },
   "met-438417": {
     "tags": [
@@ -1535,7 +1539,8 @@
   "met-48948": {
     "tags": [
       "religious"
-    ]
+    ],
+    "caption": "One section of a long handscroll. An old, white-haired Buddhist holy man wrapped in a pale mantle tied at the neck sits in the hollow of a huge, twisting tree. To the right, a second holy man, balding and dressed in white, holds prayer beads and lifts his other hand."
   },
   "met-49156": {
     "tags": [
@@ -1638,9 +1643,10 @@
   },
   "nga-1164": {
     "tags": [
+      "animals",
       "religious"
     ],
-    "caption": "Saint Martin sits high on a white horse, lowering part of his green cloak toward the nearly nude beggar. Gold-edged armor and monumental figures rise above a distant view of Toledo.",
+    "caption": "Saint Martin, in gold-worked armour and a white ruff, sits on a white horse with a sword at his bright green cloak. A nearly nude man standing at left holds part of the cloth. Beneath the horse is a small distant view of Toledo, and blue sky and white cloud fill the space above.",
     "movement": "Mannerism"
   },
   "nga-1179": {
@@ -1652,6 +1658,7 @@
   "nga-1181": {
     "tags": [
       "narrative",
+      "nsfw",
       "religious"
     ],
     "caption": "Judith, in a white gown and a blue mantle, stands at the opening of a pink tent and looks away to the right. With one hand she lowers a severed head into a sack held open by a turbaned servant; in the other she holds a sword, point down. Behind her, a bare foot sticks up from a bed."
@@ -1830,7 +1837,7 @@
     "tags": [
       "landscape"
     ],
-    "caption": "A long boat carrying several figures glides beneath towering foreground trees. Carracci uses their deep shadow to frame a river, sunlit fields, and hazy mountains beyond."
+    "caption": "On a river, a long, low boat carrying four people passes behind a dark, leaning tree trunk. A cluster of trees stands in shadow at left. Beyond them, sunlit banks fade to a pale town and hazy blue mountains."
   },
   "nga-432": {
     "tags": [
@@ -1868,7 +1875,8 @@
   "nga-46159": {
     "tags": [
       "portrait"
-    ]
+    ],
+    "caption": "A young woman looks straight out from a huge lace-edged ruff, in a pale satin gown worked with silver and gold. A red curtain hangs behind her, and the gown runs off the bottom edge of the canvas."
   },
   "nga-46303": {
     "tags": [
@@ -2043,8 +2051,12 @@
   },
   "nga-71349": {
     "tags": [
-      "mythological"
-    ]
+      "animals",
+      "mythological",
+      "nsfw",
+      "nude"
+    ],
+    "caption": "A man falls headfirst from an ornate chariot, with a loose wheel below it and flames beneath him. Horses rear and tumble around him among winged figures and nude women. A broad shaft of pale light cuts down from the upper right."
   },
   "nga-72328": {
     "tags": [
@@ -2346,16 +2358,21 @@
   "rijks-200109195": {
     "tags": [
       "nsfw",
+      "nude",
       "religious"
-    ]
+    ],
+    "caption": "Naked soldiers attack women and children outside a city gate. At lower left a soldier holds a blade to a child's throat. Above him a woman in yellow grips a fallen soldier's arm while fingers press on his eyes. Further back, more figures run and fall.",
+    "movement": "Mannerism"
   },
   "rijks-200109196": {
     "tags": [
+      "animals",
       "nsfw",
       "nude",
       "religious"
     ],
-    "caption": "Adam and Eve accept the forbidden fruit from a serpent with a human torso while God warns them from a cloud in the distance. A monkey, cat, dog, hedgehog, frog, fox, owl, and slugs crowd their richly imagined Paradise."
+    "caption": "Adam and Eve stand naked on either side of a tree, each with a hand on the apple between them. A serpent with a fair-haired human upper body leans down from the trunk. Animals fill the ground around them, among them a dog, a fox and a monkey hugging a cat.",
+    "movement": "Mannerism"
   },
   "rijks-200109201": {
     "tags": [
@@ -2490,7 +2507,7 @@
       "flowers",
       "still-life"
     ],
-    "caption": "Narcissi and columbines crowd a small glass of water while a butterfly, ladybird, and other insects occupy the flowers and tabletop. The costly profusion would have appeared exceptionally lavish to a seventeenth-century viewer."
+    "caption": "White narcissi, one large frilled pink-and-white flower and sprays of blue blossoms crowd a small glass on a brown tabletop. A butterfly clings to the top of the bunch, a ladybird sits on a leaf just above the rim of the glass, and a winged insect stands on the table at lower right."
   },
   "rijks-200138946": {
     "tags": [
@@ -2988,7 +3005,7 @@
     "dateDisplay": "probably late 1607–early 1608",
     "year": 1607,
     "collectionURL": "https://ktieb.org.mt/app/uploads/2025/03/Caravaggio-in-Malta-Midsea-Books.pdf",
-    "movement": "Italian Baroque painting"
+    "movement": "Baroque"
   },
   "wikidata-Q1113763": {
     "tags": [
@@ -3121,7 +3138,8 @@
     "caption": "Christ bends his head beneath the crown of thorns as two men wield long staffs above him. Light catches his exposed torso and the polished armour of an observer whose back faces the viewer.",
     "dateDisplay": "c. 1603",
     "year": 1603,
-    "movement": "Baroque"
+    "movement": "Baroque",
+    "collectionURL": "https://www.khm.at/en/object/427/"
   },
   "wikidata-Q1117805": {
     "tags": [
@@ -3584,9 +3602,12 @@
   },
   "wikidata-Q11789741": {
     "tags": [
+      "animals",
+      "interior",
       "religious"
     ],
-    "caption": "Mary kneels beside the newborn Christ, whose radiance lights her face and open hands. Behind her, Joseph points out the child to shepherds at the doorway; an ox and donkey lean towards the manger."
+    "caption": "Mary kneels with both hands open, one stretched towards the child and the other lowered. He lies wrapped in blue on a white pillow in a hay-filled manger. An ox and a donkey lean in from the right. Behind her Joseph stands at a doorway, his head turned to the shepherds looking in, and points back into the room with one hand. A rough roof of poles and straw slopes overhead.",
+    "collectionURL": "https://www.museodelprado.es/en/the-collection/art-work/the-nativity/8cfdf439-9f30-4451-8be1-2f095f9e4e88"
   },
   "wikidata-Q11790258": {
     "tags": [
@@ -3617,11 +3638,11 @@
   },
   "wikidata-Q11824907": {
     "tags": [
-      "portrait",
-      "religious"
+      "portrait"
     ],
-    "caption": "Diego de Covarrubias wears a black cap and a white ecclesiastical garment over a dark collar. A gold-and-green pectoral cross hangs from a pale ribbon against the gathered fabric, beneath his grey beard.",
-    "dateDisplay": "c. 1600"
+    "caption": "Diego de Covarrubias wears a black cap and a white ecclesiastical garment over a dark collar. A gold-and-green pectoral cross hangs from a pale ribbon against the gathered fabric, beneath his white-grey beard.",
+    "dateDisplay": "c. 1600",
+    "collectionURL": "https://www.cultura.gob.es/mgreco/en/la-coleccion/colecciones/seleccion-de-piezas/pintura/diegodecovarrubias.html"
   },
   "wikidata-Q11826275": {
     "tags": [
@@ -3925,7 +3946,7 @@
     "caption": "John and Nicodemus support Christ’s pale body above a projecting stone slab, his right arm hanging toward its edge. Behind them, three women gather against the dark background, one lifting both hands above her head.",
     "dateDisplay": "1602–1604",
     "year": 1603,
-    "movement": "Italian Baroque painting"
+    "movement": "Baroque"
   },
   "wikidata-Q1213160": {
     "tags": [
@@ -4168,10 +4189,11 @@
       "interior",
       "still-life"
     ],
-    "caption": "A man in a straw hat lifts a spoonful of beans toward his open mouth, looking toward the viewer. Bread, vegetables, a plate of food, a knife, a jug and a glass crowd the white-covered table.",
+    "caption": "A man in a straw hat lifts a spoonful of beans toward his open mouth, looking toward the viewer. Bread, vegetables, a plate of food, a knife, a striped jug and a glass crowd the white-covered table.",
     "dateDisplay": "c. 1583–1585",
     "year": 1584,
-    "collectionURL": "https://www.galleriacolonna.it/en/colonna-gallery/"
+    "collectionURL": "https://www.galleriacolonna.it/en/colonna-gallery/",
+    "collection": "Galleria Colonna"
   },
   "wikidata-Q12334558": {
     "tags": [
@@ -4592,6 +4614,7 @@
     "tags": [
       "everyday-life",
       "figure",
+      "nsfw",
       "portrait"
     ],
     "caption": "A bare-breasted woman sits on an ornate yellow seat against a red ground, with two figures behind her. At the lower left, a pale bird stands over a dark lizard; Gauguin joins these forms through broad areas of saturated colour."
@@ -4632,11 +4655,15 @@
   },
   "wikidata-Q1433194": {
     "tags": [
+      "animals",
       "narrative",
       "religious"
     ],
-    "caption": "A winged angel holds a curling banner above Mary and the infant lying on a cloth over straw. Figures gather around them in the dark stable, their faces, hands and robes picked out by light; an ox stands behind Mary.",
-    "movement": "Baroque"
+    "caption": "An angel dives out of the dark, one arm pointing up, trailing a lettered banner. Below, Mary sits with her head bowed above a newborn lying on a pale cloth over straw. A horned animal, probably an ox, lowers its head beside her, and four men stand or sit around them.",
+    "movement": "Baroque",
+    "dateDisplay": "c. 1600",
+    "collection": "Formerly Oratory of San Lorenzo, Palermo (stolen 1969; whereabouts unknown)",
+    "collectionURL": ""
   },
   "wikidata-Q1437492": {
     "tags": [
@@ -4673,16 +4700,23 @@
   },
   "wikidata-Q1448203": {
     "tags": [
+      "animals",
       "religious"
     ],
-    "caption": "Saul shields his eyes on the ground as Christ reaches down from the upper right, supported by an angel. A soldier and a restless horse crowd the space between them in Caravaggio’s first version of the conversion."
+    "caption": "Saul lies on the ground with both hands pressed over his face, while Christ leans down from the upper right with open hands, held by a dark-winged angel. Between them a bearded man in a plumed helmet grips a spear beside a pale horse.",
+    "dateDisplay": "c. 1600–1601",
+    "collection": "Collection of Nicoletta Odescalchi, Rome",
+    "collectionURL": "https://barberinicorsini.org/en/evento/conversion-of-saul/"
   },
   "wikidata-Q1448728": {
     "tags": [
       "religious"
     ],
-    "caption": "The angel descends from the darkness at upper left, one hand extended toward Mary. She bows her head beside a bed, her blue cloak and the angel’s pale drapery emerging from the sparsely furnished room.",
-    "movement": "Italian Baroque painting"
+    "caption": "An angel in white drapery, with dark wings, drops from the upper left above a bank of cloud, one arm stretched down with a finger pointing and a lily beside the head. Below at right, Mary kneels with her head bowed, in a veil and blue mantle, her hands at her chest. Behind her are a bed and part of a chair; a pale cloth lies on the floor in front.",
+    "movement": "Baroque",
+    "dateDisplay": "c. 1607–1610",
+    "year": 1607,
+    "collectionURL": "https://collections-mba.nancy.fr/r/421bc8bb-e255-4050-8822-117757a4000f"
   },
   "wikidata-Q1451490": {
     "tags": [
@@ -4718,8 +4752,11 @@
     "tags": [
       "religious"
     ],
-    "caption": "Christ turns towards Peter and Andrew while gesturing ahead. Peter holds two fish, and Andrew points towards himself; their illuminated faces and hands carry the encounter against a dark background.",
-    "movement": "Baroque"
+    "caption": "Christ turns towards Peter and Andrew while gesturing ahead. Peter holds two fish on sticks, and Andrew points towards himself; the three figures stand against a dark background.",
+    "movement": "Baroque",
+    "dateDisplay": "c. 1602–1604",
+    "year": 1602,
+    "collectionURL": "https://www.rct.uk/collection/402824/the-calling-of-saints-peter-and-andrew"
   },
   "wikidata-Q1464531": {
     "tags": [
@@ -5276,12 +5313,14 @@
   "wikidata-Q16038514": {
     "tags": [
       "animals",
+      "battle",
       "military",
       "portrait"
     ],
     "caption": "The Duke of Lerma, wearing armour and a white ruff, holds a baton while riding a white horse with one foreleg raised. A tree frames the left side, and small mounted figures with upright lances appear beneath the clouded blue sky in the distance.",
     "dateDisplay": "1603",
-    "year": 1603
+    "year": 1603,
+    "collectionURL": "https://www.museodelprado.es/en/the-collection/art-work/equestrian-portrait-of-the-duke-of-lerma/323c6f0b-8a88-4241-9499-d4e389d0de64"
   },
   "wikidata-Q16038642": {
     "tags": [
@@ -5592,7 +5631,7 @@
       "flowers",
       "religious"
     ],
-    "caption": "Mary turns from an open book toward an angel standing on a cloud, his broad grey-and-black wings spread behind a golden robe. A white dove hovers between them; lilies rise beside the angel, while a sewing basket and a small vase sit near Mary’s feet.",
+    "caption": "Mary, one hand on an open book and the other raised, looks up toward an angel in a golden-yellow robe, whose black-and-white wings spread above a bank of cloud. A white dove flies between them and white lilies rise in front of the angel. A sewing basket and a small vase sit at the bottom.",
     "dateDisplay": "c. 1600",
     "year": 1600,
     "collectionURL": "https://www.mfab.hu/artworks/8732/",
@@ -6339,7 +6378,7 @@
     "tags": [
       "religious"
     ],
-    "caption": "Christ tilts his thorn-crowned head upward beside the tall wooden cross at the right. Drops of blood mark his forehead and elongated neck, while his pale hand rests against the beam. Light catches his face, fingers and red tunic against the dark background.",
+    "caption": "Christ, wearing a crown of thorns, looks up towards the left of the picture with his lips parted. The shaft of the cross runs from top to bottom at the right, and his long-fingered hand rests against it. Small drops of blood mark his forehead, neck and chest. His red tunic and a pale light behind his head stand out against the dark background.",
     "dateDisplay": "c. 1587–1596",
     "year": 1587,
     "collectionURL": "https://www.museothyssen.org/en/collection/artists/greco-domenikos-theotokopoulos/christ-cross"
@@ -6408,6 +6447,7 @@
     "tags": [
       "everyday-life",
       "interior",
+      "nsfw",
       "nude"
     ],
     "caption": "A nude young performer stands on a small rug with a large snake coiled around his body, raising its head in one hand. Seated spectators line the blue-tiled wall, while a musician plays a wind instrument at the right. Painted inscriptions and floral patterns cover the tiles above them.",
@@ -6520,7 +6560,7 @@
       "figure",
       "still-life"
     ],
-    "caption": "An upturned dark bowl becomes a hat above a face assembled from vegetables. A large onion forms one rounded cheek, roots project as the nose, and green leaves frame the head. Rotated by half a turn, the same arrangement becomes a bowl filled with vegetables.",
+    "caption": "A dark, shiny bowl sits upside down above a face made of vegetables. A large onion fills the right side of the face, beside a thick pale root that juts out where a nose would be. Two stacked orange-red shapes form the lips, and long toothed green leaves spread out below and at the right.",
     "dateDisplay": "1587–1590",
     "year": 1587,
     "collectionURL": "https://musei.comune.cremona.it/it/musei/museo-civico-ala-ponzone/sala-cinquecento/ortolano"
@@ -7093,6 +7133,7 @@
   "wikidata-Q19753132": {
     "tags": [
       "mythological",
+      "nsfw",
       "nude"
     ],
     "caption": "A shaft of moonlight illuminates Endymion's sleeping body as a winged youth lifts the branches above him. The Louvre identifies this figure as Zephyr; Girodet contrasts the sleeper's smooth, pale skin with the dense darkness of leaves and rock."
@@ -7205,10 +7246,15 @@
   },
   "wikidata-Q1988152": {
     "tags": [
-      "mythological"
+      "animals",
+      "mythological",
+      "nsfw",
+      "nude"
     ],
-    "caption": "Adonis sleeps with his head in Venus's lap as she holds a small fan above him. Cupid restrains one of the hunting dogs while another rests beneath the hunter; orange clothing and violet patterned silk glow against the surrounding trees.",
-    "movement": "Venetian school"
+    "caption": "Adonis sleeps with his head on Venus's lap as she holds a small flag-shaped fan over him. Cupid holds back one hunting dog while another lies on the ground below Adonis. His clothes are bright orange and her patterned cloth is purple-blue, with trees and sky behind.",
+    "movement": "Venetian school",
+    "dateDisplay": "c. 1580",
+    "collectionURL": "https://www.museodelprado.es/en/the-collection/art-work/venus-and-adonis/692667da-d0f5-4765-ba03-30fdce3513d1"
   },
   "wikidata-Q19883434": {
     "tags": [
@@ -7335,9 +7381,11 @@
   },
   "wikidata-Q19911449": {
     "tags": [
+      "animals",
+      "night",
       "religious"
     ],
-    "caption": "Mary lifts a white cloth around the infant Christ as shepherds gather with raised hands beneath a stone arch. Bright pink, yellow and green garments stand out against the dark setting. Winged children carry a curling banner overhead, while a white lamb lies beside a staff at the front.",
+    "caption": "Mary lifts the edges of a white cloth with the baby lying on it, as shepherds crowd in with raised arms and pressed hands beside an arched vault. Pink, yellow and bright green robes stand out against the dark. Winged infants hold a curling banner overhead, and a white lamb lies on the floor at the front beside a long stick.",
     "title": "The Adoration of the Shepherds",
     "dateDisplay": "c. 1605–1610",
     "year": 1605,
@@ -7579,7 +7627,7 @@
     "dateDisplay": "c. 1598",
     "year": 1598,
     "collectionURL": "https://www.uffizi.it/en/artworks/caravaggio-bacchus",
-    "movement": "Italian Baroque painting"
+    "movement": "Baroque"
   },
   "wikidata-Q2016193": {
     "tags": [
@@ -7607,7 +7655,8 @@
   "wikidata-Q20170935": {
     "tags": [
       "family",
-      "figure"
+      "figure",
+      "nsfw"
     ],
     "caption": "A mother holds a standing, unclothed child close beside her face. The child's hand rests at her neck, while she supports the child's thigh. An oval mirror in a dark frame rises behind their heads. Broad blue and white strokes describe the mother's sleeves and the fabric gathered across her lap.",
     "title": "Mother and Child (The Oval Mirror)",
@@ -7879,13 +7928,13 @@
     "dateDisplay": "1606",
     "year": 1606,
     "collectionURL": "https://pinacotecabrera.org/en/collezioni/collezione-on-line/supper-at-emmaus/",
-    "movement": "Italian Baroque painting"
+    "movement": "Baroque"
   },
   "wikidata-Q20982926": {
     "tags": [
       "landscape"
     ],
-    "caption": "Thick reddish-brown cypress trunks twist across a gold ground, their branches spreading beyond the screen edges. Small clusters of green foliage follow the thinner limbs. Blue water and angular grey-green rocks appear through openings between the trees and broad bands of gold.",
+    "caption": "Thick reddish-brown cypress trunks twist across a gold ground, with branches running off the edges of the eight panels. Small clusters of green foliage grow along the thinner limbs. Dark blue water and grey-green rocks show through openings in the gold.",
     "dateDisplay": "1590",
     "year": 1590,
     "collectionURL": "https://www.tnm.jp/modules/r_collection/index.php?colid=A1069&controller=dtl&lang=en&t=now",
@@ -8410,7 +8459,7 @@
     "dateDisplay": "1607",
     "year": 1607,
     "collectionURL": "https://capodimonte.cultura.gov.it/mostra/capodimonte-doppio-caravaggio-lecce-homo-e-la-flagellazione-di-cristo/",
-    "movement": "Italian Baroque painting"
+    "movement": "Baroque"
   },
   "wikidata-Q2267440": {
     "tags": [
@@ -8499,11 +8548,11 @@
     "tags": [
       "still-life"
     ],
-    "caption": "A woven basket rests on a narrow ledge against a plain ochre background. Pale and dark grapes spill over its rim among apples, pears and figs. Spotted leaves rise behind the fruit, while torn and curling leaves extend beyond the basket on both sides.",
+    "caption": "A woven basket rests on a narrow ledge against a plain ochre background. Pale and dark grapes spill over its rim among an apple, pears and figs. Spotted leaves rise behind the fruit, while torn and curling leaves extend beyond the basket on both sides.",
     "dateDisplay": "c. 1597–1600",
     "year": 1597,
     "collectionURL": "https://www.ambrosiana.it/en/discover/masterpieces/basket-of-fruit/",
-    "movement": "Italian Baroque painting"
+    "movement": "Baroque"
   },
   "wikidata-Q2270768": {
     "tags": [
@@ -8556,8 +8605,11 @@
       "nsfw",
       "religious"
     ],
-    "caption": "David bends over Goliath's body, tying a cord around the hair of the severed head. Light catches the boy's bare shoulder, bent arms and pale clothing, leaving much of the giant and the surrounding space in darkness.",
-    "movement": "Baroque"
+    "caption": "David kneels on Goliath's body and bends over it, tying a cord into the hair of the severed head with both hands. Light falls on his bare shoulder, arm and leg and on his pale clothes. The head lies at the lower right, eyes open and forehead cut, while the giant's half-lit torso sinks into the dark at its far end.",
+    "movement": "Baroque",
+    "dateDisplay": "c. 1600",
+    "collectionURL": "https://www.museodelprado.es/en/the-collection/art-work/david-with-the-head-of-goliath/c3895900-73d4-4257-97fb-240e3aaf0402",
+    "title": "David with the Head of Goliath"
   },
   "wikidata-Q2272723": {
     "tags": [
@@ -8574,10 +8626,10 @@
       "animals",
       "religious"
     ],
-    "caption": "Saul lies on a red cloak with his eyes closed and both arms raised beneath a large brown-and-white horse. The animal bends its head and lifts one foreleg as an older attendant holds its bridle. Brightly lit bodies and hands emerge from the dark background.",
-    "dateDisplay": "1600–1601",
-    "year": 1600,
-    "collectionURL": "https://barberinicorsini.org/en/evento/conversion-of-saul/",
+    "caption": "Saul lies on his back on an orange-red cloth, eyes closed and both arms lifted wide, beneath a large brown-and-white horse. The horse bends its head and lifts one foreleg while a balding man with a furrowed brow holds its bridle. A sword and a plumed helmet lie on the ground beside Saul.",
+    "dateDisplay": "c. 1601",
+    "year": 1601,
+    "collectionURL": "https://catalogo.fondazionezeri.unibo.it/scheda/opera/47672/Merisi%20Michelangelo%2C%20Conversione%20di%20san%20Paolo",
     "movement": "Baroque"
   },
   "wikidata-Q2273890": {
@@ -8632,11 +8684,12 @@
     "tags": [
       "religious"
     ],
-    "caption": "Saint Francis bows his head toward a skull held in his hands. Light catches his face, the skull and the torn shoulder of his brown habit against a dark background. A simple wooden cross lies diagonally across the foreground.",
-    "dateDisplay": "1606",
-    "year": 1606,
-    "collectionURL": "https://www.barberinicorsini.org/wp-content/uploads/2019/12/2019_12_Barberini_AlaNord_CartellaStampa.pdf",
-    "movement": "Baroque"
+    "caption": "Saint Francis kneels with his head bowed toward a skull held in his hands. Light catches his face, the skull and the torn shoulder of his brown habit against a dark background. A plain cross rests on a stone near the bottom edge.",
+    "dateDisplay": "c. 1603–1609 (disputed)",
+    "year": 1603,
+    "collectionURL": "",
+    "movement": "Baroque",
+    "artist": "Caravaggio (attributed)"
   },
   "wikidata-Q2275371": {
     "tags": [
@@ -8729,7 +8782,7 @@
     "dateDisplay": "c. 1603",
     "year": 1603,
     "collectionURL": "https://www.uffizi.it/en/artworks/sacrifice-of-isaac",
-    "movement": "Italian Baroque painting"
+    "movement": "Baroque"
   },
   "wikidata-Q2290433": {
     "tags": [
@@ -8752,21 +8805,23 @@
       "supernatural"
     ],
     "caption": "Medusa’s severed head fills a round shield, her eyes wide and mouth open. Coiling snakes surround her face, and streams of blood descend from the cut neck. A deep painted shadow falls against the green background inside the decorated rim.",
-    "dateDisplay": "1597",
-    "year": 1597,
-    "collectionURL": "https://www.uffizi.it/mostre-virtuali/sguardi-dal-mondo"
+    "dateDisplay": "c. 1596–1598",
+    "year": 1596,
+    "collectionURL": "https://www.uffizi.it/en/online-exhibitions/views-from-around-the-world",
+    "movement": "Baroque"
   },
   "wikidata-Q2293936": {
     "tags": [
       "mythological",
       "portrait",
-      "self-portrait"
+      "self-portrait",
+      "still-life"
     ],
-    "caption": "An ivy-crowned youth turns toward the viewer over his bare shoulder, holding pale grapes in both hands. White cloth wraps his torso, and dark grapes and two peaches lie on the stone ledge below against a dark background.",
+    "caption": "A youth with a wreath of leaves in his dark curls looks back at the viewer over his bare shoulder, holding pale grapes in both hands. White cloth is wrapped around his body and tied with a dark bow. Dark grapes and two yellow peaches lie on the stone slab in front of him, against a dark background.",
     "dateDisplay": "c. 1595",
     "year": 1595,
     "collectionURL": "https://www.collezionegalleriaborghese.it/en/opere/self-portrait-as-bacchus-known-as-sick-bacchus",
-    "movement": "Italian Baroque painting"
+    "movement": "Baroque"
   },
   "wikidata-Q2293953": {
     "tags": [
@@ -8863,6 +8918,7 @@
   },
   "wikidata-Q2318957": {
     "tags": [
+      "nsfw",
       "religious"
     ],
     "caption": "Salome, wrapped in a red cloak, holds a platter bearing John the Baptist’s severed head. An older woman in a white head covering stands behind her, while the executioner at right bends his head toward the platter. His bare shoulder and Salome’s face stand out against the dark background.",
@@ -8905,10 +8961,9 @@
   },
   "wikidata-Q2325834": {
     "tags": [
-      "nude",
       "religious"
     ],
-    "caption": "Christ stands behind a stone parapet with his wrists bound, a crown of thorns on his lowered head and a reed held against his bare torso. A man behind him lifts a purple cloak around his shoulders. At right, Pilate faces the viewer and gestures toward Christ with open hands.",
+    "caption": "Christ stands behind a ledge with his wrists tied, a crown of thorns on his lowered head and a reed resting against his bare torso. A man behind him holds up a purple cloak at his shoulders. At right, Pilate, bearded and in a black cap, stares straight ahead with both hands held out beside Christ's arm.",
     "dateDisplay": "c. 1605",
     "year": 1605,
     "collectionURL": "https://catalogo.museidigenova.it/oggetti/196889-ecce-homo",
@@ -8965,7 +9020,7 @@
     "tags": [
       "religious"
     ],
-    "caption": "Matthew turns from his open book towards an angel suspended above him in swirling white cloth. The angel gestures with its fingers while the saint holds his pen poised, their separated hands making inspiration feel like an exchange across the darkness.",
+    "caption": "Matthew, bald and grey-bearded, twists to look up at an angel plunging head first out of the dark in swirling white cloth. He holds a quill over an open book on a table, with one knee on a wooden stool and one bare foot hanging in the air.",
     "movement": "Baroque"
   },
   "wikidata-Q2338404": {
@@ -9309,6 +9364,7 @@
   },
   "wikidata-Q23948629": {
     "tags": [
+      "nsfw",
       "religious"
     ],
     "caption": "David looks upward with parted lips and one hand on his chest. His other hand grips the hair of Goliath’s severed head, resting on a stone ledge. A white cloth wraps his waist, and a sword stands beside a red-draped helmet with pale feathers at left.",
@@ -9320,8 +9376,13 @@
     "tags": [
       "portrait"
     ],
-    "caption": "A young woman with dark hair drawn up and pearl drop earrings looks straight out, pressing a small sprig of white flowers and dark leaves to the front of her bodice. She wears a full white blouse under a dark, embroidered bodice, and a bracelet of dark and pale beads circles her wrist. She may be the courtesan Fillide Melandroni; the original canvas is lost and is known only from black-and-white photographs like this one.",
-    "movement": "Baroque"
+    "caption": "A young woman with her hair piled high and a pair of pear-shaped drop earrings glances just past the viewer, holding a small flowering sprig at the neckline of her bodice. She wears a full-sleeved blouse under an embroidered bodice, and a bracelet of large stones and small round beads circles her wrist. The image is a black-and-white photograph of a canvas now lost.",
+    "movement": "Baroque",
+    "dateDisplay": "c. 1590 or c. 1598",
+    "year": 1590,
+    "collection": "Formerly Gemäldegalerie, Berlin; lost, probably destroyed 1945",
+    "collectionURL": "https://recherche.smb.museum/detail/866588",
+    "title": "Bust-Length Portrait of a Young Woman"
   },
   "wikidata-Q24011": {
     "tags": [
@@ -9438,11 +9499,11 @@
     "tags": [
       "religious"
     ],
-    "caption": "Christ guides Thomas’s hand toward the wound in his side as two other disciples lean close to watch. Light from the left catches Christ’s bare chest, the joined hands and the men’s furrowed brows against a dark background. Thomas bends forward in a worn brown garment.",
+    "caption": "Christ holds back a pale robe from his bare chest and guides Thomas's hand, one finger entering the wound in his side. Thomas leans in with a dark cloak over his back, his rose-tan tunic torn at the shoulder and his free hand on his hip. Behind him a balding disciple with a grey beard and a dark-haired man in a red-brown cloak bend close, against a plain dark background.",
     "dateDisplay": "c. 1601",
     "year": 1601,
-    "collectionURL": "https://www.spsg.de/forschung-sammlungen/sammlungen/ausleih-index",
-    "movement": "Italian Baroque painting"
+    "collectionURL": "https://brandenburg.museum-digital.de/object/11898",
+    "movement": "Baroque"
   },
   "wikidata-Q2420918": {
     "tags": [
@@ -9526,13 +9587,14 @@
   "wikidata-Q2429754": {
     "tags": [
       "mythological",
+      "nsfw",
       "nude"
     ],
     "caption": "Cupid sleeps on his side, his head at the right and bent legs extending left. Light picks out his face, rounded torso and limbs against a dark background. One hand rests above his body, while the other lies near an arrow; a feathered wing spreads beneath his arm.",
     "dateDisplay": "1608",
     "year": 1608,
     "collectionURL": "https://www.uffizi.it/en/pitti-palace/palatine-gallery",
-    "movement": "Italian Baroque painting"
+    "movement": "Baroque"
   },
   "wikidata-Q2438357": {
     "tags": [
@@ -10211,8 +10273,8 @@
     "dateDisplay": "c. 1595–1596",
     "year": 1595,
     "collectionURL": "https://www.thewadsworth.org/wp-content/uploads/2015/09/Euro-Wall-Text-Final.pdf",
-    "caption": "A winged angel supports the reclining Saint Francis in a dark wooded landscape, with light catching the saint's face, brown habit and open hand.",
-    "movement": "Italian Baroque painting"
+    "caption": "An angel with a large feathered wing, bare-shouldered in white cloth, holds the reclining Saint Francis, who lies across the foreground in a brown habit with a cord at the waist. Light falls on his face, his robe and the upturned hand at his side. The rest is darkness and foliage, with a few streaks of light in the sky at left.",
+    "movement": "Baroque"
   },
   "wikidata-Q2610675": {
     "tags": [
@@ -10223,8 +10285,8 @@
     "year": 1595,
     "collection": "Musée du Louvre, Paris",
     "collectionURL": "https://collections.louvre.fr/ark:/53355/cl010062329",
-    "caption": "A fortune-teller holds a young man's outstretched hand while they exchange glances, his feathered hat and golden sleeve contrasting with her white blouse and headcloth.",
-    "movement": "Italian Baroque painting"
+    "caption": "A young woman in a white headcloth and loose white blouse, a dark red sash across green cloth, touches the bare hand of a young man. She holds it from beneath with her other hand. He wears a black hat with white and dark plumes and a golden-brown doublet, with a sword hilt at his hip. Each looks sidelong at the other against a plain background crossed by a slanting band of light.",
+    "movement": "Baroque"
   },
   "wikidata-Q2610729": {
     "tags": [
@@ -10340,6 +10402,7 @@
     "tags": [
       "narrative",
       "night",
+      "nsfw",
       "religious",
       "supernatural"
     ],
@@ -10347,7 +10410,7 @@
     "year": 1606,
     "collection": "Pio Monte della Misericordia, Naples",
     "collectionURL": "https://piomontedellamisericordia.it/caravaggio/",
-    "caption": "Overlapping figures enact works of mercy in a dark street, with a torch below and the Virgin, Child and two winged angels above.",
+    "caption": "Overlapping figures enact works of mercy in the dark, with a torch below and the Virgin, Child and two winged angels above.",
     "movement": "Baroque"
   },
   "wikidata-Q2627028": {
@@ -10370,12 +10433,12 @@
     "year": 1598,
     "collection": "Museo Nacional Thyssen-Bornemisza, Madrid",
     "collectionURL": "https://www.museothyssen.org/en/collection/artists/caravaggio-michelangelo-merisi/saint-catherine-alexandria",
-    "caption": "Catherine looks towards the viewer beside a broken spiked wheel, holding a sword diagonally across her dark dress. A long palm lies over the red cushion and the floor, while light from the right illuminates her face, white sleeves and hands.",
+    "caption": "Catherine looks towards the viewer beside a broken spiked wheel, a sword held diagonally across her dark dress. One hand grips its hilt and the other rests along the blade. A long palm lies over a red cushion and the floor, and her face, white sleeves and hands stand out against a black background.",
     "movement": "Baroque"
   },
   "wikidata-Q2627056": {
     "tags": [
-      "portrait",
+      "nsfw",
       "religious",
       "self-portrait"
     ],
@@ -10383,8 +10446,8 @@
     "year": 1606,
     "collection": "Galleria Borghese, Rome",
     "collectionURL": "https://www.collezionegalleriaborghese.it/en/opere/david-with-the-head-of-goliath",
-    "caption": "David extends Goliath’s severed head by the hair, looking down towards it while lowering his sword across the foreground. His exposed chest and pale shirt emerge from the dark background; the Borghese catalogue identifies Goliath’s face as Caravaggio’s own likeness.",
-    "movement": "Italian Baroque painting"
+    "caption": "David holds out Goliath's severed head by the hair and looks down at it, his pale shirt slipping from one shoulder. Blood runs from the neck, and a sword crosses the lower left. The background is dark.",
+    "movement": "Baroque"
   },
   "wikidata-Q2627810": {
     "tags": [
@@ -10611,7 +10674,7 @@
     "artistSort": "Greco, El (studio of)",
     "title": "The Agony in the Garden of Gethsemane",
     "collectionURL": "https://www.nationalgallery.org.uk/paintings/studio-of-el-greco-the-agony-in-the-garden-of-gethsemane",
-    "caption": "Christ kneels with open hands before an angel holding a chalice, while disciples sleep at the left and armed figures approach from the right."
+    "caption": "Christ kneels in pink and deep red over a blue cloak, with his face lifted and his hands held open. At upper left a winged angel in yellow holds a gold chalice. Below the angel three disciples huddle in a dark hollow. At the far right a small group carries tall poles, three of them topped with flames, and a moon shows among clouds at upper right."
   },
   "wikidata-Q2697937": {
     "tags": [
@@ -10684,19 +10747,20 @@
     "dateDisplay": "c. 1606",
     "collectionURL": "https://www.collezionegalleriaborghese.it/en/opere/saint-jerome",
     "caption": "Saint Jerome bends over an open book and extends a pen across the table, with a skull on the books at the opposite end.",
-    "movement": "Italian Baroque painting"
+    "movement": "Baroque"
   },
   "wikidata-Q2715302": {
     "tags": [
       "animals",
+      "nsfw",
       "religious"
     ],
     "collection": "Galleria Borghese, Rome",
     "dateDisplay": "1605",
     "year": 1605,
     "collectionURL": "https://www.collezionegalleriaborghese.it/en/opere/madonna-and-child-with-saint-anne-madonna-dei-palafrenieri",
-    "caption": "Mary supports Jesus as their overlapping bare feet press down on a serpent; Saint Anne watches with clasped hands, her upright figure set beside their bending bodies.",
-    "movement": "Italian Baroque painting"
+    "caption": "Mary bends to steady the naked child as his bare foot rests on hers, and hers presses on the head of a snake. At right Saint Anne stands with her hands folded at her waist and her head bent, looking down.",
+    "movement": "Baroque"
   },
   "wikidata-Q2715353": {
     "tags": [
@@ -10712,6 +10776,7 @@
   },
   "wikidata-Q2721037": {
     "tags": [
+      "nsfw",
       "religious"
     ],
     "caption": "David holds Goliath's severed head by the hair, with his sword resting across his shoulder. Strong light separates the young victor's face and bare arm from the darkness, while the heavy head hangs at the far end of his outstretched hand.",
@@ -10725,7 +10790,7 @@
     "dateDisplay": "c. 1597",
     "year": 1597,
     "collectionURL": "https://www.doriapamphilj.it/en/portfolio/caravaggio/",
-    "caption": "Magdalene bows her head over hands resting in her lap; discarded pearls, jewellery and a jar of ointment beside her skirt give this quiet scene its penitential meaning.",
+    "caption": "A young woman with long red hair sits on a wooden chair with her head bowed and eyes closed, her hands folded in her lap. On the floor beside her skirt lie a string of pearls and gold jewellery, and a round glass vessel of amber liquid stands with them. The wall behind her is bare.",
     "movement": "Baroque"
   },
   "wikidata-Q2733729": {
@@ -10744,8 +10809,12 @@
     "tags": [
       "portrait"
     ],
-    "caption": "Maffeo Barberini, the future Pope Urban VIII, sits bearded in a wooden chair, wearing a tall black cap, a white collar and a dark green-black robe over billowing white sleeves. One arm stretches out to point off to the left, and his eyes turn the same way, while the other hand grips a few folded papers.",
-    "movement": "Baroque"
+    "caption": "A bearded man traditionally identified as Maffeo Barberini, the future Pope Urban VIII, sits in a wooden chair in a tall black cap, a white collar and a dark green-black robe over billowing white sleeves. One arm stretches out with the forefinger pointing toward the left of the picture, and his eyes turn the same way, while the other hand grips a few folded papers.",
+    "movement": "Baroque",
+    "dateDisplay": "c. 1599",
+    "year": 1599,
+    "collection": "Acquired by the Italian State for Palazzo Barberini, Rome",
+    "collectionURL": "https://barberinicorsini.org/en/the-italian-government-has-acquired-the-portrait-of-monsignor-maffeo-barberini-by-caravaggio/"
   },
   "wikidata-Q2734892": {
     "tags": [
@@ -10833,6 +10902,7 @@
   "wikidata-Q275349": {
     "tags": [
       "mythological",
+      "nsfw",
       "nude"
     ],
     "caption": "Venus reclines with her back towards us while Cupid holds up a mirror containing her blurred reflection. Pink ribbons loop across his wrist, and the sweep of the grey sheet echoes the curve of her body beneath the deep red curtain."
@@ -10989,7 +11059,7 @@
     "year": 1590,
     "collection": "Museu Nacional d’Art de Catalunya, Barcelona",
     "collectionURL": "https://www.museunacional.cat/en/colleccio/saint-peter-and-saint-paul/domenikos-theotokopoulos-el-greco/005083-000",
-    "caption": "Peter in ochre and Paul in rose and green stand beneath a clouded sky, their hands crossing without touching beside Paul’s upright sword."
+    "caption": "Peter, in an ochre mantle, and Paul, in a rose-red cloak over a bright green garment, stand before grey clouds, with a patch of blue behind Peter's head. Their arms cross between them. A long sword stands upright against Paul's green garment, hilt at the top."
   },
   "wikidata-Q2843410": {
     "tags": [
@@ -12171,6 +12241,7 @@
   "wikidata-Q3223625": {
     "tags": [
       "animals",
+      "nsfw",
       "nude",
       "religious"
     ],
@@ -12180,7 +12251,7 @@
     "year": 1602,
     "collectionURL": "https://www.museicapitolini.org/en/opera/san-giovanni-battista",
     "caption": "The smiling youth turns toward the viewer while embracing the ram's horned head; bright flesh, white cloth and red-orange drapery stand out against a dark setting with visible leaves and branches.",
-    "movement": "Italian Baroque painting"
+    "movement": "Baroque"
   },
   "wikidata-Q3223929": {
     "tags": [
@@ -12436,6 +12507,7 @@
   },
   "wikidata-Q3275305": {
     "tags": [
+      "nsfw",
       "nude",
       "religious"
     ],
@@ -12980,7 +13052,7 @@
     "collection": "Galleria Corsini, Rome",
     "collectionURL": "https://catalogo.beniculturali.it/detail/HistoricOrArtisticProperty/1201007596",
     "caption": "Saint John turns his shadowed face to the right, his bare torso lit above red drapery as one hand rests on the reed cross running across the foreground.",
-    "movement": "Italian Baroque painting"
+    "movement": "Baroque"
   },
   "wikidata-Q3463877": {
     "tags": [
@@ -12991,7 +13063,7 @@
     "year": 1604,
     "collection": "Nelson-Atkins Museum of Art, Kansas City",
     "collectionURL": "https://art.nelson-atkins.org/objects/1130/saint-john-the-baptist-in-the-wilderness",
-    "caption": "Saint John sits beneath dark trees with his head lowered, holding a reed cross beside a scarlet cloak and fur-edged clothing as light falls across his arms and knees.",
+    "caption": "Saint John sits in dark woods with his head lowered, gripping a reed cross in one hand. A scarlet cloak spills around him and a fur-edged cloth wraps his waist. Light falls from above onto his shoulder, arm and knee.",
     "movement": "Baroque"
   },
   "wikidata-Q3463920": {
@@ -13607,7 +13679,7 @@
     "year": 1600,
     "artistDeathYear": 1614,
     "collectionURL": "https://www.nationalgallery.org.uk/paintings/el-greco-christ-driving-the-traders-from-the-temple",
-    "caption": "Christ twists between recoiling traders and calmer apostles, his raised arm and blue drapery setting the central figure apart from the crowded temple scene."
+    "caption": "Christ stands at the centre of a columned hall in a crimson and pink robe with a blue mantle, one arm raised and what look like cords gripped in his fist. On the left, figures bend and flinch away among baskets and cloth. On the right, several older men lean together and look on. Through the arch behind him, pale buildings rise against a blue sky."
   },
   "wikidata-Q3656034": {
     "tags": [
@@ -15292,7 +15364,8 @@
   },
   "wikidata-Q3930498": {
     "tags": [
-      "mythological"
+      "mythological",
+      "nsfw"
     ],
     "dateDisplay": "1636–1638",
     "year": 1636,
@@ -16049,9 +16122,16 @@
   },
   "wikidata-Q3998957": {
     "tags": [
-      "mythological"
+      "animals",
+      "dance",
+      "mythological",
+      "nsfw",
+      "nude"
     ],
-    "caption": "Bacchus and Ariadne ride in separate chariots amid a procession of dancers, musicians and revellers. Flying cupids fill the sky above them, while the overlapping bodies below turn the long ceiling panel into a dense, rhythmic celebration."
+    "caption": "Bacchus, wreathed in leaves, rides a gold chariot at the left with a bunch of grapes raised, beside Ariadne in blue on a pale carved one. Tigers and white goats lead the way. To the right a woman raises a tambourine, a man blows a long horn and a heavy bearded man is held up above a donkey. Cupids fly overhead, and a half-draped woman reclines in the lower right corner.",
+    "dateDisplay": "1597–1608",
+    "year": 1597,
+    "collectionURL": "https://www.efrome.it/fileadmin/res/PDF_Documents_officiels_EFR/ambasciata_francia_depliant-new-low_fr.pdf"
   },
   "wikidata-Q3998985": {
     "tags": [
@@ -16784,7 +16864,7 @@
     "collection": "Gemäldegalerie, Staatliche Museen zu Berlin",
     "collectionURL": "https://id.smb.museum/object/862322",
     "caption": "A smiling, naked boy with large brown-feathered wings and a fistful of arrows stands with one foot on the floor and the other knee raised onto a white-draped ledge; around him lie a violin, a lute, sheet music, a set square and compass, a written page under a sprig of laurel, black armour, and a crown and sceptre.",
-    "movement": "Italian Baroque painting"
+    "movement": "Baroque"
   },
   "wikidata-Q474198": {
     "tags": [
@@ -17630,7 +17710,7 @@
     "dateDisplay": "c. 1594–95",
     "collectionURL": "https://www.nationalgallery.org.uk/paintings/NG6504",
     "caption": "A youth with dark curls and a pale rose behind his ear jerks back, brow knotted and mouth open, as a small lizard hanging from his finger bites him. White drapery slips from his bare shoulder. In front of him lie cherries and other fruit, and a clear glass vase holds a pink rose, leaves and small white flowers.",
-    "movement": "Italian Baroque painting"
+    "movement": "Baroque"
   },
   "wikidata-Q587514": {
     "tags": [
@@ -17814,10 +17894,14 @@
   },
   "wikidata-Q5966352": {
     "tags": [
+      "night",
       "religious"
     ],
-    "caption": "Three angels gather Christ’s blood in their outstretched hands beneath the dark sky. Mary and John stand on either side of the cross, while Mary Magdalene kneels at its foot; their long figures carry the eye upward towards Christ.",
-    "movement": "Mannerism"
+    "caption": "Christ hangs on the cross against a dark sky, a white lettered tablet above his head. Three winged angels reach toward him, the lowest holding a cloth just under his feet. The Virgin, in a blue mantle over red, and Saint John, in green and pink, stand on either side looking up, while Mary Magdalene, in pale blue, holds a cloth at the foot of the cross.",
+    "movement": "Mannerism",
+    "dateDisplay": "1597–1600",
+    "year": 1597,
+    "collectionURL": "https://www.museodelprado.es/en/the-collection/art-work/the-crucifixion/9fd77a93-ec76-4482-8721-cc06ef0af815"
   },
   "wikidata-Q5966403": {
     "tags": [
@@ -18005,8 +18089,10 @@
     "tags": [
       "religious"
     ],
-    "caption": "A white dove sends rays of light down from the top of the arched canvas, and small flames hover over the heads of the crowd below. The Virgin Mary sits at the centre in a blue mantle and deep red robe, hands joined in prayer and face turned upward, with a woman in a grey veil beside her and the apostles crowded round; at the upper left a man raises an open hand. In the foreground two apostles, one in green and dark red seen from behind, the other in blue and gold, throw out their arms and look up.",
-    "movement": "Mannerism"
+    "caption": "A white dove sends rays of light down from the top of the arched scene, and small flames hover over the heads of the crowd below. The Virgin sits at the centre in a blue mantle and deep red robe, hands joined and face turned upward, with a woman in a grey veil beside her and the apostles crowded round; at the upper left a man raises an open hand. In the foreground two apostles are seen from behind: one in green and dark red raises both hands, the other in blue and gold reaches across with one arm.",
+    "movement": "Mannerism",
+    "dateDisplay": "c. 1600",
+    "collectionURL": "https://www.museodelprado.es/en/the-collection/art-work/pentecost/f83b921d-2380-4dc9-8532-b3c597dab1e8"
   },
   "wikidata-Q607598": {
     "tags": [
@@ -18065,22 +18151,45 @@
   },
   "wikidata-Q611583": {
     "tags": [
-      "mythological"
+      "allegorical",
+      "animals",
+      "mythological",
+      "nsfw",
+      "nude"
     ],
-    "caption": "Pax, the nude woman at the centre, presses her breast as a small child reaches up to her, while behind her the helmeted Minerva pushes back the armoured Mars, with what is probably a Fury beside him. A kneeling satyr holds out a horn of fruit towards a group of children, a leopard rolls on the ground, and at the left two women carry a tambourine and a gold vessel."
+    "caption": "Pax, bare-breasted at the centre, presses her breast as the child Plutus reaches up to her, while behind her the helmeted Minerva pushes back the armoured Mars, with what is probably a Fury beyond him. A goat-legged satyr holds out a horn of fruit towards a group of children, a leopard rolls on the ground, and at the left two women carry a tambourine and a gold vessel.",
+    "dateDisplay": "1629-30",
+    "year": 1629,
+    "collectionURL": "https://www.nationalgallery.org.uk/paintings/NG46"
   },
   "wikidata-Q6116827": {
     "tags": [
+      "family",
       "religious"
     ],
-    "caption": "Mary nurses the infant Christ as Anne leans towards his head and Joseph supports his foot. Hands and glances draw the family closely together, while vivid pink, blue and yellow folds stand against an open, cloud-filled sky.",
-    "movement": "Mannerism"
+    "caption": "Mary, in a deep pink robe with blue across her knees, nurses the infant Christ on her lap. Saint Anne, in a red mantle and pale veil, raises a hand to his head. Joseph, in yellow, touches his foot. Yellow cloth lies under the child, and blue sky and pale cloud fill the space behind them.",
+    "movement": "Mannerism",
+    "collection": "Tavera Hospital, Toledo",
+    "collectionURL": "https://fundacionmedinaceli.org/en/fa_collection/the-holy-family-with-saint-anne/",
+    "dateDisplay": "c. 1595"
   },
   "wikidata-Q6116829": {
     "tags": [
       "religious"
     ],
-    "caption": "The Virgin, in a red dress and dark blue mantle, holds the Christ Child on her lap, his eyes closed, while her mother, Saint Anne, in a white veil and yellow cloak, draws a white cloth back from him at the left. Saint Joseph in green looks out from behind at the right, and the naked infant John the Baptist stands at the lower right with a finger at his lips beside a glass bowl of fruit. Grey and blue clouds fill the sky."
+    "caption": "An older woman in a pale veil and a golden-orange cloak lifts a white cloth above a sleeping baby, who lies on the lap of the Virgin, dressed in red with a dark mantle. A balding, bearded man in green looks straight out from behind them. At the right a small boy with fur at his shoulder holds a finger to his lips beside a glass bowl of fruit. Clouds fill the sky.",
+    "dateDisplay": "1585–1590; alternatively c. 1580/1585",
+    "year": 1585,
+    "collection": "Parish of Santa Leocadia y San Román, Toledo (on loan to the Museo de Santa Cruz)",
+    "collectionURL": "https://www.accioncultural.es/es/greco_museu_nacional_arte_antiga",
+    "image": {
+      "format": "jpeg",
+      "sourceMaxHeight": 1457,
+      "sourceMaxWidth": 850,
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/El%20Greco%20-%20The%20Holy%20Family.JPG?width=850",
+      "urlTemplate": "https://commons.wikimedia.org/wiki/Special:FilePath/El%20Greco%20-%20The%20Holy%20Family.JPG?width={w}",
+      "sha256": "87c5c9e1d321147733a7c270bc405459dba7913a5253c27c05655952f97b1daf"
+    }
   },
   "wikidata-Q6118296": {
     "tags": [
@@ -18144,8 +18253,11 @@
     "tags": [
       "religious"
     ],
-    "caption": "Christ rises with his feet together above a tangle of soldiers, naked but for a white loincloth, a crimson cloak flying behind him and a diamond-shaped halo round his head. He raises one hand and holds a white banner on a long staff. Below, a bearded soldier at left lifts a sword and a round shield over his head, a man in blue at right stretches an arm and turns his face upward, and another sprawls head-down in yellow in the foreground.",
-    "movement": "Mannerism"
+    "caption": "Christ rises with his feet together above a tangle of soldiers, nude but for a white cloth at his hips, a dark reddish-purple robe flying behind him and a diamond-shaped halo round his head. He raises one hand and holds a white banner on a long staff. Below, a bearded soldier left of centre lifts a sword and a round shield over his head, a man in blue at right stretches an arm and turns his face upward, and in the foreground another sprawls head-down with yellow flaps at his waist.",
+    "movement": "Mannerism",
+    "dateDisplay": "1597–1600",
+    "year": 1597,
+    "collectionURL": "https://www.museodelprado.es/en/the-collection/art-work/the-resurrection/2267dcd8-2b87-43b7-8104-0fb5070c4b5c"
   },
   "wikidata-Q61996527": {
     "tags": [
@@ -18234,8 +18346,10 @@
     "tags": [
       "portrait"
     ],
-    "caption": "A nobleman with short dark hair and a pointed beard, dressed in black, looks straight out at us above a white lace ruff. His right hand, in a matching lace cuff, lies spread across his chest, and the gilded hilt of a sword shows at the lower right. Behind him the background is plain and greyish brown.",
-    "movement": "Mannerism"
+    "caption": "A man with short dark hair and a pointed dark beard looks straight out above a frilled white ruff. He is dressed in black. His right hand, in a matching frilled cuff, lies spread on his chest, and the gold hilt of a sword stands near the bottom edge, right of centre. The background is plain and greyish brown.",
+    "movement": "Mannerism",
+    "dateDisplay": "c. 1580",
+    "collectionURL": "https://www.museodelprado.es/en/the-collection/art-work/the-nobleman-with-his-hand-on-his-chest/9cb73bdf-66e8-4826-a79c-5de2b15a1da6"
   },
   "wikidata-Q6411359": {
     "tags": [
@@ -18574,8 +18688,10 @@
     "tags": [
       "religious"
     ],
-    "caption": "Three labourers struggle to raise a heavy wooden cross to which the old, white-bearded Peter is already nailed, his head lower than his feet. One hauls on a rope over his shoulder with his back to us, another grips the cross beside Peter's feet, and a third crouches underneath, bearing it up on his back while one hand reaches for a spade on the rocky ground. Peter, naked but for a white loincloth, lifts his head and shoulders from the beam.",
-    "movement": "Italian Baroque painting"
+    "caption": "Three men raise a wooden cross to which an old, white-bearded Peter is already nailed, his head lower than his feet. One hauls on a rope over his shoulder with his back to us, another grips the beam beside Peter's feet, and a third crouches underneath, taking the weight on his back with one hand down by what looks like a spade on the rocky ground. Peter, naked but for a white loincloth, lifts his head and shoulders from the beam.",
+    "movement": "Baroque",
+    "dateDisplay": "1601",
+    "year": 1601
   },
   "wikidata-Q686107": {
     "tags": [
@@ -18861,10 +18977,15 @@
   },
   "wikidata-Q745098": {
     "tags": [
+      "animals",
+      "landscape",
+      "music",
       "religious"
     ],
-    "caption": "An angel plays the violin from music held by Joseph, who watches from the left. On the other side of the angel’s white drapery, Mary rests her head against the sleeping child, dividing the scene between attentive listening and sleep.",
-    "movement": "Baroque"
+    "caption": "An angel seen from behind, with dark wings and white drapery, plays a violin from the music held up by Joseph, who sits on the left with a donkey's head beside him. On the right, Mary, eyes closed, rests her head on the child in her arms, and a landscape opens beyond them.",
+    "movement": "Baroque",
+    "dateDisplay": "c. 1597",
+    "collectionURL": "https://www.doriapamphilj.it/en/portfolio/caravaggio/"
   },
   "wikidata-Q746716": {
     "tags": [
@@ -18891,6 +19012,7 @@
     "tags": [
       "everyday-life",
       "figure",
+      "nsfw",
       "nude"
     ],
     "caption": "Six nude men bathe from a rocky stone pier in still water edged by woods: one reclines at the left, one sits with an arm raised, one stands with his hands on his hips, and one dives head first at the right. In the water below, a red-haired man standing waist-deep reaches up towards the pier, a reddish-brown dog paddles nearby, and at the lower right Eakins himself swims towards the dog. Dark green trees fill the background, with a sunny meadow at the upper right.",
@@ -19326,6 +19448,7 @@
   "wikidata-Q892604": {
     "tags": [
       "mythological",
+      "nsfw",
       "nude"
     ],
     "caption": "Cupid, a curly-haired boy with green-grey wings, stands naked with his back to us and looks round over his shoulder as he shaves a bow with a curved blade, one foot on a pair of books. Between his legs two small children press together: one looks out at us with a half-smile while the other screws up his face, mouth open. The background is plain black above a tiled floor.",
@@ -19443,7 +19566,10 @@
     "tags": [
       "religious"
     ],
-    "caption": "Already wearing the crown of thorns, Christ faces the viewer with his hands bound. A red cloak is lifted behind his wounded shoulders, its folds setting off the pale torso and the dark figures crowded at either side."
+    "caption": "Wearing the crown of thorns, Christ faces the viewer, bare-chested with a white cloth at his hips, his head tilted back and his arms drawn behind him. Scratches and thin runs of blood mark his wounded shoulders. A raised arm lifts a red robe behind him, while a bearded old man in red points from the left and a man in a plumed metal helmet looks out from the right.",
+    "dateDisplay": "not later than 1612",
+    "year": 1612,
+    "collectionURL": "https://www.hermitagemuseum.org/digital-collection/48347?lng=en"
   },
   "wikidata-Q919861": {
     "tags": [
@@ -19711,7 +19837,9 @@
     "tags": [
       "religious"
     ],
-    "caption": "Two apostles stand side by side: at the left, grey-haired Peter in an ochre-gold mantle, holding a key low at his side, and at the right, dark-bearded Paul in a red mantle, looking straight at us. Between them Peter cups one hand while Paul stretches out an open hand, and Paul's other hand rests on the pages of an open book lying on a table beside a dark bottle."
+    "caption": "Two bearded men are shown side by side. Peter, at left, grey-haired and wrapped in a yellow-ochre mantle, looks off to our right, with one hand curled in front of him. Paul, at right, dark-bearded in a red mantle, looks straight out. One of his hands is held open and the other presses on an open book, on a table with a dark bottle. Below the open hand, another holds a metal ring that hangs from its fingers.",
+    "dateDisplay": "1587–1592",
+    "collectionURL": "https://www.hermitagemuseum.org/digital-collection/32730?lng=en"
   },
   "wikidata-Q9396822": {
     "tags": [
@@ -19767,8 +19895,12 @@
     "tags": [
       "portrait"
     ],
-    "caption": "Alof de Wignacourt stands in gleaming armour while his page holds a plumed helmet beside him. The Grand Master looks beyond the frame, but the boy turns towards us, creating a more direct connection with the viewer.",
-    "movement": "Italian Baroque painting"
+    "caption": "Alof de Wignacourt stands in gold-trimmed armour, holding a long gold baton low across his body in both hands and looking off to the right. Beside him a boy in dark clothes and red stockings holds a red- and white-plumed helmet. The boy has turned his head to look straight out at us.",
+    "movement": "Baroque",
+    "dateDisplay": "c. 1608",
+    "year": 1608,
+    "collection": "Musée du Louvre, Paris",
+    "collectionURL": "https://collections.louvre.fr/ark:/53355/cl010062328"
   },
   "wikidata-Q945250": {
     "tags": [
@@ -20180,7 +20312,7 @@
       "animals",
       "portrait"
     ],
-    "caption": "Two-year-old Clarissa Strozzi, in a white dress with pearls and a gem-set girdle, puts her arm around a red-and-white spaniel seated on a carved stone ledge.",
+    "caption": "Two-year-old Clarissa Strozzi, in a long white dress with pearls and a jewelled belt, stands at a stone table holding a ring-shaped pretzel to a small reddish-brown and white dog. Her other hand shows behind its shoulder, and a long chain from her belt ends in a round openwork ball near her feet.",
     "title": "Portrait of Clarissa Strozzi",
     "artist": "Titian",
     "artistSort": "Titian",
@@ -20507,12 +20639,12 @@
       "flowers",
       "landscape"
     ],
-    "caption": "Hawks swoop, perch and seize prey, a white egret flies over water, and a peacock and peahen stand among peonies beneath spreading pines across a pair of gold screens.",
+    "caption": "Across a pair of gold screens, stacked here one above the other, hawks fly, perch and grip a pheasant, and a white egret flies over water. A peacock and peahen stand among flowers beneath a great spreading tree.",
     "title": "Birds and Flowers",
-    "artist": "Kano Mitsunobu",
+    "artist": "Kano Mitsunobu and Kano Shōei",
     "artistSort": "Kano Mitsunobu",
     "dateDisplay": "late 1500s",
-    "year": 1540,
+    "year": 1585,
     "collectionURL": "https://clevelandart.org/art/1948.128",
     "artistDeathYear": 1608
   },
@@ -20618,9 +20750,10 @@
   },
   "met-435853": {
     "tags": [
+      "music",
       "religious"
     ],
-    "caption": "A young man and a grey-bearded elder hold a crown over the Virgin beneath a white dove, while angels with a flute and stringed instruments sit on clouds to either side.",
+    "caption": "The Virgin, in blue over rose, sits with open hands and lowered eyes as Christ at left and God the Father at right lower a gold crown onto her head. A white dove hovers above. Angels with stringed instruments and a pipe sit at both sides, and rows of faint angels sit on clouds in a golden sky.",
     "title": "The Coronation of the Virgin",
     "artist": "Annibale Carracci",
     "artistSort": "Carracci, Annibale",
@@ -20908,10 +21041,11 @@
   },
   "rijks-200109172": {
     "tags": [
+      "everyday-life",
       "religious",
       "still-life"
     ],
-    "caption": "Hanging game birds, artichokes, a haunch of meat, fruit and a hare crowd the foreground as maids spit and hold poultry, with small figures glimpsed through the arcade behind.",
+    "caption": "A standing maid runs a long spit through a plucked bird while a seated maid plucks another in her lap. Birds hang from a red beam above a foreground heaped with artichokes, a cauliflower, grapes and other fruit, a large joint of raw meat and a hare. Through an arch behind them, small figures gather.",
     "title": "The Well-stocked Kitchen",
     "artist": "Joachim Bueckelaer",
     "artistSort": "Bueckelaer, Joachim",
@@ -21009,7 +21143,7 @@
     "tags": [
       "portrait"
     ],
-    "caption": "A crisp lace-edged ruff and a fur collar frame William of Orange's lined, bearded face, above a black doublet trimmed with knotted gold braid.",
+    "caption": "William of Orange, head and shoulders turned to the right, looks back at the viewer from under a black cap. A lace-edged white ruff and a wide brown fur collar frame his lined, bearded face, above black patterned cloth trimmed with knotted gold braid.",
     "title": "Portrait of William I, Prince of Orange",
     "artist": "Adriaen Thomasz. Key",
     "artistSort": "Key, Adriaen Thomasz.",
@@ -21107,14 +21241,15 @@
       "military",
       "portrait"
     ],
-    "caption": "Eighteen guardsmen in black caps and ruffed collars crowd around a banquet table set with bread, glasses and a large platter, a woman in a white cap at upper right.",
+    "caption": "Eighteen men, mostly in black with white ruffs and black caps, crowd a table laid with bread, glasses and a large metal platter. A woman in a white cap appears at the back, at upper right.",
     "title": "Banquet of Eighteen Guardsmen of Squad L, Amsterdam 1566, known as 'The Perch Eaters'",
     "artist": "Dirck Barendsz.",
     "artistSort": "Barendsz., Dirck",
     "dateDisplay": "1566",
     "year": 1566,
     "collectionURL": "https://www.rijksmuseum.nl/en/collection/SK-C-365",
-    "artistDeathYear": 1592
+    "artistDeathYear": 1592,
+    "collection": "City of Amsterdam (on loan to the Rijksmuseum)"
   },
   "rijks-20026920": {
     "tags": [

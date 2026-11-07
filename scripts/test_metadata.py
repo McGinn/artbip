@@ -45,6 +45,13 @@ class MetadataReviewTests(unittest.TestCase):
         self.assertTrue(validate({'works': [{'id': 'wrong-image'}]}, overrides, ledger))
         self.assertTrue(validate({'works': []}, {}, ledger))
 
+    def test_withheld_reviewed_work_may_be_absent(self):
+        self.assertEqual(validate({'works': []}, {'example': {'exclude': True}}, self.ledger), [])
+
+    def test_reviewed_work_absent_without_exclusion_fails(self):
+        self.assertEqual(validate({'works': []}, self.overrides, self.ledger),
+                         ['example: reviewed work is absent'])
+
     def test_removed_canon_membership_cannot_return_on_rebuild(self):
         self.manifest['works'][0]['significance'] = {'canonLists': []}
         self.overrides['example']['canonLists'] = []
