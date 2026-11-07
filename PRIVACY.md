@@ -1,6 +1,6 @@
 # artbip privacy policy
 
-**Last updated:** 28 October 2026. Applies from artbip 0.1.0.
+**Last updated:** 7 November 2026. Applies from artbip 0.1.0.
 
 artbip is a free, open-source Mac app made by Alexander McGinn. This policy
 explains what it does with information about you. The short version: **artbip
@@ -45,6 +45,12 @@ request headers.
 
 Like any web server, these hosts can see that IP address and which image was
 requested. Their own privacy policies govern what they do with that.
+
+If one of those servers can't be reached or no longer has an image, or sends a
+different file from the one artbip expects, artbip downloads the expected file
+from a public copy on GitHub (github.com and its download servers), named only
+by the file's checksum. GitHub can see your IP address and which file was
+requested, and its own privacy policy governs what it does with that.
 
 ### 2. Checking for a new version
 
@@ -112,6 +118,28 @@ The **Sponsor artbip** link opens
 [GitHub Sponsors](https://github.com/sponsors/McGinn). Sponsorship is handled
 entirely by GitHub under its own privacy statement, unlocks nothing in the
 app, and is never linked to your copy of artbip.
+
+## artbip for iPhone and iPad
+
+The iOS app also collects nothing: no artbip account, no artbip server, no analytics,
+no advertising and no tracking.
+
+**Images.** It downloads paintings from the same museums and Wikimedia Commons, and
+from the public copy on GitHub if one of them can't be reached or no longer has the
+expected file. Its requests identify themselves as artbip with a link to artbip.app.
+Some images come from Apple's servers as downloads that are part of the app.
+
+**iCloud.** Your favourites, Never Show Again list, collections, framings and rotation
+settings sync between your own devices through iCloud key-value storage. They live in
+your iCloud account; the developer can't see them. Without iCloud, nothing syncs and
+everything else works.
+
+**Subscription.** Purchases go through Apple. artbip receives only whether your
+subscription is active, not your name or payment details.
+
+**Photos.** If you save a wallpaper to Photos, artbip asks for access to your photo
+library to keep its wallpapers in its own "artbip" album. It doesn't read or send
+your other photos.
 
 ## Children
 
