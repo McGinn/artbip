@@ -11620,6 +11620,7 @@
       },
       "tags" : [
         "narrative",
+        "nsfw",
         "religious"
       ],
       "title" : "Judith with the Head of Holofernes",
@@ -25730,6 +25731,7 @@
       "tags" : [
         "everyday-life",
         "figure",
+        "nsfw",
         "portrait"
       ],
       "title" : "Vairumati",
@@ -39813,7 +39815,7 @@
         "sourceURL" : "https://www.wikidata.org/wiki/Q2270291",
         "status" : "PD"
       },
-      "movement" : "Italian Baroque painting",
+      "movement" : "Baroque",
       "significance" : {
         "canonLists" : [
 
@@ -40017,7 +40019,7 @@
         "nsfw",
         "religious"
       ],
-      "title" : "David and Goliath",
+      "title" : "David with the Head of Goliath",
       "wikidata" : "Q2270955",
       "year" : 1600
     },
@@ -41062,6 +41064,7 @@
         "sitelinks" : 12
       },
       "tags" : [
+        "nsfw",
         "religious"
       ],
       "title" : "Salome with the Head of John the Baptist",
@@ -42587,6 +42590,7 @@
         "sitelinks" : 4
       },
       "tags" : [
+        "nsfw",
         "religious"
       ],
       "title" : "David with the Head of Goliath",
@@ -42626,7 +42630,7 @@
       "tags" : [
         "portrait"
       ],
-      "title" : "Portrait of a Courtesan",
+      "title" : "Bust-Length Portrait of a Young Woman",
       "wikidata" : "Q2395137",
       "year" : 1590
     },
@@ -45722,7 +45726,7 @@
         "sourceURL" : "https://www.wikidata.org/wiki/Q2610675",
         "status" : "PD"
       },
-      "movement" : "Italian Baroque painting",
+      "movement" : "Baroque",
       "significance" : {
         "canonLists" : [
 
@@ -47368,6 +47372,7 @@
       },
       "tags" : [
         "animals",
+        "nsfw",
         "religious"
       ],
       "title" : "Madonna and Child with Saint Anne",
@@ -47443,6 +47448,7 @@
         "sitelinks" : 15
       },
       "tags" : [
+        "nsfw",
         "religious"
       ],
       "title" : "David with the Head of Goliath",

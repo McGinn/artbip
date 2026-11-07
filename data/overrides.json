@@ -1657,6 +1657,7 @@
   "nga-1181": {
     "tags": [
       "narrative",
+      "nsfw",
       "religious"
     ],
     "caption": "Judith, in a white gown and a blue mantle, stands at the opening of a pink tent and looks away to the right. With one hand she lowers a severed head into a sack held open by a turbaned servant; in the other she holds a sword, point down. Behind her, a bare foot sticks up from a bed."
@@ -4609,6 +4610,7 @@
     "tags": [
       "everyday-life",
       "figure",
+      "nsfw",
       "portrait"
     ],
     "caption": "A bare-breasted woman sits on an ornate yellow seat against a red ground, with two figures behind her. At the lower left, a pale bird stands over a dark lizard; Gauguin joins these forms through broad areas of saturated colour."
@@ -8542,7 +8544,7 @@
     "dateDisplay": "c. 1597–1600",
     "year": 1597,
     "collectionURL": "https://www.ambrosiana.it/en/discover/masterpieces/basket-of-fruit/",
-    "movement": "Italian Baroque painting"
+    "movement": "Baroque"
   },
   "wikidata-Q2270768": {
     "tags": [
@@ -8598,7 +8600,8 @@
     "caption": "David kneels on Goliath's body and bends over it, tying a cord into the hair of the severed head with both hands. Light falls on his bare shoulder, arm and leg and on his pale clothes. The head lies at the lower right, eyes open and forehead cut, while the giant's half-lit torso sinks into the dark at its far end.",
     "movement": "Baroque",
     "dateDisplay": "c. 1600",
-    "collectionURL": "https://www.museodelprado.es/en/the-collection/art-work/david-with-the-head-of-goliath/c3895900-73d4-4257-97fb-240e3aaf0402"
+    "collectionURL": "https://www.museodelprado.es/en/the-collection/art-work/david-with-the-head-of-goliath/c3895900-73d4-4257-97fb-240e3aaf0402",
+    "title": "David with the Head of Goliath"
   },
   "wikidata-Q2272723": {
     "tags": [
@@ -8907,6 +8910,7 @@
   },
   "wikidata-Q2318957": {
     "tags": [
+      "nsfw",
       "religious"
     ],
     "caption": "Salome, wrapped in a red cloak, holds a platter bearing John the Baptist’s severed head. An older woman in a white head covering stands behind her, while the executioner at right bends his head toward the platter. His bare shoulder and Salome’s face stand out against the dark background.",
@@ -9352,6 +9356,7 @@
   },
   "wikidata-Q23948629": {
     "tags": [
+      "nsfw",
       "religious"
     ],
     "caption": "David looks upward with parted lips and one hand on his chest. His other hand grips the hair of Goliath’s severed head, resting on a stone ledge. A white cloth wraps his waist, and a sword stands beside a red-draped helmet with pale feathers at left.",
@@ -9368,7 +9373,8 @@
     "dateDisplay": "c. 1590 or c. 1598",
     "year": 1590,
     "collection": "Formerly Gemäldegalerie, Berlin; lost, probably destroyed 1945",
-    "collectionURL": "https://recherche.smb.museum/detail/866588"
+    "collectionURL": "https://recherche.smb.museum/detail/866588",
+    "title": "Bust-Length Portrait of a Young Woman"
   },
   "wikidata-Q24011": {
     "tags": [
@@ -10270,7 +10276,7 @@
     "collection": "Musée du Louvre, Paris",
     "collectionURL": "https://collections.louvre.fr/ark:/53355/cl010062329",
     "caption": "A young woman in a white headcloth and loose white blouse, a dark red sash across green cloth, touches the bare hand of a young man. She holds it from beneath with her other hand. He wears a black hat with white and dark plumes and a golden-brown doublet, with a sword hilt at his hip. Each looks sidelong at the other against a plain background crossed by a slanting band of light.",
-    "movement": "Italian Baroque painting"
+    "movement": "Baroque"
   },
   "wikidata-Q2610729": {
     "tags": [
@@ -10736,6 +10742,7 @@
   "wikidata-Q2715302": {
     "tags": [
       "animals",
+      "nsfw",
       "religious"
     ],
     "collection": "Galleria Borghese, Rome",
@@ -10759,6 +10766,7 @@
   },
   "wikidata-Q2721037": {
     "tags": [
+      "nsfw",
       "religious"
     ],
     "caption": "David holds Goliath's severed head by the hair, with his sword resting across his shoulder. Strong light separates the young victor's face and bare arm from the darkness, while the heavy head hangs at the far end of his outstretched hand.",
