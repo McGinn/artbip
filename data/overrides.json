@@ -1873,7 +1873,8 @@
   "nga-46159": {
     "tags": [
       "portrait"
-    ]
+    ],
+    "caption": "A young woman looks straight out from a huge lace-edged ruff, in a pale satin gown worked with silver and gold. A red curtain hangs behind her, and the gown runs off the bottom edge of the canvas."
   },
   "nga-46303": {
     "tags": [
@@ -2048,8 +2049,12 @@
   },
   "nga-71349": {
     "tags": [
-      "mythological"
-    ]
+      "animals",
+      "mythological",
+      "nsfw",
+      "nude"
+    ],
+    "caption": "A man falls headfirst from an ornate chariot, with a loose wheel below it and flames beneath him. Horses rear and tumble around him among winged figures and nude women. A broad shaft of pale light cuts down from the upper right."
   },
   "nga-72328": {
     "tags": [
@@ -3129,7 +3134,8 @@
     "caption": "Christ bends his head beneath the crown of thorns as two men wield long staffs above him. Light catches his exposed torso and the polished armour of an observer whose back faces the viewer.",
     "dateDisplay": "c. 1603",
     "year": 1603,
-    "movement": "Baroque"
+    "movement": "Baroque",
+    "collectionURL": "https://www.khm.at/en/object/427/"
   },
   "wikidata-Q1117805": {
     "tags": [
@@ -4740,8 +4746,11 @@
     "tags": [
       "religious"
     ],
-    "caption": "Christ turns towards Peter and Andrew while gesturing ahead. Peter holds two fish, and Andrew points towards himself; their illuminated faces and hands carry the encounter against a dark background.",
-    "movement": "Baroque"
+    "caption": "Christ turns towards Peter and Andrew while gesturing ahead. Peter holds two fish on sticks, and Andrew points towards himself; the three figures stand against a dark background.",
+    "movement": "Baroque",
+    "dateDisplay": "c. 1602–1604",
+    "year": 1602,
+    "collectionURL": "https://www.rct.uk/collection/402824/the-calling-of-saints-peter-and-andrew"
   },
   "wikidata-Q1464531": {
     "tags": [
@@ -5298,12 +5307,14 @@
   "wikidata-Q16038514": {
     "tags": [
       "animals",
+      "battle",
       "military",
       "portrait"
     ],
     "caption": "The Duke of Lerma, wearing armour and a white ruff, holds a baton while riding a white horse with one foreleg raised. A tree frames the left side, and small mounted figures with upright lances appear beneath the clouded blue sky in the distance.",
     "dateDisplay": "1603",
-    "year": 1603
+    "year": 1603,
+    "collectionURL": "https://www.museodelprado.es/en/the-collection/art-work/equestrian-portrait-of-the-duke-of-lerma/323c6f0b-8a88-4241-9499-d4e389d0de64"
   },
   "wikidata-Q16038642": {
     "tags": [
@@ -7361,9 +7372,11 @@
   },
   "wikidata-Q19911449": {
     "tags": [
+      "animals",
+      "night",
       "religious"
     ],
-    "caption": "Mary lifts a white cloth around the infant Christ as shepherds gather with raised hands beneath a stone arch. Bright pink, yellow and green garments stand out against the dark setting. Winged children carry a curling banner overhead, while a white lamb lies beside a staff at the front.",
+    "caption": "Mary lifts the edges of a white cloth with the baby lying on it, as shepherds crowd in with raised arms and pressed hands beside an arched vault. Pink, yellow and bright green robes stand out against the dark. Winged infants hold a curling banner overhead, and a white lamb lies on the floor at the front beside a long stick.",
     "title": "The Adoration of the Shepherds",
     "dateDisplay": "c. 1605–1610",
     "year": 1605,
@@ -8660,11 +8673,12 @@
     "tags": [
       "religious"
     ],
-    "caption": "Saint Francis bows his head toward a skull held in his hands. Light catches his face, the skull and the torn shoulder of his brown habit against a dark background. A simple wooden cross lies diagonally across the foreground.",
-    "dateDisplay": "1606",
-    "year": 1606,
-    "collectionURL": "https://www.barberinicorsini.org/wp-content/uploads/2019/12/2019_12_Barberini_AlaNord_CartellaStampa.pdf",
-    "movement": "Baroque"
+    "caption": "Saint Francis kneels with his head bowed toward a skull held in his hands. Light catches his face, the skull and the torn shoulder of his brown habit against a dark background. A plain cross rests on a stone near the bottom edge.",
+    "dateDisplay": "c. 1603–1609 (disputed)",
+    "year": 1603,
+    "collectionURL": "",
+    "movement": "Baroque",
+    "artist": "Caravaggio (attributed)"
   },
   "wikidata-Q2275371": {
     "tags": [
@@ -8935,10 +8949,9 @@
   },
   "wikidata-Q2325834": {
     "tags": [
-      "nude",
       "religious"
     ],
-    "caption": "Christ stands behind a stone parapet with his wrists bound, a crown of thorns on his lowered head and a reed held against his bare torso. A man behind him lifts a purple cloak around his shoulders. At right, Pilate faces the viewer and gestures toward Christ with open hands.",
+    "caption": "Christ stands behind a ledge with his wrists tied, a crown of thorns on his lowered head and a reed resting against his bare torso. A man behind him holds up a purple cloak at his shoulders. At right, Pilate, bearded and in a black cap, stares straight ahead with both hands held out beside Christ's arm.",
     "dateDisplay": "c. 1605",
     "year": 1605,
     "collectionURL": "https://catalogo.museidigenova.it/oggetti/196889-ecce-homo",
@@ -8995,7 +9008,7 @@
     "tags": [
       "religious"
     ],
-    "caption": "Matthew turns from his open book towards an angel suspended above him in swirling white cloth. The angel gestures with its fingers while the saint holds his pen poised, their separated hands making inspiration feel like an exchange across the darkness.",
+    "caption": "Matthew, bald and grey-bearded, twists to look up at an angel plunging head first out of the dark in swirling white cloth. He holds a quill over an open book on a table, with one knee on a wooden stool and one bare foot hanging in the air.",
     "movement": "Baroque"
   },
   "wikidata-Q2338404": {
@@ -10373,6 +10386,7 @@
     "tags": [
       "narrative",
       "night",
+      "nsfw",
       "religious",
       "supernatural"
     ],
@@ -10380,7 +10394,7 @@
     "year": 1606,
     "collection": "Pio Monte della Misericordia, Naples",
     "collectionURL": "https://piomontedellamisericordia.it/caravaggio/",
-    "caption": "Overlapping figures enact works of mercy in a dark street, with a torch below and the Virgin, Child and two winged angels above.",
+    "caption": "Overlapping figures enact works of mercy in the dark, with a torch below and the Virgin, Child and two winged angels above.",
     "movement": "Baroque"
   },
   "wikidata-Q2627028": {
@@ -10408,7 +10422,7 @@
   },
   "wikidata-Q2627056": {
     "tags": [
-      "portrait",
+      "nsfw",
       "religious",
       "self-portrait"
     ],
@@ -10416,7 +10430,7 @@
     "year": 1606,
     "collection": "Galleria Borghese, Rome",
     "collectionURL": "https://www.collezionegalleriaborghese.it/en/opere/david-with-the-head-of-goliath",
-    "caption": "David extends Goliath’s severed head by the hair, looking down towards it while lowering his sword across the foreground. His exposed chest and pale shirt emerge from the dark background; the Borghese catalogue identifies Goliath’s face as Caravaggio’s own likeness.",
+    "caption": "David holds out Goliath's severed head by the hair and looks down at it, his pale shirt slipping from one shoulder. Blood runs from the neck, and a sword crosses the lower left. The background is dark.",
     "movement": "Italian Baroque painting"
   },
   "wikidata-Q2627810": {
@@ -10728,7 +10742,7 @@
     "dateDisplay": "1605",
     "year": 1605,
     "collectionURL": "https://www.collezionegalleriaborghese.it/en/opere/madonna-and-child-with-saint-anne-madonna-dei-palafrenieri",
-    "caption": "Mary supports Jesus as their overlapping bare feet press down on a serpent; Saint Anne watches with clasped hands, her upright figure set beside their bending bodies.",
+    "caption": "Mary bends to steady the naked child as his bare foot rests on hers, and hers presses on the head of a snake. At right Saint Anne stands with her hands folded at her waist and her head bent, looking down.",
     "movement": "Italian Baroque painting"
   },
   "wikidata-Q2715353": {
@@ -12206,6 +12220,7 @@
   "wikidata-Q3223625": {
     "tags": [
       "animals",
+      "nsfw",
       "nude",
       "religious"
     ],
@@ -13026,7 +13041,7 @@
     "year": 1604,
     "collection": "Nelson-Atkins Museum of Art, Kansas City",
     "collectionURL": "https://art.nelson-atkins.org/objects/1130/saint-john-the-baptist-in-the-wilderness",
-    "caption": "Saint John sits beneath dark trees with his head lowered, holding a reed cross beside a scarlet cloak and fur-edged clothing as light falls across his arms and knees.",
+    "caption": "Saint John sits in dark woods with his head lowered, gripping a reed cross in one hand. A scarlet cloak spills around him and a fur-edged cloth wraps his waist. Light falls from above onto his shoulder, arm and knee.",
     "movement": "Baroque"
   },
   "wikidata-Q3463920": {
