@@ -3287,7 +3287,7 @@
       "artist" : "Juan Sánchez Cotán",
       "artistDeathYear" : 1627,
       "artistSort" : "Cotán, Juan Sánchez",
-      "caption" : "Game birds hang like pendulums beside a cut melon and cabbage in a dark stone niche, Sánchez Cotán's austere geometry and raking light making the mundane feel sacred.",
+      "caption" : "Four game birds hang by their heads on cords in a dark recess, beside a quince and a cabbage on cords of their own. On the pale ledge below lie a cut melon with a wedge beside it and two other green fruits or vegetables, lit strongly from the left.",
       "collection" : "Art Institute of Chicago",
       "collectionURL" : "https://www.artic.edu/artworks/84709",
       "dateDisplay" : "c. 1600–3",
@@ -6071,7 +6071,7 @@
       "artist" : "Caravaggio (Michelangelo Merisi)",
       "artistDeathYear" : 1610,
       "artistSort" : "Merisi), Caravaggio (Michelangelo",
-      "caption" : "Four boys in loose classical robes crowd together. At the centre one in a white shirt and a red mantle holds a lute, fingers on its strings, and looks out at us, while another behind him turns towards us with parted lips. At right a boy seen from behind, a white cloth slipping from his shoulder and a dark red sash at his waist, holds open a sheet of music. At left a winged boy with a quiver of arrows, dressed as Cupid, bends over a bunch of grapes, and a violin and bow lie on the cloth in front.",
+      "caption" : "Four boys crowd together. At the centre one in a white shirt and red mantle holds a lute with his fingers on its strings and looks out at us, lips parted. Behind him another turns towards us, also with parted lips. At right a boy seen from behind, white cloth slipping from his shoulder and a dark red sash at his waist, holds open some sheets of music. At left a winged boy with arrows behind him bends over a bunch of grapes. A violin and bow lie on a white cloth at the front.",
       "collection" : "The Metropolitan Museum of Art",
       "collectionURL" : "https://www.metmuseum.org/art/collection/search/435844",
       "dateDisplay" : "1597",
@@ -6100,8 +6100,7 @@
       },
       "tags" : [
         "allegorical",
-        "everyday-life",
-        "portrait",
+        "music",
         "self-portrait"
       ],
       "title" : "The Musicians",
@@ -11516,7 +11515,7 @@
       "artist" : "El Greco (Domenikos Theotokopoulos)",
       "artistDeathYear" : 1614,
       "artistSort" : "Greco, El (Domenikos Theotokopoulos)",
-      "caption" : "Saint Martin sits high on a white horse, lowering part of his green cloak toward the nearly nude beggar. Gold-edged armor and monumental figures rise above a distant view of Toledo.",
+      "caption" : "Saint Martin, in gold-worked armour and a white ruff, sits on a white horse with a sword at his bright green cloak. A nearly nude man standing at left holds part of the cloth. Beneath the horse is a small distant view of Toledo, and blue sky and white cloud fill the space above.",
       "collection" : "National Gallery of Art",
       "collectionURL" : "https://www.nga.gov/artworks/1164",
       "dateDisplay" : "1597/1599",
@@ -11544,6 +11543,7 @@
         "sitelinks" : 15
       },
       "tags" : [
+        "animals",
         "religious"
       ],
       "title" : "Saint Martin and the Beggar",
@@ -22180,9 +22180,9 @@
       "artist" : "Federico Barocci",
       "artistDeathYear" : 1612,
       "artistSort" : "Barocci, Federico",
-      "caption" : "Mary kneels beside the newborn Christ, whose radiance lights her face and open hands. Behind her, Joseph points out the child to shepherds at the doorway; an ox and donkey lean towards the manger.",
+      "caption" : "Mary kneels with both hands open, one stretched towards the child and the other lowered. He lies wrapped in blue on a white pillow in a hay-filled manger. An ox and a donkey lean in from the right. Behind her Joseph stands at a doorway, his head turned to the shepherds looking in, and points back into the room with one hand. A rough roof of poles and straw slopes overhead.",
       "collection" : "Museo del Prado",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q11789741",
+      "collectionURL" : "https://www.museodelprado.es/en/the-collection/art-work/the-nativity/8cfdf439-9f30-4451-8be1-2f095f9e4e88",
       "dateDisplay" : "1597",
       "id" : "wikidata-Q11789741",
       "image" : {
@@ -22206,6 +22206,8 @@
         "sitelinks" : 9
       },
       "tags" : [
+        "animals",
+        "interior",
         "religious"
       ],
       "title" : "Nativity",
@@ -22331,9 +22333,9 @@
       "artist" : "El Greco",
       "artistDeathYear" : 1614,
       "artistSort" : "Greco, El",
-      "caption" : "Diego de Covarrubias wears a black cap and a white ecclesiastical garment over a dark collar. A gold-and-green pectoral cross hangs from a pale ribbon against the gathered fabric, beneath his grey beard.",
+      "caption" : "Diego de Covarrubias wears a black cap and a white ecclesiastical garment over a dark collar. A gold-and-green pectoral cross hangs from a pale ribbon against the gathered fabric, beneath his white-grey beard.",
       "collection" : "El Greco Museum",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q11824907",
+      "collectionURL" : "https://www.cultura.gob.es/mgreco/en/la-coleccion/colecciones/seleccion-de-piezas/pintura/diegodecovarrubias.html",
       "dateDisplay" : "c. 1600",
       "id" : "wikidata-Q11824907",
       "image" : {
@@ -22357,8 +22359,7 @@
         "sitelinks" : 9
       },
       "tags" : [
-        "portrait",
-        "religious"
+        "portrait"
       ],
       "title" : "Portrait of Diego de Covarrubias y Leiva",
       "wikidata" : "Q11824907",
@@ -39787,7 +39788,7 @@
       "artist" : "Caravaggio",
       "artistDeathYear" : 1610,
       "artistSort" : "Caravaggio",
-      "caption" : "A woven basket rests on a narrow ledge against a plain ochre background. Pale and dark grapes spill over its rim among apples, pears and figs. Spotted leaves rise behind the fruit, while torn and curling leaves extend beyond the basket on both sides.",
+      "caption" : "A woven basket rests on a narrow ledge against a plain ochre background. Pale and dark grapes spill over its rim among an apple, pears and figs. Spotted leaves rise behind the fruit, while torn and curling leaves extend beyond the basket on both sides.",
       "collection" : "Pinacoteca Ambrosiana",
       "collectionURL" : "https://www.ambrosiana.it/en/discover/masterpieces/basket-of-fruit/",
       "dateDisplay" : "c. 1597–1600",
@@ -40637,8 +40638,8 @@
       "artistSort" : "Caravaggio",
       "caption" : "Medusa’s severed head fills a round shield, her eyes wide and mouth open. Coiling snakes surround her face, and streams of blood descend from the cut neck. A deep painted shadow falls against the green background inside the decorated rim.",
       "collection" : "Uffizi Gallery",
-      "collectionURL" : "https://www.uffizi.it/mostre-virtuali/sguardi-dal-mondo",
-      "dateDisplay" : "1597",
+      "collectionURL" : "https://www.uffizi.it/en/online-exhibitions/views-from-around-the-world",
+      "dateDisplay" : "c. 1596–1598",
       "id" : "wikidata-Q2293905",
       "image" : {
         "format" : "jpeg",
@@ -40652,6 +40653,7 @@
         "sourceURL" : "https://www.wikidata.org/wiki/Q2293905",
         "status" : "PD"
       },
+      "movement" : "Baroque",
       "significance" : {
         "canonLists" : [
 
@@ -40668,7 +40670,7 @@
       ],
       "title" : "Medusa",
       "wikidata" : "Q2293905",
-      "year" : 1597
+      "year" : 1596
     },
     {
       "artist" : "Caravaggio",
@@ -45696,7 +45698,7 @@
       "artist" : "Caravaggio",
       "artistDeathYear" : 1610,
       "artistSort" : "Caravaggio",
-      "caption" : "A fortune-teller holds a young man's outstretched hand while they exchange glances, his feathered hat and golden sleeve contrasting with her white blouse and headcloth.",
+      "caption" : "A young woman in a white headcloth and loose white blouse, a dark red sash across green cloth, touches the bare hand of a young man. She holds it from beneath with her other hand. He wears a black hat with white and dark plumes and a golden-brown doublet, with a sword hilt at his hip. Each looks sidelong at the other against a plain background crossed by a slanting band of light.",
       "collection" : "Musée du Louvre, Paris",
       "collectionURL" : "https://collections.louvre.fr/ark:/53355/cl010062329",
       "dateDisplay" : "c. 1595–1598",
@@ -46194,7 +46196,7 @@
       "artist" : "Caravaggio",
       "artistDeathYear" : 1610,
       "artistSort" : "Caravaggio",
-      "caption" : "Catherine looks towards the viewer beside a broken spiked wheel, holding a sword diagonally across her dark dress. A long palm lies over the red cushion and the floor, while light from the right illuminates her face, white sleeves and hands.",
+      "caption" : "Catherine looks towards the viewer beside a broken spiked wheel, a sword held diagonally across her dark dress. One hand grips its hilt and the other rests along the blade. A long palm lies over a red cushion and the floor, and her face, white sleeves and hands stand out against a black background.",
       "collection" : "Museo Nacional Thyssen-Bornemisza, Madrid",
       "collectionURL" : "https://www.museothyssen.org/en/collection/artists/caravaggio-michelangelo-merisi/saint-catherine-alexandria",
       "dateDisplay" : "c. 1598–1599",
@@ -47443,7 +47445,7 @@
       "artist" : "Caravaggio",
       "artistDeathYear" : 1610,
       "artistSort" : "Caravaggio",
-      "caption" : "Magdalene bows her head over hands resting in her lap; discarded pearls, jewellery and a jar of ointment beside her skirt give this quiet scene its penitential meaning.",
+      "caption" : "A young woman with long red hair sits on a wooden chair with her head bowed and eyes closed, her hands folded in her lap. On the floor beside her skirt lie a string of pearls and gold jewellery, and a round glass vessel of amber liquid stands with them. The wall behind her is bare.",
       "collection" : "Galleria Doria Pamphilj, Rome",
       "collectionURL" : "https://www.doriapamphilj.it/en/portfolio/caravaggio/",
       "dateDisplay" : "c. 1597",
@@ -47516,10 +47518,10 @@
       "artist" : "Caravaggio",
       "artistDeathYear" : 1610,
       "artistSort" : "Caravaggio",
-      "caption" : "Maffeo Barberini, the future Pope Urban VIII, sits bearded in a wooden chair, wearing a tall black cap, a white collar and a dark green-black robe over billowing white sleeves. One arm stretches out to point off to the left, and his eyes turn the same way, while the other hand grips a few folded papers.",
-      "collection" : "Galleria Nazionale d'Arte Antica",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q2734111",
-      "dateDisplay" : "1598",
+      "caption" : "A bearded man traditionally identified as Maffeo Barberini, the future Pope Urban VIII, sits in a wooden chair in a tall black cap, a white collar and a dark green-black robe over billowing white sleeves. One arm stretches out with the forefinger pointing toward the left of the picture, and his eyes turn the same way, while the other hand grips a few folded papers.",
+      "collection" : "Acquired by the Italian State for Palazzo Barberini, Rome",
+      "collectionURL" : "https://barberinicorsini.org/en/the-italian-government-has-acquired-the-portrait-of-monsignor-maffeo-barberini-by-caravaggio/",
+      "dateDisplay" : "c. 1599",
       "id" : "wikidata-Q2734111",
       "image" : {
         "format" : "jpeg",
@@ -47547,7 +47549,7 @@
       ],
       "title" : "Portrait of Maffeo Barberini, later Pope Urban VIII",
       "wikidata" : "Q2734111",
-      "year" : 1598
+      "year" : 1599
     },
     {
       "artist" : "Claude Monet",
@@ -72685,10 +72687,10 @@
       "artist" : "El Greco",
       "artistDeathYear" : 1614,
       "artistSort" : "Greco, El",
-      "caption" : "Three angels gather Christ’s blood in their outstretched hands beneath the dark sky. Mary and John stand on either side of the cross, while Mary Magdalene kneels at its foot; their long figures carry the eye upward towards Christ.",
+      "caption" : "Christ hangs on the cross against a dark sky, a white lettered tablet above his head. Three winged angels reach toward him, the lowest holding a cloth just under his feet. The Virgin, in a blue mantle over red, and Saint John, in green and pink, stand on either side looking up, while Mary Magdalene, in pale blue, holds a cloth at the foot of the cross.",
       "collection" : "Museo del Prado",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q5966352",
-      "dateDisplay" : "1590s",
+      "collectionURL" : "https://www.museodelprado.es/en/the-collection/art-work/the-crucifixion/9fd77a93-ec76-4482-8721-cc06ef0af815",
+      "dateDisplay" : "1597–1600",
       "id" : "wikidata-Q5966352",
       "image" : {
         "format" : "jpeg",
@@ -72712,11 +72714,12 @@
         "sitelinks" : 6
       },
       "tags" : [
+        "night",
         "religious"
       ],
       "title" : "The Crucifixion",
       "wikidata" : "Q5966352",
-      "year" : 1598
+      "year" : 1597
     },
     {
       "artist" : "Berthe Morisot",
@@ -73768,10 +73771,10 @@
       "artist" : "El Greco",
       "artistDeathYear" : 1614,
       "artistSort" : "Greco, El",
-      "caption" : "Mary nurses the infant Christ as Anne leans towards his head and Joseph supports his foot. Hands and glances draw the family closely together, while vivid pink, blue and yellow folds stand against an open, cloud-filled sky.",
-      "collection" : "Museo Fundación Lerma",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q6116827",
-      "dateDisplay" : "1595",
+      "caption" : "Mary, in a deep pink robe with blue across her knees, nurses the infant Christ on her lap. Saint Anne, in a red mantle and pale veil, raises a hand to his head. Joseph, in yellow, touches his foot. Yellow cloth lies under the child, and blue sky and pale cloud fill the space behind them.",
+      "collection" : "Tavera Hospital, Toledo",
+      "collectionURL" : "https://fundacionmedinaceli.org/en/fa_collection/the-holy-family-with-saint-anne/",
+      "dateDisplay" : "c. 1595",
       "id" : "wikidata-Q6116827",
       "image" : {
         "format" : "jpeg",
@@ -73795,6 +73798,7 @@
         "sitelinks" : 7
       },
       "tags" : [
+        "family",
         "religious"
       ],
       "title" : "Holy Family with Saint Anne",
@@ -74137,10 +74141,10 @@
       "artist" : "El Greco",
       "artistDeathYear" : 1614,
       "artistSort" : "Greco, El",
-      "caption" : "Christ rises with his feet together above a tangle of soldiers, naked but for a white loincloth, a crimson cloak flying behind him and a diamond-shaped halo round his head. He raises one hand and holds a white banner on a long staff. Below, a bearded soldier at left lifts a sword and a round shield over his head, a man in blue at right stretches an arm and turns his face upward, and another sprawls head-down in yellow in the foreground.",
+      "caption" : "Christ rises with his feet together above a tangle of soldiers, nude but for a white cloth at his hips, a dark reddish-purple robe flying behind him and a diamond-shaped halo round his head. He raises one hand and holds a white banner on a long staff. Below, a bearded soldier left of centre lifts a sword and a round shield over his head, a man in blue at right stretches an arm and turns his face upward, and in the foreground another sprawls head-down with yellow flaps at his waist.",
       "collection" : "Museo del Prado",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q617629",
-      "dateDisplay" : "1590s",
+      "collectionURL" : "https://www.museodelprado.es/en/the-collection/art-work/the-resurrection/2267dcd8-2b87-43b7-8104-0fb5070c4b5c",
+      "dateDisplay" : "1597–1600",
       "id" : "wikidata-Q617629",
       "image" : {
         "format" : "jpeg",
@@ -74168,7 +74172,7 @@
       ],
       "title" : "The Resurrection",
       "wikidata" : "Q617629",
-      "year" : 1598
+      "year" : 1597
     },
     {
       "artist" : "Edward Burne-Jones",
@@ -77518,10 +77522,10 @@
       "artist" : "Caravaggio",
       "artistDeathYear" : 1610,
       "artistSort" : "Caravaggio",
-      "caption" : "An angel plays the violin from music held by Joseph, who watches from the left. On the other side of the angel’s white drapery, Mary rests her head against the sleeping child, dividing the scene between attentive listening and sleep.",
+      "caption" : "An angel seen from behind, with dark wings and white drapery, plays a violin from the music held up by Joseph, who sits on the left with a donkey's head beside him. On the right, Mary, eyes closed, rests her head on the child in her arms, and a landscape opens beyond them.",
       "collection" : "Galleria Doria Pamphilj",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q745098",
-      "dateDisplay" : "1597",
+      "collectionURL" : "https://www.doriapamphilj.it/en/portfolio/caravaggio/",
+      "dateDisplay" : "c. 1597",
       "id" : "wikidata-Q745098",
       "image" : {
         "format" : "jpeg",
@@ -77545,6 +77549,9 @@
         "sitelinks" : 22
       },
       "tags" : [
+        "animals",
+        "landscape",
+        "music",
         "religious"
       ],
       "title" : "Rest on the Flight into Egypt",
