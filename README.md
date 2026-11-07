@@ -151,15 +151,19 @@ up in the other. Scheduled rotation belongs to the app, so keep it running.
 ## FAQ
 
 **Is it really free?**
-Yes. There is no trial, no account, no in-app purchase and no advertising.
+The version on GitHub is. There is no trial, no account, no in-app purchase and no advertising.
 If you want to support it, you can
 [sponsor the project on GitHub](https://github.com/sponsors/McGinn).
 Sponsoring unlocks nothing; it just says thanks.
 
 **Will artbip ever cost money?**
-The app and everything in it today are free and will stay that way. Optional
-extra notes may be offered one day; nothing included now will be put behind
-a paywall.
+The version on GitHub won't. It's free and open source under the MIT licence,
+with the full collection, every rotation option and the longer notes on 100
+works.
+
+A future version on the Mac App Store will be paid: 100 works will be free, and
+the rest of the collection, most notes and some rotation options will need a
+subscription. This page will give the price and date before it arrives.
 
 **Is it legal to use these images?**
 Yes. Every work is either in the public domain or released under CC0 by the
