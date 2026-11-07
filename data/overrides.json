@@ -3002,7 +3002,7 @@
     "dateDisplay": "probably late 1607–early 1608",
     "year": 1607,
     "collectionURL": "https://ktieb.org.mt/app/uploads/2025/03/Caravaggio-in-Malta-Midsea-Books.pdf",
-    "movement": "Italian Baroque painting"
+    "movement": "Baroque"
   },
   "wikidata-Q1113763": {
     "tags": [
@@ -3943,7 +3943,7 @@
     "caption": "John and Nicodemus support Christ’s pale body above a projecting stone slab, his right arm hanging toward its edge. Behind them, three women gather against the dark background, one lifting both hands above her head.",
     "dateDisplay": "1602–1604",
     "year": 1603,
-    "movement": "Italian Baroque painting"
+    "movement": "Baroque"
   },
   "wikidata-Q1213160": {
     "tags": [
@@ -4709,7 +4709,7 @@
       "religious"
     ],
     "caption": "An angel in white drapery, with dark wings, drops from the upper left above a bank of cloud, one arm stretched down with a finger pointing and a lily beside the head. Below at right, Mary kneels with her head bowed, in a veil and blue mantle, her hands at her chest. Behind her are a bed and part of a chair; a pale cloth lies on the floor in front.",
-    "movement": "Italian Baroque painting",
+    "movement": "Baroque",
     "dateDisplay": "c. 1607–1610",
     "year": 1607,
     "collectionURL": "https://collections-mba.nancy.fr/r/421bc8bb-e255-4050-8822-117757a4000f"
@@ -6442,6 +6442,7 @@
     "tags": [
       "everyday-life",
       "interior",
+      "nsfw",
       "nude"
     ],
     "caption": "A nude young performer stands on a small rug with a large snake coiled around his body, raising its head in one hand. Seated spectators line the blue-tiled wall, while a musician plays a wind instrument at the right. Painted inscriptions and floral patterns cover the tiles above them.",
@@ -7127,6 +7128,7 @@
   "wikidata-Q19753132": {
     "tags": [
       "mythological",
+      "nsfw",
       "nude"
     ],
     "caption": "A shaft of moonlight illuminates Endymion's sleeping body as a winged youth lifts the branches above him. The Louvre identifies this figure as Zephyr; Girodet contrasts the sleeper's smooth, pale skin with the dense darkness of leaves and rock."
@@ -7620,7 +7622,7 @@
     "dateDisplay": "c. 1598",
     "year": 1598,
     "collectionURL": "https://www.uffizi.it/en/artworks/caravaggio-bacchus",
-    "movement": "Italian Baroque painting"
+    "movement": "Baroque"
   },
   "wikidata-Q2016193": {
     "tags": [
@@ -7648,7 +7650,8 @@
   "wikidata-Q20170935": {
     "tags": [
       "family",
-      "figure"
+      "figure",
+      "nsfw"
     ],
     "caption": "A mother holds a standing, unclothed child close beside her face. The child's hand rests at her neck, while she supports the child's thigh. An oval mirror in a dark frame rises behind their heads. Broad blue and white strokes describe the mother's sleeves and the fabric gathered across her lap.",
     "title": "Mother and Child (The Oval Mirror)",
@@ -7920,7 +7923,7 @@
     "dateDisplay": "1606",
     "year": 1606,
     "collectionURL": "https://pinacotecabrera.org/en/collezioni/collezione-on-line/supper-at-emmaus/",
-    "movement": "Italian Baroque painting"
+    "movement": "Baroque"
   },
   "wikidata-Q20982926": {
     "tags": [
@@ -8451,7 +8454,7 @@
     "dateDisplay": "1607",
     "year": 1607,
     "collectionURL": "https://capodimonte.cultura.gov.it/mostra/capodimonte-doppio-caravaggio-lecce-homo-e-la-flagellazione-di-cristo/",
-    "movement": "Italian Baroque painting"
+    "movement": "Baroque"
   },
   "wikidata-Q2267440": {
     "tags": [
@@ -8774,7 +8777,7 @@
     "dateDisplay": "c. 1603",
     "year": 1603,
     "collectionURL": "https://www.uffizi.it/en/artworks/sacrifice-of-isaac",
-    "movement": "Italian Baroque painting"
+    "movement": "Baroque"
   },
   "wikidata-Q2290433": {
     "tags": [
@@ -8813,7 +8816,7 @@
     "dateDisplay": "c. 1595",
     "year": 1595,
     "collectionURL": "https://www.collezionegalleriaborghese.it/en/opere/self-portrait-as-bacchus-known-as-sick-bacchus",
-    "movement": "Italian Baroque painting"
+    "movement": "Baroque"
   },
   "wikidata-Q2293953": {
     "tags": [
@@ -9495,7 +9498,7 @@
     "dateDisplay": "c. 1601",
     "year": 1601,
     "collectionURL": "https://brandenburg.museum-digital.de/object/11898",
-    "movement": "Italian Baroque painting"
+    "movement": "Baroque"
   },
   "wikidata-Q2420918": {
     "tags": [
@@ -9579,13 +9582,14 @@
   "wikidata-Q2429754": {
     "tags": [
       "mythological",
+      "nsfw",
       "nude"
     ],
     "caption": "Cupid sleeps on his side, his head at the right and bent legs extending left. Light picks out his face, rounded torso and limbs against a dark background. One hand rests above his body, while the other lies near an arrow; a feathered wing spreads beneath his arm.",
     "dateDisplay": "1608",
     "year": 1608,
     "collectionURL": "https://www.uffizi.it/en/pitti-palace/palatine-gallery",
-    "movement": "Italian Baroque painting"
+    "movement": "Baroque"
   },
   "wikidata-Q2438357": {
     "tags": [
@@ -10264,7 +10268,7 @@
     "year": 1595,
     "collectionURL": "https://www.thewadsworth.org/wp-content/uploads/2015/09/Euro-Wall-Text-Final.pdf",
     "caption": "An angel with a large feathered wing, bare-shouldered in white cloth, holds the reclining Saint Francis, who lies across the foreground in a brown habit with a cord at the waist. Light falls on his face, his robe and the upturned hand at his side. The rest is darkness and foliage, with a few streaks of light in the sky at left.",
-    "movement": "Italian Baroque painting"
+    "movement": "Baroque"
   },
   "wikidata-Q2610675": {
     "tags": [
@@ -10437,7 +10441,7 @@
     "collection": "Galleria Borghese, Rome",
     "collectionURL": "https://www.collezionegalleriaborghese.it/en/opere/david-with-the-head-of-goliath",
     "caption": "David holds out Goliath's severed head by the hair and looks down at it, his pale shirt slipping from one shoulder. Blood runs from the neck, and a sword crosses the lower left. The background is dark.",
-    "movement": "Italian Baroque painting"
+    "movement": "Baroque"
   },
   "wikidata-Q2627810": {
     "tags": [
@@ -10737,7 +10741,7 @@
     "dateDisplay": "c. 1606",
     "collectionURL": "https://www.collezionegalleriaborghese.it/en/opere/saint-jerome",
     "caption": "Saint Jerome bends over an open book and extends a pen across the table, with a skull on the books at the opposite end.",
-    "movement": "Italian Baroque painting"
+    "movement": "Baroque"
   },
   "wikidata-Q2715302": {
     "tags": [
@@ -10750,7 +10754,7 @@
     "year": 1605,
     "collectionURL": "https://www.collezionegalleriaborghese.it/en/opere/madonna-and-child-with-saint-anne-madonna-dei-palafrenieri",
     "caption": "Mary bends to steady the naked child as his bare foot rests on hers, and hers presses on the head of a snake. At right Saint Anne stands with her hands folded at her waist and her head bent, looking down.",
-    "movement": "Italian Baroque painting"
+    "movement": "Baroque"
   },
   "wikidata-Q2715353": {
     "tags": [
@@ -10891,6 +10895,7 @@
   "wikidata-Q275349": {
     "tags": [
       "mythological",
+      "nsfw",
       "nude"
     ],
     "caption": "Venus reclines with her back towards us while Cupid holds up a mirror containing her blurred reflection. Pink ribbons loop across his wrist, and the sweep of the grey sheet echoes the curve of her body beneath the deep red curtain."
@@ -12238,7 +12243,7 @@
     "year": 1602,
     "collectionURL": "https://www.museicapitolini.org/en/opera/san-giovanni-battista",
     "caption": "The smiling youth turns toward the viewer while embracing the ram's horned head; bright flesh, white cloth and red-orange drapery stand out against a dark setting with visible leaves and branches.",
-    "movement": "Italian Baroque painting"
+    "movement": "Baroque"
   },
   "wikidata-Q3223929": {
     "tags": [
@@ -12494,6 +12499,7 @@
   },
   "wikidata-Q3275305": {
     "tags": [
+      "nsfw",
       "nude",
       "religious"
     ],
@@ -13038,7 +13044,7 @@
     "collection": "Galleria Corsini, Rome",
     "collectionURL": "https://catalogo.beniculturali.it/detail/HistoricOrArtisticProperty/1201007596",
     "caption": "Saint John turns his shadowed face to the right, his bare torso lit above red drapery as one hand rests on the reed cross running across the foreground.",
-    "movement": "Italian Baroque painting"
+    "movement": "Baroque"
   },
   "wikidata-Q3463877": {
     "tags": [
@@ -15350,7 +15356,8 @@
   },
   "wikidata-Q3930498": {
     "tags": [
-      "mythological"
+      "mythological",
+      "nsfw"
     ],
     "dateDisplay": "1636–1638",
     "year": 1636,
@@ -16848,7 +16855,7 @@
     "collection": "Gemäldegalerie, Staatliche Museen zu Berlin",
     "collectionURL": "https://id.smb.museum/object/862322",
     "caption": "A smiling, naked boy with large brown-feathered wings and a fistful of arrows stands with one foot on the floor and the other knee raised onto a white-draped ledge; around him lie a violin, a lute, sheet music, a set square and compass, a written page under a sprig of laurel, black armour, and a crown and sceptre.",
-    "movement": "Italian Baroque painting"
+    "movement": "Baroque"
   },
   "wikidata-Q474198": {
     "tags": [
@@ -17694,7 +17701,7 @@
     "dateDisplay": "c. 1594–95",
     "collectionURL": "https://www.nationalgallery.org.uk/paintings/NG6504",
     "caption": "A youth with dark curls and a pale rose behind his ear jerks back, brow knotted and mouth open, as a small lizard hanging from his finger bites him. White drapery slips from his bare shoulder. In front of him lie cherries and other fruit, and a clear glass vase holds a pink rose, leaves and small white flowers.",
-    "movement": "Italian Baroque painting"
+    "movement": "Baroque"
   },
   "wikidata-Q587514": {
     "tags": [
@@ -18672,7 +18679,7 @@
       "religious"
     ],
     "caption": "Three men raise a wooden cross to which an old, white-bearded Peter is already nailed, his head lower than his feet. One hauls on a rope over his shoulder with his back to us, another grips the beam beside Peter's feet, and a third crouches underneath, taking the weight on his back with one hand down by what looks like a spade on the rocky ground. Peter, naked but for a white loincloth, lifts his head and shoulders from the beam.",
-    "movement": "Italian Baroque painting",
+    "movement": "Baroque",
     "dateDisplay": "1601",
     "year": 1601
   },
@@ -18995,6 +19002,7 @@
     "tags": [
       "everyday-life",
       "figure",
+      "nsfw",
       "nude"
     ],
     "caption": "Six nude men bathe from a rocky stone pier in still water edged by woods: one reclines at the left, one sits with an arm raised, one stands with his hands on his hips, and one dives head first at the right. In the water below, a red-haired man standing waist-deep reaches up towards the pier, a reddish-brown dog paddles nearby, and at the lower right Eakins himself swims towards the dog. Dark green trees fill the background, with a sunny meadow at the upper right.",
@@ -19430,6 +19438,7 @@
   "wikidata-Q892604": {
     "tags": [
       "mythological",
+      "nsfw",
       "nude"
     ],
     "caption": "Cupid, a curly-haired boy with green-grey wings, stands naked with his back to us and looks round over his shoulder as he shaves a bow with a curved blade, one foot on a pair of books. Between his legs two small children press together: one looks out at us with a half-smile while the other screws up his face, mouth open. The background is plain black above a tiled floor.",
@@ -19876,7 +19885,7 @@
       "portrait"
     ],
     "caption": "Alof de Wignacourt stands in gold-trimmed armour, holding a long gold baton low across his body in both hands and looking off to the right. Beside him a boy in dark clothes and red stockings holds a red- and white-plumed helmet. The boy has turned his head to look straight out at us.",
-    "movement": "Italian Baroque painting",
+    "movement": "Baroque",
     "dateDisplay": "c. 1608",
     "year": 1608,
     "collection": "Musée du Louvre, Paris",

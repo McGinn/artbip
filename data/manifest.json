@@ -19836,7 +19836,7 @@
         "sourceURL" : "https://www.wikidata.org/wiki/Q1113749",
         "status" : "PD"
       },
-      "movement" : "Italian Baroque painting",
+      "movement" : "Baroque",
       "significance" : {
         "canonLists" : [
 
@@ -23471,7 +23471,7 @@
         "sourceURL" : "https://www.wikidata.org/wiki/Q1213151",
         "status" : "PD"
       },
-      "movement" : "Italian Baroque painting",
+      "movement" : "Baroque",
       "significance" : {
         "canonLists" : [
 
@@ -26067,7 +26067,7 @@
         "sourceURL" : "https://www.wikidata.org/wiki/Q1448728",
         "status" : "PD"
       },
-      "movement" : "Italian Baroque painting",
+      "movement" : "Baroque",
       "significance" : {
         "canonLists" : [
 
@@ -32429,6 +32429,7 @@
       "tags" : [
         "everyday-life",
         "interior",
+        "nsfw",
         "nude"
       ],
       "title" : "The Snake Charmer",
@@ -34940,6 +34941,7 @@
       },
       "tags" : [
         "mythological",
+        "nsfw",
         "nude"
       ],
       "title" : "The Sleep of Endymion",
@@ -36649,7 +36651,7 @@
         "sourceURL" : "https://www.wikidata.org/wiki/Q2011510",
         "status" : "PD"
       },
-      "movement" : "Italian Baroque painting",
+      "movement" : "Baroque",
       "significance" : {
         "canonLists" : [
 
@@ -36774,7 +36776,8 @@
       },
       "tags" : [
         "family",
-        "figure"
+        "figure",
+        "nsfw"
       ],
       "title" : "Mother and Child (The Oval Mirror)",
       "wikidata" : "Q20170935",
@@ -37701,7 +37704,7 @@
         "sourceURL" : "https://www.wikidata.org/wiki/Q2097931",
         "status" : "PD"
       },
-      "movement" : "Italian Baroque painting",
+      "movement" : "Baroque",
       "significance" : {
         "canonLists" : [
 
@@ -39472,7 +39475,7 @@
         "sourceURL" : "https://www.wikidata.org/wiki/Q2264942",
         "status" : "PD"
       },
-      "movement" : "Italian Baroque painting",
+      "movement" : "Baroque",
       "significance" : {
         "canonLists" : [
 
@@ -40581,7 +40584,7 @@
         "sourceURL" : "https://www.wikidata.org/wiki/Q2284829",
         "status" : "PD"
       },
-      "movement" : "Italian Baroque painting",
+      "movement" : "Baroque",
       "significance" : {
         "canonLists" : [
 
@@ -40703,7 +40706,7 @@
         "sourceURL" : "https://www.wikidata.org/wiki/Q2293936",
         "status" : "PD"
       },
-      "movement" : "Italian Baroque painting",
+      "movement" : "Baroque",
       "significance" : {
         "canonLists" : [
 
@@ -43098,7 +43101,7 @@
         "sourceURL" : "https://www.wikidata.org/wiki/Q2419166",
         "status" : "PD"
       },
-      "movement" : "Italian Baroque painting",
+      "movement" : "Baroque",
       "significance" : {
         "canonLists" : [
 
@@ -43401,7 +43404,7 @@
         "sourceURL" : "https://www.wikidata.org/wiki/Q2429754",
         "status" : "PD"
       },
-      "movement" : "Italian Baroque painting",
+      "movement" : "Baroque",
       "significance" : {
         "canonLists" : [
 
@@ -43412,6 +43415,7 @@
       },
       "tags" : [
         "mythological",
+        "nsfw",
         "nude"
       ],
       "title" : "Sleeping Cupid",
@@ -45686,7 +45690,7 @@
         "sourceURL" : "https://www.wikidata.org/wiki/Q2609235",
         "status" : "PD"
       },
-      "movement" : "Italian Baroque painting",
+      "movement" : "Baroque",
       "significance" : {
         "canonLists" : [
 
@@ -46262,7 +46266,7 @@
         "sourceURL" : "https://www.wikidata.org/wiki/Q2627056",
         "status" : "PD"
       },
-      "movement" : "Italian Baroque painting",
+      "movement" : "Baroque",
       "significance" : {
         "canonLists" : [
 
@@ -47324,7 +47328,7 @@
         "sourceURL" : "https://www.wikidata.org/wiki/Q2715177",
         "status" : "PD"
       },
-      "movement" : "Italian Baroque painting",
+      "movement" : "Baroque",
       "significance" : {
         "canonLists" : [
 
@@ -47361,7 +47365,7 @@
         "sourceURL" : "https://www.wikidata.org/wiki/Q2715302",
         "status" : "PD"
       },
-      "movement" : "Italian Baroque painting",
+      "movement" : "Baroque",
       "significance" : {
         "canonLists" : [
 
@@ -47824,6 +47828,7 @@
       },
       "tags" : [
         "mythological",
+        "nsfw",
         "nude"
       ],
       "title" : "Rokeby Venus",
@@ -52368,7 +52373,7 @@
         "sourceURL" : "https://www.wikidata.org/wiki/Q3223625",
         "status" : "PD"
       },
-      "movement" : "Italian Baroque painting",
+      "movement" : "Baroque",
       "significance" : {
         "canonLists" : [
 
@@ -53144,6 +53149,7 @@
         "sitelinks" : 11
       },
       "tags" : [
+        "nsfw",
         "nude",
         "religious"
       ],
@@ -54946,7 +54952,7 @@
         "sourceURL" : "https://www.wikidata.org/wiki/Q3463869",
         "status" : "PD"
       },
-      "movement" : "Italian Baroque painting",
+      "movement" : "Baroque",
       "significance" : {
         "canonLists" : [
 
@@ -62992,7 +62998,8 @@
         "sitelinks" : 12
       },
       "tags" : [
-        "mythological"
+        "mythological",
+        "nsfw"
       ],
       "title" : "The Rape of Ganymede",
       "wikidata" : "Q3930498",
@@ -68640,7 +68647,7 @@
         "sourceURL" : "https://www.wikidata.org/wiki/Q474024",
         "status" : "PD"
       },
-      "movement" : "Italian Baroque painting",
+      "movement" : "Baroque",
       "significance" : {
         "canonLists" : [
 
@@ -71929,7 +71936,7 @@
         "sourceURL" : "https://www.wikidata.org/wiki/Q585437",
         "status" : "PD"
       },
-      "movement" : "Italian Baroque painting",
+      "movement" : "Baroque",
       "significance" : {
         "canonLists" : [
 
@@ -76219,7 +76226,7 @@
         "sourceURL" : "https://www.wikidata.org/wiki/Q685916",
         "status" : "PD"
       },
-      "movement" : "Italian Baroque painting",
+      "movement" : "Baroque",
       "significance" : {
         "canonLists" : [
 
@@ -77718,6 +77725,7 @@
       "tags" : [
         "everyday-life",
         "figure",
+        "nsfw",
         "nude"
       ],
       "title" : "Swimming",
@@ -79729,6 +79737,7 @@
       },
       "tags" : [
         "mythological",
+        "nsfw",
         "nude"
       ],
       "title" : "Cupid Making His Arch",
@@ -81600,7 +81609,7 @@
         "sourceURL" : "https://www.wikidata.org/wiki/Q945164",
         "status" : "PD"
       },
-      "movement" : "Italian Baroque painting",
+      "movement" : "Baroque",
       "significance" : {
         "canonLists" : [
 
