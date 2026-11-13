@@ -11428,7 +11428,7 @@
       "artist" : "Clara Peeters",
       "artistDeathYear" : 1636,
       "artistSort" : "Peeters, Clara",
-      "caption" : "A tight bouquet of roses, tulips, and narcissus glows against a near-black ground, each petal and dewdrop picked out with jewel-like precision, Peeters at the height of her powers.",
+      "caption" : "A crowded bouquet of flowers stands in a glass vase with a studded foot, on a stone ledge against a dark brown background. A tulip droops at the lower right. On the ledge lie a fallen white flower, a sprig of small blue forget-me-nots, loose pink petals and cut blooms, with a butterfly by the vase.",
       "collection" : "The Metropolitan Museum of Art",
       "collectionURL" : "https://www.metmuseum.org/art/collection/search/827660",
       "dateDisplay" : "c. 1612",
@@ -11455,6 +11455,7 @@
         "museumHighlight" : true
       },
       "tags" : [
+        "flowers",
         "still-life"
       ],
       "title" : "A Bouquet of Flowers",
@@ -20338,9 +20339,9 @@
       "artist" : "Caravaggio",
       "artistDeathYear" : 1610,
       "artistSort" : "Caravaggio",
-      "caption" : "A knight of Malta turns his gaze to the side, his illuminated face and large white cross standing out against dark clothing and a brown background.",
+      "caption" : "An ageing man with cropped hair and a greying beard stands half-length in a black habit with a white collar and a large white eight-pointed cross across his chest. His head turns to one side and his eyes look away to the right. One hand holds a string of dark beads at his belt; the other grips the hilt of a sword. The background is dark brown.",
       "collection" : "Galleria Palatina",
-      "collectionURL" : "https://ktieb.org.mt/app/uploads/2025/03/Caravaggio-in-Malta-Midsea-Books.pdf",
+      "collectionURL" : "https://www.uffizi.it/en/video/the-new-place-of-the-knight-of-malta-by-caravaggio",
       "dateDisplay" : "probably late 1607–early 1608",
       "id" : "wikidata-Q1113749",
       "image" : {
@@ -40495,7 +40496,7 @@
       "artist" : "Caravaggio",
       "artistDeathYear" : 1610,
       "artistSort" : "Caravaggio",
-      "caption" : "Christ stands with his arms held behind him, his head bowed beneath a crown of thorns and his waist wrapped in white cloth. Two men flank him while a third crouches in the foreground handling bundled rods. Strong light reveals their bodies against the dark background, with the column rising behind Christ.",
+      "caption" : "Christ stands at the centre in front of a tall dark column, crowned with thorns under a thin halo, his head sunk to one side and his arms bound behind him. A white cloth is knotted at his hips. At the left an open-mouthed man has a fist in Christ's hair and holds a bundle of switches low in his other hand. At the right a bare-chested man reaches behind Christ, one leg pressed against his. In the foreground a third man bends double, winding cord around a bundle of rods.",
       "collection" : "Museo di Capodimonte",
       "collectionURL" : "https://capodimonte.cultura.gov.it/mostra/capodimonte-doppio-caravaggio-lecce-homo-e-la-flagellazione-di-cristo/",
       "dateDisplay" : "1607",
@@ -40523,7 +40524,6 @@
         "sitelinks" : 14
       },
       "tags" : [
-        "nude",
         "religious"
       ],
       "title" : "The Flagellation of Christ",
@@ -42118,7 +42118,7 @@
       "artist" : "Caravaggio",
       "artistDeathYear" : 1610,
       "artistSort" : "Caravaggio",
-      "caption" : "Salome, wrapped in a red cloak, holds a platter bearing John the Baptist’s severed head. An older woman in a white head covering stands behind her, while the executioner at right bends his head toward the platter. His bare shoulder and Salome’s face stand out against the dark background.",
+      "caption" : "Salome, in a red cloak, with a yellow veil across her white chemise and grey-green bodice, holds out a silver platter bearing John the Baptist's severed head and looks out at the viewer. Behind her an old woman in a white headcloth looks down at the head. At right a young man, bare-backed and half turned away, bows his head over the platter, his fingertips at its rim. The background is dark.",
       "collection" : "Royal Collections Gallery",
       "collectionURL" : "https://www.galeriadelascoleccionesreales.es/en/artwork/salome-con-la-cabeza-del-bautista/ee6d2ead-214e-45db-a504-80cb35d77a87",
       "dateDisplay" : "c. 1607",
@@ -48554,7 +48554,7 @@
       "artist" : "Caravaggio",
       "artistDeathYear" : 1610,
       "artistSort" : "Caravaggio",
-      "caption" : "Saint Jerome bends over an open book and extends a pen across the table, with a skull on the books at the opposite end.",
+      "caption" : "An old, bald saint with a white beard and a thin halo bends low over a large open book, one hand holding its pages. His bare arm stretches across the table with a quill. At the far end a skull sits on another open book, above a white cloth hanging over the table's edge.",
       "collection" : "Galleria Borghese, Rome",
       "collectionURL" : "https://www.collezionegalleriaborghese.it/en/opere/saint-jerome",
       "dateDisplay" : "c. 1606",
@@ -48671,10 +48671,10 @@
       "artist" : "Caravaggio",
       "artistDeathYear" : 1610,
       "artistSort" : "Caravaggio",
-      "caption" : "David holds Goliath's severed head by the hair, with his sword resting across his shoulder. Strong light separates the young victor's face and bare arm from the darkness, while the heavy head hangs at the far end of his outstretched hand.",
+      "caption" : "A curly-haired David, chest bare and a white shirt worn off one shoulder, holds a severed, bearded head out at arm's length by the hair. His other fist grips a sword whose blade lies back across his shoulders. Light falls on his face, chest and arms against a dark background.",
       "collection" : "Kunsthistorisches Museum",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q2721037",
-      "dateDisplay" : "1607",
+      "collectionURL" : "https://www.khm.at/objektdb/detail/426/",
+      "dateDisplay" : "c. 1600/01",
       "id" : "wikidata-Q2721037",
       "image" : {
         "format" : "jpeg",
@@ -48704,7 +48704,7 @@
       ],
       "title" : "David with the Head of Goliath",
       "wikidata" : "Q2721037",
-      "year" : 1607
+      "year" : 1600
     },
     {
       "artist" : "Caravaggio",
@@ -53655,10 +53655,10 @@
       "artist" : "Caravaggio",
       "artistDeathYear" : 1610,
       "artistSort" : "Caravaggio",
-      "caption" : "Saint Andrew hangs from a vertical cross as a man reaches towards the ropes binding his wrist. Light picks out their bodies against the dark background, while the faces below turn upwards towards the saint.",
+      "caption" : "A gaunt, bearded old man hangs on an upright wooden cross, tied by rope at the wrists and the lower legs, a pink cloth round his hips. On a ladder at left, a man seen from behind grips the rope at one wrist. Below, an old woman, a soldier in armour and another man look up at him.",
       "collection" : "Cleveland Museum of Art",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q3221991",
-      "dateDisplay" : "1607",
+      "collectionURL" : "https://clevelandart.org/art/1976.2",
+      "dateDisplay" : "1606–7",
       "id" : "wikidata-Q3221991",
       "image" : {
         "format" : "jpeg",
@@ -53688,7 +53688,7 @@
       ],
       "title" : "The Crucifixion of Saint Andrew",
       "wikidata" : "Q3221991",
-      "year" : 1607
+      "year" : 1606
     },
     {
       "artist" : "Johannes Vermeer",
@@ -56379,7 +56379,7 @@
       "artist" : "Caravaggio",
       "artistDeathYear" : 1610,
       "artistSort" : "Caravaggio",
-      "caption" : "Saint John turns his shadowed face to the right, his bare torso lit above red drapery as one hand rests on the reed cross running across the foreground.",
+      "caption" : "A young man, bare to the waist and strongly lit, sits against deep shadow with a white cloth across his lap and a red mantle falling around him. His face, half hidden by curls, turns toward the right. One hand grips his knee; the other holds a long cane staff lying across the lower left, with a shallow bowl behind it.",
       "collection" : "Galleria Corsini, Rome",
       "collectionURL" : "https://catalogo.beniculturali.it/detail/HistoricOrArtisticProperty/1201007596",
       "dateDisplay" : "c. 1606",
@@ -61544,7 +61544,7 @@
       "artist" : "Peter Paul Rubens",
       "artistDeathYear" : 1640,
       "artistSort" : "Rubens, Peter Paul",
-      "caption" : "Saint George raises his sword above a dragon trapped beneath a rearing pale horse, while a princess stands at the left beside a sheep.",
+      "caption" : "Saint George, in armour with a red cloak and a plumed helmet, raises his sword on a rearing white horse. Beneath the horse a dragon twists, a splintered lance in its open jaws. At the left a fair-haired woman lifts one hand; the other rests on a lamb.",
       "collection" : "Museo del Prado",
       "collectionURL" : "https://www.museodelprado.es/en/the-collection/art-work/saint-george-battles-the-dragon/dea0a4cc-110e-425e-a8e2-bdb37444d26c",
       "dateDisplay" : "1606–1608",
@@ -61571,6 +61571,7 @@
         "sitelinks" : 8
       },
       "tags" : [
+        "animals",
         "religious"
       ],
       "title" : "Saint George and the Dragon",
@@ -82936,10 +82937,10 @@
       "artist" : "Caravaggio",
       "artistDeathYear" : 1610,
       "artistSort" : "Caravaggio",
-      "caption" : "Christ, bare to the waist in a white loincloth, stands with his hands bound behind him before a stone column and turns his bearded face to the left. Light falls on his body against a black background. At the right one man grips the rope at his wrists while another in a dark hat looks on, and a third arm is raised at the top edge. A red cloak lies on the ground at lower left.",
+      "caption" : "Christ, bare to the waist with a white cloth around his hips, has his arms pulled behind his back and his bearded head turned in profile to the left. A pale column rises behind him against a dark background. At the right a man in a pale shirt grips the rope at Christ's back, while a bearded man in a wide dark hat leans in between them. In the top right corner a raised hand holds up a dark strap, and a red cloak lies crumpled at lower left.",
       "collection" : "Musée des Beaux-Arts de Rouen",
-      "collectionURL" : "https://www.wikidata.org/wiki/Q931837",
-      "dateDisplay" : "1606",
+      "collectionURL" : "https://mbarouen.fr/en/oeuvres/the-flagellation-of-christ",
+      "dateDisplay" : "c. 1606",
       "id" : "wikidata-Q931837",
       "image" : {
         "format" : "jpeg",
@@ -82966,7 +82967,7 @@
       "tags" : [
         "religious"
       ],
-      "title" : "Christ at the Column",
+      "title" : "The Flagellation of Christ",
       "wikidata" : "Q931837",
       "year" : 1606
     },
