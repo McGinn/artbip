@@ -2,9 +2,10 @@
 
 **Last updated:** 21 November 2026. Applies from artbip 0.1.0.
 
-artbip is an app for Mac, iPhone and iPad made by Alexander McGinn. The Mac
-app is free and open source; the iPhone and iPad app is free to download,
-with an optional subscription. This policy explains what artbip does with
+artbip is an app for Mac, iPhone and iPad made by Alexander McGinn. It is
+free to download. The App Store versions offer an optional subscription,
+now or in a later update, and the Mac app downloaded from GitHub is free and
+open source with no subscription. This policy explains what artbip does with
 information about you. The short version: **artbip does not collect, store
 or share any personal information.** There is no artbip account, no artbip
 server, no analytics, no advertising, no crash reporting and no tracking of
@@ -124,6 +125,24 @@ The **Sponsor artbip** link opens
 entirely by GitHub under its own privacy statement, unlocks nothing in the
 app, and is never linked to your copy of artbip.
 
+## Subscription
+
+The App Store versions of artbip on iPhone, iPad and Mac (and any other
+Apple platform artbip comes to) offer an optional subscription. A
+subscription bought on one device works on your others signed in to the same
+Apple Account, and Family Sharing can extend it to your household.
+
+Purchases, payment, renewals, refunds and cancellations are handled entirely
+by Apple under its own privacy policy. artbip has no account system and runs
+no purchase server: the app asks Apple, on your device, only whether a
+subscription is active, and uses that to unlock features. artbip never
+receives your name, email address, Apple Account or payment details, and
+the developer can't link a purchase to you. Apple gives developers anonymous
+sales reports, which contain nothing that identifies you.
+
+The Mac app downloaded from GitHub has no subscription and makes no purchase
+checks.
+
 ## artbip for iPhone and iPad
 
 The iOS app also collects nothing: no artbip account, no artbip server, no analytics,
@@ -139,8 +158,7 @@ settings sync between your own devices through iCloud key-value storage. They li
 your iCloud account; the developer can't see them. Without iCloud, nothing syncs and
 everything else works.
 
-**Subscription.** Purchases go through Apple. artbip receives only whether your
-subscription is active, not your name or payment details.
+**Subscription.** See [Subscription](#subscription) above.
 
 **Photos.** If you save a wallpaper to Photos, artbip asks for access to your photo
 library to keep its wallpapers in its own "artbip" album. It doesn't read or send
