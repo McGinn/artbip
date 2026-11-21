@@ -5,8 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>artbip privacy policy</title>
 <meta name="description" content="artbip collects no personal
-information. Every network connection the Mac app makes, and what it
-stores on your Mac.">
+information. Every network connection the Mac, iPhone and iPad apps
+make, and what they store on your device.">
 <meta property="og:image" content="https://artbip.app/static/img/og.jpg">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
@@ -29,21 +29,28 @@ stores on your Mac.">
 </header>
 <main class="page measure">
 <h1 id="artbip-privacy-policy">artbip privacy policy</h1>
-<p><strong>Last updated:</strong> 28 October 2026. Applies from artbip
+<p><strong>Last updated:</strong> 21 November 2026. Applies from artbip
 0.1.0.</p>
-<p>artbip is a free, open-source Mac app made by Alexander McGinn. This
-policy explains what it does with information about you. The short
-version: <strong>artbip does not collect, store or share any personal
+<p>artbip is an app for Mac, iPhone and iPad made by Alexander McGinn.
+The Mac app is free and open source; the iPhone and iPad app is free to
+download, with an optional subscription. This policy explains what
+artbip does with information about you. The short version:
+<strong>artbip does not collect, store or share any personal
 information.</strong> There is no artbip account, no artbip server, no
 analytics, no advertising, no crash reporting and no tracking of any
 kind.</p>
-<p>Everything below can be checked against the <a
-href="https://github.com/McGinn/artbip">source code on GitHub</a>.</p>
+<p>Most of this policy describes the Mac app, and everything about it
+can be checked against the <a
+href="https://github.com/McGinn/artbip">source code on GitHub</a>. What
+differs on iPhone and iPad is under <a
+href="#artbip-for-iphone-and-ipad">artbip for iPhone and iPad</a>.</p>
 <h2 id="what-artbip-collects">What artbip collects</h2>
 <p>Nothing. artbip does not send the developer, or anyone else, any
-information about you, your Mac, or how you use the app. It asks for no
-special permissions: not your location, contacts, photos, camera,
-microphone or files.</p>
+information about you, your device, or how you use the app. The Mac app
+asks for no special permissions: not your location, contacts, photos,
+camera, microphone or files. The iPhone and iPad app asks for one,
+access to Photos, and only if you choose to save wallpapers there (see
+below).</p>
 <h2 id="network-connections">Network connections</h2>
 <p>artbip connects to the internet for two things only.</p>
 <h3 id="1-downloading-artwork-images">1. Downloading artwork images</h3>
@@ -74,6 +81,12 @@ IP address and basic request headers.</p>
 <p>Like any web server, these hosts can see that IP address and which
 image was requested. Their own privacy policies govern what they do with
 that.</p>
+<p>If one of those servers can't be reached or no longer has an image,
+or sends a different file from the one artbip expects, artbip downloads
+the expected file from a public copy on GitHub (github.com and its
+download servers), named only by the file's checksum. GitHub can see
+your IP address and which file was requested, and its own privacy policy
+governs what it does with that.</p>
 <h3 id="2-checking-for-a-new-version">2. Checking for a new version</h3>
 <p>When artbip starts, at most once every 24 hours, it asks GitHub's
 public API (<code>api.github.com</code>) whether a newer release of
@@ -164,6 +177,25 @@ href="https://github.com/sponsors/McGinn">GitHub Sponsors</a>.
 Sponsorship is handled entirely by GitHub under its own privacy
 statement, unlocks nothing in the app, and is never linked to your copy
 of artbip.</p>
+<h2 id="artbip-for-iphone-and-ipad">artbip for iPhone and iPad</h2>
+<p>The iOS app also collects nothing: no artbip account, no artbip
+server, no analytics, no advertising and no tracking.</p>
+<p><strong>Images.</strong> It downloads paintings from the same museums
+and Wikimedia Commons, and from the public copy on GitHub if one of them
+can't be reached or no longer has the expected file. Its requests
+identify themselves as artbip with a link to artbip.app. Some images
+come from Apple's servers as downloads that are part of the app.</p>
+<p><strong>iCloud.</strong> Your favourites, Never Show Again list,
+collections, framings and rotation settings sync between your own
+devices through iCloud key-value storage. They live in your iCloud
+account; the developer can't see them. Without iCloud, nothing syncs and
+everything else works.</p>
+<p><strong>Subscription.</strong> Purchases go through Apple. artbip
+receives only whether your subscription is active, not your name or
+payment details.</p>
+<p><strong>Photos.</strong> If you save a wallpaper to Photos, artbip
+asks for access to your photo library to keep its wallpapers in its own
+"artbip" album. It doesn't read or send your other photos.</p>
 <h2 id="children">Children</h2>
 <p>artbip collects no information from anyone, including children.</p>
 <h2 id="security">Security</h2>
