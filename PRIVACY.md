@@ -1,21 +1,26 @@
 # artbip privacy policy
 
-**Last updated:** 7 November 2026. Applies from artbip 0.1.0.
+**Last updated:** 21 November 2026. Applies from artbip 0.1.0.
 
-artbip is a free, open-source Mac app made by Alexander McGinn. This policy
-explains what it does with information about you. The short version: **artbip
-does not collect, store or share any personal information.** There is no
-artbip account, no artbip server, no analytics, no advertising, no crash
-reporting and no tracking of any kind.
+artbip is an app for Mac, iPhone and iPad made by Alexander McGinn. The Mac
+app is free and open source; the iPhone and iPad app is free to download,
+with an optional subscription. This policy explains what artbip does with
+information about you. The short version: **artbip does not collect, store
+or share any personal information.** There is no artbip account, no artbip
+server, no analytics, no advertising, no crash reporting and no tracking of
+any kind.
 
-Everything below can be checked against the source code in this repository.
+Most of this policy describes the Mac app, and everything about it can be
+checked against the source code in this repository. What differs on iPhone
+and iPad is under [artbip for iPhone and iPad](#artbip-for-iphone-and-ipad).
 
 ## What artbip collects
 
 Nothing. artbip does not send the developer, or anyone else, any information
-about you, your Mac, or how you use the app. It asks for no special
-permissions: not your location, contacts, photos, camera, microphone or
-files.
+about you, your device, or how you use the app. The Mac app asks for no
+special permissions: not your location, contacts, photos, camera, microphone
+or files. The iPhone and iPad app asks for one, access to Photos, and only if
+you choose to save wallpapers there (see below).
 
 ## Network connections
 
